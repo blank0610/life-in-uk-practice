@@ -1,0 +1,19 @@
+name: Check website files
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required files exist
+        run: |
+          test -s site/index.html
+          test -s site/assets/app.js
+          test -s site/data/questions.js
+          test -s development/ROADMAP.md

@@ -32,7 +32,7 @@ if(window.LIFE_UK_PACKED){
   const normalized=payload.map(([n,q,options,indices,explanation])=>{
     const id="zip-"+n;
     const generated={
-      id,question:q.replace(/\\s*\\(0\\)/g,"").replace(/\\s+[»©]\\s*/g," ").replace(/\\s+/g," ").trim(),
+      id,question:q.replace(/\s*\(0\)/g,"").replace(/\s+[»©]\s*/g," ").replace(/\s+/g," ").trim(),
       options,correctAnswers:indices.map(i=>options[i]),explanation,category:"用户 ZIP 截图题"
     };
     const correction=manual.get(id);

@@ -28,10 +28,17 @@ if(window.LIFE_UK_PACKED){
   const zipBytes=Uint8Array.from(atob(window.LIFE_UK_PACKED),c=>c.charCodeAt(0));
   const unzipped=new Blob([zipBytes]).stream().pipeThrough(new DecompressionStream("gzip"));
   const payload=JSON.parse(await new Response(unzipped).text());
-  EMPTY=validate({version:"ZIP截图题库-2026-11-15",questions:payload.map(([n,q,options,indices,explanation])=>({
-    id:"zip-"+n,question:q,options,correctAnswers:indices.map(i=>options[i]),explanation,
-    category:"用户提供的截图题库"
-  }))});
+  const manual=new Map((window.LIFE_UK_QUESTIONS?.questions||[]).map(q=>[q.id,q]));
+  const normalized=payload.map(([n,q,options,indices,explanation])=>{
+    const id="zip-"+n;
+    const generated={
+      id,question:q.replace(/\\s*\\(0\\)/g,"").replace(/\\s+[»©]\\s*/g," ").replace(/\\s+/g," ").trim(),
+      options,correctAnswers:indices.map(i=>options[i]),explanation,category:"用户 ZIP 截图题"
+    };
+    const correction=manual.get(id);
+    return correction?{...generated,...correction,explanation:explanation||correction.explanation}:generated;
+  });
+  EMPTY=validate({version:"ZIP截图题库-2026-11-15",questions:normalized});
  }catch(err){console.error("题库载入失败",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
 }
 const blank=()=>({selected:"default",custom:null,byBank:{},repeatThreshold:70});

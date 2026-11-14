@@ -17,3 +17,6 @@ jobs:
           test -s site/assets/app.js
           test -s site/data/questions.js
           test -s development/ROADMAP.md
+          test -s site/assets/scheduler.js
+      - name: Test random question cooldown
+        run: node --test tests/*.test.mjs

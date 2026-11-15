@@ -58,4 +58,11 @@ test("逐条校对规则均匹配真实题干、选项或说明",()=>{
   assert(copy.get("zip-224").explanation.endsWith("House of Lords."));
   assert(copy.get("zip-510").explanation.includes("Elizabeth II's"));
   assert(![...copy.values()].some(q=>/\b(DEMO ONLY|EXAMPLE ONLY)\b/.test(q.question)));
+  // 跨 487 道题排查高可信 OCR 残留：复查拼写不是只对已修改题号运行。
+  const obviousOcr=/\b(?:Sutfragettes|raundhouses|tambs|civarce|Iheresa|Sutfragettes|intraduced|commemcerated|Farcing|farcing|Frime Minister|Aweek|Henry Vill|Sir lan Wilmot|Sir Ian Wilmot|Roast heeft|Cliver Cromwell|lsambard|magna garta|Erief Encounter)\b|\b(?:cf|fram|te|persan|whe)\b/i;
+  for(const [id,item] of copy){
+    const combined=[item.question,...item.options,item.explanation].join(" ");
+    assert(!obviousOcr.test(combined),"题库仍有高置信度拼写/OCR 错误："+id+" — "+combined.match(obviousOcr)?.[0]);
+  }
+
 });

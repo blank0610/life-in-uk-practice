@@ -71,5 +71,41 @@ window.LIFE_UK_TEXT_FIXES={
     explanationText:"In 1996, a team led by Sir Ian Wilmut (1944–2023) and Keith Campbell (1954–2012) cloned Dolly the sheep at the Roslin Institute. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
   },
   "zip-507":{options:{"3":[["Douglas-Hame","Douglas-Home"]]}},
-  "zip-524":{explanation:[["Cliver Cromwell","Oliver Cromwell"]]}
+  "zip-524":{explanation:[["Cliver Cromwell","Oliver Cromwell"]]},
+  "zip-31":{explanation:[["freedom fram unfair","freedom from unfair"]]},
+  "zip-150":{explanation:[["lan McEwan","Ian McEwan"]]},
+  "zip-152":{options:{"3":[["facebook","Facebook"]]}},
+  "zip-154":{explanation:[["lsambard Kingdom Brunel","Isambard Kingdom Brunel"]]},
+  "zip-165":{options:{
+    "0":[["Aweekend","A weekend"]],
+    "1":[["AQ days","40 days"]],
+    "3":[["Aweek","A week"]]
+  }},
+  "zip-187":{explanation:[["nerth west","north-west"]]},
+  "zip-190":{explanation:[["insulin. used","insulin, used"]]},
+  "zip-246":{options:{"0":[["Roast heef","Roast beef"]]}},
+  "zip-252":{options:{"3":[["St Gearge","St George"]]}},
+  "zip-263":{options:{"0":[["Boris Johnsen","Boris Johnson"]]}},
+  "zip-271":{
+    explanationText:"There are many large venues that host music events throughout the year, including The O2 in Greenwich, south-east London."
+  },
+  "zip-272":{explanation:[["Roeland Joffé","Roland Joffé"]]},
+  "zip-323":{
+    options:{
+      "1":[["Barroco","Baroque"]],
+      "3":[["Art Beco","Art Deco"]]
+    }
+  },
+  "zip-377":{
+    options:{"0":[["Sir lan Botham","Sir Ian Botham"]]},
+    explanation:[["pentathion","pentathlon"]]
+  },
+  "zip-409":{options:{"0":[["Cpen Championship","Open Championship"]]}},
+  "zip-449":{
+    explanationText:"In the UK, many parts of the countryside and places of interest are preserved by the National Trust in England, Wales and Northern Ireland, and by the National Trust for Scotland. Both are charities that work to protect important buildings, coastline and countryside."
+  },
+  "zip-451":{options:{"0":[["Roast heeft","Roast beef"]]}},
+  "zip-498":{options:{"2":[["Landon","London"]]}},
+  "zip-506":{explanation:[["lf your","If your"],["licence if from","licence is from"]]},
+  "zip-512":{options:{"1":[["SMs","MSs"]]}}
 };

@@ -17,9 +17,17 @@
 .voice-controls .secondary:hover:not(:disabled){background:#dce7ff}
 .voice-controls .muted{line-height:1.5}
 @media(max-width:500px){.voice-controls{align-items:flex-start}.voice-controls .secondary,.voice-controls .linkbutton{padding:10px 12px}}
+
+/* 手动 / 自动下一题：保留原生勾选框，支持键盘与屏幕阅读器 */
+.practice-tools{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+.auto-next-label{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid #dfe6f3;border-radius:11px;background:#fff;color:#34496f;font-size:12px;font-weight:650;cursor:pointer}
+.auto-next-label input{width:17px;height:17px;accent-color:#5869c8;margin:0;cursor:pointer}
+.auto-next-label:focus-within{outline:2px solid #5869c8;outline-offset:2px}
+#auto-next-state{color:#596aba;font-size:11px;min-width:25px}
+@media(max-width:530px){#page-practice>.sectitle{flex-direction:column;align-items:stretch}.practice-tools{justify-content:space-between}.auto-next-label{font-size:11px}}
 </style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js" defer></script><script type="module" src="./assets/app.js"></script></head><body><div class="layout">
 <aside><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题重练 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
-<main><div class="top"><span>LEARNING / <b id="page-name">随机练习</b></span><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><button id="new-question" class="secondary">⤨ 随机换题</button></div><div class="card" id="quiz"></div></section>
+<main><div class="top"><span>LEARNING / <b id="page-name">随机练习</b></span><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><div class="practice-tools"><label class="auto-next-label" for="auto-next-toggle"><input id="auto-next-toggle" type="checkbox" role="switch" checked><span>答对自动下一题</span><strong id="auto-next-state">开启</strong></label><button id="new-question" class="secondary">⤨ 随机换题</button></div></div><div class="card" id="quiz"></div></section>
 <div id="support-panel" aria-label="学习统计和说明"><div class="stats"><div class="stat"><span>累计答题</span><strong id="stat-total">0</strong><small>作答次数</small></div><div class="stat"><span>正确率</span><strong id="stat-rate">—</strong><small>当前题库</small></div><div class="stat"><span>待复习</span><strong id="stat-review">0</strong><small>错题与不懂的题</small></div></div>
 <div class="hero"><div class="kicker">YOUR CITIZENSHIP JOURNEY</div><h1>一步一步，<em>练好英国生活考试。</em></h1><p>来自你提供的 ZIP 截图题库。随机出题和排列选项，答错后优先重练；答对题在达到设定的其他题目完成比例后再次出现。</p></div></div>
 <section id="page-review" class="hidden"><div class="sectitle"><div><div class="kicker dark">REVIEW</div><h2>错题重练</h2></div><button id="start-review" class="primary">开始错题专项 →</button></div><p class="muted">答错或标记不懂的题目会在这里出现；在复习中答对两次后移出。</p><div id="review-list"></div></section>

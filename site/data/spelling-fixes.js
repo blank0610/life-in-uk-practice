@@ -172,5 +172,15 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-511":{
     questionText:"In which year did Forced Marriage Protection Orders come into force in England, Wales and Northern Ireland?",
     explanationText:"The Forced Marriage (Civil Protection) Act 2007 introduced legal protections against forced marriage. The relevant protection orders came into force on 25 November 2008 in England, Wales and Northern Ireland. Source: legislation.gov.uk/ukpga/2007/20/body/2008-11-25; legislation.gov.uk/nisr/2008/446."
+  },
+  // 截图 #302：原图只有四个年份选项；先前 OCR 将解释与反馈误作额外选项。
+  "zip-302":{
+    optionsText:["In 1248","In 1348","In 1358","In 1414"],
+    correctOptionIndices:[1],
+    explanationText:"In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death."
+  },
+  // 截图 #80：数字 40 被 OCR 误识别为 AQ；只修正原选项，不改正确答案。
+  "zip-80":{
+    options:{"3":[["AQ days after Easter","40 days after Easter"]]}
   }
 };

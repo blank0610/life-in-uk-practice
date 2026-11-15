@@ -21,6 +21,9 @@ jobs:
       - name: Test random question cooldown
         run: node --test tests/*.test.mjs
 
+      - name: Audit full question options and OCR artefacts
+        run: node scripts/audit-question-bank.mjs
+
       - name: Validate JavaScript syntax
         run: |
           node --check site/assets/app.js

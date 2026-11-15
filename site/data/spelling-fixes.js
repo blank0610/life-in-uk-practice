@@ -168,6 +168,9 @@ window.LIFE_UK_TEXT_FIXES={
   },
   "zip-510":{
     explanation:[["Queen Elizabeth Il's Diamond Jubilee","Queen Elizabeth II's Diamond Jubilee"]]
+  },
+  "zip-511":{
+    questionText:"In which year did Forced Marriage Protection Orders come into force in England, Wales and Northern Ireland?",
+    explanationText:"The Forced Marriage (Civil Protection) Act 2007 introduced legal protections against forced marriage. The relevant protection orders came into force on 25 November 2008 in England, Wales and Northern Ireland. Source: legislation.gov.uk/ukpga/2007/20/body/2008-11-25; legislation.gov.uk/nisr/2008/446."
   }
-
 };

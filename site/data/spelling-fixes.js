@@ -122,7 +122,6 @@ window.LIFE_UK_TEXT_FIXES={
     ["chief Officer","chief officer"],
     ["House af Commons","House of Commons"]
   ]},
-  "zip-267":{options:{"1":[["Henry Vill","Henry VIII"]]}},
   "zip-288":{
     questionText:"What was the name of the sheep cloned from an adult cell in 1996?",
     explanationText:"Dolly the sheep was cloned in 1996 by a team at the Roslin Institute led by Sir Ian Wilmut and Keith Campbell. Dolly was the first mammal cloned from an adult somatic cell. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
@@ -137,7 +136,6 @@ window.LIFE_UK_TEXT_FIXES={
     explanation:[["Henry Vill","Henry VIII"],["civarce her","divorce her"]]
   },
   "zip-330":{explanation:[["raundhouses","roundhouses"],["tambs","tombs"]]},
-  "zip-353":{explanation:[["under 18 cr to buy","under 18 or to buy"],["age cf 18","age of 18"]]},
   "zip-364":{explanation:[["driver whe won","driver who won"]]},
   "zip-372":{options:{"0":[["Aweek","A week"]]}},
   "zip-408":{explanation:[["MPs, SMs and MSPs","MPs, MSs and MSPs"],["are cf concern","are of concern"]]},

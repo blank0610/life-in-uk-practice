@@ -20,3 +20,11 @@ test("不能将 Correct/Incorrect 反馈或说明句错误收录为答案",()=>{
   const result=scanQuestionBank(bank);
   assert.equal(result.severe.length,0,"选项混入反馈/说明的题号："+result.severe.map(x=>x.id).join(", "));
 });
+
+test("原图多选题保留合法的六个选项，不因防污染筛查被删除",()=>{
+  const a=byId.get("zip-31"),b=byId.get("zip-283");
+  assert.equal(a.options.length,6);
+  assert.equal(a.correctAnswers.length,5);
+  assert.equal(b.options.length,6);
+  assert.equal(b.correctAnswers.length,4);
+});

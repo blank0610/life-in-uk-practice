@@ -22,6 +22,8 @@ for(const [n,q,options,indices,explanation] of revisions){
     byId.set(n,[n,q??old[1],options??old[2],indices??old[3],explanation??old[4]]);
   }
 }
+// #198 与 #196 是完全相同的截图题目，线上只保留一个。
+byId.delete(198);
 const bank=[...byId.values()];
 test("487 道源自用户 ZIP 截图而不是演示题",()=>{
   if(bank.length!==487){const rejected=[33,45,46,98,114,128,133,135,184,198,199,211,215,216,217,218,219,294,306,429,489,497];console.log("未预期的原压缩题截图编号：",rejected.filter(n=>byId.has(n)));}

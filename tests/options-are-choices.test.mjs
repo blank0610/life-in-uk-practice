@@ -10,6 +10,14 @@ test("原图#302仅有四个年份选项，且解释不混入选项",()=>{
   assert.deepEqual(Array.from(q.correctAnswers),["In 1348"]);
   assert.equal(q.explanation,"In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death.");
 });
+test("原图#360人口普查题四个百分比选项与正确答案一致",()=>{
+  const q=byId.get("zip-360");
+  assert.equal(q.question,"According to 2011 Census, what percentage of the population identified themselves as Sikh?");
+  assert.deepEqual(Array.from(q.options),["0.1%","0.5%","0.8%","2%"]);
+  assert.deepEqual(Array.from(q.correctAnswers),["0.8%"]);
+  assert(q.explanation.includes("Sikh (0.8%)"));
+  assert(!q.options.some(x=>/^[oO]\d+%$/.test(x)));
+});
 test("原图#80四旬期题的最后一个选项必须是40而不是AQ",()=>{
   const q=byId.get("zip-80");
   assert(q.options.includes("40 days after Easter"));

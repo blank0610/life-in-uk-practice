@@ -60,6 +60,9 @@ export function scanQuestionBank(questions){
     }
     const giant=options.filter(o=>o.length>190);
     if(giant.length)review.push({id:q.id,reason:"超长选项：需人工辨认是否含说明文字",question:q.question,options});
+    // 识别数字被误当字母的百分比，例如“O8%”应为“0.8%”。只检查可疑数字，不自动猜测数值。
+    const suspectPercentages=options.filter(o=>/^\s*[oO]\d+(?:\.\d+)?\s*%\s*$/.test(o)||/^\s*\d+[oO]\d*\s*%\s*$/.test(o));
+    if(suspectPercentages.length)severe.push({id:q.id,reason:"百分比选项疑似 OCR 误把数字识别成字母 O",question:q.question,options,suspectPercentages});
     const suspiciousChars=options.filter(o=>/[\uFFFD]/.test(o)||/\bAQ\s*days\b/i.test(o));
     if(suspiciousChars.length)review.push({id:q.id,reason:"疑似 OCR 字符或数字错误",question:q.question,options});
     if(/\b(?:incorrect|next question|previous question)\b/i.test(q.question)){

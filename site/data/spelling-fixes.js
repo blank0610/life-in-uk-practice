@@ -191,5 +191,11 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-426":{
     questionText:"Which hill fort from the Iron Age can be seen in the county of Dorset?",
     explanationText:"A very impressive hill fort from the Iron Age can still be seen today at Maiden Castle, in the English county of Dorset."
+  },
+  // #360：对照 ZIP 原始截图；0.8% 被 OCR 错读为 O8%，原选项及答案只做精确恢复。
+  "zip-360":{
+    optionsText:["0.1%","0.5%","0.8%","2%"],
+    correctOptionIndices:[2],
+    explanationText:"In the 2011 Census, 59% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4.8%), Hindu (1.5%), Sikh (0.8%), Jewish or Buddhist (both less than 0.5%)."
   }
 };

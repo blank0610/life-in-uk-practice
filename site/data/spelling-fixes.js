@@ -150,5 +150,26 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-456":{explanation:[["listen te the evidence","listen to the evidence"],["based of what","based on what"]]},
   "zip-476":{questionText:"How often are general elections held in the UK?"},
   "zip-513":{explanation:[["Same words in modern English","Some words in modern English"],["— fer example","— for example"]]}
+,
+  "zip-224":{
+    explanationText:"Since 1999, hereditary peers have lost the automatic right to attend the House of Lords."
+  },
+  "zip-267":{
+    questionText:"What characterises the British constitution?",
+    optionsText:[
+      "It was written by the Prime Minister",
+      "It was written by the King",
+      "It is not written down in any single document, and therefore it is described as 'unwritten'",
+      "It was written by Henry VIII"
+    ],
+    correctOptionIndices:[2],
+    explanationText:"The British constitution is not written down in any single document, and therefore it is described as 'unwritten'."
+  },
+  "zip-353":{
+    explanationText:"It is a criminal offence to sell alcohol to someone under 18 or to buy it for someone under 18. People aged 16 or 17 may drink beer, wine or cider with a table meal in licensed premises when accompanied by an adult, provided the alcohol is bought by an adult."
+  },
+  "zip-510":{
+    explanation:[["Queen Elizabeth Il's Diamond Jubilee","Queen Elizabeth II's Diamond Jubilee"]]
+  }
 
 };

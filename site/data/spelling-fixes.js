@@ -178,5 +178,9 @@ window.LIFE_UK_TEXT_FIXES={
     optionsText:["In 1248","In 1348","In 1358","In 1414"],
     correctOptionIndices:[1],
     explanationText:"In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death."
+  },
+  // 截图 #80：数字 40 被 OCR 误识别为 AQ；只修正原选项，不改正确答案。
+  "zip-80":{
+    options:{"3":[["AQ days after Easter","40 days after Easter"]]}
   }
 };

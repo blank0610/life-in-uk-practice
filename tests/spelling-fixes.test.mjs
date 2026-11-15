@@ -59,6 +59,11 @@ test("逐条校对规则均匹配真实题干、选项或说明",()=>{
   assert(copy.get("zip-510").explanation.includes("Elizabeth II's"));
   assert(copy.get("zip-511").question.includes("come into force"),"forced marriage question should be clear");
   assert(copy.get("zip-511").correctAnswers.includes("2008"),"the applicable law entered into force in 2008");
+  const q426=copy.get("zip-426");
+  assert.equal(q426.question,"Which hill fort from the Iron Age can be seen in the county of Dorset?");
+  assert.deepEqual(Array.from(q426.correctAnswers),["Maiden Castle"]);
+  assert.deepEqual(new Set(q426.options),new Set(["Conwy Castle","Caernarfon Castle","Edinburgh Castle","Maiden Castle"]));
+  assert.equal(q426.explanation,"A very impressive hill fort from the Iron Age can still be seen today at Maiden Castle, in the English county of Dorset.");
   // 对照用户ZIP里的原始截图 #18：原题和正确答案不应改动，只恢复原本存在的说明。
   const q18=copy.get("zip-18");
   assert.equal(q18.question,"When did Britain become permanently separated from the continent by the Channel?");

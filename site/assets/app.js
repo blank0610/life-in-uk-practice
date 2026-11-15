@@ -68,7 +68,7 @@ function e(tag,cls="",value=""){const n=document.createElement(tag);if(cls)n.cla
 function button(label,cls,fn){const b=e("button",cls,label);b.type="button";b.addEventListener("click",fn);return b;}
 function pending(){const ids=new Set(bank().questions.map(q=>q.id));return Object.keys(p().review).filter(id=>ids.has(id)&&p().review[id]?.pending);}
 function cancel(){clearTimeout(timer);timer=null;}
-function changePage(v){if(!["practice","review","library","about"].includes(v))return;if(v!=="practice")cancel();page=v;for(const id of ["practice","review","library","about"]){$("page-"+id).classList.toggle("hidden",id!==page);const b=document.querySelector('[data-page="'+id+'"]');b.classList.toggle("active",id===page);}const names={practice:"随机练习",review:"错题重练",library:"题库与备份",about:"网站说明"};$("page-name").textContent=names[v];draw();}
+function changePage(v){if(!["practice","review","library","about"].includes(v))return;if(v!=="practice")cancel();page=v;$("support-panel").classList.toggle("hidden",v!=="practice");for(const id of ["practice","review","library","about"]){$("page-"+id).classList.toggle("hidden",id!==page);const b=document.querySelector('[data-page="'+id+'"]');b.classList.toggle("active",id===page);}const names={practice:"随机练习",review:"错题重练",library:"题库与备份",about:"网站说明"};$("page-name").textContent=names[v];draw();}
 function stats(){const pr=p();$("stat-total").textContent=pr.attempts;$("stat-rate").textContent=pr.attempts?Math.round(pr.correct/pr.attempts*100)+"%":"—";$("stat-review").textContent=pending().length;$("nav-review").textContent=pending().length;$("bank-status").textContent=data.selected==="custom"?"自定义题库":EMPTY.questions.length?"ZIP 截图题库":"题库载入失败";}
 function empty(title,desc,action,fn){const box=e("div","empty");box.append(e("div","symbol","✦"),e("h3","",title),e("p","",desc),button(action,"primary",fn));return box;}
 function choose(v){cancel();data.selected=v;mode="all";question=null;lastId=null;feedback=null;selected.clear();persist();draw();notify("已切换题库");}
@@ -99,3 +99,5 @@ $("repeat-threshold").addEventListener("input",event=>{
  data.repeatThreshold=Number(event.target.value);persist();$("repeat-value").textContent=data.repeatThreshold+"%";
 });
 changePage("practice");
+// 默认直接展示随机题，无需先点击“开始”；仍按进度及冷却比例调度。
+if(bank().questions.length)next();

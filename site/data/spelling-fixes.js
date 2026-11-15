@@ -197,5 +197,10 @@ window.LIFE_UK_TEXT_FIXES={
     optionsText:["0.1%","0.5%","0.8%","2%"],
     correctOptionIndices:[2],
     explanationText:"In the 2011 Census, 59% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4.8%), Hindu (1.5%), Sikh (0.8%), Jewish or Buddhist (both less than 0.5%)."
+  },
+  // #462：原 ZIP 截图清晰，题干原文不含 OCR 拼错的「ot / Vay」；选项与正确答案保持不变。
+  "zip-462":{
+    questionText:"When is St Andrews Day, patron saint of Scotland?",
+    explanationText:"St Andrews Day, patron saint of Scotland, is celebrated on the 30th of November."
   }
 };

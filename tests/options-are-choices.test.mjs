@@ -18,6 +18,13 @@ test("原图#360人口普查题四个百分比选项与正确答案一致",()=>{
   assert(q.explanation.includes("Sikh (0.8%)"));
   assert(!q.options.some(x=>/^[oO]\d+%$/.test(x)));
 });
+test("原始截图#462 Saint Andrew日期题不出现OCR错字，答案为11月30日",()=>{
+  const q=byId.get("zip-462");
+  assert.equal(q.question,"When is St Andrews Day, patron saint of Scotland?");
+  assert.deepEqual(new Set(q.options),new Set(["23rd of April","1st of March","17th of March","30th of November"]));
+  assert.deepEqual(Array.from(q.correctAnswers),["30th of November"]);
+  assert.equal(q.explanation,"St Andrews Day, patron saint of Scotland, is celebrated on the 30th of November.");
+});
 test("原图#80四旬期题的最后一个选项必须是40而不是AQ",()=>{
   const q=byId.get("zip-80");
   assert(q.options.includes("40 days after Easter"));

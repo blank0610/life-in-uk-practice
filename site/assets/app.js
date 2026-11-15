@@ -1,4 +1,5 @@
 import {pickScheduled,cooldownRequired} from "./scheduler.js";
+import {applyTextFixes} from "./quality-fixes.js";
 const KEY="life-uk-practice-v1";
 function shuffle(arr){const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
 function validate(input){
@@ -48,7 +49,8 @@ if(window.LIFE_UK_PACKED){
         explanation:newExplanation===null?(old?.explanation||""):newExplanation,
         category:"用户 ZIP 截图题",sourceScreenshot:n});
     }
-    EMPTY=validate({version:"zip-rechecked-2026-11-15",questions:[...bankMap.values()]});
+    applyTextFixes(bankMap,window.LIFE_UK_TEXT_FIXES);
+    EMPTY=validate({version:"zip-spelling-audited-2026-11-15",questions:[...bankMap.values()]});
     window.LIFE_UK_LOADED_COUNT=EMPTY.questions.length;
   }catch(err){console.error("ZIP 题库加载错误",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
 }

@@ -30,6 +30,8 @@ if(window.LIFE_UK_PACKED){
       return correction?{...generated,question:correction.question,options:correction.options,correctAnswers:correction.correctAnswers}:generated;
     });
     const bankMap=new Map(normalized.map(q=>[q.id,q]));
+    // 原始压缩包多含 #198；其题干、选项、答案与 #196 完全重复。
+    bankMap.delete("zip-198");
     // Delta comes from a second screenshot extraction, plus manual side-by-side corrections.
     const response=await fetch("./data/recheck-2026-11-15.b64");
     if(!response.ok)throw Error("核对题库文件读取失败：HTTP "+response.status);

@@ -118,13 +118,22 @@ function start(m="all"){if(!bank().questions.length){changePage("library");notif
 function correct(){if(!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:pr.attempts+2,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:pr.attempts+2,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts};pr.recent=[...pr.recent,question.id].slice(-8);persist();feedback=ok?"yes":"no";draw();if(ok)scheduleAutoNext();}
 function unsure(){if(!question)return;voice.stop();const pr=p(),old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:pr.attempts+2,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;persist();if(!feedback)feedback="unsure";draw();notify("已加入错题队列");}
 function memo(){if(!question)return;const pr=p(),old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,note:String($("note")?.value||"").slice(0,800)};persist();notify("笔记已保存在这个浏览器");}
+// 「下一道随机题」在朗读控制行始终可用，未作答时只跳过，不计为答错。
+function nextFromControls(){
+ if(mode==="review"&&!pending().length){cancel();question=null;changePage("review");}
+ else next();
+}
 function drawQuiz(){const root=$("quiz");root.replaceChildren();if(!bank().questions.length){root.append(empty("题库暂时无法载入","请刷新页面；如果仍有问题，可以在 GitHub 报告题库载入错误。","刷新页面",()=>location.reload()));return;}if(!question){root.append(empty("准备开始练习了吗？","题目和答案位置每次都会随机变化。答错或不懂的题目会进入复习队列。","开始随机练习",()=>next()));return;}const top=e("div","group");top.style.justifyContent="space-between";top.append(e("span","label",mode==="review"?"REVIEW · 错题专项":"PRACTICE · 随机练习"),e("span","meta","截图 #"+(question.sourceScreenshot||"—")+" · 已回答 "+p().attempts+" 次 · 共 "+bank().questions.length+" 题"));root.append(top,e("h3","question",question.question));
 const speechControls=e("div","group voice-controls");
 const speakQuestion=button("🔊 朗读题目与全部选项","secondary",()=>{
   if(!voice.playQuestion(question))notify("此浏览器暂不支持语音朗读，请使用 Chrome、Edge 或 Safari。");
 });
 speakQuestion.disabled=!voice.supported;
-speechControls.append(speakQuestion,button("■ 停止朗读","linkbutton",()=>voice.stop()));
+speechControls.append(
+ speakQuestion,
+ button("■ 停止朗读","linkbutton",()=>voice.stop()),
+ button("下一道随机题 →","primary",nextFromControls)
+);
 speechControls.append(e("span","muted",voice.supported?"优先使用英式英语语音":"此浏览器不支持语音朗读"));
 const voiceStatus=e("span","muted");voiceStatus.id="voice-status";voiceStatus.setAttribute("role","status");
 voiceStatus.setAttribute("aria-live","polite");speechControls.append(voiceStatus);
@@ -132,8 +141,7 @@ root.append(speechControls,e("p","hint",question.correctAnswers.length>1?"请选
 if(feedback){const wrong=feedback!=="yes",f=e("div","result"+(wrong?" wrong":""));f.append(e("b","",wrong?"✕ 需要巩固这道题":"✓ 回答正确！"),e("p","","正确答案："+question.correctAnswers.join("、")),e("p","",question.explanation||"这张截图的说明文字尚未完成逐字核对；未添加推测性解释。"));if(wrong){const ta=e("textarea");ta.id="note";ta.maxLength=800;ta.placeholder="我不理解的地方（选填）";ta.value=p().review[question.id]?.note||"";f.append(ta);const actions=e("div","group");actions.append(
   button("🔊 朗读正确答案与解释","secondary",()=>{cancel();if(!voice.playAnswer(question))notify("此浏览器不支持语音朗读。");}),
   button("我不理解 · 加强复习","secondary",unsure),
-  button("保存笔记","linkbutton",memo),
-  button("下一道随机题 →","primary",()=>{if(mode==="review"&&!pending().length){cancel();question=null;changePage("review");}else next();})
+  button("保存笔记","linkbutton",memo)
 );f.append(actions);}else{
   const autoHint=e("p","hint");autoHint.id="auto-next-hint";f.append(autoHint);
   const actions=e("div","group");
@@ -141,8 +149,7 @@ if(feedback){const wrong=feedback!=="yes",f=e("div","result"+(wrong?" wrong":"")
     button("🔊 朗读正确答案与解释","secondary",()=>{
       cancel();
       if(!voice.playAnswer(question))notify("此浏览器不支持语音朗读。");
-    }),
-    button("下一道随机题 →","primary",()=>{if(mode==="review"&&!pending().length){cancel();question=null;changePage("review");}else next();})
+    })
   );
   f.append(actions);
 }root.append(f);syncAutoNextControl();}

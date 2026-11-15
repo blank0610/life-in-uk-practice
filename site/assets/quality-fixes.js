@@ -20,7 +20,7 @@ export function applyTextFixes(questionMap,fixes) {
     const oldIndices=q.correctAnswers.map(answer=>q.options.indexOf(answer));
     if(oldIndices.some(i=>i<0))throw new Error("正确答案与原选项不符："+id);
     const options=q.options.map((v,i)=>replacePhrases(v,fix.options?.[i],id+" 选项 "+i));
-    const question=replacePhrases(q.question,fix.question,id+" 题目");
+    const question=fix.questionText??replacePhrases(q.question,fix.question,id+" 题目");
     const explanation=fix.explanationText??replacePhrases(q.explanation,fix.explanation,id+" 解释");
     const correctAnswers=oldIndices.map(i=>options[i]);
     if(new Set(options).size!==options.length)throw new Error("校对后出现重复选项："+id);

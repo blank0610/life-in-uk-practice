@@ -164,7 +164,7 @@ window.LIFE_UK_TEXT_FIXES={
     explanationText:"The British constitution is not written down in any single document, and therefore it is described as 'unwritten'."
   },
   "zip-353":{
-    explanationText:"It is a criminal offence to sell alcohol to someone under 18 or to buy it for someone under 18. People aged 16 or 17 may drink beer, wine or cider with a table meal in licensed premises when accompanied by an adult, provided the alcohol is bought by an adult."
+    explanationText:"It is unlawful to sell alcohol to someone under 18. In England, Wales and Scotland, 16- and 17-year-olds accompanied by an adult may drink (but not buy) beer, wine or cider with a table meal in licensed premises. This meal-time exception does not apply in Northern Ireland. Sources: gov.uk/alcohol-young-people-law; legislation.gov.uk/ukpga/2003/17/section/150."
   },
   "zip-510":{
     explanation:[["Queen Elizabeth Il's Diamond Jubilee","Queen Elizabeth II's Diamond Jubilee"]]

@@ -28,4 +28,5 @@ jobs:
         run: |
           node --check site/assets/app.js
           node --check site/assets/scheduler.js
+          node --check site/assets/voice-reader.js
           node --check site/data/questions.js

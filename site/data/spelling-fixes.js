@@ -186,5 +186,10 @@ window.LIFE_UK_TEXT_FIXES={
   // 截图 #80：数字 40 被 OCR 误识别为 AQ；只修正原选项，不改正确答案。
   "zip-80":{
     options:{"3":[["AQ days after Easter","40 days after Easter"]]}
+  },
+  // #426：逐字对照 ZIP 原截图，纠正题干和解释里的识别错误；不改选项及正确答案。
+  "zip-426":{
+    questionText:"Which hill fort from the Iron Age can be seen in the county of Dorset?",
+    explanationText:"A very impressive hill fort from the Iron Age can still be seen today at Maiden Castle, in the English county of Dorset."
   }
 };

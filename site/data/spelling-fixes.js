@@ -108,4 +108,47 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-498":{options:{"2":[["Landon","London"]]}},
   "zip-506":{explanation:[["lf your","If your"],["licence if from","licence is from"]]},
   "zip-512":{options:{"1":[["SMs","MSs"]]}}
+,
+  // 复查第二轮：逐条对照源截图，主要校正 OCR 拼写、断句和说明文字。
+  "zip-26":{options:{"3":[["Isle cf Man","Isle of Man"]]}},
+  "zip-32":{explanation:[["House cf Lancaster","House of Lancaster"]]},
+  "zip-143":{explanation:[["UK whe is","UK who is"]]},
+  "zip-146":{explanation:[["refers only te","refers only to"]]},
+  "zip-195":{explanation:[["Henry Vill","Henry VIII"]]},
+  "zip-226":{options:{"2":[["People fram the same gender","People of the same gender"]]}},
+  "zip-254":{explanation:[["came fram south-east Europe","came from south-east Europe"]]},
+  "zip-266":{explanation:[
+    ["This persan","This person"],
+    ["chief Officer","chief officer"],
+    ["House af Commons","House of Commons"]
+  ]},
+  "zip-267":{options:{"1":[["Henry Vill","Henry VIII"]]}},
+  "zip-288":{
+    questionText:"What was the name of the sheep cloned from an adult cell in 1996?",
+    explanationText:"Dolly the sheep was cloned in 1996 by a team at the Roslin Institute led by Sir Ian Wilmut and Keith Campbell. Dolly was the first mammal cloned from an adult somatic cell. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
+  },
+  "zip-293":{
+    options:{"1":[["Sutfragettes","Suffragettes"]],"3":[["Yeoman Wardens.","Yeoman Warders"]]},
+    explanation:[["Tower cf London","Tower of London"]]
+  },
+  "zip-301":{options:{"1":[["Henry VIl's time","Henry VII's time"]]}},
+  "zip-314":{
+    options:{"2":[["Far political reasons","For political reasons"]]},
+    explanation:[["Henry Vill","Henry VIII"],["civarce her","divorce her"]]
+  },
+  "zip-330":{explanation:[["raundhouses","roundhouses"],["tambs","tombs"]]},
+  "zip-353":{explanation:[["under 18 cr to buy","under 18 or to buy"],["age cf 18","age of 18"]]},
+  "zip-364":{explanation:[["driver whe won","driver who won"]]},
+  "zip-372":{options:{"0":[["Aweek","A week"]]}},
+  "zip-408":{explanation:[["MPs, SMs and MSPs","MPs, MSs and MSPs"],["are cf concern","are of concern"]]},
+  "zip-413":{explanation:[["issues suck as","issues such as"]]},
+  "zip-418":{explanation:[["Council cf Europe","Council of Europe"]]},
+  "zip-436":{
+    explanation:[["Act became law in 1879","Act became law in 1679"],["that nc one","that no one"]]
+  },
+  "zip-441":{options:{"1":[["Sutfragettes","Suffragettes"]]}},
+  "zip-456":{explanation:[["listen te the evidence","listen to the evidence"],["based of what","based on what"]]},
+  "zip-476":{questionText:"How often are general elections held in the UK?"},
+  "zip-513":{explanation:[["Same words in modern English","Some words in modern English"],["— fer example","— for example"]]}
+
 };

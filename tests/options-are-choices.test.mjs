@@ -13,7 +13,7 @@ test("原图#302仅有四个年份选项，且解释不混入选项",()=>{
 test("原图#80四旬期题的最后一个选项必须是40而不是AQ",()=>{
   const q=byId.get("zip-80");
   assert(q.options.includes("40 days after Easter"));
-  assert(!q.options.some(x=>/\\bAQ\\b/i.test(x)));
+  assert(!q.options.some(x=>x.includes("AQ days")));
   assert(q.correctAnswers.includes("40 days before Easter"));
 });
 test("不能将 Correct/Incorrect 反馈或说明句错误收录为答案",()=>{

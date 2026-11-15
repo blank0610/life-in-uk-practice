@@ -108,4 +108,66 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-498":{options:{"2":[["Landon","London"]]}},
   "zip-506":{explanation:[["lf your","If your"],["licence if from","licence is from"]]},
   "zip-512":{options:{"1":[["SMs","MSs"]]}}
+,
+  // 复查第二轮：逐条对照源截图，主要校正 OCR 拼写、断句和说明文字。
+  "zip-26":{options:{"3":[["Isle cf Man","Isle of Man"]]}},
+  "zip-32":{explanation:[["House cf Lancaster","House of Lancaster"]]},
+  "zip-143":{explanation:[["UK whe is","UK who is"]]},
+  "zip-146":{explanation:[["refers only te","refers only to"]]},
+  "zip-195":{explanation:[["Henry Vill","Henry VIII"]]},
+  "zip-226":{options:{"2":[["People fram the same gender","People of the same gender"]]}},
+  "zip-254":{explanation:[["came fram south-east Europe","came from south-east Europe"]]},
+  "zip-266":{explanation:[
+    ["This persan","This person"],
+    ["chief Officer","chief officer"],
+    ["House af Commons","House of Commons"]
+  ]},
+  "zip-288":{
+    questionText:"What was the name of the sheep cloned from an adult cell in 1996?",
+    explanationText:"Dolly the sheep was cloned in 1996 by a team at the Roslin Institute led by Sir Ian Wilmut and Keith Campbell. Dolly was the first mammal cloned from an adult somatic cell. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
+  },
+  "zip-293":{
+    options:{"1":[["Sutfragettes","Suffragettes"]],"3":[["Yeoman Wardens.","Yeoman Warders"]]},
+    explanation:[["Tower cf London","Tower of London"]]
+  },
+  "zip-301":{options:{"1":[["Henry VIl's time","Henry VII's time"]]}},
+  "zip-314":{
+    options:{"2":[["Far political reasons","For political reasons"]]},
+    explanation:[["Henry Vill","Henry VIII"],["civarce her","divorce her"]]
+  },
+  "zip-330":{explanation:[["raundhouses","roundhouses"],["tambs","tombs"]]},
+  "zip-364":{explanation:[["driver whe won","driver who won"]]},
+  "zip-372":{options:{"0":[["Aweek","A week"]]}},
+  "zip-408":{explanation:[["MPs, SMs and MSPs","MPs, MSs and MSPs"],["are cf concern","are of concern"]]},
+  "zip-413":{explanation:[["issues suck as","issues such as"]]},
+  "zip-418":{explanation:[["Council cf Europe","Council of Europe"]]},
+  "zip-436":{
+    explanation:[["Act became law in 1879","Act became law in 1679"],["that nc one","that no one"]]
+  },
+  "zip-441":{options:{"1":[["Sutfragettes","Suffragettes"]]}},
+  "zip-456":{explanation:[["listen te the evidence","listen to the evidence"],["based of what","based on what"]]},
+  "zip-476":{questionText:"How often are general elections held in the UK?"},
+  "zip-513":{explanation:[["Same words in modern English","Some words in modern English"],["— fer example","— for example"]]}
+,
+  "zip-224":{
+    explanationText:"Since 1999, hereditary peers have lost the automatic right to attend the House of Lords."
+  },
+  "zip-267":{
+    questionText:"What characterises the British constitution?",
+    optionsText:[
+      "It was written by the Prime Minister",
+      "It was written by the King",
+      "It is not written down in any single document, and therefore it is described as 'unwritten'",
+      "It was written by Henry VIII"
+    ],
+    correctOptionIndices:[2],
+    explanationText:"The British constitution is not written down in any single document, and therefore it is described as 'unwritten'."
+  },
+  "zip-353":{
+    explanationText:"It is unlawful to sell alcohol to someone under 18. In England, Wales and Scotland, 16- and 17-year-olds accompanied by an adult may drink (but not buy) beer, wine or cider with a table meal in licensed premises. This meal-time exception does not apply in Northern Ireland. Sources: gov.uk/alcohol-young-people-law; legislation.gov.uk/ukpga/2003/17/section/150."
+  },
+  "zip-510":{
+    explanation:[["Queen Elizabeth Il's Diamond Jubilee","Queen Elizabeth II's Diamond Jubilee"]]
+  }
+
 };

@@ -19,10 +19,14 @@ export function applyTextFixes(questionMap,fixes) {
     if(!q)throw new Error("要校对的截图题不存在："+id);
     const oldIndices=q.correctAnswers.map(answer=>q.options.indexOf(answer));
     if(oldIndices.some(i=>i<0))throw new Error("正确答案与原选项不符："+id);
-    const options=q.options.map((v,i)=>replacePhrases(v,fix.options?.[i],id+" 选项 "+i));
+    // 有些 OCR 图片截断了选项；经人工对照原图后，允许完整替换整组选项和答案下标。
+    if(Boolean(fix.optionsText)!==Boolean(fix.correctOptionIndices))throw new Error("整组选项必须同时提供正确答案下标："+id);
+    const options=fix.optionsText?[...fix.optionsText]:q.options.map((v,i)=>replacePhrases(v,fix.options?.[i],id+" 选项 "+i));
     const question=fix.questionText??replacePhrases(q.question,fix.question,id+" 题目");
     const explanation=fix.explanationText??replacePhrases(q.explanation,fix.explanation,id+" 解释");
-    const correctAnswers=oldIndices.map(i=>options[i]);
+    const indices=fix.correctOptionIndices||oldIndices;
+    if(!Array.isArray(indices)||!indices.length||indices.some(i=>!Number.isInteger(i)||i<0||i>=options.length))throw new Error("校正的正确答案下标无效："+id);
+    const correctAnswers=indices.map(i=>options[i]);
     if(new Set(options).size!==options.length)throw new Error("校对后出现重复选项："+id);
     questionMap.set(id,{...q,question,options,correctAnswers,explanation});
   }

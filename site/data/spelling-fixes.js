@@ -66,7 +66,7 @@ window.LIFE_UK_TEXT_FIXES={
     explanation:[["ne of the tribal","One of the tribal"]]
   },
   "zip-483":{
-    question:[["Sir Ian Wilmot","Sir Ian Wilmut"],["Sir lan Wilmot","Sir Ian Wilmut"]],
+    questionText:"What animal was cloned by scientists Sir Ian Wilmut and Keith Campbell?",
     options:{"0":[["Acow","A cow"]],"2":[["Acat","A cat"]],"3":[["Asheep","A sheep"]]},
     explanationText:"In 1996, a team led by Sir Ian Wilmut (1944–2023) and Keith Campbell (1954–2012) cloned Dolly the sheep at the Roslin Institute. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
   },

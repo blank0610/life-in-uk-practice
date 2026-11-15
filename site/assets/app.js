@@ -15,24 +15,40 @@ function validate(input){
  })};
 }
 let EMPTY=validate(window.LIFE_UK_QUESTIONS||{questions:[]});
+async function inflateB64(source){
+  const bytes=Uint8Array.from(atob(source),c=>c.charCodeAt(0));
+  return JSON.parse(await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text());
+}
 if(window.LIFE_UK_PACKED){
- try{
-  if(typeof DecompressionStream!=="function")throw Error("浏览器不支持题库解压");
-  const zipBytes=Uint8Array.from(atob(window.LIFE_UK_PACKED),c=>c.charCodeAt(0));
-  const unzipped=new Blob([zipBytes]).stream().pipeThrough(new DecompressionStream("gzip"));
-  const payload=JSON.parse(await new Response(unzipped).text());
-  const manual=new Map((window.LIFE_UK_QUESTIONS?.questions||[]).map(q=>[q.id,q]));
-  const normalized=payload.map(([n,q,options,indices,explanation])=>{
-    const id="zip-"+n;
-    const generated={
-      id,question:q.replace(/\s*\(0\)/g,"").replace(/\s+[»©]\s*/g," ").replace(/\s+/g," ").trim(),
-      options,correctAnswers:indices.map(i=>options[i]),explanation,category:"用户 ZIP 截图题"
-    };
-    const correction=manual.get(id);
-    return correction?{...generated,...correction,explanation:explanation||correction.explanation}:generated;
-  });
-  EMPTY=validate({version:"ZIP截图题库-2026-11-15",questions:normalized});
- }catch(err){console.error("题库载入失败",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
+  try{
+    const packed=await inflateB64(window.LIFE_UK_PACKED);
+    const manual=new Map((window.LIFE_UK_QUESTIONS?.questions||[]).map(q=>[q.id,q]));
+    const normalized=packed.map(([n,q,options,indices,explanation])=>{
+      const id="zip-"+n, correction=manual.get(id);
+      const generated={id,question:q.replace(/\s*\(0\)/g,"").replace(/\s+[»©]\s*/g," ").replace(/\s+/g," ").trim(),options,
+        correctAnswers:indices.map(i=>options[i]),explanation:explanation||"",category:"用户 ZIP 截图题",sourceScreenshot:n};
+      return correction?{...generated,question:correction.question,options:correction.options,correctAnswers:correction.correctAnswers}:generated;
+    });
+    const bankMap=new Map(normalized.map(q=>[q.id,q]));
+    // Delta comes from a second screenshot extraction, plus manual side-by-side corrections.
+    const response=await fetch("./data/recheck-2026-11-15.b64");
+    if(!response.ok)throw Error("核对题库文件读取失败：HTTP "+response.status);
+    const revisions=await inflateB64((await response.text()).trim());
+    if(!Array.isArray(revisions))throw Error("核对题库格式无效");
+    for(const row of revisions){
+      const [n,newQ,newOptions,newIndices,newExplanation]=row;
+      const id="zip-"+n,old=bankMap.get(id);
+      if(!old&&!newQ)throw Error("新增题目缺少题干："+id);
+      const options=newOptions??old?.options;
+      const oldIndices=old?.correctAnswers.map(answer=>old.options.indexOf(answer))||[];
+      const indices=newIndices??oldIndices;
+      bankMap.set(id,{id,question:newQ??old.question,options,correctAnswers:indices.map(i=>options[i]),
+        explanation:newExplanation===null?(old?.explanation||""):newExplanation,
+        category:"用户 ZIP 截图题",sourceScreenshot:n});
+    }
+    EMPTY=validate({version:"zip-rechecked-2026-11-15",questions:[...bankMap.values()]});
+    window.LIFE_UK_LOADED_COUNT=EMPTY.questions.length;
+  }catch(err){console.error("ZIP 题库加载错误",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
 }
 const blank=()=>({selected:"default",custom:null,byBank:{},repeatThreshold:70});
 const fresh=()=>({attempts:0,correct:0,review:{},recent:[],lastSeen:{}});

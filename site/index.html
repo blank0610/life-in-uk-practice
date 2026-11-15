@@ -10,6 +10,13 @@
 #support-panel .hero:after{font-size:88px;top:9px}
 #support-panel .hero p{font-size:12px}
 @media(max-width:500px){#support-panel .hero{padding:17px}#page-practice>.sectitle{gap:6px}}
+
+/* 朗读按钮：与练习题放在一起，窄屏自动换行 */
+.voice-controls{gap:8px;margin:10px 0 13px}
+.voice-controls .secondary{background:#eaf0ff;color:#3f58a3;border-color:#dbe4ff}
+.voice-controls .secondary:hover:not(:disabled){background:#dce7ff}
+.voice-controls .muted{line-height:1.5}
+@media(max-width:500px){.voice-controls{align-items:flex-start}.voice-controls .secondary,.voice-controls .linkbutton{padding:10px 12px}}
 </style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js" defer></script><script type="module" src="./assets/app.js"></script></head><body><div class="layout">
 <aside><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题重练 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
 <main><div class="top"><span>LEARNING / <b id="page-name">随机练习</b></span><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><button id="new-question" class="secondary">⤨ 随机换题</button></div><div class="card" id="quiz"></div></section>

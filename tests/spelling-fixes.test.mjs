@@ -59,6 +59,12 @@ test("逐条校对规则均匹配真实题干、选项或说明",()=>{
   assert(copy.get("zip-510").explanation.includes("Elizabeth II's"));
   assert(copy.get("zip-511").question.includes("come into force"),"forced marriage question should be clear");
   assert(copy.get("zip-511").correctAnswers.includes("2008"),"the applicable law entered into force in 2008");
+  // 对照用户ZIP里的原始截图 #18：原题和正确答案不应改动，只恢复原本存在的说明。
+  const q18=copy.get("zip-18");
+  assert.equal(q18.question,"When did Britain become permanently separated from the continent by the Channel?");
+  assert.deepEqual(Array.from(q18.correctAnswers),["10,000 years ago"]);
+  assert.deepEqual(new Set(q18.options),new Set(["10,000 years ago","50,000 years ago","15,000 years ago","18,000 years ago"]));
+  assert.equal(q18.explanation,"Britain only became permanently separated from the continent by the Channel about 10,000 years ago.");
   assert(![...copy.values()].some(q=>/\b(DEMO ONLY|EXAMPLE ONLY)\b/.test(q.question)));
   // 跨 487 道题排查高可信 OCR 残留：复查拼写不是只对已修改题号运行。
   const obviousOcr=/\b(?:Sutfragettes|raundhouses|tambs|civarce|Iheresa|Sutfragettes|intraduced|commemcerated|Farcing|farcing|Frime Minister|Aweek|Henry Vill|Sir lan Wilmot|Sir Ian Wilmot|Roast heeft|Cliver Cromwell|lsambard|magna garta|Erief Encounter)\b|\b(?:cf|fram|te|persan|whe)\b/i;

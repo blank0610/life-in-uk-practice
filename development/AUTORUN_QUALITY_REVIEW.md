@@ -1,7 +1,7 @@
 # Life in the UK · 独立题库自动审查（Auto Run）
 
 ## 使用者授权
-一个专属 ChatGPT Auto Run（不是 GitHub Actions 的额外定时工作流），每天检查 **blank0610/life-in-uk-practice**，维护题库的英文拼写与内容一致性。
+一个专属 ChatGPT Auto Run（不是 GitHub Actions 的额外定时工作流），每小时检查 **blank0610/life-in-uk-practice**，维护题库的英文拼写与内容一致性。
 
 ## 只允许的项目
 - 仓库：`blank0610/life-in-uk-practice`
@@ -18,7 +18,7 @@
 
 ## 启用状态
 - 一个独立 ChatGPT 任务，2026-11-16 启用。
-- 排程：每日（Europe/London）；由 ChatGPT 管理，不作为本仓库新定时 GitHub Actions 工作流运行。
+- 排程：每小时（Europe/London）；由 ChatGPT 管理，不作为本仓库新定时 GitHub Actions 工作流运行。
 - 现有 GitHub CI 在代码更动和 PR 时继续执行，不算另一个定时 Auto Run。
 - 此任务的执行不保证每天自动修正错字；遇到未经核实的截图内容须留待审查。
 
@@ -28,3 +28,8 @@
 - 不能声称所有题均完成 100% 人工校验。
 
 本文件只记录 Life in the UK 的独立工作方式。
+## 2026-11-15 首轮核对重点
+- 已确认现有文字修正层包含 `zip-165` 选项 `AQ days` → `40 days`，但尚未重新执行网站端或逐图核验，不能宣称来源图片正确。
+- 使用者提供的 `zip-511` 题干已在网页截图可见；本轮须继续检查它的语法和历史年份，不能仅凭截图直接改正确答案。
+- 每轮从未修正的题号继续扫描；只凭正则扫描不能证明所有 487 张原始图片均正确。
+- 随机练习已经是网站默认页面；仍应将练习区前移到首页首屏，统计卡与宣传区置于练习后面。

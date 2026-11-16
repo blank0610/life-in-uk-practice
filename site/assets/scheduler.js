@@ -1,3 +1,4 @@
+import {isQueuedForReview} from "./review-bookmarks.js";
 // 独立调度算法：已答对的题目须等足够多的其他不同题目被问过，才允许再次出现。
 export function cooldownRequired(questionCount, percentage=70) {
   const pct=Math.max(10,Math.min(100,Number(percentage)||70));
@@ -8,21 +9,21 @@ export function otherQuestionsSince(id,passedTurn,lastSeen={}) {
 }
 export function eligibleCorrectQuestion(question,progress,questionCount,percentage=70) {
   const rec=progress.review?.[question.id];
-  if(rec?.pending)return false;
+  if(isQueuedForReview(rec))return false;
   if(rec?.lastPassTurn===undefined||rec?.lastPassTurn===null)return true;
   return otherQuestionsSince(question.id,rec.lastPassTurn,progress.lastSeen||{}) >= cooldownRequired(questionCount,percentage);
 }
 export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,percentage=70,random=Math.random}={}) {
   if(!questions.length)return null;
   const reviews=progress.review||{},lastSeen=progress.lastSeen||{},attempts=progress.attempts||0;
-  const pending=questions.filter(q=>reviews[q.id]?.pending);
+  const pending=questions.filter(q=>isQueuedForReview(reviews[q.id]));
   if(reviewMode){
     const pool=pending.length>1?pending.filter(q=>q.id!==lastId):pending;
     return pool.length?pool[Math.floor(random()*pool.length)]:null;
   }
-  const newQuestions=questions.filter(q=>!(q.id in lastSeen)&&!reviews[q.id]?.pending);
+  const newQuestions=questions.filter(q=>!(q.id in lastSeen)&&!isQueuedForReview(reviews[q.id]));
   const due=pending.filter(q=>(reviews[q.id].due||0)<=attempts);
-  const passed=questions.filter(q=>!reviews[q.id]?.pending&&q.id in lastSeen&&eligibleCorrectQuestion(q,progress,questions.length,percentage));
+  const passed=questions.filter(q=>!isQueuedForReview(reviews[q.id])&&q.id in lastSeen&&eligibleCorrectQuestion(q,progress,questions.length,percentage));
   let pool=[];
   if(newQuestions.length)pool=due.length&&random()<0.28?due:newQuestions;
   else if(due.length)pool=passed.length&&random()<0.4?passed:due;

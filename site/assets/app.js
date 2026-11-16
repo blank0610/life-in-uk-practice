@@ -3,6 +3,7 @@ import {applyTextFixes} from "./quality-fixes.js";
 import {createVoiceReader} from "./voice-reader.js";
 import {autoNextIsEnabled,shouldAutoAdvance} from "./auto-next.js";
 import {ensureHistory,appendHistory,updateHistoryResult,saveHistoryNote,previousHistoryIndex,nextHistoryIndex,canGoBack} from "./history.js";
+import {isSavedForReview,isQueuedForReview,toggleSavedForReview} from "./review-bookmarks.js";
 const KEY="life-uk-practice-v1";
 function shuffle(arr){const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
 function validate(input){
@@ -84,7 +85,7 @@ function persist(){try{localStorage.setItem(KEY,JSON.stringify(data));}catch{not
 function notify(t){$("toast").textContent=t;$("toast").classList.add("show");clearTimeout(toastTimer);toastTimer=setTimeout(()=>$("toast").classList.remove("show"),3000);}
 function e(tag,cls="",value=""){const n=document.createElement(tag);if(cls)n.className=cls;if(value)n.textContent=value;return n;}
 function button(label,cls,fn){const b=e("button",cls,label);b.type="button";b.addEventListener("click",fn);return b;}
-function pending(){const ids=new Set(bank().questions.map(q=>q.id));return Object.keys(p().review).filter(id=>ids.has(id)&&p().review[id]?.pending);}
+function pending(){const ids=new Set(bank().questions.map(q=>q.id));return Object.keys(p().review).filter(id=>ids.has(id)&&isQueuedForReview(p().review[id]));}
 function cancel(){clearTimeout(timer);timer=null;voice.stop();}
 function syncAutoNextControl(){
  const active=autoNextIsEnabled(data.autoNextEnabled);
@@ -116,7 +117,7 @@ function choose(v){cancel();data.selected=v;mode="all";question=null;lastId=null
 function pick(){return pickScheduled(bank().questions,p(),{reviewMode:mode==="review",lastId,percentage:data.repeatThreshold||70});}
 function next(){cancel();historyIndex=null;currentRecordSeq=null;selected.clear();feedback=null;const q=pick();question=q?{...q,display:shuffle(q.options)}:null;if(question)lastId=question.id;draw();}
 function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;historyIndex=null;next();changePage("practice");}
-function correct(){if(!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:pr.attempts+2,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:pr.attempts+2,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts};pr.recent=[...pr.recent,question.id].slice(-8);
+function correct(){if(!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:pr.attempts+2,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:pr.attempts+2,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.saved?pr.attempts+2:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
 feedback=ok?"yes":"no";
 const row=appendHistory(pr,question,{selected:[...selected],result:feedback,mode,note:pr.notes[question.id]??pr.review[question.id]?.note??""});
 currentRecordSeq=row.seq;
@@ -140,6 +141,15 @@ function saveCurrentNote(note){
  persist();
 }
 function memo(){if(!question)return;saveCurrentNote($("note")?.value||"");notify("笔记已保存在这个浏览器");}
+function toggleQuestionSave(id){
+ const pr=p(),saved=toggleSavedForReview(pr,id);
+ // 收藏后先给使用者时间阅读说明，不要被已经安排的自动跳题打断。
+ if(timer){clearTimeout(timer);timer=null;}
+ persist();draw();
+ const hint=$("auto-next-hint");
+ if(hint&&feedback==="yes")hint.textContent="手动收藏状态已更新；自动换题已暂停，可以阅读解释后再继续。";
+ notify(saved?"★ 已收藏：稍后会像错题一样加入随机复习":"已取消收藏；如果原来答错，仍会保留错题复习");
+}
 // 「下一道随机题」在朗读控制行始终可用，未作答时只跳过，不计为答错。
 function nextFromControls(){
  if(historyIndex!==null){exitHistory();return;}
@@ -161,6 +171,13 @@ function forwardHistory(){
  if(target===null)exitHistory();else openHistory(target);
 }
 function exitHistory(){cancel();historyIndex=null;draw();}
+function questionSaveButton(id){
+ const saved=isSavedForReview(p().review[id]);
+ const b=button(saved?"★ 已收藏 · 取消":"☆ 收藏稍后复习","secondary save-review-button",()=>toggleQuestionSave(id));
+ b.setAttribute("aria-pressed",String(saved));
+ b.title=saved?"取消手动收藏，不删除真正的错题记录":"将这题加入随机复习和错题专项，即使答对也会再次出现";
+ return b;
+}
 function historyResultLabel(row){
  if(row.result==="yes")return "✓ 答对";
  if(row.result==="no")return "✕ 答错";
@@ -174,7 +191,7 @@ function drawHistoryStrip(root){
  strip.append(head);
  const pills=e("div","history-pills");
  records.forEach((row,index)=>{
-  const label=(row.sourceScreenshot?"#"+row.sourceScreenshot:row.id)+" · "+historyResultLabel(row);
+  const label=(isSavedForReview(p().review[row.id])?"★ ":"")+(row.sourceScreenshot?"#"+row.sourceScreenshot:row.id)+" · "+historyResultLabel(row);
   const b=button(label,"history-pill",()=>openHistory(index));
   if(index===historyIndex||historyIndex===null&&row.seq===currentRecordSeq)b.classList.add("current");
   b.title=row.question;
@@ -200,7 +217,7 @@ function drawHistory(root){
   if(!voice.playQuestion(record))notify("此浏览器不支持语音朗读。");
  });
  speak.disabled=!voice.supported;
- tools.append(previous,advance,returnButton,speak,button("■ 停止朗读","linkbutton",()=>voice.stop()));
+ tools.append(previous,advance,returnButton,speak,button("■ 停止朗读","linkbutton",()=>voice.stop()),questionSaveButton(record.id));
  root.append(tools,e("p","hint","以下显示你当时实际选择的答案与原来的选项顺序。历史回看不会再次计入答题次数。"));
  const answers=e("div","answers");
  record.display.forEach((answer,i)=>{
@@ -258,6 +275,7 @@ speechControls.append(
  speakQuestion,
  button("■ 停止朗读","linkbutton",()=>voice.stop()),
  button("← 上一题","secondary",goPrevious),
+ questionSaveButton(question.id),
  button("下一道随机题 →","primary",nextFromControls)
 );
 const backButton=speechControls.querySelector("button:nth-child(3)");
@@ -288,9 +306,27 @@ if(wrong){const actions=e("div","group");actions.append(
   );
   f.append(actions);
 }root.append(f);syncAutoNextControl();}
-const bottom=e("div","bottom");bottom.append(e("span","muted","错题会在之后随机出现，也可以进入错题专项。"));if(!feedback){const actions=e("div","group");if(question.correctAnswers.length>1){const b=button("提交答案 →","primary",correct);b.disabled=selected.size!==question.correctAnswers.length;actions.append(b);}actions.append(button("我不懂 · 显示答案","linkbutton",unsure));bottom.append(actions);}root.append(bottom);drawHistoryStrip(root);
+const bottom=e("div","bottom");bottom.append(e("span","muted","答错或手动收藏的题目会再次出现，也可以进入专项复习。"));if(!feedback){const actions=e("div","group");if(question.correctAnswers.length>1){const b=button("提交答案 →","primary",correct);b.disabled=selected.size!==question.correctAnswers.length;actions.append(b);}actions.append(button("我不懂 · 显示答案","linkbutton",unsure));bottom.append(actions);}root.append(bottom);drawHistoryStrip(root);
 }
-function drawReview(){const root=$("review-list");root.replaceChildren();const ids=pending(),lookup=new Map(bank().questions.map(q=>[q.id,q]));$("start-review").disabled=!ids.length;if(!ids.length){root.append(empty("目前没有错题","答错或标记不懂的题目会加入这里。","回到练习",()=>changePage("practice")));return;}ids.forEach(id=>{const q=lookup.get(id),r=p().review[id],box=e("div","reviewcard"),left=e("div");left.append(e("b","",q.question),e("p","","答错 "+r.wrong+" 次 · 正确复习 "+r.wins+"/2 次"+(r.note?" · 有笔记":"")));box.append(left,e("span","pill",r.unsure?"不理解":"待复习"));root.append(box);});}
+function drawReview(){
+ const root=$("review-list");root.replaceChildren();
+ const ids=pending(),lookup=new Map(bank().questions.map(q=>[q.id,q]));
+ $("start-review").disabled=!ids.length;
+ if(!ids.length){
+  root.append(empty("目前没有待复习题","答错、标记不懂或手动收藏的题目会加入这里。","回到练习",()=>changePage("practice")));
+  return;
+ }
+ ids.forEach(id=>{
+  const q=lookup.get(id),r=p().review[id],box=e("div","reviewcard"),left=e("div");
+  const saved=isSavedForReview(r);
+  const detail=(r.pending?"答错 "+(r.wrong||0)+" 次 · 正确复习 "+(r.wins||0)+"/2 次":"手动收藏 · 等待再次练习")+(r.note?" · 有笔记":"");
+  left.append(e("b","",q.question),e("p","",detail));
+  const right=e("div","group");
+  right.append(e("span","pill",saved?(r.pending?"★ 收藏 · 待复习":"★ 收藏复习"):(r.unsure?"不理解":"待复习")));
+  if(saved)right.append(button("取消收藏","linkbutton",()=>toggleQuestionSave(id)));
+  box.append(left,right);root.append(box);
+ });
+}
 function drawLibrary(){$("repeat-threshold").value=String(data.repeatThreshold||70);$("repeat-value").textContent=String(data.repeatThreshold||70)+"%";$("bank-size").textContent=EMPTY.questions.length+" 道题"+(EMPTY.questions.length?"":" · 等待 ZIP");$("choose-default").classList.toggle("active",data.selected==="default");$("library-summary").textContent="当前： "+(data.selected==="custom"?"本机导入的自定义题库":"ZIP 截图题库")+"（"+bank().questions.length+" 题）";}
 function draw(){stats();if(page==="practice")drawQuiz();if(page==="review")drawReview();if(page==="library")drawLibrary();}
 async function readFile(input){const file=input.files?.[0];input.value="";if(!file)return null;if(file.size>4000000)throw Error("文件超过 4MB");return JSON.parse(await file.text());}

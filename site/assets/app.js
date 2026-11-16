@@ -146,6 +146,108 @@ function nextFromControls(){
  if(mode==="review"&&!pending().length){cancel();question=null;changePage("review");}
  else next();
 }
+function openHistory(index){
+ const rows=ensureHistory(p());
+ if(!Number.isInteger(index)||index<0||index>=rows.length)return;
+ cancel();historyIndex=index;draw();
+}
+function goPrevious(){
+ const index=previousHistoryIndex(p(),historyIndex,currentRecordSeq);
+ if(index!==null)openHistory(index);
+}
+function forwardHistory(){
+ if(historyIndex===null)return;
+ const target=nextHistoryIndex(p(),historyIndex);
+ if(target===null)exitHistory();else openHistory(target);
+}
+function exitHistory(){cancel();historyIndex=null;draw();}
+function historyResultLabel(row){
+ if(row.result==="yes")return "✓ 答对";
+ if(row.result==="no")return "✕ 答错";
+ return "？ 标记不懂";
+}
+function drawHistoryStrip(root){
+ const records=ensureHistory(p());
+ if(!records.length)return;
+ const strip=e("div","history-strip");
+ const head=e("div","history-strip-label","最近五次作答 · 点击查看你的选择和笔记");
+ strip.append(head);
+ const pills=e("div","history-pills");
+ records.forEach((row,index)=>{
+  const label=(row.sourceScreenshot?"#"+row.sourceScreenshot:row.id)+" · "+historyResultLabel(row);
+  const b=button(label,"history-pill",()=>openHistory(index));
+  if(index===historyIndex||historyIndex===null&&row.seq===currentRecordSeq)b.classList.add("current");
+  b.title=row.question;
+  pills.append(b);
+ });
+ strip.append(pills);
+ root.append(strip);
+}
+function drawHistory(root){
+ const records=ensureHistory(p());
+ const record=records[historyIndex];
+ if(!record){historyIndex=null;drawQuiz();return;}
+ const banner=e("div","history-banner");
+ banner.append(e("span","label","历史作答 · "+(historyIndex+1)+" / "+records.length),
+   e("span","meta","来源截图 #"+(record.sourceScreenshot||"—")+" · 只读回看，不重新计分"));
+ root.append(banner,e("h3","question",record.question));
+ const tools=e("div","group voice-controls");
+ const previous=button("← 上一题","secondary",goPrevious);
+ previous.disabled=historyIndex===0;
+ const advance=button(historyIndex===records.length-1?"返回当前题 →":"下一条历史 →","primary",forwardHistory);
+ const returnButton=button("回到当前练习","linkbutton",exitHistory);
+ const speak=button("🔊 朗读题目与选项","secondary",()=>{
+  if(!voice.playQuestion(record))notify("此浏览器不支持语音朗读。");
+ });
+ speak.disabled=!voice.supported;
+ tools.append(previous,advance,returnButton,speak,button("■ 停止朗读","linkbutton",()=>voice.stop()));
+ root.append(tools,e("p","hint","以下显示你当时实际选择的答案与原来的选项顺序。历史回看不会再次计入答题次数。"));
+ const answers=e("div","answers");
+ record.display.forEach((answer,i)=>{
+  const b=e("div","answer history-answer");
+  const chosen=record.selected.includes(answer),isRight=record.correctAnswers.includes(answer);
+  if(isRight)b.classList.add("good");
+  else if(chosen)b.classList.add("bad");
+  else b.classList.add("history-neutral");
+  b.append(e("span","letter",String.fromCharCode(65+i)),e("span","",answer));
+  if(chosen)b.append(e("span","history-answer-mark","你当时选了这个"));
+  if(isRight)b.append(e("span","history-answer-mark","正确答案"));
+  answers.append(b);
+ });
+ root.append(answers);
+ const result=e("div","result"+(record.result==="yes"?"":" wrong"));
+ result.append(e("b","",historyResultLabel(record)),
+   e("p","","你当时选择："+(record.selected.length?record.selected.join("、"):"未选择（标记不懂）")),
+   e("p","","正确答案："+record.correctAnswers.join("、")),
+   e("p","",record.explanation||"这道题暂时没有经过核实的解释。"));
+ const noteHeading=e("label","history-note-heading","你的学习笔记（可以编辑，自动保存在本机）");
+ const textArea=e("textarea","note");
+ textArea.id="history-note";textArea.maxLength=800;
+ textArea.placeholder="记录当时不理解的内容";
+ textArea.value=record.note||"";
+ noteHeading.htmlFor=textArea.id;
+ textArea.addEventListener("input",()=>{
+  const updated=saveHistoryNote(p(),record.seq,textArea.value);
+  if(updated&&record.seq===currentRecordSeq){
+   const pr=p(),val=updated.note;
+   pr.notes[record.id]=val;
+   if(pr.review[record.id])pr.review[record.id].note=val;
+  }
+  persist();
+ });
+ result.append(noteHeading,textArea);
+ const actions=e("div","group");
+ const playAnswer=button("🔊 朗读答案与解释","secondary",()=>{
+  if(!voice.playAnswer(record))notify("此浏览器不支持语音朗读。");
+ });
+ playAnswer.disabled=!voice.supported;
+ actions.append(playAnswer,button("保存笔记","linkbutton",()=>{
+  saveHistoryNote(p(),record.seq,textArea.value);persist();notify("历史笔记已保存");
+ }));
+ result.append(actions);root.append(result);
+ drawHistoryStrip(root);
+}
+
 function drawQuiz(){const root=$("quiz");root.replaceChildren();if(historyIndex!==null){drawHistory(root);return;}if(!bank().questions.length){root.append(empty("题库暂时无法载入","请刷新页面；如果仍有问题，可以在 GitHub 报告题库载入错误。","刷新页面",()=>location.reload()));return;}if(!question){root.append(empty("准备开始练习了吗？","题目和答案位置每次都会随机变化。答错或不懂的题目会进入复习队列。","开始随机练习",()=>next()));return;}const top=e("div","group");top.style.justifyContent="space-between";top.append(e("span","label",mode==="review"?"REVIEW · 错题专项":"PRACTICE · 随机练习"),e("span","meta","截图 #"+(question.sourceScreenshot||"—")+" · 已回答 "+p().attempts+" 次 · 共 "+bank().questions.length+" 题"));root.append(top,e("h3","question",question.question));
 const speechControls=e("div","group voice-controls");
 const speakQuestion=button("🔊 朗读题目与全部选项","secondary",()=>{

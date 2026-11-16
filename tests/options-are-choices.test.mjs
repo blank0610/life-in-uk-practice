@@ -3,6 +3,14 @@ import assert from "node:assert/strict";
 import {loadQuestionBank,scanQuestionBank} from "../scripts/audit-question-bank.mjs";
 const bank=loadQuestionBank(),byId=new Map(bank.map(q=>[q.id,q]));
 test("题库仍为487道真实截图题",()=>assert.equal(bank.length,487));
+test("原图#127保留完整奥运题干、四选项、正确答案和已有解释",()=>{
+  const q=byId.get("zip-127");
+  assert.equal(q.question,"In which category did Jayne Torvill and Christopher Dean win gold medals at the Olympic Games in 1984?");
+  assert.deepEqual(new Set(q.options),new Set(["Rowing","Marathon","Swimming","Ice dancing"]));
+  assert.deepEqual(Array.from(q.correctAnswers),["Ice dancing"]);
+  assert(q.explanation.includes("Jayne Torvill and Christopher Dean"));
+  assert(q.explanation.includes("1984"));
+});
 test("原图#302仅有四个年份选项，且解释不混入选项",()=>{
   const q=byId.get("zip-302");
   assert.equal(q.question,"When did the Black Death come to England?");

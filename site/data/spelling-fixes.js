@@ -15,7 +15,11 @@ window.LIFE_UK_TEXT_FIXES={
   },
   "zip-120":{options:{"0":[["Luten","Luton"]]}},
   "zip-124":{explanation:[["raundhouses","roundhouses"],["tambs","tombs"]]},
-  "zip-127":{explanation:[["Ghristopher Dean","Christopher Dean"],["and is one of","and are among"]]},
+  // #127：原始 ZIP 照片的完整题干此前被 OCR 裁成仅剩 Olympic Games in 1984?；不改答案和选项。
+  "zip-127":{
+    questionText:"In which category did Jayne Torvill and Christopher Dean win gold medals at the Olympic Games in 1984?",
+    explanation:[["Ghristopher Dean","Christopher Dean"],["and is one of","and are among"]]
+  },
   "zip-151":{
     explanationText:"The Northern Ireland Assembly has 90 elected members, known as MLAs (Members of the Legislative Assembly). They are elected using a form of proportional representation."
   },

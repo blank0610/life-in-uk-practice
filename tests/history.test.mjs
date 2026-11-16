@@ -1,0 +1,71 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {HISTORY_LIMIT,ensureHistory,appendHistory,updateHistoryResult,saveHistoryNote,previousHistoryIndex,nextHistoryIndex,canGoBack} from "../site/assets/history.js";
+const q=(n)=>({id:"q"+n,question:"Question "+n+"?",display:["Wrong "+n,"Right "+n],correctAnswers:["Right "+n],explanation:"Explanation "+n,sourceScreenshot:n});
+const p=()=>({attempts:0,correct:0,review:{},lastSeen:{},history:[],historySeq:0,notes:{}});
+test("每次答题保留随机选项位置、用户所选选项及解释",()=>{
+  const progress=p();
+  const row=appendHistory(progress,q(3),{selected:["Wrong 3"],result:"no",note:"I don't understand"});
+  assert.equal(row.question,"Question 3?");
+  assert.deepEqual(row.display,["Wrong 3","Right 3"]);
+  assert.deepEqual(row.selected,["Wrong 3"]);
+  assert.deepEqual(row.correctAnswers,["Right 3"]);
+  assert.equal(row.result,"no");
+  assert.equal(row.note,"I don't understand");
+  assert.equal(row.explanation,"Explanation 3");
+});
+test("只保留最后五个答题记录（即使同一道题重复出现也要保留每次选择）",()=>{
+  const progress=p();
+  for(let i=1;i<=7;i++)appendHistory(progress,q(i),{selected:["Right "+i],result:"yes"});
+  assert.equal(progress.history.length,HISTORY_LIMIT);
+  assert.deepEqual(progress.history.map(row=>row.id),["q3","q4","q5","q6","q7"]);
+  assert.deepEqual(progress.history.map(row=>row.seq),[3,4,5,6,7]);
+  assert.equal(progress.historySeq,7);
+  appendHistory(progress,q(7),{selected:["Wrong 7"],result:"no"});
+  assert.equal(progress.history.at(-1).selected[0],"Wrong 7");
+  assert.equal(progress.history.at(-2).selected[0],"Right 7");
+});
+test("查看历史不改变答题次数、正确率或复习信息",()=>{
+  const progress=p();
+  progress.attempts=14;progress.correct=10;progress.review.q1={pending:true,wrong:1};
+  const before={attempts:progress.attempts,correct:progress.correct,review:structuredClone(progress.review)};
+  const row=appendHistory(progress,q(3),{selected:["Right 3"],result:"yes"});
+  const idx=previousHistoryIndex(progress,null,null);
+  assert.equal(idx,0);
+  assert.equal(nextHistoryIndex(progress,idx),null);
+  saveHistoryNote(progress,row.seq,"new note");
+  updateHistoryResult(progress,row.seq,"unclear");
+  assert.deepEqual({attempts:progress.attempts,correct:progress.correct,review:progress.review},before);
+  assert.equal(progress.history[0].note,"new note");
+});
+test("当前题已答时，上一题应跳过当前题自身记录；未答时可看最近五题",()=>{
+  const progress=p();
+  for(let i=1;i<=5;i++)appendHistory(progress,q(i),{selected:["Right "+i],result:"yes"});
+  const seq=progress.history.at(-1).seq;
+  assert.equal(previousHistoryIndex(progress,null,seq),3);
+  assert.equal(previousHistoryIndex(progress,null,null),4);
+  assert.equal(previousHistoryIndex(progress,3,seq),2);
+  assert.equal(previousHistoryIndex(progress,0,seq),null);
+  assert.equal(nextHistoryIndex(progress,3),4);
+  assert.equal(nextHistoryIndex(progress,4),null);
+  assert.equal(canGoBack(progress,null,seq),true);
+});
+test("旧版进度没有 history 时可初始化，重启浏览器或备份仍可保存",()=>{
+  const legacy={attempts:20,correct:13,review:{}};
+  assert.deepEqual(ensureHistory(legacy),[]);
+  assert.deepEqual(legacy.notes,{});
+  appendHistory(legacy,q(8),{selected:["Right 8"],result:"yes",note:"hello"});
+  const restored=JSON.parse(JSON.stringify(legacy));
+  ensureHistory(restored);
+  assert.equal(restored.history[0].selected[0],"Right 8");
+  assert.equal(restored.history[0].note,"hello");
+  assert.equal(restored.attempts,20);
+});
+test("不理解标记可更新现有历史记录，不能产生重复作答",()=>{
+  const progress=p();
+  const row=appendHistory(progress,q(2),{selected:["Wrong 2"],result:"no"});
+  updateHistoryResult(progress,row.seq,"unclear");
+  assert.equal(progress.history.length,1);
+  assert.deepEqual(progress.history[0].selected,["Wrong 2"]);
+  assert.equal(progress.history[0].result,"unclear");
+});

@@ -31,4 +31,5 @@ jobs:
           node --check site/assets/voice-reader.js
           node --check site/assets/auto-next.js
           node --check site/assets/history.js
+          node --check site/assets/review-bookmarks.js
           node --check site/data/questions.js

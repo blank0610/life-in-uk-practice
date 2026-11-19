@@ -1,10 +1,10 @@
-import {pickScheduled,cooldownRequired} from "./scheduler.js";
+import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-review-batch";
 import {applyTextFixes} from "./quality-fixes.js";
 import {createVoiceReader} from "./voice-reader.js";
 import {autoNextIsEnabled,shouldAutoAdvance} from "./auto-next.js";
 import {ensureHistory,appendHistory,updateHistoryResult,saveHistoryNote,previousHistoryIndex,nextHistoryIndex,canGoBack} from "./history.js";
-import {isSavedForReview,isQueuedForReview,toggleSavedForReview} from "./review-bookmarks.js";
-import {ensureRedoCycle,recordCompletedQuestion,updateRedoRange,normalizeRedoRange} from "./redo-delay.js";
+import {isSavedForReview,isQueuedForReview,toggleSavedForReview} from "./review-bookmarks.js?v=20261119-review-batch";
+import {ensureRedoCycle,recordCompletedQuestion,updateRedoRange,normalizeRedoRange} from "./redo-delay.js?v=20261119-review-batch";
 const KEY="life-uk-practice-v1";
 function shuffle(arr){const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
 function validate(input){

@@ -23,6 +23,8 @@ jobs:
 
       - name: Audit full question options and OCR artefacts
         run: node scripts/audit-question-bank.mjs
+      - name: Preview next questions for sequential quality audit
+        run: node scripts/audit-next-batch.mjs
 
       - name: Validate JavaScript syntax
         run: |

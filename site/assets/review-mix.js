@@ -5,6 +5,18 @@ export function normalizeNormalPercent(value){
   const percent=Number(value);
   return Number.isFinite(percent)?Math.max(0,Math.min(100,Math.round(percent))):DEFAULT_NORMAL_PERCENT;
 }
+// 兼容旧版两个分开的百分比，升级后只使用一个共享设置。
+export function resolvePracticePercent(settings={}){
+  const read=value=>(typeof value==="number"||typeof value==="string"&&value.trim()!=="")&&Number.isFinite(Number(value))
+    ?normalizeNormalPercent(value):null;
+  if(!settings||typeof settings!=="object")return DEFAULT_NORMAL_PERCENT;
+  const unified=read(settings.practicePercentage);
+  if(unified!==null)return unified;
+  const ordinary=read(settings.normalPercentage),cooldown=read(settings.repeatThreshold);
+  if(ordinary!==null&&ordinary!==DEFAULT_NORMAL_PERCENT)return ordinary;
+  if(cooldown!==null&&cooldown!==DEFAULT_NORMAL_PERCENT)return cooldown;
+  return ordinary??cooldown??DEFAULT_NORMAL_PERCENT;
+}
 export function reviewPercent(normalPercent=DEFAULT_NORMAL_PERCENT){
   return 100-normalizeNormalPercent(normalPercent);
 }

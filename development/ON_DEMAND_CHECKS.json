@@ -28,6 +28,35 @@
       ],
       "checkedAgainst": "用户 ZIP 原始截图 + 英国国防部官网 2011 年回顾文章",
       "githubChange": "仅新增核对记录，题目及正确答案未修改。"
+    },
+    {
+      "id": "zip-356",
+      "sourceScreenshot": 356,
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T21:44:00Z",
+      "result": "corrected",
+      "question": "Which of the following is NOT a British invention?",
+      "options": [
+        "The World Wide Web",
+        "The Turing machine",
+        "The hovercraft",
+        "The mobile phone"
+      ],
+      "correctAnswers": [
+        "The mobile phone"
+      ],
+      "explanation": "The World Wide Web, the Turing machine and the hovercraft are British inventions. The mobile phone is not.",
+      "findings": [
+        "网站题干将 NOT 误识别为 NOI；Is / british 大小写及题尾标点不符合原图"
+      ],
+      "note": "已直接打开用户原始 ZIP 中 螢幕擷取畫面 (356).png，逐项核对题干、四选项、绿色高亮正确答案与原图解释。按原图恢复 NOT，其他正确选项与答案保持不变。",
+      "sources": [
+        "https://home.cern/science/computing/the-birth-of-the-web/",
+        "https://americanhistory.si.edu/explore/stories/true-magic-dialing-cell-phone-history-marty-cooper"
+      ],
+      "checkedAgainst": "用户原始 ZIP 截图 + CERN / Smithsonian",
+      "githubChange": "修复 zip-356 题干 OCR 及恢复原截图解释，新增回归测试与 NOI 自动检查"
     }
   ]
 }

@@ -210,5 +210,10 @@ window.LIFE_UK_TEXT_FIXES={
   // #22：逐张复查用户原 ZIP，原图的 Elizabethan 题有一整句说明，之前自动识别遗漏。
   "zip-22":{
     explanationText:"The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare."
+  },
+  // 截图 #356 对照用户 ZIP：NOT 被 OCR 误作 NOI；保留原始正确答案与选项。
+  "zip-356":{
+    questionText:"Which of the following is NOT a British invention?",
+    explanationText:"The World Wide Web, the Turing machine and the hovercraft are British inventions. The mobile phone is not."
   }
 };

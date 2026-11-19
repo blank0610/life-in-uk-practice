@@ -11,6 +11,13 @@ test("首轮逐图审核#22 Shakespeare题必须包含原截图的完整解释",
   assert.equal(q.explanation,"The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare.");
 });
 
+test("截图#356题干 NOT 与四个发明选项及答案符合原图",()=>{
+ const q=byId.get("zip-356");
+ assert.equal(q.question,"Which of the following is NOT a British invention?");
+ assert.deepEqual(new Set(q.options),new Set(["The World Wide Web","The Turing machine","The hovercraft","The mobile phone"]));
+ assert.deepEqual(Array.from(q.correctAnswers),["The mobile phone"]);
+ assert.equal(q.explanation,"The World Wide Web, the Turing machine and the hovercraft are British inventions. The mobile phone is not.");
+});
 test("原始截图#316伊拉克英军撤离题已原图核对，答案为2009",()=>{
  const q=byId.get("zip-316");
  assert.equal(q.question,"When did British combat troops leave Iraq?");

@@ -1,5 +1,5 @@
-import {isQueuedForReview} from "./review-bookmarks.js";
-import {reviewRoundReady} from "./redo-delay.js";
+import {isQueuedForReview} from "./review-bookmarks.js?v=20261119-review-batch";
+import {reviewRoundReady} from "./redo-delay.js?v=20261119-review-batch";
 // 独立调度算法：已答对的题目须等足够多的其他不同题目被问过，才允许再次出现。
 export function cooldownRequired(questionCount, percentage=70) {
   const pct=Math.max(10,Math.min(100,Number(percentage)||70));

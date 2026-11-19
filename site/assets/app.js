@@ -1,4 +1,4 @@
-import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-review-batch";
+import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-percentage-mix";
 import {applyTextFixes} from "./quality-fixes.js";
 import {createVoiceReader} from "./voice-reader.js";
 import {autoNextIsEnabled,shouldAutoAdvance} from "./auto-next.js";
@@ -294,7 +294,7 @@ voiceStatus.setAttribute("aria-live","polite");speechControls.append(voiceStatus
 root.append(speechControls);
 if(mode==="all"){
  const normal=normalizeNormalPercent(data.normalPercentage),redo=reviewPercent(normal);
- const line=currentWasRedo?"🔁 本题是随机抽中的错题／收藏复习题。"
+ const line=currentWasRedo?"🔁 本题为随机复习题（普通题 "+normal+"% / 复习题 "+redo+"%）。"
   :pending().length
     ?"下题随机比例：普通题 "+normal+"% · 错题／收藏题 "+redo+"%（每题独立随机）"
     :"下题随机比例：普通题 100% · 暂无待复习题（设置值 "+normal+"% / "+redo+"%）";
@@ -349,6 +349,8 @@ function drawLibrary(){
  $("mix-normal-percent").value=String(normal);
  $("mix-normal-value").textContent=normal+"%";
  $("mix-review-value").textContent=redo+"%";
+ const meter=$("page-library").querySelector(".mix-normal");
+ if(meter)meter.style.width=normal+"%";
  $("redo-cycle-summary").textContent="随机练习每道题按 "+normal+"% 普通题 / "+redo+"% 错题、标记不懂或收藏题的概率抽取。没有复习题时自动出普通题。";
  $("repeat-threshold").value=String(data.repeatThreshold||70);$("repeat-value").textContent=String(data.repeatThreshold||70)+"%";$("bank-size").textContent=EMPTY.questions.length+" 道题"+(EMPTY.questions.length?"":" · 等待 ZIP");$("choose-default").classList.toggle("active",data.selected==="default");$("library-summary").textContent="当前： "+(data.selected==="custom"?"本机导入的自定义题库":"ZIP 截图题库")+"（"+bank().questions.length+" 题）";}
 function draw(){stats();if(page==="practice")drawQuiz();if(page==="review")drawReview();if(page==="library")drawLibrary();if(page==="audit")renderAuditDashboard($("audit-panel"),{repo:$("page-audit").dataset.githubRepo});}

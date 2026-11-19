@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "repository": "blank0610/life-in-uk-practice",
+  "purpose": "独立于按顺序进行的487题巡检；记录用户指定的单题原图核查，不推进主审核索引。",
+  "checks": [
+    {
+      "id": "zip-316",
+      "sourceScreenshot": 316,
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T01:11:09.972Z",
+      "result": "no_change",
+      "question": "When did British combat troops leave Iraq?",
+      "options": [
+        "In 2004",
+        "In 2005",
+        "In 2006",
+        "In 2009"
+      ],
+      "correctAnswers": [
+        "In 2009"
+      ],
+      "explanation": "British combat troops left Iraq in 2009.",
+      "findings": [],
+      "note": "已打开用户原 ZIP 螢幕擷取畫面 (316).png，逐项确认题干、四个年份选项、绿色正确答案2009与解释。网站截图仅随机排序选项，不需要修正。",
+      "sources": [
+        "https://www.gov.uk/government/news/operations-in-iraq-finish-with-completion-of-royal-navy-training-mission"
+      ],
+      "checkedAgainst": "用户 ZIP 原始截图 + 英国国防部官网 2011 年回顾文章",
+      "githubChange": "仅新增核对记录，题目及正确答案未修改。"
+    }
+  ]
+}

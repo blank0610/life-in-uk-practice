@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "repository": "blank0610/life-in-uk-practice",
+  "bankCount": 487,
+  "round": 1,
+  "nextIndex": 0,
+  "batchSize": 12,
+  "checkedThisRound": [],
+  "completedRounds": [],
+  "lastCheckedAt": null,
+  "lastCheckedId": null,
+  "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
+  "scope": "仅 Life in the UK；不得操作 Stock AI 2"
+}

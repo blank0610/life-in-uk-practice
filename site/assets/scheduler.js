@@ -1,5 +1,5 @@
 import {isQueuedForReview} from "./review-bookmarks.js?v=20261119-review-batch";
-import {selectQuestionType} from "./review-mix.js";
+import {DEFAULT_NORMAL_PERCENT,selectQuestionType} from "./review-mix.js";
 // 独立调度算法：已答对的题目须等足够多的其他不同题目被问过，才允许再次出现。
 export function cooldownRequired(questionCount, percentage=70) {
   const pct=Math.max(10,Math.min(100,Number(percentage)||70));
@@ -14,7 +14,7 @@ export function eligibleCorrectQuestion(question,progress,questionCount,percenta
   if(rec?.lastPassTurn===undefined||rec?.lastPassTurn===null)return true;
   return otherQuestionsSince(question.id,rec.lastPassTurn,progress.lastSeen||{}) >= cooldownRequired(questionCount,percentage);
 }
-export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,percentage=70,normalPercentage=70,random=Math.random}={}) {
+export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,percentage=70,normalPercentage=DEFAULT_NORMAL_PERCENT,random=Math.random}={}) {
   if(!questions.length)return null;
   const reviews=progress.review||{},lastSeen=progress.lastSeen||{},attempts=progress.attempts||0;
   const pending=questions.filter(q=>isQueuedForReview(reviews[q.id]));

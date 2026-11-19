@@ -49,7 +49,13 @@
 .save-review-button[aria-pressed="true"]{background:#fff6dc;border-color:#ecd7a0;color:#7a591d}
 .save-review-button[aria-pressed="true"]:hover{background:#fff0c6}
 @media(max-width:530px){.save-review-button{padding:10px 11px}}
-.mix-controls{display:grid;gap:9px;max-width:550px;margin:16px 0}.mix-controls label{font-weight:650;font-size:13px;display:flex;justify-content:space-between}.mix-controls input{width:100%;accent-color:#5c6cc7}.mix-controls p{margin:3px 0 0}.mix-meter{height:12px;display:flex;border-radius:20px;overflow:hidden;background:#e8ecf7}.mix-normal{width:70%;background:#5c70c4}.mix-review{flex:1;background:#e6b66c}.redo-batch-status{font-size:12px;color:#5168a0;margin-top:2px}
+.practice-mix{margin:12px 0 18px;padding:12px 14px;border:1px solid #dce5f5;border-radius:12px;background:#f8faff}
+.practice-mix-heading{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;color:#536485;font-size:12px}
+.practice-mix-value{font-weight:750;color:#3d55a0;white-space:nowrap}
+.practice-mix-range{display:block;width:100%;margin:13px 0 9px;accent-color:#596cbe;cursor:pointer}
+.practice-mix-hint{margin:5px 0!important;font-size:11px}
+@media(max-width:530px){.practice-mix{padding:11px}.practice-mix-value{font-size:12px}}
+.redo-batch-status{font-size:12px;color:#5168a0;margin-top:2px}
 
 /* 审核记录：直接读取 GitHub 主分支/PR，准确区分原图核对和文字初检 */
 .audit-dashboard{display:grid;gap:17px}
@@ -73,7 +79,7 @@
 .audit-record-link small{display:inline}
 @media(max-width:700px){.audit-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-stat{padding:12px}.audit-stat b{font-size:18px}}
 @media(max-width:420px){.audit-stats{grid-template-columns:1fr 1fr;gap:6px}}
-</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261119-round1-22" defer></script><script type="module" src="./assets/app.js?v=20261119-review-percentage"></script></head><body><div class="layout">
+</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261119-round1-22" defer></script><script type="module" src="./assets/app.js?v=20261119-one-percent-slider"></script></head><body><div class="layout">
 <aside><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题与收藏 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="audit">☑ 题库审核记录</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
 <main><div class="top"><span>LEARNING / <b id="page-name">随机练习</b></span><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><div class="practice-tools"><label class="auto-next-label" for="auto-next-toggle"><input id="auto-next-toggle" type="checkbox" role="switch" checked><span>答对自动下一题</span><strong id="auto-next-state">开启</strong></label><button id="new-question" class="secondary">⤨ 随机换题</button></div></div><div class="card" id="quiz"></div></section>
 <div id="support-panel" aria-label="学习统计和说明"><div class="stats"><div class="stat"><span>累计答题</span><strong id="stat-total">0</strong><small>作答次数</small></div><div class="stat"><span>正确率</span><strong id="stat-rate">—</strong><small>当前题库</small></div><div class="stat"><span>待复习</span><strong id="stat-review">0</strong><small>错题、不懂与收藏</small></div></div>
@@ -85,14 +91,10 @@
 <p class="muted">自动巡检每小时检查下一批题目。这里可查看已合并的逐题核查、原图比对、待核实疑点，以及仍在审核的 GitHub 修改。未合并的审核进度不会冒充正式完成。</p>
 <div class="card audit-dashboard" id="audit-panel"><p class="muted">打开本页面后将读取最新 GitHub 公开记录。</p></div>
 </section>
-<section id="page-library" class="hidden"><div class="sectitle"><div><div class="kicker dark">QUESTION LIBRARY</div><h2>题库与备份</h2></div></div><div class="card"><h3>选择题库</h3><p>已从 ZIP 截图中整理出可用的真实练习题。部分题目仍需逐张人工校对，自动转录可能存在错误，并非英国政府官方试题。</p><div class="two"><button id="choose-default" class="source"><b>ZIP 截图题库</b><small id="bank-size">正在载入…</small></button></div><p class="notice" id="library-summary"></p><hr><h3>错题与收藏题的随机出现比例</h3>
-<p>每次抽题按比例决定题型，默认 <strong>70% 普通题</strong>、<strong>30% 错题／不懂／收藏题</strong>。不需要先完成固定数量的普通题。若暂时没有待复习题，会继续正常练习。</p>
-<div class="mix-controls"><label for="mix-normal-percent">普通题比例 <strong id="mix-normal-value">70%</strong></label>
-<input id="mix-normal-percent" type="range" min="0" max="100" step="5" value="70" aria-label="普通题抽取百分比">
-<div class="mix-meter" aria-hidden="true"><span class="mix-normal"></span><span class="mix-review"></span></div>
-<p class="muted">复习题比例：<strong id="mix-review-value">30%</strong>（答错、标记不懂及手动收藏）。每次独立随机，实际顺序可能不完全是七比三。</p></div>
-<p id="redo-cycle-summary" class="notice"></p>
-<p class="muted">主动进入「错题与收藏」专项练习时，会立即抽复习题，不受此比例限制。你的错题、收藏、笔记和答题进度均保留。</p>
-<hr><h3>答对题目再次出现的间隔</h3><p>答对一道题后，必须先完成至少 <strong id="repeat-value">70%</strong> 的其他不同题目，它才会再次进入随机抽题池。错题与收藏题改按上面的普通题批次穿插，不使用这项百分比门槛。</p><label for="repeat-threshold" class="muted">答对后的重复间隔百分比（10%–100%）</label><input id="repeat-threshold" type="range" min="10" max="100" step="10" value="70" style="display:block;width:100%;max-width:530px;margin:18px 0 25px;accent-color:#5869c8"><hr><h3>临时导入 JSON 题库</h3><p>仅当前浏览器可见；暂不直接读取 ZIP。正式题库由开发流程统一发布。</p><label for="import-bank" class="upload">选择 JSON 文件</label><input type="file" id="import-bank" accept=".json,application/json"><p class="muted" id="import-status"></p><hr><h3>学习记录备份</h3><p>浏览器记录不会自动同步到 GitHub。更换设备前请导出。</p><div class="group"><button id="export-progress" class="secondary">↓ 导出记录</button><label class="upload" for="import-progress">↑ 恢复记录</label><input type="file" id="import-progress" accept=".json,application/json"></div></div></section>
+<section id="page-library" class="hidden"><div class="sectitle"><div><div class="kicker dark">QUESTION LIBRARY</div><h2>题库与备份</h2></div></div><div class="card"><h3>选择题库</h3><p>已从 ZIP 截图中整理出可用的真实练习题。部分题目仍需逐张人工校对，自动转录可能存在错误，并非英国政府官方试题。</p><div class="two"><button id="choose-default" class="source"><b>ZIP 截图题库</b><small id="bank-size">正在载入…</small></button></div><p class="notice" id="library-summary"></p><hr><h3>统一的随机出题比例</h3>
+<p>只使用一个可调整的百分比。默认每次点击「下一道随机题」都有 <strong>70% 概率出现普通题、30% 概率出现答错／不懂／收藏题</strong>；每次点击都会重新随机抽取，不要求先做一定数量的题。</p>
+<p id="redo-cycle-summary" class="notice">普通题 70% · 复习题 30%。到随机练习页可以直接调整滑块。</p>
+<p class="muted">百分比是每次抽题的概率，不保证每十题严格有七道普通题。没有待复习题时只显示普通题，进入「错题与收藏」专项练习则只显示复习题。</p>
+<hr><h3>临时导入 JSON 题库</h3><p>仅当前浏览器可见；暂不直接读取 ZIP。正式题库由开发流程统一发布。</p><label for="import-bank" class="upload">选择 JSON 文件</label><input type="file" id="import-bank" accept=".json,application/json"><p class="muted" id="import-status"></p><hr><h3>学习记录备份</h3><p>浏览器记录不会自动同步到 GitHub。更换设备前请导出。</p><div class="group"><button id="export-progress" class="secondary">↓ 导出记录</button><label class="upload" for="import-progress">↑ 恢复记录</label><input type="file" id="import-progress" accept=".json,application/json"></div></div></section>
 <section id="page-about" class="hidden"><div class="sectitle"><div><div class="kicker dark">ABOUT</div><h2>网站说明</h2></div></div><div class="card"><h3>Life in the UK · Practice Studio</h3><p>这是独立的 GitHub Pages 练习网站。英语题目配中文操作界面，支持随机出题、错题复习、记录本机保存。</p><p>本站仅包含你提供的真实截图练习题。自动转录仍可能有错，部分历史、法律、统计题目可能过时，无法替代英国政府官方学习资料。</p><p><a href="https://github.com/blank0610/life-in-uk-practice" target="_blank" rel="noopener">打开独立 GitHub 开发仓库 ↗</a></p></div></section>
 <footer>Life in the UK Practice Studio · 仅供学习 · 与 Stock AI 2 完全独立</footer></div></main></div><div id="toast" class="toast" role="status" aria-live="polite"></div></body></html>

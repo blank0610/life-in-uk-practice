@@ -11,6 +11,13 @@ test("首轮逐图审核#22 Shakespeare题必须包含原截图的完整解释",
   assert.equal(q.explanation,"The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare.");
 });
 
+test("原始截图#316伊拉克英军撤离题已原图核对，答案为2009",()=>{
+ const q=byId.get("zip-316");
+ assert.equal(q.question,"When did British combat troops leave Iraq?");
+ assert.deepEqual(new Set(q.options),new Set(["In 2004","In 2005","In 2006","In 2009"]));
+ assert.deepEqual(Array.from(q.correctAnswers),["In 2009"]);
+ assert(q.explanation.includes("British combat troops left Iraq in 2009"));
+});
 test("原图#127保留完整奥运题干、四选项、正确答案和已有解释",()=>{
   const q=byId.get("zip-127");
   assert.equal(q.question,"In which category did Jayne Torvill and Christopher Dean win gold medals at the Olympic Games in 1984?");

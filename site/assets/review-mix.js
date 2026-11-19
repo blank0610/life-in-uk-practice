@@ -1,5 +1,5 @@
 // 百分比混合出题：默认 70% 普通题 / 30% 错题、标记不懂与收藏题。
-// 独立于「答对题达到一定比例的其他不同题后才再次出现」的冷却规则。
+// 每次点下一题重新随机抽取；答对题的重复冷却仍沿用默认值，不是另一个用户百分比设置。
 export const DEFAULT_NORMAL_PERCENT=70;
 export function normalizeNormalPercent(value){
   const percent=Number(value);

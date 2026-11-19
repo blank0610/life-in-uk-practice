@@ -60,7 +60,7 @@ if(window.LIFE_UK_PACKED){
     window.LIFE_UK_LOADED_COUNT=EMPTY.questions.length;
   }catch(err){console.error("ZIP 题库加载错误",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
 }
-const blank=()=>({selected:"default",custom:null,byBank:{},repeatThreshold:70,autoNextEnabled:true,normalPercentage:DEFAULT_NORMAL_PERCENT});
+const blank=()=>({selected:"default",custom:null,byBank:{},autoNextEnabled:true,normalPercentage:DEFAULT_NORMAL_PERCENT});
 const fresh=()=>({attempts:0,correct:0,review:{},recent:[],lastSeen:{},history:[],historySeq:0,notes:{}});
 let data=blank();
 try{const raw=JSON.parse(localStorage.getItem(KEY)||"null");if(raw&&typeof raw==="object"&&raw.byBank&&typeof raw.byBank==="object"){data={...blank(),...raw};if(data.custom)data.custom=validate(data.custom);if(!["default","custom"].includes(data.selected)||data.selected==="custom"&&!data.custom)data.selected="default";}}catch{data=blank();}
@@ -116,7 +116,7 @@ function changePage(v){if(!["practice","review","library","about","audit"].inclu
 function stats(){const pr=p();$("stat-total").textContent=pr.attempts;$("stat-rate").textContent=pr.attempts?Math.round(pr.correct/pr.attempts*100)+"%":"—";$("stat-review").textContent=pending().length;$("nav-review").textContent=pending().length;$("bank-status").textContent=data.selected==="custom"?"自定义题库":EMPTY.questions.length?"ZIP 截图题库":"题库载入失败";}
 function empty(title,desc,action,fn){const box=e("div","empty");box.append(e("div","symbol","✦"),e("h3","",title),e("p","",desc),button(action,"primary",fn));return box;}
 function choose(v){cancel();data.selected=v;mode="all";question=null;lastId=null;feedback=null;historyIndex=null;currentRecordSeq=null;selected.clear();persist();draw();notify("已切换题库");}
-function pick(){return pickScheduled(bank().questions,p(),{reviewMode:mode==="review",lastId,percentage:data.repeatThreshold||70,normalPercentage:normalizeNormalPercent(data.normalPercentage)});}
+function pick(){return pickScheduled(bank().questions,p(),{reviewMode:mode==="review",lastId,percentage:DEFAULT_NORMAL_PERCENT,normalPercentage:normalizeNormalPercent(data.normalPercentage)});}
 function next(){
  cancel();historyIndex=null;currentRecordSeq=null;selected.clear();feedback=null;
  const q=pick();question=q?{...q,display:shuffle(q.options)}:null;
@@ -294,11 +294,25 @@ voiceStatus.setAttribute("aria-live","polite");speechControls.append(voiceStatus
 root.append(speechControls);
 if(mode==="all"){
  const normal=normalizeNormalPercent(data.normalPercentage),redo=reviewPercent(normal);
- const line=currentWasRedo?"🔁 本题为随机复习题（普通题 "+normal+"% / 复习题 "+redo+"%）。"
-  :pending().length
-    ?"下题随机比例：普通题 "+normal+"% · 错题／收藏题 "+redo+"%（每题独立随机）"
-    :"下题随机比例：普通题 100% · 暂无待复习题（设置值 "+normal+"% / "+redo+"%）";
- root.append(e("p","hint redo-batch-status",line));
+ const panel=e("div","practice-mix");
+ const header=e("div","practice-mix-heading");
+ const label=e("span","",currentWasRedo?"🔁 本题是随机选出的错题／收藏题":"每按一次「下一道随机题」都重新随机抽取");
+ const value=e("strong","practice-mix-value","普通题 "+normal+"% · 复习题 "+redo+"%");
+ header.append(label,value);
+ const range=e("input","practice-mix-range");
+ range.id="practice-mix-percentage";range.type="range";range.min="0";range.max="100";range.step="5";range.value=String(normal);
+ range.setAttribute("aria-label","下一题出现普通题的百分比");
+ const hint=e("p","muted practice-mix-hint",pending().length
+  ?"可直接调整比例；下一次手动换题或自动换题时生效。"
+  :"当前没有错题或收藏题，暂时只会显示普通题；收藏或答错后按所设比例随机复习。");
+ range.addEventListener("input",event=>{
+   const nextNormal=normalizeNormalPercent(event.target.value);
+   data.normalPercentage=nextNormal;
+   persist();
+   value.textContent="普通题 "+nextNormal+"% · 复习题 "+reviewPercent(nextNormal)+"%";
+ });
+ panel.append(header,range,hint);
+ root.append(panel);
 }
 root.append(e("p","hint",question.correctAnswers.length>1?"请选择 "+question.correctAnswers.length+" 个正确答案再提交。":"请选择一个答案，系统将立即批改。"));const opts=e("div","answers");question.display.forEach((text,i)=>{const b=button("","answer",()=>{if(feedback)return;if(question.correctAnswers.length===1){selected=new Set([text]);correct();}else{if(selected.has(text))selected.delete(text);else if(selected.size<question.correctAnswers.length)selected.add(text);draw();}});b.disabled=Boolean(feedback);b.setAttribute("aria-pressed",String(selected.has(text)));if(selected.has(text))b.classList.add("selected");if(feedback&&question.correctAnswers.includes(text))b.classList.add("good");else if(feedback&&selected.has(text))b.classList.add("bad");b.append(e("span","letter",String.fromCharCode(65+i)),e("span","",text));opts.append(b);});root.append(opts);
 if(feedback){const wrong=feedback!=="yes",f=e("div","result"+(wrong?" wrong":""));f.append(e("b","",wrong?"✕ 需要巩固这道题":"✓ 回答正确！"),e("p","","正确答案："+question.correctAnswers.join("、")),e("p","",question.explanation||"这张截图的说明文字尚未完成逐字核对；未添加推测性解释。"));const ta=e("textarea");ta.id="note";ta.maxLength=800;ta.placeholder="写下这道题的学习笔记（自动保存）";ta.value=p().notes[question.id]??p().review[question.id]?.note??"";
@@ -346,13 +360,8 @@ function drawReview(){
 }
 function drawLibrary(){
  const normal=normalizeNormalPercent(data.normalPercentage),redo=reviewPercent(normal);
- $("mix-normal-percent").value=String(normal);
- $("mix-normal-value").textContent=normal+"%";
- $("mix-review-value").textContent=redo+"%";
- const meter=$("page-library").querySelector(".mix-normal");
- if(meter)meter.style.width=normal+"%";
- $("redo-cycle-summary").textContent="随机练习每道题按 "+normal+"% 普通题 / "+redo+"% 错题、标记不懂或收藏题的概率抽取。没有复习题时自动出普通题。";
- $("repeat-threshold").value=String(data.repeatThreshold||70);$("repeat-value").textContent=String(data.repeatThreshold||70)+"%";$("bank-size").textContent=EMPTY.questions.length+" 道题"+(EMPTY.questions.length?"":" · 等待 ZIP");$("choose-default").classList.toggle("active",data.selected==="default");$("library-summary").textContent="当前： "+(data.selected==="custom"?"本机导入的自定义题库":"ZIP 截图题库")+"（"+bank().questions.length+" 题）";}
+ $("redo-cycle-summary").textContent="当前抽取比例：普通题 "+normal+"% / 错题、不懂或收藏题 "+redo+"%。请返回「随机练习」页面，在题目上方用滑块调整，下一题立即按新比例抽取。";
+ $("bank-size").textContent=EMPTY.questions.length+" 道题"+(EMPTY.questions.length?"":" · 等待 ZIP");$("choose-default").classList.toggle("active",data.selected==="default");$("library-summary").textContent="当前： "+(data.selected==="custom"?"本机导入的自定义题库":"ZIP 截图题库")+"（"+bank().questions.length+" 题）";}
 function draw(){stats();if(page==="practice")drawQuiz();if(page==="review")drawReview();if(page==="library")drawLibrary();if(page==="audit")renderAuditDashboard($("audit-panel"),{repo:$("page-audit").dataset.githubRepo});}
 async function readFile(input){const file=input.files?.[0];input.value="";if(!file)return null;if(file.size>4000000)throw Error("文件超过 4MB");return JSON.parse(await file.text());}
 function exportFile(name,content){const blob=new Blob([JSON.stringify(content,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
@@ -373,13 +382,6 @@ $("choose-default").addEventListener("click",()=>choose("default"));
 $("export-progress").addEventListener("click",()=>exportFile("life-uk-progress.json",{format:"life-uk-backup-v1",data}));
 $("import-bank").addEventListener("change",async event=>{try{const raw=await readFile(event.target);if(!raw)return;const b=validate(raw);if(!b.questions.length)throw Error("题库不能为空");data.custom=b;choose("custom");$("import-status").textContent="成功导入 "+b.questions.length+" 道题，仅此浏览器可用";}catch(err){$("import-status").textContent="失败："+err.message;}});
 $("import-progress").addEventListener("change",async event=>{try{const raw=await readFile(event.target);if(!raw||raw.format!=="life-uk-backup-v1")throw Error("备份格式不匹配");const val=raw.data;if(!val||!val.byBank||!["default","custom"].includes(val.selected))throw Error("备份无效");if(val.custom)val.custom=validate(val.custom);data={...blank(),...val};if(data.selected==="custom"&&!data.custom)data.selected="default";question=null;feedback=null;historyIndex=null;currentRecordSeq=null;currentWasRedo=false;persist();syncAutoNextControl();changePage("practice");notify("学习记录已恢复");}catch(err){notify("恢复失败："+err.message);}});
-$("repeat-threshold").addEventListener("input",event=>{
- data.repeatThreshold=Number(event.target.value);persist();$("repeat-value").textContent=data.repeatThreshold+"%";
-});
-$("mix-normal-percent").addEventListener("input",event=>{
- data.normalPercentage=normalizeNormalPercent(event.target.value);
- persist();drawLibrary();
-});
 syncAutoNextControl();
 changePage("practice");
 // 默认直接展示随机题，无需先点击“开始”；仍按进度及冷却比例调度。

@@ -50,12 +50,41 @@
 .save-review-button[aria-pressed="true"]:hover{background:#fff0c6}
 @media(max-width:530px){.save-review-button{padding:10px 11px}}
 .redo-range-controls{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0}.redo-range-controls label{display:flex;gap:8px;align-items:center;font-size:12px;font-weight:600}.redo-range-controls input{width:75px;padding:8px;border-radius:9px;border:1px solid #dbe2ed}.redo-batch-status{font-size:12px;color:#5168a0;margin-top:2px}
-</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261119-round1-22" defer></script><script type="module" src="./assets/app.js?v=20261119-batch-redo"></script></head><body><div class="layout">
-<aside><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题与收藏 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
+
+/* 审核记录：直接读取 GitHub 主分支/PR，准确区分原图核对和文字初检 */
+.audit-dashboard{display:grid;gap:17px}
+.audit-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}
+.audit-stat{background:#f6f8fd;border:1px solid #e5eaf4;border-radius:11px;padding:15px}
+.audit-stat span,.audit-stat b{display:block}
+.audit-stat b{font-size:21px;color:#304779;margin-top:6px}
+.audit-progress{display:block;width:100%;height:11px;accent-color:#5d75c9}
+.audit-section{border-top:1px solid #e6ebf4;padding-top:19px}
+.audit-section h3{margin:0 0 14px;font-size:16px}
+.audit-records{display:grid;gap:10px;max-height:620px;overflow:auto;padding-right:3px}
+.audit-entry{border:1px solid #e7eaf3;background:#fbfcff;border-radius:11px;padding:12px 14px}
+.audit-entry-head{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.audit-status{color:#506a97;background:#edf2ff;padding:5px 8px;border-radius:7px;font-size:11px}
+.audit-status.audit-warning{background:#fff3df;color:#8f5f2f}
+.audit-entry p{margin:8px 0;color:#5e6d82;line-height:1.7}
+.audit-finding{color:#92542f!important}
+.audit-link{color:#4e62b3;overflow-wrap:anywhere;text-decoration:none}
+.audit-link:hover{text-decoration:underline}
+.audit-record-link{line-height:1.7;margin:7px 0}
+.audit-record-link small{display:inline}
+@media(max-width:700px){.audit-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-stat{padding:12px}.audit-stat b{font-size:18px}}
+@media(max-width:420px){.audit-stats{grid-template-columns:1fr 1fr;gap:6px}}
+</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261119-round1-22" defer></script><script type="module" src="./assets/app.js?v=20261119-audit-dashboard"></script></head><body><div class="layout">
+<aside><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题与收藏 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="audit">☑ 题库审核记录</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
 <main><div class="top"><span>LEARNING / <b id="page-name">随机练习</b></span><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><div class="practice-tools"><label class="auto-next-label" for="auto-next-toggle"><input id="auto-next-toggle" type="checkbox" role="switch" checked><span>答对自动下一题</span><strong id="auto-next-state">开启</strong></label><button id="new-question" class="secondary">⤨ 随机换题</button></div></div><div class="card" id="quiz"></div></section>
 <div id="support-panel" aria-label="学习统计和说明"><div class="stats"><div class="stat"><span>累计答题</span><strong id="stat-total">0</strong><small>作答次数</small></div><div class="stat"><span>正确率</span><strong id="stat-rate">—</strong><small>当前题库</small></div><div class="stat"><span>待复习</span><strong id="stat-review">0</strong><small>错题、不懂与收藏</small></div></div>
 <div class="hero"><div class="kicker">YOUR CITIZENSHIP JOURNEY</div><h1>一步一步，<em>练好英国生活考试。</em></h1><p>来自你提供的 ZIP 截图题库。随机出题和排列选项，答错后优先重练；答对题在达到设定的其他题目完成比例后再次出现。</p></div></div>
 <section id="page-review" class="hidden"><div class="sectitle"><div><div class="kicker dark">REVIEW</div><h2>错题与收藏</h2></div><button id="start-review" class="primary">开始专项复习 →</button></div><p class="muted">答错或不懂的题答对两次后可移出；手动收藏的题会持续参与复习，直到你取消收藏。</p><div id="review-list"></div></section>
+<section id="page-audit" class="hidden" data-github-repo="blank0610/life-in-uk-practice">
+<div class="sectitle"><div><div class="kicker dark">AUDIT TRAIL</div><h2>题库审核记录</h2></div>
+<button id="refresh-audit" class="secondary">⟳ 刷新 GitHub 记录</button></div>
+<p class="muted">自动巡检每小时检查下一批题目。这里可查看已合并的逐题核查、原图比对、待核实疑点，以及仍在审核的 GitHub 修改。未合并的审核进度不会冒充正式完成。</p>
+<div class="card audit-dashboard" id="audit-panel"><p class="muted">打开本页面后将读取最新 GitHub 公开记录。</p></div>
+</section>
 <section id="page-library" class="hidden"><div class="sectitle"><div><div class="kicker dark">QUESTION LIBRARY</div><h2>题库与备份</h2></div></div><div class="card"><h3>选择题库</h3><p>已从 ZIP 截图中整理出可用的真实练习题。部分题目仍需逐张人工校对，自动转录可能存在错误，并非英国政府官方试题。</p><div class="two"><button id="choose-default" class="source"><b>ZIP 截图题库</b><small id="bank-size">正在载入…</small></button></div><p class="notice" id="library-summary"></p><hr><h3>错题与收藏题如何穿插复习</h3>
 <p>不是每道错题各自等待。系统先让你完成一批普通题（默认随机 <strong>20–30 题</strong>），然后从所有错题、标记不懂或已收藏题中随机抽出 <strong>1 道</strong> 重练，再开始下一批普通题。若还没有待复习题，就继续正常练习。</p>
 <div class="group redo-range-controls">

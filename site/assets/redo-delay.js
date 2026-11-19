@@ -1,51 +1,51 @@
-// 错题、不懂、收藏题的随机间隔：按此题上次进入复习队列后的「已作答题数」计算。
-// 和已经答对的普通题所用的百分比冷却机制相互独立。
+// 每完成一批普通题，随机穿插一道错题 / 标记不懂 / 已收藏题。
 export const DEFAULT_REDO_RANGE=Object.freeze({min:20,max:30});
-export const REDO_PLAN_VERSION=2;
-
+export const REDO_PLAN_VERSION=3;
 export function normalizeRedoRange(settings={}){
-  const num=(value,fallback)=>{
-    const parsed=Number(value);
-    return Number.isFinite(parsed)?Math.max(1,Math.min(100,Math.round(parsed))):fallback;
+  const number=(value,fallback)=>{
+    const n=Number(value);
+    return Number.isFinite(n)?Math.max(1,Math.min(100,Math.round(n))):fallback;
   };
-  const min=num(settings?.min,DEFAULT_REDO_RANGE.min);
-  const max=num(settings?.max,DEFAULT_REDO_RANGE.max);
-  return min<=max?{min,max}:{min:max,max:min};
+  const a=number(settings.min,DEFAULT_REDO_RANGE.min),b=number(settings.max,DEFAULT_REDO_RANGE.max);
+  return {min:Math.min(a,b),max:Math.max(a,b)};
 }
 export function randomRedoDistance(settings={},random=Math.random){
   const {min,max}=normalizeRedoRange(settings);
-  const draw=Number(random());
-  const fraction=Number.isFinite(draw)?Math.max(0,Math.min(1-Number.EPSILON,draw)):0;
+  const raw=Number(random());
+  const fraction=Number.isFinite(raw)?Math.max(0,Math.min(raw,1-Number.EPSILON)):0;
   return min+Math.floor(fraction*(max-min+1));
 }
-export function nextRedoDue(progress,settings={},random=Math.random){
-  const attempts=Number.isFinite(progress?.attempts)?Math.max(0,Math.floor(progress.attempts)):0;
-  return attempts+randomRedoDistance(settings,random);
-}
-export function isRedoQueued(record){return Boolean(record?.pending||record?.saved);}
-export function remainingUntilRedo(record,progress){
-  const due=Number(record?.due);
-  const attempts=Number(progress?.attempts)||0;
-  return Number.isFinite(due)?Math.max(0,Math.ceil(due-attempts)):0;
-}
-// 只执行一次的旧数据迁移：把之前 +2 次答题的旧复习计划转换为 20~30 次。
-// 保留 pending、saved、wrong、wins、notes 和旧历史记录。
-export function migrateRedoProgress(progress,settings={},random=Math.random){
-  if(progress.redoPlanVersion===REDO_PLAN_VERSION)return false;
-  if(!progress.review||typeof progress.review!=="object")progress.review={};
-  for(const rec of Object.values(progress.review)){
-    if(rec&&isRedoQueued(rec))rec.due=nextRedoDue(progress,settings,random);
+export function ensureRedoCycle(progress,settings={},random=Math.random){
+  if(!progress||typeof progress!=="object")throw Error("无效学习进度");
+  // 旧版本每题 +2 的到期时间不再使用，但仍保留错题/笔记/收藏/历史。
+  if(progress.redoPlanVersion!==REDO_PLAN_VERSION){
+    progress.normalSinceRedo=0;
+    progress.nextRedoAfter=randomRedoDistance(settings,random);
+    progress.redoPlanVersion=REDO_PLAN_VERSION;
   }
-  progress.redoPlanVersion=REDO_PLAN_VERSION;
-  return true;
-}
-// 用户修改区间时，只重新安排仍待复习的题，不更改成绩或回答记录。
-export function replanRedoQueue(progress,settings={},random=Math.random){
-  if(!progress.review||typeof progress.review!=="object")progress.review={};
-  let count=0;
-  for(const rec of Object.values(progress.review)){
-    if(rec&&isRedoQueued(rec)){rec.due=nextRedoDue(progress,settings,random);count++;}
+  if(!Number.isSafeInteger(progress.normalSinceRedo)||progress.normalSinceRedo<0)progress.normalSinceRedo=0;
+  if(!Number.isSafeInteger(progress.nextRedoAfter)||progress.nextRedoAfter<1){
+    progress.nextRedoAfter=randomRedoDistance(settings,random);
   }
-  progress.redoPlanVersion=REDO_PLAN_VERSION;
-  return count;
+  return progress;
+}
+export function reviewRoundReady(progress){
+  return Number(progress?.normalSinceRedo||0)>=Number(progress?.nextRedoAfter||DEFAULT_REDO_RANGE.min);
+}
+export function recordCompletedQuestion(progress,{wasRedo=false,reviewMode=false,settings={},random=Math.random}={}){
+  ensureRedoCycle(progress,settings,random);
+  if(reviewMode)return progress;
+  if(wasRedo){
+    progress.normalSinceRedo=0;
+    progress.nextRedoAfter=randomRedoDistance(settings,random);
+  }else{
+    progress.normalSinceRedo+=1;
+  }
+  return progress;
+}
+export function updateRedoRange(progress,settings={},random=Math.random){
+  ensureRedoCycle(progress,settings,random);
+  progress.nextRedoAfter=randomRedoDistance(settings,random);
+  progress.normalSinceRedo=0;
+  return progress;
 }

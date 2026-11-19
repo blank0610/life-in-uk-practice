@@ -1,4 +1,5 @@
-import {isQueuedForReview} from "./review-bookmarks.js";
+import {isQueuedForReview} from "./review-bookmarks.js?v=20261119-review-batch";
+import {reviewRoundReady} from "./redo-delay.js?v=20261119-review-batch";
 // 独立调度算法：已答对的题目须等足够多的其他不同题目被问过，才允许再次出现。
 export function cooldownRequired(questionCount, percentage=70) {
   const pct=Math.max(10,Math.min(100,Number(percentage)||70));
@@ -22,13 +23,14 @@ export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,p
     return pool.length?pool[Math.floor(random()*pool.length)]:null;
   }
   const newQuestions=questions.filter(q=>!(q.id in lastSeen)&&!isQueuedForReview(reviews[q.id]));
-  const due=pending.filter(q=>(reviews[q.id].due||0)<=attempts);
   const passed=questions.filter(q=>!isQueuedForReview(reviews[q.id])&&q.id in lastSeen&&eligibleCorrectQuestion(q,progress,questions.length,percentage));
+  const ordinary=newQuestions.length?newQuestions:passed;
+  // 先完成一批20~30道普通题，再从所有收藏/错题中随机抽一道；下一批重新计数。
+  // 这里不看每道错题的 due，防止与用户要求的按批次穿插相混淆。
   let pool=[];
-  if(newQuestions.length)pool=due.length&&random()<0.28?due:newQuestions;
-  else if(due.length)pool=passed.length&&random()<0.4?passed:due;
-  else if(passed.length)pool=passed;
-  else if(pending.length)pool=pending; // 防止只剩暂未到期的错题时停住
+  if(pending.length&&reviewRoundReady(progress))pool=pending;
+  else if(ordinary.length)pool=ordinary;
+  else if(pending.length)pool=pending; // 正常题已耗尽时才兜底，避免无法继续练习。
   if(pool.length>1){
     const different=pool.filter(q=>q.id!==lastId);
     if(different.length)pool=different;

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "repository": "blank0610/life-in-uk-practice",
+  "bankCount": 487,
+  "round": 1,
+  "nextIndex": 12,
+  "batchSize": 12,
+  "checkedThisRound": [
+    {
+      "number": 1,
+      "id": "zip-17",
+      "sourceScreenshot": 17,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "本轮已打开原 ZIP 完整源图，核对题干、四选项、高亮答案和说明。"
+    },
+    {
+      "number": 2,
+      "id": "zip-18",
+      "sourceScreenshot": 18,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 3,
+      "id": "zip-19",
+      "sourceScreenshot": 19,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 4,
+      "id": "zip-20",
+      "sourceScreenshot": 20,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "本轮已打开原 ZIP 完整源图，核对题干、四选项、高亮答案和说明。"
+    },
+    {
+      "number": 5,
+      "id": "zip-21",
+      "sourceScreenshot": 21,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 6,
+      "id": "zip-22",
+      "sourceScreenshot": 22,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已打开用户原 ZIP 第22张并逐字核对；补回原图莎士比亚题解释，带回归测试。"
+    },
+    {
+      "number": 7,
+      "id": "zip-23",
+      "sourceScreenshot": 23,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 8,
+      "id": "zip-24",
+      "sourceScreenshot": 24,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 9,
+      "id": "zip-25",
+      "sourceScreenshot": 25,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 10,
+      "id": "zip-26",
+      "sourceScreenshot": 26,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 11,
+      "id": "zip-27",
+      "sourceScreenshot": 27,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 12,
+      "id": "zip-28",
+      "sourceScreenshot": 28,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    }
+  ],
+  "completedRounds": [],
+  "lastCheckedAt": "2026-11-19T00:50:28.848Z",
+  "lastCheckedId": "zip-28",
+  "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
+  "scope": "仅 Life in the UK；不得操作 Stock AI 2"
+}

@@ -206,5 +206,9 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-462":{
     questionText:"When is St Andrews Day, patron saint of Scotland?",
     explanationText:"St Andrews Day, patron saint of Scotland, is celebrated on the 30th of November."
+  },
+  // #22：逐张复查用户原 ZIP，原图的 Elizabethan 题有一整句说明，之前自动识别遗漏。
+  "zip-22":{
+    explanationText:"The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare."
   }
 };

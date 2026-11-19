@@ -7,8 +7,7 @@ export function toggleSavedForReview(progress,id){
   if(!progress.review||typeof progress.review!=="object")progress.review={};
   const original=progress.review[id]||{};
   const saved=!isSavedForReview(original);
-  const attempts=Number.isFinite(progress.attempts)?progress.attempts:0;
-  const due=original.pending?original.due??attempts:(saved?attempts+2:original.due??0);
+  const due=original.due??0; // 旧字段保留以兼容存档；普通练习不再依据每题 due 决定复习时间。
   progress.review[id]={
     pending:false,wrong:0,wins:0,unsure:false,note:"",...original,saved,due
   };

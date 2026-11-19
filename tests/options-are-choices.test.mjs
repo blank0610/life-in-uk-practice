@@ -3,6 +3,14 @@ import assert from "node:assert/strict";
 import {loadQuestionBank,scanQuestionBank} from "../scripts/audit-question-bank.mjs";
 const bank=loadQuestionBank(),byId=new Map(bank.map(q=>[q.id,q]));
 test("题库仍为487道真实截图题",()=>assert.equal(bank.length,487));
+test("首轮逐图审核#22 Shakespeare题必须包含原截图的完整解释",()=>{
+  const q=byId.get("zip-22");
+  assert.equal(q.question,"The Elizabethan period is known for the richness of its poetry and drama, especially for the plays and poems of which playwright?");
+  assert.deepEqual(Array.from(q.correctAnswers),["William Shakespeare"]);
+  assert.deepEqual(new Set(q.options),new Set(["Alexander Dumas","William Shakespeare","Charles Dickens","Thomas Hardy"]));
+  assert.equal(q.explanation,"The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare.");
+});
+
 test("原图#127保留完整奥运题干、四选项、正确答案和已有解释",()=>{
   const q=byId.get("zip-127");
   assert.equal(q.question,"In which category did Jayne Torvill and Christopher Dean win gold medals at the Olympic Games in 1984?");

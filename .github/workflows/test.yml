@@ -34,6 +34,6 @@ jobs:
           node --check site/assets/auto-next.js
           node --check site/assets/history.js
           node --check site/assets/review-bookmarks.js
-          node --check site/assets/redo-delay.js
+          node --check site/assets/review-mix.js
           node --check site/assets/audit-dashboard.js
           node --check site/data/questions.js

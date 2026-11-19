@@ -19,7 +19,7 @@ test("跳题继续保留错题专项已完成的处理和停止旧朗读",()=>{
   assert(fn.includes('mode==="review"&&!pending().length'));
   assert(fn.includes('changePage("review")'));
   assert(fn.includes('else next()'));
-  assert(app.includes("function next(){cancel();"));
+  assert(/function next\(\)\s*\{\s*cancel\(\);/.test(app));
 });
 test("窄屏设备允许朗读控制栏换行，避免下一题按钮被裁切",()=>{
   assert(css.includes(".voice-controls"));

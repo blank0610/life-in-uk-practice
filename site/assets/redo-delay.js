@@ -6,7 +6,7 @@ export function normalizeRedoRange(settings={}){
     const n=Number(value);
     return Number.isFinite(n)?Math.max(1,Math.min(100,Math.round(n))):fallback;
   };
-  const a=number(settings.min,DEFAULT_REDO_RANGE.min),b=number(settings.max,DEFAULT_REDO_RANGE.max);
+  const a=number(settings?.min,DEFAULT_REDO_RANGE.min),b=number(settings?.max,DEFAULT_REDO_RANGE.max);
   return {min:Math.min(a,b),max:Math.max(a,b)};
 }
 export function randomRedoDistance(settings={},random=Math.random){

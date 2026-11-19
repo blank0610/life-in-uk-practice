@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 12,
+  "nextIndex": 24,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -125,11 +125,139 @@
       "imageCompared": false,
       "checkedAt": "2026-11-19T00:50:28.848Z",
       "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 13,
+      "id": "zip-29",
+      "sourceScreenshot": 29,
+      "status": "needs_review",
+      "findings": [
+        "缺少解释，需对照原图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干、四选项和答案文本一致；解释为空，需对照原始截图确认是否遗漏。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 14,
+      "id": "zip-30",
+      "sourceScreenshot": 30,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干、四选项、答案及解释一致；未发现明显 OCR 污染。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 15,
+      "id": "zip-31",
+      "sourceScreenshot": 31,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "合法六选项选五题；五个答案均位于选项中，解释对应；保留全部六项。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 16,
+      "id": "zip-32",
+      "sourceScreenshot": 32,
+      "status": "needs_review",
+      "findings": [
+        "解释标点疑似OCR错误：In 1455. a civil war；待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "答案1455与解释一致；解释开头 'In 1455. a civil war' 标点疑似 OCR 误识，原图不可访问，待核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 17,
+      "id": "zip-34",
+      "sourceScreenshot": 34,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项及答案129与解释一致；未见明显混杂。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 18,
+      "id": "zip-35",
+      "sourceScreenshot": 35,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案及解释含义一致，未见反馈混入。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 19,
+      "id": "zip-36",
+      "sourceScreenshot": 36,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "判断题答案 True，解释仅复述判断；原图未核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 20,
+      "id": "zip-37",
+      "sourceScreenshot": 37,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "判断题答案 True，解释简短但一致；原图未核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 21,
+      "id": "zip-38",
+      "sourceScreenshot": 38,
+      "status": "needs_review",
+      "findings": [
+        "缺少解释，需对照原图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "答案日期为2020年1月31日，与公开历史日期一致；解释为空，须原图确认。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 22,
+      "id": "zip-39",
+      "sourceScreenshot": 39,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案16岁及解释对应；该规则有地区/陪同与就餐场所限制，未按主观风格改写。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 23,
+      "id": "zip-40",
+      "sourceScreenshot": 40,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案及解释一致；未见明显污染。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 24,
+      "id": "zip-41",
+      "sourceScreenshot": 41,
+      "status": "needs_review",
+      "findings": [
+        "解释未证明题干的绝对断言，且现行资格规则可能有条件差异；待原图及官方规定核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干称所有 civil servants 均不能参选，解释只说大部分公民有资格，未直接支持答案；公职人员类别限制可能有例外，需核对原图及现行官方选举资格规定，禁止猜改答案。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-19T00:50:28.848Z",
-  "lastCheckedId": "zip-28",
+  "lastCheckedAt": "2026-11-19T00:56:24Z",
+  "lastCheckedId": "zip-41",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

@@ -1,48 +1,57 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {DEFAULT_REDO_RANGE,REDO_PLAN_VERSION,normalizeRedoRange,randomRedoDistance,nextRedoDue,remainingUntilRedo,migrateRedoProgress,replanRedoQueue} from "../site/assets/redo-delay.js";
-test("随机重练间隔默认20到30道完整作答，并含两端",()=>{
+import {DEFAULT_REDO_RANGE,REDO_PLAN_VERSION,normalizeRedoRange,randomRedoDistance,ensureRedoCycle,reviewRoundReady,recordCompletedQuestion,updateRedoRange} from "../site/assets/redo-delay.js";
+test("默认每批20～30道普通题，然后穿插一道随机复习题",()=>{
   assert.deepEqual(DEFAULT_REDO_RANGE,{min:20,max:30});
   assert.equal(randomRedoDistance({},()=>0),20);
   assert.equal(randomRedoDistance({},()=>0.5),25);
-  assert.equal(randomRedoDistance({},()=>0.999999),30);
-  assert.equal(nextRedoDue({attempts:12},{},()=>0),32);
-  assert.equal(nextRedoDue({attempts:12},{},()=>0.999999),42);
+  assert.equal(randomRedoDistance({},()=>0.99999),30);
 });
-test("可以在题库设置内修改最短/最长题数，非法数字做安全处理",()=>{
-  assert.deepEqual(normalizeRedoRange({min:25,max:35}),{min:25,max:35});
-  assert.deepEqual(normalizeRedoRange({min:50,max:20}),{min:20,max:50});
-  assert.deepEqual(normalizeRedoRange({min:"oops",max:999}),{min:20,max:100});
-  assert.equal(randomRedoDistance({min:10,max:10},()=>0.8),10);
+test("设置可以调整批次范围，不依赖每题自身 due",()=>{
+  assert.deepEqual(normalizeRedoRange({min:30,max:20}),{min:20,max:30});
+  assert.equal(randomRedoDistance({min:25,max:25}),25);
+  assert.deepEqual(normalizeRedoRange({min:"??",max:500}),{min:20,max:100});
 });
-test("已有错题与收藏题升级时只重新排程一次，历史成绩和笔记不丢失",()=>{
-  const p={attempts:90,correct:75,review:{
-    a:{pending:true,wrong:3,wins:1,note:"Please review",due:92},
-    b:{pending:false,saved:true,wrong:0,note:"Saved",due:92},
-    c:{pending:false,saved:false,wrong:0,due:90}
-  },notes:{a:"My note"}};
-  assert.equal(migrateRedoProgress(p,{},()=>0),true);
-  assert.equal(p.redoPlanVersion,REDO_PLAN_VERSION);
-  assert.equal(p.review.a.due,110);
-  assert.equal(p.review.b.due,110);
-  assert.equal(p.review.c.due,90);
-  assert.equal(p.review.a.wrong,3);
-  assert.equal(p.review.a.wins,1);
-  assert.equal(p.review.a.note,"Please review");
-  assert.equal(p.correct,75);
-  assert.equal(migrateRedoProgress(p,{},()=>0.999),false);
-  assert.equal(p.review.a.due,110,"reload must not reset countdown");
-  assert.equal(remainingUntilRedo(p.review.a,{attempts:103}),7);
+test("只数完整作答的普通题，不按总尝试数或每个错题分别计数",()=>{
+  const p={attempts:200,normalSinceRedo:0,nextRedoAfter:20,redoPlanVersion:REDO_PLAN_VERSION};
+  for(let i=0;i<19;i++)recordCompletedQuestion(p,{wasRedo:false});
+  assert.equal(reviewRoundReady(p),false);
+  recordCompletedQuestion(p,{wasRedo:false});
+  assert.equal(p.normalSinceRedo,20);
+  assert.equal(reviewRoundReady(p),true);
+  recordCompletedQuestion(p,{wasRedo:true,random:()=>0.999999});
+  assert.equal(p.normalSinceRedo,0);
+  assert.equal(p.nextRedoAfter,30);
 });
-test("修改区间后只重设待复习题的时间，不制造答错次数",()=>{
-  const p={attempts:50,correct:40,review:{
-    a:{pending:true,wrong:1,due:52},b:{pending:false,saved:true,wrong:0,due:51},
-    c:{pending:false,saved:false,lastPassTurn:44}
-  }};
-  assert.equal(replanRedoQueue(p,{min:25,max:25}),2);
-  assert.equal(p.review.a.due,75);
-  assert.equal(p.review.b.due,75);
-  assert.equal(p.review.a.wrong,1);
-  assert.equal(p.review.c.due,undefined);
-  assert.equal(p.correct,40);
+test("错题专项独立进行，不推进普通练习批次",()=>{
+  const p={normalSinceRedo:18,nextRedoAfter:22,redoPlanVersion:REDO_PLAN_VERSION};
+  recordCompletedQuestion(p,{reviewMode:true,wasRedo:true});
+  assert.equal(p.normalSinceRedo,18);
+  assert.equal(p.nextRedoAfter,22);
+});
+test("旧学习记录升级仅增加批次进度，不改变错误题、收藏、正确率和笔记",()=>{
+  const p={attempts:200,correct:166,review:{
+    x:{pending:true,due:202,wrong:2,note:"old"},
+    y:{saved:true,pending:false,due:202}},
+    history:[{id:"x"}],notes:{x:"mine"},redoPlanVersion:2
+  };
+  ensureRedoCycle(p,{},()=>0.3);
+  assert.equal(p.redoPlanVersion,3);
+  assert.equal(p.normalSinceRedo,0);
+  assert.equal(p.review.x.due,202);
+  assert.equal(p.review.x.wrong,2);
+  assert.equal(p.review.y.saved,true);
+  assert.equal(p.notes.x,"mine");
+  assert.equal(p.correct,166);
+  const target=p.nextRedoAfter;
+  ensureRedoCycle(p,{},()=>0.99);
+  assert.equal(p.nextRedoAfter,target,"重开网页不重置等待进度");
+});
+test("修改每批题数可重新开始本批，不影响已收藏和错题",()=>{
+  const p={normalSinceRedo:12,nextRedoAfter:20,redoPlanVersion:3,review:{a:{pending:true,wrong:1}},attempts:44,correct:35};
+  updateRedoRange(p,{min:25,max:25});
+  assert.equal(p.normalSinceRedo,0);
+  assert.equal(p.nextRedoAfter,25);
+  assert.equal(p.review.a.pending,true);
+  assert.equal(p.correct,35);
 });

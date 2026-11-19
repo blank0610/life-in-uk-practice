@@ -15,7 +15,7 @@ export function eligibleCorrectQuestion(question,progress,questionCount,percenta
   if(rec?.lastPassTurn===undefined||rec?.lastPassTurn===null)return true;
   return otherQuestionsSince(question.id,rec.lastPassTurn,progress.lastSeen||{}) >= cooldownRequired(questionCount,percentage);
 }
-export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,percentage=DEFAULT_NORMAL_PERCENT,random=Math.random}={}) {
+export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,percentage=DEFAULT_NORMAL_PERCENT,normalPercentage=DEFAULT_NORMAL_PERCENT,random=Math.random}={}) {
   if(!questions.length)return null;
   const reviews=progress.review||{},lastSeen=progress.lastSeen||{},attempts=progress.attempts||0;
   const pending=questions.filter(q=>isQueuedForReview(reviews[q.id]));
@@ -26,10 +26,10 @@ export function pickScheduled(questions,progress,{reviewMode=false,lastId=null,p
   const newQuestions=questions.filter(q=>!(q.id in lastSeen)&&!isQueuedForReview(reviews[q.id]));
   const passed=questions.filter(q=>!isQueuedForReview(reviews[q.id])&&q.id in lastSeen&&eligibleCorrectQuestion(q,progress,questions.length,percentage));
   const ordinary=newQuestions.length?newQuestions:passed;
-  // 普通题占比与答对题重现冷却使用同一个可调整的百分比。复习池为空时自动回退普通题。
+  // 每次按可调整的普通/复习百分比独立抽题；答对普通题的冷却比例单独固定为默认70%，不提供第二个滑块。
   const pickedType=selectQuestionType({
     ordinaryCount:ordinary.length,reviewCount:pending.length,
-    normalPercent:percentage,random
+    normalPercent:normalPercentage,random
   });
   let pool=pickedType==="review"?pending:pickedType==="ordinary"?ordinary:[];
   if(pool.length>1){

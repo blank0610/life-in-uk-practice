@@ -130,7 +130,7 @@ function next(){
 }
 function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;historyIndex=null;next();changePage("practice");}
 function correct(){if(!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
-recordCompletedQuestion(pr,{wasRedo:currentWasRedo,reviewMode:mode==="review",settings:data.redoRange});
+if(!currentWasRedo)recordCompletedQuestion(pr,{wasRedo:false,reviewMode:mode==="review",settings:data.redoRange});
 feedback=ok?"yes":"no";
 const row=appendHistory(pr,question,{selected:[...selected],result:feedback,mode,note:pr.notes[question.id]??pr.review[question.id]?.note??""});
 currentRecordSeq=row.seq;
@@ -138,7 +138,7 @@ persist();draw();if(ok)scheduleAutoNext();}
 function unsure(){if(!question)return;voice.stop();const pr=p(),old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:old.due??0,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;
 pr.notes[question.id]=String($("note")?.value??pr.notes[question.id]??old.note??"").slice(0,800);
 if(!feedback){
- recordCompletedQuestion(pr,{wasRedo:currentWasRedo,reviewMode:mode==="review",settings:data.redoRange});
+ if(!currentWasRedo)recordCompletedQuestion(pr,{wasRedo:false,reviewMode:mode==="review",settings:data.redoRange});
  feedback="unsure";
  currentRecordSeq=appendHistory(pr,question,{selected:[...selected],result:"unsure",mode,note:pr.notes[question.id]}).seq;
 }else if(currentRecordSeq!==null){

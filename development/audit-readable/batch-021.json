@@ -1,0 +1,192 @@
+[
+  {
+    "id": "zip-274",
+    "sourceScreenshot": 274,
+    "question": "Which battle signified the end of the Wars of the Roses?",
+    "options": [
+      "The Battle of Agincourt",
+      "The Battle of Bosworth Field",
+      "The Battle of Bannockburn",
+      "The Battle of Marston Moor"
+    ],
+    "correctAnswers": [
+      "The Battle of Bosworth Field"
+    ],
+    "explanation": "The Wars of the Roses ended with the Battle of Bosworth Field in 1485."
+  },
+  {
+    "id": "zip-275",
+    "sourceScreenshot": 275,
+    "question": "Which court deals with minor criminal offences in Scotland?",
+    "options": [
+      "The Justice of the Peace Court",
+      "The Magistrates’ Court",
+      "The Sheriff Court",
+      "The Grown Court"
+    ],
+    "correctAnswers": [
+      "The Justice of the Peace Court"
+    ],
+    "explanation": "In Scotland, minor criminal offences go to a Justice of the Peace Court."
+  },
+  {
+    "id": "zip-276",
+    "sourceScreenshot": 276,
+    "question": "If an MP dies or resigns, there will be a fresh election, which is known as:",
+    "options": [
+      "Hansard",
+      "First past the post",
+      "By-election",
+      "Coalition"
+    ],
+    "correctAnswers": [
+      "By-election"
+    ],
+    "explanation": "If an MP dies or resigns, there will be a fresh election, called a by-election, in his or her constituency."
+  },
+  {
+    "id": "zip-277",
+    "sourceScreenshot": 277,
+    "question": "A person who has not paid enough National Insurance contributions will not be able to receive certain contributory benefits including (choose TWO options):",
+    "options": [
+      "Jobseeker's Allowance",
+      "A full state retirement pension",
+      "Maternity Allowance",
+      "Disability Living Allowance"
+    ],
+    "correctAnswers": [
+      "Jobseeker's Allowance",
+      "A full state retirement pension"
+    ],
+    "explanation": "Anyone who does not pay enough National Insurance Contributions will not be able to receive certain contributory benefits such as Jobseeker’s Allowance or a full state retirement pension."
+  },
+  {
+    "id": "zip-278",
+    "sourceScreenshot": 278,
+    "question": "Who succeeded Theresa May as Prime Minister on the 24th July 2019?",
+    "options": [
+      "Rishi Sunak",
+      "Gordon Brown",
+      "David Cameron",
+      "Boris Johnson"
+    ],
+    "correctAnswers": [
+      "Boris Johnson"
+    ],
+    "explanation": "Theresa May was succeeded by Boris Johnson on 24 July 2019."
+  },
+  {
+    "id": "zip-279",
+    "sourceScreenshot": 279,
+    "question": "What name is given to the period of rapid development of industry in Britain in the 48th and 19th centuries?",
+    "options": [
+      "The Enlightenment",
+      "The Industrial Revolution",
+      "The Victorian period",
+      "The inter-war period"
+    ],
+    "correctAnswers": [
+      "The Industrial Revolution"
+    ],
+    "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries."
+  },
+  {
+    "id": "zip-280",
+    "sourceScreenshot": 280,
+    "question": "During the slave trade, slaves were taken from West Africa to America and the Caribbean to work on tobacco and sugar plantations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE."
+  },
+  {
+    "id": "zip-281",
+    "sourceScreenshot": 281,
+    "question": "Who was responsible for the construction of the Great Western Railway?",
+    "options": [
+      "Isambard Kingdom Brunel",
+      "Sir Norman Foster",
+      "Sir Christopher Wren",
+      "Robert Adam"
+    ],
+    "correctAnswers": [
+      "Isambard Kingdom Brunel"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-282",
+    "sourceScreenshot": 282,
+    "question": "In which of the following areas has the Senedd the power to make laws (choose four answers)?",
+    "options": [
+      "Education and training",
+      "Military defence",
+      "Economic development",
+      "Housing",
+      "Immigration",
+      "Health and social services"
+    ],
+    "correctAnswers": [
+      "Education and training",
+      "Economic development",
+      "Housing",
+      "Health and social services"
+    ],
+    "explanation": "The Senedd can make laws in devolved areas including education and training, health and social services, economic development and housing."
+  },
+  {
+    "id": "zip-283",
+    "sourceScreenshot": 283,
+    "question": "In which of the following areas has the Senedd the power to make laws (choose four answers)?",
+    "options": [
+      "Education and training",
+      "Military defence",
+      "Economic development",
+      "Housing",
+      "Immigration",
+      "Health and social services"
+    ],
+    "correctAnswers": [
+      "Education and training",
+      "Economic development",
+      "Housing",
+      "Health and social services"
+    ],
+    "explanation": "The Senedd has the power to make laws in areas including education and training, health and social services, economic development and housing. This reflects the screenshot textbook edition; check current devolved powers separately."
+  },
+  {
+    "id": "zip-284",
+    "sourceScreenshot": 284,
+    "question": "How many members comprise the UN Security Council?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "25"
+    ],
+    "correctAnswers": [
+      "15"
+    ],
+    "explanation": "There are 15 members on the UN Security Council, which recommends action when there are international crises and threats to peace."
+  },
+  {
+    "id": "zip-285",
+    "sourceScreenshot": 285,
+    "question": "Which TWO of the following forts form part of Hadrian's Wall?",
+    "options": [
+      "Vindolanda",
+      "Stonehenge",
+      "Housesteads",
+      "Maiden"
+    ],
+    "correctAnswers": [
+      "Vindolanda",
+      "Housesteads"
+    ],
+    "explanation": ""
+  }
+]

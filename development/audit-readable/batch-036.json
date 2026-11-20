@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-457",
+    "sourceScreenshot": 457,
+    "question": "How many wives did Henry VIII have?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "correctAnswers": [
+      "Six"
+    ],
+    "explanation": "Henry VIII had six wives."
+  },
+  {
+    "id": "zip-458",
+    "sourceScreenshot": 458,
+    "question": "Which of the following charities works with sick animals?",
+    "options": [
+      "PDSA",
+      "NSPCC",
+      "Crisis",
+      "Age UK"
+    ],
+    "correctAnswers": [
+      "PDSA"
+    ],
+    "explanation": "The PDSA is the People’s Dispensary for Sick Animals."
+  },
+  {
+    "id": "zip-459",
+    "sourceScreenshot": 459,
+    "question": "Which of the following is the responsibility of the Home Secretary?",
+    "options": [
+      "Crime, policing and immigration",
+      "Managing relationships with foreign countries",
+      "Education and health",
+      "National and international defence"
+    ],
+    "correctAnswers": [
+      "Crime, policing and immigration"
+    ],
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration."
+  },
+  {
+    "id": "zip-460",
+    "sourceScreenshot": 460,
+    "question": "Which of the following sports can be traced as far back as the Roman times?",
+    "options": [
+      "Tennis",
+      "Football",
+      "Horse racing",
+      "Pool"
+    ],
+    "correctAnswers": [
+      "Horse racing"
+    ],
+    "explanation": "There is a very long history of horse racing in Britain, with evidence of events taking place as far back as Roman times."
+  },
+  {
+    "id": "zip-461",
+    "sourceScreenshot": 461,
+    "question": "When did the English become the preferred language of the royal court and Parliament?",
+    "options": [
+      "In 1300",
+      "In 1400",
+      "In 1345",
+      "In 1567"
+    ],
+    "correctAnswers": [
+      "In 1400"
+    ],
+    "explanation": "By 1400, in England, official documents were being written in English, and English had become the preferred language of the royal court and Parliament."
+  },
+  {
+    "id": "zip-462",
+    "sourceScreenshot": 462,
+    "question": "When is St Andrews Day, patron saint of Scotland?",
+    "options": [
+      "23rd of April",
+      "1st of March",
+      "17th of March",
+      "30th of November"
+    ],
+    "correctAnswers": [
+      "30th of November"
+    ],
+    "explanation": "St Andrews Day, patron saint of Scotland, is celebrated on the 30th of November."
+  },
+  {
+    "id": "zip-463",
+    "sourceScreenshot": 463,
+    "question": "Which organisation has been organising ‘The Proms’ since 1927?",
+    "options": [
+      "The MTV",
+      "Channel 4",
+      "The BBC",
+      "CNTV"
+    ],
+    "correctAnswers": [
+      "The BBC"
+    ],
+    "explanation": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London. "
+  },
+  {
+    "id": "zip-464",
+    "sourceScreenshot": 464,
+    "question": "Which of the following organisations has no power to make laws but draws up conventions and charters, including the European Convention on Human Rights and Fundamental Freedoms?",
+    "options": [
+      "The UN Security Council",
+      "The Council of Europe",
+      "The United Nations",
+      "The European Union"
+    ],
+    "correctAnswers": [
+      "The Council of Europe"
+    ],
+    "explanation": "The Council of Europe is responsible for the protection and promotion of human rights in those countries."
+  },
+  {
+    "id": "zip-465",
+    "sourceScreenshot": 465,
+    "question": "Where is Snowdonia National Park located?",
+    "options": [
+      "North Wales",
+      "Northern Ireland",
+      "South Wales",
+      "England"
+    ],
+    "correctAnswers": [
+      "North Wales"
+    ],
+    "explanation": "Snowdonia is a national park in North Wales."
+  },
+  {
+    "id": "zip-466",
+    "sourceScreenshot": 466,
+    "question": "What actions did Henry Vil take after his victory in the Wars of the Roses?",
+    "options": [
+      "Reduced the power of the nobles",
+      "Broke away with the Church of Rome",
+      "Converted Britain to Christianity",
+      "Increased the power of the nobles"
+    ],
+    "correctAnswers": [
+      "Reduced the power of the nobles"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-467",
+    "sourceScreenshot": 467,
+    "question": "Which Court deals with the most serious civil cases in Scotland?",
+    "options": [
+      "The High Court",
+      "The Sheriff Court",
+      "The Court of Session",
+      "The Grown Court"
+    ],
+    "correctAnswers": [
+      "The Court of Session"
+    ],
+    "explanation": "More serious civil cases — for example, when a large amount of compensation is being claimed are dealt with in the High Court of England, Wales and Northern Ireland."
+  },
+  {
+    "id": "zip-468",
+    "sourceScreenshot": 468,
+    "question": "The leader of the opposition leads his or her party in pointing out what they see as the government's (choose TWO options):",
+    "options": [
+      "Failures",
+      "Achievements",
+      "Strengths",
+      "Weaknesses"
+    ],
+    "correctAnswers": [
+      "Failures",
+      "Weaknesses"
+    ],
+    "explanation": "The leader of the opposition leads his or her party in pointing out what they see as the government's failures and weaknesses."
+  }
+]

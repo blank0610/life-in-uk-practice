@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-507",
+    "sourceScreenshot": 507,
+    "question": "Which British Prime Minister nationalized major industries including coal and steel?",
+    "options": [
+      "Harold Macmillan",
+      "Clement Attlee",
+      "John Major",
+      "Sir Alec Douglas-Home"
+    ],
+    "correctAnswers": [
+      "Clement Attlee"
+    ],
+    "explanation": "Clement Attlee’s government undertook the nationalisation of major industries (like coal and steel), created the National Health Service and implemented many of Beveridge’s plans for a stronger welfare state."
+  },
+  {
+    "id": "zip-508",
+    "sourceScreenshot": 508,
+    "question": "Who was the first Archbishop of Canterbury?",
+    "options": [
+      "St Augustine",
+      "St Columba",
+      "St Andrew",
+      "Kenneth MacAlpin"
+    ],
+    "correctAnswers": [
+      "St Augustine"
+    ],
+    "explanation": "St Augustine became the first Archbishop of Canterbury."
+  },
+  {
+    "id": "zip-509",
+    "sourceScreenshot": 509,
+    "question": "What is the money raised from the Income Tax used for (choose THREE options)?",
+    "options": [
+      "Education",
+      "The National Grid system",
+      "Police and the Armed Forces",
+      "Roads"
+    ],
+    "correctAnswers": [
+      "Education",
+      "Police and the Armed Forces",
+      "Roads"
+    ],
+    "explanation": "Money raised from income tax pays for government services such as roads, education, police and the armed forces."
+  },
+  {
+    "id": "zip-510",
+    "sourceScreenshot": 510,
+    "question": "What name is given to the clock tower at the Houses of Parliament in honour of Queen Elizabeth II's Diamond Jubilee in 2012?",
+    "options": [
+      "Big Ben",
+      "Big Clock",
+      "Elizabeth Tower",
+      "Clock Tower"
+    ],
+    "correctAnswers": [
+      "Elizabeth Tower"
+    ],
+    "explanation": "The clock tower at the Houses of Parliament in London is named ‘Elizabeth Tower’ in honour of Queen Elizabeth II's Diamond Jubilee in 2012."
+  },
+  {
+    "id": "zip-511",
+    "sourceScreenshot": 511,
+    "question": "In which year did Forced Marriage Protection Orders come into force in England, Wales and Northern Ireland?",
+    "options": [
+      "2007",
+      "2008",
+      "2010",
+      "2011"
+    ],
+    "correctAnswers": [
+      "2008"
+    ],
+    "explanation": "The Forced Marriage (Civil Protection) Act 2007 introduced legal protections against forced marriage. The relevant protection orders came into force on 25 November 2008 in England, Wales and Northern Ireland. Source: legislation.gov.uk/ukpga/2007/20/body/2008-11-25; legislation.gov.uk/nisr/2008/446."
+  },
+  {
+    "id": "zip-512",
+    "sourceScreenshot": 512,
+    "question": "Whose details are NOT listed in the Phone Book?",
+    "options": [
+      "The King",
+      "MPs, MSs and MSPs",
+      "MEPs",
+      "All of the above"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-513",
+    "sourceScreenshot": 513,
+    "question": "Which of the following words comes from the Norman French?",
+    "options": [
+      "Apple",
+      "Beauty",
+      "Cow",
+      "Summer"
+    ],
+    "correctAnswers": [
+      "Beauty"
+    ],
+    "explanation": "Some words in modern English — for example, ‘park’ and ‘beauty’ — are based on Norman French words."
+  },
+  {
+    "id": "zip-514",
+    "sourceScreenshot": 514,
+    "question": "How are the official reports where the Parliament's proceedings are published called?",
+    "options": [
+      "Domesday Book",
+      "Hansard",
+      "Parliamentary reports",
+      "Carta Magna"
+    ],
+    "correctAnswers": [
+      "Hansard"
+    ],
+    "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard."
+  },
+  {
+    "id": "zip-515",
+    "sourceScreenshot": 515,
+    "question": "How many Senedd members does the Welsh government have?",
+    "options": [
+      "40",
+      "50",
+      "60",
+      "75"
+    ],
+    "correctAnswers": [
+      "60"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-516",
+    "sourceScreenshot": 516,
+    "question": "Catherine Parr, the sixth wife of Henry VIII, was a cousin of Anne Boleyn:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Catherine Howard was a cousin of Anne Boleyn."
+  },
+  {
+    "id": "zip-517",
+    "sourceScreenshot": 517,
+    "question": "Who deals with cases involving personal injury, family matters, breaches of contract and divorce in Scotland?",
+    "options": [
+      "County Courts",
+      "The Sheriff Court",
+      "The Grown Court",
+      "The High Court"
+    ],
+    "correctAnswers": [
+      "The Sheriff Court"
+    ],
+    "explanation": "County Courts deal with a wide range of civil disputes. These include people trying to get back money that is owed to them, cases involving personal injury, family matters, breaches of contract, and divorce."
+  },
+  {
+    "id": "zip-518",
+    "sourceScreenshot": 518,
+    "question": "What was the symbol of York during the Wars of the Roses?",
+    "options": [
+      "A Red Rose",
+      "A White Rose",
+      "A Black Rose",
+      "A Purple Rose"
+    ],
+    "correctAnswers": [
+      "A White Rose"
+    ],
+    "explanation": ""
+  }
+]

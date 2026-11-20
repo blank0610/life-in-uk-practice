@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-420",
+    "sourceScreenshot": 420,
+    "question": "Where are the ancestors of the first farmers to arrive in Britain believed to come from?",
+    "options": [
+      "North-east Europe",
+      "North-west Europe",
+      "South-east Europe",
+      "South-west Europe"
+    ],
+    "correctAnswers": [
+      "South-east Europe"
+    ],
+    "explanation": "The first farmers arrived in Britain 6,000 years ago."
+  },
+  {
+    "id": "zip-421",
+    "sourceScreenshot": 421,
+    "question": "What religion did Elizabeth I follow?",
+    "options": [
+      "Catholic",
+      "Protestant",
+      "Hindu",
+      "Buddhist"
+    ],
+    "correctAnswers": [
+      "Protestant"
+    ],
+    "explanation": "Queen Elizabeth I was a Protestant."
+  },
+  {
+    "id": "zip-422",
+    "sourceScreenshot": 422,
+    "question": "Who directed the movie ‘Chariots of Fire’ in 1981?",
+    "options": [
+      "Mike Newell",
+      "Hugh Hudson",
+      "Kevin MacDonald",
+      "Nicolas Roeg"
+    ],
+    "correctAnswers": [
+      "Hugh Hudson"
+    ],
+    "explanation": "Chariots of Fire (1981) was directed by Hugh Hudson."
+  },
+  {
+    "id": "zip-423",
+    "sourceScreenshot": 423,
+    "question": "What do new citizens have to swear or affirm as part of the citizenship ceremony?",
+    "options": [
+      "They will remain in the UK",
+      "Loyalty to the King",
+      "Loyalty to the Pope",
+      "They will gc to church at least once a week"
+    ],
+    "correctAnswers": [
+      "Loyalty to the King"
+    ],
+    "explanation": "New citizens swear or affirm loyalty to the King as part of the citizenship ceremony."
+  },
+  {
+    "id": "zip-424",
+    "sourceScreenshot": 424,
+    "question": "In which TWO cases may a person who has been summoned to do jury service be exempted from doing it:",
+    "options": [
+      "If they have a criminal conviction",
+      "If they have children",
+      "If they provide a good reason to be excused, such as ill health",
+      "If they have to go to work"
+    ],
+    "correctAnswers": [
+      "If they have a criminal conviction",
+      "If they provide a good reason to be excused, such as ill health"
+    ],
+    "explanation": "Everyone who is summoned to do jury service must do it unless they are not eligible (for example, because they have a criminal conviction) or they provide a good reason to be excused, such as ill health."
+  },
+  {
+    "id": "zip-425",
+    "sourceScreenshot": 425,
+    "question": "What is the role of the shadow cabinet?",
+    "options": [
+      "To keep order during political debates to make sure the rules are followed",
+      "To challenge the government and put forward alternative policies",
+      "To point out what they see as the government's failures and weaknesses",
+      "To control important public appointments"
+    ],
+    "correctAnswers": [
+      "To challenge the government and put forward alternative policies"
+    ],
+    "explanation": "The role of the shadow cabinet is to challenge the government and put forward alternative policies."
+  },
+  {
+    "id": "zip-426",
+    "sourceScreenshot": 426,
+    "question": "Which hill fort from the Iron Age can be seen in the county of Dorset?",
+    "options": [
+      "Conwy Castle",
+      "Caernarfon Castle",
+      "Edinburgh Castle",
+      "Maiden Castle"
+    ],
+    "correctAnswers": [
+      "Maiden Castle"
+    ],
+    "explanation": "A very impressive hill fort from the Iron Age can still be seen today at Maiden Castle, in the English county of Dorset."
+  },
+  {
+    "id": "zip-427",
+    "sourceScreenshot": 427,
+    "question": "On which of the following issues the Northern Ireland Assembly CANNOT make decisions?",
+    "options": [
+      "Health",
+      "Education",
+      "The Environment",
+      "Planning"
+    ],
+    "correctAnswers": [
+      "Planning"
+    ],
+    "explanation": "The Northern Ireland Assembly can make decisions on issues such as education, agriculture, the environment, health and social services. NOTE: Screenshot wording may be outdated; verify against the current curriculum."
+  },
+  {
+    "id": "zip-428",
+    "sourceScreenshot": 428,
+    "question": "Which hill fort from the Iron Age can be seen in the county of Dorset?",
+    "options": [
+      "Conwy Castle",
+      "Caernarfon Castle",
+      "Edinburgh Castle",
+      "Maiden Castle"
+    ],
+    "correctAnswers": [
+      "Maiden Castle"
+    ],
+    "explanation": "A very impressive hill fort from the Iron Age can still be seen today at Maiden Castle, in the English county of Dorset."
+  },
+  {
+    "id": "zip-430",
+    "sourceScreenshot": 430,
+    "question": "Who was the first person to sail single-handed around the world in 1966/67?",
+    "options": [
+      "Sir Robin Knox-Johnston",
+      "Sir Francis Chichester",
+      "Sir Francis Drake",
+      "Dame Ellen MacArthur"
+    ],
+    "correctAnswers": [
+      "Sir Francis Chichester"
+    ],
+    "explanation": "A British sailor, Sir Francis Chichester, was the first person to sail singlehanded around the world, in 1986/67."
+  },
+  {
+    "id": "zip-431",
+    "sourceScreenshot": 431,
+    "question": "In 1837, Queen Victoria became queen of the UK at the age of 20.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
+  },
+  {
+    "id": "zip-432",
+    "sourceScreenshot": 432,
+    "question": "Who led the group of Catholics who tried to kill the Protestant king with a bomb in the Houses of Parliament in 1605?",
+    "options": [
+      "Oliver Cromwell",
+      "Alexander II",
+      "Guy Fawkes",
+      "Adrian IV"
+    ],
+    "correctAnswers": [
+      "Guy Fawkes"
+    ],
+    "explanation": "In 1605, a group of Catholics led by Guy Fawkes failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament. This is the origin of the Bonfire Night celebration on the 5th November, when people in Great Britain set off fireworks at home or in special displays."
+  }
+]

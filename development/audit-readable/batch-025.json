@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-324",
+    "sourceScreenshot": 324,
+    "question": "Which of the following gardens is NOT located in England?",
+    "options": [
+      "Mount Stewart",
+      "Kew Gardens",
+      "Sissinghurst",
+      "Hidcote"
+    ],
+    "correctAnswers": [
+      "Mount Stewart"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-325",
+    "sourceScreenshot": 325,
+    "question": "Which TWO families started a civil war to decide who should be king of England in 1455?",
+    "options": [
+      "The House of Lancaster",
+      "The House of Kent",
+      "The House of York",
+      "The House of Newcastle"
+    ],
+    "correctAnswers": [
+      "The House of Lancaster",
+      "The House of York"
+    ],
+    "explanation": "In 1455, a civil war was begun to decide who should be king of England."
+  },
+  {
+    "id": "zip-326",
+    "sourceScreenshot": 326,
+    "question": "Who was in charge of the British fleet at the Battle of Trafalgar?",
+    "options": [
+      "Admiral Nelson",
+      "Oliver Cromwell",
+      "The Duke of Wellington",
+      "Henry VIII"
+    ],
+    "correctAnswers": [
+      "Admiral Nelson"
+    ],
+    "explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar and was killed in the battle."
+  },
+  {
+    "id": "zip-327",
+    "sourceScreenshot": 327,
+    "question": "Which court deals with serious criminal offences in Northern Ireland?",
+    "options": [
+      "The Sheriff Court",
+      "The Crown Court",
+      "The Magistrates’ Court",
+      "The High Court"
+    ],
+    "correctAnswers": [
+      "The Crown Court"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, serious offences are tried in front of a judge and a jury in a Crown Court. In Scotland, serious cases are heard in a Sheriff Court with either a sheriff or a sheriff with a jury."
+  },
+  {
+    "id": "zip-328",
+    "sourceScreenshot": 328,
+    "question": "Which political party does the speaker represent?’",
+    "options": [
+      "The Liberal Democrats",
+      "The Conservative party",
+      "The Labour Party",
+      "They do not represent any political party"
+    ],
+    "correctAnswers": [
+      "They do not represent any political party"
+    ],
+    "explanation": "The Speaker is neutral and does not represent a political party, even though he or she is an MP. represents a constituency and deals with the constituents’ problems like any other MP."
+  },
+  {
+    "id": "zip-329",
+    "sourceScreenshot": 329,
+    "question": "When was the Scottish Parliament formed?",
+    "options": [
+      "In 2000",
+      "In 2002",
+      "In 1999",
+      "In 1998"
+    ],
+    "correctAnswers": [
+      "In 1999"
+    ],
+    "explanation": "The Scottish Parliament was formed in 1999."
+  },
+  {
+    "id": "zip-330",
+    "sourceScreenshot": 330,
+    "question": "What characterised the Bronze Age?",
+    "options": [
+      "People were farmers who lived in large villages",
+      "People lived in roundhouses and buried their dead in tombs",
+      "People were nomads and hunters",
+      "People started to use plastics"
+    ],
+    "correctAnswers": [
+      "People lived in roundhouses and buried their dead in tombs"
+    ],
+    "explanation": "During the Bronze Age people lived in roundhouses and buried their dead in tombs called round barrows."
+  },
+  {
+    "id": "zip-331",
+    "sourceScreenshot": 331,
+    "question": "What name is given to the elected members of the Scottish Parliament?",
+    "options": [
+      "MSPs",
+      "SMs",
+      "MLAS",
+      "MPs"
+    ],
+    "correctAnswers": [
+      "MSPs"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-332",
+    "sourceScreenshot": 332,
+    "question": "Which game do people usually play at Halloween?",
+    "options": [
+      "Chess",
+      "Trick or treat",
+      "Hide and seek",
+      "Netball"
+    ],
+    "correctAnswers": [
+      "Trick or treat"
+    ],
+    "explanation": "During Halloween young people will often dress up in frightening costumes to play ‘trick or treat?"
+  },
+  {
+    "id": "zip-333",
+    "sourceScreenshot": 333,
+    "question": "The public can listen to debates in the Palace of Westminster from public galleries located in:",
+    "options": [
+      "The House of Commons",
+      "The House of Lords",
+      "Both, the House of Commons and House of Lords",
+      "All of the above are false"
+    ],
+    "correctAnswers": [
+      "Both, the House of Commons and House of Lords"
+    ],
+    "explanation": "The public can listen ta debates in the Palace of Westminster from public galleries in both the House of Commons and the House of Lords."
+  },
+  {
+    "id": "zip-334",
+    "sourceScreenshot": 334,
+    "question": "What is the most well-known gallery in Wales?",
+    "options": [
+      "Tate Britain",
+      "The National Museum",
+      "The National Gallery",
+      "Tate Modern"
+    ],
+    "correctAnswers": [
+      "The National Museum"
+    ],
+    "explanation": "In the UK, same of the most well-known galleries are The National Gallery, Tate Britain and Tate Modern in London, the National Museum in Cardiff, and the National Gallery of Scotland in Edinburgh."
+  },
+  {
+    "id": "zip-335",
+    "sourceScreenshot": 335,
+    "question": "The Man Booker Prize for Fiction is awarded annually for the best fiction novel written by an author from:",
+    "options": [
+      "The Commonwealth, Ireland or Zimbabwe",
+      "The European Union, Zambia or Zimbabwe",
+      "The Commonwealth, the USA or Australia",
+      "The European Union, Canada or Australia"
+    ],
+    "correctAnswers": [
+      "The Commonwealth, Ireland or Zimbabwe"
+    ],
+    "explanation": ""
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-469",
+    "sourceScreenshot": 469,
+    "question": "Who became Prime Minister of the UK in May 2010?",
+    "options": [
+      "David Cameron",
+      "Gordon Brown",
+      "Tony Blair",
+      "Ed Miliband"
+    ],
+    "correctAnswers": [
+      "David Cameron"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-470",
+    "sourceScreenshot": 470,
+    "question": "The Reform Act of 1832 abolished the old pocket and rotten boroughs.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-471",
+    "sourceScreenshot": 471,
+    "question": "What is the minimum age requirement to drive a moped in the UK?",
+    "options": [
+      "16",
+      "18",
+      "20",
+      "21"
+    ],
+    "correctAnswers": [
+      "16"
+    ],
+    "explanation": "You need to be at least 16 years old to ride a moped, and there are other age requirements."
+  },
+  {
+    "id": "zip-472",
+    "sourceScreenshot": 472,
+    "question": "Which of the following statements is true?",
+    "options": [
+      "Great Britain refers only to England, Wales, Northern Ireland, not to Scotland.",
+      "Great Britain refers only to England, Northern Ireland and Scotland, not to Wales.",
+      "Great Britain refers to England, Scotland, Wales and Northern Ireland.",
+      "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland."
+    ],
+    "correctAnswers": [
+      "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland."
+    ],
+    "explanation": "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland."
+  },
+  {
+    "id": "zip-473",
+    "sourceScreenshot": 473,
+    "question": "How many countries formed the European Economic Community (EEC) when it was first created in 1957?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Nine"
+    ],
+    "correctAnswers": [
+      "Six"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-474",
+    "sourceScreenshot": 474,
+    "question": "Northern Ireland and Wales have their own banknotes, which are valid everywhere in the UK. However, shop and businesses do not have to accept them:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK. However, shops and businesses do not have to accept them."
+  },
+  {
+    "id": "zip-475",
+    "sourceScreenshot": 475,
+    "question": "What is donated blood used for?",
+    "options": [
+      "To help people with a wide range of injuries and illnesses",
+      "Blood cannot be donated in the UK",
+      "To carry out research with your DNA",
+      "To be stored in the hospital in case you need it in the future"
+    ],
+    "correctAnswers": [
+      "To help people with a wide range of injuries and illnesses"
+    ],
+    "explanation": "Donated blood is used by hospitals to help people with a wide range of injuries and illnesses."
+  },
+  {
+    "id": "zip-476",
+    "sourceScreenshot": 476,
+    "question": "How often are general elections held in the UK?",
+    "options": [
+      "Every year",
+      "Every 2 years",
+      "Every 4 years",
+      "Every 5 years"
+    ],
+    "correctAnswers": [
+      "Every 5 years"
+    ],
+    "explanation": "MPs are elected at a General Election, which is held at least every five years."
+  },
+  {
+    "id": "zip-477",
+    "sourceScreenshot": 477,
+    "question": "Where is the Grand National horse racing event celebrated?",
+    "options": [
+      "In London",
+      "In Aintree",
+      "In Bedford",
+      "In Slough"
+    ],
+    "correctAnswers": [
+      "In Aintree"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-478",
+    "sourceScreenshot": 478,
+    "question": "What was Charles Chaplin famous for?",
+    "options": [
+      "Special effects movies",
+      "Horror movies",
+      "Silent movies",
+      "Murder-mystery movies"
+    ],
+    "correctAnswers": [
+      "Silent movies"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-479",
+    "sourceScreenshot": 479,
+    "question": "What was Boudica, the queen of the Iceni in what is now eastern England, known for?",
+    "options": [
+      "Her rebellion against the Vikings",
+      "Her rebellion against the Romans",
+      "Her rebellion against the Normans",
+      "Her rebellion against the Anglo-Saxons"
+    ],
+    "correctAnswers": [
+      "Her rebellion against the Romans"
+    ],
+    "explanation": "One of the tribal leaders who fought against the Romans was Boudicca, the queen of the Iceni in what is now eastern England."
+  },
+  {
+    "id": "zip-480",
+    "sourceScreenshot": 480,
+    "question": "What percentage of the British population has a parent or grandparent born outside of the UK as a result of post-war immigration?",
+    "options": [
+      "Nearly 5% of the population",
+      "Nearly 10% of the population",
+      "Nearly 15% of the population",
+      "Nearly 25% of the population"
+    ],
+    "correctAnswers": [
+      "Nearly 10% of the population"
+    ],
+    "explanation": "Postwar immigration means that nearly 10% of the population has a parent or grandparent born outside the UK."
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "id": "zip-445",
+    "sourceScreenshot": 445,
+    "question": "Which British scientist co-invented the MRI (magnetic resonance imaging) scanner?",
+    "options": [
+      "Sir Peter Mansfield",
+      "Sir Robert Edwards",
+      "Patrick Steptoe",
+      "Sir Tim Berners-Lee"
+    ],
+    "correctAnswers": [
+      "Sir Peter Mansfield"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-446",
+    "sourceScreenshot": 446,
+    "question": "Which political party called a referendum on the UK’s membership of the European Union?",
+    "options": [
+      "The Conservative party",
+      "The Labour party",
+      "The Liberal Democrats party",
+      "The Scottish National party"
+    ],
+    "correctAnswers": [
+      "The Conservative party"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-447",
+    "sourceScreenshot": 447,
+    "question": "Which of the following is a UNESCO World Heritage Site and a popular area for walkers?",
+    "options": [
+      "The Giants Causeway",
+      "Hadrian’s Wall",
+      "The house of the parliament",
+      "Buckingham Palace"
+    ],
+    "correctAnswers": [
+      "Hadrian’s Wall"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-448",
+    "sourceScreenshot": 448,
+    "question": "When did hereditary peers lose the automatic right to attend the House of Lords?",
+    "options": [
+      "1979",
+      "1989",
+      "1999",
+      "2001"
+    ],
+    "correctAnswers": [
+      "1999"
+    ],
+    "explanation": "Since 1999, hereditary peers have lost the automatic right to attend the House of Lords."
+  },
+  {
+    "id": "zip-449",
+    "sourceScreenshot": 449,
+    "question": "Which charity works for the preservation of buildings in England?",
+    "options": [
+      "Friends of the Earth",
+      "Oxfam",
+      "The National Trust",
+      "The RSPB"
+    ],
+    "correctAnswers": [
+      "The National Trust"
+    ],
+    "explanation": "In the UK, many parts of the countryside and places of interest are preserved by the National Trust in England, Wales and Northern Ireland, and by the National Trust for Scotland. Both are charities that work to protect important buildings, coastline and countryside."
+  },
+  {
+    "id": "zip-450",
+    "sourceScreenshot": 450,
+    "question": "What name is given to the new social classes that appeared after the Black Death plague and who owned large areas of land?",
+    "options": [
+      "Gentry",
+      "Bayeux",
+      "Canute",
+      "Grimsby"
+    ],
+    "correctAnswers": [
+      "Gentry"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-451",
+    "sourceScreenshot": 451,
+    "question": "Which of the following is a traditional Welsh food?",
+    "options": [
+      "Roast beef",
+      "Welsh cakes",
+      "Haggis",
+      "Ulster fry"
+    ],
+    "correctAnswers": [
+      "Welsh cakes"
+    ],
+    "explanation": "Welsh cakes are a traditional Welsh snack made from flour, dried fruits and spices, and served either hot or cold."
+  },
+  {
+    "id": "zip-452",
+    "sourceScreenshot": 452,
+    "question": "Which of the following was one of the most famous battles of the Hundred Years War?",
+    "options": [
+      "The Battle of Agincourt",
+      "The Battle of Bannockburn",
+      "The Battle of Culloden",
+      "The Battle of Waterloo"
+    ],
+    "correctAnswers": [
+      "The Battle of Agincourt"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-453",
+    "sourceScreenshot": 453,
+    "question": "came to England from abroad to trade and also to work. Where did the engineers come from?",
+    "options": [
+      "France",
+      "Holland",
+      "Germany",
+      "Italy"
+    ],
+    "correctAnswers": [
+      "Germany"
+    ],
+    "explanation": "During the Middle Ages, people came to England from abroad to trade and also to work."
+  },
+  {
+    "id": "zip-454",
+    "sourceScreenshot": 454,
+    "question": "Who was the captain of the English football team that won the World Cup in 1966?",
+    "options": [
+      "David Beckham",
+      "Bobby Moore",
+      "Sir lan Botham",
+      "Sir Roger Bannister"
+    ],
+    "correctAnswers": [
+      "Bobby Moore"
+    ],
+    "explanation": "Bobby Moore (1941-93) captained the English football team that won the World Cup in 1966."
+  },
+  {
+    "id": "zip-455",
+    "sourceScreenshot": 455,
+    "question": "Membership to the Commonwealth is compulsory for its members:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Membership to the Commonwealth is voluntary."
+  },
+  {
+    "id": "zip-456",
+    "sourceScreenshot": 456,
+    "question": "How many verdicts are possible in trials in Scotland?",
+    "options": [
+      "Two: ‘guilty’ or ‘not guilty’",
+      "Three: ‘guilty’, ‘not guilty’ or ‘not proven’",
+      "Three: ‘guilty’, ‘not guilty’ or ‘on hold’",
+      "Two: ‘guilty’ or ‘not proven’"
+    ],
+    "correctAnswers": [
+      "Three: ‘guilty’, ‘not guilty’ or ‘not proven’"
+    ],
+    "explanation": "The jury has to listen to the evidence presented at the trial and then decide a verdict of ‘guilty’ or ‘not guilty’ based on what they have heard. In Scotland, a third verdict of ‘not Proven’ is also possible."
+  }
+]

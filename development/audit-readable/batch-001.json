@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-17",
+    "sourceScreenshot": 17,
+    "question": "Who were the first people to arrive in Britain in what we call the Stone Age?",
+    "options": [
+      "Farmers",
+      "Hunter-gatherers",
+      "Warriors",
+      "Pirates"
+    ],
+    "correctAnswers": [
+      "Hunter-gatherers"
+    ],
+    "explanation": "The first people to live in Britain were hunter-gatherers, in what we call the Stone Age."
+  },
+  {
+    "id": "zip-18",
+    "sourceScreenshot": 18,
+    "question": "When did Britain become permanently separated from the continent by the Channel?",
+    "options": [
+      "10,000 years ago",
+      "50,000 years ago",
+      "15,000 years ago",
+      "18,000 years ago"
+    ],
+    "correctAnswers": [
+      "10,000 years ago"
+    ],
+    "explanation": "Britain only became permanently separated from the continent by the Channel about 10,000 years ago."
+  },
+  {
+    "id": "zip-19",
+    "sourceScreenshot": 19,
+    "question": "The Commonwealth has no power over its members and it cannot suspend their membership.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Commonwealth has no power over its members, although it can suspend membership."
+  },
+  {
+    "id": "zip-20",
+    "sourceScreenshot": 20,
+    "question": "Which of the following statements regarding the Black Death is NOT true?",
+    "options": [
+      "One third of the population of England died and a similar proportion in Scotland and Wales",
+      "It was one of the worst disasters ever to strike Britain",
+      "It affected children and old people only",
+      "Following the Black Death, there were labour shortages"
+    ],
+    "correctAnswers": [
+      "It affected children and old people only"
+    ],
+    "explanation": "In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death. One third of the population of England died, and a similar proportion in Scotland and Wales. This was one of the worst disasters ever to strike Britain. Following the Black Death, the smaller population meant there was less need to grow cereal crops. There were labour shortages and peasants began to demand higher wages."
+  },
+  {
+    "id": "zip-21",
+    "sourceScreenshot": 21,
+    "question": "Who was reigning in England when Wales became formally united with England by the Act for the Government of Wales?",
+    "options": [
+      "Henry VIII",
+      "Henry VII",
+      "Elizabeth I",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Henry VIII"
+    ],
+    "explanation": "During the reign of Henry VIII, Wales became formally united with England by the Act for the Government of Wales."
+  },
+  {
+    "id": "zip-22",
+    "sourceScreenshot": 22,
+    "question": "The Elizabethan period is known for the richness of its poetry and drama, especially for the plays and poems of which playwright?",
+    "options": [
+      "Alexander Dumas",
+      "William Shakespeare",
+      "Charles Dickens",
+      "Thomas Hardy"
+    ],
+    "correctAnswers": [
+      "William Shakespeare"
+    ],
+    "explanation": "The Elizabethan period is remembered for the richness of its poetry and drama, especially the plays and poems of William Shakespeare."
+  },
+  {
+    "id": "zip-23",
+    "sourceScreenshot": 23,
+    "question": "Which of the following is NOT a fundamental principle of British life?",
+    "options": [
+      "Tolerance of those with different faiths and beliefs",
+      "The rule of law",
+      "Autocracy",
+      "Democracy"
+    ],
+    "correctAnswers": [
+      "Autocracy"
+    ],
+    "explanation": "The fundamental principles of British life include: tolerance of those with different faiths and beliefs, the rule of law, democracy, individual liberty and participation in community life."
+  },
+  {
+    "id": "zip-24",
+    "sourceScreenshot": 24,
+    "question": "Which TWO of the following are environmental charities?",
+    "options": [
+      "Crisis",
+      "The National Trust",
+      "Friends of the Earth",
+      "PDSA"
+    ],
+    "correctAnswers": [
+      "The National Trust",
+      "Friends of the Earth"
+    ],
+    "explanation": "The National Trust and Friends of the Earth are environmental charities."
+  },
+  {
+    "id": "zip-25",
+    "sourceScreenshot": 25,
+    "question": "Which flag has a diagonal red cross on a white ground?",
+    "options": [
+      "The cross of St George, patron saint of England",
+      "The cross of St Patrick, patron saint of Ireland",
+      "The cross of St David, patron saint of Wales",
+      "The cross of St Andrew, patron saint of Scotland"
+    ],
+    "correctAnswers": [
+      "The cross of St Patrick, patron saint of Ireland"
+    ],
+    "explanation": "The cross of St Patrick, patron saint of Ireland, is a diagonal red cross on a white ground."
+  },
+  {
+    "id": "zip-26",
+    "sourceScreenshot": 26,
+    "question": "Where is the city of Swansea located?",
+    "options": [
+      "In England",
+      "In Scotland",
+      "In Wales",
+      "In the Isle of Man"
+    ],
+    "correctAnswers": [
+      "In Wales"
+    ],
+    "explanation": "Swansea is located in Wales."
+  },
+  {
+    "id": "zip-27",
+    "sourceScreenshot": 27,
+    "question": "When is Christmas Eve celebrated?",
+    "options": [
+      "24th of December",
+      "26th of December",
+      "25th of December",
+      "27th of December"
+    ],
+    "correctAnswers": [
+      "24th of December"
+    ],
+    "explanation": "Christmas Eve is celebrated on the 24th of December."
+  },
+  {
+    "id": "zip-28",
+    "sourceScreenshot": 28,
+    "question": "Which British sportsman won five consecutive gold medals at the Olympic Games in the rowing category?",
+    "options": [
+      "Sir Chris Hoy",
+      "Christopher Dean",
+      "Bradley Wiggins",
+      "Sir Steve Redgrave"
+    ],
+    "correctAnswers": [
+      "Sir Steve Redgrave"
+    ],
+    "explanation": "Sir Steve Redgrave won gold medals in rowing in five consecutive Olympic Games and is one of Britain's greatest Olympians."
+  }
+]

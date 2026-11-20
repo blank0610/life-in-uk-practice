@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-105",
+    "sourceScreenshot": 105,
+    "question": "Who was the British Prime Minister after Margaret Thatcher?",
+    "options": [
+      "Tony Blair",
+      "Harold Macmillan",
+      "Gordon Brown",
+      "John Major"
+    ],
+    "correctAnswers": [
+      "John Major"
+    ],
+    "explanation": "John Major was Prime Minister after Mrs Thatcher, and helped establish the Northern Ireland peace process."
+  },
+  {
+    "id": "zip-106",
+    "sourceScreenshot": 106,
+    "question": "What name is given to the person appointed by local authorities to be the ceremonial leader of a particular council?",
+    "options": [
+      "Council candidate",
+      "Mayor",
+      "Peer",
+      "Magistrate"
+    ],
+    "correctAnswers": [
+      "Mayor"
+    ],
+    "explanation": "Many local authorities appoint a mayor, who is the ceremonial leader of the council. "
+  },
+  {
+    "id": "zip-107",
+    "sourceScreenshot": 107,
+    "question": "What is the meaning of the term 'first past the post'?",
+    "options": [
+      "In each constituency, the candidate who gets the most votes is elected",
+      "If no political party wins a majority, two parties may join and govern together",
+      "If an MP dies or resigns, there will be a fresh election",
+      "The Speaker will be chosen by other MPs in a secret ballot"
+    ],
+    "correctAnswers": [
+      "In each constituency, the candidate who gets the most votes is elected"
+    ],
+    "explanation": "MPs are elected through a system called first past the post. In each constituency, the candidate who gets the most votes is elected."
+  },
+  {
+    "id": "zip-108",
+    "sourceScreenshot": 108,
+    "question": "Who defeated Emperor Napoleon at the Battle of Waterloo in 1815?",
+    "options": [
+      "The Duke of Wellington",
+      "Admiral Nelson",
+      "Richard Arkwright",
+      "The Duke of Edinburgh"
+    ],
+    "correctAnswers": [
+      "The Duke of Wellington"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-109",
+    "sourceScreenshot": 109,
+    "question": "Which court deals with the MOST serious cases in Scotland, such as murder?",
+    "options": [
+      "The Magistrates’ Court",
+      "The Sheriff Court",
+      "The Grown Court",
+      "The High Court"
+    ],
+    "correctAnswers": [
+      "The High Court"
+    ],
+    "explanation": "In Scotland, serious cases are heard in a Sheriff Court with either a sheriff or a sheriff with a jury. The most serious cases in Scotland, such as murder, are heard at a High Court with a judge and jury."
+  },
+  {
+    "id": "zip-110",
+    "sourceScreenshot": 110,
+    "question": "What was the symbol of the House of Tudor?",
+    "options": [
+      "A red rose with a white rose inside it",
+      "A red rose",
+      "A white rose",
+      "A white rose with a red rose inside it"
+    ],
+    "correctAnswers": [
+      "A red rose with a white rose inside it"
+    ],
+    "explanation": "The symbol of the House of Tudor was a red rose with a white rose inside it as a sign that the Houses of York and Lancaster were now allies."
+  },
+  {
+    "id": "zip-111",
+    "sourceScreenshot": 111,
+    "question": "What animal is represented on the Welsh flag?",
+    "options": [
+      "A lion",
+      "A dragon",
+      "A tiger",
+      "A cat"
+    ],
+    "correctAnswers": [
+      "A dragon"
+    ],
+    "explanation": "There is an official Welsh flag featuring a red dragon. The Welsh dragon does not appear on the Union Flag."
+  },
+  {
+    "id": "zip-112",
+    "sourceScreenshot": 112,
+    "question": "Which famous economist developed ideas about economics during the 18th century, which are still referred to today?",
+    "options": [
+      "Robert Dudley Baxter",
+      "David Hume",
+      "Adam Smith",
+      "Henry George"
+    ],
+    "correctAnswers": [
+      "Adam Smith"
+    ],
+    "explanation": "During the 18th century, new ideas about politics, philosophy and science were developed This is often called ‘the Enlightenment’. "
+  },
+  {
+    "id": "zip-113",
+    "sourceScreenshot": 113,
+    "question": "Who is the ceremonial head of the Commonwealth?",
+    "options": [
+      "The British King",
+      "The Pope",
+      "The President of the United States",
+      "The Prime Minister of the UK"
+    ],
+    "correctAnswers": [
+      "The British King"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-115",
+    "sourceScreenshot": 115,
+    "question": "What time do pubs usually open during the week?",
+    "options": [
+      "9am",
+      "10am",
+      "11am",
+      "12pm"
+    ],
+    "correctAnswers": [
+      "11am"
+    ],
+    "explanation": "Pubs are usually open during the day from 11.00 am (12 noon on Sundays)."
+  },
+  {
+    "id": "zip-116",
+    "sourceScreenshot": 116,
+    "question": "In which TWO movie categories does Britain continue to be particularly strong according to the source?",
+    "options": [
+      "Special effects movies",
+      "Action movies",
+      "Thrillers",
+      "Animation movies"
+    ],
+    "correctAnswers": [
+      "Special effects movies",
+      "Animation movies"
+    ],
+    "explanation": "Britain continues to be particularly strong in special effects and animation movies."
+  },
+  {
+    "id": "zip-117",
+    "sourceScreenshot": 117,
+    "question": "Which British artist was a portrait painter who often painted people in country or garden scenarios?",
+    "options": [
+      "Thomas Gainsborough",
+      "David Allan",
+      "Joseph Turner",
+      "John Constable"
+    ],
+    "correctAnswers": [
+      "Thomas Gainsborough"
+    ],
+    "explanation": "Thomas Gainsborough (1727-88) was a portrait painter who often painted people in country ae mardan ecanany"
+  }
+]

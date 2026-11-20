@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-157",
+    "sourceScreenshot": 157,
+    "question": "Which of the following countries was NOT part of the Allied Powers during the First World War?",
+    "options": [
+      "France",
+      "Japan",
+      "Serbia",
+      "Bulgaria"
+    ],
+    "correctAnswers": [
+      "Bulgaria"
+    ],
+    "explanation": "Bulgaria formed part of the Central Powers during the First World War."
+  },
+  {
+    "id": "zip-158",
+    "sourceScreenshot": 158,
+    "question": "How many times have the Olympic Games been hosted in the UK?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "correctAnswers": [
+      "Three"
+    ],
+    "explanation": "The UK has hosted the Olympic games on three occasions: 1908, 1948 and 2012."
+  },
+  {
+    "id": "zip-159",
+    "sourceScreenshot": 159,
+    "question": "When were films first shown publicly in the UK?",
+    "options": [
+      "In 1887",
+      "In 1896",
+      "In 1897",
+      "In 1886"
+    ],
+    "correctAnswers": [
+      "In 1896"
+    ],
+    "explanation": "Films were first shown publicly in the UK in 1896 and film screenings very quickly became popular."
+  },
+  {
+    "id": "zip-160",
+    "sourceScreenshot": 160,
+    "question": "What is the name of the bullding where the Weish government members meet’",
+    "options": [
+      "Westminster",
+      "Stormont",
+      "Holyrood",
+      "Senedd"
+    ],
+    "correctAnswers": [
+      "Senedd"
+    ],
+    "explanation": "Elected members of the Welsh government meet at the Senedd in Cardiff, the capital city of Wales."
+  },
+  {
+    "id": "zip-161",
+    "sourceScreenshot": 161,
+    "question": "Where is the city of Southampton located?",
+    "options": [
+      "England",
+      "Wales",
+      "Northern Ireland",
+      "Scotland"
+    ],
+    "correctAnswers": [
+      "England"
+    ],
+    "explanation": "Southampton is located in England."
+  },
+  {
+    "id": "zip-162",
+    "sourceScreenshot": 162,
+    "question": "When did the First World War finish?",
+    "options": [
+      "At 12 am on 11th November 1916",
+      "At 11 am on 11th November 1913",
+      "At 11 pm on 13th November 1916",
+      "At 12 am on 13th February 1918"
+    ],
+    "correctAnswers": [
+      "At 11 am on 11th November 1913"
+    ],
+    "explanation": "The First World War ended at 11.00 am on 11th November 1918 with victory for Britain and its allies."
+  },
+  {
+    "id": "zip-163",
+    "sourceScreenshot": 163,
+    "question": "Florence Nightingale was known for her work on:",
+    "options": [
+      "Human rights",
+      "The development of nursing in the UK",
+      "The development of computer science",
+      "The development and manufacture of motor-sport technology"
+    ],
+    "correctAnswers": [
+      "The development of nursing in the UK"
+    ],
+    "explanation": "Florence Nightingale is often regarded as the founder of modern nursing."
+  },
+  {
+    "id": "zip-164",
+    "sourceScreenshot": 164,
+    "question": "Which Act abolished slavery throughout the British Empire in 1833?",
+    "options": [
+      "The Freedom Act",
+      "The Habeas Corpus Act",
+      "The Emancipation Act",
+      "The Slavery Act"
+    ],
+    "correctAnswers": [
+      "The Emancipation Act"
+    ],
+    "explanation": "In 1833 the Emancipation Act abolished slavery throughout the British Empire. The Royal Navy stopped slave ships from other countries, freed the slaves and punished the slave traders."
+  },
+  {
+    "id": "zip-165",
+    "sourceScreenshot": 165,
+    "question": "How long does Diwali last for?",
+    "options": [
+      "A weekend",
+      "40 days",
+      "Five days",
+      "A week"
+    ],
+    "correctAnswers": [
+      "Five days"
+    ],
+    "explanation": "Diwali normally falls in October or November and lasts for five days."
+  },
+  {
+    "id": "zip-166",
+    "sourceScreenshot": 166,
+    "question": "Who became King of Britain when Queen Anne died in 1714?",
+    "options": [
+      "James II",
+      "George II",
+      "George I",
+      "Charles I"
+    ],
+    "correctAnswers": [
+      "George I"
+    ],
+    "explanation": "When Queen Anne died in 1714, Parliament chose a German, George I, to be the next king, because he was Anne's nearest Protestant relative."
+  },
+  {
+    "id": "zip-167",
+    "sourceScreenshot": 167,
+    "question": "What was the population of the UK in 2005?",
+    "options": [
+      "Just under 50 million",
+      "Just under 60 million",
+      "Just over 50 million",
+      "Just under 62 million"
+    ],
+    "correctAnswers": [
+      "Just under 60 million"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-168",
+    "sourceScreenshot": 168,
+    "question": "When did the ‘Habeas Corpus Act’ become law?",
+    "options": [
+      "In 1679",
+      "In 1669",
+      "In 1689",
+      "In 1709"
+    ],
+    "correctAnswers": [
+      "In 1679"
+    ],
+    "explanation": "The Habeas Corpus Act became law in 1679."
+  }
+]

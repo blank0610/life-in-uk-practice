@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-494",
+    "sourceScreenshot": 494,
+    "question": "Choose the correct answer. The Middle Ages were:",
+    "options": [
+      "A period of peace in Britain",
+      "A period where liberal ideas were introduced in Britain",
+      "A period of constant war",
+      "A period where new ideas about politics and philosophy were introduced in Britain"
+    ],
+    "correctAnswers": [
+      "A period of constant war"
+    ],
+    "explanation": "The Middle Ages (or the medieval period) was a time of almost constant war."
+  },
+  {
+    "id": "zip-495",
+    "sourceScreenshot": 495,
+    "question": "What does the NATO stand for?",
+    "options": [
+      "The North American Transparent Organisation",
+      "The North Atlantic Trust Organisation",
+      "The North Atlantic Treaty Organisation",
+      "The North American Treaty Organisation"
+    ],
+    "correctAnswers": [
+      "The North Atlantic Treaty Organisation"
+    ],
+    "explanation": "NATO stands for The North Atlantic Treaty Organisation."
+  },
+  {
+    "id": "zip-496",
+    "sourceScreenshot": 496,
+    "question": "What characterised the people from the Bronze Age?",
+    "options": [
+      "They were accomplished metalworkers",
+      "They were farmers who lived in large villages",
+      "They were nomads and hunters",
+      "They were divided into clans"
+    ],
+    "correctAnswers": [
+      "They were accomplished metalworkers"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-498",
+    "sourceScreenshot": 498,
+    "question": "Where is the National Horseracing Museum located?",
+    "options": [
+      "In Newmarket, Suffolk",
+      "In St Andrews, Scotland",
+      "In Richmond, London",
+      "In Aintree, near Liverpool"
+    ],
+    "correctAnswers": [
+      "In Newmarket, Suffolk"
+    ],
+    "explanation": "The National Horseracing Museum is located in Newmarket, Suffolk."
+  },
+  {
+    "id": "zip-499",
+    "sourceScreenshot": 499,
+    "question": "In which of the following matters the Scottish Parliament CANNOT legislate?",
+    "options": [
+      "Health",
+      "Education",
+      "Immigration",
+      "Planning"
+    ],
+    "correctAnswers": [
+      "Immigration"
+    ],
+    "explanation": "The matters on which the Scottish Parliament can legislate include: civil and criminal law, health, education, planning and additional tax-raising powers."
+  },
+  {
+    "id": "zip-500",
+    "sourceScreenshot": 500,
+    "question": "Which of the following is a popular showcase of mainly theatre and comedy performances and the biggest and most well-known festival that takes place during the Edinburgh Festival?",
+    "options": [
+      "The Proms",
+      "The Fringe",
+      "The Festival of Lights",
+      "The Aldeburgh Festival"
+    ],
+    "correctAnswers": [
+      "The Fringe"
+    ],
+    "explanation": "The Fringe is a showcase of mainly theatre and comedy performances. It often shows experimental work."
+  },
+  {
+    "id": "zip-501",
+    "sourceScreenshot": 501,
+    "question": "Does Britain have a constitutional monarchy?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "explanation": "The UK has a constitutional monarchy."
+  },
+  {
+    "id": "zip-502",
+    "sourceScreenshot": 502,
+    "question": "Who defeated the French at the battle of Agincourt in 1415?",
+    "options": [
+      "King Edward I of England",
+      "William III of England",
+      "Henry VIII",
+      "King Henry V"
+    ],
+    "correctAnswers": [
+      "King Henry V"
+    ],
+    "explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V's vastly outnumbered English army defeated the French."
+  },
+  {
+    "id": "zip-503",
+    "sourceScreenshot": 503,
+    "question": "Which is the most famous tennis tournament hosted in Britain and which takes place each year at the All England Lawn Tennis and Croquet Club?",
+    "options": [
+      "Roland Garros",
+      "The Wimbledon Championships",
+      "The British open",
+      "The Queen's open"
+    ],
+    "correctAnswers": [
+      "The Wimbledon Championships"
+    ],
+    "explanation": "The most famous tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club."
+  },
+  {
+    "id": "zip-504",
+    "sourceScreenshot": 504,
+    "question": "What is the minimum age required for a citizen to stand for public office?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswers": [
+      "18"
+    ],
+    "explanation": "Most citizens of the UK, the Irish republic or the Commonwealth aged 18 or over can stand for public office."
+  },
+  {
+    "id": "zip-505",
+    "sourceScreenshot": 505,
+    "question": "Who makes sure that the opposition has a guaranteed amount of time to debate issues which it chooses during political debates?",
+    "options": [
+      "The shadow cabinet",
+      "The Speaker",
+      "The King",
+      "Nobody"
+    ],
+    "correctAnswers": [
+      "The Speaker"
+    ],
+    "explanation": "The Speaker keeps order during political debates to make sure the rules are followed."
+  },
+  {
+    "id": "zip-506",
+    "sourceScreenshot": 506,
+    "question": "Citizens of Liechtenstein can drive in the UK for as long as their driving license is valid:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "If your driving licence is from a country in the European Union (EU), Iceland, Liechtenstein or Norway, you can drive in the UK for as long as your licence is valid."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-169",
+    "sourceScreenshot": 169,
+    "question": "Who discovered the penicillin in 1928?",
+    "options": [
+      "Sir Robert Watson-Watt",
+      "Alexander Fleming",
+      "John McLeod",
+      "Howard Florey"
+    ],
+    "correctAnswers": [
+      "Alexander Fleming"
+    ],
+    "explanation": "Alexander Fleming was researching influenza (the flu) in 1928 when he discovered penicillin."
+  },
+  {
+    "id": "zip-170",
+    "sourceScreenshot": 170,
+    "question": "During the Middle Ages, England was an important trading nation and people came to England from abroad to trade and also to work. Where did glass manufacturers come from?",
+    "options": [
+      "Germany",
+      "Italy",
+      "Holland",
+      "France"
+    ],
+    "correctAnswers": [
+      "Italy"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-171",
+    "sourceScreenshot": 171,
+    "question": "During the Middle Ages, England was an important trading nation and people came to England from abroad to trade and also to work. Where did glass manufacturers come from?",
+    "options": [
+      "Germany",
+      "Italy",
+      "Holland",
+      "France"
+    ],
+    "correctAnswers": [
+      "Italy"
+    ],
+    "explanation": "During the Middle Ages people came to England from abroad to trade and also to work, such as weavers from France, engineers from Germany, glass manufacturers from Italy and canal builders from Holland."
+  },
+  {
+    "id": "zip-172",
+    "sourceScreenshot": 172,
+    "question": "Where can people facing domestic violence get help from?",
+    "options": [
+      "The NHS",
+      "The Citizens Advise Bureau",
+      "The Human Rights Commission",
+      "The RSPB"
+    ],
+    "correctAnswers": [
+      "The Citizens Advise Bureau"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-173",
+    "sourceScreenshot": 173,
+    "question": "Which American President worked closely with Margaret Thatcher?",
+    "options": [
+      "Hillary Clinton",
+      "Ronald Reagan",
+      "Jimmy Carter",
+      "George Bush"
+    ],
+    "correctAnswers": [
+      "Ronald Reagan"
+    ],
+    "explanation": "Margaret Thatcher worked closely with the United States President, Ronald Reagan, and was one of the first Western leaders to recognise and welcome the changes in the leadership of the Soviet Union which eventually led to the end of the Cold War."
+  },
+  {
+    "id": "zip-174",
+    "sourceScreenshot": 174,
+    "question": "People might be taken to court if they owe money to someone.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-175",
+    "sourceScreenshot": 175,
+    "question": "Who was the first Archbishop of Canterbury?",
+    "options": [
+      "St Patrick",
+      "St Columba",
+      "St Augustine",
+      "St Peter"
+    ],
+    "correctAnswers": [
+      "St Augustine"
+    ],
+    "explanation": "St Augustine led missionaries from Rome, who spread Christianity in the south. St Augustine became the first Archbishop of Canterbury."
+  },
+  {
+    "id": "zip-176",
+    "sourceScreenshot": 176,
+    "question": "How many members does a jury have in England, Wales and Northern Ireland?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "18"
+    ],
+    "correctAnswers": [
+      "12"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-177",
+    "sourceScreenshot": 177,
+    "question": "What is tested with a driving test (choose TWO options)?",
+    "options": [
+      "Your medical condition",
+      "Your knowledge",
+      "Your practical skills",
+      "Your physical condition"
+    ],
+    "correctAnswers": [
+      "Your knowledge",
+      "Your practical skills"
+    ],
+    "explanation": "To get a UK driving licence you must pass a driving test, which tests both your knowledge and your practical skills."
+  },
+  {
+    "id": "zip-178",
+    "sourceScreenshot": 178,
+    "question": "What is the role of the Speaker?",
+    "options": [
+      "To keep order during political debates to make sure the rules are followed",
+      "To point out what they see as the government's failures and weaknesses",
+      "To control important public appointments",
+      "To challenge the government and put forward alternative policies"
+    ],
+    "correctAnswers": [
+      "To keep order during political debates to make sure the rules are followed"
+    ],
+    "explanation": "The Speaker keeps order during political debates to make sure the rules are followed."
+  },
+  {
+    "id": "zip-179",
+    "sourceScreenshot": 179,
+    "question": "Which of the following statements is FALSE regarding Youth Courts?",
+    "options": [
+      "The parents or carers of the young person being judged are expected to attend the hearing",
+      "Members of the public are not allowed in them",
+      "They are used for trials of young people aged 10 to 18",
+      "The name or photographs of the accused young person cannot be published in newspapers or used by the media"
+    ],
+    "correctAnswers": [
+      "They are used for trials of young people aged 10 to 18"
+    ],
+    "explanation": "They are used for trials of young people aged 10 to 17."
+  },
+  {
+    "id": "zip-180",
+    "sourceScreenshot": 180,
+    "question": "Which TWO films were directed by David Lean?",
+    "options": [
+      "Brief Encounter",
+      "The 39 Steps",
+      "Lawrence of Arabia",
+      "Chariots of Fire"
+    ],
+    "correctAnswers": [
+      "Brief Encounter",
+      "Lawrence of Arabia"
+    ],
+    "explanation": "David Lean directed Brief Encounter (1945) and Lawrence of Arabia (1962)."
+  }
+]

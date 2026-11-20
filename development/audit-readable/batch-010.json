@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-131",
+    "sourceScreenshot": 131,
+    "question": "SUISSE EME Which British Prime Minister was famous for the speech ‘I have nothing to offer but blood, toil, tears and sweat’?",
+    "options": [
+      "Clement Attlee",
+      "Anthony Eden",
+      "Winston Churchill",
+      "Harold Wilson"
+    ],
+    "correctAnswers": [
+      "Winston Churchill"
+    ],
+    "explanation": "During the Second World War, Winston Churchill made many famous speeches including lines which you may still hear: ‘I have nothing to offer but blood, toil, tears and sweat."
+  },
+  {
+    "id": "zip-132",
+    "sourceScreenshot": 132,
+    "question": "Which of the following countries did NOT belong to the Allies during World War I?",
+    "options": [
+      "France",
+      "Bulgaria",
+      "The UK",
+      "Australia"
+    ],
+    "correctAnswers": [
+      "Bulgaria"
+    ],
+    "explanation": "Bulgaria was not part of the Allies during the First World War."
+  },
+  {
+    "id": "zip-134",
+    "sourceScreenshot": 134,
+    "question": "Which TWO of the following charities work with homeless people?",
+    "options": [
+      "Friends of the Earth",
+      "Shelter",
+      "Crisis",
+      "Oxfam"
+    ],
+    "correctAnswers": [
+      "Shelter",
+      "Crisis"
+    ],
+    "explanation": "Charities that work with homeless people include Crisis and Shelter."
+  },
+  {
+    "id": "zip-136",
+    "sourceScreenshot": 136,
+    "question": "Which flower is associated with Scotland?",
+    "options": [
+      "Rose",
+      "Thistle",
+      "Daffodil",
+      "Shamrock"
+    ],
+    "correctAnswers": [
+      "Thistle"
+    ],
+    "explanation": "The thistle is the flower associated with Scotland."
+  },
+  {
+    "id": "zip-137",
+    "sourceScreenshot": 137,
+    "question": "What is the money from TV licences used for?",
+    "options": [
+      "To pay actors and actresses",
+      "To pay for the British Broadcasting Corporation (BBC)",
+      "To pay for publicity",
+      "To pay for private channels"
+    ],
+    "correctAnswers": [
+      "To pay for the British Broadcasting Corporation (BBC)"
+    ],
+    "explanation": "The money from TV licences is used to pay for the British Broadcasting Corporation (BBC). This is a public service broadcaster providing television and radio programmes. The BBC is the largest broadcaster in the world."
+  },
+  {
+    "id": "zip-138",
+    "sourceScreenshot": 138,
+    "question": "Members of the Welsh government are elected every four years on the basis of:",
+    "options": [
+      "Proportional representation",
+      "Personal achievements",
+      "Instant run-off",
+      "First past the post system (the candidate who gets the most votes)"
+    ],
+    "correctAnswers": [
+      "Proportional representation"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-139",
+    "sourceScreenshot": 139,
+    "question": "What is the Commonwealth?",
+    "options": [
+      "An association of countries that support each other and work together towards shared goals in democracy and development",
+      "An organisation responsible for the protection and promotion of human rights in its member countries",
+      "An association of countries that promotes international peace and security",
+      "A group of European and North American countries that have agreed to help each other if they come under attack"
+    ],
+    "correctAnswers": [
+      "An association of countries that support each other and work together towards shared goals in democracy and development"
+    ],
+    "explanation": "The Commonwealth is an association of countries that support each other and work together towards shared goals in democracy and development. Most member states were once part of the British Empire, although a few countries which were not have also joined."
+  },
+  {
+    "id": "zip-140",
+    "sourceScreenshot": 140,
+    "question": "Which famous architect designed St Paul’s Cathedral after it was destroyed by a fire in 1666?",
+    "options": [
+      "Sir Christopher Wren",
+      "Isaac Newton",
+      "Robert Burns",
+      "Isambard Kingdom Brunel"
+    ],
+    "correctAnswers": [
+      "Sir Christopher Wren"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-141",
+    "sourceScreenshot": 141,
+    "question": "Which of the following is a fundamental principle of life in the UK?",
+    "options": [
+      "Rule of men",
+      "Individual liberty",
+      "Intolerance of those with different beliefs",
+      "Lack of social cohesion"
+    ],
+    "correctAnswers": [
+      "Individual liberty"
+    ],
+    "explanation": "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life."
+  },
+  {
+    "id": "zip-142",
+    "sourceScreenshot": 142,
+    "question": "Which of the following countries belongs to the Commonwealth?",
+    "options": [
+      "Morocco",
+      "Algeria",
+      "Mozambique",
+      "Mali"
+    ],
+    "correctAnswers": [
+      "Mozambique"
+    ],
+    "explanation": "Mozambique."
+  },
+  {
+    "id": "zip-143",
+    "sourceScreenshot": 143,
+    "question": "Who has to pay national insurance contributions in the UK?",
+    "options": [
+      "Everybody under the age of 65",
+      "Almost everybody who is in paid work",
+      "Everybody under the age of 70",
+      "People with earnings over £18,000 per year"
+    ],
+    "correctAnswers": [
+      "Almost everybody who is in paid work"
+    ],
+    "explanation": "Almost everybody in the UK who is in paid work, including self-employed people, must pay National Insurance Contributions."
+  },
+  {
+    "id": "zip-144",
+    "sourceScreenshot": 144,
+    "question": "A good way to support your local community is to shop for products locally.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE."
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-481",
+    "sourceScreenshot": 481,
+    "question": "When was the hovercraft invented’",
+    "options": [
+      "In the 1920s",
+      "In the 1930s",
+      "In the 1940s",
+      "In the 1950s"
+    ],
+    "correctAnswers": [
+      "In the 1950s"
+    ],
+    "explanation": "Sir Christopher Cockerell (1910-99), a British inventor, invented the hovercraft in the 1950s."
+  },
+  {
+    "id": "zip-482",
+    "sourceScreenshot": 482,
+    "question": "Who is the author of the famous play ‘Macbeth’?",
+    "options": [
+      "Alexander Thomas",
+      "William Shakespeare",
+      "Harold Pinter",
+      "Evelyn Waugh"
+    ],
+    "correctAnswers": [
+      "William Shakespeare"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-483",
+    "sourceScreenshot": 483,
+    "question": "What animal was cloned by scientists Sir Ian Wilmut and Keith Campbell?",
+    "options": [
+      "A cow",
+      "A rabbit",
+      "A cat",
+      "A sheep"
+    ],
+    "correctAnswers": [
+      "A sheep"
+    ],
+    "explanation": "In 1996, a team led by Sir Ian Wilmut (1944–2023) and Keith Campbell (1954–2012) cloned Dolly the sheep at the Roslin Institute. Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut"
+  },
+  {
+    "id": "zip-484",
+    "sourceScreenshot": 484,
+    "question": "What ts the name of the bullding where the Northern Ireland Assembly meet?",
+    "options": [
+      "Westminster",
+      "Holyrood",
+      "Senedd",
+      "Stormont"
+    ],
+    "correctAnswers": [
+      "Stormont"
+    ],
+    "explanation": "The Northern Ireland Assembly building is known as Stormont."
+  },
+  {
+    "id": "zip-485",
+    "sourceScreenshot": 485,
+    "question": "Which of the following Is NOI a function of the house of Lords’",
+    "options": [
+      "Suggest amendments to existing laws",
+      "Check laws that have been passed by the House of Commons",
+      "Propose new laws",
+      "Cancel existing laws"
+    ],
+    "correctAnswers": [
+      "Cancel existing laws"
+    ],
+    "explanation": "The House of Lords can suggest amendments or propose new laws, which are then discussed by MPs. The House of Lords checks laws that have been passed by the House of Commons to ensure they are fit for purpose. It also holds the government to account to make sure that it is working in the best interests of the people."
+  },
+  {
+    "id": "zip-486",
+    "sourceScreenshot": 486,
+    "question": "Which of the following is NOT a World Heritage Site?",
+    "options": [
+      "The London Eye",
+      "Stonehenge",
+      "The forts of Housesteads and Vindolanda",
+      "The Houses of Parliament"
+    ],
+    "correctAnswers": [
+      "The London Eye"
+    ],
+    "explanation": "The London Eye is not a World Heritage Site."
+  },
+  {
+    "id": "zip-487",
+    "sourceScreenshot": 487,
+    "question": "Which famous murder-mystery play has been running in the west end since 1952 and has had the longest initial run of any show in history?",
+    "options": [
+      "The Phantom of the Opera",
+      "The Mousetrap",
+      "Evita",
+      "Jesus Christ Superstar"
+    ],
+    "correctAnswers": [
+      "The Mousetrap"
+    ],
+    "explanation": "The Mousetrap, a murder-mystery play by Dame Agatha Christie, has been running in the west end since 1952 and has had the longest initial run of any show in history."
+  },
+  {
+    "id": "zip-488",
+    "sourceScreenshot": 488,
+    "question": "When was the Giant’s Causeway formed?",
+    "options": [
+      "20 million years ago",
+      "40 million years ago",
+      "50 million years ago",
+      "15 million years ago"
+    ],
+    "correctAnswers": [
+      "50 million years ago"
+    ],
+    "explanation": "The Giant's Causeway was formed about 0 million years ago."
+  },
+  {
+    "id": "zip-490",
+    "sourceScreenshot": 490,
+    "question": "Who was the first person to sail single-handed around the world without stopping?",
+    "options": [
+      "Sir Francis Drake",
+      "Dame Ellen MacArthur",
+      "Sir Robin Knox-Johnston",
+      "Sir Francis Chichester"
+    ],
+    "correctAnswers": [
+      "Sir Robin Knox-Johnston"
+    ],
+    "explanation": "A British sailor, Sir Francis Chichester, was the first person to sail singlehanded around the world, in 1866/67."
+  },
+  {
+    "id": "zip-491",
+    "sourceScreenshot": 491,
+    "question": "What British writer created the fictional detective Sherlock Holmes?",
+    "options": [
+      "Sir Kingsley Amis",
+      "Robert Louis Stevenson",
+      "Sir Arthur Conan Doyle",
+      "Jane Austen"
+    ],
+    "correctAnswers": [
+      "Sir Arthur Conan Doyle"
+    ],
+    "explanation": "Sir Arthur Conan Doyle was a Scottish doctor and writer. He was best known for his stories about Sherlock Holmes, who was one of the first fictional detectives."
+  },
+  {
+    "id": "zip-492",
+    "sourceScreenshot": 492,
+    "question": "How can you visit the Senedd?",
+    "options": [
+      "Contacting the Education Service",
+      "Contacting the Senedd Booking Service",
+      "Contacting an MP",
+      "Contacting an MLA"
+    ],
+    "correctAnswers": [
+      "Contacting the Senedd Booking Service"
+    ],
+    "explanation": "To book guided tours or seats in the public galleries for the Senedd you can contact the Senedd Booking Service cn 0300 200 6565, email contact@senedd wales or visit www.senedd wales for an online booking form."
+  },
+  {
+    "id": "zip-493",
+    "sourceScreenshot": 493,
+    "question": "How were Elizabeth I and ‘Mary, Queen of Scots’ related?",
+    "options": [
+      "They were cousins",
+      "They were sisters",
+      "They were mother and daughter",
+      "They were not related"
+    ],
+    "correctAnswers": [
+      "They were cousins"
+    ],
+    "explanation": "“Mary, Queen of Scots” was Elizabeth I’s cousin."
+  }
+]

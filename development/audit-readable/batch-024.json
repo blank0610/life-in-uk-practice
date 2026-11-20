@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-312",
+    "sourceScreenshot": 312,
+    "question": "What is the system by which the income tax is automatically taken from the employee’s income by their employer and paid directly to HM Revenue & Customs (HMRC)?",
+    "options": [
+      "Self-assessment",
+      "“Pay As You Earn” (PAYE)",
+      "Tax return",
+      "Pension tax"
+    ],
+    "correctAnswers": [
+      "“Pay As You Earn” (PAYE)"
+    ],
+    "explanation": "For most people, the right amount of income tax is automatically taken from their income from employment by their employer and paid directly to HM Revenue & Customs (HMRC), the government department that collects taxes."
+  },
+  {
+    "id": "zip-313",
+    "sourceScreenshot": 313,
+    "question": "How many British casualties were recorded during the First World War?",
+    "options": [
+      "More than 2 million people",
+      "More than 3 million people",
+      "More than 4 million people",
+      "More than 5 million people"
+    ],
+    "correctAnswers": [
+      "More than 2 million people"
+    ],
+    "explanation": "During the First World War, millions of people were killed or wounded, with more than two million British casualties."
+  },
+  {
+    "id": "zip-314",
+    "sourceScreenshot": 314,
+    "question": "Why did Henry VIII decide to divorce Catherine of Aragon?",
+    "options": [
+      "She was unpopular in the country",
+      "She was too old to give him another child",
+      "For political reasons",
+      "She was accused of taking lovers to the Palace"
+    ],
+    "correctAnswers": [
+      "She was too old to give him another child"
+    ],
+    "explanation": "When Catherine was too old to give him another child, Henry VIII decided to divorce her, hoping that another wife would give him a son to be his heir."
+  },
+  {
+    "id": "zip-315",
+    "sourceScreenshot": 315,
+    "question": "How many local authorities are there in London?",
+    "options": [
+      "22",
+      "25",
+      "33",
+      "43"
+    ],
+    "correctAnswers": [
+      "33"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-316",
+    "sourceScreenshot": 316,
+    "question": "When did British combat troops leave Iraq?",
+    "options": [
+      "In 2004",
+      "In 2005",
+      "In 2006",
+      "In 2009"
+    ],
+    "correctAnswers": [
+      "In 2009"
+    ],
+    "explanation": "British combat troops left Iraq in 2009."
+  },
+  {
+    "id": "zip-317",
+    "sourceScreenshot": 317,
+    "question": "Where is the Parliament of the UK?",
+    "options": [
+      "In Manchester",
+      "In Westminster",
+      "In Windsor Castle",
+      "In Buckingham Palace"
+    ],
+    "correctAnswers": [
+      "In Westminster"
+    ],
+    "explanation": "The UK is governed by the parliament sitting in Westminster."
+  },
+  {
+    "id": "zip-318",
+    "sourceScreenshot": 318,
+    "question": "Which of the following is a criminal offence?",
+    "options": [
+      "Selling tobacco to someone under the age of 18",
+      "Owing money to someone",
+      "Discrimination in the workplace",
+      "Selling faulty goods or services"
+    ],
+    "correctAnswers": [
+      "Selling tobacco to someone under the age of 18"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-319",
+    "sourceScreenshot": 319,
+    "question": "Who used a system of land ownership known as feudalism?",
+    "options": [
+      "The Greeks",
+      "The Vikings",
+      "The Normans",
+      "The Welsh"
+    ],
+    "correctAnswers": [
+      "The Normans"
+    ],
+    "explanation": "The Normans used a system of land ownership known as feudalism."
+  },
+  {
+    "id": "zip-320",
+    "sourceScreenshot": 320,
+    "question": "The line ‘all the world’s a stage’ belongs to which of the following plays or poems written by William Shakespeare?",
+    "options": [
+      "Romeo and Juliet",
+      "Hamlet",
+      "As You Like It",
+      "Sonnet 18"
+    ],
+    "correctAnswers": [
+      "As You Like It"
+    ],
+    "explanation": "All the world’s a stage’ are lines from William Shakespeare's play As You Like It."
+  },
+  {
+    "id": "zip-321",
+    "sourceScreenshot": 321,
+    "question": "During the times of Elizabeth I, English settlers began to colonise:",
+    "options": [
+      "Indonesia",
+      "The eastern coast of America",
+      "The western coast of Australia",
+      "The Pacific Islands"
+    ],
+    "correctAnswers": [
+      "The eastern coast of America"
+    ],
+    "explanation": "In Elizabeth I's time, English settlers first began to colonise the eastern coast of America."
+  },
+  {
+    "id": "zip-322",
+    "sourceScreenshot": 322,
+    "question": "In which city is the Welsh government building, also known as Senedd, located?",
+    "options": [
+      "Edinburgh",
+      "Belfast",
+      "Cardiff Bay",
+      "Swansea"
+    ],
+    "correctAnswers": [
+      "Cardiff Bay"
+    ],
+    "explanation": "In Wales the elected members, known as SMs, meet at the Senedd in Cardiff Bay."
+  },
+  {
+    "id": "zip-323",
+    "sourceScreenshot": 323,
+    "question": "What architectural style became popular in the 19th century?",
+    "options": [
+      "Corinthian",
+      "Baroque",
+      "Medieval Gothic",
+      "Art Deco"
+    ],
+    "correctAnswers": [
+      "Medieval Gothic"
+    ],
+    "explanation": "In the 19th century, the medieval ‘gothic’ style became popular again. As cities expanded, many great public buildings were built in this style. The Houses of Parliament and St Pancras Station were built at this time, as were the town halls in cities such as Manchester and Sheffield."
+  }
+]

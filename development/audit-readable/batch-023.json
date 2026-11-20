@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-299",
+    "sourceScreenshot": 299,
+    "question": "What does the term ‘PDSA’ stand for?",
+    "options": [
+      "People's Defence for Sick Animals",
+      "People’s Dispensary for Sick Animals",
+      "Pilot Program for Sustainable Agriculture",
+      "Program Directive for Sustainable Agriculture"
+    ],
+    "correctAnswers": [
+      "People’s Dispensary for Sick Animals"
+    ],
+    "explanation": "‘PDSA' stands for People’s Dispensary for Sick Animals."
+  },
+  {
+    "id": "zip-300",
+    "sourceScreenshot": 300,
+    "question": "Which of the following TWO islands are ‘Crown dependencies’?",
+    "options": [
+      "Ceylon",
+      "The Isle of Man",
+      "The Channel Islands",
+      "Ireland"
+    ],
+    "correctAnswers": [
+      "The Isle of Man",
+      "The Channel Islands"
+    ],
+    "explanation": "There are several islands which are closely linked with the UK but are not part of it the Channel Islands and the Isle of Man. These have their own governments and are called ‘Crown dependencies’."
+  },
+  {
+    "id": "zip-301",
+    "sourceScreenshot": 301,
+    "question": "When did English settlers begin to colonise the eastern coast of America?",
+    "options": [
+      "During James I's time",
+      "During Henry VII's time",
+      "During Henry VIII's time",
+      "During Elizabeth I’s time"
+    ],
+    "correctAnswers": [
+      "During Elizabeth I’s time"
+    ],
+    "explanation": "In Elizabeth I's time, English settlers first began to colonise the eastern coast of America."
+  },
+  {
+    "id": "zip-302",
+    "sourceScreenshot": 302,
+    "question": "When did the Black Death come to England?",
+    "options": [
+      "In 1248",
+      "In 1348",
+      "In 1358",
+      "In 1414"
+    ],
+    "correctAnswers": [
+      "In 1348"
+    ],
+    "explanation": "In 1348, a disease, probably a form of plague, came to Britain. This was known as the Black Death."
+  },
+  {
+    "id": "zip-303",
+    "sourceScreenshot": 303,
+    "question": "What is the name of the annual event that gives awards in a range of musical categories, such as best British group and best British solo artist?",
+    "options": [
+      "The Brit Awards.",
+      "The MTV Awards",
+      "The BAFTA Awards",
+      "The Mercury Music Prize"
+    ],
+    "correctAnswers": [
+      "The Brit Awards."
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-304",
+    "sourceScreenshot": 304,
+    "question": "What name is given to the elected members of the Welsh government?",
+    "options": [
+      "MSPs",
+      "SMs",
+      "MLAS",
+      "MPs"
+    ],
+    "correctAnswers": [
+      "SMs"
+    ],
+    "explanation": "In Wales the elected members are known as SMs or Senedd Members."
+  },
+  {
+    "id": "zip-305",
+    "sourceScreenshot": 305,
+    "question": "How often do the ministers that form the Cabinet meet to make important decisions about government policy?",
+    "options": [
+      "Every day",
+      "Weekly",
+      "Monthly",
+      "Every six months"
+    ],
+    "correctAnswers": [
+      "Weekly"
+    ],
+    "explanation": "The cabinet is a committee which usually meets weekly and makes important decisions about government policy."
+  },
+  {
+    "id": "zip-307",
+    "sourceScreenshot": 307,
+    "question": "How often do the ministers that form the Cabinet meet to make important decisions about government policy?",
+    "options": [
+      "Every day",
+      "Weekly",
+      "Monthly",
+      "Every six months"
+    ],
+    "correctAnswers": [
+      "Weekly"
+    ],
+    "explanation": "The cabinet is a committee which usually meets weekly and makes important decisions about government policy."
+  },
+  {
+    "id": "zip-308",
+    "sourceScreenshot": 308,
+    "question": "How many Welsh-language channels are there in Wales?",
+    "options": [
+      "None",
+      "One",
+      "Two",
+      "Three"
+    ],
+    "correctAnswers": [
+      "One"
+    ],
+    "explanation": "There is one Welsh-language channel in Wales."
+  },
+  {
+    "id": "zip-309",
+    "sourceScreenshot": 309,
+    "question": "What is the nickname for the great bell of the clock at the Houses of Parliament in London?",
+    "options": [
+      "Tower of London",
+      "Buckingham clock",
+      "Big Ben",
+      "Big Clock"
+    ],
+    "correctAnswers": [
+      "Big Ben"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-310",
+    "sourceScreenshot": 310,
+    "question": "How many countries are members of the United Nations?",
+    "options": [
+      "More than 190 countries",
+      "More than 150 countries",
+      "More than 140 countries",
+      "More than 180 countries"
+    ],
+    "correctAnswers": [
+      "More than 190 countries"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-311",
+    "sourceScreenshot": 311,
+    "question": "Which of the following statements is true?",
+    "options": [
+      "The police force is a public service that helps and protects everyone",
+      "The police force is a private service that helps and protects everyone",
+      "The police force is a private service in charge of rescuing people from dangerous situations",
+      "The police force is a public service that works to avoid road accidents"
+    ],
+    "correctAnswers": [
+      "The police force is a public service that helps and protects everyone"
+    ],
+    "explanation": "The police force is a public service that helps and protects everyone, no matter what their background or where they live."
+  }
+]

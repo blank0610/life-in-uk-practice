@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-433",
+    "sourceScreenshot": 433,
+    "question": "What was the biggest source of employment in Britain before the 18th century?",
+    "options": [
+      "The ship industry",
+      "Agriculture",
+      "Teaching",
+      "Manufacturing jobs"
+    ],
+    "correctAnswers": [
+      "Agriculture"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-434",
+    "sourceScreenshot": 434,
+    "question": "In which city is the Scottish Parliament building, also known as Holyrood, located?",
+    "options": [
+      "Edinburgh",
+      "Belfast",
+      "Aberdeen",
+      "Glasgow"
+    ],
+    "correctAnswers": [
+      "Edinburgh"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-435",
+    "sourceScreenshot": 435,
+    "question": "The UK continues to be a world leader in the development and manufacture of motor-sport technology:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "There is a long history of motor sport in the UK, for both cars and motor cycles. Motor-car racing in the UK started in 1902. The UK continues to be a world leader in the development and manufacture of motor-sport technology."
+  },
+  {
+    "id": "zip-436",
+    "sourceScreenshot": 436,
+    "question": "Why was the ‘Habeas Corpus Act’ of 1679 an important piece of legislation?",
+    "options": [
+      "It allowed people over 21 years old to vote",
+      "It guaranteed that no one could be held prisoner unlawfully",
+      "It abolished slavery throughout the British Empire",
+      "It abolished a number of taxes on imported goods in the UK"
+    ],
+    "correctAnswers": [
+      "It guaranteed that no one could be held prisoner unlawfully"
+    ],
+    "explanation": "The Habeas Corpus Act became law in 1679. This was a very important piece of legislation which remains relevant today. The Act guaranteed that no one could be held prisoner unlawfully. Every prisoner has a right to a court hearing."
+  },
+  {
+    "id": "zip-437",
+    "sourceScreenshot": 437,
+    "question": "What British artist was awarded the Turner Prize?",
+    "options": [
+      "David Allan",
+      "Damien Hirst",
+      "Henry Moore",
+      "John Petts"
+    ],
+    "correctAnswers": [
+      "Damien Hirst"
+    ],
+    "explanation": "Damien Hirst."
+  },
+  {
+    "id": "zip-438",
+    "sourceScreenshot": 438,
+    "question": "How many members has the Council of Europe?",
+    "options": [
+      "15",
+      "47",
+      "190",
+      "5"
+    ],
+    "correctAnswers": [
+      "47"
+    ],
+    "explanation": "The screenshot says the Council of Europe has 47 member countries. This number reflects an older edition and may be outdated; please check the current figure."
+  },
+  {
+    "id": "zip-439",
+    "sourceScreenshot": 439,
+    "question": "In the UK, Members of the Parliament (MPs) are elected on the basis of:",
+    "options": [
+      "Personal achievements",
+      "Instant run-off",
+      "First past the post system (the candidate who gets the most votes)",
+      "Proportional representation"
+    ],
+    "correctAnswers": [
+      "First past the post system (the candidate who gets the most votes)"
+    ],
+    "explanation": "MPs are elected through a system called ‘first past the post’."
+  },
+  {
+    "id": "zip-440",
+    "sourceScreenshot": 440,
+    "question": "Which of the following statements regarding television in Northern Ireland is TRUE?",
+    "options": [
+      "Some programmes are broadcasted in Irish Gaelic",
+      "There is one Irish-language channel",
+      "All programmes are broadcasted in English",
+      "There are no specific programmes to Northern Ireland"
+    ],
+    "correctAnswers": [
+      "Some programmes are broadcasted in Irish Gaelic"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-441",
+    "sourceScreenshot": 441,
+    "question": "In the second half of the 19th century there was an important group of artists who painted detailed pictures on religious or literary themes in bright colours. These were known as:",
+    "options": [
+      "The Pre-Raphaelites",
+      "Suffragettes",
+      "Chartists",
+      "Elizabethans"
+    ],
+    "correctAnswers": [
+      "The Pre-Raphaelites"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-442",
+    "sourceScreenshot": 442,
+    "question": "The Muslim festival known as Eid ul Adha reminds Muslims of their own commitment to God:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Eid ul Adha reminds Muslims of their own commitment to God."
+  },
+  {
+    "id": "zip-443",
+    "sourceScreenshot": 443,
+    "question": "What was the population of the UK in 1901?",
+    "options": [
+      "20 million",
+      "40 million",
+      "30 million",
+      "50 million"
+    ],
+    "correctAnswers": [
+      "40 million"
+    ],
+    "explanation": "The population of the UK in 1901 was 40 million people."
+  },
+  {
+    "id": "zip-444",
+    "sourceScreenshot": 444,
+    "question": "People in the UK do NOT have to pay tax on:",
+    "options": [
+      "Income from expensive gifts",
+      "Income from savings",
+      "Income from property",
+      "Pensions"
+    ],
+    "correctAnswers": [
+      "Income from expensive gifts"
+    ],
+    "explanation": ""
+  }
+]

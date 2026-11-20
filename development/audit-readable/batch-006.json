@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-80",
+    "sourceScreenshot": 80,
+    "question": "When does Lent take place?",
+    "options": [
+      "40 days before Christmas",
+      "40 days after Christmas",
+      "40 days before Easter",
+      "40 days after Easter"
+    ],
+    "correctAnswers": [
+      "40 days before Easter"
+    ],
+    "explanation": "The 40 days before Easter are known as Lent. It is a time when Christians take time to reflect and prepare for Easter."
+  },
+  {
+    "id": "zip-81",
+    "sourceScreenshot": 81,
+    "question": "Which of the following national galleries is NOT located in London?",
+    "options": [
+      "Tate Britain",
+      "The National Gallery",
+      "Tate Modern",
+      "The National Museum"
+    ],
+    "correctAnswers": [
+      "The National Museum"
+    ],
+    "explanation": "The National Museum is located in Cardiff, Wales."
+  },
+  {
+    "id": "zip-82",
+    "sourceScreenshot": 82,
+    "question": "How much can you be fined if you watch TV but do not have a TV licence?",
+    "options": [
+      "Up to £500",
+      "Up to £1000",
+      "Up to £2000",
+      "Up to £3000"
+    ],
+    "correctAnswers": [
+      "Up to £1000"
+    ],
+    "explanation": "You will receive a fine of up to £1,000 if you watch TV but do not have a TV licence."
+  },
+  {
+    "id": "zip-83",
+    "sourceScreenshot": 83,
+    "question": "How old was the clock at the Houses of Parliament in London, also known as 'Big Ben', according to the source?",
+    "options": [
+      "100 years old",
+      "150 years old",
+      "200 years old",
+      "250 years old"
+    ],
+    "correctAnswers": [
+      "150 years old"
+    ],
+    "explanation": "Big Ben is the nickname for the great bell of the clock at the House of Parliament in London. "
+  },
+  {
+    "id": "zip-84",
+    "sourceScreenshot": 84,
+    "question": "The UK was a member of the European Union but did not use the Euro.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-85",
+    "sourceScreenshot": 85,
+    "question": "The North Atlantic Treaty Organisation (NATO) was created for which TWO purposes?",
+    "options": [
+      "Protect and promote human rights in those countries",
+      "Help each other if they come under attack",
+      "Maintain peace between all its members",
+      "Promote free trade amongst its members"
+    ],
+    "correctAnswers": [
+      "Help each other if they come under attack",
+      "Maintain peace between all its members"
+    ],
+    "explanation": "NATO is a group of European and North American countries that have agreed to help each other if they come under attack. "
+  },
+  {
+    "id": "zip-86",
+    "sourceScreenshot": 86,
+    "question": "The small claims procedure is used in England and Wales for minor disputes for:",
+    "options": [
+      "Claims of less than £15,000",
+      "Claims of less than £5,000",
+      "Claims of less than £3,500",
+      "Claims of less than £10,000"
+    ],
+    "correctAnswers": [
+      "Claims of less than £10,000"
+    ],
+    "explanation": "This procedure is used for claims of less than £10,000 in England and Wales, £5,000 using the simple claims procedure in Scotland, and £5,000 through the small claims process in Northern Ireland."
+  },
+  {
+    "id": "zip-87",
+    "sourceScreenshot": 87,
+    "question": "What name is given to the period in the 18th century when new ideas about politics, philosophy and science were developed?",
+    "options": [
+      "The Enlightenment",
+      "The Glorious Revolution",
+      "The Industrial Revolution",
+      "The Elizabethan period"
+    ],
+    "correctAnswers": [
+      "The Enlightenment"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-88",
+    "sourceScreenshot": 88,
+    "question": "What is the meaning of 'Magna Carta'?",
+    "options": [
+      "The Big Charter",
+      "The Great Charter",
+      "The King's Charter",
+      "The Small Charter"
+    ],
+    "correctAnswers": [
+      "The Great Charter"
+    ],
+    "explanation": "The Magna Carta (which means the Great Charter). The Magna Carta established the idea that even the king was subject to the law. It protected the rights of the nobility and restricted the king’s power to collect taxes or to make and change laws."
+  },
+  {
+    "id": "zip-89",
+    "sourceScreenshot": 89,
+    "question": "When did the Wars of the Roses end?",
+    "options": [
+      "1455",
+      "1462",
+      "1478",
+      "1485"
+    ],
+    "correctAnswers": [
+      "1485"
+    ],
+    "explanation": "The Wars of the Roses ended with the Battle of Bosworth Field in 1485."
+  },
+  {
+    "id": "zip-90",
+    "sourceScreenshot": 90,
+    "question": "Which of the following is the responsibility of the Chancellor of the Exchequer?",
+    "options": [
+      "Education",
+      "Agriculture",
+      "Economy",
+      "Defence"
+    ],
+    "correctAnswers": [
+      "Economy"
+    ],
+    "explanation": "The Chancellor of the Exchequer is responsible for the economy."
+  },
+  {
+    "id": "zip-91",
+    "sourceScreenshot": 91,
+    "question": "At which British university did Isaac Newton study?",
+    "options": [
+      "University of Bolton",
+      "University of Cambridge",
+      "Cranfield University",
+      "University of Dundee"
+    ],
+    "correctAnswers": [
+      "University of Cambridge"
+    ],
+    "explanation": "Isaac Newton studied at Cambridge University."
+  }
+]

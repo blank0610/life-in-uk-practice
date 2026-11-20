@@ -1,0 +1,107 @@
+[
+  {
+    "id": "zip-519",
+    "sourceScreenshot": 519,
+    "question": "According to the 2011 Census, what percentage of the population identified themselves as Jewish?",
+    "options": [
+      "Less than 0.5%",
+      "Less than 1%",
+      "Less than 1.5%",
+      "Less than 2%"
+    ],
+    "correctAnswers": [
+      "Less than 0.5%"
+    ],
+    "explanation": "According to the 2011 Census, less than 0.5% of people identity themselves as Jewish."
+  },
+  {
+    "id": "zip-520",
+    "sourceScreenshot": 520,
+    "question": "equal pay and made it illegal for employees to discriminate against women because of their gender:",
+    "options": [
+      "The Punk movement",
+      "The Enlightenment",
+      "The Swinging Sixties",
+      "The Suffrage"
+    ],
+    "correctAnswers": [
+      "The Swinging Sixties"
+    ],
+    "explanation": "The Swinging Sixties was a time when the Parliament passed new laws giving women the right to equal pay and made it illegal for employers to discriminate against women because of their gender."
+  },
+  {
+    "id": "zip-521",
+    "sourceScreenshot": 521,
+    "question": "What name is given to the members of the House of Lords?",
+    "options": [
+      "Cabinet",
+      "Cavaliers",
+      "Peers",
+      "Housesteads"
+    ],
+    "correctAnswers": [
+      "Peers"
+    ],
+    "explanation": "Members of the House of Lords, known as peers, are not elected by the people and do not represent a constituency."
+  },
+  {
+    "id": "zip-522",
+    "sourceScreenshot": 522,
+    "question": "Where can you find a statue of Boudica, the queen of the Iceni and one of the tribal leaders who fought against the Romans?",
+    "options": [
+      "At London Bridge",
+      "At Westminster Bridge",
+      "At the Tower of London",
+      "At St James's Park"
+    ],
+    "correctAnswers": [
+      "At Westminster Bridge"
+    ],
+    "explanation": "There is a statue of Boudicca, the queen of the Iceni, on Westminster Bridge in London, near the Houses of Parliament."
+  },
+  {
+    "id": "zip-523",
+    "sourceScreenshot": 523,
+    "question": "Which of the following castles is located in Scotland?",
+    "options": [
+      "Conwy Castle",
+      "Caernarfon Castle",
+      "Crathes Castle",
+      "Windsor Castle"
+    ],
+    "correctAnswers": [
+      "Crathes Castle"
+    ],
+    "explanation": "Crathes Castle and Inveraray Castle are located in Scotland."
+  },
+  {
+    "id": "zip-524",
+    "sourceScreenshot": 524,
+    "question": "For how long was Britain a republic under the leadership of Oliver Cromwell?",
+    "options": [
+      "9 years",
+      "10 years",
+      "11 years",
+      "12 years"
+    ],
+    "correctAnswers": [
+      "11 years"
+    ],
+    "explanation": "Britain was a republic under the leadership of Oliver Cromwell for 11 years."
+  },
+  {
+    "id": "zip-525",
+    "sourceScreenshot": 525,
+    "question": "Magistrates and Justices of the Peace (JPs) are members of:",
+    "options": [
+      "The House of Commons",
+      "The Cabinet",
+      "The local community",
+      "The Parliament"
+    ],
+    "correctAnswers": [
+      "The local community"
+    ],
+    "explanation": "Magistrates and Justices of the Peace (JPs) are members of the local community."
+  }
+]

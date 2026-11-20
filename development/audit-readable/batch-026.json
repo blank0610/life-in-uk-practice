@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-336",
+    "sourceScreenshot": 336,
+    "question": "Which of the following statements regarding Gaelic language is TRUE?",
+    "options": [
+      "In Wales, Gaelic is spoken in some parts of the coast",
+      "In Scotland, Gaelic is spoken everywhere",
+      "In Scotland, Gaelic is spoken in some parts of the Highlands and Islands",
+      "In Wales, Gaelic is the main language"
+    ],
+    "correctAnswers": [
+      "In Scotland, Gaelic is spoken in some parts of the Highlands and Islands"
+    ],
+    "explanation": "In Scotland, Gaelic is spoken in some parts of the Highlands and Islands, and in Northern Ireland some people speak Irish Gaelic."
+  },
+  {
+    "id": "zip-337",
+    "sourceScreenshot": 337,
+    "question": "Participation in community life is a fundamental principle of British life.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The fundamental principles of British life include: participation in community life."
+  },
+  {
+    "id": "zip-338",
+    "sourceScreenshot": 338,
+    "question": "How many British citizens left the country between 1853 and 1913?",
+    "options": [
+      "10 million",
+      "13 million",
+      "15 million",
+      "18 million"
+    ],
+    "correctAnswers": [
+      "13 million"
+    ],
+    "explanation": "Between 1853 and 1913, as many as 13 million British citizens left the country."
+  },
+  {
+    "id": "zip-339",
+    "sourceScreenshot": 339,
+    "question": "Where was the main Olympic site for the 2012 Games?",
+    "options": [
+      "Stratford",
+      "Bristol",
+      "Liverpool",
+      "Watford"
+    ],
+    "correctAnswers": [
+      "Stratford"
+    ],
+    "explanation": "The main Olympic site for the 2012 Games was in Stratford, East London."
+  },
+  {
+    "id": "zip-340",
+    "sourceScreenshot": 340,
+    "question": "Who forms the shadow cabinet?",
+    "options": [
+      "Senior opposition MPs appointed by the leader of the opposition",
+      "Junior opposition MPs appointed by the leader of the governing party",
+      "Junior opposition MPs appointed by the leader of the opposition",
+      "Local councillors"
+    ],
+    "correctAnswers": [
+      "Senior opposition MPs appointed by the leader of the opposition"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-341",
+    "sourceScreenshot": 341,
+    "question": "Who directed the movie brief Encounter in 1940 ¢",
+    "options": [
+      "Alfred Hitchcock",
+      "Hugh Hudson",
+      "Carol Reed",
+      "David Lean"
+    ],
+    "correctAnswers": [
+      "David Lean"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-342",
+    "sourceScreenshot": 342,
+    "question": "Who was the leader of the English Republic?",
+    "options": [
+      "King Richard III",
+      "Oliver Cromwell",
+      "Charles II",
+      "Charles I"
+    ],
+    "correctAnswers": [
+      "Oliver Cromwell"
+    ],
+    "explanation": "Oliver Cromwell was the leader of the English republic."
+  },
+  {
+    "id": "zip-343",
+    "sourceScreenshot": 343,
+    "question": "According to the 2011 Census, what percentage of the population identified themselves as Hindu?",
+    "options": [
+      "0.5%",
+      "1%",
+      "15%",
+      "3%"
+    ],
+    "correctAnswers": [
+      "15%"
+    ],
+    "explanation": "In the 2011 Census, 59% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4.8%), Hindu (1.5%), Sikh (0.8%), Jewish or Buddhist (both less than 0.5%)."
+  },
+  {
+    "id": "zip-344",
+    "sourceScreenshot": 344,
+    "question": "People in the UK have to pay tax on any earnings from (choose THREE options)?",
+    "options": [
+      "Profits in self-employment",
+      "Income from property, savings and dividends",
+      "Valuable gifts",
+      "Taxable benefits"
+    ],
+    "correctAnswers": [
+      "Profits in self-employment",
+      "Income from property, savings and dividends",
+      "Taxable benefits"
+    ],
+    "explanation": "People in the UK have to pay tax on their income, which includes: wages from paid employment, profits from self-employment, taxable benefits, pensions and income from property, savings and dividends."
+  },
+  {
+    "id": "zip-345",
+    "sourceScreenshot": 345,
+    "question": "How many devolved administrations are there in the UK?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswers": [
+      "3"
+    ],
+    "explanation": "There are three devolved administrations in the UK: the Welsh government, the Scottish Parliament and the Northern Ireland Assembly."
+  },
+  {
+    "id": "zip-346",
+    "sourceScreenshot": 346,
+    "question": "Who is responsible for interpreting the law and ensuring that trials are conducted fairly?",
+    "options": [
+      "The government",
+      "The police officers",
+      "The judiciary",
+      "The Prime Minister and the MPs"
+    ],
+    "correctAnswers": [
+      "The judiciary"
+    ],
+    "explanation": "Judges (who are together called ‘the judiciary’) are responsible for interpreting the law and ensuring that trials are conducted fairly."
+  },
+  {
+    "id": "zip-347",
+    "sourceScreenshot": 347,
+    "question": "How often do people who are 70 years old or over need to renew their driving licence?",
+    "options": [
+      "Every year",
+      "Every 2 years",
+      "Every 3 years",
+      "Every 5 years"
+    ],
+    "correctAnswers": [
+      "Every 3 years"
+    ],
+    "explanation": "Drivers can use their driving licence until they are 70 years old. After that, the licence is valid for three years at a time."
+  }
+]

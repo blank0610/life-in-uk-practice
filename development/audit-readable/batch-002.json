@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-29",
+    "sourceScreenshot": 29,
+    "question": "What is the name of the centrepiece to the Remembrance Day service located in Whitehall, London?",
+    "options": [
+      "Cenotaph",
+      "Stonehenge",
+      "Grimsby",
+      "Scunthorpe"
+    ],
+    "correctAnswers": [
+      "Cenotaph"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-30",
+    "sourceScreenshot": 30,
+    "question": "Who was the inventor of the World Wide Web?",
+    "options": [
+      "Sir Tim Berners-Lee",
+      "Sir Peter Mansfield",
+      "Sir Ian Wilmut",
+      "Sir Bernard Lovell"
+    ],
+    "correctAnswers": [
+      "Sir Tim Berners-Lee"
+    ],
+    "explanation": "The inventor of the World Wide Web, Sir Tim Berners-Lee (1955-), is British."
+  },
+  {
+    "id": "zip-31",
+    "sourceScreenshot": 31,
+    "question": "What does the UK offer to its residents or citizens (choose FIVE answers)?",
+    "options": [
+      "Freedom of belief and religion",
+      "Freedom of speech",
+      "Free university tuition fees",
+      "Freedom from unfair discrimination",
+      "A right to a fair trial",
+      "A right to join in the election of a government"
+    ],
+    "correctAnswers": [
+      "Freedom of belief and religion",
+      "Freedom of speech",
+      "Freedom from unfair discrimination",
+      "A right to a fair trial",
+      "A right to join in the election of a government"
+    ],
+    "explanation": "The UK offers to its residents or citizens: freedom of belief and religion, freedom of speech, freedom from unfair discrimination, a right to a fair trial and a right to join in the election of a government."
+  },
+  {
+    "id": "zip-32",
+    "sourceScreenshot": 32,
+    "question": "When did the Wars of the Roses start?",
+    "options": [
+      "1388",
+      "1455",
+      "1462",
+      "1478"
+    ],
+    "correctAnswers": [
+      "1455"
+    ],
+    "explanation": "In 1455. a civil war was begun to decide who should be king of England. It was fought between the supporters of two families: the House of Lancaster and the House of York."
+  },
+  {
+    "id": "zip-34",
+    "sourceScreenshot": 34,
+    "question": "How many members does the Scottish Parliament have?",
+    "options": [
+      "60",
+      "90",
+      "120",
+      "129"
+    ],
+    "correctAnswers": [
+      "129"
+    ],
+    "explanation": "There are 129 members of the Scottish Parliament (MSPs), elected by a form of Proportional representation."
+  },
+  {
+    "id": "zip-35",
+    "sourceScreenshot": 35,
+    "question": "What does the term 'coalition' refer to?",
+    "options": [
+      "If no political party wins a majority, a new election is held to vote for one of the top two parties only",
+      "The candidate who gets the most votes is elected",
+      "If no political party wins a majority, two parties may join and govern together",
+      "If an MP dies or resigns, there will be a fresh election"
+    ],
+    "correctAnswers": [
+      "If no political party wins a majority, two parties may join and govern together"
+    ],
+    "explanation": "The government is usually formed by the party that wins the majority of constituencies. If no party wins a majority, two parties may join together to form a coalition."
+  },
+  {
+    "id": "zip-36",
+    "sourceScreenshot": 36,
+    "question": "The public can listen to debates in the Palace of Westminster from public galleries in both the House of Commons and the House of Lords.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-37",
+    "sourceScreenshot": 37,
+    "question": "Pool and darts are traditional pub games.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True."
+  },
+  {
+    "id": "zip-38",
+    "sourceScreenshot": 38,
+    "question": "When did the UK formally leave the European Union?",
+    "options": [
+      "31 January 2019",
+      "30 January 2020",
+      "31 January 2020",
+      "30 January 2019"
+    ],
+    "correctAnswers": [
+      "31 January 2020"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-39",
+    "sourceScreenshot": 39,
+    "question": "What is the minimum age requirement in the UK to drink wine or beer with a meal provided you are with someone over 18?",
+    "options": [
+      "14 years old",
+      "15 years old",
+      "16 years old",
+      "17 years old"
+    ],
+    "correctAnswers": [
+      "16 years old"
+    ],
+    "explanation": "When they are 16, people can drink wine or beer with a meal in a hotel or restaurant (including eating areas in pubs) as long as they are with someone over 18."
+  },
+  {
+    "id": "zip-40",
+    "sourceScreenshot": 40,
+    "question": "Who is the spiritual leader of the Church of England?",
+    "options": [
+      "The Pope",
+      "The Archbishop of Canterbury",
+      "St Augustine",
+      "St Columba"
+    ],
+    "correctAnswers": [
+      "The Archbishop of Canterbury"
+    ],
+    "explanation": "The spiritual leader of the Church of England is the Archbishop of Canterbury."
+  },
+  {
+    "id": "zip-41",
+    "sourceScreenshot": 41,
+    "question": "Civil servants cannot stand for public office.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Most citizens of the UK, Ireland or the Commonwealth aged 18 or over can stand for public office."
+  }
+]

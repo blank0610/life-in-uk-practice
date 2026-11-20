@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-384",
+    "sourceScreenshot": 384,
+    "question": "Who was Henry VII?",
+    "options": [
+      "The leader of the House of York",
+      "The leader of the House of Lancaster",
+      "The leader of the House of Buckingham",
+      "The leader of the House of Leeds"
+    ],
+    "correctAnswers": [
+      "The leader of the House of Lancaster"
+    ],
+    "explanation": "Henry VII was the leader of the House of Lancaster."
+  },
+  {
+    "id": "zip-385",
+    "sourceScreenshot": 385,
+    "question": "When were the Houses of Parliament built?",
+    "options": [
+      "In the 17th century",
+      "In the 18th century",
+      "In the 19th century",
+      "In the 20th century"
+    ],
+    "correctAnswers": [
+      "In the 19th century"
+    ],
+    "explanation": "The Houses of Parliament and St Pancras Station were built in the 19th century, as were the town halls in cities such as Manchester and Sheffield."
+  },
+  {
+    "id": "zip-386",
+    "sourceScreenshot": 386,
+    "question": "How many volunteers work for the National Trust?",
+    "options": [
+      "More than 71,000",
+      "More than 81,000",
+      "More than 61,000",
+      "More than 91,000"
+    ],
+    "correctAnswers": [
+      "More than 61,000"
+    ],
+    "explanation": "There are now more than 61,000 volunteers helping to keep the National Trust running."
+  },
+  {
+    "id": "zip-387",
+    "sourceScreenshot": 387,
+    "question": "What was the population of the UK in 1851?",
+    "options": [
+      "20 million",
+      "40 million",
+      "30 million",
+      "50 million"
+    ],
+    "correctAnswers": [
+      "20 million"
+    ],
+    "explanation": "The population of the UK in 1851 was 20 million people."
+  },
+  {
+    "id": "zip-388",
+    "sourceScreenshot": 388,
+    "question": "The line ‘a rose by any other name’ belongs to which of the following plays or poems written by William Shakespeare?",
+    "options": [
+      "Romeo and Juliet",
+      "Hamlet",
+      "As You Like It",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "Romeo and Juliet"
+    ],
+    "explanation": "“‘Arose by any other name’ is a line from William Shakespeare's play Romeo and Juliet"
+  },
+  {
+    "id": "zip-389",
+    "sourceScreenshot": 389,
+    "question": "Which religious community celebrates Vaisakhi?",
+    "options": [
+      "Muslim",
+      "Hindu",
+      "Sikh",
+      "Jewish"
+    ],
+    "correctAnswers": [
+      "Sikh"
+    ],
+    "explanation": "Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the founding of the Sikh community known as the Khalsa."
+  },
+  {
+    "id": "zip-390",
+    "sourceScreenshot": 390,
+    "question": "Which book written by JRR Tolkien was voted the country’s best-loved novel in 2003?",
+    "options": [
+      "Harry Potter",
+      "The Lord of the Rings",
+      "Sense and Sensibility",
+      "Pride and Prejudice"
+    ],
+    "correctAnswers": [
+      "The Lord of the Rings"
+    ],
+    "explanation": "In 2003, The Lord of the Rings by JRR Tolkien was voted the country’s best-loved novel."
+  },
+  {
+    "id": "zip-391",
+    "sourceScreenshot": 391,
+    "question": "The Senedd has 129 Senedd members.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Since the May 2026 election, the Senedd has 96 Members (previously 60). The Scottish Parliament has 129 Members. Source: senedd.wales/how-we-work/our-role/senedd-election-and-member-changes/"
+  },
+  {
+    "id": "zip-392",
+    "sourceScreenshot": 392,
+    "question": "Which british scientist mage important discoveries working with steam power?",
+    "options": [
+      "David Hume",
+      "Adan Smith",
+      "Alan Turing",
+      "James Watt"
+    ],
+    "correctAnswers": [
+      "James Watt"
+    ],
+    "explanation": "James Watt's work on steam power, helped the progress of the Industrial Revolution."
+  },
+  {
+    "id": "zip-393",
+    "sourceScreenshot": 393,
+    "question": "How can you visit the Northern Ireland Assembly (choose TWO options)?",
+    "options": [
+      "Contacting the Education Service",
+      "Contacting an MSP",
+      "Contacting an MLA",
+      "Arranging a tour through the visitor services"
+    ],
+    "correctAnswers": [
+      "Contacting the Education Service",
+      "Contacting an MLA"
+    ],
+    "explanation": "There are two ways to arrange a visit to the Northern Ireland Assembly at Stormont. You can either contact the Education Service (details are on the Northern Ireland Assembly website at http://www.niassembly.gov.uk) or contact an MLA."
+  },
+  {
+    "id": "zip-394",
+    "sourceScreenshot": 394,
+    "question": "When was the first television broadcast made?",
+    "options": [
+      "In 1922",
+      "In 1932",
+      "In 1942",
+      "In 1952"
+    ],
+    "correctAnswers": [
+      "In 1932"
+    ],
+    "explanation": "In 1932 Scotsman John Logie Baird made the first television broadcast between London and Glasgow."
+  },
+  {
+    "id": "zip-395",
+    "sourceScreenshot": 395,
+    "question": "For what sort of claims is the small claims procedure in Northern Ireland used for?",
+    "options": [
+      "Claims of less than £3,000",
+      "Claims of less than £4,000",
+      "Claims of less than £5,000",
+      "Claims of less than £6,000"
+    ],
+    "correctAnswers": [
+      "Claims of less than £3,000"
+    ],
+    "explanation": "The small claims procedure is used for claims of less than £3,000 in Northern Ireland."
+  }
+]

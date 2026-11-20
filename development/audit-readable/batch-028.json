@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-360",
+    "sourceScreenshot": 360,
+    "question": "According to 2011 Census, what percentage of the population identified themselves as Sikh?",
+    "options": [
+      "0.1%",
+      "0.5%",
+      "0.8%",
+      "2%"
+    ],
+    "correctAnswers": [
+      "0.8%"
+    ],
+    "explanation": "In the 2011 Census, 59% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4.8%), Hindu (1.5%), Sikh (0.8%), Jewish or Buddhist (both less than 0.5%)."
+  },
+  {
+    "id": "zip-361",
+    "sourceScreenshot": 361,
+    "question": "Which court usually deals with serious criminal cases in Scotland?",
+    "options": [
+      "The Sheriff Court",
+      "The Grown Court",
+      "The High Court",
+      "The Magistrates’ Court"
+    ],
+    "correctAnswers": [
+      "The Sheriff Court"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-362",
+    "sourceScreenshot": 362,
+    "question": "Which of the following are British overseas territories?",
+    "options": [
+      "Ireland",
+      "The Canary Islands",
+      "St Helena",
+      "The Falkland Islands"
+    ],
+    "correctAnswers": [
+      "St Helena",
+      "The Falkland Islands"
+    ],
+    "explanation": "There are several British overseas territories in other parts of the world, such as St Helena and the Falkland Islands."
+  },
+  {
+    "id": "zip-363",
+    "sourceScreenshot": 363,
+    "question": "When did Alexander Fleming win the Nobel Prize in medicine for the discovery of the penicillin?",
+    "options": [
+      "In 1935",
+      "In 1945",
+      "In 1950",
+      "In 1952"
+    ],
+    "correctAnswers": [
+      "In 1945"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-364",
+    "sourceScreenshot": 364,
+    "question": "What is Sir Jackie Stewart famous for?",
+    "options": [
+      "He captained the English football team that won the World Cup in 1966",
+      "He captained the English cricket team",
+      "He won the Formula 1 world championship three times",
+      "He won gold medals in rowing in five consecutive Olympic Games"
+    ],
+    "correctAnswers": [
+      "He won the Formula 1 world championship three times"
+    ],
+    "explanation": "Sir Jackie Stewart is a Scottish former racing driver who won the Formula 1 world championship three times."
+  },
+  {
+    "id": "zip-365",
+    "sourceScreenshot": 365,
+    "question": "The decade of the 1960s was a period of significant social change, when there was growth in British fashion, cinema and popular music:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-366",
+    "sourceScreenshot": 366,
+    "question": "When did Britain and France develop the world’s only supersonic commercial airliner known as ‘The Concorde’?",
+    "options": [
+      "1970s",
+      "1950s",
+      "1980s",
+      "1960s"
+    ],
+    "correctAnswers": [
+      "1960s"
+    ],
+    "explanation": "The 1960s was a time of technological progress, when Britain and France developed the world’s only supersonic commercial airliner, Concorde."
+  },
+  {
+    "id": "zip-367",
+    "sourceScreenshot": 367,
+    "question": "When was the United Nations set up?",
+    "options": [
+      "Before the Second World War",
+      "After the Second World War",
+      "Before the First World War",
+      "Before the War of the Roses"
+    ],
+    "correctAnswers": [
+      "After the Second World War"
+    ],
+    "explanation": "The UN was set up after the Second World War and aims to prevent war and promote international peace and security."
+  },
+  {
+    "id": "zip-368",
+    "sourceScreenshot": 368,
+    "question": "Where can you find copies of the ‘Hansard’?",
+    "options": [
+      "In the Guardian newspaper",
+      "In large libraries and at www.parliament.uk",
+      "In bookshops",
+      "In any library"
+    ],
+    "correctAnswers": [
+      "In large libraries and at www.parliament.uk"
+    ],
+    "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard. Written reports can be found in large libraries and at www.parliament.uk."
+  },
+  {
+    "id": "zip-369",
+    "sourceScreenshot": 369,
+    "question": "Which court normally deals with cases of children aged 10 to 17 in England, Wales and Northern Ireland?",
+    "options": [
+      "The High Court",
+      "The Youth Court",
+      "The Magistrates’ Court",
+      "The Sheriff Court"
+    ],
+    "correctAnswers": [
+      "The Youth Court"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge. The mast serious cases will go the Grown Court."
+  },
+  {
+    "id": "zip-370",
+    "sourceScreenshot": 370,
+    "question": "How old do you need to be to be able to go into betting shops or gambling clubs?",
+    "options": [
+      "16 years old",
+      "18 years old",
+      "20 years old",
+      "21 years old"
+    ],
+    "correctAnswers": [
+      "18 years old"
+    ],
+    "explanation": "You have to be 18 to go into betting shops or gambling clubs."
+  },
+  {
+    "id": "zip-371",
+    "sourceScreenshot": 371,
+    "question": "Which flag has a diagonal white cross on a blue ground?",
+    "options": [
+      "The cross of St Andrew, patron saint of Scotland",
+      "The cross of St Patrick, patron saint of Ireland",
+      "The cross of St George, patron saint of England",
+      "The cross of St David, patron saint of Wales"
+    ],
+    "correctAnswers": [
+      "The cross of St Andrew, patron saint of Scotland"
+    ],
+    "explanation": ""
+  }
+]

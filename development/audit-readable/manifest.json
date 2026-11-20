@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "source": "网站已应用所有拼写校正后的真实题库",
+  "questionCount": 487,
+  "batchSize": 12,
+  "batches": [
+    {
+      "file": "batch-001.json",
+      "fromIndex": 0,
+      "toIndexExclusive": 12,
+      "count": 12,
+      "firstId": "zip-17",
+      "lastId": "zip-28"
+    },
+    {
+      "file": "batch-002.json",
+      "fromIndex": 12,
+      "toIndexExclusive": 24,
+      "count": 12,
+      "firstId": "zip-29",
+      "lastId": "zip-41"
+    },
+    {
+      "file": "batch-003.json",
+      "fromIndex": 24,
+      "toIndexExclusive": 36,
+      "count": 12,
+      "firstId": "zip-42",
+      "lastId": "zip-55"
+    },
+    {
+      "file": "batch-004.json",
+      "fromIndex": 36,
+      "toIndexExclusive": 48,
+      "count": 12,
+      "firstId": "zip-56",
+      "lastId": "zip-67"
+    },
+    {
+      "file": "batch-005.json",
+      "fromIndex": 48,
+      "toIndexExclusive": 60,
+      "count": 12,
+      "firstId": "zip-68",
+      "lastId": "zip-79"
+    },
+    {
+      "file": "batch-006.json",
+      "fromIndex": 60,
+      "toIndexExclusive": 72,
+      "count": 12,
+      "firstId": "zip-80",
+      "lastId": "zip-91"
+    },
+    {
+      "file": "batch-007.json",
+      "fromIndex": 72,
+      "toIndexExclusive": 84,
+      "count": 12,
+      "firstId": "zip-92",
+      "lastId": "zip-104"
+    },
+    {
+      "file": "batch-008.json",
+      "fromIndex": 84,
+      "toIndexExclusive": 96,
+      "count": 12,
+      "firstId": "zip-105",
+      "lastId": "zip-117"
+    },
+    {
+      "file": "batch-009.json",
+      "fromIndex": 96,
+      "toIndexExclusive": 108,
+      "count": 12,
+      "firstId": "zip-118",
+      "lastId": "zip-130"
+    },
+    {
+      "file": "batch-010.json",
+      "fromIndex": 108,
+      "toIndexExclusive": 120,
+      "count": 12,
+      "firstId": "zip-131",
+      "lastId": "zip-144"
+    },
+    {
+      "file": "batch-011.json",
+      "fromIndex": 120,
+      "toIndexExclusive": 132,
+      "count": 12,
+      "firstId": "zip-145",
+      "lastId": "zip-156"
+    },
+    {
+      "file": "batch-012.json",
+      "fromIndex": 132,
+      "toIndexExclusive": 144,
+      "count": 12,
+      "firstId": "zip-157",
+      "lastId": "zip-168"
+    },
+    {
+      "file": "batch-013.json",
+      "fromIndex": 144,
+      "toIndexExclusive": 156,
+      "count": 12,
+      "firstId": "zip-169",
+      "lastId": "zip-180"
+    },
+    {
+      "file": "batch-014.json",
+      "fromIndex": 156,
+      "toIndexExclusive": 168,
+      "count": 12,
+      "firstId": "zip-181",
+      "lastId": "zip-193"
+    },
+    {
+      "file": "batch-015.json",
+      "fromIndex": 168,
+      "toIndexExclusive": 180,
+      "count": 12,
+      "firstId": "zip-194",
+      "lastId": "zip-207"
+    },
+    {
+      "file": "batch-016.json",
+      "fromIndex": 180,
+      "toIndexExclusive": 192,
+      "count": 12,
+      "firstId": "zip-208",
+      "lastId": "zip-225"
+    },
+    {
+      "file": "batch-017.json",
+      "fromIndex": 192,
+      "toIndexExclusive": 204,
+      "count": 12,
+      "firstId": "zip-226",
+      "lastId": "zip-237"
+    },
+    {
+      "file": "batch-018.json",
+      "fromIndex": 204,
+      "toIndexExclusive": 216,
+      "count": 12,
+      "firstId": "zip-238",
+      "lastId": "zip-249"
+    },
+    {
+      "file": "batch-019.json",
+      "fromIndex": 216,
+      "toIndexExclusive": 228,
+      "count": 12,
+      "firstId": "zip-250",
+      "lastId": "zip-261"
+    },
+    {
+      "file": "batch-020.json",
+      "fromIndex": 228,
+      "toIndexExclusive": 240,
+      "count": 12,
+      "firstId": "zip-262",
+      "lastId": "zip-273"
+    },
+    {
+      "file": "batch-021.json",
+      "fromIndex": 240,
+      "toIndexExclusive": 252,
+      "count": 12,
+      "firstId": "zip-274",
+      "lastId": "zip-285"
+    },
+    {
+      "file": "batch-022.json",
+      "fromIndex": 252,
+      "toIndexExclusive": 264,
+      "count": 12,
+      "firstId": "zip-286",
+      "lastId": "zip-298"
+    },
+    {
+      "file": "batch-023.json",
+      "fromIndex": 264,
+      "toIndexExclusive": 276,
+      "count": 12,
+      "firstId": "zip-299",
+      "lastId": "zip-311"
+    },
+    {
+      "file": "batch-024.json",
+      "fromIndex": 276,
+      "toIndexExclusive": 288,
+      "count": 12,
+      "firstId": "zip-312",
+      "lastId": "zip-323"
+    },
+    {
+      "file": "batch-025.json",
+      "fromIndex": 288,
+      "toIndexExclusive": 300,
+      "count": 12,
+      "firstId": "zip-324",
+      "lastId": "zip-335"
+    },
+    {
+      "file": "batch-026.json",
+      "fromIndex": 300,
+      "toIndexExclusive": 312,
+      "count": 12,
+      "firstId": "zip-336",
+      "lastId": "zip-347"
+    },
+    {
+      "file": "batch-027.json",
+      "fromIndex": 312,
+      "toIndexExclusive": 324,
+      "count": 12,
+      "firstId": "zip-348",
+      "lastId": "zip-359"
+    },
+    {
+      "file": "batch-028.json",
+      "fromIndex": 324,
+      "toIndexExclusive": 336,
+      "count": 12,
+      "firstId": "zip-360",
+      "lastId": "zip-371"
+    },
+    {
+      "file": "batch-029.json",
+      "fromIndex": 336,
+      "toIndexExclusive": 348,
+      "count": 12,
+      "firstId": "zip-372",
+      "lastId": "zip-383"
+    },
+    {
+      "file": "batch-030.json",
+      "fromIndex": 348,
+      "toIndexExclusive": 360,
+      "count": 12,
+      "firstId": "zip-384",
+      "lastId": "zip-395"
+    },
+    {
+      "file": "batch-031.json",
+      "fromIndex": 360,
+      "toIndexExclusive": 372,
+      "count": 12,
+      "firstId": "zip-396",
+      "lastId": "zip-407"
+    },
+    {
+      "file": "batch-032.json",
+      "fromIndex": 372,
+      "toIndexExclusive": 384,
+      "count": 12,
+      "firstId": "zip-408",
+      "lastId": "zip-419"
+    },
+    {
+      "file": "batch-033.json",
+      "fromIndex": 384,
+      "toIndexExclusive": 396,
+      "count": 12,
+      "firstId": "zip-420",
+      "lastId": "zip-432"
+    },
+    {
+      "file": "batch-034.json",
+      "fromIndex": 396,
+      "toIndexExclusive": 408,
+      "count": 12,
+      "firstId": "zip-433",
+      "lastId": "zip-444"
+    },
+    {
+      "file": "batch-035.json",
+      "fromIndex": 408,
+      "toIndexExclusive": 420,
+      "count": 12,
+      "firstId": "zip-445",
+      "lastId": "zip-456"
+    },
+    {
+      "file": "batch-036.json",
+      "fromIndex": 420,
+      "toIndexExclusive": 432,
+      "count": 12,
+      "firstId": "zip-457",
+      "lastId": "zip-468"
+    },
+    {
+      "file": "batch-037.json",
+      "fromIndex": 432,
+      "toIndexExclusive": 444,
+      "count": 12,
+      "firstId": "zip-469",
+      "lastId": "zip-480"
+    },
+    {
+      "file": "batch-038.json",
+      "fromIndex": 444,
+      "toIndexExclusive": 456,
+      "count": 12,
+      "firstId": "zip-481",
+      "lastId": "zip-493"
+    },
+    {
+      "file": "batch-039.json",
+      "fromIndex": 456,
+      "toIndexExclusive": 468,
+      "count": 12,
+      "firstId": "zip-494",
+      "lastId": "zip-506"
+    },
+    {
+      "file": "batch-040.json",
+      "fromIndex": 468,
+      "toIndexExclusive": 480,
+      "count": 12,
+      "firstId": "zip-507",
+      "lastId": "zip-518"
+    },
+    {
+      "file": "batch-041.json",
+      "fromIndex": 480,
+      "toIndexExclusive": 487,
+      "count": 7,
+      "firstId": "zip-519",
+      "lastId": "zip-525"
+    }
+  ]
+}

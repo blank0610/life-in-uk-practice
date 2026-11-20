@@ -103,3 +103,15 @@
 本项目的 GitHub Pages 部署自动产生可供 Life in the UK 每小时巡检读取的纯 JSON 资料：`/data/audit-batches/manifest.json` 和按原始截图编号分组的 `batch-001.json`、`batch-002.json` 等。每道题均含网站最终显示的题干、选项、正确答案及解释（含 OCR 更正）。自动巡检可按 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex` 在目录里找到下一批，避免因压缩的原始题库无法读取而停顿。
 
 分包仅是网站已公开的学习资料，不包含用户的私人笔记或答题进度。**能够读取题目文本不等于核验了原始图片**；原图逐字检查的标记规则继续执行。
+
+## 审核资料同步进入 GitHub 仓库
+
+除了 GitHub Pages 上的 JSON 分包，仓库本身也通过 `.github/workflows/publish-audit-data.yml` 自动保存同一批完整的可读题目：
+
+- 目录：`development/audit-readable/manifest.json`。
+- 每包 12 题：`development/audit-readable/batch-001.json`、`batch-002.json`、`batch-003.json` 等。
+- 读取步骤：先看 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex`，再从 `manifest.json` 中寻找对应分包的 `fromIndex`、`toIndexExclusive`。下一题目前为 `zip-42`，属于 `batch-003.json`。以后不要硬编码这个索引。
+- 每个分包保留实际出现在网站上的英文题干、全部选项、正确答案和解释，能直接使用 GitHub 文件读取工具访问，不必解码压缩题库，也无需读取 GitHub Actions 日志。
+- 来源题库改变时自动重新生成并提交相同的仓库内可读文件；分包只含公开的测试练习题，不含答题历史、私人笔记或个人资料。
+- **文字初检不等于原图核查：** 原始 ZIP 没有持续可读取的 GitHub 影像源；未逐张亲自看图时不得标记 `visually_checked`。
+

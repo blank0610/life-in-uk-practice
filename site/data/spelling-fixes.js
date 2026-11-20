@@ -215,5 +215,10 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-356":{
     questionText:"Which of the following is NOT a British invention?",
     explanationText:"The World Wide Web, the Turing machine and the hovercraft are British inventions. The mobile phone is not."
+  },
+  // 原始截图 #343：被 OCR 漏掉小数点的 15% 应为 1.5%，保留其他文字与原有解释。
+  "zip-343":{
+    optionsText:["0.5%","1%","1.5%","3%"],
+    correctOptionIndices:[2]
   }
 };

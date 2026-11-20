@@ -18,6 +18,24 @@ test("截图#356题干 NOT 与四个发明选项及答案符合原图",()=>{
  assert.deepEqual(Array.from(q.correctAnswers),["The mobile phone"]);
  assert.equal(q.explanation,"The World Wide Web, the Turing machine and the hovercraft are British inventions. The mobile phone is not.");
 });
+test("原图#343 Hindu 2011人口普查小数点不能变成15%",()=>{
+ const q=byId.get("zip-343");
+ assert.equal(q.question,"According to the 2011 Census, what percentage of the population identified themselves as Hindu?");
+ assert.deepEqual(Array.from(q.options),["0.5%","1%","1.5%","3%"]);
+ assert.deepEqual(Array.from(q.correctAnswers),["1.5%"]);
+ assert(q.explanation.includes("Hindu (1.5%)"));
+ assert(!q.options.includes("15%"));
+});
+test("数字答案与解释不一致时仅标记待核图，不靠推测修改答案",()=>{
+ const good={
+  id:"zip-343",question:"According to the 2011 Census, what percentage of the population identified themselves as Hindu?",
+  options:["0.5%","1%","1.5%","3%"],correctAnswers:["1.5%"],
+  explanation:"Population includes Hindu (1.5%), Sikh (0.8%)."
+ };
+ const wrong={...good,options:["0.5%","1%","15%","3%"],correctAnswers:["15%"]};
+ assert(scanQuestionBank([wrong]).review.some(x=>x.reason.includes("答案百分比")));
+ assert(!scanQuestionBank([good]).review.some(x=>x.reason.includes("答案百分比")));
+});
 test("原始截图#316伊拉克英军撤离题已原图核对，答案为2009",()=>{
  const q=byId.get("zip-316");
  assert.equal(q.question,"When did British combat troops leave Iraq?");

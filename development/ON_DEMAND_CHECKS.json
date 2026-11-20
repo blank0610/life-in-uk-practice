@@ -57,6 +57,30 @@
       ],
       "checkedAgainst": "用户原始 ZIP 截图 + CERN / Smithsonian",
       "githubChange": "修复 zip-356 题干 OCR 及恢复原截图解释，新增回归测试与 NOI 自动检查"
+    },
+    {
+      "id": "zip-343",
+      "sourceScreenshot": 343,
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-20T19:22:00Z",
+      "result": "corrected",
+      "question": "According to the 2011 Census, what percentage of the population identified themselves as Hindu?",
+      "options": [
+        "0.5%",
+        "1%",
+        "1.5%",
+        "3%"
+      ],
+      "correctAnswers": [
+        "1.5%"
+      ],
+      "findings": [
+        "网站原选项 15% 漏掉小数点，应为 1.5%；原解释 Hindu (1.5%) 已正确"
+      ],
+      "note": "亲自打开用户 ZIP 的 螢幕擷取畫面 (343).png，核对题干、原图四个选项、绿色高亮答案及下方解释。仅将 OCR 漏掉小数点的 15% 恢复成 1.5%，不改变题干、其他选项或解释；并加入百分比与解释不一致的待核图检测。",
+      "checkedAgainst": "用户原始 ZIP 螢幕擷取畫面 (343).png；无需外部搜索或重写题目",
+      "githubChange": "以完整原图的四个选项覆盖受污染选项，正确答案为1.5%，其余文字保持不变"
     }
   ]
 }

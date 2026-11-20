@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 48,
+  "nextIndex": 60,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -521,6 +521,136 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T03:37:28Z",
       "note": "四选项完整，Robert Burns为苏格兰诗人，与解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 49,
+      "id": "zip-68",
+      "sourceScreenshot": 68,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；1930s答案与解释一致，未见明显拼写、标点或OCR污染。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 50,
+      "id": "zip-69",
+      "sourceScreenshot": 69,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "Belfast答案与解释一致；Dublin、Cork、Edinburgh均为完整干扰项。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 51,
+      "id": "zip-70",
+      "sourceScreenshot": 70,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "April Fool's Day答案与解释一致；解释中弯引号与题目直引号仅为排版差异，未见文字截断。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 52,
+      "id": "zip-71",
+      "sourceScreenshot": 71,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；Dame Ellen MacArthur曾创单人环球航行纪录，但题干未明确纪录年代，须核对原图及历史语境。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；答案Dame Ellen MacArthur与历史纪录相符，但无解释，且最快纪录具有时效性，不能当作当前世界纪录。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 53,
+      "id": "zip-72",
+      "sourceScreenshot": 72,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四个日期选项完整；11 November 1918对应停战日，解释说明上午11时停止战斗，语境中的战争结束日期一致；正式和平条约另有日期。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 54,
+      "id": "zip-73",
+      "sourceScreenshot": 73,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原始截图核对是否漏录。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；Welsh cakes常用面粉、干果及香料，正确选项合理，但缺少解释。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 55,
+      "id": "zip-74",
+      "sourceScreenshot": 74,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四个河岸选项完整；London Eye位于泰晤士河南岸，135米高度与解释一致。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 56,
+      "id": "zip-75",
+      "sourceScreenshot": 75,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；君主可advise, warn and encourage，政策由首相及内阁决定；答案和解释一致，选项语法略生硬但不足以确认OCR错误。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 57,
+      "id": "zip-76",
+      "sourceScreenshot": 76,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "True/False两选项完整；英国为constitutional monarchy，答案与解释一致。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 58,
+      "id": "zip-77",
+      "sourceScreenshot": 77,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；题干将永久居留与入籍的要求合并，英语能力要求有不同类别、豁免及证明方式，需核对现行官方规定和原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项、两项正确答案完整；Life in the UK知识及英语能力通常相关，但题干笼统且将speak and read English视为统一必要条件，不能未经官方核实保证适用所有申请者。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 59,
+      "id": "zip-78",
+      "sourceScreenshot": 78,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'one of these awarded the Nobel Prize' 语法缺失谓语，疑似文字截断或OCR遗漏；待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整，Francis Crick答案合理；1953年DNA双螺旋结构研究及诺贝尔奖的核心事实一致，但解释最后一句不合语法。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 60,
+      "id": "zip-79",
+      "sourceScreenshot": 79,
+      "status": "needs_review",
+      "findings": [
+        "解释将英国国教会建立过程简化为亨利八世因离婚遭拒而建立，需按历史背景核对原图与教材语境。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整，Henry VIII为通常考试答案；解释中的教会独立与宗教改革过程存在历史简化，不宜据此擅自改答案。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
     }
   ],
   "completedRounds": [],

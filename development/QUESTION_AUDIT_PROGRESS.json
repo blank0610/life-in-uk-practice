@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 180,
+  "nextIndex": 192,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1943,6 +1943,138 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T15:54:56Z",
       "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 181,
+      "id": "zip-208",
+      "sourceScreenshot": 208,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原始截图确认是否本来没有解释。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原始截图确认是否本来没有解释。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 182,
+      "id": "zip-209",
+      "sourceScreenshot": 209,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 183,
+      "id": "zip-210",
+      "sourceScreenshot": 210,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 184,
+      "id": "zip-212",
+      "sourceScreenshot": 212,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原始截图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原始截图确认。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 185,
+      "id": "zip-213",
+      "sourceScreenshot": 213,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 186,
+      "id": "zip-214",
+      "sourceScreenshot": 214,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、3个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 187,
+      "id": "zip-220",
+      "sourceScreenshot": 220,
+      "status": "needs_review",
+      "findings": [
+        "题干仅有“marriage introduced in scotland?”，疑似开头文字丢失及大小写OCR问题；需原图核验，不能据解释补写题干。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；题干仅有“marriage introduced in scotland?”，疑似开头文字丢失及大小写OCR问题；需原图核验，不能据解释补写题干。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 188,
+      "id": "zip-221",
+      "sourceScreenshot": 221,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、2个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 189,
+      "id": "zip-222",
+      "sourceScreenshot": 222,
+      "status": "needs_review",
+      "findings": [
+        "解释末尾出现“World War I!”而题干出现“World War II”，疑似数字I/II的OCR差异；需原图核验，不能擅改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；解释末尾出现“World War I!”而题干出现“World War II”，疑似数字I/II的OCR差异；需原图核验，不能擅改。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 190,
+      "id": "zip-223",
+      "sourceScreenshot": 223,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图核验。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 191,
+      "id": "zip-224",
+      "sourceScreenshot": 224,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 192,
+      "id": "zip-225",
+      "sourceScreenshot": 225,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图核验。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
     }
   ],
   "completedRounds": [],

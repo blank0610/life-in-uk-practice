@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 156,
+  "nextIndex": 168,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1675,6 +1675,142 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T13:47:58Z",
       "note": "四部电影选项完整，两个答案Brief Encounter及Lawrence of Arabia均为David Lean作品。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 157,
+      "id": "zip-181",
+      "sourceScreenshot": 181,
+      "status": "needs_review",
+      "findings": [
+        "The G2 也可能指格拉斯哥场地，单选唯一性待核实；SEC Centre 确在格拉斯哥。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项齐全；SEC Centre 与解释相符，但 The G2 场地名称可能造成多个正确选项，待核实地点。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 158,
+      "id": "zip-182",
+      "sourceScreenshot": 182,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；60,000为首日英军伤亡的常见约数，需核对官方史料及原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个数字选项完整，当前答案60,000；缺少解释，未完成史料独立核验。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 159,
+      "id": "zip-183",
+      "sourceScreenshot": 183,
+      "status": "needs_review",
+      "findings": [
+        "题干 untied 疑为 united 的OCR/拼写错误。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "True/False完整；1606年威尔士已与英格兰合并的历史逻辑与True相符，题干有拼写异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 160,
+      "id": "zip-185",
+      "sourceScreenshot": 185,
+      "status": "needs_review",
+      "findings": [
+        "解释声称Concorde为世界唯一超音速商业客机，忽略苏联Tu-144；解释存在事实性过度断言。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个国家组合完整，France and Britain答案正确；解释中world’s only表述不准确。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 161,
+      "id": "zip-186",
+      "sourceScreenshot": 186,
+      "status": "needs_review",
+      "findings": [
+        "正确答案选项显示 $ million，疑似8被OCR识别为$；解释8 million与该选项不一致，且1801年UK人口数字及口径需查证。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项含异常$符号；正确答案引用乱码选项，解释8 million，不能视为已确认事实正确。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 162,
+      "id": "zip-187",
+      "sourceScreenshot": 187,
+      "status": "needs_review",
+      "findings": [
+        "题干 Where is there UK 语法错误，应核对原图是否为 the UK。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个地理方向选项完整，north west of Europe与解释一致，但题干there UK异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 163,
+      "id": "zip-188",
+      "sourceScreenshot": 188,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项完整；欧洲委员会以保护人权、民主和法治为核心，所选人权选项与解释相符。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 164,
+      "id": "zip-189",
+      "sourceScreenshot": 189,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "True/False完整；Hitchcock为英国重要电影导演，答案与解释一致；题干末尾缺句号但不影响作答。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 165,
+      "id": "zip-190",
+      "sourceScreenshot": 190,
+      "status": "needs_review",
+      "findings": [
+        "选项 John McLeod 与解释 John Macleod 拼写不一致；姓名应核对原图与权威来源。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个人名选项完整；正确答案对应人物但姓氏拼写不同，解释与选项未完全一致。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 166,
+      "id": "zip-191",
+      "sourceScreenshot": 191,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个人名选项完整；2002年BBC公众票选Winston Churchill，答案与解释一致。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 167,
+      "id": "zip-192",
+      "sourceScreenshot": 192,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需与原始截图核对是否原本缺失。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个日期选项完整，23 April为St George’s Day；缺少解释。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 168,
+      "id": "zip-193",
+      "sourceScreenshot": 193,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个责任选项完整；两项正确答案均出现在选项中，与解释对应，未见明显OCR异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
     }
   ],
   "completedRounds": [],

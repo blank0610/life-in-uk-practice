@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 132,
+  "nextIndex": 144,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1417,6 +1417,134 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T12:16:11Z",
       "note": "选项答案为超过4亿人，但解释仅描述帝国领土范围，没有说明人口或统计年份；须进一步核对维多利亚时期具体时间点和来源。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 133,
+      "id": "zip-157",
+      "sourceScreenshot": 157,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "第一次世界大战保加利亚属于同盟国阵营，法国、日本、塞尔维亚属于协约国；四选项、答案和解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 134,
+      "id": "zip-158",
+      "sourceScreenshot": 158,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "英国举办过1908、1948、2012三届夏季奥运会，四选项、正确答案及解释一致；题干未区分夏季与冬季，按历史主办记录判断无冲突。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 135,
+      "id": "zip-159",
+      "sourceScreenshot": 159,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "1896年英国公开电影放映的年份与解释一致；四个年份选项完整，未见明显OCR损坏。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 136,
+      "id": "zip-160",
+      "sourceScreenshot": 160,
+      "status": "needs_review",
+      "findings": [
+        "题干 bullding、Weish、末尾弯引号疑似OCR错误；解释将 Welsh government members 与 Senedd 议员混称，需区分政府与议会。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四个地点选项完整，Senedd 是威尔士议会建筑；解释所称民选成员应指 Senedd 议员，而非笼统的 Welsh government members。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 137,
+      "id": "zip-161",
+      "sourceScreenshot": 161,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Southampton 位于英格兰；四个地区选项、正确答案和解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 138,
+      "id": "zip-162",
+      "sourceScreenshot": 162,
+      "status": "needs_review",
+      "findings": [
+        "严重事实错误：正确答案被设为1913年11月11日上午11时，但解释明确为1918年；四个选项均没有正确的1918年11月11日上午11时，必须核对原图并修复题库。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "逐项核查四个选项：1916年11月11日午夜、1913年11月11日上午11时、1916年11月13日晚上11时、1918年2月13日午夜均不符合1918年11月11日上午11时停战。此题目前无正确选项，不能自动替换答案。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 139,
+      "id": "zip-163",
+      "sourceScreenshot": 163,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Florence Nightingale 与现代护理事业发展相关；四选项、答案与解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 140,
+      "id": "zip-164",
+      "sourceScreenshot": 164,
+      "status": "needs_review",
+      "findings": [
+        "1833年法案正式名称为 Slavery Abolition Act 1833；题库选项 The Emancipation Act 属非正式称呼，需核对原始题目和官方史料；解释的 throughout British Empire 也有地域例外及实施时间差异。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四选项中 Emancipation Act 与废奴主题最接近，但不是1833年法案正式名称；不能直接据此改答案。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 141,
+      "id": "zip-165",
+      "sourceScreenshot": 165,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "排灯节通常为五天庆祝期，选项 Five days 与解释一致；四个时长选项完整。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 142,
+      "id": "zip-166",
+      "sourceScreenshot": 166,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "1714年安妮女王去世后乔治一世继位，四个君主选项、答案及解释大体一致；解释将继承过程简写为议会选择，历史背景可进一步补充但不构成直接矛盾。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 143,
+      "id": "zip-167",
+      "sourceScreenshot": 167,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；2005年英国人口约6000万，选项 Just under 60 million 需结合统计口径和具体年份数据核实，待原始截图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四个人口选项完整，当前正确答案为 Just under 60 million，但没有解释或统计来源，暂不视为事实已核实。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 144,
+      "id": "zip-168",
+      "sourceScreenshot": 168,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Habeas Corpus Act 于1679年成为法律，四个年份选项、正确答案及解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
     }
   ],
   "completedRounds": [],

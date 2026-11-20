@@ -80,19 +80,47 @@
 @media(max-width:700px){.audit-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.audit-stat{padding:12px}.audit-stat b{font-size:18px}}
 @media(max-width:420px){.audit-stats{grid-template-columns:1fr 1fr;gap:6px}}
 
-/* 左边导航可随时隐藏，练习题区域立即展开为全宽；手机也能折叠。 */
-.layout.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}
-.layout.sidebar-collapsed aside{display:none}
+/* 简约侧栏切换：紧凑图标按钮、柔和交互、桌面平滑折叠、窄屏友好。 */
+.layout{transition:grid-template-columns .25s cubic-bezier(.22,1,.36,1)}
+.layout aside{min-width:0;overflow:hidden;transition:opacity .17s ease}
+.layout.sidebar-collapsed{grid-template-columns:0px minmax(0,1fr)}
+.layout.sidebar-collapsed aside{opacity:0;visibility:hidden;pointer-events:none;padding-left:0;padding-right:0}
 .top-left{display:flex;align-items:center;gap:13px;min-width:0}
 .top-path{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.sidebar-toggle{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;border:1px solid #dce4f2;border-radius:10px;background:#f2f5ff;color:#384d83;padding:9px 12px;font-size:12px;font-weight:700;letter-spacing:0;flex-shrink:0}
-.sidebar-toggle:hover{background:#e6edff}
-.sidebar-toggle:focus-visible{outline:2px solid #5269c9;outline-offset:2px}
-@media(max-width:850px){.layout.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}}
-@media(max-width:530px){.top{gap:8px}.top-left{gap:7px}.sidebar-toggle{padding:8px 10px}.sidebar-toggle #sidebar-toggle-label{display:none}.top .chip{padding:6px 9px;white-space:nowrap}.top-path{font-size:10px}}
-</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261120-census-hindu-343" defer></script><script type="module" src="./assets/sidebar.js?v=20261120-hide-sidebar"></script><script type="module" src="./assets/app.js?v=20261119-one-percent-slider"></script></head><body><div class="layout">
+.top-divider{width:1px;height:23px;background:#e5eaf4;flex-shrink:0}
+.visually-hidden{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.sidebar-toggle{
+  appearance:none;position:relative;display:inline-grid;place-items:center;
+  width:42px;height:42px;padding:0;flex:0 0 42px;
+  border:1px solid transparent;border-radius:12px;
+  background:transparent;color:#647391;cursor:pointer;letter-spacing:0;
+  transition:background-color .16s ease,color .16s ease,border-color .16s ease,box-shadow .16s ease,transform .16s ease;
+}
+.sidebar-toggle:hover{background:#f1f4fc;color:#3c56a0;border-color:#e3e9f7}
+.sidebar-toggle:active{transform:scale(.94);background:#e9edfb}
+.sidebar-toggle:focus-visible{outline:3px solid #8ca1ef;outline-offset:2px}
+.sidebar-toggle-icon{display:block;flex-shrink:0}
+.sidebar-chevron{transform-origin:13.5px 12px;transition:transform .24s cubic-bezier(.22,1,.36,1)}
+.sidebar-collapsed .sidebar-chevron{transform:rotate(180deg)}
+@media(max-width:850px){
+  .layout{transition:none}
+  .layout.sidebar-collapsed{grid-template-columns:minmax(0,1fr)}
+  .layout.sidebar-collapsed aside{display:none}
+}
+@media(max-width:530px){
+  .top{gap:8px}
+  .top-left{gap:7px}
+  .top-divider{height:18px}
+  .sidebar-toggle{width:40px;height:40px;flex-basis:40px;border-radius:10px}
+  .top .chip{padding:6px 9px;white-space:nowrap}
+  .top-path{font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){
+  .layout,.layout aside,.sidebar-toggle,.sidebar-chevron{transition:none!important}
+}
+</style><script src="./data/questions.js" defer></script><script src="./data/spelling-fixes.js?v=20261120-census-hindu-343" defer></script><script type="module" src="./assets/sidebar.js?v=20261121-modern-toggle"></script><script type="module" src="./assets/app.js?v=20261119-one-percent-slider"></script></head><body><div class="layout">
 <aside id="sidebar-nav"><div class="brand"><span class="flag">🇬🇧</span><span>Life in the UK<small>PRACTICE STUDIO</small></span></div><div class="nav-head">学习空间</div><nav class="nav"><button data-page="practice" class="active">✦ 随机练习</button><button data-page="review">↻ 错题与收藏 <span id="nav-review" class="num">0</span></button><button data-page="library">▤ 题库与备份</button><button data-page="audit">☑ 题库审核记录</button><button data-page="about">ⓘ 网站说明</button></nav><div class="footnote">✓ 学习记录保存在当前浏览器<br>✓ 完全独立于 Stock AI 2</div></aside>
-<main><div class="top"><div class="top-left"><button id="sidebar-toggle" type="button" aria-controls="sidebar-nav" aria-expanded="true" aria-label="收起左侧菜单" title="收起左侧菜单">☰ <span id="sidebar-toggle-label">收起菜单</span></button><span class="top-path">LEARNING / <b id="page-name">随机练习</b></span></div><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><div class="practice-tools"><label class="auto-next-label" for="auto-next-toggle"><input id="auto-next-toggle" type="checkbox" role="switch" checked><span>答对自动下一题</span><strong id="auto-next-state">开启</strong></label><button id="new-question" class="secondary">⤨ 随机换题</button></div></div><div class="card" id="quiz"></div></section>
+<main><div class="top"><div class="top-left"><button id="sidebar-toggle" class="sidebar-toggle" type="button" aria-controls="sidebar-nav" aria-expanded="true" aria-label="收起左侧菜单" title="收起左侧菜单"><svg class="sidebar-toggle-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3.25" y="3.25" width="17.5" height="17.5" rx="3.5"/><path d="M9 3.5v17"/><path class="sidebar-chevron" d="m15 9-3 3 3 3"/></svg><span id="sidebar-toggle-label" class="visually-hidden">收起菜单</span></button><span class="top-divider" aria-hidden="true"></span><span class="top-path">LEARNING / <b id="page-name">随机练习</b></span></div><span class="chip" id="bank-status">等待正式题库</span></div><div class="wrap"><section id="page-practice"><div class="sectitle"><div><div class="kicker dark">PRACTICE</div><h2>随机练习</h2></div><div class="practice-tools"><label class="auto-next-label" for="auto-next-toggle"><input id="auto-next-toggle" type="checkbox" role="switch" checked><span>答对自动下一题</span><strong id="auto-next-state">开启</strong></label><button id="new-question" class="secondary">⤨ 随机换题</button></div></div><div class="card" id="quiz"></div></section>
 <div id="support-panel" aria-label="学习统计和说明"><div class="stats"><div class="stat"><span>累计答题</span><strong id="stat-total">0</strong><small>作答次数</small></div><div class="stat"><span>正确率</span><strong id="stat-rate">—</strong><small>当前题库</small></div><div class="stat"><span>待复习</span><strong id="stat-review">0</strong><small>错题、不懂与收藏</small></div></div>
 <div class="hero"><div class="kicker">YOUR CITIZENSHIP JOURNEY</div><h1>一步一步，<em>练好英国生活考试。</em></h1><p>来自你提供的 ZIP 截图题库。随机出题和排列选项，答错后优先重练；答对题在达到设定的其他题目完成比例后再次出现。</p></div></div>
 <section id="page-review" class="hidden"><div class="sectitle"><div><div class="kicker dark">REVIEW</div><h2>错题与收藏</h2></div><button id="start-review" class="primary">开始专项复习 →</button></div><p class="muted">答错或不懂的题答对两次后可移出；手动收藏的题会持续参与复习，直到你取消收藏。</p><div id="review-list"></div></section>

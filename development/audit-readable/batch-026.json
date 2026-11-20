@@ -109,11 +109,11 @@
     "options": [
       "0.5%",
       "1%",
-      "15%",
+      "1.5%",
       "3%"
     ],
     "correctAnswers": [
-      "15%"
+      "1.5%"
     ],
     "explanation": "In the 2011 Census, 59% of people identified themselves as Christian. Much smaller proportions identified themselves as Muslim (4.8%), Hindu (1.5%), Sikh (0.8%), Jewish or Buddhist (both less than 0.5%)."
   },

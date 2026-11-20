@@ -38,5 +38,6 @@ jobs:
           node --check site/assets/review-bookmarks.js
           node --check site/assets/review-mix.js
           node --check site/assets/audit-dashboard.js
+          node --check site/assets/sidebar.js
           node --check scripts/export-audit-batches.mjs
           node --check site/data/questions.js

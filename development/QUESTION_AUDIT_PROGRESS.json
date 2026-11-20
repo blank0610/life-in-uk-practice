@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 72,
+  "nextIndex": 84,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -781,11 +781,131 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T06:20:40Z",
       "note": "四选项完整，University of Cambridge与牛顿就读三一学院历史一致；解释与答案相符。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 73,
+      "id": "zip-92",
+      "sourceScreenshot": 92,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个选项完整，盎格鲁-撒克逊人与罗马撤军后迁入不列颠的历史相符；解释还列出朱特人，未与答案冲突。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 74,
+      "id": "zip-93",
+      "sourceScreenshot": 93,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四项年代完整，约4000年前与青铜时代及解释一致；属于约数而非精确发明年份。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 75,
+      "id": "zip-94",
+      "sourceScreenshot": 94,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个日期选项完整，光明节在公历11或12月且持续八天，与答案及解释相符。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 76,
+      "id": "zip-95",
+      "sourceScreenshot": 95,
+      "status": "needs_review",
+      "findings": "解释称奖项每年九月颁发，月份可能随年份变化；需核实来源年代及现行奖项规则。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干according to the source缺具体年份，最佳专辑奖项的地域资格需与现行主办方规则核对。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 77,
+      "id": "zip-96",
+      "sourceScreenshot": 96,
+      "status": "needs_review",
+      "findings": "解释严重OCR损坏：Imani应疑为Iceni，'what ie naw eactarn Encland'明显乱码且句尾不完整；必须原图核验。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 78,
+      "id": "zip-97",
+      "sourceScreenshot": 97,
+      "status": "needs_review",
+      "findings": "选项Waterpolo疑似应为Water polo，需原图核对；解释只提Sailing，未解释另一正确项Rowing。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、2个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 79,
+      "id": "zip-99",
+      "sourceScreenshot": 99,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个选项完整，强迫婚姻属于刑事犯罪，正确答案与解释一致；法律细节有地区差异但不影响本题基本判断。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 80,
+      "id": "zip-100",
+      "sourceScreenshot": 100,
+      "status": "needs_review",
+      "findings": "题干以UK整体表述，狗项圈身份标识规则可能因地区及特殊犬只情形而不同；应按官方地区法规复核。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 81,
+      "id": "zip-101",
+      "sourceScreenshot": 101,
+      "status": "needs_review",
+      "findings": "解释'motor cycle'拼写分写与题干motorcycle不一致，疑为旧式写法或OCR；需原图核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 82,
+      "id": "zip-102",
+      "sourceScreenshot": 102,
+      "status": "needs_review",
+      "findings": "Twitter已改名为X，解释及选项使用旧品牌名，属于来源年代信息，需确认是否作为历史题保留。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 83,
+      "id": "zip-103",
+      "sourceScreenshot": 103,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干明确限定2011年人口普查，4.8%与解释一致；不可把2011年的比例误当2026年现值。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 84,
+      "id": "zip-104",
+      "sourceScreenshot": 104,
+      "status": "needs_review",
+      "findings": "解释声称选举过去每四年举行，需核对2026年Senedd选举制度与周期；不能直接把历史表述视为当前规则。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T06:20:40Z",
-  "lastCheckedId": "zip-91",
+  "lastCheckedAt": "2026-11-20T07:35:59Z",
+  "lastCheckedId": "zip-104",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

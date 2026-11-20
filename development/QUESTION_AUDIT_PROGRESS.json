@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 120,
+  "nextIndex": 132,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1283,6 +1283,140 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T11:30:09Z",
       "note": "真伪题仅两项属正常题型；支持本地商户与社区参与的表述合理，解释重复判断但不矛盾。 已逐项查看main可读分包题干、全部2项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 121,
+      "id": "zip-145",
+      "sourceScreenshot": 145,
+      "status": "needs_review",
+      "findings": [
+        "选项将 London 错写为 Landon，解释中 Whitehall London 缺逗号。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "正确答案 Whitehall, London 与解释所述地点一致；第四选项 Piccadilly Circus, Landon 有明显拼写错误。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 122,
+      "id": "zip-146",
+      "sourceScreenshot": 146,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "Great Britain 指英格兰、苏格兰和威尔士，不包括北爱尔兰；四选项及解释一致。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 123,
+      "id": "zip-147",
+      "sourceScreenshot": 147,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待核对原始截图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "Bradley Wiggins 是首位赢得环法自行车赛的英国人（2012）；正确选项合理，但解释完全缺失。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 124,
+      "id": "zip-148",
+      "sourceScreenshot": 148,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "英语存在多种口音及方言，四项及正确答案相符；解释仅重复答案，说明较简略。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 125,
+      "id": "zip-149",
+      "sourceScreenshot": 149,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "题干询问进入博彩店或博彩俱乐部的年龄；18岁与解释一致，四项完整；具体场所规则可能另有准入要求。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 126,
+      "id": "zip-150",
+      "sourceScreenshot": 150,
+      "status": "needs_review",
+      "findings": [
+        "题干 Ian McEwan 首字母疑似被 OCR 识别为 lan；解释中 1968 后缺标点，且布克奖资格范围和奖项名称沿革可能过时。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "三位作者均曾获布克奖；选项与答案一致。解释称仅英联邦、爱尔兰或津巴布韦作者符合资格，属于历史规则，不应当作现行条件；奖项始于1969年，文中1968值得核对。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 127,
+      "id": "zip-151",
+      "sourceScreenshot": 151,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "北爱尔兰议会采用比例代表制中的单记可转移投票制，90名议员；四项、答案和解释一致。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 128,
+      "id": "zip-152",
+      "sourceScreenshot": 152,
+      "status": "needs_review",
+      "findings": [
+        "解释中议会邮编 SW1A OAA 疑似将数字0误作字母O，电话号码亦需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "信件和选区办公室电话两项与题目及解释一致；解释的邮编应核对 SW1A 0AA，电话格式亦可能有OCR/资料过时问题。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 129,
+      "id": "zip-153",
+      "sourceScreenshot": 153,
+      "status": "needs_review",
+      "findings": [
+        "题干 The’Bill 缺空格且 16897 疑似将问号误识别为数字7。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "正确答案及解释均指1689年权利法案限制王权、确立议会权利，逻辑一致；题干明显OCR损坏。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 130,
+      "id": "zip-154",
+      "sourceScreenshot": 154,
+      "status": "needs_review",
+      "findings": [
+        "题干 Avon George 疑似应为 Avon Gorge。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "布鲁内尔设计克利夫顿吊桥的答案与解释一致；地理名词 Gorge 拼写有误。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 131,
+      "id": "zip-155",
+      "sourceScreenshot": 155,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "英国没有单一成文宪法法典，选 No 与解释一致；更精确说法为宪制规则分散于成文法、判例和惯例，并非完全没有成文宪法材料。 已检查分包中题干、全部2项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 132,
+      "id": "zip-156",
+      "sourceScreenshot": 156,
+      "status": "needs_review",
+      "findings": [
+        "解释没有提供题干所问人口估计值，无法从解释验证正确选项。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "选项答案为超过4亿人，但解释仅描述帝国领土范围，没有说明人口或统计年份；须进一步核对维多利亚时期具体时间点和来源。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
     }
   ],
   "completedRounds": [],

@@ -65,6 +65,13 @@ export function scanQuestionBank(questions){
     if(suspectPercentages.length)severe.push({id:q.id,reason:"百分比选项疑似 OCR 误把数字识别成字母 O",question:q.question,options,suspectPercentages});
     const suspiciousChars=options.filter(o=>/[\uFFFD]/.test(o)||/\bAQ\s*days\b/i.test(o));
     if(suspiciousChars.length)review.push({id:q.id,reason:"疑似 OCR 字符或数字错误",question:q.question,options});
+    // 仅标记疑点：若正确答案是百分比而解释使用其他百分比却完全不含该数值，
+    // 可能是 OCR 漏掉小数点（15% / 1.5%）。不做自动改写，必须对照原始图片。
+    const correctPercent=q.correctAnswers.filter(a=>/^\\d+(?:\\.\\d+)?%$/.test(a.trim()));
+    if(correctPercent.length&&/\\d+(?:\\.\\d+)?%/.test(q.explanation||"")&&
+        correctPercent.some(a=>!(q.explanation||"").includes(a.trim()))){
+      review.push({id:q.id,reason:"答案百分比与解释文字疑似不一致，需对照原图核验（可能漏小数点）",question:q.question,options,correctAnswers:q.correctAnswers});
+    }
     // 常见 OCR：英文 NOT 的 T 被识别为 I，会改变题目的正确答案含义。
     if(/\bNOI\b/i.test(q.question))review.push({id:q.id,reason:"题干中 NOI 疑似 NOT 的 OCR 错字",question:q.question,options});
     if(/\b(?:incorrect|next question|previous question)\b/i.test(q.question)){

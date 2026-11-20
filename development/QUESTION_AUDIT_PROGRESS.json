@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 84,
+  "nextIndex": 96,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -901,11 +901,131 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
       "note": "四个周期选项齐全，答案每四年与解释中的历史说法一致，但不代表2026年现行威尔士议会选举周期，需官方核验。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 85,
+      "id": "zip-105",
+      "sourceScreenshot": 105,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；John Major于1990年接替Margaret Thatcher，解释所述北爱尔兰和平进程与其任期一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 86,
+      "id": "zip-106",
+      "sourceScreenshot": 106,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Mayor为许多地方议会的礼仪首长，解释限定many local authorities，未夸大为全部议会。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 87,
+      "id": "zip-107",
+      "sourceScreenshot": 107,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；相对多数制中各选区票数最高者当选，答案与解释一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 88,
+      "id": "zip-108",
+      "sourceScreenshot": 108,
+      "status": "needs_review",
+      "findings": "解释为空，缺少对滑铁卢战役指挥官的说明；原始截图待核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Duke of Wellington为英国及盟军指挥官之一，正确答案可成立；但解释缺失，不能视为完整题目。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 89,
+      "id": "zip-109",
+      "sourceScreenshot": 109,
+      "status": "needs_review",
+      "findings": "选项The Grown Court疑为The Crown Court的OCR或拼写错误，必须与原图核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；苏格兰最严重刑事案件由High Court of Justiciary审理，解释的High Court简写可理解；Grown Court拼写明显可疑。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 90,
+      "id": "zip-110",
+      "sourceScreenshot": 110,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；红白相叠的都铎玫瑰及兰开斯特、约克家族结合的解释相符。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 91,
+      "id": "zip-111",
+      "sourceScreenshot": 111,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；威尔士旗帜为红龙，解释与答案一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 92,
+      "id": "zip-112",
+      "sourceScreenshot": 112,
+      "status": "needs_review",
+      "findings": "解释中developed This缺句号；解释仅泛述启蒙运动，未解释Adam Smith的经济学贡献。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Adam Smith为18世纪经济学家，答案合理；解释存在标点缺漏及针对性不足。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 93,
+      "id": "zip-113",
+      "sourceScreenshot": 113,
+      "status": "needs_review",
+      "findings": "解释为空；The British King为2026年英联邦象征性元首，但这一职务并非英国君主自动继承，须区分。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；答案在现任国王Charles III任职背景下成立；解释缺失且可能误导英联邦元首职位的继承机制。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 94,
+      "id": "zip-115",
+      "sourceScreenshot": 115,
+      "status": "needs_review",
+      "findings": "营业时间属旧式概括，英格兰、威尔士、苏格兰及北爱尔兰酒牌与实际开门时间不统一，不能视为现行普遍法定时间。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；11am与原解释一致，但问题问通常营业时间，因酒吧具体许可及营业时间差异，应核实原始来源及其时效。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 95,
+      "id": "zip-116",
+      "sourceScreenshot": 116,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；题干要求两项，Special effects movies与Animation movies均正确，解释同时覆盖两项。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 96,
+      "id": "zip-117",
+      "sourceScreenshot": 117,
+      "status": "needs_review",
+      "findings": "解释末尾country ae mardan ecanany为明显OCR乱码，句子被截断，必须核对原始截图。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Thomas Gainsborough为18世纪英国肖像画家，答案合理；解释后半段损坏无法完整阅读。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T07:35:59Z",
-  "lastCheckedId": "zip-104",
+  "lastCheckedAt": "2026-11-20T09:16:51Z",
+  "lastCheckedId": "zip-117",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

@@ -21,8 +21,8 @@ test("截图#356题干 NOT 与四个发明选项及答案符合原图",()=>{
 test("原图#343 Hindu 2011人口普查小数点不能变成15%",()=>{
  const q=byId.get("zip-343");
  assert.equal(q.question,"According to the 2011 Census, what percentage of the population identified themselves as Hindu?");
- assert.deepEqual(q.options,["0.5%","1%","1.5%","3%"]);
- assert.deepEqual(q.correctAnswers,["1.5%"]);
+ assert.deepEqual(Array.from(q.options),["0.5%","1%","1.5%","3%"]);
+ assert.deepEqual(Array.from(q.correctAnswers),["1.5%"]);
  assert(q.explanation.includes("Hindu (1.5%)"));
  assert(!q.options.includes("15%"));
 });

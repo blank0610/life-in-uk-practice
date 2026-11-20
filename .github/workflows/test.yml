@@ -21,6 +21,8 @@ jobs:
       - name: Test random question cooldown
         run: node --test tests/*.test.mjs
 
+      - name: Verify machine-readable audit source
+        run: node scripts/export-audit-batches.mjs --output "$RUNNER_TEMP/life-uk-audit-batches"
       - name: Audit full question options and OCR artefacts
         run: node scripts/audit-question-bank.mjs
       - name: Preview next questions for sequential quality audit
@@ -36,4 +38,5 @@ jobs:
           node --check site/assets/review-bookmarks.js
           node --check site/assets/review-mix.js
           node --check site/assets/audit-dashboard.js
+          node --check scripts/export-audit-batches.mjs
           node --check site/data/questions.js

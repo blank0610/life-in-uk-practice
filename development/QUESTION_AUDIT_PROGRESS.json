@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 204,
+  "nextIndex": 216,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -2207,11 +2207,143 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T18:56:13Z",
       "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；解释内出生年份与同批zip-227解释内出生年份不同；可能是转录数字差异，须原图核对，不据此更改。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 205,
+      "id": "zip-238",
+      "sourceScreenshot": 238,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 206,
+      "id": "zip-239",
+      "sourceScreenshot": 239,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部2个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 207,
+      "id": "zip-240",
+      "sourceScreenshot": 240,
+      "status": "needs_review",
+      "findings": [
+        "题干 Whicn Is 疑似 OCR 字母错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Whicn Is 疑似 OCR 字母错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 208,
+      "id": "zip-241",
+      "sourceScreenshot": 241,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 209,
+      "id": "zip-242",
+      "sourceScreenshot": 242,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部2个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 210,
+      "id": "zip-243",
+      "sourceScreenshot": 243,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 211,
+      "id": "zip-244",
+      "sourceScreenshot": 244,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 212,
+      "id": "zip-245",
+      "sourceScreenshot": 245,
+      "status": "needs_review",
+      "findings": [
+        "题干 Womens、Wor、末尾 ’ 存在疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Womens、Wor、末尾 ’ 存在疑似 OCR/标点错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 213,
+      "id": "zip-246",
+      "sourceScreenshot": 246,
+      "status": "needs_review",
+      "findings": [
+        "题干 Is、Ireiana’ 存在疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Is、Ireiana’ 存在疑似 OCR/标点错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 214,
+      "id": "zip-247",
+      "sourceScreenshot": 247,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 215,
+      "id": "zip-248",
+      "sourceScreenshot": 248,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 216,
+      "id": "zip-249",
+      "sourceScreenshot": 249,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T18:56:13Z",
-  "lastCheckedId": "zip-237",
+  "lastCheckedAt": "2026-11-20T20:32:20Z",
+  "lastCheckedId": "zip-249",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

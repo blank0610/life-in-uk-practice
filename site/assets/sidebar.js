@@ -16,6 +16,7 @@ export function applySidebarState({layout,sidebar,button,label},hidden){
   button.title=hidden?"展开左侧菜单":"收起左侧菜单";
   label.textContent=hidden?"展开菜单":"收起菜单";
   sidebar.setAttribute("aria-hidden",String(Boolean(hidden)));
+  sidebar.inert=Boolean(hidden); // 已收起的导航不再接收键盘焦点，展开后恢复。
 }
 export function setupSidebar({root=globalThis.document,storage=globalThis.localStorage}={}){
   if(!root)return null;

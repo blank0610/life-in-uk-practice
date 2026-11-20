@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 24,
+  "nextIndex": 36,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -253,11 +253,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-19T00:56:24Z",
       "note": "题干称所有 civil servants 均不能参选，解释只说大部分公民有资格，未直接支持答案；公职人员类别限制可能有例外，需核对原图及现行官方选举资格规定，禁止猜改答案。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 25,
+      "id": "zip-42",
+      "sourceScreenshot": 42,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "题干、四选项、St Andrews答案及解释对应；St. Andrews写法差异不影响指称。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 26,
+      "id": "zip-43",
+      "sourceScreenshot": 43,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，最严重青少年案件转Crown Court与解释相符；涉及三司法辖区，原图未核对。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 27,
+      "id": "zip-44",
+      "sourceScreenshot": 44,
+      "status": "needs_review",
+      "findings": [
+        "网站解释为空；待核对原始截图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "题干和四选项完整，答案Skara Brae与常识相符，但解释为空，需原图确认是否遗漏。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 28,
+      "id": "zip-47",
+      "sourceScreenshot": 47,
+      "status": "needs_review",
+      "findings": [
+        "与zip-44近重复；题干语法和选项Maiden疑似OCR/截断，待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "与zip-44题意重复但题干和Maiden选项不完全相同；Skara Brae与解释一致；'which origin traces back'语法不自然、Maiden疑似截断，需原图确认。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 29,
+      "id": "zip-48",
+      "sourceScreenshot": 48,
+      "status": "needs_review",
+      "findings": [
+        "解释1896与答案1895冲突；National Trust官方证实创立于1895：https://www.nationaltrust.org.uk/who-we-are/about-us/the-history-of-the-national-trust"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "答案1895正确；解释却写1896，构成明确内部矛盾。National Trust官方历史明确1895创立，1896购入首栋建筑。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 30,
+      "id": "zip-49",
+      "sourceScreenshot": 49,
+      "status": "needs_review",
+      "findings": [
+        "网站解释为空；待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项与Gentry答案合理，解释为空，须核对原图是否遗漏。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 31,
+      "id": "zip-50",
+      "sourceScreenshot": 50,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项齐全，Henry VIII与题干及解释一致。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 32,
+      "id": "zip-51",
+      "sourceScreenshot": 51,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，The Mikado为Gilbert and Sullivan作品；解释只概括其歌剧创作但无冲突。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 33,
+      "id": "zip-52",
+      "sourceScreenshot": 52,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，West of Scotland答案与解释相符。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 34,
+      "id": "zip-53",
+      "sourceScreenshot": 53,
+      "status": "needs_review",
+      "findings": [
+        "Camila疑似拼写错误（应为Camilla）；Queen Consort称谓已过时，现称Queen Camilla；需原图核对"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项均出现Camila拼法，正确英文应为Camilla；2023年加冕后官方称Queen Camilla，选项/解释仍写Queen Consort属旧称，需对照原图并评估更新，不能直接更改答案。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 35,
+      "id": "zip-54",
+      "sourceScreenshot": 54,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，两项正确答案均存在；解释说明Anglican Church及在苏格兰/美国称Episcopal Church，未见明显错配。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 36,
+      "id": "zip-55",
+      "sourceScreenshot": 55,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，Sir Robert Walpole与解释1721–1742一致。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-19T00:56:24Z",
-  "lastCheckedId": "zip-41",
+  "lastCheckedAt": "2026-11-20T01:33:11Z",
+  "lastCheckedId": "zip-55",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

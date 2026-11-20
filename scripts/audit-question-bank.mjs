@@ -67,8 +67,8 @@ export function scanQuestionBank(questions){
     if(suspiciousChars.length)review.push({id:q.id,reason:"疑似 OCR 字符或数字错误",question:q.question,options});
     // 仅标记疑点：若正确答案是百分比而解释使用其他百分比却完全不含该数值，
     // 可能是 OCR 漏掉小数点（15% / 1.5%）。不做自动改写，必须对照原始图片。
-    const correctPercent=q.correctAnswers.filter(a=>/^\\d+(?:\\.\\d+)?%$/.test(a.trim()));
-    if(correctPercent.length&&/\\d+(?:\\.\\d+)?%/.test(q.explanation||"")&&
+    const correctPercent=q.correctAnswers.filter(a=>/^\d+(?:\.\d+)?%$/.test(a.trim()));
+    if(correctPercent.length&&/\d+(?:\.\d+)?%/.test(q.explanation||"")&&
         correctPercent.some(a=>!(q.explanation||"").includes(a.trim()))){
       review.push({id:q.id,reason:"答案百分比与解释文字疑似不一致，需对照原图核验（可能漏小数点）",question:q.question,options,correctAnswers:q.correctAnswers});
     }

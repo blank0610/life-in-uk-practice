@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 168,
+  "nextIndex": 180,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1811,6 +1811,138 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T15:29:10Z",
       "note": "四个责任选项完整；两项正确答案均出现在选项中，与解释对应，未见明显OCR异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 169,
+      "id": "zip-194",
+      "sourceScreenshot": 194,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认是否原本无说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、2个标记答案、空解释字段；解释字段为空；需原图确认是否原本无说明。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 170,
+      "id": "zip-195",
+      "sourceScreenshot": 195,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 171,
+      "id": "zip-196",
+      "sourceScreenshot": 196,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 172,
+      "id": "zip-197",
+      "sourceScreenshot": 197,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 173,
+      "id": "zip-200",
+      "sourceScreenshot": 200,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 174,
+      "id": "zip-201",
+      "sourceScreenshot": 201,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 175,
+      "id": "zip-202",
+      "sourceScreenshot": 202,
+      "status": "needs_review",
+      "findings": [
+        "题干含大写 Is 和结尾 as’ 异常符号，疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；题干含大写 Is 和结尾 as’ 异常符号，疑似 OCR/标点错误，待原图核对。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 176,
+      "id": "zip-203",
+      "sourceScreenshot": 203,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 177,
+      "id": "zip-204",
+      "sourceScreenshot": 204,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 178,
+      "id": "zip-205",
+      "sourceScreenshot": 205,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 179,
+      "id": "zip-206",
+      "sourceScreenshot": 206,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、3个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 180,
+      "id": "zip-207",
+      "sourceScreenshot": 207,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
     }
   ],
   "completedRounds": [],

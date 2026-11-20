@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 96,
+  "nextIndex": 108,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1021,6 +1021,136 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T09:16:51Z",
       "note": "四选项齐全；Thomas Gainsborough为18世纪英国肖像画家，答案合理；解释后半段损坏无法完整阅读。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 97,
+      "id": "zip-118",
+      "sourceScreenshot": 118,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "开斋节与宰牲节区分清楚，答案Eid ul Adha与解释一致；四项均完整。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 98,
+      "id": "zip-119",
+      "sourceScreenshot": 119,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项年龄选项完整；英国National Lottery现行最低年龄为18岁，答案及解释相符。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 99,
+      "id": "zip-120",
+      "sourceScreenshot": 120,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，须核对原始截图是否漏录。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Royal Ascot举办地Ascot Racecourse位于Berkshire，答案合理，但解释为空。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 100,
+      "id": "zip-121",
+      "sourceScreenshot": 121,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "55 BC凯撒率军首次远征不列颠，题干及解释相符；须注意与公元43年Claudius时期征服区分。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 101,
+      "id": "zip-122",
+      "sourceScreenshot": 122,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四选项完整；JRR Tolkien为《The Lord of the Rings》作者，解释一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 102,
+      "id": "zip-123",
+      "sourceScreenshot": 123,
+      "status": "needs_review",
+      "findings": [
+        "选项The Grown Court疑似The Crown Court的OCR拼写错误，待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Magistrates’ Court答案及解释一致；干扰项Grown Court拼写异常，与先前zip-109同类问题。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 103,
+      "id": "zip-124",
+      "sourceScreenshot": 124,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Round barrows与青铜时代墓葬相符，解释支持答案，选项完整。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 104,
+      "id": "zip-125",
+      "sourceScreenshot": 125,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Defence为保留事项，Northern Ireland Assembly不能自行决定；解释举例其获下放的事务，答案一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 105,
+      "id": "zip-126",
+      "sourceScreenshot": 126,
+      "status": "needs_review",
+      "findings": [
+        "解释只讲2011年基督徒59%，未说明佛教徒比例；需核实所用英国统计口径及原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项百分比选项完整，答案Less than 0.5%在2011年人口普查语境下大致合理，但解释与佛教徒问题不对应。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 106,
+      "id": "zip-127",
+      "sourceScreenshot": 127,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "1984年Torvill和Dean赢得奥运冰舞金牌，四项选项、答案和解释一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 107,
+      "id": "zip-129",
+      "sourceScreenshot": 129,
+      "status": "needs_review",
+      "findings": [
+        "题干What ts、结尾¢及解释引号句号错误，明显OCR/标点损坏；须原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项均为国歌歌词片段，正确答案God save our gracious King!符合首句；题干多处损坏，解释结尾标点错误。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 108,
+      "id": "zip-130",
+      "sourceScreenshot": 130,
+      "status": "needs_review",
+      "findings": [
+        "题干Is NOI、british、2Uth存在明显OCR与大小写错误；题目时间限定及Radioactivity是否属于发明均需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四选项完整，Radioactivity被选为非英国发明；但题干严重损坏，不能未经原图与史料确认而改写。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
     }
   ],
   "completedRounds": [],

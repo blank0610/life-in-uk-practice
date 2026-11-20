@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 144,
+  "nextIndex": 156,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1545,6 +1545,136 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T12:51:59Z",
       "note": "Habeas Corpus Act 于1679年成为法律，四个年份选项、正确答案及解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 145,
+      "id": "zip-169",
+      "sourceScreenshot": 169,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个选项完整，1928年发现青霉素的是Alexander Fleming，解释相符。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 146,
+      "id": "zip-170",
+      "sourceScreenshot": 170,
+      "status": "needs_review",
+      "findings": [
+        "解释缺失；与zip-171题干及选项完全重复，待核对原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个国家选项完整，答案Italy；解释为空，且与下一题重复。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 147,
+      "id": "zip-171",
+      "sourceScreenshot": 171,
+      "status": "needs_review",
+      "findings": [
+        "与zip-170重复，需核实是否重复录入。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个国家选项完整，答案Italy与解释中意大利玻璃制造商一致；但与上一题重复。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 148,
+      "id": "zip-172",
+      "sourceScreenshot": 172,
+      "status": "needs_review",
+      "findings": [
+        "Citizens Advise Bureau疑似拼写错误，应为Citizens Advice；解释缺失；NHS亦能提供家暴帮助，唯一答案有歧义。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个机构选项完整；当前答案机构名称拼写异常，且NHS亦可提供帮助，解释为空。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 149,
+      "id": "zip-173",
+      "sourceScreenshot": 173,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个政治人物选项完整，Thatcher与Reagan合作的答案及解释相符。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 150,
+      "id": "zip-174",
+      "sourceScreenshot": 174,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "True/False两项完整，欠债可能被诉诸法院，答案与解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 151,
+      "id": "zip-175",
+      "sourceScreenshot": 175,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个宗教人物选项完整，St Augustine为首任坎特伯雷大主教，解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 152,
+      "id": "zip-176",
+      "sourceScreenshot": 176,
+      "status": "needs_review",
+      "findings": [
+        "解释缺失，需对照原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个数字选项完整，答案12，解释为空；需核对三个司法辖区表述。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 153,
+      "id": "zip-177",
+      "sourceScreenshot": 177,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个选项完整，两项答案知识与实操技能符合驾驶考试要求。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 154,
+      "id": "zip-178",
+      "sourceScreenshot": 178,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个职责选项完整，Speaker维持议会辩论秩序的答案与解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 155,
+      "id": "zip-179",
+      "sourceScreenshot": 179,
+      "status": "needs_review",
+      "findings": [
+        "10 to 18与解释10 to 17年龄范围措辞有歧义，需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个陈述选项完整，选定错误项为10 to 18，解释10 to 17；年龄边界需核实。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 156,
+      "id": "zip-180",
+      "sourceScreenshot": 180,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四部电影选项完整，两个答案Brief Encounter及Lawrence of Arabia均为David Lean作品。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
     }
   ],
   "completedRounds": [],

@@ -42,3 +42,15 @@
 - `audit-batches` 只由部署构建生成，**不是个人学习记录**；没有答题历史、学习笔记或私人数据。自动任务逐题核对内容后，仍须按原有方法将证据写回 GitHub 审核进度账。
 
 注意：即使现在能够阅读全部题目文字，也只有**确实打开原始照片、逐字核对题目／选项／正确答案／解释**的题才能记录 `visually_checked`；只有文字资料就必须标注 `text_screened_photo_unavailable`。
+
+## 审核资料同步进入 GitHub 仓库
+
+除了 GitHub Pages 上的 JSON 分包，仓库本身也通过 `.github/workflows/publish-audit-data.yml` 自动保存同一批完整的可读题目：
+
+- 目录：`development/audit-readable/manifest.json`。
+- 每包 12 题：`development/audit-readable/batch-001.json`、`batch-002.json`、`batch-003.json` 等。
+- 读取步骤：先看 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex`，再从 `manifest.json` 中寻找对应分包的 `fromIndex`、`toIndexExclusive`。下一题目前为 `zip-42`，属于 `batch-003.json`。以后不要硬编码这个索引。
+- 每个分包保留实际出现在网站上的英文题干、全部选项、正确答案和解释，能直接使用 GitHub 文件读取工具访问，不必解码压缩题库，也无需读取 GitHub Actions 日志。
+- 来源题库改变时自动重新生成并提交相同的仓库内可读文件；分包只含公开的测试练习题，不含答题历史、私人笔记或个人资料。
+- **文字初检不等于原图核查：** 原始 ZIP 没有持续可读取的 GitHub 影像源；未逐张亲自看图时不得标记 `visually_checked`。
+

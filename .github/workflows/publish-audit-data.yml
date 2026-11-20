@@ -1,0 +1,39 @@
+name: Publish readable audit questions to GitHub
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/data/**"
+      - "site/assets/quality-fixes.js"
+      - "scripts/audit-question-bank.mjs"
+      - "scripts/export-audit-batches.mjs"
+      - ".github/workflows/publish-audit-data.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Rebuild full corrected question bank as readable JSON
+        run: node scripts/export-audit-batches.mjs --output development/audit-readable
+      - name: Verify generated audit manifest and third batch
+        run: |
+          test -s development/audit-readable/manifest.json
+          test -s development/audit-readable/batch-003.json
+          node -e 'const m=require("./development/audit-readable/manifest.json");if(m.questionCount!==487||m.batches.length!==41)process.exit(1);'
+      - name: Commit readable source into this GitHub repository
+        run: |
+          git add development/audit-readable
+          if ! git diff --cached --quiet; then
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update public readable audit questions from website source"
+            git push origin HEAD:main
+          else
+            echo "Readable question data already matches the current website."
+          fi

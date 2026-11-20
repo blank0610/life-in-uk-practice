@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 60,
+  "nextIndex": 72,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -651,11 +651,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T04:37:51Z",
       "note": "四选项完整，Henry VIII为通常考试答案；解释中的教会独立与宗教改革过程存在历史简化，不宜据此擅自改答案。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 61,
+      "id": "zip-80",
+      "sourceScreenshot": 80,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四项均完整，40 days before Easter与解释对应；Lent礼仪计日存在不计主日的习惯，但此题通行答案可接受。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 62,
+      "id": "zip-81",
+      "sourceScreenshot": 81,
+      "status": "needs_review",
+      "findings": [
+        "选项The National Museum名称不完整且含糊；官方馆名为National Museum Cardiff，需原图确认是否截断。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "答案指向卡迪夫的国家博物馆；Museum Wales官网确认地点为Cardiff，然而选项The National Museum并非准确完整馆名。官方：https://museum.wales/cardiff/visit/location/ 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 63,
+      "id": "zip-82",
+      "sourceScreenshot": 82,
+      "status": "needs_review",
+      "findings": [
+        "£1,000罚款上限属实，但题干未限定需牌照的直播节目/BBC iPlayer观看行为；Guernsey上限另为£2,000。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，£1,000与解释一致；GOV.UK与TV Licensing官网核实一般上限，题干watch TV过于宽泛，需区分无需牌照的点播观看。https://www.gov.uk/find-licences/tv-licence https://www.tvlicensing.co.uk/visit/paying-fines 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 64,
+      "id": "zip-83",
+      "sourceScreenshot": 83,
+      "status": "needs_review",
+      "findings": [
+        "150 years old是依来源年代的历史年龄，2026年已过时；题干虽加according to the source仍缺来源年份。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，150年与题目历史语境可能对应2009年；Big Ben严格指钟铃，解释已澄清。需核实原始来源时间，不可当作2026现龄。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 65,
+      "id": "zip-84",
+      "sourceScreenshot": 84,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "判断题True与解释一致；过去时was正确反映英国曾为欧盟成员但未采用欧元，未发现OCR异常。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 66,
+      "id": "zip-85",
+      "sourceScreenshot": 85,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项、两正确答案均完整；互助防御及维持成员和平与北约目的相符，解释强调集体防御，未见明显错配。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 67,
+      "id": "zip-86",
+      "sourceScreenshot": 86,
+      "status": "needs_review",
+      "findings": [
+        "题干及解释写less than £10,000，现行英格兰及威尔士普通小额索偿通常为不超过£10,000，边界措辞不精确；特殊案件门槛不同。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，£10,000为合理选项；司法部规则以not more than £10,000描述一般金钱索偿，另有人身伤害及房屋维修特殊规则。https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part27 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 68,
+      "id": "zip-87",
+      "sourceScreenshot": 87,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，须原始截图核实是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，The Enlightenment正确对应18世纪思想与科学启蒙，网站explanation为空；未核对原图。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 69,
+      "id": "zip-88",
+      "sourceScreenshot": 88,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，The Great Charter与Magna Carta译义吻合；解释有关王权限制的概括合理，无明显OCR异常。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 70,
+      "id": "zip-89",
+      "sourceScreenshot": 89,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，1485年博斯沃思战役为传统玫瑰战争结束时间；答案与解释对应，虽1487仍有约克派叛乱但原题通行表述可接受。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 71,
+      "id": "zip-90",
+      "sourceScreenshot": 90,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，Economy与财政大臣职权对应；解释虽简短但无答案冲突。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 72,
+      "id": "zip-91",
+      "sourceScreenshot": 91,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，University of Cambridge与牛顿就读三一学院历史一致；解释与答案相符。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T03:37:28Z",
-  "lastCheckedId": "zip-67",
+  "lastCheckedAt": "2026-11-20T06:20:40Z",
+  "lastCheckedId": "zip-91",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 192,
+  "nextIndex": 204,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -2075,11 +2075,143 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T17:51:21Z",
       "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图核验。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 193,
+      "id": "zip-226",
+      "sourceScreenshot": 226,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 194,
+      "id": "zip-227",
+      "sourceScreenshot": 227,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 195,
+      "id": "zip-228",
+      "sourceScreenshot": 228,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 196,
+      "id": "zip-229",
+      "sourceScreenshot": 229,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 197,
+      "id": "zip-230",
+      "sourceScreenshot": 230,
+      "status": "needs_review",
+      "findings": [
+        "题干“What was inscribed”与解释“some inscribed”存在用词形式差异，但无原图不能判定是否为转录问题；仅待原图核对，不修改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；题干“What was inscribed”与解释“some inscribed”存在用词形式差异，但无原图不能判定是否为转录问题；仅待原图核对，不修改。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 198,
+      "id": "zip-231",
+      "sourceScreenshot": 231,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 199,
+      "id": "zip-232",
+      "sourceScreenshot": 232,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 200,
+      "id": "zip-233",
+      "sourceScreenshot": 233,
+      "status": "needs_review",
+      "findings": [
+        "题干“What was the population of the UA In 19907”出现“UA”“19907”等明显疑似OCR字母、数字及问号识别异常；解释年份与题干也不一致。须看原图确认每一字符，不据解释改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；题干“What was the population of the UA In 19907”出现“UA”“19907”等明显疑似OCR字母、数字及问号识别异常；解释年份与题干也不一致。须看原图确认每一字符，不据解释改写。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 201,
+      "id": "zip-234",
+      "sourceScreenshot": 234,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、2个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 202,
+      "id": "zip-235",
+      "sourceScreenshot": 235,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 203,
+      "id": "zip-236",
+      "sourceScreenshot": 236,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部2个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 204,
+      "id": "zip-237",
+      "sourceScreenshot": 237,
+      "status": "needs_review",
+      "findings": [
+        "解释内出生年份与同批zip-227解释内出生年份不同；可能是转录数字差异，须原图核对，不据此更改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；解释内出生年份与同批zip-227解释内出生年份不同；可能是转录数字差异，须原图核对，不据此更改。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T11:30:09Z",
-  "lastCheckedId": "zip-144",
+  "lastCheckedAt": "2026-11-20T18:56:13Z",
+  "lastCheckedId": "zip-237",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

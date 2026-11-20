@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 216,
+  "nextIndex": 228,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -2339,11 +2339,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T20:32:20Z",
       "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 217,
+      "id": "zip-250",
+      "sourceScreenshot": 250,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 218,
+      "id": "zip-251",
+      "sourceScreenshot": 251,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 219,
+      "id": "zip-252",
+      "sourceScreenshot": 252,
+      "status": "needs_review",
+      "findings": [
+        "题干出现“tlag”及“Comprises”异常大小写，疑似 OCR 误字；需原图确认，不提出替换。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干出现“tlag”及“Comprises”异常大小写，疑似 OCR 误字；需原图确认，不提出替换。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 220,
+      "id": "zip-253",
+      "sourceScreenshot": 253,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 221,
+      "id": "zip-254",
+      "sourceScreenshot": 254,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 222,
+      "id": "zip-255",
+      "sourceScreenshot": 255,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验是否有解释文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图核验是否有解释文字。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 223,
+      "id": "zip-256",
+      "sourceScreenshot": 256,
+      "status": "needs_review",
+      "findings": [
+        "解释末句“untied with England”疑似字母识别错误；仅标记待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；解释末句“untied with England”疑似字母识别错误；仅标记待原图确认。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 224,
+      "id": "zip-257",
+      "sourceScreenshot": 257,
+      "status": "needs_review",
+      "findings": [
+        "题干“What day Is halloween celebrated’”有异常大写及末尾右单引号，疑似 OCR 标点问题；待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干“What day Is halloween celebrated’”有异常大写及末尾右单引号，疑似 OCR 标点问题；待原图确认。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 225,
+      "id": "zip-258",
+      "sourceScreenshot": 258,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 226,
+      "id": "zip-259",
+      "sourceScreenshot": 259,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 227,
+      "id": "zip-260",
+      "sourceScreenshot": 260,
+      "status": "needs_review",
+      "findings": [
+        "解释中“light-plays”与题干“Light-hearted plays”形式不同，可能存在 OCR 漏字，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；解释中“light-plays”与题干“Light-hearted plays”形式不同，可能存在 OCR 漏字，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 228,
+      "id": "zip-261",
+      "sourceScreenshot": 261,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T20:32:20Z",
-  "lastCheckedId": "zip-249",
+  "lastCheckedAt": "2026-11-20T20:50:24Z",
+  "lastCheckedId": "zip-261",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

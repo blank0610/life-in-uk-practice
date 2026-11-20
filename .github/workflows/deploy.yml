@@ -21,6 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Export readable audit questions
+        run: node scripts/export-audit-batches.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

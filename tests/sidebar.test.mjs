@@ -25,10 +25,12 @@ test("打开网站默认展示左侧菜单，可点击隐藏并且展开按钮�
  assert.equal(dom.layout.has("sidebar-collapsed"),true);
  assert.equal(dom.attributes.get("aria-expanded"),"false");
  assert.equal(dom.attributes.get("sidebar:aria-hidden"),"true");
+ assert.equal(dom.sidebar.inert,true,"收起后导航不接收键盘焦点");
  assert.equal(dom.label.textContent,"展开菜单");
  assert.equal(store.get(SIDEBAR_STORAGE_KEY),"1");
  dom.listeners.get("click")();
  assert.equal(controller.isHidden(),false);
+ assert.equal(dom.sidebar.inert,false,"展开导航后恢复可访问");
  assert.equal(store.get(SIDEBAR_STORAGE_KEY),"0");
 });
 test("重新打开页面时恢复上次隐藏状态，不影响其他 localStorage 记录",()=>{
@@ -47,11 +49,23 @@ test("浏览器禁止存储时可继续手动切换菜单",()=>{
  assert.equal(dom.layout.has("sidebar-collapsed"),true);
  assert.doesNotThrow(()=>saveSidebarState(storage,true));
 });
-test("菜单是可读屏、可键盘使用的按钮，隐藏时右侧区域使用全部宽度",()=>{
- assert.match(html,/id="sidebar-nav"/);
- assert.match(html,/id="sidebar-toggle"[^>]*type="button"[^>]*aria-controls="sidebar-nav"[^>]*aria-expanded="true"/);
- assert.match(html,/\.layout\.sidebar-collapsed\s*\{grid-template-columns:minmax\(0,1fr\)\}/);
- assert.match(html,/\.layout\.sidebar-collapsed aside\s*\{display:none\}/);
+test("现代化菜单按钮：简洁面板SVG、键盘焦点和悬停提示",()=>{
+ assert(html.includes('id="sidebar-toggle" class="sidebar-toggle"'));
+ assert(html.includes('aria-controls="sidebar-nav" aria-expanded="true"'));
+ assert(html.includes('class="sidebar-toggle-icon"'));
+ assert(html.includes('class="sidebar-chevron"'));
+ assert(html.includes('class="visually-hidden"'));
+ assert(html.includes(".sidebar-toggle:hover{"));
+ assert(html.includes(".sidebar-toggle:focus-visible{"));
+ assert(html.includes(".sidebar-collapsed .sidebar-chevron{transform:rotate(180deg)}"));
+ assert(html.includes("title=\"收起左侧菜单\""));
+});
+test("桌面平滑折叠而手机不留空白；减少动态效果的用户不会看到动画",()=>{
+ assert(html.includes(".layout{transition:grid-template-columns"));
+ assert(html.includes(".layout.sidebar-collapsed{grid-template-columns:0px minmax(0,1fr)}"));
+ assert(html.includes(".layout.sidebar-collapsed aside{opacity:0;visibility:hidden;pointer-events:none"));
+ assert(html.includes("@media(max-width:850px)"));
+ assert(html.includes(".layout.sidebar-collapsed aside{display:none}"));
+ assert(html.includes("@media(prefers-reduced-motion:reduce)"));
  assert.match(html,/<script type="module" src="\.\/assets\/sidebar\.js\?v=[^"]+"><\/script>/);
- assert.match(html,/@media\(max-width:850px\)/);
 });

@@ -30,3 +30,15 @@
 ## 和练习复习调度无关
 
 这个 GitHub 自动巡检用于检查网站题库文字和答案，与普通练习「每次随机抽题：70%普通题、30%错题／收藏题（可调整）」的用户本机学习调度完全独立，不会读取任何人的私人学习笔记。
+
+## 自动任务可直接读取的题目资料（解除压缩题库读取阻碍）
+
+每次 GitHub Pages 部署时，`scripts/export-audit-batches.mjs` 会读取网站**已经应用 OCR/拼写修正的完整 487 道题**，按原始截图编号排序，导出公开的纯 JSON 分包到部署站点。每包 12 题，包含 id、截图编号、完整题干、选项、正确答案及解释。**这是文字资料，不是原图截图。**
+
+- 总目录：`https://blank0610.github.io/life-in-uk-practice/data/audit-batches/manifest.json`。
+- 本轮下一批（正式进度 nextIndex=24）：`https://blank0610.github.io/life-in-uk-practice/data/audit-batches/batch-003.json`。
+- 按 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex` 在 manifest 的 `fromIndex` / `toIndexExclusive` 范围内查找文件；不要假定上一轮索引不变。分包 JSON 直接展示该批每道题的完整文本、答案和解释，不需要在自动任务里解压 b64。
+- 如果公开链接因网络问题暂时不可访问，可通过 GitHub Actions 的部署构建日志确认生成成功，或查看脚本与源文件；不能因为网页部署成功就自动标记已检查。
+- `audit-batches` 只由部署构建生成，**不是个人学习记录**；没有答题历史、学习笔记或私人数据。自动任务逐题核对内容后，仍须按原有方法将证据写回 GitHub 审核进度账。
+
+注意：即使现在能够阅读全部题目文字，也只有**确实打开原始照片、逐字核对题目／选项／正确答案／解释**的题才能记录 `visually_checked`；只有文字资料就必须标注 `text_screened_photo_unavailable`。

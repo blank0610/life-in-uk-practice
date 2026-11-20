@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 36,
+  "nextIndex": 48,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -383,11 +383,149 @@
       "imageCompared": false,
       "checkedAt": "2026-11-20T01:33:11Z",
       "note": "四选项完整，Sir Robert Walpole与解释1721–1742一致。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 37,
+      "id": "zip-56",
+      "sourceScreenshot": 56,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整；Ash Wednesday 为大斋期首日，答案与解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 38,
+      "id": "zip-57",
+      "sourceScreenshot": 57,
+      "status": "needs_review",
+      "findings": [
+        "75岁免费电视牌照有领取 Pension Credit 等资格条件，题干及解释未写条件；Over 75 还可能排除刚满75岁者，需按现行 TV Licensing 规则核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案选 Over 75；解释把年龄资格描述为普遍免费，疑似过时且遗漏 Pension Credit 条件；需核实现行规则及原图。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 39,
+      "id": "zip-58",
+      "sourceScreenshot": 58,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；酒吧周日营业时间并非全英国统一固定为12pm，需核实原题的历史背景及当地营业许可。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案为12pm，但解释缺失且题干以通常营业时间作笼统断言，需原图及现行营业规定核实。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 40,
+      "id": "zip-59",
+      "sourceScreenshot": 59,
+      "status": "needs_review",
+      "findings": [
+        "解释把首相官邸写为19 Downing Street，正确地址应为10 Downing Street；明显数字OCR或原文错误，待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案10 Downing Street正确，但解释写19 Downing Street，与答案及公认官邸地址直接冲突；Chequers部分没有明显冲突。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 41,
+      "id": "zip-60",
+      "sourceScreenshot": 60,
+      "status": "needs_review",
+      "findings": [
+        "选项231d July 2016及231d July 2015疑似23rd的OCR识别错误；须原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，正确答案23rd June 2016与解释一致；两个干扰项出现231d，不符合英文序数词拼写，疑似OCR。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 42,
+      "id": "zip-61",
+      "sourceScreenshot": 61,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需核对原始截图是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Dame Kelly Holmes在2004年奥运会获得两枚跑步金牌，答案合理；解释为空。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 43,
+      "id": "zip-62",
+      "sourceScreenshot": 62,
+      "status": "needs_review",
+      "findings": [
+        "84%属于有年份背景的人口比例，题干未标明统计年份；应确认所依据人口统计时间，避免将历史比例当作现时比例。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，答案84%与解释未直接冲突；解释仅说人口分布不均，没有说明84%的统计依据和年份，需核实来源。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 44,
+      "id": "zip-63",
+      "sourceScreenshot": 63,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；2010年英国人口约6200多万，答案合理，但须核对原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，正确答案Just over 62 million与2010年人口数量大致相符；解释缺失。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 45,
+      "id": "zip-64",
+      "sourceScreenshot": 64,
+      "status": "needs_review",
+      "findings": [
+        "County Courts处理民事纠纷，但题干将离婚和家庭事务一概归于County Courts可能忽略现行Family Court管辖；需核实历史教材语境及现行法院体系。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，County Courts与解释所说民事纠纷大体一致；但题干包含divorce/family matters，现行England and Wales Family Court制度可能使表述过时。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 46,
+      "id": "zip-65",
+      "sourceScreenshot": 65,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；Holyrood作为苏格兰议会所在地的称呼合理，待原图确认解释是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Holyrood与苏格兰议会地点相符，解释为空。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 47,
+      "id": "zip-66",
+      "sourceScreenshot": 66,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Rose与英格兰国花关联及解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 48,
+      "id": "zip-67",
+      "sourceScreenshot": 67,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Robert Burns为苏格兰诗人，与解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T01:33:11Z",
-  "lastCheckedId": "zip-55",
+  "lastCheckedAt": "2026-11-20T03:37:28Z",
+  "lastCheckedId": "zip-67",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

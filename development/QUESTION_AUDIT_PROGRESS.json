@@ -830,7 +830,7 @@
       "findings": "解释严重OCR损坏：Imani应疑为Iceni，'what ie naw eactarn Encland'明显乱码且句尾不完整；必须原图核验。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "题干与四选项完整，正确答案为反抗罗马人的部落领袖；解释出现 Imani 及后半句明显乱码，无法确认源图原文，必须保留待复核。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     },
     {
       "number": 78,
@@ -840,7 +840,7 @@
       "findings": "选项Waterpolo疑似应为Water polo，需原图核对；解释只提Sailing，未解释另一正确项Rowing。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、2个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "题干要求选择两项，四选项齐全，Rowing 与 Sailing 均标为正确；解释仅说明 Sailing，Waterpolo 拼写待源图核对。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     },
     {
       "number": 79,
@@ -860,7 +860,7 @@
       "findings": "题干以UK整体表述，狗项圈身份标识规则可能因地区及特殊犬只情形而不同；应按官方地区法规复核。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "四选项齐全，答案与解释均指向载有主人姓名地址的项圈；但题干泛称全英国，地区法规与例外情况尚待官方核实。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     },
     {
       "number": 81,
@@ -870,7 +870,7 @@
       "findings": "解释'motor cycle'拼写分写与题干motorcycle不一致，疑为旧式写法或OCR；需原图核对。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "四选项齐全，DVLA 答案与解释一致；解释使用 motor cycle 而题干使用 motorcycle，是否原图写法仍待确认。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     },
     {
       "number": 82,
@@ -880,7 +880,7 @@
       "findings": "Twitter已改名为X，解释及选项使用旧品牌名，属于来源年代信息，需确认是否作为历史题保留。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "四选项齐全，答案 Facebook and Twitter 与解释相符；Twitter 为旧名称，须确认题目是否刻意保留历史来源用语。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     },
     {
       "number": 83,
@@ -900,7 +900,7 @@
       "findings": "解释声称选举过去每四年举行，需核对2026年Senedd选举制度与周期；不能直接把历史表述视为当前规则。",
       "imageCompared": false,
       "checkedAt": "2026-11-20T07:35:59Z",
-      "note": "undefined 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+      "note": "四个周期选项齐全，答案每四年与解释中的历史说法一致，但不代表2026年现行威尔士议会选举周期，需官方核验。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
     }
   ],
   "completedRounds": [],

@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 432,
+  "nextIndex": 444,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4675,11 +4675,143 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T22:30:23Z",
       "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 433,
+      "id": "zip-469",
+      "sourceScreenshot": 469,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 434,
+      "id": "zip-470",
+      "sourceScreenshot": 470,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 435,
+      "id": "zip-471",
+      "sourceScreenshot": 471,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 436,
+      "id": "zip-472",
+      "sourceScreenshot": 472,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 437,
+      "id": "zip-473",
+      "sourceScreenshot": 473,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 438,
+      "id": "zip-474",
+      "sourceScreenshot": 474,
+      "status": "needs_review",
+      "findings": [
+        "题干 Northern Ireland and Wales 与解释 Northern Ireland and Scotland 不同；题干 shop and businesses 与解释 shops and businesses 不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 439,
+      "id": "zip-475",
+      "sourceScreenshot": 475,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 440,
+      "id": "zip-476",
+      "sourceScreenshot": 476,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 441,
+      "id": "zip-477",
+      "sourceScreenshot": 477,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 442,
+      "id": "zip-478",
+      "sourceScreenshot": 478,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 443,
+      "id": "zip-479",
+      "sourceScreenshot": 479,
+      "status": "needs_review",
+      "findings": [
+        "题干 Boudica 与解释 Boudicca 拼写不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 444,
+      "id": "zip-480",
+      "sourceScreenshot": 480,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T19:27:49Z",
-  "lastCheckedId": "zip-444",
+  "lastCheckedAt": "2026-11-21T23:03:57Z",
+  "lastCheckedId": "zip-480",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

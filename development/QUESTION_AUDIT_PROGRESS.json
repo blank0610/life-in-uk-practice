@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 348,
+  "nextIndex": 360,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3763,11 +3763,135 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T10:03:38Z",
       "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 349,
+      "id": "zip-384",
+      "sourceScreenshot": 384,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 350,
+      "id": "zip-385",
+      "sourceScreenshot": 385,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 351,
+      "id": "zip-386",
+      "sourceScreenshot": 386,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 352,
+      "id": "zip-387",
+      "sourceScreenshot": 387,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 353,
+      "id": "zip-388",
+      "sourceScreenshot": 388,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'Arose by any other name' 疑似把 'a rose' 合并为单词；原图待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。疑似 OCR 异常须原图确认；未修改题库或答案。"
+    },
+    {
+      "number": 354,
+      "id": "zip-389",
+      "sourceScreenshot": 389,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 355,
+      "id": "zip-390",
+      "sourceScreenshot": 390,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 356,
+      "id": "zip-391",
+      "sourceScreenshot": 391,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 357,
+      "id": "zip-392",
+      "sourceScreenshot": 392,
+      "status": "needs_review",
+      "findings": [
+        "题干 'british'、'mage' 及选项 'Adan Smith' 疑似 OCR 字符异常；原图待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。疑似 OCR 异常须原图确认；未修改题库或答案。"
+    },
+    {
+      "number": 358,
+      "id": "zip-393",
+      "sourceScreenshot": 393,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 359,
+      "id": "zip-394",
+      "sourceScreenshot": 394,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 360,
+      "id": "zip-395",
+      "sourceScreenshot": 395,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T10:03:38Z",
-  "lastCheckedId": "zip-383",
+  "lastCheckedAt": "2026-11-21T11:13:00Z",
+  "lastCheckedId": "zip-395",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

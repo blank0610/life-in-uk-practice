@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 408,
+  "nextIndex": 420,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4413,6 +4413,142 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T19:27:49Z",
       "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 409,
+      "id": "zip-445",
+      "sourceScreenshot": 445,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 410,
+      "id": "zip-446",
+      "sourceScreenshot": 446,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 411,
+      "id": "zip-447",
+      "sourceScreenshot": 447,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；选项 The house of the parliament 疑似转录异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 412,
+      "id": "zip-448",
+      "sourceScreenshot": 448,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 413,
+      "id": "zip-449",
+      "sourceScreenshot": 449,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 414,
+      "id": "zip-450",
+      "sourceScreenshot": 450,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 415,
+      "id": "zip-451",
+      "sourceScreenshot": 451,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 416,
+      "id": "zip-452",
+      "sourceScreenshot": 452,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 417,
+      "id": "zip-453",
+      "sourceScreenshot": 453,
+      "status": "needs_review",
+      "findings": [
+        "题干疑似缺失开头，现以 came to England from abroad 开始；待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 418,
+      "id": "zip-454",
+      "sourceScreenshot": 454,
+      "status": "needs_review",
+      "findings": [
+        "选项 Sir lan Botham 中 lan 疑似小写 l 与大写 I 识别混淆，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 419,
+      "id": "zip-455",
+      "sourceScreenshot": 455,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 420,
+      "id": "zip-456",
+      "sourceScreenshot": 456,
+      "status": "needs_review",
+      "findings": [
+        "解释中的 not Proven 与选项 not proven 大小写不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
     }
   ],
   "completedRounds": [],

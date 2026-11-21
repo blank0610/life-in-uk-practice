@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 300,
+  "nextIndex": 312,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3251,11 +3251,135 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T05:55:01Z",
       "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 301,
+      "id": "zip-336",
+      "sourceScreenshot": 336,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 302,
+      "id": "zip-337",
+      "sourceScreenshot": 337,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、2个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 303,
+      "id": "zip-338",
+      "sourceScreenshot": 338,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 304,
+      "id": "zip-339",
+      "sourceScreenshot": 339,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 305,
+      "id": "zip-340",
+      "sourceScreenshot": 340,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原图核实。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 306,
+      "id": "zip-341",
+      "sourceScreenshot": 341,
+      "status": "needs_review",
+      "findings": [
+        "题干“brief Encounter”大小写及末尾“1940 ¢”疑似OCR识别或符号异常；解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及空解释字段；题干“brief Encounter”大小写及末尾“1940 ¢”疑似OCR识别或符号异常；解释字段为空，待原图核实。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 307,
+      "id": "zip-342",
+      "sourceScreenshot": 342,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 308,
+      "id": "zip-343",
+      "sourceScreenshot": 343,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 309,
+      "id": "zip-344",
+      "sourceScreenshot": 344,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、3个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 310,
+      "id": "zip-345",
+      "sourceScreenshot": 345,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 311,
+      "id": "zip-346",
+      "sourceScreenshot": 346,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 312,
+      "id": "zip-347",
+      "sourceScreenshot": 347,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T05:55:01Z",
-  "lastCheckedId": "zip-335",
+  "lastCheckedAt": "2026-11-21T07:25:53Z",
+  "lastCheckedId": "zip-347",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

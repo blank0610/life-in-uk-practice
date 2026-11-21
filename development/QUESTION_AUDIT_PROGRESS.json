@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 396,
+  "nextIndex": 408,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4281,11 +4281,143 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T17:31:01Z",
       "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 397,
+      "id": "zip-433",
+      "sourceScreenshot": 433,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 398,
+      "id": "zip-434",
+      "sourceScreenshot": 434,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 399,
+      "id": "zip-435",
+      "sourceScreenshot": 435,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 400,
+      "id": "zip-436",
+      "sourceScreenshot": 436,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 401,
+      "id": "zip-437",
+      "sourceScreenshot": 437,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 402,
+      "id": "zip-438",
+      "sourceScreenshot": 438,
+      "status": "needs_review",
+      "findings": [
+        "解释中出现对原截图的自述及资料过时提示，疑似后加说明；须原图逐字核实，不能擅删"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 403,
+      "id": "zip-439",
+      "sourceScreenshot": 439,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 404,
+      "id": "zip-440",
+      "sourceScreenshot": 440,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录；选项 broadcasted 保留原文，不按语法习惯改写"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 405,
+      "id": "zip-441",
+      "sourceScreenshot": 441,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 406,
+      "id": "zip-442",
+      "sourceScreenshot": 442,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 407,
+      "id": "zip-443",
+      "sourceScreenshot": 443,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 408,
+      "id": "zip-444",
+      "sourceScreenshot": 444,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T17:31:01Z",
-  "lastCheckedId": "zip-432",
+  "lastCheckedAt": "2026-11-21T19:27:49Z",
+  "lastCheckedId": "zip-444",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

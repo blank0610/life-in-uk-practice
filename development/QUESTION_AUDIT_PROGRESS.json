@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 336,
+  "nextIndex": 348,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3633,11 +3633,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T08:49:16Z",
       "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 337,
+      "id": "zip-372",
+      "sourceScreenshot": 372,
+      "status": "needs_review",
+      "findings": [
+        "解释 'Eid a-Fitr' 疑似 OCR 字符异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 338,
+      "id": "zip-373",
+      "sourceScreenshot": 373,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 339,
+      "id": "zip-374",
+      "sourceScreenshot": 374,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 340,
+      "id": "zip-375",
+      "sourceScreenshot": 375,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 341,
+      "id": "zip-376",
+      "sourceScreenshot": 376,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 342,
+      "id": "zip-377",
+      "sourceScreenshot": 377,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 343,
+      "id": "zip-378",
+      "sourceScreenshot": 378,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 344,
+      "id": "zip-379",
+      "sourceScreenshot": 379,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 345,
+      "id": "zip-380",
+      "sourceScreenshot": 380,
+      "status": "needs_review",
+      "findings": [
+        "题干包含 '£2000' 的陈述，选项和解释出现 '£1,000'；疑似原题文字或答案内容混入题干，待原图核验，不修改答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 346,
+      "id": "zip-381",
+      "sourceScreenshot": 381,
+      "status": "needs_review",
+      "findings": [
+        "题干 'women’s' 与解释 'women's' 撇号形式不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 347,
+      "id": "zip-382",
+      "sourceScreenshot": 382,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 348,
+      "id": "zip-383",
+      "sourceScreenshot": 383,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T08:49:16Z",
-  "lastCheckedId": "zip-371",
+  "lastCheckedAt": "2026-11-21T10:03:38Z",
+  "lastCheckedId": "zip-383",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

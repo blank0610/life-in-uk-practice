@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 360,
+  "nextIndex": 372,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3887,11 +3887,145 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T11:13:00Z",
       "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 361,
+      "id": "zip-396",
+      "sourceScreenshot": 396,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 362,
+      "id": "zip-397",
+      "sourceScreenshot": 397,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 363,
+      "id": "zip-398",
+      "sourceScreenshot": 398,
+      "status": "needs_review",
+      "findings": [
+        "题干 'directed Dy Alfred Mitcncock In 1990 ¢' 存在疑似 OCR 字母、数字及符号异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 364,
+      "id": "zip-399",
+      "sourceScreenshot": 399,
+      "status": "needs_review",
+      "findings": [
+        "题干 'National Health System' 与解释 'National Health Service' 文字不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 365,
+      "id": "zip-400",
+      "sourceScreenshot": 400,
+      "status": "needs_review",
+      "findings": [
+        "题干 'her mother’s' 疑似代词识别异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 366,
+      "id": "zip-401",
+      "sourceScreenshot": 401,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 367,
+      "id": "zip-402",
+      "sourceScreenshot": 402,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 368,
+      "id": "zip-403",
+      "sourceScreenshot": 403,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 369,
+      "id": "zip-404",
+      "sourceScreenshot": 404,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 370,
+      "id": "zip-405",
+      "sourceScreenshot": 405,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 371,
+      "id": "zip-406",
+      "sourceScreenshot": 406,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 372,
+      "id": "zip-407",
+      "sourceScreenshot": 407,
+      "status": "needs_review",
+      "findings": [
+        "题干仅有 'themselves as Christian?' 疑似缺失前半句，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T11:13:00Z",
-  "lastCheckedId": "zip-395",
+  "lastCheckedAt": "2026-11-21T12:14:01Z",
+  "lastCheckedId": "zip-407",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

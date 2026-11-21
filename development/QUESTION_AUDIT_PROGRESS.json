@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 420,
+  "nextIndex": 432,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4549,6 +4549,132 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T20:43:27Z",
       "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 421,
+      "id": "zip-457",
+      "sourceScreenshot": 457,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 422,
+      "id": "zip-458",
+      "sourceScreenshot": 458,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 423,
+      "id": "zip-459",
+      "sourceScreenshot": 459,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 424,
+      "id": "zip-460",
+      "sourceScreenshot": 460,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 425,
+      "id": "zip-461",
+      "sourceScreenshot": 461,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 426,
+      "id": "zip-462",
+      "sourceScreenshot": 462,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 427,
+      "id": "zip-463",
+      "sourceScreenshot": 463,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 428,
+      "id": "zip-464",
+      "sourceScreenshot": 464,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 429,
+      "id": "zip-465",
+      "sourceScreenshot": 465,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 430,
+      "id": "zip-466",
+      "sourceScreenshot": 466,
+      "status": "needs_review",
+      "findings": [
+        "题干 Henry Vil 中 Vil 疑似罗马数字字符识别异常，待原图核验",
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 431,
+      "id": "zip-467",
+      "sourceScreenshot": 467,
+      "status": "needs_review",
+      "findings": [
+        "选项 The Grown Court 疑似字母识别异常，待原图核验",
+        "解释内容提及不同法院及地区，需与原图逐字核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 432,
+      "id": "zip-468",
+      "sourceScreenshot": 468,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
     }
   ],
   "completedRounds": [],

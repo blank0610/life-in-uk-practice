@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 312,
+  "nextIndex": 324,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3375,11 +3375,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T07:25:53Z",
       "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 313,
+      "id": "zip-348",
+      "sourceScreenshot": 348,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 314,
+      "id": "zip-349",
+      "sourceScreenshot": 349,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 315,
+      "id": "zip-350",
+      "sourceScreenshot": 350,
+      "status": "needs_review",
+      "findings": [
+        "题干开头 'venson Button Is' 与解释中的 'Jenson Button' 字符不同，疑似OCR转录错误，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 316,
+      "id": "zip-351",
+      "sourceScreenshot": 351,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 317,
+      "id": "zip-352",
+      "sourceScreenshot": 352,
+      "status": "needs_review",
+      "findings": [
+        "题干 'brexit reterenaum hela' 疑似OCR乱码；解释尾部 'ea 5 ee ee 1. 2, Cw Pe:' 疑似OCR残留，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 318,
+      "id": "zip-353",
+      "sourceScreenshot": 353,
+      "status": "needs_review",
+      "findings": [
+        "解释包含来源网址及额外法律说明，是否来自原始截图未核实；不得擅自增删"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 319,
+      "id": "zip-354",
+      "sourceScreenshot": 354,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 320,
+      "id": "zip-355",
+      "sourceScreenshot": 355,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 321,
+      "id": "zip-356",
+      "sourceScreenshot": 356,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 322,
+      "id": "zip-357",
+      "sourceScreenshot": 357,
+      "status": "needs_review",
+      "findings": [
+        "题干 'Falklands Islands' 与解释 'Falkland Islands' 存在字符差异，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 323,
+      "id": "zip-358",
+      "sourceScreenshot": 358,
+      "status": "needs_review",
+      "findings": [
+        "题干在问句后包含一段与选项重复且以逗号结尾的文字，疑似选项混入题干，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 324,
+      "id": "zip-359",
+      "sourceScreenshot": 359,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T07:25:53Z",
-  "lastCheckedId": "zip-347",
+  "lastCheckedAt": "2026-11-21T07:46:37Z",
+  "lastCheckedId": "zip-359",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

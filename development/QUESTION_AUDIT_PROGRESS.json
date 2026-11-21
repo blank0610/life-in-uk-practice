@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 384,
+  "nextIndex": 396,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4155,11 +4155,137 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T13:10:04Z",
       "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 385,
+      "id": "zip-420",
+      "sourceScreenshot": 420,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 386,
+      "id": "zip-421",
+      "sourceScreenshot": 421,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 387,
+      "id": "zip-422",
+      "sourceScreenshot": 422,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 388,
+      "id": "zip-423",
+      "sourceScreenshot": 423,
+      "status": "needs_review",
+      "findings": [
+        "选项原文 'They will gc to church at least once a week' 中 'gc' 疑似 OCR 字母异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 389,
+      "id": "zip-424",
+      "sourceScreenshot": 424,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 390,
+      "id": "zip-425",
+      "sourceScreenshot": 425,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 391,
+      "id": "zip-426",
+      "sourceScreenshot": 426,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 392,
+      "id": "zip-427",
+      "sourceScreenshot": 427,
+      "status": "needs_review",
+      "findings": [
+        "解释原文附带 'NOTE: Screenshot wording may be outdated; verify against the current curriculum.'，疑似非原图文字；须查看源图确认，不能擅自删除"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 393,
+      "id": "zip-428",
+      "sourceScreenshot": 428,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 394,
+      "id": "zip-430",
+      "sourceScreenshot": 430,
+      "status": "needs_review",
+      "findings": [
+        "解释原文 'in 1986/67' 与题干 '1966/67' 数字不一致，疑似 OCR 误识；待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 395,
+      "id": "zip-431",
+      "sourceScreenshot": 431,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 396,
+      "id": "zip-432",
+      "sourceScreenshot": 432,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T13:10:04Z",
-  "lastCheckedId": "zip-419",
+  "lastCheckedAt": "2026-11-21T17:31:01Z",
+  "lastCheckedId": "zip-432",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

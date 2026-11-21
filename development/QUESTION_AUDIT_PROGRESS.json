@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 372,
+  "nextIndex": 384,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4021,11 +4021,145 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T12:14:01Z",
       "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 373,
+      "id": "zip-408",
+      "sourceScreenshot": 408,
+      "status": "needs_review",
+      "findings": [
+        "题干 'SMs' 与解释 'MSs' 不同；题干 'concer' 与解释 'concern' 不同，疑似 OCR，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 374,
+      "id": "zip-409",
+      "sourceScreenshot": 409,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'Major’' 引号不成对，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 375,
+      "id": "zip-410",
+      "sourceScreenshot": 410,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 376,
+      "id": "zip-411",
+      "sourceScreenshot": 411,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 377,
+      "id": "zip-412",
+      "sourceScreenshot": 412,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 378,
+      "id": "zip-413",
+      "sourceScreenshot": 413,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 379,
+      "id": "zip-414",
+      "sourceScreenshot": 414,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 380,
+      "id": "zip-415",
+      "sourceScreenshot": 415,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 381,
+      "id": "zip-416",
+      "sourceScreenshot": 416,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 382,
+      "id": "zip-417",
+      "sourceScreenshot": 417,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 383,
+      "id": "zip-418",
+      "sourceScreenshot": 418,
+      "status": "needs_review",
+      "findings": [
+        "题干 '‘The UR Is' 与解释 'The UK is' 不同，疑似 OCR 或符号异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 384,
+      "id": "zip-419",
+      "sourceScreenshot": 419,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T12:14:01Z",
-  "lastCheckedId": "zip-407",
+  "lastCheckedAt": "2026-11-21T13:10:04Z",
+  "lastCheckedId": "zip-419",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

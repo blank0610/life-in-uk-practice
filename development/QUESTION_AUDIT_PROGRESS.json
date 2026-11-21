@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 324,
+  "nextIndex": 336,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -3505,11 +3505,139 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T07:46:37Z",
       "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 325,
+      "id": "zip-360",
+      "sourceScreenshot": 360,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 326,
+      "id": "zip-361",
+      "sourceScreenshot": 361,
+      "status": "needs_review",
+      "findings": [
+        "选项 'The Grown Court' 疑似OCR字母识别异常；解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 327,
+      "id": "zip-362",
+      "sourceScreenshot": 362,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 328,
+      "id": "zip-363",
+      "sourceScreenshot": 363,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 329,
+      "id": "zip-364",
+      "sourceScreenshot": 364,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 330,
+      "id": "zip-365",
+      "sourceScreenshot": 365,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 331,
+      "id": "zip-366",
+      "sourceScreenshot": 366,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 332,
+      "id": "zip-367",
+      "sourceScreenshot": 367,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 333,
+      "id": "zip-368",
+      "sourceScreenshot": 368,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 334,
+      "id": "zip-369",
+      "sourceScreenshot": 369,
+      "status": "needs_review",
+      "findings": [
+        "解释 'The mast serious cases will go the Grown Court.' 中 'mast'、'Grown' 疑似OCR字母异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 335,
+      "id": "zip-370",
+      "sourceScreenshot": 370,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 336,
+      "id": "zip-371",
+      "sourceScreenshot": 371,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T07:46:37Z",
-  "lastCheckedId": "zip-359",
+  "lastCheckedAt": "2026-11-21T08:49:16Z",
+  "lastCheckedId": "zip-371",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

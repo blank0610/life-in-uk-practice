@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 252,
+  "nextIndex": 264,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -2725,11 +2725,143 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T00:24:54Z",
       "note": "已逐项检查题干、4个选项、2个标记答案及空解释字段；解释字段为空；需查看原始截图确认是否存在解释。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 253,
+      "id": "zip-286",
+      "sourceScreenshot": 286,
+      "status": "needs_review",
+      "findings": [
+        "解释中“all publications of the Senedd’s publications”重复 publications，疑似转录重叠，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、2个选项、1个标记答案及解释全文；解释中“all publications of the Senedd’s publications”重复 publications，疑似转录重叠，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 254,
+      "id": "zip-287",
+      "sourceScreenshot": 287,
+      "status": "needs_review",
+      "findings": [
+        "选项“She was 4 spy of the Spanish Armada”中“4 spy”疑似数字字母 OCR 混淆，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；选项“She was 4 spy of the Spanish Armada”中“4 spy”疑似数字字母 OCR 混淆，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 255,
+      "id": "zip-288",
+      "sourceScreenshot": 288,
+      "status": "needs_review",
+      "findings": [
+        "解释末尾含“Source: ed.ac.uk/...”链接，需原图确认是否为后加文本；不访问链接、不删除。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释末尾含“Source: ed.ac.uk/...”链接，需原图确认是否为后加文本；不访问链接、不删除。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 256,
+      "id": "zip-289",
+      "sourceScreenshot": 289,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图确认是否原本存在说明。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 257,
+      "id": "zip-290",
+      "sourceScreenshot": 290,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 258,
+      "id": "zip-291",
+      "sourceScreenshot": 291,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、2个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 259,
+      "id": "zip-292",
+      "sourceScreenshot": 292,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 260,
+      "id": "zip-293",
+      "sourceScreenshot": 293,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、2个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 261,
+      "id": "zip-295",
+      "sourceScreenshot": 295,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 262,
+      "id": "zip-296",
+      "sourceScreenshot": 296,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图确认是否原本存在说明。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 263,
+      "id": "zip-297",
+      "sourceScreenshot": 297,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 264,
+      "id": "zip-298",
+      "sourceScreenshot": 298,
+      "status": "needs_review",
+      "findings": [
+        "题干“When ts ot Patrick's Day, patron to of Northern Ireland’”存在明显疑似OCR乱码及异常引号；解释“patron to of”亦疑似OCR异常，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；题干“When ts ot Patrick's Day, patron to of Northern Ireland’”存在明显疑似OCR乱码及异常引号；解释“patron to of”亦疑似OCR异常，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-20T20:50:24Z",
-  "lastCheckedId": "zip-261",
+  "lastCheckedAt": "2026-11-21T00:55:35Z",
+  "lastCheckedId": "zip-298",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

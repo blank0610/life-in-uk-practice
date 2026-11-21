@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 276,
+  "nextIndex": 288,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -2989,11 +2989,139 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T01:48:30Z",
       "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 277,
+      "id": "zip-312",
+      "sourceScreenshot": 312,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 278,
+      "id": "zip-313",
+      "sourceScreenshot": 313,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 279,
+      "id": "zip-314",
+      "sourceScreenshot": 314,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 280,
+      "id": "zip-315",
+      "sourceScreenshot": 315,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原始完整截图核实是否有说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原始完整截图核实是否有说明。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 281,
+      "id": "zip-316",
+      "sourceScreenshot": 316,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 282,
+      "id": "zip-317",
+      "sourceScreenshot": 317,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 283,
+      "id": "zip-318",
+      "sourceScreenshot": 318,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原始完整截图核实是否有说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原始完整截图核实是否有说明。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 284,
+      "id": "zip-319",
+      "sourceScreenshot": 319,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 285,
+      "id": "zip-320",
+      "sourceScreenshot": 320,
+      "status": "needs_review",
+      "findings": [
+        "解释中的引号仅有结尾弯单引号，疑似开头引号遗漏，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释中的引号仅有结尾弯单引号，疑似开头引号遗漏，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 286,
+      "id": "zip-321",
+      "sourceScreenshot": 321,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 287,
+      "id": "zip-322",
+      "sourceScreenshot": 322,
+      "status": "needs_review",
+      "findings": [
+        "解释中缩写“SMs”需与原始截图逐字核对，不根据常识改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释中缩写“SMs”需与原始截图逐字核对，不根据常识改写。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 288,
+      "id": "zip-323",
+      "sourceScreenshot": 323,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T01:48:30Z",
-  "lastCheckedId": "zip-311",
+  "lastCheckedAt": "2026-11-21T03:10:05Z",
+  "lastCheckedId": "zip-323",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

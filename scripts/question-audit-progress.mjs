@@ -20,7 +20,7 @@ export function nextAuditBatch(ledger,questions,{size=12,checkedAt=null,visualVe
   const sorted=sortAuditQuestions(questions);
   const total=sorted.length;
   if(total!==ledger.bankCount)throw Error("题库数量已变化，请核对后更新进度表");
-  if(!Number.isInteger(ledger.nextIndex)||ledger.nextIndex<0||ledger.nextIndex>=total)throw Error("审核下标无效");
+  if(!Number.isInteger(ledger.nextIndex)||ledger.nextIndex<0||ledger.nextIndex>total)throw Error("审核下标无效");
   if(!Array.isArray(ledger.checkedThisRound))throw Error("审核记录格式无效");
   const batchSize=Math.max(1,Math.min(30,Math.floor(Number(size)||12)));
   const end=Math.min(total,ledger.nextIndex+batchSize);

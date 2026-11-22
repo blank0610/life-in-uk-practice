@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 444,
+  "nextIndex": 456,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4807,11 +4807,147 @@
       "imageCompared": false,
       "checkedAt": "2026-11-21T23:03:57Z",
       "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 445,
+      "id": "zip-481",
+      "sourceScreenshot": 481,
+      "status": "needs_review",
+      "findings": [
+        "题干末尾 invented’ 疑似标点识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 446,
+      "id": "zip-482",
+      "sourceScreenshot": 482,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 447,
+      "id": "zip-483",
+      "sourceScreenshot": 483,
+      "status": "needs_review",
+      "findings": [
+        "解释含 Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut，是否原图文字待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 448,
+      "id": "zip-484",
+      "sourceScreenshot": 484,
+      "status": "needs_review",
+      "findings": [
+        "题干 What ts、bullding 疑似字母识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 449,
+      "id": "zip-485",
+      "sourceScreenshot": 485,
+      "status": "needs_review",
+      "findings": [
+        "题干 Is NOI、house of Lords’ 疑似大小写、字母及末尾标点识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 450,
+      "id": "zip-486",
+      "sourceScreenshot": 486,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 451,
+      "id": "zip-487",
+      "sourceScreenshot": 487,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 452,
+      "id": "zip-488",
+      "sourceScreenshot": 488,
+      "status": "needs_review",
+      "findings": [
+        "解释 about 0 million years ago 与登记答案数字不同，疑似缺字"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 453,
+      "id": "zip-490",
+      "sourceScreenshot": 490,
+      "status": "needs_review",
+      "findings": [
+        "解释 1866/67 疑似数字识别异常；解释姓名与登记答案不同，待原图核验，不判断答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 454,
+      "id": "zip-491",
+      "sourceScreenshot": 491,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 455,
+      "id": "zip-492",
+      "sourceScreenshot": 492,
+      "status": "needs_review",
+      "findings": [
+        "解释 cn 0300、contact@senedd wales、www.senedd wales 疑似字母及点号识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 456,
+      "id": "zip-493",
+      "sourceScreenshot": 493,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-21T23:03:57Z",
-  "lastCheckedId": "zip-480",
+  "lastCheckedAt": "2026-11-22T01:12:34Z",
+  "lastCheckedId": "zip-493",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

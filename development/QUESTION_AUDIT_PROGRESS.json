@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 468,
+  "nextIndex": 480,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -5071,11 +5071,141 @@
       "imageCompared": false,
       "checkedAt": "2026-11-22T03:20:57Z",
       "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 469,
+      "id": "zip-507",
+      "sourceScreenshot": 507,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 470,
+      "id": "zip-508",
+      "sourceScreenshot": 508,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 471,
+      "id": "zip-509",
+      "sourceScreenshot": 509,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 472,
+      "id": "zip-510",
+      "sourceScreenshot": 510,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 473,
+      "id": "zip-511",
+      "sourceScreenshot": 511,
+      "status": "needs_review",
+      "findings": [
+        "解释含 Source: legislation.gov.uk/ukpga/2007/20/body/2008-11-25; legislation.gov.uk/nisr/2008/446.，待原图确认是否属于原文"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 474,
+      "id": "zip-512",
+      "sourceScreenshot": 512,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 475,
+      "id": "zip-513",
+      "sourceScreenshot": 513,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 476,
+      "id": "zip-514",
+      "sourceScreenshot": 514,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 477,
+      "id": "zip-515",
+      "sourceScreenshot": 515,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 478,
+      "id": "zip-516",
+      "sourceScreenshot": 516,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 479,
+      "id": "zip-517",
+      "sourceScreenshot": 517,
+      "status": "needs_review",
+      "findings": [
+        "选项 The Grown Court 疑似字母识别异常；解释 County Courts 与登记答案 The Sheriff Court 文字不同，待原图确认，不判断答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 480,
+      "id": "zip-518",
+      "sourceScreenshot": 518,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-22T03:20:57Z",
-  "lastCheckedId": "zip-506",
+  "lastCheckedAt": "2026-11-22T03:53:26Z",
+  "lastCheckedId": "zip-518",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

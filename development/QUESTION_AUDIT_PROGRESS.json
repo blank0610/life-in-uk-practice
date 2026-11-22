@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 480,
+  "nextIndex": 487,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -5201,11 +5201,87 @@
       "imageCompared": false,
       "checkedAt": "2026-11-22T03:53:26Z",
       "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 481,
+      "id": "zip-519",
+      "sourceScreenshot": 519,
+      "status": "needs_review",
+      "findings": [
+        "解释中 identity themselves 与题干 identified themselves 字形不同，疑似转录异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 482,
+      "id": "zip-520",
+      "sourceScreenshot": 520,
+      "status": "needs_review",
+      "findings": [
+        "题干以 equal pay and made it illegal 开始，疑似开头缺失；题干 employees 与解释 employers 文字不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 483,
+      "id": "zip-521",
+      "sourceScreenshot": 521,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 484,
+      "id": "zip-522",
+      "sourceScreenshot": 522,
+      "status": "needs_review",
+      "findings": [
+        "题干 Boudica 与解释 Boudicca 拼写不同，待原图核验，不统一拼写"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 485,
+      "id": "zip-523",
+      "sourceScreenshot": 523,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 486,
+      "id": "zip-524",
+      "sourceScreenshot": 524,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 487,
+      "id": "zip-525",
+      "sourceScreenshot": 525,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-22T03:53:26Z",
-  "lastCheckedId": "zip-518",
+  "lastCheckedAt": "2026-11-22T05:13:55Z",
+  "lastCheckedId": "zip-525",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

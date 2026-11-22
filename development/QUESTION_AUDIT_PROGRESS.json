@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 1,
-  "nextIndex": 456,
+  "nextIndex": 468,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -4943,11 +4943,139 @@
       "imageCompared": false,
       "checkedAt": "2026-11-22T01:12:34Z",
       "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 457,
+      "id": "zip-494",
+      "sourceScreenshot": 494,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 458,
+      "id": "zip-495",
+      "sourceScreenshot": 495,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 459,
+      "id": "zip-496",
+      "sourceScreenshot": 496,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 460,
+      "id": "zip-498",
+      "sourceScreenshot": 498,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 461,
+      "id": "zip-499",
+      "sourceScreenshot": 499,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 462,
+      "id": "zip-500",
+      "sourceScreenshot": 500,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 463,
+      "id": "zip-501",
+      "sourceScreenshot": 501,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 464,
+      "id": "zip-502",
+      "sourceScreenshot": 502,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 465,
+      "id": "zip-503",
+      "sourceScreenshot": 503,
+      "status": "needs_review",
+      "findings": [
+        "选项 The British open、The Queen's open 的大小写待原图确认"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 466,
+      "id": "zip-504",
+      "sourceScreenshot": 504,
+      "status": "needs_review",
+      "findings": [
+        "解释 Irish republic 的大小写待原图确认"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 467,
+      "id": "zip-505",
+      "sourceScreenshot": 505,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 468,
+      "id": "zip-506",
+      "sourceScreenshot": 506,
+      "status": "needs_review",
+      "findings": [
+        "题干 driving license 与解释 driving licence 拼写形式不同，待原图确认，不作语言统一"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
     }
   ],
   "completedRounds": [],
-  "lastCheckedAt": "2026-11-22T01:12:34Z",
-  "lastCheckedId": "zip-493",
+  "lastCheckedAt": "2026-11-22T03:20:57Z",
+  "lastCheckedId": "zip-506",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

@@ -5,7 +5,7 @@ import {autoNextIsEnabled,shouldAutoAdvance} from "./auto-next.js";
 import {ensureHistory,appendHistory,updateHistoryResult,saveHistoryNote,previousHistoryIndex,nextHistoryIndex,canGoBack} from "./history.js";
 import {isSavedForReview,isQueuedForReview,toggleSavedForReview} from "./review-bookmarks.js?v=20261119-review-batch";
 import {DEFAULT_NORMAL_PERCENT,normalizeNormalPercent,reviewPercent} from "./review-mix.js";
-import {renderAuditDashboard} from "./audit-dashboard.js";
+import {renderAuditDashboard} from "./audit-dashboard.js?v=20261125-round-history";
 const KEY="life-uk-practice-v1";
 function shuffle(arr){const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
 function validate(input){

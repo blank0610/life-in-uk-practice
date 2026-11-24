@@ -11,7 +11,8 @@ export function summarizeAudit(ledger){
   const reviewed=entries.filter(x=>x?.imageCompared===true&&x?.status==="visually_checked").length;
   const flagged=entries.filter(x=>x?.status==="needs_review"||(x?.findings||[]).length).length;
   return {round:Number(ledger?.round)||1,total:Number(ledger?.bankCount)||0,
-    merged:Math.max(0,Number(ledger?.nextIndex)||0),photoCompared:reviewed,flagged,entries};
+    merged:Math.max(0,Number(ledger?.nextIndex)||0),photoCompared:reviewed,flagged,entries,
+    lastCompleted:Array.isArray(ledger?.completedRounds)?ledger.completedRounds.at(-1)||null:null};
 }
 export function auditPullRequests(pulls=[]){
   return pulls.filter(p=>p&&(/审核|巡检|审查|校对|OCR|题库|截图|audit|spell|quality|修复|修正|恢复/i.test(p.title||"")))
@@ -91,6 +92,15 @@ export async function renderAuditDashboard(target,{repo}={}){
     addLink(links,url(repo,"blob/main/development/QUESTION_AUDIT_PROGRESS.json"),"查看完整逐题审核账");
     addLink(links,url(repo,"blob/main/development/QUESTION_AUDIT_METHOD.md"),"审核标准");
     target.append(links);
+    if(summary.lastCompleted){
+      const old=summary.lastCompleted;
+      const block=make("section","audit-section");
+      block.append(make("h3","","上一轮的完整审核档案"));
+      block.append(make("p","",String(old.round)+" 轮已登记 "+old.bankCount+" 道文字初检；原图核验 "+(old.visuallyChecked??"未统计")+" 道，仍需图片或拼写复核 "+(old.needsReview??"未统计")+" 道。"));
+      block.append(make("p","muted","完成日期（英国时间）："+humanDate(old.completedAt)+ "。第二轮从第一道开始；上一轮疑点不会因为重新计数而删除。"));
+      addLink(block,url(repo,"blob/main/"+(old.archivePath||"development/audit-history/round-"+String(old.round).padStart(3,"0")+".json")),"查看上一轮每一道题的完整记录");
+      target.append(block);
+    }
     showChecks(target,summary.entries.slice(-15),"最近已合并的逐题审核","本轮尚无已合并审核记录。");
   }else{
     target.append(make("p","audit-finding","无法读取最新审核进度（"+String(first.reason?.message||"连接失败")+"）。这不代表自动巡检已经停止。"));

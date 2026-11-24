@@ -1,0 +1,5285 @@
+{
+  "round": 1,
+  "bankCount": 487,
+  "completedAt": "2026-11-24T23:52:56.855Z",
+  "auditScope": "First pass: text/OCR screening; source images not available for most questions. This is not 487 visual verifications.",
+  "counts": {
+    "visually_checked": 3,
+    "text_screened_photo_unavailable": 271,
+    "needs_review": 213
+  },
+  "checks": [
+    {
+      "number": 1,
+      "id": "zip-17",
+      "sourceScreenshot": 17,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "本轮已打开原 ZIP 完整源图，核对题干、四选项、高亮答案和说明。"
+    },
+    {
+      "number": 2,
+      "id": "zip-18",
+      "sourceScreenshot": 18,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 3,
+      "id": "zip-19",
+      "sourceScreenshot": 19,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 4,
+      "id": "zip-20",
+      "sourceScreenshot": 20,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "本轮已打开原 ZIP 完整源图，核对题干、四选项、高亮答案和说明。"
+    },
+    {
+      "number": 5,
+      "id": "zip-21",
+      "sourceScreenshot": 21,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 6,
+      "id": "zip-22",
+      "sourceScreenshot": 22,
+      "status": "visually_checked",
+      "findings": [],
+      "imageCompared": true,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已打开用户原 ZIP 第22张并逐字核对；补回原图莎士比亚题解释，带回归测试。"
+    },
+    {
+      "number": 7,
+      "id": "zip-23",
+      "sourceScreenshot": 23,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 8,
+      "id": "zip-24",
+      "sourceScreenshot": 24,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 9,
+      "id": "zip-25",
+      "sourceScreenshot": 25,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 10,
+      "id": "zip-26",
+      "sourceScreenshot": 26,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 11,
+      "id": "zip-27",
+      "sourceScreenshot": 27,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 12,
+      "id": "zip-28",
+      "sourceScreenshot": 28,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:50:28.848Z",
+      "note": "已逐条核查 GitHub 题目文本、选项、答案和说明；只看过截图缩略图，尚未逐字核完完整原图，不能标为视觉核验。"
+    },
+    {
+      "number": 13,
+      "id": "zip-29",
+      "sourceScreenshot": 29,
+      "status": "needs_review",
+      "findings": [
+        "缺少解释，需对照原图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干、四选项和答案文本一致；解释为空，需对照原始截图确认是否遗漏。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 14,
+      "id": "zip-30",
+      "sourceScreenshot": 30,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干、四选项、答案及解释一致；未发现明显 OCR 污染。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 15,
+      "id": "zip-31",
+      "sourceScreenshot": 31,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "合法六选项选五题；五个答案均位于选项中，解释对应；保留全部六项。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 16,
+      "id": "zip-32",
+      "sourceScreenshot": 32,
+      "status": "needs_review",
+      "findings": [
+        "解释标点疑似OCR错误：In 1455. a civil war；待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "答案1455与解释一致；解释开头 'In 1455. a civil war' 标点疑似 OCR 误识，原图不可访问，待核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 17,
+      "id": "zip-34",
+      "sourceScreenshot": 34,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项及答案129与解释一致；未见明显混杂。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 18,
+      "id": "zip-35",
+      "sourceScreenshot": 35,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案及解释含义一致，未见反馈混入。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 19,
+      "id": "zip-36",
+      "sourceScreenshot": 36,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "判断题答案 True，解释仅复述判断；原图未核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 20,
+      "id": "zip-37",
+      "sourceScreenshot": 37,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "判断题答案 True，解释简短但一致；原图未核对。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 21,
+      "id": "zip-38",
+      "sourceScreenshot": 38,
+      "status": "needs_review",
+      "findings": [
+        "缺少解释，需对照原图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "答案日期为2020年1月31日，与公开历史日期一致；解释为空，须原图确认。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 22,
+      "id": "zip-39",
+      "sourceScreenshot": 39,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案16岁及解释对应；该规则有地区/陪同与就餐场所限制，未按主观风格改写。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 23,
+      "id": "zip-40",
+      "sourceScreenshot": 40,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "四选项、答案及解释一致；未见明显污染。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 24,
+      "id": "zip-41",
+      "sourceScreenshot": 41,
+      "status": "needs_review",
+      "findings": [
+        "解释未证明题干的绝对断言，且现行资格规则可能有条件差异；待原图及官方规定核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-19T00:56:24Z",
+      "note": "题干称所有 civil servants 均不能参选，解释只说大部分公民有资格，未直接支持答案；公职人员类别限制可能有例外，需核对原图及现行官方选举资格规定，禁止猜改答案。 已逐项检查 CI 输出的完整网站文本；未取得原 ZIP 完整截图，未做视觉比对。"
+    },
+    {
+      "number": 25,
+      "id": "zip-42",
+      "sourceScreenshot": 42,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "题干、四选项、St Andrews答案及解释对应；St. Andrews写法差异不影响指称。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 26,
+      "id": "zip-43",
+      "sourceScreenshot": 43,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，最严重青少年案件转Crown Court与解释相符；涉及三司法辖区，原图未核对。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 27,
+      "id": "zip-44",
+      "sourceScreenshot": 44,
+      "status": "needs_review",
+      "findings": [
+        "网站解释为空；待核对原始截图"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "题干和四选项完整，答案Skara Brae与常识相符，但解释为空，需原图确认是否遗漏。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 28,
+      "id": "zip-47",
+      "sourceScreenshot": 47,
+      "status": "needs_review",
+      "findings": [
+        "与zip-44近重复；题干语法和选项Maiden疑似OCR/截断，待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "与zip-44题意重复但题干和Maiden选项不完全相同；Skara Brae与解释一致；'which origin traces back'语法不自然、Maiden疑似截断，需原图确认。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 29,
+      "id": "zip-48",
+      "sourceScreenshot": 48,
+      "status": "needs_review",
+      "findings": [
+        "解释1896与答案1895冲突；National Trust官方证实创立于1895：https://www.nationaltrust.org.uk/who-we-are/about-us/the-history-of-the-national-trust"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "答案1895正确；解释却写1896，构成明确内部矛盾。National Trust官方历史明确1895创立，1896购入首栋建筑。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 30,
+      "id": "zip-49",
+      "sourceScreenshot": 49,
+      "status": "needs_review",
+      "findings": [
+        "网站解释为空；待原图核实"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项与Gentry答案合理，解释为空，须核对原图是否遗漏。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 31,
+      "id": "zip-50",
+      "sourceScreenshot": 50,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项齐全，Henry VIII与题干及解释一致。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 32,
+      "id": "zip-51",
+      "sourceScreenshot": 51,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，The Mikado为Gilbert and Sullivan作品；解释只概括其歌剧创作但无冲突。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 33,
+      "id": "zip-52",
+      "sourceScreenshot": 52,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，West of Scotland答案与解释相符。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 34,
+      "id": "zip-53",
+      "sourceScreenshot": 53,
+      "status": "needs_review",
+      "findings": [
+        "Camila疑似拼写错误（应为Camilla）；Queen Consort称谓已过时，现称Queen Camilla；需原图核对"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项均出现Camila拼法，正确英文应为Camilla；2023年加冕后官方称Queen Camilla，选项/解释仍写Queen Consort属旧称，需对照原图并评估更新，不能直接更改答案。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 35,
+      "id": "zip-54",
+      "sourceScreenshot": 54,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，两项正确答案均存在；解释说明Anglican Church及在苏格兰/美国称Episcopal Church，未见明显错配。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 36,
+      "id": "zip-55",
+      "sourceScreenshot": 55,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T01:33:11Z",
+      "note": "四选项完整，Sir Robert Walpole与解释1721–1742一致。 已逐项核查仓库可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 37,
+      "id": "zip-56",
+      "sourceScreenshot": 56,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整；Ash Wednesday 为大斋期首日，答案与解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 38,
+      "id": "zip-57",
+      "sourceScreenshot": 57,
+      "status": "needs_review",
+      "findings": [
+        "75岁免费电视牌照有领取 Pension Credit 等资格条件，题干及解释未写条件；Over 75 还可能排除刚满75岁者，需按现行 TV Licensing 规则核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案选 Over 75；解释把年龄资格描述为普遍免费，疑似过时且遗漏 Pension Credit 条件；需核实现行规则及原图。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 39,
+      "id": "zip-58",
+      "sourceScreenshot": 58,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；酒吧周日营业时间并非全英国统一固定为12pm，需核实原题的历史背景及当地营业许可。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案为12pm，但解释缺失且题干以通常营业时间作笼统断言，需原图及现行营业规定核实。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 40,
+      "id": "zip-59",
+      "sourceScreenshot": 59,
+      "status": "needs_review",
+      "findings": [
+        "解释把首相官邸写为19 Downing Street，正确地址应为10 Downing Street；明显数字OCR或原文错误，待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四个选项完整，答案10 Downing Street正确，但解释写19 Downing Street，与答案及公认官邸地址直接冲突；Chequers部分没有明显冲突。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 41,
+      "id": "zip-60",
+      "sourceScreenshot": 60,
+      "status": "needs_review",
+      "findings": [
+        "选项231d July 2016及231d July 2015疑似23rd的OCR识别错误；须原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，正确答案23rd June 2016与解释一致；两个干扰项出现231d，不符合英文序数词拼写，疑似OCR。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 42,
+      "id": "zip-61",
+      "sourceScreenshot": 61,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需核对原始截图是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Dame Kelly Holmes在2004年奥运会获得两枚跑步金牌，答案合理；解释为空。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 43,
+      "id": "zip-62",
+      "sourceScreenshot": 62,
+      "status": "needs_review",
+      "findings": [
+        "84%属于有年份背景的人口比例，题干未标明统计年份；应确认所依据人口统计时间，避免将历史比例当作现时比例。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，答案84%与解释未直接冲突；解释仅说人口分布不均，没有说明84%的统计依据和年份，需核实来源。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 44,
+      "id": "zip-63",
+      "sourceScreenshot": 63,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；2010年英国人口约6200多万，答案合理，但须核对原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，正确答案Just over 62 million与2010年人口数量大致相符；解释缺失。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 45,
+      "id": "zip-64",
+      "sourceScreenshot": 64,
+      "status": "needs_review",
+      "findings": [
+        "County Courts处理民事纠纷，但题干将离婚和家庭事务一概归于County Courts可能忽略现行Family Court管辖；需核实历史教材语境及现行法院体系。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，County Courts与解释所说民事纠纷大体一致；但题干包含divorce/family matters，现行England and Wales Family Court制度可能使表述过时。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 46,
+      "id": "zip-65",
+      "sourceScreenshot": 65,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；Holyrood作为苏格兰议会所在地的称呼合理，待原图确认解释是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Holyrood与苏格兰议会地点相符，解释为空。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 47,
+      "id": "zip-66",
+      "sourceScreenshot": 66,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Rose与英格兰国花关联及解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 48,
+      "id": "zip-67",
+      "sourceScreenshot": 67,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T03:37:28Z",
+      "note": "四选项完整，Robert Burns为苏格兰诗人，与解释一致。 已逐项核查main可读分包的题干、全部选项、正确答案和解释；未取得原始ZIP图片，不构成原图核验。"
+    },
+    {
+      "number": 49,
+      "id": "zip-68",
+      "sourceScreenshot": 68,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；1930s答案与解释一致，未见明显拼写、标点或OCR污染。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 50,
+      "id": "zip-69",
+      "sourceScreenshot": 69,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "Belfast答案与解释一致；Dublin、Cork、Edinburgh均为完整干扰项。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 51,
+      "id": "zip-70",
+      "sourceScreenshot": 70,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "April Fool's Day答案与解释一致；解释中弯引号与题目直引号仅为排版差异，未见文字截断。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 52,
+      "id": "zip-71",
+      "sourceScreenshot": 71,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；Dame Ellen MacArthur曾创单人环球航行纪录，但题干未明确纪录年代，须核对原图及历史语境。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；答案Dame Ellen MacArthur与历史纪录相符，但无解释，且最快纪录具有时效性，不能当作当前世界纪录。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 53,
+      "id": "zip-72",
+      "sourceScreenshot": 72,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四个日期选项完整；11 November 1918对应停战日，解释说明上午11时停止战斗，语境中的战争结束日期一致；正式和平条约另有日期。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 54,
+      "id": "zip-73",
+      "sourceScreenshot": 73,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原始截图核对是否漏录。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；Welsh cakes常用面粉、干果及香料，正确选项合理，但缺少解释。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 55,
+      "id": "zip-74",
+      "sourceScreenshot": 74,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四个河岸选项完整；London Eye位于泰晤士河南岸，135米高度与解释一致。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 56,
+      "id": "zip-75",
+      "sourceScreenshot": 75,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整；君主可advise, warn and encourage，政策由首相及内阁决定；答案和解释一致，选项语法略生硬但不足以确认OCR错误。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 57,
+      "id": "zip-76",
+      "sourceScreenshot": 76,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "True/False两选项完整；英国为constitutional monarchy，答案与解释一致。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 58,
+      "id": "zip-77",
+      "sourceScreenshot": 77,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；题干将永久居留与入籍的要求合并，英语能力要求有不同类别、豁免及证明方式，需核对现行官方规定和原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项、两项正确答案完整；Life in the UK知识及英语能力通常相关，但题干笼统且将speak and read English视为统一必要条件，不能未经官方核实保证适用所有申请者。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 59,
+      "id": "zip-78",
+      "sourceScreenshot": 78,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'one of these awarded the Nobel Prize' 语法缺失谓语，疑似文字截断或OCR遗漏；待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整，Francis Crick答案合理；1953年DNA双螺旋结构研究及诺贝尔奖的核心事实一致，但解释最后一句不合语法。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 60,
+      "id": "zip-79",
+      "sourceScreenshot": 79,
+      "status": "needs_review",
+      "findings": [
+        "解释将英国国教会建立过程简化为亨利八世因离婚遭拒而建立，需按历史背景核对原图与教材语境。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T04:37:51Z",
+      "note": "四选项完整，Henry VIII为通常考试答案；解释中的教会独立与宗教改革过程存在历史简化，不宜据此擅自改答案。 已逐项核查main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不构成原图核验。"
+    },
+    {
+      "number": 61,
+      "id": "zip-80",
+      "sourceScreenshot": 80,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四项均完整，40 days before Easter与解释对应；Lent礼仪计日存在不计主日的习惯，但此题通行答案可接受。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 62,
+      "id": "zip-81",
+      "sourceScreenshot": 81,
+      "status": "needs_review",
+      "findings": [
+        "选项The National Museum名称不完整且含糊；官方馆名为National Museum Cardiff，需原图确认是否截断。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "答案指向卡迪夫的国家博物馆；Museum Wales官网确认地点为Cardiff，然而选项The National Museum并非准确完整馆名。官方：https://museum.wales/cardiff/visit/location/ 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 63,
+      "id": "zip-82",
+      "sourceScreenshot": 82,
+      "status": "needs_review",
+      "findings": [
+        "£1,000罚款上限属实，但题干未限定需牌照的直播节目/BBC iPlayer观看行为；Guernsey上限另为£2,000。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，£1,000与解释一致；GOV.UK与TV Licensing官网核实一般上限，题干watch TV过于宽泛，需区分无需牌照的点播观看。https://www.gov.uk/find-licences/tv-licence https://www.tvlicensing.co.uk/visit/paying-fines 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 64,
+      "id": "zip-83",
+      "sourceScreenshot": 83,
+      "status": "needs_review",
+      "findings": [
+        "150 years old是依来源年代的历史年龄，2026年已过时；题干虽加according to the source仍缺来源年份。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，150年与题目历史语境可能对应2009年；Big Ben严格指钟铃，解释已澄清。需核实原始来源时间，不可当作2026现龄。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 65,
+      "id": "zip-84",
+      "sourceScreenshot": 84,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "判断题True与解释一致；过去时was正确反映英国曾为欧盟成员但未采用欧元，未发现OCR异常。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 66,
+      "id": "zip-85",
+      "sourceScreenshot": 85,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项、两正确答案均完整；互助防御及维持成员和平与北约目的相符，解释强调集体防御，未见明显错配。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 67,
+      "id": "zip-86",
+      "sourceScreenshot": 86,
+      "status": "needs_review",
+      "findings": [
+        "题干及解释写less than £10,000，现行英格兰及威尔士普通小额索偿通常为不超过£10,000，边界措辞不精确；特殊案件门槛不同。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，£10,000为合理选项；司法部规则以not more than £10,000描述一般金钱索偿，另有人身伤害及房屋维修特殊规则。https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part27 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 68,
+      "id": "zip-87",
+      "sourceScreenshot": 87,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，须原始截图核实是否遗漏。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，The Enlightenment正确对应18世纪思想与科学启蒙，网站explanation为空；未核对原图。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 69,
+      "id": "zip-88",
+      "sourceScreenshot": 88,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，The Great Charter与Magna Carta译义吻合；解释有关王权限制的概括合理，无明显OCR异常。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 70,
+      "id": "zip-89",
+      "sourceScreenshot": 89,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，1485年博斯沃思战役为传统玫瑰战争结束时间；答案与解释对应，虽1487仍有约克派叛乱但原题通行表述可接受。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 71,
+      "id": "zip-90",
+      "sourceScreenshot": 90,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，Economy与财政大臣职权对应；解释虽简短但无答案冲突。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 72,
+      "id": "zip-91",
+      "sourceScreenshot": 91,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T06:20:40Z",
+      "note": "四选项完整，University of Cambridge与牛顿就读三一学院历史一致；解释与答案相符。 已逐项检查main可读分包的题干、全部选项、正确答案与解释；未取得原始ZIP截图，不构成视觉核验。"
+    },
+    {
+      "number": 73,
+      "id": "zip-92",
+      "sourceScreenshot": 92,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个选项完整，盎格鲁-撒克逊人与罗马撤军后迁入不列颠的历史相符；解释还列出朱特人，未与答案冲突。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 74,
+      "id": "zip-93",
+      "sourceScreenshot": 93,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四项年代完整，约4000年前与青铜时代及解释一致；属于约数而非精确发明年份。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 75,
+      "id": "zip-94",
+      "sourceScreenshot": 94,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个日期选项完整，光明节在公历11或12月且持续八天，与答案及解释相符。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 76,
+      "id": "zip-95",
+      "sourceScreenshot": 95,
+      "status": "needs_review",
+      "findings": "解释称奖项每年九月颁发，月份可能随年份变化；需核实来源年代及现行奖项规则。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干according to the source缺具体年份，最佳专辑奖项的地域资格需与现行主办方规则核对。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 77,
+      "id": "zip-96",
+      "sourceScreenshot": 96,
+      "status": "needs_review",
+      "findings": "解释严重OCR损坏：Imani应疑为Iceni，'what ie naw eactarn Encland'明显乱码且句尾不完整；必须原图核验。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干与四选项完整，正确答案为反抗罗马人的部落领袖；解释出现 Imani 及后半句明显乱码，无法确认源图原文，必须保留待复核。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 78,
+      "id": "zip-97",
+      "sourceScreenshot": 97,
+      "status": "needs_review",
+      "findings": "选项Waterpolo疑似应为Water polo，需原图核对；解释只提Sailing，未解释另一正确项Rowing。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干要求选择两项，四选项齐全，Rowing 与 Sailing 均标为正确；解释仅说明 Sailing，Waterpolo 拼写待源图核对。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 79,
+      "id": "zip-99",
+      "sourceScreenshot": 99,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个选项完整，强迫婚姻属于刑事犯罪，正确答案与解释一致；法律细节有地区差异但不影响本题基本判断。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 80,
+      "id": "zip-100",
+      "sourceScreenshot": 100,
+      "status": "needs_review",
+      "findings": "题干以UK整体表述，狗项圈身份标识规则可能因地区及特殊犬只情形而不同；应按官方地区法规复核。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四选项齐全，答案与解释均指向载有主人姓名地址的项圈；但题干泛称全英国，地区法规与例外情况尚待官方核实。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 81,
+      "id": "zip-101",
+      "sourceScreenshot": 101,
+      "status": "needs_review",
+      "findings": "解释'motor cycle'拼写分写与题干motorcycle不一致，疑为旧式写法或OCR；需原图核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四选项齐全，DVLA 答案与解释一致；解释使用 motor cycle 而题干使用 motorcycle，是否原图写法仍待确认。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 82,
+      "id": "zip-102",
+      "sourceScreenshot": 102,
+      "status": "needs_review",
+      "findings": "Twitter已改名为X，解释及选项使用旧品牌名，属于来源年代信息，需确认是否作为历史题保留。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四选项齐全，答案 Facebook and Twitter 与解释相符；Twitter 为旧名称，须确认题目是否刻意保留历史来源用语。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 83,
+      "id": "zip-103",
+      "sourceScreenshot": 103,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "题干明确限定2011年人口普查，4.8%与解释一致；不可把2011年的比例误当2026年现值。 已逐项查看题干、全部4项选项、1个正确答案与解释；未取得原始ZIP照片，不能视为视觉核验。"
+    },
+    {
+      "number": 84,
+      "id": "zip-104",
+      "sourceScreenshot": 104,
+      "status": "needs_review",
+      "findings": "解释声称选举过去每四年举行，需核对2026年Senedd选举制度与周期；不能直接把历史表述视为当前规则。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T07:35:59Z",
+      "note": "四个周期选项齐全，答案每四年与解释中的历史说法一致，但不代表2026年现行威尔士议会选举周期，需官方核验。 已逐项核查题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，imageCompared=false。"
+    },
+    {
+      "number": 85,
+      "id": "zip-105",
+      "sourceScreenshot": 105,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；John Major于1990年接替Margaret Thatcher，解释所述北爱尔兰和平进程与其任期一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 86,
+      "id": "zip-106",
+      "sourceScreenshot": 106,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Mayor为许多地方议会的礼仪首长，解释限定many local authorities，未夸大为全部议会。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 87,
+      "id": "zip-107",
+      "sourceScreenshot": 107,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；相对多数制中各选区票数最高者当选，答案与解释一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 88,
+      "id": "zip-108",
+      "sourceScreenshot": 108,
+      "status": "needs_review",
+      "findings": "解释为空，缺少对滑铁卢战役指挥官的说明；原始截图待核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Duke of Wellington为英国及盟军指挥官之一，正确答案可成立；但解释缺失，不能视为完整题目。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 89,
+      "id": "zip-109",
+      "sourceScreenshot": 109,
+      "status": "needs_review",
+      "findings": "选项The Grown Court疑为The Crown Court的OCR或拼写错误，必须与原图核对。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；苏格兰最严重刑事案件由High Court of Justiciary审理，解释的High Court简写可理解；Grown Court拼写明显可疑。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 90,
+      "id": "zip-110",
+      "sourceScreenshot": 110,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；红白相叠的都铎玫瑰及兰开斯特、约克家族结合的解释相符。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 91,
+      "id": "zip-111",
+      "sourceScreenshot": 111,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；威尔士旗帜为红龙，解释与答案一致。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 92,
+      "id": "zip-112",
+      "sourceScreenshot": 112,
+      "status": "needs_review",
+      "findings": "解释中developed This缺句号；解释仅泛述启蒙运动，未解释Adam Smith的经济学贡献。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Adam Smith为18世纪经济学家，答案合理；解释存在标点缺漏及针对性不足。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 93,
+      "id": "zip-113",
+      "sourceScreenshot": 113,
+      "status": "needs_review",
+      "findings": "解释为空；The British King为2026年英联邦象征性元首，但这一职务并非英国君主自动继承，须区分。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；答案在现任国王Charles III任职背景下成立；解释缺失且可能误导英联邦元首职位的继承机制。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 94,
+      "id": "zip-115",
+      "sourceScreenshot": 115,
+      "status": "needs_review",
+      "findings": "营业时间属旧式概括，英格兰、威尔士、苏格兰及北爱尔兰酒牌与实际开门时间不统一，不能视为现行普遍法定时间。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；11am与原解释一致，但问题问通常营业时间，因酒吧具体许可及营业时间差异，应核实原始来源及其时效。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 95,
+      "id": "zip-116",
+      "sourceScreenshot": 116,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；题干要求两项，Special effects movies与Animation movies均正确，解释同时覆盖两项。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 96,
+      "id": "zip-117",
+      "sourceScreenshot": 117,
+      "status": "needs_review",
+      "findings": "解释末尾country ae mardan ecanany为明显OCR乱码，句子被截断，必须核对原始截图。",
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T09:16:51Z",
+      "note": "四选项齐全；Thomas Gainsborough为18世纪英国肖像画家，答案合理；解释后半段损坏无法完整阅读。 已逐项查看题干、全部四个选项、正确答案及解释字段；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 97,
+      "id": "zip-118",
+      "sourceScreenshot": 118,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "开斋节与宰牲节区分清楚，答案Eid ul Adha与解释一致；四项均完整。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 98,
+      "id": "zip-119",
+      "sourceScreenshot": 119,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项年龄选项完整；英国National Lottery现行最低年龄为18岁，答案及解释相符。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 99,
+      "id": "zip-120",
+      "sourceScreenshot": 120,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，须核对原始截图是否漏录。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Royal Ascot举办地Ascot Racecourse位于Berkshire，答案合理，但解释为空。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 100,
+      "id": "zip-121",
+      "sourceScreenshot": 121,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "55 BC凯撒率军首次远征不列颠，题干及解释相符；须注意与公元43年Claudius时期征服区分。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 101,
+      "id": "zip-122",
+      "sourceScreenshot": 122,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四选项完整；JRR Tolkien为《The Lord of the Rings》作者，解释一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 102,
+      "id": "zip-123",
+      "sourceScreenshot": 123,
+      "status": "needs_review",
+      "findings": [
+        "选项The Grown Court疑似The Crown Court的OCR拼写错误，待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Magistrates’ Court答案及解释一致；干扰项Grown Court拼写异常，与先前zip-109同类问题。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 103,
+      "id": "zip-124",
+      "sourceScreenshot": 124,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Round barrows与青铜时代墓葬相符，解释支持答案，选项完整。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 104,
+      "id": "zip-125",
+      "sourceScreenshot": 125,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "Defence为保留事项，Northern Ireland Assembly不能自行决定；解释举例其获下放的事务，答案一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 105,
+      "id": "zip-126",
+      "sourceScreenshot": 126,
+      "status": "needs_review",
+      "findings": [
+        "解释只讲2011年基督徒59%，未说明佛教徒比例；需核实所用英国统计口径及原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项百分比选项完整，答案Less than 0.5%在2011年人口普查语境下大致合理，但解释与佛教徒问题不对应。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 106,
+      "id": "zip-127",
+      "sourceScreenshot": 127,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "1984年Torvill和Dean赢得奥运冰舞金牌，四项选项、答案和解释一致。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 107,
+      "id": "zip-129",
+      "sourceScreenshot": 129,
+      "status": "needs_review",
+      "findings": [
+        "题干What ts、结尾¢及解释引号句号错误，明显OCR/标点损坏；须原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四项均为国歌歌词片段，正确答案God save our gracious King!符合首句；题干多处损坏，解释结尾标点错误。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 108,
+      "id": "zip-130",
+      "sourceScreenshot": 130,
+      "status": "needs_review",
+      "findings": [
+        "题干Is NOI、british、2Uth存在明显OCR与大小写错误；题目时间限定及Radioactivity是否属于发明均需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T10:36:26Z",
+      "note": "四选项完整，Radioactivity被选为非英国发明；但题干严重损坏，不能未经原图与史料确认而改写。 已逐项查看main可读分包题干、全部选项、正确答案及解释；未取得原始ZIP截图，不能视为视觉核验。"
+    },
+    {
+      "number": 109,
+      "id": "zip-131",
+      "sourceScreenshot": 131,
+      "status": "needs_review",
+      "findings": [
+        "题干疑似OCR杂字SUISSE EME，解释引号不闭合，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "题干开头“SUISSE EME”属于明显异常杂字，解释引号未闭合；Churchill及演说归属与答案一致。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 110,
+      "id": "zip-132",
+      "sourceScreenshot": 132,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "Bulgaria在一战中属于同盟国阵营，正确选项与解释一致，四项完整。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 111,
+      "id": "zip-134",
+      "sourceScreenshot": 134,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "Shelter与Crisis均服务无家可归者，双选答案及解释一致。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 112,
+      "id": "zip-136",
+      "sourceScreenshot": 136,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "苏格兰象征花卉为蓟，答案和解释一致。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 113,
+      "id": "zip-137",
+      "sourceScreenshot": 137,
+      "status": "needs_review",
+      "findings": [
+        "BBC全球规模表述具有时效性，后续核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "电视牌照收入支持BBC公共广播服务，四项完整；“最大广播机构”属于可能随时间变化的描述，建议后续核对。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 114,
+      "id": "zip-138",
+      "sourceScreenshot": 138,
+      "status": "needs_review",
+      "findings": [
+        "威尔士议会选举周期“四年”疑似过时，现为五年；题干把政府成员与议会选举混淆，解释缺失。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "题干写威尔士政府成员每四年选举，现行Senedd选举周期为五年，且政府并非直接选举；解释为空，必须核对原图与官方制度资料。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 115,
+      "id": "zip-139",
+      "sourceScreenshot": 139,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "英联邦定义及选项与解释一致，四项完整。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 116,
+      "id": "zip-140",
+      "sourceScreenshot": 140,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "Wren为1666年伦敦大火后重建圣保罗大教堂的建筑师；解释为空，待原图确认。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 117,
+      "id": "zip-141",
+      "sourceScreenshot": 141,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "Individual liberty与所列英国生活基本原则一致，四项完整。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 118,
+      "id": "zip-142",
+      "sourceScreenshot": 142,
+      "status": "needs_review",
+      "findings": [
+        "解释仅重复正确选项，未提供理由。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "Mozambique为英联邦成员，答案正确；解释仅重复国家名，说明性不足。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 119,
+      "id": "zip-143",
+      "sourceScreenshot": 143,
+      "status": "needs_review",
+      "findings": [
+        "国民保险缴费条件受收入、年龄及就业身份影响，题干解释过于概括。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "题干与解释笼统称几乎所有有薪工作者缴NI，实际缴费受年龄、收入门槛、雇佣类型影响；应与现行HMRC规则核实，不能直接判定所有有薪人士都需缴费。 已逐项查看main可读分包题干、全部4项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 120,
+      "id": "zip-144",
+      "sourceScreenshot": 144,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T11:30:09Z",
+      "note": "真伪题仅两项属正常题型；支持本地商户与社区参与的表述合理，解释重复判断但不矛盾。 已逐项查看main可读分包题干、全部2项选项、正确答案及解释；未取得原始ZIP截图，未进行视觉核验。"
+    },
+    {
+      "number": 121,
+      "id": "zip-145",
+      "sourceScreenshot": 145,
+      "status": "needs_review",
+      "findings": [
+        "选项将 London 错写为 Landon，解释中 Whitehall London 缺逗号。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "正确答案 Whitehall, London 与解释所述地点一致；第四选项 Piccadilly Circus, Landon 有明显拼写错误。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 122,
+      "id": "zip-146",
+      "sourceScreenshot": 146,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "Great Britain 指英格兰、苏格兰和威尔士，不包括北爱尔兰；四选项及解释一致。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 123,
+      "id": "zip-147",
+      "sourceScreenshot": 147,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待核对原始截图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "Bradley Wiggins 是首位赢得环法自行车赛的英国人（2012）；正确选项合理，但解释完全缺失。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 124,
+      "id": "zip-148",
+      "sourceScreenshot": 148,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "英语存在多种口音及方言，四项及正确答案相符；解释仅重复答案，说明较简略。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 125,
+      "id": "zip-149",
+      "sourceScreenshot": 149,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "题干询问进入博彩店或博彩俱乐部的年龄；18岁与解释一致，四项完整；具体场所规则可能另有准入要求。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 126,
+      "id": "zip-150",
+      "sourceScreenshot": 150,
+      "status": "needs_review",
+      "findings": [
+        "题干 Ian McEwan 首字母疑似被 OCR 识别为 lan；解释中 1968 后缺标点，且布克奖资格范围和奖项名称沿革可能过时。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "三位作者均曾获布克奖；选项与答案一致。解释称仅英联邦、爱尔兰或津巴布韦作者符合资格，属于历史规则，不应当作现行条件；奖项始于1969年，文中1968值得核对。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 127,
+      "id": "zip-151",
+      "sourceScreenshot": 151,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "北爱尔兰议会采用比例代表制中的单记可转移投票制，90名议员；四项、答案和解释一致。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 128,
+      "id": "zip-152",
+      "sourceScreenshot": 152,
+      "status": "needs_review",
+      "findings": [
+        "解释中议会邮编 SW1A OAA 疑似将数字0误作字母O，电话号码亦需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "信件和选区办公室电话两项与题目及解释一致；解释的邮编应核对 SW1A 0AA，电话格式亦可能有OCR/资料过时问题。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 129,
+      "id": "zip-153",
+      "sourceScreenshot": 153,
+      "status": "needs_review",
+      "findings": [
+        "题干 The’Bill 缺空格且 16897 疑似将问号误识别为数字7。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "正确答案及解释均指1689年权利法案限制王权、确立议会权利，逻辑一致；题干明显OCR损坏。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 130,
+      "id": "zip-154",
+      "sourceScreenshot": 154,
+      "status": "needs_review",
+      "findings": [
+        "题干 Avon George 疑似应为 Avon Gorge。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "布鲁内尔设计克利夫顿吊桥的答案与解释一致；地理名词 Gorge 拼写有误。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 131,
+      "id": "zip-155",
+      "sourceScreenshot": 155,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "英国没有单一成文宪法法典，选 No 与解释一致；更精确说法为宪制规则分散于成文法、判例和惯例，并非完全没有成文宪法材料。 已检查分包中题干、全部2项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 132,
+      "id": "zip-156",
+      "sourceScreenshot": 156,
+      "status": "needs_review",
+      "findings": [
+        "解释没有提供题干所问人口估计值，无法从解释验证正确选项。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:16:11Z",
+      "note": "选项答案为超过4亿人，但解释仅描述帝国领土范围，没有说明人口或统计年份；须进一步核对维多利亚时期具体时间点和来源。 已检查分包中题干、全部4项选项、正确答案和解释；未取得原始ZIP图片，未做视觉核验。"
+    },
+    {
+      "number": 133,
+      "id": "zip-157",
+      "sourceScreenshot": 157,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "第一次世界大战保加利亚属于同盟国阵营，法国、日本、塞尔维亚属于协约国；四选项、答案和解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 134,
+      "id": "zip-158",
+      "sourceScreenshot": 158,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "英国举办过1908、1948、2012三届夏季奥运会，四选项、正确答案及解释一致；题干未区分夏季与冬季，按历史主办记录判断无冲突。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 135,
+      "id": "zip-159",
+      "sourceScreenshot": 159,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "1896年英国公开电影放映的年份与解释一致；四个年份选项完整，未见明显OCR损坏。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 136,
+      "id": "zip-160",
+      "sourceScreenshot": 160,
+      "status": "needs_review",
+      "findings": [
+        "题干 bullding、Weish、末尾弯引号疑似OCR错误；解释将 Welsh government members 与 Senedd 议员混称，需区分政府与议会。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四个地点选项完整，Senedd 是威尔士议会建筑；解释所称民选成员应指 Senedd 议员，而非笼统的 Welsh government members。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 137,
+      "id": "zip-161",
+      "sourceScreenshot": 161,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Southampton 位于英格兰；四个地区选项、正确答案和解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 138,
+      "id": "zip-162",
+      "sourceScreenshot": 162,
+      "status": "needs_review",
+      "findings": [
+        "严重事实错误：正确答案被设为1913年11月11日上午11时，但解释明确为1918年；四个选项均没有正确的1918年11月11日上午11时，必须核对原图并修复题库。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "逐项核查四个选项：1916年11月11日午夜、1913年11月11日上午11时、1916年11月13日晚上11时、1918年2月13日午夜均不符合1918年11月11日上午11时停战。此题目前无正确选项，不能自动替换答案。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 139,
+      "id": "zip-163",
+      "sourceScreenshot": 163,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Florence Nightingale 与现代护理事业发展相关；四选项、答案与解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 140,
+      "id": "zip-164",
+      "sourceScreenshot": 164,
+      "status": "needs_review",
+      "findings": [
+        "1833年法案正式名称为 Slavery Abolition Act 1833；题库选项 The Emancipation Act 属非正式称呼，需核对原始题目和官方史料；解释的 throughout British Empire 也有地域例外及实施时间差异。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四选项中 Emancipation Act 与废奴主题最接近，但不是1833年法案正式名称；不能直接据此改答案。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 141,
+      "id": "zip-165",
+      "sourceScreenshot": 165,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "排灯节通常为五天庆祝期，选项 Five days 与解释一致；四个时长选项完整。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 142,
+      "id": "zip-166",
+      "sourceScreenshot": 166,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "1714年安妮女王去世后乔治一世继位，四个君主选项、答案及解释大体一致；解释将继承过程简写为议会选择，历史背景可进一步补充但不构成直接矛盾。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 143,
+      "id": "zip-167",
+      "sourceScreenshot": 167,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；2005年英国人口约6000万，选项 Just under 60 million 需结合统计口径和具体年份数据核实，待原始截图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "四个人口选项完整，当前正确答案为 Just under 60 million，但没有解释或统计来源，暂不视为事实已核实。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 144,
+      "id": "zip-168",
+      "sourceScreenshot": 168,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T12:51:59Z",
+      "note": "Habeas Corpus Act 于1679年成为法律，四个年份选项、正确答案及解释一致。 已逐项检查 main 可读分包的题干、全部4个选项、正确答案及解释；原始ZIP截图不可用，未进行视觉核验。"
+    },
+    {
+      "number": 145,
+      "id": "zip-169",
+      "sourceScreenshot": 169,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个选项完整，1928年发现青霉素的是Alexander Fleming，解释相符。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 146,
+      "id": "zip-170",
+      "sourceScreenshot": 170,
+      "status": "needs_review",
+      "findings": [
+        "解释缺失；与zip-171题干及选项完全重复，待核对原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个国家选项完整，答案Italy；解释为空，且与下一题重复。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 147,
+      "id": "zip-171",
+      "sourceScreenshot": 171,
+      "status": "needs_review",
+      "findings": [
+        "与zip-170重复，需核实是否重复录入。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个国家选项完整，答案Italy与解释中意大利玻璃制造商一致；但与上一题重复。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 148,
+      "id": "zip-172",
+      "sourceScreenshot": 172,
+      "status": "needs_review",
+      "findings": [
+        "Citizens Advise Bureau疑似拼写错误，应为Citizens Advice；解释缺失；NHS亦能提供家暴帮助，唯一答案有歧义。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个机构选项完整；当前答案机构名称拼写异常，且NHS亦可提供帮助，解释为空。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 149,
+      "id": "zip-173",
+      "sourceScreenshot": 173,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个政治人物选项完整，Thatcher与Reagan合作的答案及解释相符。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 150,
+      "id": "zip-174",
+      "sourceScreenshot": 174,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "True/False两项完整，欠债可能被诉诸法院，答案与解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 151,
+      "id": "zip-175",
+      "sourceScreenshot": 175,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个宗教人物选项完整，St Augustine为首任坎特伯雷大主教，解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 152,
+      "id": "zip-176",
+      "sourceScreenshot": 176,
+      "status": "needs_review",
+      "findings": [
+        "解释缺失，需对照原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个数字选项完整，答案12，解释为空；需核对三个司法辖区表述。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 153,
+      "id": "zip-177",
+      "sourceScreenshot": 177,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个选项完整，两项答案知识与实操技能符合驾驶考试要求。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 154,
+      "id": "zip-178",
+      "sourceScreenshot": 178,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个职责选项完整，Speaker维持议会辩论秩序的答案与解释一致。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 155,
+      "id": "zip-179",
+      "sourceScreenshot": 179,
+      "status": "needs_review",
+      "findings": [
+        "10 to 18与解释10 to 17年龄范围措辞有歧义，需核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四个陈述选项完整，选定错误项为10 to 18，解释10 to 17；年龄边界需核实。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 156,
+      "id": "zip-180",
+      "sourceScreenshot": 180,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T13:47:58Z",
+      "note": "四部电影选项完整，两个答案Brief Encounter及Lawrence of Arabia均为David Lean作品。 已核对题干、全部选项、答案和解释；原始ZIP不可访问，未视觉核验。"
+    },
+    {
+      "number": 157,
+      "id": "zip-181",
+      "sourceScreenshot": 181,
+      "status": "needs_review",
+      "findings": [
+        "The G2 也可能指格拉斯哥场地，单选唯一性待核实；SEC Centre 确在格拉斯哥。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项齐全；SEC Centre 与解释相符，但 The G2 场地名称可能造成多个正确选项，待核实地点。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 158,
+      "id": "zip-182",
+      "sourceScreenshot": 182,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；60,000为首日英军伤亡的常见约数，需核对官方史料及原图。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个数字选项完整，当前答案60,000；缺少解释，未完成史料独立核验。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 159,
+      "id": "zip-183",
+      "sourceScreenshot": 183,
+      "status": "needs_review",
+      "findings": [
+        "题干 untied 疑为 united 的OCR/拼写错误。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "True/False完整；1606年威尔士已与英格兰合并的历史逻辑与True相符，题干有拼写异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 160,
+      "id": "zip-185",
+      "sourceScreenshot": 185,
+      "status": "needs_review",
+      "findings": [
+        "解释声称Concorde为世界唯一超音速商业客机，忽略苏联Tu-144；解释存在事实性过度断言。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个国家组合完整，France and Britain答案正确；解释中world’s only表述不准确。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 161,
+      "id": "zip-186",
+      "sourceScreenshot": 186,
+      "status": "needs_review",
+      "findings": [
+        "正确答案选项显示 $ million，疑似8被OCR识别为$；解释8 million与该选项不一致，且1801年UK人口数字及口径需查证。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项含异常$符号；正确答案引用乱码选项，解释8 million，不能视为已确认事实正确。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 162,
+      "id": "zip-187",
+      "sourceScreenshot": 187,
+      "status": "needs_review",
+      "findings": [
+        "题干 Where is there UK 语法错误，应核对原图是否为 the UK。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个地理方向选项完整，north west of Europe与解释一致，但题干there UK异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 163,
+      "id": "zip-188",
+      "sourceScreenshot": 188,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个选项完整；欧洲委员会以保护人权、民主和法治为核心，所选人权选项与解释相符。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 164,
+      "id": "zip-189",
+      "sourceScreenshot": 189,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "True/False完整；Hitchcock为英国重要电影导演，答案与解释一致；题干末尾缺句号但不影响作答。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 165,
+      "id": "zip-190",
+      "sourceScreenshot": 190,
+      "status": "needs_review",
+      "findings": [
+        "选项 John McLeod 与解释 John Macleod 拼写不一致；姓名应核对原图与权威来源。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个人名选项完整；正确答案对应人物但姓氏拼写不同，解释与选项未完全一致。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 166,
+      "id": "zip-191",
+      "sourceScreenshot": 191,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个人名选项完整；2002年BBC公众票选Winston Churchill，答案与解释一致。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 167,
+      "id": "zip-192",
+      "sourceScreenshot": 192,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需与原始截图核对是否原本缺失。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个日期选项完整，23 April为St George’s Day；缺少解释。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 168,
+      "id": "zip-193",
+      "sourceScreenshot": 193,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:29:10Z",
+      "note": "四个责任选项完整；两项正确答案均出现在选项中，与解释对应，未见明显OCR异常。 已逐项阅读main可读分包题干、所有选项、正确答案及解释；原始ZIP不可访问，未进行视觉核验。"
+    },
+    {
+      "number": 169,
+      "id": "zip-194",
+      "sourceScreenshot": 194,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认是否原本无说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、2个标记答案、空解释字段；解释字段为空；需原图确认是否原本无说明。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 170,
+      "id": "zip-195",
+      "sourceScreenshot": 195,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 171,
+      "id": "zip-196",
+      "sourceScreenshot": 196,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 172,
+      "id": "zip-197",
+      "sourceScreenshot": 197,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 173,
+      "id": "zip-200",
+      "sourceScreenshot": 200,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 174,
+      "id": "zip-201",
+      "sourceScreenshot": 201,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 175,
+      "id": "zip-202",
+      "sourceScreenshot": 202,
+      "status": "needs_review",
+      "findings": [
+        "题干含大写 Is 和结尾 as’ 异常符号，疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；题干含大写 Is 和结尾 as’ 异常符号，疑似 OCR/标点错误，待原图核对。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 176,
+      "id": "zip-203",
+      "sourceScreenshot": 203,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 177,
+      "id": "zip-204",
+      "sourceScreenshot": 204,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、空解释字段；解释字段为空；需原图确认。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 178,
+      "id": "zip-205",
+      "sourceScreenshot": 205,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 179,
+      "id": "zip-206",
+      "sourceScreenshot": 206,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、3个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 180,
+      "id": "zip-207",
+      "sourceScreenshot": 207,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T15:54:56Z",
+      "note": "已逐项读取网站题库文本：题干、4个选项、1个标记答案、解释文本；文字初检未发现明显OCR异常，不能证明与原图一致。未取得原始截图，未做视觉核验；未查证事实或更改题目。"
+    },
+    {
+      "number": 181,
+      "id": "zip-208",
+      "sourceScreenshot": 208,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原始截图确认是否本来没有解释。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原始截图确认是否本来没有解释。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 182,
+      "id": "zip-209",
+      "sourceScreenshot": 209,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 183,
+      "id": "zip-210",
+      "sourceScreenshot": 210,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 184,
+      "id": "zip-212",
+      "sourceScreenshot": 212,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原始截图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原始截图确认。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 185,
+      "id": "zip-213",
+      "sourceScreenshot": 213,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 186,
+      "id": "zip-214",
+      "sourceScreenshot": 214,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、3个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 187,
+      "id": "zip-220",
+      "sourceScreenshot": 220,
+      "status": "needs_review",
+      "findings": [
+        "题干仅有“marriage introduced in scotland?”，疑似开头文字丢失及大小写OCR问题；需原图核验，不能据解释补写题干。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；题干仅有“marriage introduced in scotland?”，疑似开头文字丢失及大小写OCR问题；需原图核验，不能据解释补写题干。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 188,
+      "id": "zip-221",
+      "sourceScreenshot": 221,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、2个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 189,
+      "id": "zip-222",
+      "sourceScreenshot": 222,
+      "status": "needs_review",
+      "findings": [
+        "解释末尾出现“World War I!”而题干出现“World War II”，疑似数字I/II的OCR差异；需原图核验，不能擅改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；解释末尾出现“World War I!”而题干出现“World War II”，疑似数字I/II的OCR差异；需原图核验，不能擅改。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 190,
+      "id": "zip-223",
+      "sourceScreenshot": 223,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图核验。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 191,
+      "id": "zip-224",
+      "sourceScreenshot": 224,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及完整解释文字；未见明确OCR乱码，但不能证明与原图一致。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 192,
+      "id": "zip-225",
+      "sourceScreenshot": 225,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T17:51:21Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图核验。 原始截图不可访问，未进行逐字视觉比对；没有更改题目或答案。"
+    },
+    {
+      "number": 193,
+      "id": "zip-226",
+      "sourceScreenshot": 226,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 194,
+      "id": "zip-227",
+      "sourceScreenshot": 227,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 195,
+      "id": "zip-228",
+      "sourceScreenshot": 228,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 196,
+      "id": "zip-229",
+      "sourceScreenshot": 229,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 197,
+      "id": "zip-230",
+      "sourceScreenshot": 230,
+      "status": "needs_review",
+      "findings": [
+        "题干“What was inscribed”与解释“some inscribed”存在用词形式差异，但无原图不能判定是否为转录问题；仅待原图核对，不修改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；题干“What was inscribed”与解释“some inscribed”存在用词形式差异，但无原图不能判定是否为转录问题；仅待原图核对，不修改。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 198,
+      "id": "zip-231",
+      "sourceScreenshot": 231,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 199,
+      "id": "zip-232",
+      "sourceScreenshot": 232,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 200,
+      "id": "zip-233",
+      "sourceScreenshot": 233,
+      "status": "needs_review",
+      "findings": [
+        "题干“What was the population of the UA In 19907”出现“UA”“19907”等明显疑似OCR字母、数字及问号识别异常；解释年份与题干也不一致。须看原图确认每一字符，不据解释改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；题干“What was the population of the UA In 19907”出现“UA”“19907”等明显疑似OCR字母、数字及问号识别异常；解释年份与题干也不一致。须看原图确认每一字符，不据解释改写。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 201,
+      "id": "zip-234",
+      "sourceScreenshot": 234,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、2个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 202,
+      "id": "zip-235",
+      "sourceScreenshot": 235,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；未见可直接确认的OCR乱码，但不能证明与原图一致。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 203,
+      "id": "zip-236",
+      "sourceScreenshot": 236,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；待原始截图确认是否有说明文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部2个选项、1个标记答案和空解释字段；解释字段为空；待原始截图确认是否有说明文字。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 204,
+      "id": "zip-237",
+      "sourceScreenshot": 237,
+      "status": "needs_review",
+      "findings": [
+        "解释内出生年份与同批zip-227解释内出生年份不同；可能是转录数字差异，须原图核对，不据此更改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T18:56:13Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案和解释全文；解释内出生年份与同批zip-227解释内出生年份不同；可能是转录数字差异，须原图核对，不据此更改。 原始截图未取得，未作视觉逐字核验；未修改任何题目、选项、答案或解释。"
+    },
+    {
+      "number": 205,
+      "id": "zip-238",
+      "sourceScreenshot": 238,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 206,
+      "id": "zip-239",
+      "sourceScreenshot": 239,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部2个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 207,
+      "id": "zip-240",
+      "sourceScreenshot": 240,
+      "status": "needs_review",
+      "findings": [
+        "题干 Whicn Is 疑似 OCR 字母错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Whicn Is 疑似 OCR 字母错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 208,
+      "id": "zip-241",
+      "sourceScreenshot": 241,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 209,
+      "id": "zip-242",
+      "sourceScreenshot": 242,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部2个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 210,
+      "id": "zip-243",
+      "sourceScreenshot": 243,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 211,
+      "id": "zip-244",
+      "sourceScreenshot": 244,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 212,
+      "id": "zip-245",
+      "sourceScreenshot": 245,
+      "status": "needs_review",
+      "findings": [
+        "题干 Womens、Wor、末尾 ’ 存在疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Womens、Wor、末尾 ’ 存在疑似 OCR/标点错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 213,
+      "id": "zip-246",
+      "sourceScreenshot": 246,
+      "status": "needs_review",
+      "findings": [
+        "题干 Is、Ireiana’ 存在疑似 OCR/标点错误，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干 Is、Ireiana’ 存在疑似 OCR/标点错误，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 214,
+      "id": "zip-247",
+      "sourceScreenshot": 247,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 215,
+      "id": "zip-248",
+      "sourceScreenshot": 248,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图确认是否存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图确认是否存在说明。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 216,
+      "id": "zip-249",
+      "sourceScreenshot": 249,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:32:20Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未见明确 OCR 乱码，不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 217,
+      "id": "zip-250",
+      "sourceScreenshot": 250,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 218,
+      "id": "zip-251",
+      "sourceScreenshot": 251,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 219,
+      "id": "zip-252",
+      "sourceScreenshot": 252,
+      "status": "needs_review",
+      "findings": [
+        "题干出现“tlag”及“Comprises”异常大小写，疑似 OCR 误字；需原图确认，不提出替换。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干出现“tlag”及“Comprises”异常大小写，疑似 OCR 误字；需原图确认，不提出替换。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 220,
+      "id": "zip-253",
+      "sourceScreenshot": 253,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 221,
+      "id": "zip-254",
+      "sourceScreenshot": 254,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 222,
+      "id": "zip-255",
+      "sourceScreenshot": 255,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验是否有解释文字。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空，待原图核验是否有解释文字。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 223,
+      "id": "zip-256",
+      "sourceScreenshot": 256,
+      "status": "needs_review",
+      "findings": [
+        "解释末句“untied with England”疑似字母识别错误；仅标记待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；解释末句“untied with England”疑似字母识别错误；仅标记待原图确认。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 224,
+      "id": "zip-257",
+      "sourceScreenshot": 257,
+      "status": "needs_review",
+      "findings": [
+        "题干“What day Is halloween celebrated’”有异常大写及末尾右单引号，疑似 OCR 标点问题；待原图确认。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；题干“What day Is halloween celebrated’”有异常大写及末尾右单引号，疑似 OCR 标点问题；待原图确认。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 225,
+      "id": "zip-258",
+      "sourceScreenshot": 258,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 226,
+      "id": "zip-259",
+      "sourceScreenshot": 259,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 227,
+      "id": "zip-260",
+      "sourceScreenshot": 260,
+      "status": "needs_review",
+      "findings": [
+        "解释中“light-plays”与题干“Light-hearted plays”形式不同，可能存在 OCR 漏字，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；解释中“light-plays”与题干“Light-hearted plays”形式不同，可能存在 OCR 漏字，待原图核对。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 228,
+      "id": "zip-261",
+      "sourceScreenshot": 261,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T20:50:24Z",
+      "note": "已逐项阅读题干、全部4个选项、1个标记答案及解释全文；未发现可单凭文字确认的明显 OCR 乱码；不能证明与原图一致。 原始完整截图未取得，未作视觉逐字核验；未修改题库内容。"
+    },
+    {
+      "number": 229,
+      "id": "zip-262",
+      "sourceScreenshot": 262,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 230,
+      "id": "zip-263",
+      "sourceScreenshot": 263,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 231,
+      "id": "zip-264",
+      "sourceScreenshot": 264,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 232,
+      "id": "zip-265",
+      "sourceScreenshot": 265,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 233,
+      "id": "zip-266",
+      "sourceScreenshot": 266,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 234,
+      "id": "zip-267",
+      "sourceScreenshot": 267,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 235,
+      "id": "zip-268",
+      "sourceScreenshot": 268,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 236,
+      "id": "zip-269",
+      "sourceScreenshot": 269,
+      "status": "needs_review",
+      "findings": [
+        "解释开头“n 28 June 1914”疑似 OCR 遗失首字母；需原图核对，不作替换。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；解释开头“n 28 June 1914”疑似 OCR 遗失首字母；需原图核对，不作替换。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 237,
+      "id": "zip-270",
+      "sourceScreenshot": 270,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需原图核对是否原本存在解释。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及空解释字段；解释字段为空；需原图核对是否原本存在解释。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 238,
+      "id": "zip-271",
+      "sourceScreenshot": 271,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 239,
+      "id": "zip-272",
+      "sourceScreenshot": 272,
+      "status": "needs_review",
+      "findings": [
+        "选项“Kevin MacDonald”大小写形式待原图核对；无图不作修正。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、1个标记答案及解释全文；选项“Kevin MacDonald”大小写形式待原图核对；无图不作修正。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 240,
+      "id": "zip-273",
+      "sourceScreenshot": 273,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-20T22:45:30Z",
+      "note": "已阅读题干、全部4个选项、2个标记答案及解释全文；未发现可仅凭当前文字确定的明显 OCR 乱码。 原始截图未取得，未进行视觉逐字核验；未修改题库。"
+    },
+    {
+      "number": 241,
+      "id": "zip-274",
+      "sourceScreenshot": 274,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 242,
+      "id": "zip-275",
+      "sourceScreenshot": 275,
+      "status": "needs_review",
+      "findings": [
+        "选项“The Grown Court”疑似字母识别异常；原图未取得，不能确定原文或修改。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；选项“The Grown Court”疑似字母识别异常；原图未取得，不能确定原文或修改。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 243,
+      "id": "zip-276",
+      "sourceScreenshot": 276,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 244,
+      "id": "zip-277",
+      "sourceScreenshot": 277,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、2个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 245,
+      "id": "zip-278",
+      "sourceScreenshot": 278,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 246,
+      "id": "zip-279",
+      "sourceScreenshot": 279,
+      "status": "needs_review",
+      "findings": [
+        "题干“48th and 19th centuries”中“48th”疑似数字OCR错误；解释使用“18th”，但解释不是原图证据。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；题干“48th and 19th centuries”中“48th”疑似数字OCR错误；解释使用“18th”，但解释不是原图证据。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 247,
+      "id": "zip-280",
+      "sourceScreenshot": 280,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、2个选项、1个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 248,
+      "id": "zip-281",
+      "sourceScreenshot": 281,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需查看原始截图确认是否存在解释。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及空解释字段；解释字段为空；需查看原始截图确认是否存在解释。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 249,
+      "id": "zip-282",
+      "sourceScreenshot": 282,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、6个选项、4个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 250,
+      "id": "zip-283",
+      "sourceScreenshot": 283,
+      "status": "needs_review",
+      "findings": [
+        "解释包含“This reflects the screenshot textbook edition; check current devolved powers separately.”，疑似非原图的附加说明；待逐字比对原图，不能删除或改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、6个选项、4个标记答案及解释文本；解释包含“This reflects the screenshot textbook edition; check current devolved powers separately.”，疑似非原图的附加说明；待逐字比对原图，不能删除或改写。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 251,
+      "id": "zip-284",
+      "sourceScreenshot": 284,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、1个标记答案及解释文本；当前文字未发现可单凭文本确证的OCR异常。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 252,
+      "id": "zip-285",
+      "sourceScreenshot": 285,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；需查看原始截图确认是否存在解释。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:24:54Z",
+      "note": "已逐项检查题干、4个选项、2个标记答案及空解释字段；解释字段为空；需查看原始截图确认是否存在解释。 原始完整截图未取得，未进行原图逐字核对；未修改题库。"
+    },
+    {
+      "number": 253,
+      "id": "zip-286",
+      "sourceScreenshot": 286,
+      "status": "needs_review",
+      "findings": [
+        "解释中“all publications of the Senedd’s publications”重复 publications，疑似转录重叠，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、2个选项、1个标记答案及解释全文；解释中“all publications of the Senedd’s publications”重复 publications，疑似转录重叠，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 254,
+      "id": "zip-287",
+      "sourceScreenshot": 287,
+      "status": "needs_review",
+      "findings": [
+        "选项“She was 4 spy of the Spanish Armada”中“4 spy”疑似数字字母 OCR 混淆，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；选项“She was 4 spy of the Spanish Armada”中“4 spy”疑似数字字母 OCR 混淆，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 255,
+      "id": "zip-288",
+      "sourceScreenshot": 288,
+      "status": "needs_review",
+      "findings": [
+        "解释末尾含“Source: ed.ac.uk/...”链接，需原图确认是否为后加文本；不访问链接、不删除。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释末尾含“Source: ed.ac.uk/...”链接，需原图确认是否为后加文本；不访问链接、不删除。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 256,
+      "id": "zip-289",
+      "sourceScreenshot": 289,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图确认是否原本存在说明。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 257,
+      "id": "zip-290",
+      "sourceScreenshot": 290,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 258,
+      "id": "zip-291",
+      "sourceScreenshot": 291,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、2个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 259,
+      "id": "zip-292",
+      "sourceScreenshot": 292,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 260,
+      "id": "zip-293",
+      "sourceScreenshot": 293,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、2个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 261,
+      "id": "zip-295",
+      "sourceScreenshot": 295,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 262,
+      "id": "zip-296",
+      "sourceScreenshot": 296,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，需原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，需原图确认是否原本存在说明。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 263,
+      "id": "zip-297",
+      "sourceScreenshot": 297,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；当前文字未发现可仅凭文本确认的明显OCR异常。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 264,
+      "id": "zip-298",
+      "sourceScreenshot": 298,
+      "status": "needs_review",
+      "findings": [
+        "题干“When ts ot Patrick's Day, patron to of Northern Ireland’”存在明显疑似OCR乱码及异常引号；解释“patron to of”亦疑似OCR异常，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T00:55:35Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；题干“When ts ot Patrick's Day, patron to of Northern Ireland’”存在明显疑似OCR乱码及异常引号；解释“patron to of”亦疑似OCR异常，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；不建议无图修正，未修改题库。"
+    },
+    {
+      "number": 265,
+      "id": "zip-299",
+      "sourceScreenshot": 299,
+      "status": "needs_review",
+      "findings": [
+        "解释中开头弯单引号与结尾直单引号不一致，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；解释中开头弯单引号与结尾直单引号不一致，待原图核对。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 266,
+      "id": "zip-300",
+      "sourceScreenshot": 300,
+      "status": "needs_review",
+      "findings": [
+        "解释中“not part of it the Channel Islands”疑似遗漏标点或连接词，待原图核对。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、2个标记答案及解释全文；解释中“not part of it the Channel Islands”疑似遗漏标点或连接词，待原图核对。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 267,
+      "id": "zip-301",
+      "sourceScreenshot": 301,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 268,
+      "id": "zip-302",
+      "sourceScreenshot": 302,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 269,
+      "id": "zip-303",
+      "sourceScreenshot": 303,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及空解释字段；解释为空，待原图确认是否原本存在说明。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 270,
+      "id": "zip-304",
+      "sourceScreenshot": 304,
+      "status": "needs_review",
+      "findings": [
+        "选项“SMs”与解释“SMs or Senedd Members”一致；需原图核实是否转录无误。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；选项“SMs”与解释“SMs or Senedd Members”一致；需原图核实是否转录无误。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 271,
+      "id": "zip-305",
+      "sourceScreenshot": 305,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 272,
+      "id": "zip-307",
+      "sourceScreenshot": 307,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 273,
+      "id": "zip-308",
+      "sourceScreenshot": 308,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 274,
+      "id": "zip-309",
+      "sourceScreenshot": 309,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及空解释字段；解释为空，待原图确认是否原本存在说明。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 275,
+      "id": "zip-310",
+      "sourceScreenshot": 310,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否原本存在说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及空解释字段；解释为空，待原图确认是否原本存在说明。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 276,
+      "id": "zip-311",
+      "sourceScreenshot": 311,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T01:48:30Z",
+      "note": "已逐项检查当前仓库题干、4个选项、1个标记答案及解释全文；未见可仅凭当前文字确认的明显OCR异常。 未取得原始完整截图，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 277,
+      "id": "zip-312",
+      "sourceScreenshot": 312,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 278,
+      "id": "zip-313",
+      "sourceScreenshot": 313,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 279,
+      "id": "zip-314",
+      "sourceScreenshot": 314,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 280,
+      "id": "zip-315",
+      "sourceScreenshot": 315,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原始完整截图核实是否有说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原始完整截图核实是否有说明。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 281,
+      "id": "zip-316",
+      "sourceScreenshot": 316,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 282,
+      "id": "zip-317",
+      "sourceScreenshot": 317,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 283,
+      "id": "zip-318",
+      "sourceScreenshot": 318,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原始完整截图核实是否有说明。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原始完整截图核实是否有说明。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 284,
+      "id": "zip-319",
+      "sourceScreenshot": 319,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 285,
+      "id": "zip-320",
+      "sourceScreenshot": 320,
+      "status": "needs_review",
+      "findings": [
+        "解释中的引号仅有结尾弯单引号，疑似开头引号遗漏，待原图核验。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释中的引号仅有结尾弯单引号，疑似开头引号遗漏，待原图核验。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 286,
+      "id": "zip-321",
+      "sourceScreenshot": 321,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 287,
+      "id": "zip-322",
+      "sourceScreenshot": 322,
+      "status": "needs_review",
+      "findings": [
+        "解释中缩写“SMs”需与原始截图逐字核对，不根据常识改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；解释中缩写“SMs”需与原始截图逐字核对，不根据常识改写。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 288,
+      "id": "zip-323",
+      "sourceScreenshot": 323,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T03:10:05Z",
+      "note": "已逐项阅读题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 289,
+      "id": "zip-324",
+      "sourceScreenshot": 324,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 290,
+      "id": "zip-325",
+      "sourceScreenshot": 325,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、2个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 291,
+      "id": "zip-326",
+      "sourceScreenshot": 326,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 292,
+      "id": "zip-327",
+      "sourceScreenshot": 327,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 293,
+      "id": "zip-328",
+      "sourceScreenshot": 328,
+      "status": "needs_review",
+      "findings": [
+        "题干末尾疑似多出弯单引号；解释中“MP. represents”疑似缺字或断句，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；题干末尾疑似多出弯单引号；解释中“MP. represents”疑似缺字或断句，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 294,
+      "id": "zip-329",
+      "sourceScreenshot": 329,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 295,
+      "id": "zip-330",
+      "sourceScreenshot": 330,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 296,
+      "id": "zip-331",
+      "sourceScreenshot": 331,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空；选项“SMs”“MLAS”需按原图核对，不根据常识改写。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及空解释字段；解释字段为空；选项“SMs”“MLAS”需按原图核对，不根据常识改写。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 297,
+      "id": "zip-332",
+      "sourceScreenshot": 332,
+      "status": "needs_review",
+      "findings": [
+        "解释末尾“treat?”疑似引号识别错误，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；解释末尾“treat?”疑似引号识别错误，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 298,
+      "id": "zip-333",
+      "sourceScreenshot": 333,
+      "status": "needs_review",
+      "findings": [
+        "解释中“listen ta debates”疑似OCR字母异常，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；解释中“listen ta debates”疑似OCR字母异常，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 299,
+      "id": "zip-334",
+      "sourceScreenshot": 334,
+      "status": "needs_review",
+      "findings": [
+        "解释中“same of”疑似OCR字母异常，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及解释全文；解释中“same of”疑似OCR字母异常，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 300,
+      "id": "zip-335",
+      "sourceScreenshot": 335,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T05:55:01Z",
+      "note": "已逐项检查 GitHub 题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原图核实。 原始完整截图不可访问，未进行逐字视觉核验；未修改题库。"
+    },
+    {
+      "number": 301,
+      "id": "zip-336",
+      "sourceScreenshot": 336,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 302,
+      "id": "zip-337",
+      "sourceScreenshot": 337,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、2个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 303,
+      "id": "zip-338",
+      "sourceScreenshot": 338,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 304,
+      "id": "zip-339",
+      "sourceScreenshot": 339,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 305,
+      "id": "zip-340",
+      "sourceScreenshot": 340,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及空解释字段；解释字段为空，待原图核实。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 306,
+      "id": "zip-341",
+      "sourceScreenshot": 341,
+      "status": "needs_review",
+      "findings": [
+        "题干“brief Encounter”大小写及末尾“1940 ¢”疑似OCR识别或符号异常；解释字段为空，待原图核实。"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及空解释字段；题干“brief Encounter”大小写及末尾“1940 ¢”疑似OCR识别或符号异常；解释字段为空，待原图核实。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 307,
+      "id": "zip-342",
+      "sourceScreenshot": 342,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 308,
+      "id": "zip-343",
+      "sourceScreenshot": 343,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 309,
+      "id": "zip-344",
+      "sourceScreenshot": 344,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、3个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 310,
+      "id": "zip-345",
+      "sourceScreenshot": 345,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 311,
+      "id": "zip-346",
+      "sourceScreenshot": 346,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 312,
+      "id": "zip-347",
+      "sourceScreenshot": 347,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:25:53Z",
+      "note": "已逐项检查GitHub题干、4个选项、1个标记答案及解释全文；未发现明显OCR乱码。 原始完整截图不可访问，未进行原图逐字核验；未修改题库。"
+    },
+    {
+      "number": 313,
+      "id": "zip-348",
+      "sourceScreenshot": 348,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 314,
+      "id": "zip-349",
+      "sourceScreenshot": 349,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 315,
+      "id": "zip-350",
+      "sourceScreenshot": 350,
+      "status": "needs_review",
+      "findings": [
+        "题干开头 'venson Button Is' 与解释中的 'Jenson Button' 字符不同，疑似OCR转录错误，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 316,
+      "id": "zip-351",
+      "sourceScreenshot": 351,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 317,
+      "id": "zip-352",
+      "sourceScreenshot": 352,
+      "status": "needs_review",
+      "findings": [
+        "题干 'brexit reterenaum hela' 疑似OCR乱码；解释尾部 'ea 5 ee ee 1. 2, Cw Pe:' 疑似OCR残留，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 318,
+      "id": "zip-353",
+      "sourceScreenshot": 353,
+      "status": "needs_review",
+      "findings": [
+        "解释包含来源网址及额外法律说明，是否来自原始截图未核实；不得擅自增删"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 319,
+      "id": "zip-354",
+      "sourceScreenshot": 354,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 320,
+      "id": "zip-355",
+      "sourceScreenshot": 355,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 321,
+      "id": "zip-356",
+      "sourceScreenshot": 356,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 322,
+      "id": "zip-357",
+      "sourceScreenshot": 357,
+      "status": "needs_review",
+      "findings": [
+        "题干 'Falklands Islands' 与解释 'Falkland Islands' 存在字符差异，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 323,
+      "id": "zip-358",
+      "sourceScreenshot": 358,
+      "status": "needs_review",
+      "findings": [
+        "题干在问句后包含一段与选项重复且以逗号结尾的文字，疑似选项混入题干，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 存在待原图核实事项。"
+    },
+    {
+      "number": 324,
+      "id": "zip-359",
+      "sourceScreenshot": 359,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T07:46:37Z",
+      "note": "已检查可读分包题干、全部选项、标记答案及解释的文字与结构。未取得完整原始截图，不能确认与原图一致；不修改题库或答案。 未发现明显OCR异常。"
+    },
+    {
+      "number": 325,
+      "id": "zip-360",
+      "sourceScreenshot": 360,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 326,
+      "id": "zip-361",
+      "sourceScreenshot": 361,
+      "status": "needs_review",
+      "findings": [
+        "选项 'The Grown Court' 疑似OCR字母识别异常；解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 327,
+      "id": "zip-362",
+      "sourceScreenshot": 362,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 328,
+      "id": "zip-363",
+      "sourceScreenshot": 363,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 329,
+      "id": "zip-364",
+      "sourceScreenshot": 364,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 330,
+      "id": "zip-365",
+      "sourceScreenshot": 365,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 331,
+      "id": "zip-366",
+      "sourceScreenshot": 366,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 332,
+      "id": "zip-367",
+      "sourceScreenshot": 367,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 333,
+      "id": "zip-368",
+      "sourceScreenshot": 368,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 334,
+      "id": "zip-369",
+      "sourceScreenshot": 369,
+      "status": "needs_review",
+      "findings": [
+        "解释 'The mast serious cases will go the Grown Court.' 中 'mast'、'Grown' 疑似OCR字母异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 335,
+      "id": "zip-370",
+      "sourceScreenshot": 370,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显OCR异常。 未修改题库或答案。"
+    },
+    {
+      "number": 336,
+      "id": "zip-371",
+      "sourceScreenshot": 371,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T08:49:16Z",
+      "note": "已逐项检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 337,
+      "id": "zip-372",
+      "sourceScreenshot": 372,
+      "status": "needs_review",
+      "findings": [
+        "解释 'Eid a-Fitr' 疑似 OCR 字符异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 338,
+      "id": "zip-373",
+      "sourceScreenshot": 373,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 339,
+      "id": "zip-374",
+      "sourceScreenshot": 374,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 340,
+      "id": "zip-375",
+      "sourceScreenshot": 375,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 341,
+      "id": "zip-376",
+      "sourceScreenshot": 376,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 342,
+      "id": "zip-377",
+      "sourceScreenshot": 377,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 343,
+      "id": "zip-378",
+      "sourceScreenshot": 378,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 344,
+      "id": "zip-379",
+      "sourceScreenshot": 379,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 345,
+      "id": "zip-380",
+      "sourceScreenshot": 380,
+      "status": "needs_review",
+      "findings": [
+        "题干包含 '£2000' 的陈述，选项和解释出现 '£1,000'；疑似原题文字或答案内容混入题干，待原图核验，不修改答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 346,
+      "id": "zip-381",
+      "sourceScreenshot": 381,
+      "status": "needs_review",
+      "findings": [
+        "题干 'women’s' 与解释 'women's' 撇号形式不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 存在待原图核验事项。 未修改题库或答案。"
+    },
+    {
+      "number": 347,
+      "id": "zip-382",
+      "sourceScreenshot": 382,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 348,
+      "id": "zip-383",
+      "sourceScreenshot": 383,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T10:03:38Z",
+      "note": "已检查可读分包题干、选项集合、标记答案及解释；未取得完整原始截图，不能确认与原图逐字一致。 未发现明显 OCR 异常。 未修改题库或答案。"
+    },
+    {
+      "number": 349,
+      "id": "zip-384",
+      "sourceScreenshot": 384,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 350,
+      "id": "zip-385",
+      "sourceScreenshot": 385,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 351,
+      "id": "zip-386",
+      "sourceScreenshot": 386,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 352,
+      "id": "zip-387",
+      "sourceScreenshot": 387,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 353,
+      "id": "zip-388",
+      "sourceScreenshot": 388,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'Arose by any other name' 疑似把 'a rose' 合并为单词；原图待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。疑似 OCR 异常须原图确认；未修改题库或答案。"
+    },
+    {
+      "number": 354,
+      "id": "zip-389",
+      "sourceScreenshot": 389,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 355,
+      "id": "zip-390",
+      "sourceScreenshot": 390,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 356,
+      "id": "zip-391",
+      "sourceScreenshot": 391,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 357,
+      "id": "zip-392",
+      "sourceScreenshot": 392,
+      "status": "needs_review",
+      "findings": [
+        "题干 'british'、'mage' 及选项 'Adan Smith' 疑似 OCR 字符异常；原图待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。疑似 OCR 异常须原图确认；未修改题库或答案。"
+    },
+    {
+      "number": 358,
+      "id": "zip-393",
+      "sourceScreenshot": 393,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 359,
+      "id": "zip-394",
+      "sourceScreenshot": 394,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 360,
+      "id": "zip-395",
+      "sourceScreenshot": 395,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T11:13:00Z",
+      "note": "已逐项检查可读分包的题干、选项集合、正确答案及解释；原始完整截图不可用，未作逐字图片比对。未发现明显 OCR 异常；未修改题库或答案。"
+    },
+    {
+      "number": 361,
+      "id": "zip-396",
+      "sourceScreenshot": 396,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 362,
+      "id": "zip-397",
+      "sourceScreenshot": 397,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 363,
+      "id": "zip-398",
+      "sourceScreenshot": 398,
+      "status": "needs_review",
+      "findings": [
+        "题干 'directed Dy Alfred Mitcncock In 1990 ¢' 存在疑似 OCR 字母、数字及符号异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 364,
+      "id": "zip-399",
+      "sourceScreenshot": 399,
+      "status": "needs_review",
+      "findings": [
+        "题干 'National Health System' 与解释 'National Health Service' 文字不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 365,
+      "id": "zip-400",
+      "sourceScreenshot": 400,
+      "status": "needs_review",
+      "findings": [
+        "题干 'her mother’s' 疑似代词识别异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 366,
+      "id": "zip-401",
+      "sourceScreenshot": 401,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 367,
+      "id": "zip-402",
+      "sourceScreenshot": 402,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 368,
+      "id": "zip-403",
+      "sourceScreenshot": 403,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 369,
+      "id": "zip-404",
+      "sourceScreenshot": 404,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 370,
+      "id": "zip-405",
+      "sourceScreenshot": 405,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 371,
+      "id": "zip-406",
+      "sourceScreenshot": 406,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 372,
+      "id": "zip-407",
+      "sourceScreenshot": 407,
+      "status": "needs_review",
+      "findings": [
+        "题干仅有 'themselves as Christian?' 疑似缺失前半句，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T12:14:01Z",
+      "note": "已检查可读分包题干、选项、标记答案及解释；未取得完整原始截图，不能确认逐字一致。疑似 OCR 或缺字事项待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 373,
+      "id": "zip-408",
+      "sourceScreenshot": 408,
+      "status": "needs_review",
+      "findings": [
+        "题干 'SMs' 与解释 'MSs' 不同；题干 'concer' 与解释 'concern' 不同，疑似 OCR，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 374,
+      "id": "zip-409",
+      "sourceScreenshot": 409,
+      "status": "needs_review",
+      "findings": [
+        "解释中 'Major’' 引号不成对，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 375,
+      "id": "zip-410",
+      "sourceScreenshot": 410,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 376,
+      "id": "zip-411",
+      "sourceScreenshot": 411,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 377,
+      "id": "zip-412",
+      "sourceScreenshot": 412,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 378,
+      "id": "zip-413",
+      "sourceScreenshot": 413,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 379,
+      "id": "zip-414",
+      "sourceScreenshot": 414,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 380,
+      "id": "zip-415",
+      "sourceScreenshot": 415,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 381,
+      "id": "zip-416",
+      "sourceScreenshot": 416,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 382,
+      "id": "zip-417",
+      "sourceScreenshot": 417,
+      "status": "needs_review",
+      "findings": [
+        "解释字段为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 383,
+      "id": "zip-418",
+      "sourceScreenshot": 418,
+      "status": "needs_review",
+      "findings": [
+        "题干 '‘The UR Is' 与解释 'The UK is' 不同，疑似 OCR 或符号异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。疑似 OCR/缺字/符号问题待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 384,
+      "id": "zip-419",
+      "sourceScreenshot": 419,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T13:10:04Z",
+      "note": "已逐项检查可读分包中的题干、选项、答案及解释；未取得完整原始截图，不能确认与原图一致。文字初检未发现明显 OCR 异常。未修改题库或答案。"
+    },
+    {
+      "number": 385,
+      "id": "zip-420",
+      "sourceScreenshot": 420,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 386,
+      "id": "zip-421",
+      "sourceScreenshot": 421,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 387,
+      "id": "zip-422",
+      "sourceScreenshot": 422,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 388,
+      "id": "zip-423",
+      "sourceScreenshot": 423,
+      "status": "needs_review",
+      "findings": [
+        "选项原文 'They will gc to church at least once a week' 中 'gc' 疑似 OCR 字母异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 389,
+      "id": "zip-424",
+      "sourceScreenshot": 424,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 390,
+      "id": "zip-425",
+      "sourceScreenshot": 425,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 391,
+      "id": "zip-426",
+      "sourceScreenshot": 426,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 392,
+      "id": "zip-427",
+      "sourceScreenshot": 427,
+      "status": "needs_review",
+      "findings": [
+        "解释原文附带 'NOTE: Screenshot wording may be outdated; verify against the current curriculum.'，疑似非原图文字；须查看源图确认，不能擅自删除"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 393,
+      "id": "zip-428",
+      "sourceScreenshot": 428,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 394,
+      "id": "zip-430",
+      "sourceScreenshot": 430,
+      "status": "needs_review",
+      "findings": [
+        "解释原文 'in 1986/67' 与题干 '1966/67' 数字不一致，疑似 OCR 误识；待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。疑似文字差异待原图核实。未修改题库或答案。"
+    },
+    {
+      "number": 395,
+      "id": "zip-431",
+      "sourceScreenshot": 431,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 396,
+      "id": "zip-432",
+      "sourceScreenshot": 432,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T17:31:01Z",
+      "note": "已逐项阅读可读分包题干、全部选项、正确答案和解释；未取得原始ZIP完整截图，无法确认与原图一致。未见明显OCR异常，仍待原图核验。未修改题库或答案。"
+    },
+    {
+      "number": 397,
+      "id": "zip-433",
+      "sourceScreenshot": 433,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 398,
+      "id": "zip-434",
+      "sourceScreenshot": 434,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 399,
+      "id": "zip-435",
+      "sourceScreenshot": 435,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 400,
+      "id": "zip-436",
+      "sourceScreenshot": 436,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 401,
+      "id": "zip-437",
+      "sourceScreenshot": 437,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 402,
+      "id": "zip-438",
+      "sourceScreenshot": 438,
+      "status": "needs_review",
+      "findings": [
+        "解释中出现对原截图的自述及资料过时提示，疑似后加说明；须原图逐字核实，不能擅删"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 403,
+      "id": "zip-439",
+      "sourceScreenshot": 439,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 404,
+      "id": "zip-440",
+      "sourceScreenshot": 440,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录；选项 broadcasted 保留原文，不按语法习惯改写"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 405,
+      "id": "zip-441",
+      "sourceScreenshot": 441,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 406,
+      "id": "zip-442",
+      "sourceScreenshot": 442,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 407,
+      "id": "zip-443",
+      "sourceScreenshot": 443,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。未发现可确定的转录差异；不代表与原图一致。 网站文字未修改。"
+    },
+    {
+      "number": 408,
+      "id": "zip-444",
+      "sourceScreenshot": 444,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，需原图确认是否漏录"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T19:27:49Z",
+      "note": "已检查可读分包中的题干、全部选项、正确答案及解释；未取得用户原 ZIP 完整截图，未进行原图逐字核验。疑点仅待图核实，不作修正。 网站文字未修改。"
+    },
+    {
+      "number": 409,
+      "id": "zip-445",
+      "sourceScreenshot": 445,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 410,
+      "id": "zip-446",
+      "sourceScreenshot": 446,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 411,
+      "id": "zip-447",
+      "sourceScreenshot": 447,
+      "status": "needs_review",
+      "findings": [
+        "解释为空；选项 The house of the parliament 疑似转录异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 412,
+      "id": "zip-448",
+      "sourceScreenshot": 448,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 413,
+      "id": "zip-449",
+      "sourceScreenshot": 449,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 414,
+      "id": "zip-450",
+      "sourceScreenshot": 450,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 415,
+      "id": "zip-451",
+      "sourceScreenshot": 451,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 416,
+      "id": "zip-452",
+      "sourceScreenshot": 452,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 417,
+      "id": "zip-453",
+      "sourceScreenshot": 453,
+      "status": "needs_review",
+      "findings": [
+        "题干疑似缺失开头，现以 came to England from abroad 开始；待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 418,
+      "id": "zip-454",
+      "sourceScreenshot": 454,
+      "status": "needs_review",
+      "findings": [
+        "选项 Sir lan Botham 中 lan 疑似小写 l 与大写 I 识别混淆，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 419,
+      "id": "zip-455",
+      "sourceScreenshot": 455,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 420,
+      "id": "zip-456",
+      "sourceScreenshot": 456,
+      "status": "needs_review",
+      "findings": [
+        "解释中的 not Proven 与选项 not proven 大小写不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T20:43:27Z",
+      "note": "已检查可读分包中的题干、选项、正确答案及解释；未取得完整原始截图，不构成逐字原图核验。未改动题库。"
+    },
+    {
+      "number": 421,
+      "id": "zip-457",
+      "sourceScreenshot": 457,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 422,
+      "id": "zip-458",
+      "sourceScreenshot": 458,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 423,
+      "id": "zip-459",
+      "sourceScreenshot": 459,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 424,
+      "id": "zip-460",
+      "sourceScreenshot": 460,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 425,
+      "id": "zip-461",
+      "sourceScreenshot": 461,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 426,
+      "id": "zip-462",
+      "sourceScreenshot": 462,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 427,
+      "id": "zip-463",
+      "sourceScreenshot": 463,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 428,
+      "id": "zip-464",
+      "sourceScreenshot": 464,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 429,
+      "id": "zip-465",
+      "sourceScreenshot": 465,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 430,
+      "id": "zip-466",
+      "sourceScreenshot": 466,
+      "status": "needs_review",
+      "findings": [
+        "题干 Henry Vil 中 Vil 疑似罗马数字字符识别异常，待原图核验",
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 431,
+      "id": "zip-467",
+      "sourceScreenshot": 467,
+      "status": "needs_review",
+      "findings": [
+        "选项 The Grown Court 疑似字母识别异常，待原图核验",
+        "解释内容提及不同法院及地区，需与原图逐字核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 432,
+      "id": "zip-468",
+      "sourceScreenshot": 468,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T22:30:23Z",
+      "note": "仅核查 GitHub 可读题库文字；未取得完整原始截图，不能认定与原图一致。未修改题库或答案。"
+    },
+    {
+      "number": 433,
+      "id": "zip-469",
+      "sourceScreenshot": 469,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 434,
+      "id": "zip-470",
+      "sourceScreenshot": 470,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 435,
+      "id": "zip-471",
+      "sourceScreenshot": 471,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 436,
+      "id": "zip-472",
+      "sourceScreenshot": 472,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 437,
+      "id": "zip-473",
+      "sourceScreenshot": 473,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 438,
+      "id": "zip-474",
+      "sourceScreenshot": 474,
+      "status": "needs_review",
+      "findings": [
+        "题干 Northern Ireland and Wales 与解释 Northern Ireland and Scotland 不同；题干 shop and businesses 与解释 shops and businesses 不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 439,
+      "id": "zip-475",
+      "sourceScreenshot": 475,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 440,
+      "id": "zip-476",
+      "sourceScreenshot": 476,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 441,
+      "id": "zip-477",
+      "sourceScreenshot": 477,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 442,
+      "id": "zip-478",
+      "sourceScreenshot": 478,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 443,
+      "id": "zip-479",
+      "sourceScreenshot": 479,
+      "status": "needs_review",
+      "findings": [
+        "题干 Boudica 与解释 Boudicca 拼写不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 444,
+      "id": "zip-480",
+      "sourceScreenshot": 480,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-21T23:03:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图，不能认定与原图一致；未修改题库及答案。"
+    },
+    {
+      "number": 445,
+      "id": "zip-481",
+      "sourceScreenshot": 481,
+      "status": "needs_review",
+      "findings": [
+        "题干末尾 invented’ 疑似标点识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 446,
+      "id": "zip-482",
+      "sourceScreenshot": 482,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 447,
+      "id": "zip-483",
+      "sourceScreenshot": 483,
+      "status": "needs_review",
+      "findings": [
+        "解释含 Source: ed.ac.uk/news/2023/statement-on-the-death-of-professor-sir-ian-wilmut，是否原图文字待核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 448,
+      "id": "zip-484",
+      "sourceScreenshot": 484,
+      "status": "needs_review",
+      "findings": [
+        "题干 What ts、bullding 疑似字母识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 449,
+      "id": "zip-485",
+      "sourceScreenshot": 485,
+      "status": "needs_review",
+      "findings": [
+        "题干 Is NOI、house of Lords’ 疑似大小写、字母及末尾标点识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 450,
+      "id": "zip-486",
+      "sourceScreenshot": 486,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 451,
+      "id": "zip-487",
+      "sourceScreenshot": 487,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 452,
+      "id": "zip-488",
+      "sourceScreenshot": 488,
+      "status": "needs_review",
+      "findings": [
+        "解释 about 0 million years ago 与登记答案数字不同，疑似缺字"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 453,
+      "id": "zip-490",
+      "sourceScreenshot": 490,
+      "status": "needs_review",
+      "findings": [
+        "解释 1866/67 疑似数字识别异常；解释姓名与登记答案不同，待原图核验，不判断答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 454,
+      "id": "zip-491",
+      "sourceScreenshot": 491,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 455,
+      "id": "zip-492",
+      "sourceScreenshot": 492,
+      "status": "needs_review",
+      "findings": [
+        "解释 cn 0300、contact@senedd wales、www.senedd wales 疑似字母及点号识别异常"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 456,
+      "id": "zip-493",
+      "sourceScreenshot": 493,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T01:12:34Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 457,
+      "id": "zip-494",
+      "sourceScreenshot": 494,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 458,
+      "id": "zip-495",
+      "sourceScreenshot": 495,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 459,
+      "id": "zip-496",
+      "sourceScreenshot": 496,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 460,
+      "id": "zip-498",
+      "sourceScreenshot": 498,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 461,
+      "id": "zip-499",
+      "sourceScreenshot": 499,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 462,
+      "id": "zip-500",
+      "sourceScreenshot": 500,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 463,
+      "id": "zip-501",
+      "sourceScreenshot": 501,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 464,
+      "id": "zip-502",
+      "sourceScreenshot": 502,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 465,
+      "id": "zip-503",
+      "sourceScreenshot": 503,
+      "status": "needs_review",
+      "findings": [
+        "选项 The British open、The Queen's open 的大小写待原图确认"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 466,
+      "id": "zip-504",
+      "sourceScreenshot": 504,
+      "status": "needs_review",
+      "findings": [
+        "解释 Irish republic 的大小写待原图确认"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 467,
+      "id": "zip-505",
+      "sourceScreenshot": 505,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 468,
+      "id": "zip-506",
+      "sourceScreenshot": 506,
+      "status": "needs_review",
+      "findings": [
+        "题干 driving license 与解释 driving licence 拼写形式不同，待原图确认，不作语言统一"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:20:57Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 469,
+      "id": "zip-507",
+      "sourceScreenshot": 507,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 470,
+      "id": "zip-508",
+      "sourceScreenshot": 508,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 471,
+      "id": "zip-509",
+      "sourceScreenshot": 509,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 472,
+      "id": "zip-510",
+      "sourceScreenshot": 510,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 473,
+      "id": "zip-511",
+      "sourceScreenshot": 511,
+      "status": "needs_review",
+      "findings": [
+        "解释含 Source: legislation.gov.uk/ukpga/2007/20/body/2008-11-25; legislation.gov.uk/nisr/2008/446.，待原图确认是否属于原文"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 474,
+      "id": "zip-512",
+      "sourceScreenshot": 512,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 475,
+      "id": "zip-513",
+      "sourceScreenshot": 513,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 476,
+      "id": "zip-514",
+      "sourceScreenshot": 514,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 477,
+      "id": "zip-515",
+      "sourceScreenshot": 515,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 478,
+      "id": "zip-516",
+      "sourceScreenshot": 516,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 479,
+      "id": "zip-517",
+      "sourceScreenshot": 517,
+      "status": "needs_review",
+      "findings": [
+        "选项 The Grown Court 疑似字母识别异常；解释 County Courts 与登记答案 The Sheriff Court 文字不同，待原图确认，不判断答案"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 480,
+      "id": "zip-518",
+      "sourceScreenshot": 518,
+      "status": "needs_review",
+      "findings": [
+        "解释为空，待原图确认是否缺失"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T03:53:26Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 481,
+      "id": "zip-519",
+      "sourceScreenshot": 519,
+      "status": "needs_review",
+      "findings": [
+        "解释中 identity themselves 与题干 identified themselves 字形不同，疑似转录异常，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 482,
+      "id": "zip-520",
+      "sourceScreenshot": 520,
+      "status": "needs_review",
+      "findings": [
+        "题干以 equal pay and made it illegal 开始，疑似开头缺失；题干 employees 与解释 employers 文字不同，待原图核验"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 483,
+      "id": "zip-521",
+      "sourceScreenshot": 521,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 484,
+      "id": "zip-522",
+      "sourceScreenshot": 522,
+      "status": "needs_review",
+      "findings": [
+        "题干 Boudica 与解释 Boudicca 拼写不同，待原图核验，不统一拼写"
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 485,
+      "id": "zip-523",
+      "sourceScreenshot": 523,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 486,
+      "id": "zip-524",
+      "sourceScreenshot": 524,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    },
+    {
+      "number": 487,
+      "id": "zip-525",
+      "sourceScreenshot": 525,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-22T05:13:55Z",
+      "note": "仅检查 GitHub 可读文字，未取得完整原始截图；原图对应文字及最小替换待核验，未修改题库及答案。"
+    }
+  ]
+}

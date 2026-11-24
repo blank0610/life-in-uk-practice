@@ -220,5 +220,10 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-343":{
     optionsText:["0.5%","1%","1.5%","3%"],
     correctOptionIndices:[2]
+  },
+  // #517：用户原始截图中是 Crown（并非 Grown）；完整说明末句漏录，逐字恢复，不修改题目或答案。
+  "zip-517":{
+    options:{"2":[["The Grown Court","The Crown Court"]]},
+    explanation:[["and divorce.","and divorce. In Scotland, most of these matters are dealt with in the Sheriff Court."]]
   }
 };

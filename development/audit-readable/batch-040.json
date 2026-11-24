@@ -156,13 +156,13 @@
     "options": [
       "County Courts",
       "The Sheriff Court",
-      "The Grown Court",
+      "The Crown Court",
       "The High Court"
     ],
     "correctAnswers": [
       "The Sheriff Court"
     ],
-    "explanation": "County Courts deal with a wide range of civil disputes. These include people trying to get back money that is owed to them, cases involving personal injury, family matters, breaches of contract, and divorce."
+    "explanation": "County Courts deal with a wide range of civil disputes. These include people trying to get back money that is owed to them, cases involving personal injury, family matters, breaches of contract, and divorce. In Scotland, most of these matters are dealt with in the Sheriff Court."
   },
   {
     "id": "zip-518",

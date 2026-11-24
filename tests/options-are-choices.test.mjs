@@ -36,6 +36,15 @@ test("数字答案与解释不一致时仅标记待核图，不靠推测修改�
  assert(scanQuestionBank([wrong]).review.some(x=>x.reason.includes("答案百分比")));
  assert(!scanQuestionBank([good]).review.some(x=>x.reason.includes("答案百分比")));
 });
+test("原图#517 Crown Court 必须正确拼写且恢复原图解释末句，不改变题干与正确答案",()=>{
+ const q=byId.get("zip-517");
+ assert.equal(q.question,"Who deals with cases involving personal injury, family matters, breaches of contract and divorce in Scotland?");
+ assert.deepEqual(Array.from(q.options),["County Courts","The Sheriff Court","The Crown Court","The High Court"]);
+ assert.deepEqual(Array.from(q.correctAnswers),["The Sheriff Court"]);
+ assert.equal(q.explanation,
+   "County Courts deal with a wide range of civil disputes. These include people trying to get back money that is owed to them, cases involving personal injury, family matters, breaches of contract, and divorce. In Scotland, most of these matters are dealt with in the Sheriff Court.");
+ assert(!q.options.some(option=>option.includes("Grown Court")));
+});
 test("原始截图#316伊拉克英军撤离题已原图核对，答案为2009",()=>{
  const q=byId.get("zip-316");
  assert.equal(q.question,"When did British combat troops leave Iraq?");

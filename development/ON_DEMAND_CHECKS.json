@@ -81,6 +81,32 @@
       "note": "亲自打开用户 ZIP 的 螢幕擷取畫面 (343).png，核对题干、原图四个选项、绿色高亮答案及下方解释。仅将 OCR 漏掉小数点的 15% 恢复成 1.5%，不改变题干、其他选项或解释；并加入百分比与解释不一致的待核图检测。",
       "checkedAgainst": "用户原始 ZIP 螢幕擷取畫面 (343).png；无需外部搜索或重写题目",
       "githubChange": "以完整原图的四个选项覆盖受污染选项，正确答案为1.5%，其余文字保持不变"
+    },
+    {
+      "id": "zip-517",
+      "sourceScreenshot": 517,
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-24T23:49:55.060Z",
+      "result": "corrected",
+      "question": "Who deals with cases involving personal injury, family matters, breaches of contract and divorce in Scotland?",
+      "options": [
+        "County Courts",
+        "The Sheriff Court",
+        "The Crown Court",
+        "The High Court"
+      ],
+      "correctAnswers": [
+        "The Sheriff Court"
+      ],
+      "explanation": "County Courts deal with a wide range of civil disputes. These include people trying to get back money that is owed to them, cases involving personal injury, family matters, breaches of contract, and divorce. In Scotland, most of these matters are dealt with in the Sheriff Court.",
+      "findings": [
+        "原始选项 The Crown Court 误录为 The Grown Court",
+        "网站解释遗漏了原始照片末句 In Scotland, most of these matters are dealt with in the Sheriff Court."
+      ],
+      "note": "打开用户原始 ZIP 内 螢幕擷取畫面 (517).png，逐字核对题干、四选项、绿色正确答案及完整解释。仅校正选项中的 Grown→Crown，并恢复照片中遗漏的最后一句；保留原来的题目、答案以及其他解释原文。之前每小时 Auto Run 已将此题登记为疑点（文字初检，图片未核实），本次由实际原图完成确认修正。顺序审核指针不因指定题目复查而前进。",
+      "checkedAgainst": "用户原始 ZIP 螢幕擷取畫面 (517).png，未使用外部网页或事实搜索",
+      "githubChange": "仅更新 zip-517 的第三个选项拼写，并从原图补回解释末句；增加原图回归测试与网站可见核对记录"
     }
   ]
 }

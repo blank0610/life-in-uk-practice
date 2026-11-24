@@ -24,3 +24,14 @@ test("GitHub已合并审核与待合并PR必须分开，非题库PR不应充数"
   assert.equal(arr.filter(x=>x.state==="open").length,1);
   assert.equal(arr.filter(x=>x.merged_at).length,1);
 });
+
+test("已完成上一轮必须保留历史疑点与图片核查数量，不误算到新一轮",()=>{
+ const summary=summarizeAudit({round:2,bankCount:487,nextIndex:0,checkedThisRound:[],
+   completedRounds:[{round:1,bankCount:487,visuallyChecked:3,needsReview:213,archivePath:"development/audit-history/round-001.json"}]});
+ assert.equal(summary.round,2);
+ assert.equal(summary.merged,0);
+ assert.equal(summary.photoCompared,0);
+ assert.equal(summary.lastCompleted.round,1);
+ assert.equal(summary.lastCompleted.needsReview,213);
+ assert.equal(summary.lastCompleted.archivePath,"development/audit-history/round-001.json");
+});

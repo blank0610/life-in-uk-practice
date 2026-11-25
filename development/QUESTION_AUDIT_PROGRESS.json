@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 2,
-  "nextIndex": 12,
+  "nextIndex": 24,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -125,6 +125,136 @@
       "imageCompared": false,
       "checkedAt": "2026-11-25T01:46:56Z",
       "note": "本轮逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 13,
+      "id": "zip-29",
+      "sourceScreenshot": 29,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 14,
+      "id": "zip-30",
+      "sourceScreenshot": 30,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 15,
+      "id": "zip-31",
+      "sourceScreenshot": 31,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 16,
+      "id": "zip-32",
+      "sourceScreenshot": 32,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 32,
+          "field": "explanation",
+          "websiteText": "In 1455. a civil war",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似句中句号OCR异常，待原图核验，不建议未核实替换。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项文字初检，发现疑似标点异常；原图未取得，不修改。"
+    },
+    {
+      "number": 17,
+      "id": "zip-34",
+      "sourceScreenshot": 34,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 18,
+      "id": "zip-35",
+      "sourceScreenshot": 35,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 19,
+      "id": "zip-36",
+      "sourceScreenshot": 36,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 20,
+      "id": "zip-37",
+      "sourceScreenshot": 37,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 21,
+      "id": "zip-38",
+      "sourceScreenshot": 38,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 22,
+      "id": "zip-39",
+      "sourceScreenshot": 39,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 23,
+      "id": "zip-40",
+      "sourceScreenshot": 40,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
+    },
+    {
+      "number": 24,
+      "id": "zip-41",
+      "sourceScreenshot": 41,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T10:54:10Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，待原图逐字核验，不作文字修正。"
     }
   ],
   "completedRounds": [
@@ -138,8 +268,8 @@
       "archivePath": "development/audit-history/round-001.json"
     }
   ],
-  "lastCheckedAt": "2026-11-25T01:46:56Z",
-  "lastCheckedId": "zip-28",
+  "lastCheckedAt": "2026-11-25T10:54:10Z",
+  "lastCheckedId": "zip-41",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

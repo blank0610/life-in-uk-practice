@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 2,
-  "nextIndex": 36,
+  "nextIndex": 48,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -405,6 +405,146 @@
       "imageCompared": false,
       "checkedAt": "2026-11-25T12:38:26Z",
       "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 37,
+      "id": "zip-56",
+      "sourceScreenshot": 56,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 38,
+      "id": "zip-57",
+      "sourceScreenshot": 57,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 39,
+      "id": "zip-58",
+      "sourceScreenshot": 58,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 40,
+      "id": "zip-59",
+      "sourceScreenshot": 59,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 59,
+          "field": "correctAnswers/explanation",
+          "websiteText": "10 Downing Street / 19 Downing Street",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "同题答案与解释数字不一致，待原图核验，不判断事实。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项文字初检，疑似转录异常待原图核验，不修改。"
+    },
+    {
+      "number": 41,
+      "id": "zip-60",
+      "sourceScreenshot": 60,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 60,
+          "field": "options",
+          "websiteText": "231d July 2016 / 231d July 2015",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似序数后缀OCR异常，待原图核验。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项文字初检，疑似转录异常待原图核验，不修改。"
+    },
+    {
+      "number": 42,
+      "id": "zip-61",
+      "sourceScreenshot": 61,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 43,
+      "id": "zip-62",
+      "sourceScreenshot": 62,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 44,
+      "id": "zip-63",
+      "sourceScreenshot": 63,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 45,
+      "id": "zip-64",
+      "sourceScreenshot": 64,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 46,
+      "id": "zip-65",
+      "sourceScreenshot": 65,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 47,
+      "id": "zip-66",
+      "sourceScreenshot": 66,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 48,
+      "id": "zip-67",
+      "sourceScreenshot": 67,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-25T14:46:06Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
     }
   ],
   "completedRounds": [
@@ -418,8 +558,8 @@
       "archivePath": "development/audit-history/round-001.json"
     }
   ],
-  "lastCheckedAt": "2026-11-25T12:38:26Z",
-  "lastCheckedId": "zip-55",
+  "lastCheckedAt": "2026-11-25T14:46:06Z",
+  "lastCheckedId": "zip-67",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 487,
   "round": 2,
-  "nextIndex": 72,
+  "nextIndex": 84,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -835,6 +835,162 @@
       "imageCompared": false,
       "checkedAt": "2026-11-26T06:06:41Z",
       "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 73,
+      "id": "zip-92",
+      "sourceScreenshot": 92,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 74,
+      "id": "zip-93",
+      "sourceScreenshot": 93,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 75,
+      "id": "zip-94",
+      "sourceScreenshot": 94,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 76,
+      "id": "zip-95",
+      "sourceScreenshot": 95,
+      "status": "needs_review",
+      "findings": [
+        {
+          "field": "question",
+          "websiteText": "according to the source",
+          "sourceText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "待原图确认是否为原题文字"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "待原图确认是否为原题文字"
+    },
+    {
+      "number": 77,
+      "id": "zip-96",
+      "sourceScreenshot": 96,
+      "status": "needs_review",
+      "findings": [
+        {
+          "field": "explanation",
+          "websiteText": "the Imani in what ie naw eactarn Encland",
+          "sourceText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "明显疑似OCR乱码，待原图核验"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "明显疑似OCR乱码，待原图核验"
+    },
+    {
+      "number": 78,
+      "id": "zip-97",
+      "sourceScreenshot": 97,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 79,
+      "id": "zip-99",
+      "sourceScreenshot": 99,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 80,
+      "id": "zip-100",
+      "sourceScreenshot": 100,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 81,
+      "id": "zip-101",
+      "sourceScreenshot": 101,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 82,
+      "id": "zip-102",
+      "sourceScreenshot": 102,
+      "status": "needs_review",
+      "findings": [
+        {
+          "field": "question",
+          "websiteText": "mentioned in the source",
+          "sourceText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "待原图确认是否为原题文字"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "待原图确认是否为原题文字"
+    },
+    {
+      "number": 83,
+      "id": "zip-103",
+      "sourceScreenshot": 103,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 84,
+      "id": "zip-104",
+      "sourceScreenshot": 104,
+      "status": "needs_review",
+      "findings": [
+        {
+          "field": "explanation",
+          "websiteText": "The Welsh government has Senedd members, and elections were historically held every four years. This question may now be outdated.",
+          "sourceText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似非原图说明，待原图核验，不作事实判断"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-26T12:39:41Z",
+      "note": "疑似非原图说明，待原图核验，不作事实判断"
     }
   ],
   "completedRounds": [
@@ -848,8 +1004,8 @@
       "archivePath": "development/audit-history/round-001.json"
     }
   ],
-  "lastCheckedAt": "2026-11-26T06:06:41Z",
-  "lastCheckedId": "zip-91",
+  "lastCheckedAt": "2026-11-26T12:39:41Z",
+  "lastCheckedId": "zip-104",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

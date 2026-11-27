@@ -101,5 +101,80 @@
       "In London"
     ],
     "explanation": "The Laurence Olivier Awards take place annually at different venues in London."
+  },
+  {
+    "id": "zip-625",
+    "sourceScreenshot": 625,
+    "question": "How old was the Queen of Scotland, Mary Stuart, when she became queen?",
+    "options": [
+      "Two years old",
+      "A month old",
+      "A week old",
+      "5 years old"
+    ],
+    "correctAnswers": [
+      "A week old"
+    ],
+    "explanation": "The queen of Scotland, Mary Stuart (often now called ‘Mary, Queen of Scots’) was a Catholic. She was only a week old when her father died and she became queen."
+  },
+  {
+    "id": "zip-626",
+    "sourceScreenshot": 626,
+    "question": "Where was the first tennis club founded?",
+    "options": [
+      "Brixton",
+      "Leamington Spa",
+      "Haywards Heath",
+      "St Andrews"
+    ],
+    "correctAnswers": [
+      "Leamington Spa"
+    ],
+    "explanation": "The first tennis club was founded in Leamington Spa in 1872."
+  },
+  {
+    "id": "zip-627",
+    "sourceScreenshot": 627,
+    "question": "Which British playwright invented many common English words and had a great influence on the English language?",
+    "options": [
+      "William Shakespeare",
+      "Graham Greene",
+      "Dylan Thomas",
+      "Harold Pinter"
+    ],
+    "correctAnswers": [
+      "William Shakespeare"
+    ],
+    "explanation": "William Shakespeare had a great influence on the English language and invented many words that are still common today."
+  },
+  {
+    "id": "zip-628",
+    "sourceScreenshot": 628,
+    "question": "In which city is the Northern Ireland Assembly building, also known as Stormont, located?",
+    "options": [
+      "London",
+      "Belfast",
+      "Cardiff",
+      "Dublin"
+    ],
+    "correctAnswers": [
+      "Belfast"
+    ],
+    "explanation": "The Northern Ireland Assembly building is known as Stormont and it is located in Belfast."
+  },
+  {
+    "id": "zip-629",
+    "sourceScreenshot": 629,
+    "question": "What proportion of the population died as a result of the Black Death in England?",
+    "options": [
+      "Half of the population",
+      "One third of the population",
+      "55% of the population",
+      "One quarter of the population"
+    ],
+    "correctAnswers": [
+      "One third of the population"
+    ],
+    "explanation": "As a result of the Black Death, one third of the population of England died and a similar proportion in Scotland and Wales."
   }
 ]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "zip-813",
+    "sourceScreenshot": 813,
+    "question": "The House of Commons is normally more independent of the government than the House of Lords:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The House of Lords is normally more independent of the government than the House of Commons."
+  },
+  {
+    "id": "zip-814",
+    "sourceScreenshot": 814,
+    "question": "When was the Turing machine invented?",
+    "options": [
+      "In the 1920s",
+      "In the 1930s",
+      "In the 1940s",
+      "In the 1950s"
+    ],
+    "correctAnswers": [
+      "In the 1930s"
+    ],
+    "explanation": "A Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s."
+  },
+  {
+    "id": "zip-815",
+    "sourceScreenshot": 815,
+    "question": "During which period were the House of Lords and House of Commons established?",
+    "options": [
+      "Middle Ages",
+      "Iron Age",
+      "The Roman Invasion",
+      "The Anglo-Saxon Invasion"
+    ],
+    "correctAnswers": [
+      "Middle Ages"
+    ],
+    "explanation": "In the Middle Ages, the numbers attending Parliament increased and two separate parts, known as Houses were established. These were the House of Commons and the House of Lords."
+  },
+  {
+    "id": "zip-816",
+    "sourceScreenshot": 816,
+    "question": "What name is given to the period of time when Christians take time to reflect and prepare for Easter?",
+    "options": [
+      "Halloween",
+      "Lent",
+      "Diwali",
+      "Hanukkah"
+    ],
+    "correctAnswers": [
+      "Lent"
+    ],
+    "explanation": "Lent is a time when Christians take time to reflect and prepare for Easter."
+  },
+  {
+    "id": "zip-817",
+    "sourceScreenshot": 817,
+    "question": "In the new Church of England created by Henry VIII, who had the power to appoint bishops and order how people should worship?",
+    "options": [
+      "The Pope",
+      "The King",
+      "The Prime Minister",
+      "The Archbishop of Canterbury"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": "In the new Church of England, the king, not the Pope, would have the power to appoint bishops and order how people should worship."
+  },
+  {
+    "id": "zip-818",
+    "sourceScreenshot": 818,
+    "question": "In Wales, many people speak Gaelic – a completely different language from English – and it is taught in schools and universities:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In Wales, many people speak Welsh – a completely different language from English – and it is taught in schools and universities."
+  },
+  {
+    "id": "zip-819",
+    "sourceScreenshot": 819,
+    "question": "How many years did Queen Victoria reign for?",
+    "options": [
+      "Only two years",
+      "Almost 64 years",
+      "Less than two years",
+      "Almost 50 years"
+    ],
+    "correctAnswers": [
+      "Almost 64 years"
+    ],
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years."
+  },
+  {
+    "id": "zip-820",
+    "sourceScreenshot": 820,
+    "question": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London."
+  },
+  {
+    "id": "zip-821",
+    "sourceScreenshot": 821,
+    "question": "Which of the following is NOT a role of the King:",
+    "options": [
+      "To inaugurate important business in the UK",
+      "To receive foreign ambassadors and high commissioners",
+      "To entertain visiting heads of state",
+      "To make state visits overseas"
+    ],
+    "correctAnswers": [
+      "To inaugurate important business in the UK"
+    ],
+    "explanation": "The King receives foreign ambassadors and high commissioners, entertains visiting heads of state, and makes state visits overseas in support of diplomatic relationships with other countries."
+  },
+  {
+    "id": "zip-822",
+    "sourceScreenshot": 822,
+    "question": "The Speaker is a neutral MP and does not represent a political party:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The Speaker is neutral and does not represent a political party, even though he or she is an MP, represents a constituency and deals with the constituents’ problems like any other MP."
+  },
+  {
+    "id": "zip-823",
+    "sourceScreenshot": 823,
+    "question": "What is the height of the London Eye?",
+    "options": [
+      "125 metres",
+      "135 metres",
+      "140 metres",
+      "152 metres"
+    ],
+    "correctAnswers": [
+      "135 metres"
+    ],
+    "explanation": "The London Eye is situated on the southern bank of the River Thames and is a Ferris wheel that is 43 feet (135 metres) tall."
+  },
+  {
+    "id": "zip-824",
+    "sourceScreenshot": 824,
+    "question": "How can a person facing domestic violence find a safe place to stay (choose TWO options)?",
+    "options": [
+      "Going to a hotel away from their home",
+      "Contacting the National Domestic Violence Freephone Helpline",
+      "Contacting the police",
+      "Contacting the hospital"
+    ],
+    "correctAnswers": [
+      "Contacting the National Domestic Violence Freephone Helpline",
+      "Contacting the police"
+    ],
+    "explanation": "If you are facing domestic violence you can get help from the 24-hour National Domestic Violence Freephone Helpline on 0808 2000 247 at any time, or the police can help you find a safe place to stay."
+  }
+]

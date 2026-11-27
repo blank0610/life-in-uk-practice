@@ -3895,6 +3895,717 @@ export const additionalQuestions = [
     ],
     "explanation": "King Alfred the Great defeated the Vikings.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-798",
+    "sourceScreenshot": 798,
+    "sourceTest": 30,
+    "sourceQuestion": 3,
+    "question": "When was Queen Elizabeth II’s Diamond Jubilee celebrated?",
+    "options": [
+      "2005",
+      "2010",
+      "2011",
+      "2012"
+    ],
+    "correctAnswers": [
+      "2012"
+    ],
+    "explanation": "Queen Elizabeth II’s Diamond Jubilee was celebrated in 2012.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-799",
+    "sourceScreenshot": 799,
+    "sourceTest": 30,
+    "sourceQuestion": 4,
+    "question": "During the Middle Ages, England was an important trading nation and people came to England from abroad to trade and also to work. Where did the canal builders come from?",
+    "options": [
+      "Germany",
+      "Holland",
+      "France",
+      "Italy"
+    ],
+    "correctAnswers": [
+      "Holland"
+    ],
+    "explanation": "During the Middle Ages, England was an important trading nation and people came to England from abroad to trade and also to work. Canal builders came from Holland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-800",
+    "sourceScreenshot": 800,
+    "sourceTest": 30,
+    "sourceQuestion": 5,
+    "question": "The Elizabethan period in England was a time of growing patriotism: a feeling of pride in being English, English explorers sought new trade routes and tried to expand British trade into the Spanish colonies in the Americas:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-801",
+    "sourceScreenshot": 801,
+    "sourceTest": 30,
+    "sourceQuestion": 6,
+    "question": "Which of the following are ‘Crown dependencies’?",
+    "options": [
+      "The Maldives and Anglesey",
+      "Ireland and Malta",
+      "The Isle of Man and the Channel Islands",
+      "The Isle of Wight and Northern Ireland"
+    ],
+    "correctAnswers": [
+      "The Isle of Man and the Channel Islands"
+    ],
+    "explanation": "The Isle of Man and the Channel Islands are ‘Crown dependencies’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-802",
+    "sourceScreenshot": 802,
+    "sourceTest": 30,
+    "sourceQuestion": 7,
+    "question": "Which of the following is a charity that works with old people?",
+    "options": [
+      "Shelter",
+      "Age UK",
+      "Crisis",
+      "Cancer Research UK"
+    ],
+    "correctAnswers": [
+      "Age UK"
+    ],
+    "explanation": "Age UK is a charity that works with old people.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-803",
+    "sourceScreenshot": 803,
+    "sourceTest": 30,
+    "sourceQuestion": 8,
+    "question": "Which popular British sport can be traced back to the 15th century?",
+    "options": [
+      "Football",
+      "Golf",
+      "Rugby",
+      "Tennis"
+    ],
+    "correctAnswers": [
+      "Golf"
+    ],
+    "explanation": "The modern game of golf can be traced back to 15th century Scotland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-804",
+    "sourceScreenshot": 804,
+    "sourceTest": 30,
+    "sourceQuestion": 9,
+    "question": "How many crosses form the Union Flag?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctAnswers": [
+      "Three"
+    ],
+    "explanation": "The Union Flag has three crosses.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-805",
+    "sourceScreenshot": 805,
+    "sourceTest": 30,
+    "sourceQuestion": 10,
+    "question": "Who were the suffragettes?",
+    "options": [
+      "A group who demanded the vote for the working classes",
+      "A group who used civil disobedience to gain the vote for women",
+      "A group who campaigned for the vote of men over 21 years of age",
+      "A group who introduced new ideas about politics"
+    ],
+    "correctAnswers": [
+      "A group who used civil disobedience to gain the vote for women"
+    ],
+    "explanation": "The suffragettes were a group who used civil disobedience to gain the vote for women.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-806",
+    "sourceScreenshot": 806,
+    "sourceTest": 30,
+    "sourceQuestion": 11,
+    "question": "What does the UK offer to its permanent residents or citizens?",
+    "options": [
+      "Free undergraduate tuition fees",
+      "A right to a fair trial",
+      "VIP tickets for local events",
+      "Free parking across the country"
+    ],
+    "correctAnswers": [
+      "A right to a fair trial"
+    ],
+    "explanation": "A right to a fair trial is the correct answer.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-807",
+    "sourceScreenshot": 807,
+    "sourceTest": 30,
+    "sourceQuestion": 12,
+    "question": "Which of the following meals is a fried meal with bacon, eggs, sausage, black pudding, tomatoes, mushrooms, soda bread and potato bread?",
+    "options": [
+      "English breakfast",
+      "Haggis",
+      "Ulster fry",
+      "Sunday roast"
+    ],
+    "correctAnswers": [
+      "Ulster fry"
+    ],
+    "explanation": "Ulster fry is a fried meal from Northern Ireland with bacon, eggs, sausage, black pudding, tomatoes, mushrooms, soda bread and potato bread.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-808",
+    "sourceScreenshot": 808,
+    "sourceTest": 30,
+    "sourceQuestion": 13,
+    "question": "What can living people donate that may help other people with injuries or illnesses (choose TWO options)?",
+    "options": [
+      "Blood",
+      "Saliva",
+      "A kidney",
+      "Their liver"
+    ],
+    "correctAnswers": [
+      "Blood",
+      "A kidney"
+    ],
+    "explanation": "Living people can donate blood and a kidney.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-809",
+    "sourceScreenshot": 809,
+    "sourceTest": 30,
+    "sourceQuestion": 14,
+    "question": "Where is the office of the MPs located?",
+    "options": [
+      "10 Downing Street",
+      "The House of Commons",
+      "The House of Lords",
+      "Buckingham Palace"
+    ],
+    "correctAnswers": [
+      "The House of Commons"
+    ],
+    "explanation": "The MP’s office is located at The House of Commons, Westminster, London, SW1A 0AA.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-810",
+    "sourceScreenshot": 810,
+    "sourceTest": 30,
+    "sourceQuestion": 15,
+    "question": "Which TWO of the following statements are TRUE with regards to Magistrates and Justices of the Peace (JPs) in England, Wales and Scotland?",
+    "options": [
+      "They usually work unpaid",
+      "They do not need legal qualifications",
+      "They are legally qualified",
+      "They are paid"
+    ],
+    "correctAnswers": [
+      "They usually work unpaid",
+      "They do not need legal qualifications"
+    ],
+    "explanation": "In England, Wales and Scotland Magistrates and Justices of the Peace (JPs) usually work unpaid and do not need legal qualifications.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-811",
+    "sourceScreenshot": 811,
+    "sourceTest": 30,
+    "sourceQuestion": 16,
+    "question": "Which of the following is a showcase of mainly theatre and comedy performances?",
+    "options": [
+      "The Fringe",
+      "Diwali",
+      "Halloween",
+      "Lent"
+    ],
+    "correctAnswers": [
+      "The Fringe"
+    ],
+    "explanation": "The Fringe is a showcase of mainly theatre and comedy performances.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-812",
+    "sourceScreenshot": 812,
+    "sourceTest": 30,
+    "sourceQuestion": 17,
+    "question": "Which of the following days are public holidays in Scotland (choose TWO options)?",
+    "options": [
+      "1st of January",
+      "24th of December",
+      "3rd of January",
+      "2nd of January"
+    ],
+    "correctAnswers": [
+      "1st of January",
+      "2nd of January"
+    ],
+    "explanation": "In Scotland, the 1st of January and the 2nd of January are bank holidays.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-813",
+    "sourceScreenshot": 813,
+    "sourceTest": 30,
+    "sourceQuestion": 18,
+    "question": "The House of Commons is normally more independent of the government than the House of Lords:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The House of Lords is normally more independent of the government than the House of Commons.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-814",
+    "sourceScreenshot": 814,
+    "sourceTest": 30,
+    "sourceQuestion": 19,
+    "question": "When was the Turing machine invented?",
+    "options": [
+      "In the 1920s",
+      "In the 1930s",
+      "In the 1940s",
+      "In the 1950s"
+    ],
+    "correctAnswers": [
+      "In the 1930s"
+    ],
+    "explanation": "A Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-815",
+    "sourceScreenshot": 815,
+    "sourceTest": 30,
+    "sourceQuestion": 20,
+    "question": "During which period were the House of Lords and House of Commons established?",
+    "options": [
+      "Middle Ages",
+      "Iron Age",
+      "The Roman Invasion",
+      "The Anglo-Saxon Invasion"
+    ],
+    "correctAnswers": [
+      "Middle Ages"
+    ],
+    "explanation": "In the Middle Ages, the numbers attending Parliament increased and two separate parts, known as Houses were established. These were the House of Commons and the House of Lords.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-816",
+    "sourceScreenshot": 816,
+    "sourceTest": 30,
+    "sourceQuestion": 21,
+    "question": "What name is given to the period of time when Christians take time to reflect and prepare for Easter?",
+    "options": [
+      "Halloween",
+      "Lent",
+      "Diwali",
+      "Hanukkah"
+    ],
+    "correctAnswers": [
+      "Lent"
+    ],
+    "explanation": "Lent is a time when Christians take time to reflect and prepare for Easter.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-817",
+    "sourceScreenshot": 817,
+    "sourceTest": 30,
+    "sourceQuestion": 22,
+    "question": "In the new Church of England created by Henry VIII, who had the power to appoint bishops and order how people should worship?",
+    "options": [
+      "The Pope",
+      "The King",
+      "The Prime Minister",
+      "The Archbishop of Canterbury"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": "In the new Church of England, the king, not the Pope, would have the power to appoint bishops and order how people should worship.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-818",
+    "sourceScreenshot": 818,
+    "sourceTest": 30,
+    "sourceQuestion": 23,
+    "question": "In Wales, many people speak Gaelic – a completely different language from English – and it is taught in schools and universities:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In Wales, many people speak Welsh – a completely different language from English – and it is taught in schools and universities.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-819",
+    "sourceScreenshot": 819,
+    "sourceTest": 30,
+    "sourceQuestion": 24,
+    "question": "How many years did Queen Victoria reign for?",
+    "options": [
+      "Only two years",
+      "Almost 64 years",
+      "Less than two years",
+      "Almost 50 years"
+    ],
+    "correctAnswers": [
+      "Almost 64 years"
+    ],
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18. She reigned until 1901, almost 64 years.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-820",
+    "sourceScreenshot": 820,
+    "sourceTest": 31,
+    "sourceQuestion": 1,
+    "question": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The UK population is ethnically diverse and changing rapidly, especially in large cities such as London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-821",
+    "sourceScreenshot": 821,
+    "sourceTest": 31,
+    "sourceQuestion": 2,
+    "question": "Which of the following is NOT a role of the King:",
+    "options": [
+      "To inaugurate important business in the UK",
+      "To receive foreign ambassadors and high commissioners",
+      "To entertain visiting heads of state",
+      "To make state visits overseas"
+    ],
+    "correctAnswers": [
+      "To inaugurate important business in the UK"
+    ],
+    "explanation": "The King receives foreign ambassadors and high commissioners, entertains visiting heads of state, and makes state visits overseas in support of diplomatic relationships with other countries.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-822",
+    "sourceScreenshot": 822,
+    "sourceTest": 31,
+    "sourceQuestion": 3,
+    "question": "The Speaker is a neutral MP and does not represent a political party:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The Speaker is neutral and does not represent a political party, even though he or she is an MP, represents a constituency and deals with the constituents’ problems like any other MP.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-823",
+    "sourceScreenshot": 823,
+    "sourceTest": 31,
+    "sourceQuestion": 4,
+    "question": "What is the height of the London Eye?",
+    "options": [
+      "125 metres",
+      "135 metres",
+      "140 metres",
+      "152 metres"
+    ],
+    "correctAnswers": [
+      "135 metres"
+    ],
+    "explanation": "The London Eye is situated on the southern bank of the River Thames and is a Ferris wheel that is 43 feet (135 metres) tall.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-824",
+    "sourceScreenshot": 824,
+    "sourceTest": 31,
+    "sourceQuestion": 5,
+    "question": "How can a person facing domestic violence find a safe place to stay (choose TWO options)?",
+    "options": [
+      "Going to a hotel away from their home",
+      "Contacting the National Domestic Violence Freephone Helpline",
+      "Contacting the police",
+      "Contacting the hospital"
+    ],
+    "correctAnswers": [
+      "Contacting the National Domestic Violence Freephone Helpline",
+      "Contacting the police"
+    ],
+    "explanation": "If you are facing domestic violence you can get help from the 24-hour National Domestic Violence Freephone Helpline on 0808 2000 247 at any time, or the police can help you find a safe place to stay.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-825",
+    "sourceScreenshot": 825,
+    "sourceTest": 31,
+    "sourceQuestion": 6,
+    "question": "What name is given to the celebration when people in Great Britain set off fireworks at home or in special displays on the 5th of November?",
+    "options": [
+      "Bonfire night",
+      "Fireworks night",
+      "Bright night",
+      "The candles night"
+    ],
+    "correctAnswers": [
+      "Bonfire night"
+    ],
+    "explanation": "Bonfire Night, 5 November, is an occasion when people in Great Britain set off fireworks at home or in special displays.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-826",
+    "sourceScreenshot": 826,
+    "sourceTest": 31,
+    "sourceQuestion": 7,
+    "question": "When did the Vikings first visit Britain to raid coastal towns and take away goods and slaves?",
+    "options": [
+      "AD 600",
+      "AD 789",
+      "AD 790",
+      "AD 804"
+    ],
+    "correctAnswers": [
+      "AD 789"
+    ],
+    "explanation": "The Vikings came from Denmark and Norway. They first visited Britain in AD 789 to raid coastal towns and take away goods and slaves.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-827",
+    "sourceScreenshot": 827,
+    "sourceTest": 31,
+    "sourceQuestion": 8,
+    "question": "Who has control over policy and laws governing defence, foreign affairs, immigration, taxation and social security in Northern Ireland?",
+    "options": [
+      "The Irish government",
+      "The central UK government",
+      "The Northern Ireland Assembly",
+      "The monarch"
+    ],
+    "correctAnswers": [
+      "The central UK government"
+    ],
+    "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-828",
+    "sourceScreenshot": 828,
+    "sourceTest": 31,
+    "sourceQuestion": 9,
+    "question": "How many National Parks are there in England, Wales and Scotland?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "25"
+    ],
+    "correctAnswers": [
+      "15"
+    ],
+    "explanation": "There are 15 national parks in England, Wales and Scotland. They are areas of protected countryside that everyone can visit, and where people live, work and look after the landscape.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-829",
+    "sourceScreenshot": 829,
+    "sourceTest": 31,
+    "sourceQuestion": 10,
+    "question": "Which services can be obtained from veterinary surgeons?",
+    "options": [
+      "They are places where pets can be left when you go on holidays",
+      "They are places where vaccinations and medical treatment for animals are available",
+      "They are places specifically prepared to groom pets",
+      "Amusement places for pets"
+    ],
+    "correctAnswers": [
+      "They are places where vaccinations and medical treatment for animals are available"
+    ],
+    "explanation": "Vaccinations and medical treatment for animals are available from veterinary surgeons (vets).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-830",
+    "sourceScreenshot": 830,
+    "sourceTest": 31,
+    "sourceQuestion": 11,
+    "question": "The devolved governments in Scotland, Wales and Northern Ireland cannot control policies and laws governing taxation and social security:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as education, are controlled by the devolved administrations.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-831",
+    "sourceScreenshot": 831,
+    "sourceTest": 31,
+    "sourceQuestion": 12,
+    "question": "The longer life expectancy in the UK has an effect on (choose TWO options):",
+    "options": [
+      "The number of homeless people",
+      "Food scarcity",
+      "The cost of pensions",
+      "Health care"
+    ],
+    "correctAnswers": [
+      "The cost of pensions",
+      "Health care"
+    ],
+    "explanation": "People in the UK are living longer than ever before. This is due to improved living standards and better health care. There are now a record number of people aged 85 and over. This has an impact on the cost of pensions and health care.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-832",
+    "sourceScreenshot": 832,
+    "sourceTest": 31,
+    "sourceQuestion": 13,
+    "question": "What percentage of the total British population is located in Scotland?",
+    "options": [
+      "Over 30%",
+      "Over 5%",
+      "Over 8%",
+      "Over 3%"
+    ],
+    "correctAnswers": [
+      "Over 8%"
+    ],
+    "explanation": "The population is very unequally distributed over the four parts of the UK. England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8%, and Northern Ireland less than 3%.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-833",
+    "sourceScreenshot": 833,
+    "sourceTest": 31,
+    "sourceQuestion": 14,
+    "question": "When Cromwell died, his son, Richard, became Lord Protector in his place but was not able to control the army or the government:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-834",
+    "sourceScreenshot": 834,
+    "sourceTest": 31,
+    "sourceQuestion": 15,
+    "question": "Which of the following academy awards are the equivalent of the Oscars in the UK?",
+    "options": [
+      "The Brit Awards",
+      "The BAFTA Awards",
+      "The Mercury Music Prize",
+      "The MTV Awards"
+    ],
+    "correctAnswers": [
+      "The BAFTA Awards"
+    ],
+    "explanation": "The annual British Academy Film Awards, hosted by the British Academy of Film and Television Arts (BAFTA), are the British equivalent of the Oscars.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-835",
+    "sourceScreenshot": 835,
+    "sourceTest": 31,
+    "sourceQuestion": 16,
+    "question": "Which political party was elected after the Second World War?",
+    "options": [
+      "The Liberal Democrats",
+      "The Green Party",
+      "The Conservative Party",
+      "The Labour Party"
+    ],
+    "correctAnswers": [
+      "The Labour Party"
+    ],
+    "explanation": "The Labour Party won the 1945 election. Clement Attlee was Prime Minister from 1945 to 1951 and led the Labour Party for 20 years.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-836",
+    "sourceScreenshot": 836,
+    "sourceTest": 31,
+    "sourceQuestion": 17,
+    "question": "Which British sportsman was captain of the English cricket team?",
+    "options": [
+      "Bobby Moore",
+      "Sir Ian Botham",
+      "Sir Steve Redgrave",
+      "Sir Jackie Steward"
+    ],
+    "correctAnswers": [
+      "Sir Ian Botham"
+    ],
+    "explanation": "Sir Ian Botham captained the English cricket team and holds a number of English Test cricket records, both for batting and for bowling.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-837",
+    "sourceScreenshot": 837,
+    "sourceTest": 31,
+    "sourceQuestion": 18,
+    "question": "In which Japanese cities did the United States drop atomic bombs in August 1945?",
+    "options": [
+      "Osaka and Nagasaki",
+      "Hiroshima and Osaka",
+      "Osaka and Kyoto",
+      "Hiroshima and Nagasaki"
+    ],
+    "correctAnswers": [
+      "Hiroshima and Nagasaki"
+    ],
+    "explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

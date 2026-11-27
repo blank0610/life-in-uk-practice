@@ -1,0 +1,17 @@
+[
+  {
+    "id": "zip-837",
+    "sourceScreenshot": 837,
+    "question": "In which Japanese cities did the United States drop atomic bombs in August 1945?",
+    "options": [
+      "Osaka and Nagasaki",
+      "Hiroshima and Osaka",
+      "Osaka and Kyoto",
+      "Hiroshima and Nagasaki"
+    ],
+    "correctAnswers": [
+      "Hiroshima and Nagasaki"
+    ],
+    "explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki."
+  }
+]

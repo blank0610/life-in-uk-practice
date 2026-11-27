@@ -1,3 +1,4 @@
+import {additionalQuestions,appendAdditionalQuestions} from "../site/data/additional-questions.js";
 import {readFileSync} from "node:fs";
 import {gunzipSync} from "node:zlib";
 import vm from "node:vm";
@@ -38,6 +39,7 @@ export function loadQuestionBank(){
     });
   }
   applyTextFixes(map,context.window.LIFE_UK_TEXT_FIXES);
+  appendAdditionalQuestions(map,additionalQuestions);
   return [...map.values()];
 }
 export function scanQuestionBank(questions){

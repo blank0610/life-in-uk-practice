@@ -392,16 +392,424 @@
         1
       ],
       "The day when Muslims thank Allah for giving them the strength to complete the fast is called Eid al-Fitr."
+    ],
+    [
+      868,
+      "Will a non-UK national living in the UK and looking for work, starting work or setting up as self-employed need a National Insurance number?",
+      [
+        "Yes",
+        "No"
+      ],
+      [
+        0
+      ],
+      "A non-UK national living in the UK and looking for work, starting work or setting up as self-employed will need a National Insurance number. However, you can start work without one."
+    ],
+    [
+      1118,
+      "What is the name of the highest mountain in Wales?",
+      [
+        "Lake District",
+        "Snowdon",
+        "South Downs",
+        "Giant’s Causeway"
+      ],
+      [
+        1
+      ],
+      "Snowdon is the highest mountain in Wales."
+    ],
+    [
+      1119,
+      "Where did the Vikings come from?",
+      [
+        "France and Germany",
+        "Sweden and Finland",
+        "Denmark and Norway",
+        "Sweden and Germany"
+      ],
+      [
+        2
+      ],
+      "The Vikings came from Denmark and Norway."
+    ],
+    [
+      1120,
+      "Who led a Scottish army against Oliver Cromwell just after England had been declared a Republic?",
+      [
+        "Charles I",
+        "Charles II",
+        "Henry V",
+        "James I"
+      ],
+      [
+        1
+      ],
+      "Charles II was crowned king of Scotland and led a Scottish army into England. Cromwell defeated this army in the Battles of Dunbar and Worcester."
+    ],
+    [
+      1121,
+      "How many pence are there in a pound?",
+      [
+        "100 pence",
+        "50 pence",
+        "60 pence",
+        "10 pence"
+      ],
+      [
+        0
+      ],
+      "There are 100 pence in a pound."
+    ],
+    [
+      1122,
+      "When are local elections for councillors held in most local authorities?",
+      [
+        "In May",
+        "In March",
+        "In February",
+        "In June"
+      ],
+      [
+        0
+      ],
+      "For most local authorities, local elections for councillors are held in May every year."
+    ],
+    [
+      1123,
+      "What sort of stories were collected by the Canterbury Tales written by Geoffrey Chaucer?",
+      [
+        "Love stories",
+        "Children’s stories",
+        "Travellers’ stories",
+        "War stories"
+      ],
+      [
+        2
+      ],
+      "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales."
+    ],
+    [
+      1124,
+      "When did rugby originate?",
+      [
+        "In the 15th century",
+        "In the 16th century",
+        "In the 18th century",
+        "In the 19th century"
+      ],
+      [
+        3
+      ],
+      "Rugby originated in England in the early 19th century and is very popular in the UK today."
+    ],
+    [
+      1125,
+      "Which of the following lines does NOT form part of the citizenship pledge?",
+      [
+        "I will give my loyalty to the United Kingdom",
+        "I will uphold its democratic values",
+        "Long live our noble King!",
+        "I will observe its laws faithfully"
+      ],
+      [
+        2
+      ],
+      "Long live our noble King! is the second sentence of the National Anthem of the UK."
+    ],
+    [
+      1126,
+      "Which of the following is NOT protected by the laws of discrimination?",
+      [
+        "Traditional customs",
+        "Disability",
+        "Pregnancy and Maternity",
+        "Religion or Belief"
+      ],
+      [
+        0
+      ],
+      "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status."
+    ],
+    [
+      1127,
+      "Which Act abolished the old pocket and rotten boroughs and allowed more parliamentary seats to the towns and cities?",
+      [
+        "The Reform Act of 1832",
+        "The Reform Act of 1842",
+        "The Emancipation Act 1833",
+        "The Emancipation Act 1835"
+      ],
+      [
+        0
+      ],
+      "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
+    ],
+    [
+      1128,
+      "In the UK, if the jury finds a defendant guilty, the judge decides the penalty:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is true."
+    ],
+    [
+      1129,
+      "Which of the following countries is a member of the Commonwealth?",
+      [
+        "Greece",
+        "Austria",
+        "Mexico",
+        "Bangladesh"
+      ],
+      [
+        3
+      ],
+      "Bangladesh is a member of the Commonwealth."
+    ],
+    [
+      1130,
+      "During the Crusades, European Christians fought for the control of:",
+      [
+        "The holy land",
+        "Ireland",
+        "Central Europe",
+        "England"
+      ],
+      [
+        0
+      ],
+      "European Christians fought for control of the Holy Land."
+    ],
+    [
+      1131,
+      "The line ‘to be or not to be’ belongs to which of the following plays or poems written by William Shakespeare?",
+      [
+        "Romeo and Juliet",
+        "Hamlet",
+        "As You Like It",
+        "Henry V"
+      ],
+      [
+        1
+      ],
+      "‘To be or not to be’ is a line from William Shakespeare’s play Hamlet."
+    ],
+    [
+      1132,
+      "Charles I wanted the worship of the Church of England to include more ceremony and introduced a revised Prayer Book.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is true."
+    ],
+    [
+      1133,
+      "Which of the following is NOT a principle included in the European Convention of Human Rights?",
+      [
+        "Prohibition of torture",
+        "Prohibition of immoral thoughts",
+        "Freedom of expression (speech)",
+        "Prohibition of slavery and forced labour"
+      ],
+      [
+        1
+      ],
+      "Prohibition of immoral thoughts is not one of the principles included in the European Convention of Human Rights."
+    ],
+    [
+      1134,
+      "What was the name of the project through which the atomic bomb was developed?",
+      [
+        "The Manhattan project",
+        "The Michigan project",
+        "The Cambridge project",
+        "The Manchester project"
+      ],
+      [
+        0
+      ],
+      "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom’ and took part in the Manhattan Project in the United States, which developed the atomic bomb."
+    ],
+    [
+      1135,
+      "Who supported the Parliament during the Civil War that began in 1642?",
+      [
+        "The Squareheads",
+        "The Cavaliers",
+        "The Suffragettes",
+        "The Roundheads"
+      ],
+      [
+        3
+      ],
+      "A civil war between the king and Parliament began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads)."
+    ],
+    [
+      1136,
+      "Which of the following poets wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England?",
+      [
+        "Geoffrey Chaucer",
+        "William Blake",
+        "Sir Walter Scott",
+        "William Wordsworth"
+      ],
+      [
+        2
+      ],
+      "Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England."
+    ],
+    [
+      1137,
+      "A system of government where the whole adult population gets a say is known as:",
+      [
+        "Monarchy",
+        "Republic",
+        "Communism",
+        "Democracy"
+      ],
+      [
+        3
+      ],
+      "Democracy is a system of government where the whole adult population gets a say. This might be by direct voting or by choosing representatives to make decisions on their behalf."
+    ],
+    [
+      1138,
+      "Which of the following statements is correct?",
+      [
+        "Arranged marriages refer to marriages where both parties agree to the marriage",
+        "Arranged marriages refer to marriages where one or both parties do not give their consent to enter into the partnership"
+      ],
+      [
+        0
+      ],
+      "Arranged marriages refer to marriages where both parties agree to the marriage."
+    ],
+    [
+      1139,
+      "The devolved governments in Scotland, Wales and Northern Ireland have the power to legislate on any issues that affect them:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "Devolved governments in Scotland, Wales and Northern Ireland have the power to legislate on certain issues."
     ]
   ],
   "exclusions": [
     {
       "id": 840,
       "reason": "未批改重复，#841显示完整正确答案"
+    },
+    {
+      "id": 894,
+      "target": 625,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 896,
+      "target": 627,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 897,
+      "target": 628,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 920,
+      "target": 651,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 943,
+      "target": 672,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 969,
+      "target": 697,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 970,
+      "target": 698,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 994,
+      "target": 722,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 996,
+      "target": 750,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1011,
+      "target": 764,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1019,
+      "target": 772,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1020,
+      "target": 773,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1021,
+      "target": 774,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1022,
+      "target": 775,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1044,
+      "target": 796,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1047,
+      "target": 799,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1068,
+      "target": 820,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1070,
+      "target": 821,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "id": 1085,
+      "target": 836,
+      "reason": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
     }
   ],
   "notes": [
-    "#847 this include→these include；#849 Castle 大写；#858 scientist→scientists、Middle Ages 大写；#867 Eid a-Fitr→Eid al-Fitr。#851 原图 Francis Creek / Wilmot 及 #852 NHS System、#853 独立年份疑点保留，不做事实查证。"
+    "#847 this include→these include；#849 Castle 大写；#858 scientist→scientists、Middle Ages 大写；#867 Eid a-Fitr→Eid al-Fitr。#851 原图 Francis Creek / Wilmot 及 #852 NHS System、#853 独立年份疑点保留，不做事实查证。",
+    "#1123 补 of（collection of poems），#1134 Rutherford 原解释事实疑点保留。#894–1085 布局或颜色差异的19张人工复核为既有重复；其余像素哈希重复另记。"
   ],
-  "reviewedThrough": 867
+  "reviewedThrough": 1139
 }

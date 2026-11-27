@@ -857,6 +857,433 @@ export const additionalQuestions = [
     ],
     "explanation": "The NSPCC is the National Society for the Prevention of Cruelty to Children.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-600",
+    "sourceScreenshot": 600,
+    "sourceTest": 23,
+    "sourceQuestion": 1,
+    "question": "How old do you need to be to buy a lottery ticket or scratch card?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "25"
+    ],
+    "correctAnswers": [
+      "18"
+    ],
+    "explanation": "People under 18 are not allowed to participate in the National Lottery.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-601",
+    "sourceScreenshot": 601,
+    "sourceTest": 23,
+    "sourceQuestion": 2,
+    "question": "Where was Catherine of Aragon (the first wife of Henry VIII) from?",
+    "options": [
+      "Spain",
+      "Germany",
+      "England",
+      "France"
+    ],
+    "correctAnswers": [
+      "Spain"
+    ],
+    "explanation": "Catherine of Aragon was a Spanish princess.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-603",
+    "sourceScreenshot": 603,
+    "sourceTest": 23,
+    "sourceQuestion": 3,
+    "question": "When did motor-car racing start in the UK?",
+    "options": [
+      "In 1889",
+      "In 1901",
+      "In 1902",
+      "In 1922"
+    ],
+    "correctAnswers": [
+      "In 1902"
+    ],
+    "explanation": "Motor-car racing in the UK started in 1902.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-604",
+    "sourceScreenshot": 604,
+    "sourceTest": 23,
+    "sourceQuestion": 4,
+    "question": "The Commonwealth is based on the core values of democracy, good government and the rule of law:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The Commonwealth is based on the core values of democracy, good government and the rule of law.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-605",
+    "sourceScreenshot": 605,
+    "sourceTest": 23,
+    "sourceQuestion": 5,
+    "question": "How long does it take to donate blood?",
+    "options": [
+      "About half an hour",
+      "About an hour",
+      "About two hours",
+      "About 15 minutes"
+    ],
+    "correctAnswers": [
+      "About an hour"
+    ],
+    "explanation": "Giving blood only takes about an hour to do.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-606",
+    "sourceScreenshot": 606,
+    "sourceTest": 23,
+    "sourceQuestion": 6,
+    "question": "When did the post-war economic boom come to an end?",
+    "options": [
+      "In the early 1970s",
+      "In the late 1970s",
+      "In the early 1960s",
+      "In the late 1960s"
+    ],
+    "correctAnswers": [
+      "In the late 1970s"
+    ],
+    "explanation": "In the late 1970s, the post-war economic boom came to an end.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-607",
+    "sourceScreenshot": 607,
+    "sourceTest": 23,
+    "sourceQuestion": 7,
+    "question": "During her government, Margaret Thatcher made structural changes to the economy through the privatisation of nationalised industries and imposed legal controls on trade union powers:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Margaret Thatcher made structural changes to the economy through the privatisation of nationalised industries and imposed legal controls on trade union powers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-608",
+    "sourceScreenshot": 608,
+    "sourceTest": 23,
+    "sourceQuestion": 8,
+    "question": "Who sat in the House of Commons during the Middle Ages?",
+    "options": [
+      "Knights and wealthy people from towns and cities",
+      "Farmers and blacksmiths",
+      "Great landowners and bishops",
+      "Everyone could sit in the House of Commons"
+    ],
+    "correctAnswers": [
+      "Knights and wealthy people from towns and cities"
+    ],
+    "explanation": "In the Middle Ages, knights, who were usually smaller landowners, and wealthy people from towns and cities were elected to sit in the House of Commons.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-609",
+    "sourceScreenshot": 609,
+    "sourceTest": 23,
+    "sourceQuestion": 9,
+    "question": "Which of the following words come from the Anglo-Saxon language?",
+    "options": [
+      "Apple and summer",
+      "Music and dance",
+      "Grimsby and Scunthorpe",
+      "Canute and boat"
+    ],
+    "correctAnswers": [
+      "Apple and summer"
+    ],
+    "explanation": "The words ‘Apple’ and ‘summer’ are based on Anglo-Saxon words.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-610",
+    "sourceScreenshot": 610,
+    "sourceTest": 23,
+    "sourceQuestion": 10,
+    "question": "Where do local authorities get funding from (choose TWO answers)?",
+    "options": [
+      "The King",
+      "The central government",
+      "Donations made by local residents",
+      "Local taxes"
+    ],
+    "correctAnswers": [
+      "The central government",
+      "Local taxes"
+    ],
+    "explanation": "Local authorities provide a range of services in their areas. They are funded by money from central government and by local taxes.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-611",
+    "sourceScreenshot": 611,
+    "sourceTest": 23,
+    "sourceQuestion": 11,
+    "question": "If you are self-employed:",
+    "options": [
+      "You need to pay your own tax",
+      "Tax is automatically taken from your earnings by a specialised agency",
+      "You don’t need to pay tax",
+      "You only need to pay tax on 50% of your earnings"
+    ],
+    "correctAnswers": [
+      "You need to pay your own tax"
+    ],
+    "explanation": "If you are self-employed, you need to pay your own tax through a system called ‘self-assessment’, which includes completing a tax return.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-612",
+    "sourceScreenshot": 612,
+    "sourceTest": 23,
+    "sourceQuestion": 12,
+    "question": "What name is given to the elected members of the Northern Ireland Assembly?",
+    "options": [
+      "MSPs",
+      "MLAs",
+      "MPs",
+      "SMs"
+    ],
+    "correctAnswers": [
+      "MLAs"
+    ],
+    "explanation": "Members of the Northern Ireland Assembly are known as MLAs (members of the Legislative Assembly).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-613",
+    "sourceScreenshot": 613,
+    "sourceTest": 23,
+    "sourceQuestion": 13,
+    "question": "How long does the Hanukkah celebration last for?",
+    "options": [
+      "Eight days",
+      "40 days",
+      "Five days",
+      "A fortnight"
+    ],
+    "correctAnswers": [
+      "Eight days"
+    ],
+    "explanation": "Hanukkah is in November or December and is celebrated for eight days.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-614",
+    "sourceScreenshot": 614,
+    "sourceTest": 23,
+    "sourceQuestion": 14,
+    "question": "Which of the following areas did the British Empire NOT cover during the Victorian period?",
+    "options": [
+      "Mexico",
+      "Australia",
+      "India",
+      "Large parts of Africa"
+    ],
+    "correctAnswers": [
+      "Mexico"
+    ],
+    "explanation": "During the Victorian period, the British Empire grew to cover all of India, Australia and large parts of Africa.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-615",
+    "sourceScreenshot": 615,
+    "sourceTest": 23,
+    "sourceQuestion": 15,
+    "question": "What percentage of the total British population is located in Wales?",
+    "options": [
+      "30%",
+      "5%",
+      "8%",
+      "3%"
+    ],
+    "correctAnswers": [
+      "5%"
+    ],
+    "explanation": "The total British population located in Wales is around 5%.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-616",
+    "sourceScreenshot": 616,
+    "sourceTest": 23,
+    "sourceQuestion": 16,
+    "question": "Which senior MP is responsible for issues relating to crime, policing and immigration?",
+    "options": [
+      "The Home Secretary",
+      "The Foreign Secretary",
+      "The Chancellor of the Exchequer",
+      "The Prime Minister"
+    ],
+    "correctAnswers": [
+      "The Home Secretary"
+    ],
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-617",
+    "sourceScreenshot": 617,
+    "sourceTest": 23,
+    "sourceQuestion": 17,
+    "question": "Which British scientist led the development of the atomic bomb?",
+    "options": [
+      "Howard Florey",
+      "Ernst Chain",
+      "Ernest Rutherford",
+      "Keith Campbell"
+    ],
+    "correctAnswers": [
+      "Ernest Rutherford"
+    ],
+    "explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom’ and took part in the Manhattan Project in the United States, which developed the atomic bomb.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-618",
+    "sourceScreenshot": 618,
+    "sourceTest": 23,
+    "sourceQuestion": 18,
+    "question": "Which of the following movies played an important role in boosting morale during the Second World War?",
+    "options": [
+      "The Ladykillers",
+      "Carry on",
+      "Passport to Pimlico",
+      "In Which We Serve"
+    ],
+    "correctAnswers": [
+      "In Which We Serve"
+    ],
+    "explanation": "During the Second World War, British movies (for example, In Which We Serve) played an important part in boosting morale.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-619",
+    "sourceScreenshot": 619,
+    "sourceTest": 23,
+    "sourceQuestion": 19,
+    "question": "After the Black Death, the growing wealth in the towns led to the development of a strong middle class:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "After the Black Death, new social classes appeared, including owners of large areas of land (later called the gentry), and people left the countryside to live in the towns. In the towns, growing wealth led to the development of a strong middle class.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-620",
+    "sourceScreenshot": 620,
+    "sourceTest": 23,
+    "sourceQuestion": 20,
+    "question": "What was the ability of the Harrier jump jet aircraft?",
+    "options": [
+      "To carry 1,000 passengers",
+      "To take off vertically",
+      "To float on water",
+      "To reach supersonic speeds"
+    ],
+    "correctAnswers": [
+      "To take off vertically"
+    ],
+    "explanation": "The Harrier jump jet, an aircraft capable of taking off vertically, was also designed and developed in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-621",
+    "sourceScreenshot": 621,
+    "sourceTest": 23,
+    "sourceQuestion": 21,
+    "question": "Who won the 2012 Olympic gold medal in heptathlon?",
+    "options": [
+      "Ellie Simmonds",
+      "Jessica Ennis",
+      "Dame Kelly Holmes",
+      "Jayne Torvill"
+    ],
+    "correctAnswers": [
+      "Jessica Ennis"
+    ],
+    "explanation": "Jessica Ennis (1986-) won the 2012 Olympic gold medal in the heptathlon, which includes seven different track and field events. She also holds a number of British athletics records.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-622",
+    "sourceScreenshot": 622,
+    "sourceTest": 23,
+    "sourceQuestion": 22,
+    "question": "What is the name of the annual cultural Welsh festival which includes music, dance, art and original performances largely in Welsh?",
+    "options": [
+      "The Arts Festival of Wales",
+      "The National Eisteddfod of Wales",
+      "The Music Festival of Wales",
+      "The National Performance Festival of Wales"
+    ],
+    "correctAnswers": [
+      "The National Eisteddfod of Wales"
+    ],
+    "explanation": "The National Eisteddfod of Wales is an annual cultural festival which includes music, dance, art and original performances largely in Welsh. It includes a number of important competitions for Welsh poetry.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-623",
+    "sourceScreenshot": 623,
+    "sourceTest": 23,
+    "sourceQuestion": 23,
+    "question": "What is the most well-known rugby league (club) competition?",
+    "options": [
+      "The Grand National",
+      "The All England championship",
+      "The Six Nations championship",
+      "The Super League"
+    ],
+    "correctAnswers": [
+      "The Super League"
+    ],
+    "explanation": "The Super League is the most well-known rugby league (club) competition.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-624",
+    "sourceScreenshot": 624,
+    "sourceTest": 23,
+    "sourceQuestion": 24,
+    "question": "Where do the Laurence Olivier Awards take place?",
+    "options": [
+      "In London",
+      "In Manchester",
+      "In Liverpool",
+      "In Edinburgh"
+    ],
+    "correctAnswers": [
+      "In London"
+    ],
+    "explanation": "The Laurence Olivier Awards take place annually at different venues in London.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

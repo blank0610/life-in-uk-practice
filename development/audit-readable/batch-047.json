@@ -1,0 +1,105 @@
+[
+  {
+    "id": "zip-618",
+    "sourceScreenshot": 618,
+    "question": "Which of the following movies played an important role in boosting morale during the Second World War?",
+    "options": [
+      "The Ladykillers",
+      "Carry on",
+      "Passport to Pimlico",
+      "In Which We Serve"
+    ],
+    "correctAnswers": [
+      "In Which We Serve"
+    ],
+    "explanation": "During the Second World War, British movies (for example, In Which We Serve) played an important part in boosting morale."
+  },
+  {
+    "id": "zip-619",
+    "sourceScreenshot": 619,
+    "question": "After the Black Death, the growing wealth in the towns led to the development of a strong middle class:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "After the Black Death, new social classes appeared, including owners of large areas of land (later called the gentry), and people left the countryside to live in the towns. In the towns, growing wealth led to the development of a strong middle class."
+  },
+  {
+    "id": "zip-620",
+    "sourceScreenshot": 620,
+    "question": "What was the ability of the Harrier jump jet aircraft?",
+    "options": [
+      "To carry 1,000 passengers",
+      "To take off vertically",
+      "To float on water",
+      "To reach supersonic speeds"
+    ],
+    "correctAnswers": [
+      "To take off vertically"
+    ],
+    "explanation": "The Harrier jump jet, an aircraft capable of taking off vertically, was also designed and developed in the UK."
+  },
+  {
+    "id": "zip-621",
+    "sourceScreenshot": 621,
+    "question": "Who won the 2012 Olympic gold medal in heptathlon?",
+    "options": [
+      "Ellie Simmonds",
+      "Jessica Ennis",
+      "Dame Kelly Holmes",
+      "Jayne Torvill"
+    ],
+    "correctAnswers": [
+      "Jessica Ennis"
+    ],
+    "explanation": "Jessica Ennis (1986-) won the 2012 Olympic gold medal in the heptathlon, which includes seven different track and field events. She also holds a number of British athletics records."
+  },
+  {
+    "id": "zip-622",
+    "sourceScreenshot": 622,
+    "question": "What is the name of the annual cultural Welsh festival which includes music, dance, art and original performances largely in Welsh?",
+    "options": [
+      "The Arts Festival of Wales",
+      "The National Eisteddfod of Wales",
+      "The Music Festival of Wales",
+      "The National Performance Festival of Wales"
+    ],
+    "correctAnswers": [
+      "The National Eisteddfod of Wales"
+    ],
+    "explanation": "The National Eisteddfod of Wales is an annual cultural festival which includes music, dance, art and original performances largely in Welsh. It includes a number of important competitions for Welsh poetry."
+  },
+  {
+    "id": "zip-623",
+    "sourceScreenshot": 623,
+    "question": "What is the most well-known rugby league (club) competition?",
+    "options": [
+      "The Grand National",
+      "The All England championship",
+      "The Six Nations championship",
+      "The Super League"
+    ],
+    "correctAnswers": [
+      "The Super League"
+    ],
+    "explanation": "The Super League is the most well-known rugby league (club) competition."
+  },
+  {
+    "id": "zip-624",
+    "sourceScreenshot": 624,
+    "question": "Where do the Laurence Olivier Awards take place?",
+    "options": [
+      "In London",
+      "In Manchester",
+      "In Liverpool",
+      "In Edinburgh"
+    ],
+    "correctAnswers": [
+      "In London"
+    ],
+    "explanation": "The Laurence Olivier Awards take place annually at different venues in London."
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-606",
+    "sourceScreenshot": 606,
+    "question": "When did the post-war economic boom come to an end?",
+    "options": [
+      "In the early 1970s",
+      "In the late 1970s",
+      "In the early 1960s",
+      "In the late 1960s"
+    ],
+    "correctAnswers": [
+      "In the late 1970s"
+    ],
+    "explanation": "In the late 1970s, the post-war economic boom came to an end."
+  },
+  {
+    "id": "zip-607",
+    "sourceScreenshot": 607,
+    "question": "During her government, Margaret Thatcher made structural changes to the economy through the privatisation of nationalised industries and imposed legal controls on trade union powers:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Margaret Thatcher made structural changes to the economy through the privatisation of nationalised industries and imposed legal controls on trade union powers."
+  },
+  {
+    "id": "zip-608",
+    "sourceScreenshot": 608,
+    "question": "Who sat in the House of Commons during the Middle Ages?",
+    "options": [
+      "Knights and wealthy people from towns and cities",
+      "Farmers and blacksmiths",
+      "Great landowners and bishops",
+      "Everyone could sit in the House of Commons"
+    ],
+    "correctAnswers": [
+      "Knights and wealthy people from towns and cities"
+    ],
+    "explanation": "In the Middle Ages, knights, who were usually smaller landowners, and wealthy people from towns and cities were elected to sit in the House of Commons."
+  },
+  {
+    "id": "zip-609",
+    "sourceScreenshot": 609,
+    "question": "Which of the following words come from the Anglo-Saxon language?",
+    "options": [
+      "Apple and summer",
+      "Music and dance",
+      "Grimsby and Scunthorpe",
+      "Canute and boat"
+    ],
+    "correctAnswers": [
+      "Apple and summer"
+    ],
+    "explanation": "The words ‘Apple’ and ‘summer’ are based on Anglo-Saxon words."
+  },
+  {
+    "id": "zip-610",
+    "sourceScreenshot": 610,
+    "question": "Where do local authorities get funding from (choose TWO answers)?",
+    "options": [
+      "The King",
+      "The central government",
+      "Donations made by local residents",
+      "Local taxes"
+    ],
+    "correctAnswers": [
+      "The central government",
+      "Local taxes"
+    ],
+    "explanation": "Local authorities provide a range of services in their areas. They are funded by money from central government and by local taxes."
+  },
+  {
+    "id": "zip-611",
+    "sourceScreenshot": 611,
+    "question": "If you are self-employed:",
+    "options": [
+      "You need to pay your own tax",
+      "Tax is automatically taken from your earnings by a specialised agency",
+      "You don’t need to pay tax",
+      "You only need to pay tax on 50% of your earnings"
+    ],
+    "correctAnswers": [
+      "You need to pay your own tax"
+    ],
+    "explanation": "If you are self-employed, you need to pay your own tax through a system called ‘self-assessment’, which includes completing a tax return."
+  },
+  {
+    "id": "zip-612",
+    "sourceScreenshot": 612,
+    "question": "What name is given to the elected members of the Northern Ireland Assembly?",
+    "options": [
+      "MSPs",
+      "MLAs",
+      "MPs",
+      "SMs"
+    ],
+    "correctAnswers": [
+      "MLAs"
+    ],
+    "explanation": "Members of the Northern Ireland Assembly are known as MLAs (members of the Legislative Assembly)."
+  },
+  {
+    "id": "zip-613",
+    "sourceScreenshot": 613,
+    "question": "How long does the Hanukkah celebration last for?",
+    "options": [
+      "Eight days",
+      "40 days",
+      "Five days",
+      "A fortnight"
+    ],
+    "correctAnswers": [
+      "Eight days"
+    ],
+    "explanation": "Hanukkah is in November or December and is celebrated for eight days."
+  },
+  {
+    "id": "zip-614",
+    "sourceScreenshot": 614,
+    "question": "Which of the following areas did the British Empire NOT cover during the Victorian period?",
+    "options": [
+      "Mexico",
+      "Australia",
+      "India",
+      "Large parts of Africa"
+    ],
+    "correctAnswers": [
+      "Mexico"
+    ],
+    "explanation": "During the Victorian period, the British Empire grew to cover all of India, Australia and large parts of Africa."
+  },
+  {
+    "id": "zip-615",
+    "sourceScreenshot": 615,
+    "question": "What percentage of the total British population is located in Wales?",
+    "options": [
+      "30%",
+      "5%",
+      "8%",
+      "3%"
+    ],
+    "correctAnswers": [
+      "5%"
+    ],
+    "explanation": "The total British population located in Wales is around 5%."
+  },
+  {
+    "id": "zip-616",
+    "sourceScreenshot": 616,
+    "question": "Which senior MP is responsible for issues relating to crime, policing and immigration?",
+    "options": [
+      "The Home Secretary",
+      "The Foreign Secretary",
+      "The Chancellor of the Exchequer",
+      "The Prime Minister"
+    ],
+    "correctAnswers": [
+      "The Home Secretary"
+    ],
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration."
+  },
+  {
+    "id": "zip-617",
+    "sourceScreenshot": 617,
+    "question": "Which British scientist led the development of the atomic bomb?",
+    "options": [
+      "Howard Florey",
+      "Ernst Chain",
+      "Ernest Rutherford",
+      "Keith Campbell"
+    ],
+    "correctAnswers": [
+      "Ernest Rutherford"
+    ],
+    "explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom’ and took part in the Manhattan Project in the United States, which developed the atomic bomb."
+  }
+]

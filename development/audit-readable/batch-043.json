@@ -1,0 +1,107 @@
+[
+  {
+    "id": "zip-569",
+    "sourceScreenshot": 569,
+    "question": "When did the Allies defeat Germany marking the end of the Second World War?",
+    "options": [
+      "In June 1943",
+      "In May 1945",
+      "In August 1945",
+      "In August 1946"
+    ],
+    "correctAnswers": [
+      "In May 1945"
+    ],
+    "explanation": "Following victory on the beaches of Normandy, the allied forces pressed on through France and eventually into Germany. The Allies comprehensively defeated Germany in May 1945."
+  },
+  {
+    "id": "zip-570",
+    "sourceScreenshot": 570,
+    "question": "How many square miles does Loch Lomond and the Trossachs National Park cover?",
+    "options": [
+      "720",
+      "740",
+      "820",
+      "840"
+    ],
+    "correctAnswers": [
+      "720"
+    ],
+    "explanation": "Loch Lomond and the Trossachs National Park covers 720 square miles (1,865 square kilometres) in the west of Scotland."
+  },
+  {
+    "id": "zip-571",
+    "sourceScreenshot": 571,
+    "question": "Which British athlete won 16 medals, including 11 gold medals, in races over five Paralympic Games?",
+    "options": [
+      "Dame Kelly Holmes",
+      "Sir Ian Botham",
+      "Baroness Tanni Grey-Thompson",
+      "Dame Elle MacArthur"
+    ],
+    "correctAnswers": [
+      "Baroness Tanni Grey-Thompson"
+    ],
+    "explanation": "Baroness Tanni Grey-Thompson (1969-) is an athlete who uses a wheelchair and won 16 Paralympic medals, including 11 gold medals, in races over five Paralympic Games. She won the London Marathon six times and broke a total of 30 world records."
+  },
+  {
+    "id": "zip-572",
+    "sourceScreenshot": 572,
+    "question": "When is New Year’s Eve celebrated?",
+    "options": [
+      "25th of December",
+      "30th of December",
+      "31st of December",
+      "1st of January"
+    ],
+    "correctAnswers": [
+      "31st of December"
+    ],
+    "explanation": "New Year’s Eve is celebrated on the 31st of December."
+  },
+  {
+    "id": "zip-573",
+    "sourceScreenshot": 573,
+    "question": "What is the capital city of Scotland?",
+    "options": [
+      "Dundee",
+      "Aberdeen",
+      "Edinburgh",
+      "Glasgow"
+    ],
+    "correctAnswers": [
+      "Edinburgh"
+    ],
+    "explanation": "The capital city of Scotland is Edinburgh."
+  },
+  {
+    "id": "zip-574",
+    "sourceScreenshot": 574,
+    "question": "What British sportsman holds a number of English Test cricket records?",
+    "options": [
+      "Bobby Moore",
+      "Sir Jackie Steward",
+      "Sir Ian Botham",
+      "Sir Roger Bannister"
+    ],
+    "correctAnswers": [
+      "Sir Ian Botham"
+    ],
+    "explanation": "Sir Ian Botham (1955-) captained the English cricket team and holds a number of English Test cricket records, both for batting and for bowling."
+  },
+  {
+    "id": "zip-575",
+    "sourceScreenshot": 575,
+    "question": "During the Middle Ages, England was an important trading nation and people came to England from abroad to trade and also to work. Where did the weavers come from?",
+    "options": [
+      "Germany",
+      "Italy",
+      "France",
+      "Holland"
+    ],
+    "correctAnswers": [
+      "France"
+    ],
+    "explanation": "During the Middle Ages, people came to England from abroad to trade and also to work. Many had special skills, such as weavers from France, engineers from Germany, glass manufacturers from Italy and canal builders from Holland."
+  }
+]

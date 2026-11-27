@@ -11,14 +11,14 @@
 
 ## 用户要求
 
-按截图题号逐条审核全部 **487 道网站题目**：核查完整英文题干、全部选项、正确答案、解释与 OCR 异常符号。每次完成的题号和状态必须写入本仓库，然后下一小时从上次结束的位置继续，不能只反复复查已经修好的题。全部 487 道走完一轮后，归档原轮审核结果并从第一个题号重开下一轮。
+按截图题号逐条审核全部 **当前正式网站题目（数量由进度主账 bankCount 动态取得）**：核查完整英文题干、全部选项、正确答案、解释与 OCR 异常符号。每次完成的题号和状态必须写入本仓库，然后下一小时从上次结束的位置继续，不能只反复复查已经修好的题。全部当前题库走完一轮后，归档原轮审核结果并从第一个题号重开下一轮。
 
 ## 文件与规则
 
 - 进度主账：\`development/QUESTION_AUDIT_PROGRESS.json\`，包含 \`round\`（第几轮）、\`nextIndex\`（下个题在按来源截图编号排序的题库中的下标）、\`checkedThisRound\`（本轮逐题审核记录）、\`completedRounds\`（历史轮次）。
 - 审核程序：\`node scripts/audit-next-batch.mjs\`。默认**不写进度**，按原始截图编号从小到大打印下一批 **12 道**完整题干、选项、正确答案、解释与明显 OCR 异常。每道都单独审核；其他题不能直接批量标为已核实。
 - **检查完成后**可以执行 \`node scripts/audit-next-batch.mjs --write\` 生成本地更新，并将更新的进度账提交到 GitHub。不能仅因为运行自动扫描或 GitHub CI 成功就自动提交完成记录。
-- 当完成第 487 道时，脚本生成 \`development/audit-history/round-XXX.json\` 逐题归档，进度账的 \`round\` 加 1 并 \`nextIndex\` 归零；**先提交归档，再进入下轮**。
+- 当完成当轮全部题目时，脚本生成 \`development/audit-history/round-XXX.json\` 逐题归档，进度账的 \`round\` 加 1 并 \`nextIndex\` 归零；**先提交归档，再进入下轮**。
 - 每次更新审核进度须由独立巡检任务提交可追踪的 GitHub Commit（或 PR）；提交消息说明「第几轮、题号范围、需人工复核多少道」，有新错误时另记录 Issue 或 PR。
 - **唯一检查范围：** 检查网站题干、所有选项、正确答案和解释的拼写、OCR 误字、漏字、异常符号，并在能访问原始 ZIP 截图时与图片逐字比对。网站随机打乱选项排列不算错误。**不查外部资料、不验证历史法律事实、不润色英语、不重写提问句式、不增删答案线索。**截图确认的差异只能执行最小字符修改。
 
@@ -40,10 +40,9 @@
 
 ## 自动任务可直接读取的题目资料（解除压缩题库读取阻碍）
 
-每次 GitHub Pages 部署时，`scripts/export-audit-batches.mjs` 会读取网站**已经应用 OCR/拼写修正的完整 487 道题**，按原始截图编号排序，导出公开的纯 JSON 分包到部署站点。每包 12 题，包含 id、截图编号、完整题干、选项、正确答案及解释。**这是文字资料，不是原图截图。**
+每次 GitHub Pages 部署时，`scripts/export-audit-batches.mjs` 会读取网站**已经应用 OCR/拼写修正的完整正式题库**，按原始截图编号排序，导出公开的纯 JSON 分包到部署站点。每包 12 题，包含 id、截图编号、完整题干、选项、正确答案及解释。**这是文字资料，不是原图截图。**
 
 - 总目录：`https://blank0610.github.io/life-in-uk-practice/data/audit-batches/manifest.json`。
-- 本轮下一批（正式进度 nextIndex=24）：`https://blank0610.github.io/life-in-uk-practice/data/audit-batches/batch-003.json`。
 - 按 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex` 在 manifest 的 `fromIndex` / `toIndexExclusive` 范围内查找文件；不要假定上一轮索引不变。分包 JSON 直接展示该批每道题的完整文本、答案和解释，不需要在自动任务里解压 b64。
 - 如果公开链接因网络问题暂时不可访问，可通过 GitHub Actions 的部署构建日志确认生成成功，或查看脚本与源文件；不能因为网页部署成功就自动标记已检查。
 - `audit-batches` 只由部署构建生成，**不是个人学习记录**；没有答题历史、学习笔记或私人数据。自动任务逐题核对内容后，仍须按原有方法将证据写回 GitHub 审核进度账。
@@ -56,8 +55,13 @@
 
 - 目录：`development/audit-readable/manifest.json`。
 - 每包 12 题：`development/audit-readable/batch-001.json`、`batch-002.json`、`batch-003.json` 等。
-- 读取步骤：先看 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex`，再从 `manifest.json` 中寻找对应分包的 `fromIndex`、`toIndexExclusive`。下一题目前为 `zip-42`，属于 `batch-003.json`。以后不要硬编码这个索引。
+- 读取步骤：先看 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex`，再从 `manifest.json` 中寻找对应分包的 `fromIndex`、`toIndexExclusive`。每轮的下一批均以当前主账和分包目录为准，不得固定题号或索引。
 - 每个分包保留实际出现在网站上的英文题干、全部选项、正确答案和解释，能直接使用 GitHub 文件读取工具访问，不必解码压缩题库，也无需读取 GitHub Actions 日志。
 - 来源题库改变时自动重新生成并提交相同的仓库内可读文件；分包只含公开的测试练习题，不含答题历史、私人笔记或个人资料。
 - **文字初检不等于原图核查：** 原始 ZIP 没有持续可读取的 GitHub 影像源；未逐张亲自看图时不得标记 `visually_checked`。
 
+
+## 扩容规则（Test 20–40）
+- 原有题目 ID 与历史轮次归档不变；新增题按来源截图号追加，使用主账 bankCount 和 batchSize 动态计算分包及结束条件。历史归档保留其当时题库数量。
+- 追加前验证已审核 ID 序列仍等于新题库排序后的前 nextIndex 道，确保原有审核不跳题、不重置。
+- 现有 Auto Run 继续按主账顺序执行，新增题从本轮尾部自然进入；导入核对不得虚增顺序审核数量。不得创建重复任务。

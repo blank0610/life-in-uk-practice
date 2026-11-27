@@ -17,7 +17,7 @@
   {
     "id": "zip-520",
     "sourceScreenshot": 520,
-    "question": "equal pay and made it illegal for employees to discriminate against women because of their gender:",
+    "question": "During which movement the Parliament passed laws giving women the right to equal pay and made it illegal for employees to discriminate against women because of their gender:",
     "options": [
       "The Punk movement",
       "The Enlightenment",
@@ -103,5 +103,80 @@
       "The local community"
     ],
     "explanation": "Magistrates and Justices of the Peace (JPs) are members of the local community."
+  },
+  {
+    "id": "zip-551",
+    "sourceScreenshot": 551,
+    "question": "Which British explorer mapped the coast of Australia?",
+    "options": [
+      "Sake Dean Mahomet",
+      "Richard Arkwright",
+      "Captain James Cook",
+      "Admiral Nelson"
+    ],
+    "correctAnswers": [
+      "Captain James Cook"
+    ],
+    "explanation": "Captain James Cook mapped the coast of Australia and a few colonies were established there."
+  },
+  {
+    "id": "zip-553",
+    "sourceScreenshot": 553,
+    "question": "How many members does a jury have in Scotland?",
+    "options": [
+      "15",
+      "10",
+      "14",
+      "16"
+    ],
+    "correctAnswers": [
+      "15"
+    ],
+    "explanation": "In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members."
+  },
+  {
+    "id": "zip-554",
+    "sourceScreenshot": 554,
+    "question": "Who can get a 50% discount on their TV licences?",
+    "options": [
+      "Blind people",
+      "People over 65",
+      "People over 75",
+      "People on benefits"
+    ],
+    "correctAnswers": [
+      "Blind people"
+    ],
+    "explanation": "People over 75 can apply for a free TV licence and blind people can get a 50% discount."
+  },
+  {
+    "id": "zip-555",
+    "sourceScreenshot": 555,
+    "question": "Which British city is famous for its celebration of Diwali?",
+    "options": [
+      "London",
+      "Newcastle upon Tyne",
+      "Leicester",
+      "Manchester"
+    ],
+    "correctAnswers": [
+      "Leicester"
+    ],
+    "explanation": "There is a famous celebration of Diwali in Leicester."
+  },
+  {
+    "id": "zip-556",
+    "sourceScreenshot": 556,
+    "question": "Which of the following British actresses has NOT won an Oscar?",
+    "options": [
+      "Tilda Swinton",
+      "Dame Judi Dench",
+      "Emily Watson",
+      "Kate Winslet"
+    ],
+    "correctAnswers": [
+      "Emily Watson"
+    ],
+    "explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Antony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton. Emily Watson has not won an oscar."
   }
 ]

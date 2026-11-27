@@ -1903,6 +1903,420 @@
         0
       ],
       "Mothering Sunday (or Mother’s day) is the Sunday three weeks before Easter. Children send cards or buy gifts for their mothers."
+    ],
+    [
+      1234,
+      "What should you do if your vehicle is over three years old?",
+      [
+        "Take it to the MOT every year.",
+        "Take it to the MOT every 2 years.",
+        "Take it to the MOT every 3 years.",
+        "Take it to the MOT every six months."
+      ],
+      [
+        0
+      ],
+      "If your vehicle is over three years old, you must take it to the Ministry of Transport (MOT) test every year."
+    ],
+    [
+      1235,
+      "Which countries fought alongside Britain against Russia during the Crimean War?",
+      [
+        "France and Cyprus",
+        "Germany and Cyprus",
+        "Germany and Turkey",
+        "France and Turkey"
+      ],
+      [
+        3
+      ],
+      "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War."
+    ],
+    [
+      1236,
+      "On average, boys leave school with better qualifications than girls.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "False. On average, girls leave school with better qualifications than boys."
+    ],
+    [
+      1237,
+      "When did William of Orange invade England to proclaim himself king?",
+      [
+        "1689",
+        "1690",
+        "1688",
+        "1687"
+      ],
+      [
+        2
+      ],
+      "In 1688, important Protestants in England asked William of Orange to invade England and proclaim himself king. When William reached England, there was no resistance. James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+    ],
+    [
+      1238,
+      "Which British painter is considered to be the artist who raised the profile of landscape painting?",
+      [
+        "Joseph Turner",
+        "David Allan",
+        "John Constable",
+        "Sir John Lavery"
+      ],
+      [
+        0
+      ],
+      "Joseph Turner (1775-1851) was an influential landscape painter in a modern style. He is considered the artist who raised the profile of landscape painting."
+    ],
+    [
+      1239,
+      "The development of the Bessemer process during the Industrial Revolution led to the development of which two industries:",
+      [
+        "Shipbuilding industry",
+        "Chemical industry",
+        "Railways industry",
+        "Car industry"
+      ],
+      [
+        0,
+        2
+      ],
+      "The development of the Bessemer process for the mass production of steel led to the development of the shipbuilding industry and the railways."
+    ],
+    [
+      1240,
+      "What is the length of the Bayeux tapestry?",
+      [
+        "130 feet",
+        "230 feet",
+        "330 feet",
+        "320 feet"
+      ],
+      [
+        1
+      ],
+      "The Bayeux Tapestry is nearly 70 metres (230 feet) long and is embroidered with coloured wool."
+    ],
+    [
+      1241,
+      "Which of the following countries is not a member of the Commonwealth?",
+      [
+        "Swaziland",
+        "Trinidad and Tobago",
+        "Dominica",
+        "Costa Rica"
+      ],
+      [
+        3
+      ],
+      "Costa Rica is not a member of the Commonwealth."
+    ],
+    [
+      1266,
+      "In which of the following years did England win the World Cup?",
+      [
+        "1974",
+        "1986",
+        "1982",
+        "1966"
+      ],
+      [
+        3
+      ],
+      "England won the World Cup in 1966 when it was captained by Bobby Moore."
+    ],
+    [
+      1267,
+      "During the Battle of Trafalgar Britain fought against:",
+      [
+        "France and Belgium",
+        "France and Spain",
+        "France and Italy",
+        "Italy and Spain"
+      ],
+      [
+        1
+      ],
+      "Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar in 1805."
+    ],
+    [
+      1268,
+      "What is the name given to the first formal anti-slavery groups set up in the late 1700s?",
+      [
+        "Beefeaters",
+        "Suffragettes",
+        "Quakers",
+        "Canutes"
+      ],
+      [
+        2
+      ],
+      "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice."
+    ],
+    [
+      1269,
+      "More women than men study at university.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is TRUE."
+    ],
+    [
+      1270,
+      "Why did Ireland suffer a famine in the middle of the 19th century?",
+      [
+        "There was a heat wave",
+        "The whole country was flooded",
+        "The potato crop failed",
+        "There were not enough farmers"
+      ],
+      [
+        2
+      ],
+      "In the middle of the century the potato crop failed, and Ireland suffered a famine. A million people died from disease and starvation."
+    ],
+    [
+      1271,
+      "What sort of battle was ‘the Battle of Britain’?",
+      [
+        "A naval battle against the Spanish.",
+        "An aerial battle against the French.",
+        "An aerial battle against the Germans.",
+        "A naval battle against the French."
+      ],
+      [
+        2
+      ],
+      "Hitler wanted to invade Britain, but before sending in troops, Germany needed to control the air campaign against Britain, but the British resisted with their fighter planes and eventually won the crucial aerial battle against the Germans, called ‘the Battle of Britain’, in the summer of 1940."
+    ],
+    [
+      1272,
+      "Who is in charge of appointing the local Chief Constable?",
+      [
+        "A judge",
+        "Police and Crime Commissioners",
+        "The mayor",
+        "The local community members"
+      ],
+      [
+        1
+      ],
+      "PCCs (Police and Crime Commissioners) set local police priorities and the local policing budget. They also appoint the local Chief Constable."
+    ],
+    [
+      1273,
+      "What does the money from the National Insurance Contributions pay for (CHOOSE TWO)?",
+      [
+        "Police force salaries",
+        "State retirement pensions",
+        "National Health Service",
+        "University fees"
+      ],
+      [
+        1,
+        2
+      ],
+      "The money raised from National Insurance Contributions is used to pay for state benefits and services such as the state retirement pension and the National Health Service (NHS)."
+    ],
+    [
+      1274,
+      "How many British died on the first day alone of the Battle of Somme?",
+      [
+        "60,000",
+        "65,000",
+        "40,000",
+        "55,000"
+      ],
+      [
+        0
+      ],
+      "The British attack of the Somme in July 1916, resulted in about 60,000 British casualties on the first day alone."
+    ],
+    [
+      1275,
+      "When was the first Union flag created?",
+      [
+        "1515",
+        "1616",
+        "1505",
+        "1606"
+      ],
+      [
+        3
+      ],
+      "The first Union Flag was created in 1606 from the flags of Scotland and England; the Principality of Wales was already united with England."
+    ],
+    [
+      1276,
+      "Which of the following territories is not part of the UK?",
+      [
+        "Northern Ireland",
+        "The Isle of Man",
+        "Wales",
+        "Scotland"
+      ],
+      [
+        1
+      ],
+      "The UK comprises England, Wales, Scotland and Northern Ireland. There are several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man."
+    ],
+    [
+      1277,
+      "Which of the following is NOT a fundamental principle of British life?",
+      [
+        "Individual liberty",
+        "Democracy",
+        "Communism",
+        "Participation in community life"
+      ],
+      [
+        2
+      ],
+      "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life."
+    ],
+    [
+      1278,
+      "What do Sir Terence Conran, Clarice Cliff and Thomas Chippendale have in common?",
+      [
+        "They were British designers",
+        "They developed the atomic bomb",
+        "They were British explorers",
+        "They were British poets"
+      ],
+      [
+        0
+      ],
+      "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer)."
+    ],
+    [
+      1292,
+      "Which of the following cities is not in Wales?",
+      [
+        "Cardiff",
+        "Swansea",
+        "Bradford",
+        "Newport"
+      ],
+      [
+        2
+      ],
+      "Bradford is located in England."
+    ],
+    [
+      1293,
+      "People on the electoral register with ages between 18 and 70 can be asked to serve on a jury.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "True. As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this."
+    ],
+    [
+      1294,
+      "Which Saxon king of England was killed at the Battle of Hastings in 1066?",
+      [
+        "Kenneth MacAlpin",
+        "Harold",
+        "William the Conqueror",
+        "Henry V"
+      ],
+      [
+        1
+      ],
+      "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings. Harold was killed in the battle."
+    ],
+    [
+      1295,
+      "During the ‘swinging sixties’ Britain experienced a growth in:",
+      [
+        "Sports such as rowing and cycling",
+        "Fashion, cinema and popular music",
+        "Holistic therapies",
+        "People going to university"
+      ],
+      [
+        1
+      ],
+      "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music."
+    ],
+    [
+      1296,
+      "As a permanent resident or citizen of the UK you should:",
+      [
+        "Treat others with fairness",
+        "Look after yourself and your family",
+        "Look after the area in which you live and the environment",
+        "All the answers are correct"
+      ],
+      [
+        3
+      ],
+      "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, respect the rights of others, including their right to their own opinions, treat others with fairness, look after yourself and your family and look after the area in which you live and the environment."
+    ],
+    [
+      1297,
+      "When did the BBC start the world’s first regular television service?",
+      [
+        "1922",
+        "1932",
+        "1936",
+        "1944"
+      ],
+      [
+        2
+      ],
+      "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+    ],
+    [
+      1298,
+      "Women in Britain today make up about one third of the workforce.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "Women in Britain today make up about half of the workforce."
+    ],
+    [
+      1299,
+      "The evacuation of British and French soldiers from France in a huge naval operation during WWII gave rise to which phrase:",
+      [
+        "The Harbour spirit",
+        "The Blitz operation",
+        "The Dunkirk spirit",
+        "The D-Day operation"
+      ],
+      [
+        2
+      ],
+      "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk. The evacuation gave rise to the phrase ‘the Dunkirk spirit’."
+    ],
+    [
+      1300,
+      "Which programme helps 16- and 17-year-olds develop their skills and take part in community projects?",
+      [
+        "The Youth Working Programme",
+        "The National Development Programme",
+        "The National Citizen Service Programme",
+        "The Skills Development Programme"
+      ],
+      [
+        2
+      ],
+      "The National Citizen Service programme gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project."
     ]
   ],
   "exclusions": [
@@ -2016,7 +2430,8 @@
     "#1123 补 of（collection of poems），#1134 Rutherford 原解释事实疑点保留。#894–1085 布局或颜色差异的19张人工复核为既有重复；其余像素哈希重复另记。",
     "#1142 原图滚动位置异常但实际已显示高亮答案 True，人工恢复；#1150 and ancient→an ancient；#1169 everyone...were→was；#1144 保留原图60 Senedd members，不查外部事实。",
     "#1177 原截图两个干扰项均为 The Suffragettes；删除完全重复的一个，保留三个不同选项及原正确答案 The Cavaliers，不创造替代项；解释补 there were。#1174/1187/1191 专名大小写；#1193 did introduced→did introduce、补 was；#1197 settlements is→are。",
-    "#1204 Middle Ages 大写；#1213 题干与解释两处 taken is English→taken in English；#1216 去掉 Scotland 前多余 the；#1225 解释 is→are 并补逗号。#1223 原图 TV licence 概括性表述保留，不进行现行法律事实核查。"
+    "#1204 Middle Ages 大写；#1213 题干与解释两处 taken is English→taken in English；#1216 去掉 Scotland 前多余 the；#1225 解释 is→are 并补逗号。#1223 原图 TV licence 概括性表述保留，不进行现行法律事实核查。",
+    "#1234 补干扰项 every，解释 you→your；#1275 untied→united 并修标点；#1296 Treat other→Treat others；#1300 are part in→take part in。#1274 原图题干 died 与解释 casualties 的意义不一致，保留原题正确选项并登记疑点，不擅自更新事实。#1293 原图年龄范围与#1300 项目状态保留，不查现行事实。"
   ],
-  "reviewedThrough": 1233
+  "reviewedThrough": 1300
 }

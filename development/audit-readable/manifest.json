@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "网站已应用所有拼写校正后的真实题库",
-  "questionCount": 745,
+  "questionCount": 966,
   "batchSize": 12,
   "batches": [
     {
@@ -503,10 +503,154 @@
     {
       "file": "batch-063.json",
       "fromIndex": 744,
-      "toIndexExclusive": 745,
-      "count": 1,
+      "toIndexExclusive": 756,
+      "count": 12,
       "firstId": "zip-837",
-      "lastId": "zip-837"
+      "lastId": "zip-849"
+    },
+    {
+      "file": "batch-064.json",
+      "fromIndex": 756,
+      "toIndexExclusive": 768,
+      "count": 12,
+      "firstId": "zip-850",
+      "lastId": "zip-861"
+    },
+    {
+      "file": "batch-065.json",
+      "fromIndex": 768,
+      "toIndexExclusive": 780,
+      "count": 12,
+      "firstId": "zip-862",
+      "lastId": "zip-1122"
+    },
+    {
+      "file": "batch-066.json",
+      "fromIndex": 780,
+      "toIndexExclusive": 792,
+      "count": 12,
+      "firstId": "zip-1123",
+      "lastId": "zip-1134"
+    },
+    {
+      "file": "batch-067.json",
+      "fromIndex": 792,
+      "toIndexExclusive": 804,
+      "count": 12,
+      "firstId": "zip-1135",
+      "lastId": "zip-1146"
+    },
+    {
+      "file": "batch-068.json",
+      "fromIndex": 804,
+      "toIndexExclusive": 816,
+      "count": 12,
+      "firstId": "zip-1147",
+      "lastId": "zip-1159"
+    },
+    {
+      "file": "batch-069.json",
+      "fromIndex": 816,
+      "toIndexExclusive": 828,
+      "count": 12,
+      "firstId": "zip-1160",
+      "lastId": "zip-1172"
+    },
+    {
+      "file": "batch-070.json",
+      "fromIndex": 828,
+      "toIndexExclusive": 840,
+      "count": 12,
+      "firstId": "zip-1174",
+      "lastId": "zip-1185"
+    },
+    {
+      "file": "batch-071.json",
+      "fromIndex": 840,
+      "toIndexExclusive": 852,
+      "count": 12,
+      "firstId": "zip-1186",
+      "lastId": "zip-1198"
+    },
+    {
+      "file": "batch-072.json",
+      "fromIndex": 852,
+      "toIndexExclusive": 864,
+      "count": 12,
+      "firstId": "zip-1199",
+      "lastId": "zip-1210"
+    },
+    {
+      "file": "batch-073.json",
+      "fromIndex": 864,
+      "toIndexExclusive": 876,
+      "count": 12,
+      "firstId": "zip-1211",
+      "lastId": "zip-1223"
+    },
+    {
+      "file": "batch-074.json",
+      "fromIndex": 876,
+      "toIndexExclusive": 888,
+      "count": 12,
+      "firstId": "zip-1224",
+      "lastId": "zip-1235"
+    },
+    {
+      "file": "batch-075.json",
+      "fromIndex": 888,
+      "toIndexExclusive": 900,
+      "count": 12,
+      "firstId": "zip-1236",
+      "lastId": "zip-1271"
+    },
+    {
+      "file": "batch-076.json",
+      "fromIndex": 900,
+      "toIndexExclusive": 912,
+      "count": 12,
+      "firstId": "zip-1272",
+      "lastId": "zip-1296"
+    },
+    {
+      "file": "batch-077.json",
+      "fromIndex": 912,
+      "toIndexExclusive": 924,
+      "count": 12,
+      "firstId": "zip-1297",
+      "lastId": "zip-1308"
+    },
+    {
+      "file": "batch-078.json",
+      "fromIndex": 924,
+      "toIndexExclusive": 936,
+      "count": 12,
+      "firstId": "zip-1309",
+      "lastId": "zip-1320"
+    },
+    {
+      "file": "batch-079.json",
+      "fromIndex": 936,
+      "toIndexExclusive": 948,
+      "count": 12,
+      "firstId": "zip-1321",
+      "lastId": "zip-1332"
+    },
+    {
+      "file": "batch-080.json",
+      "fromIndex": 948,
+      "toIndexExclusive": 960,
+      "count": 12,
+      "firstId": "zip-1333",
+      "lastId": "zip-1344"
+    },
+    {
+      "file": "batch-081.json",
+      "fromIndex": 960,
+      "toIndexExclusive": 966,
+      "count": 6,
+      "firstId": "zip-1345",
+      "lastId": "zip-1350"
     }
   ]
 }

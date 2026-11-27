@@ -8,8 +8,8 @@
 - Test 20：#526 为未作答画面；#527–550 对应旧 #502–525 的 24 题。保留旧 ID，不重复计入。#520 旧题干缺第一行，经打开原 #520 与新 #545 核实，恢复原题干；原图 employees 与解释 employers 的差别保留并列为原题疑点。
 - Test 21：#551、#553–575，共 24 题已逐张阅读题干、全部选项、绿色正确答案、解释；#552 与 #551 为同一题重复截图。保留 #551。原图 #563、#568 无解释文字，留空，不杜撰。#568 retired→retire、#574 sportsmen→sportsman 为用户允许的最小语法修正。#571 “Dame Elle MacArthur”及#574 “Sir Jackie Steward”是原截图选项拼写，先保留，记疑点；#569 原提问措辞可能有歧义，保留原文，不更新事实。
 - 新题保留独立测试号、题序及来源截图号；不同测试中同类题不按相似题干盲删。同一测试同一道重复截图不再添加。
-- 剩余源文件 #838–1350 尚未完成逐题转录及复核。下一次从 QA 20–30 ZIP 的 #838 开始，先按截图顺序完成该文件夹，再进入 QA 30–40 ZIP；不再按 Test 套数作为提交或验收单位。
-- 累计扩容 258 道，原 487 道加至 745 道（以主账及加载结果为准）。本轮 nextIndex 及历史归档不变；新题不预填 Auto Run 审核结果。
+- 两个 ZIP 的 #526–1350 共825张截图已全部处理；最后一次统一导入剩余 #838–1350，覆盖记录见 IMPORT_REMAINING_SOURCE_COVERAGE.json。无尚未处理的截图。
+- 累计扩容479道，原487道加至966道；题数以主账及实际加载为准。顺序审核游标与历史归档保留；导入核对不冒充 Auto Run 巡检。
 - 代码：追加题库模块、浏览器及 Node 审核加载、分包数量动态测试、发布工作流和相关文档。新题审核原始 ZIP 不上传 GitHub。
 - 测试与发布状态以对应 PR、CI 和 Pages 实际结果为准。本记录不声称部署已成功。
 
@@ -56,3 +56,18 @@
 - 最小语言修正：#807 删除 is made of a fried meal 中冗余 made of，并补 sausage 后空格；#810 statements is→statements are；#815 解释 House of the Commons/Lords→House of Commons/Lords；#821 解释 diplomatic and relationships→diplomatic relationships，counties→countries；#829 正确选项 is→are，干扰项 prepare→prepared；#836 解释 holds number→holds a number。#809 邮编保留为 SW1A 0AA。#836 干扰项 Sir Jackie Steward 保留原图拼写疑点。正确选择位置未改动。
 - #823 原图解释写 43 feet (135 metres)，两种单位不一致，保留原文与正确选项135 metres，列为原始题目疑点，不猜测改数字。#808、#827、#830、#832 等原图事实或答案范围疑点保留，未查外部资料。此批导入核对不计入 Auto Run 顺序审核记录。
 - 当前源文件夹已处理至 #837，下一图 #838；QA 20–30.zip 已处理312/542张，余230张；QA 30–40.zip 余283张。累计处理312/825张，余513张。主账705→745，保留旧ID、学习记录、审核索引及历史；上一批 PR #91 的 Pages 和 CI 已成功（run 46050966181、46050966079）。本批 CI 和部署状态以实际工作流为准。
+
+## 全部剩余 ZIP 一次性完成：#838–1350
+- 用户明确要求不按套题分批发布；剩余513张统一在一个开发分支整理、一次PR合并，追加到原 `site/data/additional-questions.js`，不另建题库或套题选择器。最后新增221道，QA 20–30.zip 新增30道，QA 30–40.zip 新增191道；原745→966道，审核分包63→81。
+- 513张完整覆盖：221张逐图人工转录；21张人工确认重复/未批改/遮挡，由完整题图代替；271张用可见题干与选项文字像素及绿色答案位置精确匹配排除（非全图逐字人工审核）。每一张均记录源号、分类、对应有效题ID，验证无遗漏及重复计数。两个ZIP合计825张，累计新增479道、346张非新增，未处理截图0张。旧题库原有疑点仍需后续巡检。
+- 用户截图 #252 的 tlag Comprises→flag comprises 已按原图修复，PR #93 的 CI、可读分包及 Pages 发布全部成功。#252 独立复查未推进巡检游标。
+- #1177 原图重复干扰项仅保留一次；#1274 题干 died 与解释 casualties 不一致；#1336 绿色答案与解释措辞不一致。保留原图答案和原始事实疑点，不依据外部知识猜改。#693 等历史记录中的原图缺损待更清晰原图。其余最小语言修正如下：
+- #847 this include→these include；#849 Castle 大写；#858 scientist→scientists、Middle Ages 大写；#867 Eid a-Fitr→Eid al-Fitr。#851 原图 Francis Creek / Wilmot 及 #852 NHS System、#853 独立年份疑点保留，不做事实查证。
+- #1123 补 of（collection of poems），#1134 Rutherford 原解释事实疑点保留。#894–1085 布局或颜色差异的19张人工复核为既有重复；其余像素哈希重复另记。
+- #1142 原图滚动位置异常但实际已显示高亮答案 True，人工恢复；#1150 and ancient→an ancient；#1169 everyone...were→was；#1144 保留原图60 Senedd members，不查外部事实。
+- #1177 原截图两个干扰项均为 The Suffragettes；删除完全重复的一个，保留三个不同选项及原正确答案 The Cavaliers，不创造替代项；解释补 there were。#1174/1187/1191 专名大小写；#1193 did introduced→did introduce、补 was；#1197 settlements is→are。
+- #1204 Middle Ages 大写；#1213 题干与解释两处 taken is English→taken in English；#1216 去掉 Scotland 前多余 the；#1225 解释 is→are 并补逗号。#1223 原图 TV licence 概括性表述保留，不进行现行法律事实核查。
+- #1234 补干扰项 every，解释 you→your；#1275 untied→united 并修标点；#1296 Treat other→Treat others；#1300 are part in→take part in。#1274 原图题干 died 与解释 casualties 的意义不一致，保留原题正确选项并登记疑点，不擅自更新事实。#1293 原图年龄范围与#1300 项目状态保留，不查现行事实。
+- #1312 The→the；#1314 去掉 WWI 前多余 the（两位诗人作为一组单选答案）；#1329 Isaac Newton→Isaac Newton’s（补所属格）；#1330 经过异常布局人工核对，完整答案与解释可见。#1320 原图 civil offence 术语疑点保留，不外查。
+- #1332 more that half→more than half；#1333 Tim henman→Tim Henman、Jessica Enis→Jessica Ennis（与 #621 同一已核对姓名）；#1337 millenium→millennium；#1345 select→Select；#1346 itunes→iTunes、Ebay→eBay。#1336 原图绿选项 Smoking in public places 与解释 drinking in public 不一致，保留原图绿色答案及解释，登记疑点。#1341、#1342 保留原图事实、不外查。
+- 完成后永久巡检仍按当前 bankCount/batchSize 动态覆盖整个题库，不改轮次或索引，不重新创建任务；临时导入任务此前因自动环境不能访问 ZIP 已暂停。此次实际测试与部署状态以本 PR 的 CI 和 Pages 为准。

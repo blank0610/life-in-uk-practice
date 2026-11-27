@@ -1,0 +1,3624 @@
+{
+  "sourceRange": [
+    838,
+    1350
+  ],
+  "total": 513,
+  "counts": {
+    "lift in uk QA 20-30.zip": {
+      "total": 230,
+      "imported": 30,
+      "duplicate_or_incomplete": 17,
+      "duplicate_image_text_and_answer": 183
+    },
+    "lift in uk QA 30-40.zip": {
+      "total": 283,
+      "imported": 191,
+      "duplicate_or_incomplete": 4,
+      "duplicate_image_text_and_answer": 88
+    }
+  },
+  "records": [
+    {
+      "sourceScreenshot": 838,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-838",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 839,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-839",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 840,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-841",
+      "evidence": "未批改重复，#841显示完整正确答案"
+    },
+    {
+      "sourceScreenshot": 841,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-841",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 842,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-842",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 843,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-843",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 844,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-844",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 845,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-845",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 846,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-846",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 847,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-847",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 848,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-848",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 849,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-849",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 850,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-850",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 851,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-851",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 852,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-852",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 853,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-853",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 854,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-854",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 855,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-855",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 856,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-856",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 857,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-857",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 858,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-858",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 859,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-859",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 860,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-860",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 861,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-861",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 862,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-862",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 863,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-863",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 864,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-864",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 865,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-865",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 866,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-866",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 867,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-867",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 868,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "imported",
+      "questionId": "zip-868",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 869,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-600",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 870,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-601",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 871,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-603",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 872,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-604",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 873,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-605",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 874,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-606",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 875,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-607",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 876,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-608",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 877,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-609",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 878,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-610",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 879,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-611",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 880,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-612",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 881,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-613",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 882,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-614",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 883,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-615",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 884,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-616",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 885,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-617",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 886,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-618",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 887,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-618",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 888,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-619",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 889,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-620",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 890,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-621",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 891,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-622",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 892,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-623",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 893,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-624",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 894,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-625",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 895,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-626",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 896,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-627",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 897,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-628",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 898,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-629",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 899,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-630",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 900,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-631",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 901,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-632",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 902,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-633",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 903,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-634",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 904,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-635",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 905,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-636",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 906,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-637",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 907,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-638",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 908,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-639",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 909,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-640",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 910,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-641",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 911,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-642",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 912,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-643",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 913,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-644",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 914,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-645",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 915,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-646",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 916,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-647",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 917,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-648",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 918,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-649",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 919,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-650",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 920,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-651",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 921,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-651",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 922,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-652",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 923,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-653",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 924,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-654",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 925,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-655",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 926,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-656",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 927,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-657",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 928,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-658",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 929,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-659",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 930,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-660",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 931,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-661",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 932,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-662",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 933,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-663",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 934,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-664",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 935,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-665",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 936,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-666",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 937,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-667",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 938,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-668",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 939,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-669",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 940,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-670",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 941,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-671",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 942,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-672",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 943,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-672",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 944,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-673",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 945,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-674",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 946,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-675",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 947,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-676",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 948,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-677",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 949,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-678",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 950,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-679",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 951,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-680",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 952,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-681",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 953,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-682",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 954,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-683",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 955,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-684",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 956,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-685",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 957,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-686",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 958,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-687",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 959,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-688",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 960,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-689",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 961,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-690",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 962,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-691",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 963,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-692",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 964,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-692",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 965,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-693",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 966,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-694",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 967,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-695",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 968,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-696",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 969,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-697",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 970,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-698",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 971,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-699",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 972,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-700",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 973,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-701",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 974,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-701",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 975,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-702",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 976,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-703",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 977,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-704",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 978,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-706",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 979,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-707",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 980,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-708",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 981,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-709",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 982,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-710",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 983,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-711",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 984,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-712",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 985,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-713",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 986,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-714",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 987,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-715",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 988,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-716",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 989,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-717",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 990,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-718",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 991,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-719",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 992,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-720",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 993,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-721",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 994,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-722",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 995,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-723",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 996,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-750",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 997,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-750",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 998,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-751",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 999,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-752",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1000,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-753",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1001,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-754",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1002,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-755",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1003,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-756",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1004,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-757",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1005,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-758",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1006,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-759",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1007,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-760",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1008,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-761",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1009,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-762",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1010,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-763",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1011,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-764",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1012,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-765",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1013,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-766",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1014,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-767",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1015,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-768",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1016,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-769",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1017,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-770",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1018,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-771",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1019,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-772",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1020,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-773",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1021,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-774",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1022,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-775",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1023,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-776",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1024,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-777",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1025,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-778",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1026,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-779",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1027,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-780",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1028,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-781",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1029,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-781",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1030,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-782",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1031,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-783",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1032,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-784",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1033,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-785",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1034,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-786",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1035,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-787",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1036,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-788",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1037,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-789",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1038,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-790",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1039,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-791",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1040,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-792",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1041,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-793",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1042,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-794",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1043,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-795",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1044,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-796",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1045,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-797",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1046,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-798",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1047,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-799",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1048,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-800",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1049,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-801",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1050,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-802",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1051,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-803",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1052,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-804",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1053,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-805",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1054,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-806",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1055,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-807",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1056,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-808",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1057,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-809",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1058,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-810",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1059,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-811",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1060,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-812",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1061,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-813",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1062,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-814",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1063,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-815",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1064,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-816",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1065,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-817",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1066,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-818",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1067,
+      "sourceFolder": "lift in uk QA 20-30.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-819",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1068,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-820",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1069,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-820",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1070,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-821",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1071,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-822",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1072,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-823",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1073,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-824",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1074,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-825",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1075,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-826",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1076,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-827",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1077,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-828",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1078,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-829",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1079,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-830",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1080,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-831",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1081,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-832",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1082,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-833",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1083,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-834",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1084,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-835",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1085,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-836",
+      "evidence": "人工比较原图题干及选项；相同已入库题的重复/未批改画面"
+    },
+    {
+      "sourceScreenshot": 1086,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-837",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1087,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-838",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1088,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-839",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1089,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-841",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1090,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-841",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1091,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-842",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1092,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-843",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1093,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-844",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1094,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-845",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1095,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-846",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1096,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-847",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1097,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-848",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1098,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-849",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1099,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-850",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1100,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-851",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1101,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-852",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1102,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-853",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1103,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-854",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1104,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-855",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1105,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-856",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1106,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-857",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1107,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-858",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1108,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-859",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1109,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-860",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1110,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-861",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1111,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-862",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1112,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-863",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1113,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-864",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1114,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-865",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1115,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-866",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1116,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-867",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1117,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-868",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1118,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1118",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1119,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1119",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1120,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1120",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1121,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1121",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1122,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1122",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1123,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1123",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1124,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1124",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1125,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1125",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1126,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1126",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1127,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1127",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1128,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1128",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1129,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1129",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1130,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1130",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1131,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1131",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1132,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1132",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1133,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1133",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1134,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1134",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1135,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1135",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1136,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1136",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1137,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1137",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1138,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1138",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1139,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1139",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1140,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1140",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1141,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1141",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1142,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1142",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1143,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1143",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1144,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1144",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1145,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1145",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1146,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1146",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1147,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1147",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1148,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1148",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1149,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1149",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1150,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1150",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1151,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1151",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1152,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1152",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1153,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-839",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1154,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1154",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1155,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1155",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1156,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1156",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1157,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1157",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1158,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1158",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1159,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1159",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1160,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1160",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1161,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1161",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1162,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1162",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1163,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1163",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1164,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1164",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1165,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1165",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1166,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1166",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1167,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1167",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1168,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1168",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1169,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1169",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1170,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1170",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1171,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1169",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1172,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1172",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1173,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1170",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1174,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1174",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1175,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1175",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1176,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1176",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1177,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1177",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1178,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1178",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1179,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1179",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1180,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1180",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1181,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1181",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1182,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1182",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1183,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1183",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1184,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1184",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1185,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1185",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1186,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1186",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1187,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1187",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1188,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1188",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1189,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1189",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1190,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1190",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1191,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1191",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1192,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1192",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1193,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1193",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1194,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1193",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1195,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1195",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1196,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1196",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1197,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1197",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1198,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1198",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1199,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1199",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1200,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1200",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1201,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1201",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1202,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1202",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1203,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1203",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1204,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1204",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1205,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1205",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1206,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1206",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1207,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1207",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1208,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1208",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1209,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1209",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1210,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1210",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1211,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1211",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1212,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1212",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1213,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1213",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1214,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1214",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1215,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1215",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1216,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1216",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1217,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1217",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1218,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1218",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1219,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_or_incomplete",
+      "questionId": "zip-1220",
+      "evidence": "Windows菜单遮挡同一题，#1220完整显示正确答案及解释"
+    },
+    {
+      "sourceScreenshot": 1220,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1220",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1221,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1221",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1222,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1222",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1223,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1223",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1224,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1224",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1225,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1225",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1226,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1226",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1227,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1227",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1228,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1228",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1229,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1229",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1230,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1230",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1231,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1231",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1232,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1232",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1233,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1233",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1234,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1234",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1235,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1235",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1236,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1236",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1237,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1237",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1238,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1238",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1239,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1239",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1240,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1240",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1241,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1241",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1242,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1217",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1243,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1218",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1244,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1220",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1245,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1221",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1246,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1222",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1247,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1223",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1248,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1224",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1249,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1225",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1250,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1226",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1251,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1227",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1252,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1228",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1253,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1229",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1254,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1230",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1255,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1231",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1256,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1232",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1257,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1233",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1258,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1234",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1259,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1235",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1260,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1236",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1261,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1237",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1262,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1238",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1263,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1239",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1264,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1240",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1265,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1241",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1266,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1266",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1267,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1267",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1268,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1268",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1269,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1269",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1270,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1270",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1271,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1271",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1272,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1272",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1273,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1273",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1274,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1274",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1275,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1275",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1276,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1276",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1277,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1277",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1278,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1278",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1279,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1266",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1280,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1267",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1281,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1268",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1282,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1269",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1283,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1270",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1284,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1271",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1285,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1272",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1286,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1273",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1287,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1274",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1288,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1275",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1289,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1276",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1290,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1277",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1291,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "duplicate_image_text_and_answer",
+      "questionId": "zip-1278",
+      "evidence": "题干、选项可见文字像素及绿色答案位置自动精确匹配；不等同于逐字人工核对解释"
+    },
+    {
+      "sourceScreenshot": 1292,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1292",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1293,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1293",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1294,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1294",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1295,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1295",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1296,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1296",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1297,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1297",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1298,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1298",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1299,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1299",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1300,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1300",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1301,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1301",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1302,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1302",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1303,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1303",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1304,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1304",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1305,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1305",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1306,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1306",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1307,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1307",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1308,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1308",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1309,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1309",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1310,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1310",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1311,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1311",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1312,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1312",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1313,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1313",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1314,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1314",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1315,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1315",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1316,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1316",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1317,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1317",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1318,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1318",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1319,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1319",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1320,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1320",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1321,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1321",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1322,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1322",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1323,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1323",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1324,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1324",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1325,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1325",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1326,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1326",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1327,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1327",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1328,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1328",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1329,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1329",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1330,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1330",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1331,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1331",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1332,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1332",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1333,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1333",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1334,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1334",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1335,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1335",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1336,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1336",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1337,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1337",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1338,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1338",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1339,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1339",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1340,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1340",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1341,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1341",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1342,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1342",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1343,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1343",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1344,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1344",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1345,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1345",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1346,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1346",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1347,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1347",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1348,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1348",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1349,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1349",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    },
+    {
+      "sourceScreenshot": 1350,
+      "sourceFolder": "lift in uk QA 30-40.zip",
+      "status": "imported",
+      "questionId": "zip-1350",
+      "evidence": "实际打开原图核对题干、选项、绿色答案及解释"
+    }
+  ],
+  "notes": [
+    "#847 this include→these include；#849 Castle 大写；#858 scientist→scientists、Middle Ages 大写；#867 Eid a-Fitr→Eid al-Fitr。#851 原图 Francis Creek / Wilmot 及 #852 NHS System、#853 独立年份疑点保留，不做事实查证。",
+    "#1123 补 of（collection of poems），#1134 Rutherford 原解释事实疑点保留。#894–1085 布局或颜色差异的19张人工复核为既有重复；其余像素哈希重复另记。",
+    "#1142 原图滚动位置异常但实际已显示高亮答案 True，人工恢复；#1150 and ancient→an ancient；#1169 everyone...were→was；#1144 保留原图60 Senedd members，不查外部事实。",
+    "#1177 原截图两个干扰项均为 The Suffragettes；删除完全重复的一个，保留三个不同选项及原正确答案 The Cavaliers，不创造替代项；解释补 there were。#1174/1187/1191 专名大小写；#1193 did introduced→did introduce、补 was；#1197 settlements is→are。",
+    "#1204 Middle Ages 大写；#1213 题干与解释两处 taken is English→taken in English；#1216 去掉 Scotland 前多余 the；#1225 解释 is→are 并补逗号。#1223 原图 TV licence 概括性表述保留，不进行现行法律事实核查。",
+    "#1234 补干扰项 every，解释 you→your；#1275 untied→united 并修标点；#1296 Treat other→Treat others；#1300 are part in→take part in。#1274 原图题干 died 与解释 casualties 的意义不一致，保留原题正确选项并登记疑点，不擅自更新事实。#1293 原图年龄范围与#1300 项目状态保留，不查现行事实。",
+    "#1312 The→the；#1314 去掉 WWI 前多余 the（两位诗人作为一组单选答案）；#1329 Isaac Newton→Isaac Newton’s（补所属格）；#1330 经过异常布局人工核对，完整答案与解释可见。#1320 原图 civil offence 术语疑点保留，不外查。",
+    "#1332 more that half→more than half；#1333 Tim henman→Tim Henman、Jessica Enis→Jessica Ennis（与 #621 同一已核对姓名）；#1337 millenium→millennium；#1345 select→Select；#1346 itunes→iTunes、Ebay→eBay。#1336 原图绿选项 Smoking in public places 与解释 drinking in public 不一致，保留原图绿色答案及解释，登记疑点。#1341、#1342 保留原图事实、不外查。"
+  ]
+}

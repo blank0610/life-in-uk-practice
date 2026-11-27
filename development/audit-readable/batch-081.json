@@ -1,0 +1,95 @@
+[
+  {
+    "id": "zip-1345",
+    "sourceScreenshot": 1345,
+    "question": "What are the key roles of the governors and school boards? Select THREE answers.",
+    "options": [
+      "Providing funding for all students",
+      "Setting the strategic direction of the school",
+      "Ensuring accountability",
+      "Monitoring and evaluating school performance"
+    ],
+    "correctAnswers": [
+      "Setting the strategic direction of the school",
+      "Ensuring accountability",
+      "Monitoring and evaluating school performance"
+    ],
+    "explanation": "Governors and school boards have an important part to play in raising school standards. They have three key roles: setting the strategic direction of the school, ensuring accountability and monitoring and evaluating school performance."
+  },
+  {
+    "id": "zip-1346",
+    "sourceScreenshot": 1346,
+    "question": "A popular way for people to stay in touch with friends, organise social events, and share photos, videos and opinions is through social networking websites such as:",
+    "options": [
+      "Dropbox and iTunes",
+      "Email and Fax",
+      "eBay and Amazon",
+      "Facebook and Twitter"
+    ],
+    "correctAnswers": [
+      "Facebook and Twitter"
+    ],
+    "explanation": "Social networking websites such as Facebook and Twitter are a popular way for people to stay in touch with friends, organise social events, and share photos, videos and opinions."
+  },
+  {
+    "id": "zip-1347",
+    "sourceScreenshot": 1347,
+    "question": "Why is it important to recycle (select two answers)?",
+    "options": [
+      "Using recycled materials to make new products uses less energy than using raw materials",
+      "It is a criminal offence and you could be arrested if you do not do it",
+      "To reduce the expenses of the local council",
+      "Less rubbish is created, so the amount being put into landfill is reduced"
+    ],
+    "correctAnswers": [
+      "Using recycled materials to make new products uses less energy than using raw materials",
+      "Less rubbish is created, so the amount being put into landfill is reduced"
+    ],
+    "explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced."
+  },
+  {
+    "id": "zip-1348",
+    "sourceScreenshot": 1348,
+    "question": "In Northern Ireland, a newly qualified driver must display an ____ plate for one year after passing the test.",
+    "options": [
+      "S",
+      "N",
+      "R",
+      "L"
+    ],
+    "correctAnswers": [
+      "R"
+    ],
+    "explanation": "In Northern Ireland, a newly qualified driver must display an ‘R’ plate (for restricted driver) for one year after passing the test."
+  },
+  {
+    "id": "zip-1349",
+    "sourceScreenshot": 1349,
+    "question": "When is the birth of Jesus Christ celebrated?",
+    "options": [
+      "24th December",
+      "25th December",
+      "26th December",
+      "31st December"
+    ],
+    "correctAnswers": [
+      "25th December"
+    ],
+    "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ."
+  },
+  {
+    "id": "zip-1350",
+    "sourceScreenshot": 1350,
+    "question": "Prince William is also known as:",
+    "options": [
+      "The Duke of Wellington",
+      "The Prince of Wales",
+      "The Duke of Edinburgh",
+      "The Prince of Northern Ireland"
+    ],
+    "correctAnswers": [
+      "The Prince of Wales"
+    ],
+    "explanation": "Prince William is also known as the Prince of Wales."
+  }
+]

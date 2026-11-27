@@ -1,0 +1,179 @@
+[
+  {
+    "id": "zip-1236",
+    "sourceScreenshot": 1236,
+    "question": "On average, boys leave school with better qualifications than girls.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. On average, girls leave school with better qualifications than boys."
+  },
+  {
+    "id": "zip-1237",
+    "sourceScreenshot": 1237,
+    "question": "When did William of Orange invade England to proclaim himself king?",
+    "options": [
+      "1689",
+      "1690",
+      "1688",
+      "1687"
+    ],
+    "correctAnswers": [
+      "1688"
+    ],
+    "explanation": "In 1688, important Protestants in England asked William of Orange to invade England and proclaim himself king. When William reached England, there was no resistance. James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland."
+  },
+  {
+    "id": "zip-1238",
+    "sourceScreenshot": 1238,
+    "question": "Which British painter is considered to be the artist who raised the profile of landscape painting?",
+    "options": [
+      "Joseph Turner",
+      "David Allan",
+      "John Constable",
+      "Sir John Lavery"
+    ],
+    "correctAnswers": [
+      "Joseph Turner"
+    ],
+    "explanation": "Joseph Turner (1775-1851) was an influential landscape painter in a modern style. He is considered the artist who raised the profile of landscape painting."
+  },
+  {
+    "id": "zip-1239",
+    "sourceScreenshot": 1239,
+    "question": "The development of the Bessemer process during the Industrial Revolution led to the development of which two industries:",
+    "options": [
+      "Shipbuilding industry",
+      "Chemical industry",
+      "Railways industry",
+      "Car industry"
+    ],
+    "correctAnswers": [
+      "Shipbuilding industry",
+      "Railways industry"
+    ],
+    "explanation": "The development of the Bessemer process for the mass production of steel led to the development of the shipbuilding industry and the railways."
+  },
+  {
+    "id": "zip-1240",
+    "sourceScreenshot": 1240,
+    "question": "What is the length of the Bayeux tapestry?",
+    "options": [
+      "130 feet",
+      "230 feet",
+      "330 feet",
+      "320 feet"
+    ],
+    "correctAnswers": [
+      "230 feet"
+    ],
+    "explanation": "The Bayeux Tapestry is nearly 70 metres (230 feet) long and is embroidered with coloured wool."
+  },
+  {
+    "id": "zip-1241",
+    "sourceScreenshot": 1241,
+    "question": "Which of the following countries is not a member of the Commonwealth?",
+    "options": [
+      "Swaziland",
+      "Trinidad and Tobago",
+      "Dominica",
+      "Costa Rica"
+    ],
+    "correctAnswers": [
+      "Costa Rica"
+    ],
+    "explanation": "Costa Rica is not a member of the Commonwealth."
+  },
+  {
+    "id": "zip-1266",
+    "sourceScreenshot": 1266,
+    "question": "In which of the following years did England win the World Cup?",
+    "options": [
+      "1974",
+      "1986",
+      "1982",
+      "1966"
+    ],
+    "correctAnswers": [
+      "1966"
+    ],
+    "explanation": "England won the World Cup in 1966 when it was captained by Bobby Moore."
+  },
+  {
+    "id": "zip-1267",
+    "sourceScreenshot": 1267,
+    "question": "During the Battle of Trafalgar Britain fought against:",
+    "options": [
+      "France and Belgium",
+      "France and Spain",
+      "France and Italy",
+      "Italy and Spain"
+    ],
+    "correctAnswers": [
+      "France and Spain"
+    ],
+    "explanation": "Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar in 1805."
+  },
+  {
+    "id": "zip-1268",
+    "sourceScreenshot": 1268,
+    "question": "What is the name given to the first formal anti-slavery groups set up in the late 1700s?",
+    "options": [
+      "Beefeaters",
+      "Suffragettes",
+      "Quakers",
+      "Canutes"
+    ],
+    "correctAnswers": [
+      "Quakers"
+    ],
+    "explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice."
+  },
+  {
+    "id": "zip-1269",
+    "sourceScreenshot": 1269,
+    "question": "More women than men study at university.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE."
+  },
+  {
+    "id": "zip-1270",
+    "sourceScreenshot": 1270,
+    "question": "Why did Ireland suffer a famine in the middle of the 19th century?",
+    "options": [
+      "There was a heat wave",
+      "The whole country was flooded",
+      "The potato crop failed",
+      "There were not enough farmers"
+    ],
+    "correctAnswers": [
+      "The potato crop failed"
+    ],
+    "explanation": "In the middle of the century the potato crop failed, and Ireland suffered a famine. A million people died from disease and starvation."
+  },
+  {
+    "id": "zip-1271",
+    "sourceScreenshot": 1271,
+    "question": "What sort of battle was ‘the Battle of Britain’?",
+    "options": [
+      "A naval battle against the Spanish.",
+      "An aerial battle against the French.",
+      "An aerial battle against the Germans.",
+      "A naval battle against the French."
+    ],
+    "correctAnswers": [
+      "An aerial battle against the Germans."
+    ],
+    "explanation": "Hitler wanted to invade Britain, but before sending in troops, Germany needed to control the air campaign against Britain, but the British resisted with their fighter planes and eventually won the crucial aerial battle against the Germans, called ‘the Battle of Britain’, in the summer of 1940."
+  }
+]

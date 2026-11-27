@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-654",
+    "sourceScreenshot": 654,
+    "question": "What other name is given to Diwali, the religious celebration that celebrates the victory of good over evil and the gaining of knowledge?",
+    "options": [
+      "The Festival of Lights",
+      "Hanukkah",
+      "The Festival of the Lanterns",
+      "The Festival of the Candles"
+    ],
+    "correctAnswers": [
+      "The Festival of Lights"
+    ],
+    "explanation": "Diwali normally falls in October or November and lasts for five days. It is often called the Festival of Lights."
+  },
+  {
+    "id": "zip-655",
+    "sourceScreenshot": 655,
+    "question": "In Wales, the jury has to listen to the evidence presented at the trial and then decide a verdict of ‘guilty’, ‘not guilty’ or ‘not proven’ based on what they have heard:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The jury has to listen to the evidence presented at the trial and then decide a verdict of ‘guilty’ or ‘not guilty’ based on what they have heard. In Scotland, a third verdict of ‘not proven’ is also possible."
+  },
+  {
+    "id": "zip-656",
+    "sourceScreenshot": 656,
+    "question": "The Prime Minister has a country house outside London called:",
+    "options": [
+      "Sparkle",
+      "Downing",
+      "Windsor",
+      "Chequers"
+    ],
+    "correctAnswers": [
+      "Chequers"
+    ],
+    "explanation": "The Prime Minister has a country house outside London called Chequers."
+  },
+  {
+    "id": "zip-657",
+    "sourceScreenshot": 657,
+    "question": "In which English county is Maiden Castle located?",
+    "options": [
+      "Dorset",
+      "Devon",
+      "Somerset",
+      "Cornwall"
+    ],
+    "correctAnswers": [
+      "Dorset"
+    ],
+    "explanation": "A very impressive hill fort can be seen today at Maiden Castle, in the English county of Dorset."
+  },
+  {
+    "id": "zip-658",
+    "sourceScreenshot": 658,
+    "question": "A National Insurance number does on its own prove to an employer that you have the right to work in the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "A National Insurance number does not on its own prove to an employer that you have the right to work in the UK."
+  },
+  {
+    "id": "zip-659",
+    "sourceScreenshot": 659,
+    "question": "Which of the following is a ceremonial role to be undertaken by the King?",
+    "options": [
+      "Opening the new parliamentary session every year",
+      "Visiting the major cities in the UK once every six months",
+      "Choosing the Prime Minister",
+      "Giving a speech on New Year’s Eve"
+    ],
+    "correctAnswers": [
+      "Opening the new parliamentary session every year"
+    ],
+    "explanation": "The King has important ceremonial roles, such as the opening of the new parliamentary session each year. On this occasion the King makes a speech which summarises the government’s policies for the year ahead."
+  },
+  {
+    "id": "zip-660",
+    "sourceScreenshot": 660,
+    "question": "How long can you use your driving licence in the UK if you have a licence from another country?",
+    "options": [
+      "For up to 12 months",
+      "You need a UK driving licence",
+      "For as long as it is valid",
+      "For up to 2 years"
+    ],
+    "correctAnswers": [
+      "For up to 12 months"
+    ],
+    "explanation": "If you have a licence from another country, you may use it in the UK for up to 12 months."
+  },
+  {
+    "id": "zip-661",
+    "sourceScreenshot": 661,
+    "question": "What British discovery was influential in the development of computer science and the modern-day computer?",
+    "options": [
+      "The Radar",
+      "The Turing machine",
+      "The MRI scanner",
+      "The aeroplane"
+    ],
+    "correctAnswers": [
+      "The Turing machine"
+    ],
+    "explanation": "The Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s. The theory was influential in the development of computer science and the modern-day computer."
+  },
+  {
+    "id": "zip-662",
+    "sourceScreenshot": 662,
+    "question": "Which Court deals with the serious criminal offences in England, Wales and Northern Ireland?",
+    "options": [
+      "The County Court",
+      "The Crown Court",
+      "The High Court",
+      "The Sheriff Court"
+    ],
+    "correctAnswers": [
+      "The Crown Court"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, serious criminal offences are tried in front of a judge and a jury in a Crown Court."
+  },
+  {
+    "id": "zip-663",
+    "sourceScreenshot": 663,
+    "question": "Which famous philosopher developed ideas about human nature during the 18th century that have continued to influence philosophers over the years?",
+    "options": [
+      "Aristotle",
+      "Sigmund Freud",
+      "Platon",
+      "David Hume"
+    ],
+    "correctAnswers": [
+      "David Hume"
+    ],
+    "explanation": "David Hume’s ideas about human nature from the 18th century continue to influence philosophers."
+  },
+  {
+    "id": "zip-664",
+    "sourceScreenshot": 664,
+    "question": "If you are arrested and taken to a police station, a police officer should:",
+    "options": [
+      "Make a copy of your ID and retain you until your lawyer arrives",
+      "Tell you the reason for your arrest and that you will be able to seek legal advice",
+      "Offer you a cup of tea",
+      "Explain the law to you and wait for your family to arrive"
+    ],
+    "correctAnswers": [
+      "Tell you the reason for your arrest and that you will be able to seek legal advice"
+    ],
+    "explanation": "If you are arrested and taken to a police station, a police officer will tell you the reason for your arrest and you will be able to seek legal advice."
+  },
+  {
+    "id": "zip-665",
+    "sourceScreenshot": 665,
+    "question": "Which British actor has recently won an Oscar?",
+    "options": [
+      "Hugh Grant",
+      "Sir Anthony Hopkins",
+      "Jude Law",
+      "Richard Burton"
+    ],
+    "correctAnswers": [
+      "Sir Anthony Hopkins"
+    ],
+    "explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton."
+  }
+]

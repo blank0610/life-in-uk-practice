@@ -104,5 +104,80 @@
       "EastEnders"
     ],
     "explanation": "Popular programmes in the UK include regular soap operas such as Coronation Street and EastEnders."
+  },
+  {
+    "id": "zip-649",
+    "sourceScreenshot": 649,
+    "question": "What does the term ‘Hansard’ relate to?",
+    "options": [
+      "Official reports where proceedings in Parliament are published",
+      "A popular British soap opera",
+      "A festival which celebrates the founding of the Sikh community",
+      "A public holiday"
+    ],
+    "correctAnswers": [
+      "Official reports where proceedings in Parliament are published"
+    ],
+    "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard."
+  },
+  {
+    "id": "zip-650",
+    "sourceScreenshot": 650,
+    "question": "Who was the first king of the House of Tudor?",
+    "options": [
+      "King Richard III",
+      "Henry Tudor",
+      "Henry V",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Henry Tudor"
+    ],
+    "explanation": "Henry VII (Henry Tudor) was the first king of the House of Tudor."
+  },
+  {
+    "id": "zip-651",
+    "sourceScreenshot": 651,
+    "question": "What do Lewis Hamilton, Jenson Button and Damon Hill have in common?",
+    "options": [
+      "They are football players",
+      "They have won the Formula 1 World Championship",
+      "They won gold Olympic medals",
+      "They have won the Six Nations Championship"
+    ],
+    "correctAnswers": [
+      "They have won the Formula 1 World Championship"
+    ],
+    "explanation": "Lewis Hamilton, Jenson Button and Damon Hill have won the Formula 1 World Championship."
+  },
+  {
+    "id": "zip-652",
+    "sourceScreenshot": 652,
+    "question": "According to the 2011 Census, what percentage of people said that they had no religion?",
+    "options": [
+      "10%",
+      "11%",
+      "20%",
+      "25%"
+    ],
+    "correctAnswers": [
+      "25%"
+    ],
+    "explanation": "According to the 2011 census, 25% of people said they had no religion."
+  },
+  {
+    "id": "zip-653",
+    "sourceScreenshot": 653,
+    "question": "During which period were the first coins produced in Britain?",
+    "options": [
+      "The Stone Age",
+      "The Golden Age",
+      "The Silver Age",
+      "The Iron Age"
+    ],
+    "correctAnswers": [
+      "The Iron Age"
+    ],
+    "explanation": "The people of the Iron Age had a sophisticated culture and economy. They made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings."
   }
 ]

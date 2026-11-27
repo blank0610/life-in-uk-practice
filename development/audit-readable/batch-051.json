@@ -1,0 +1,106 @@
+[
+  {
+    "id": "zip-666",
+    "sourceScreenshot": 666,
+    "question": "What TWO names are given to the day before Lent?",
+    "options": [
+      "Pancake day",
+      "Domesday",
+      "Shrove Tuesday",
+      "Ash Wednesday"
+    ],
+    "correctAnswers": [
+      "Pancake day",
+      "Shrove Tuesday"
+    ],
+    "explanation": "The day before Lent starts is called Shrove Tuesday, or Pancake Day."
+  },
+  {
+    "id": "zip-667",
+    "sourceScreenshot": 667,
+    "question": "When did the ‘Concorde’ aircraft carry passengers for the first time?",
+    "options": [
+      "In 1969",
+      "In 1970",
+      "In 1972",
+      "In 1976"
+    ],
+    "correctAnswers": [
+      "In 1976"
+    ],
+    "explanation": "The ‘Concorde’ began carrying passengers in 1976."
+  },
+  {
+    "id": "zip-668",
+    "sourceScreenshot": 668,
+    "question": "The UK is one of five permanent members of the Security Council:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The UK is one of five permanent members of the Security Council."
+  },
+  {
+    "id": "zip-669",
+    "sourceScreenshot": 669,
+    "question": "Which of the following landmarks is the largest expanse of fresh water in mainland Britain?",
+    "options": [
+      "The River Thames",
+      "Loch Lomond",
+      "Loch Ness",
+      "Lake District"
+    ],
+    "correctAnswers": [
+      "Loch Lomond"
+    ],
+    "explanation": "Loch Lomond is the largest expanse of fresh water in mainland Britain and probably the best-known part of the park."
+  },
+  {
+    "id": "zip-670",
+    "sourceScreenshot": 670,
+    "question": "Who wrote the music for the popular show Jesus Christ Superstar?",
+    "options": [
+      "Andrew Lloyd Webber",
+      "Gilbert and Sullivan",
+      "Hans Holbein and Sir Anthony Van Dyck",
+      "Sir Laurence Olivier"
+    ],
+    "correctAnswers": [
+      "Andrew Lloyd Webber"
+    ],
+    "explanation": "Andrew Lloyd Webber has written the music for shows which have been popular throughout the world, including, in collaboration with Tim Rice, Jesus Christ Superstar and Evita, and also Cats and The Phantom of the Opera."
+  },
+  {
+    "id": "zip-671",
+    "sourceScreenshot": 671,
+    "question": "Which one of the following four changes did the Chartists NOT campaign for?",
+    "options": [
+      "For any man to be able to stand as MP",
+      "Secret ballots",
+      "Elections every six years",
+      "For MPs to be paid"
+    ],
+    "correctAnswers": [
+      "Elections every six years"
+    ],
+    "explanation": "The Chartists campaigned for every man to have the vote, elections every year, for all regions to be equal in the electoral system, secret ballots, for any man to be able to stand as an MP and for MPs to be paid."
+  },
+  {
+    "id": "zip-672",
+    "sourceScreenshot": 672,
+    "question": "Pantomimes are a British tradition that many theatres produce during:",
+    "options": [
+      "Easter",
+      "Christmas",
+      "Halloween",
+      "Pancake Day"
+    ],
+    "correctAnswers": [
+      "Christmas"
+    ],
+    "explanation": "Many theatres produce a pantomime at Christmas time."
+  }
+]

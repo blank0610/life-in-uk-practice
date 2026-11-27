@@ -65,6 +65,9 @@ export function scanQuestionBank(questions){
     // 识别数字被误当字母的百分比，例如“O8%”应为“0.8%”。只检查可疑数字，不自动猜测数值。
     const suspectPercentages=options.filter(o=>/^\s*[oO]\d+(?:\.\d+)?\s*%\s*$/.test(o)||/^\s*\d+[oO]\d*\s*%\s*$/.test(o));
     if(suspectPercentages.length)severe.push({id:q.id,reason:"百分比选项疑似 OCR 误把数字识别成字母 O",question:q.question,options,suspectPercentages});
+    // 单独的货币符号后直接跟数量单位，缺少数字，是高可信的 OCR 疑点；禁止自动猜测数字。
+    const missingNumericMagnitude=options.filter(o=>/^\s*[$£€]\s*(?:thousand|million|billion|trillion)\b/i.test(o));
+    if(missingNumericMagnitude.length)severe.push({id:q.id,reason:"数量单位前只有货币符号，疑似数字 OCR 错误",question:q.question,options,missingNumericMagnitude});
     const suspiciousChars=options.filter(o=>/[\uFFFD]/.test(o)||/\bAQ\s*days\b/i.test(o));
     if(suspiciousChars.length)review.push({id:q.id,reason:"疑似 OCR 字符或数字错误",question:q.question,options});
     // 仅标记疑点：若正确答案是百分比而解释使用其他百分比却完全不含该数值，

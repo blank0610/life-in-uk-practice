@@ -230,3 +230,6 @@ window.LIFE_UK_TEXT_FIXES={
 
 // Test 20, original screenshot #520 and duplicate confirmation #545: restore omitted first line only.
 window.LIFE_UK_TEXT_FIXES["zip-520"]={...(window.LIFE_UK_TEXT_FIXES["zip-520"]||{}),questionText:"During which movement the Parliament passed laws giving women the right to equal pay and made it illegal for employees to discriminate against women because of their gender:"};
+
+// 原图 #186：1801 人口题正确选项 8 million，OCR 将 8 误作 $；保留其他文字和原答案下标。
+window.LIFE_UK_TEXT_FIXES["zip-186"]={options:{"1":[["$ million","8 million"]]}};

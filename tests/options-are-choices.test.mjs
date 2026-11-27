@@ -105,3 +105,18 @@ test("原图多选题保留合法的六个选项，不因防污染筛查被删�
   assert.equal(b.options.length,6);
   assert.equal(b.correctAnswers.length,4);
 });
+
+test("原图#186：8 million 正确选项及答案不能变成货币符号",()=>{
+  const q=byId.get("zip-186");
+  assert.equal(q.question,"What was the population of the UK in 1801?");
+  assert.deepEqual(q.options,["5 million","8 million","10 million","12 million"]);
+  assert.deepEqual(q.correctAnswers,["8 million"]);
+  assert.equal(q.explanation,"The population of the UK in 1801 was 8 million people.");
+});
+test("数量单位之前缺失数字的货币符号只能标记，不得猜测数值",()=>{
+  const original={id:"example",question:"What was the population?",options:["5 million","$ million","10 million","12 million"],correctAnswers:["$ million"],explanation:"8 million."};
+  assert(scanQuestionBank([original]).severe.some(x=>x.reason.includes("数量单位")));
+  assert.equal(original.correctAnswers[0],"$ million");
+  const valid={...original,options:["$8 million","£10 million"],correctAnswers:["$8 million"]};
+  assert.equal(scanQuestionBank([valid]).severe.length,0);
+});

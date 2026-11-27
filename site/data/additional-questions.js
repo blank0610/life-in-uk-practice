@@ -1284,6 +1284,438 @@ export const additionalQuestions = [
     ],
     "explanation": "The Laurence Olivier Awards take place annually at different venues in London.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-625",
+    "sourceScreenshot": 625,
+    "sourceTest": 24,
+    "sourceQuestion": 1,
+    "question": "How old was the Queen of Scotland, Mary Stuart, when she became queen?",
+    "options": [
+      "Two years old",
+      "A month old",
+      "A week old",
+      "5 years old"
+    ],
+    "correctAnswers": [
+      "A week old"
+    ],
+    "explanation": "The queen of Scotland, Mary Stuart (often now called ‘Mary, Queen of Scots’) was a Catholic. She was only a week old when her father died and she became queen.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-626",
+    "sourceScreenshot": 626,
+    "sourceTest": 24,
+    "sourceQuestion": 2,
+    "question": "Where was the first tennis club founded?",
+    "options": [
+      "Brixton",
+      "Leamington Spa",
+      "Haywards Heath",
+      "St Andrews"
+    ],
+    "correctAnswers": [
+      "Leamington Spa"
+    ],
+    "explanation": "The first tennis club was founded in Leamington Spa in 1872.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-627",
+    "sourceScreenshot": 627,
+    "sourceTest": 24,
+    "sourceQuestion": 3,
+    "question": "Which British playwright invented many common English words and had a great influence on the English language?",
+    "options": [
+      "William Shakespeare",
+      "Graham Greene",
+      "Dylan Thomas",
+      "Harold Pinter"
+    ],
+    "correctAnswers": [
+      "William Shakespeare"
+    ],
+    "explanation": "William Shakespeare had a great influence on the English language and invented many words that are still common today.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-628",
+    "sourceScreenshot": 628,
+    "sourceTest": 24,
+    "sourceQuestion": 4,
+    "question": "In which city is the Northern Ireland Assembly building, also known as Stormont, located?",
+    "options": [
+      "London",
+      "Belfast",
+      "Cardiff",
+      "Dublin"
+    ],
+    "correctAnswers": [
+      "Belfast"
+    ],
+    "explanation": "The Northern Ireland Assembly building is known as Stormont and it is located in Belfast.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-629",
+    "sourceScreenshot": 629,
+    "sourceTest": 24,
+    "sourceQuestion": 5,
+    "question": "What proportion of the population died as a result of the Black Death in England?",
+    "options": [
+      "Half of the population",
+      "One third of the population",
+      "55% of the population",
+      "One quarter of the population"
+    ],
+    "correctAnswers": [
+      "One third of the population"
+    ],
+    "explanation": "As a result of the Black Death, one third of the population of England died and a similar proportion in Scotland and Wales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-630",
+    "sourceScreenshot": 630,
+    "sourceTest": 24,
+    "sourceQuestion": 6,
+    "question": "Which famous poem tells the story of the knights at the court of King Arthur?",
+    "options": [
+      "Beowulf",
+      "Paradise Lost",
+      "Sir Gawain and the Green Knight",
+      "King Arthur and his knights"
+    ],
+    "correctAnswers": [
+      "Sir Gawain and the Green Knight"
+    ],
+    "explanation": "Poems which survive from the Middle Ages include Chaucer’s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-631",
+    "sourceScreenshot": 631,
+    "sourceTest": 24,
+    "sourceQuestion": 7,
+    "question": "Which of the following is NOT a fundamental principle of British life?",
+    "options": [
+      "Tolerance of those with different faiths and beliefs",
+      "The rule of law",
+      "Autocracy",
+      "Democracy"
+    ],
+    "correctAnswers": [
+      "Autocracy"
+    ],
+    "explanation": "The fundamental principles of British life include: tolerance of those with different faiths and beliefs, the rule of law, democracy, individual liberty and participation in community life.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-632",
+    "sourceScreenshot": 632,
+    "sourceTest": 24,
+    "sourceQuestion": 8,
+    "question": "Which flower is associated with Northern Ireland?",
+    "options": [
+      "Daffodil",
+      "Rose",
+      "Thistle",
+      "Shamrock"
+    ],
+    "correctAnswers": [
+      "Shamrock"
+    ],
+    "explanation": "The shamrock is the flower associated with Northern Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-633",
+    "sourceScreenshot": 633,
+    "sourceTest": 24,
+    "sourceQuestion": 9,
+    "question": "The longest distance on the mainland in the UK is from John O’Groats on the north coast of Scotland to a place in the south-west corner of England known as:",
+    "options": [
+      "Land’s Point",
+      "Earth Point",
+      "Eastbourne",
+      "Land’s End"
+    ],
+    "correctAnswers": [
+      "Land’s End"
+    ],
+    "explanation": "The longest distance on the mainland is from John O’Groats on the north coast of Scotland to Land’s End in the south-west corner of England. It is about 870 miles (approximately 1,400 kilometres).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-634",
+    "sourceScreenshot": 634,
+    "sourceTest": 24,
+    "sourceQuestion": 10,
+    "question": "Who wrote a famous series of poems about a group of people going to Canterbury on a pilgrimage known as ‘The Canterbury Tales’?",
+    "options": [
+      "William Shakespeare",
+      "Geoffrey Chaucer",
+      "Jane Austen",
+      "Charles Dickens"
+    ],
+    "correctAnswers": [
+      "Geoffrey Chaucer"
+    ],
+    "explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-635",
+    "sourceScreenshot": 635,
+    "sourceTest": 24,
+    "sourceQuestion": 11,
+    "question": "Which of the following categories is recognised at the Laurence Olivier Awards?",
+    "options": [
+      "Music",
+      "Theatre",
+      "Sport",
+      "Literature"
+    ],
+    "correctAnswers": [
+      "Theatre"
+    ],
+    "explanation": "The Laurence Olivier Awards recognise achievements in the area of theatre.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-636",
+    "sourceScreenshot": 636,
+    "sourceTest": 24,
+    "sourceQuestion": 12,
+    "question": "In the UK, there is a National Lottery for which draws are made every day.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In the UK, there is a National Lottery for which draws are made every week.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-637",
+    "sourceScreenshot": 637,
+    "sourceTest": 24,
+    "sourceQuestion": 13,
+    "question": "Where is Europe’s longest dry ski slope located?",
+    "options": [
+      "Near Swansea, in Wales",
+      "Near Edinburgh, in Scotland",
+      "Near Glasgow, in Scotland",
+      "Near Belfast, in Northern Ireland"
+    ],
+    "correctAnswers": [
+      "Near Edinburgh, in Scotland"
+    ],
+    "explanation": "There are five ski centres in Scotland, as well as Europe’s longest dry ski slope near Edinburgh.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-638",
+    "sourceScreenshot": 638,
+    "sourceTest": 24,
+    "sourceQuestion": 14,
+    "question": "Which TWO of Henry VIII’s wives were accused of taking lovers and executed?",
+    "options": [
+      "Anne of Cleves",
+      "Catherine Howard",
+      "Catherine Parr",
+      "Anne Boleyn"
+    ],
+    "correctAnswers": [
+      "Catherine Howard",
+      "Anne Boleyn"
+    ],
+    "explanation": "Anne Boleyn and Catherine Howard were accused of taking lovers and executed.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-639",
+    "sourceScreenshot": 639,
+    "sourceTest": 24,
+    "sourceQuestion": 15,
+    "question": "Who is the head of state in the UK?",
+    "options": [
+      "The Prime Minister",
+      "King Charles III",
+      "Prince William of Wales",
+      "Prince Philip, the Duke of Edinburgh"
+    ],
+    "correctAnswers": [
+      "King Charles III"
+    ],
+    "explanation": "King Charles III is the head of state in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-640",
+    "sourceScreenshot": 640,
+    "sourceTest": 24,
+    "sourceQuestion": 16,
+    "question": "What was the population of the UK in 1600?",
+    "options": [
+      "Just over 3 million",
+      "Just over 4 million",
+      "Just under 3 million",
+      "Just over 5 million"
+    ],
+    "correctAnswers": [
+      "Just over 4 million"
+    ],
+    "explanation": "The population of the UK in 1600 was just over 4 million people.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-641",
+    "sourceScreenshot": 641,
+    "sourceTest": 24,
+    "sourceQuestion": 17,
+    "question": "What name is given to the 31st of December in Scotland?",
+    "options": [
+      "Hogmanay",
+      "Bonfire Night",
+      "Vaisakhi",
+      "Diwali"
+    ],
+    "correctAnswers": [
+      "Hogmanay"
+    ],
+    "explanation": "In Scotland, 31 December is called Hogmanay.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-642",
+    "sourceScreenshot": 642,
+    "sourceTest": 24,
+    "sourceQuestion": 18,
+    "question": "In which of the following languages is the life in the UK test NOT available?",
+    "options": [
+      "English",
+      "Scottish Gaelic",
+      "French",
+      "Welsh"
+    ],
+    "correctAnswers": [
+      "French"
+    ],
+    "explanation": "The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-643",
+    "sourceScreenshot": 643,
+    "sourceTest": 24,
+    "sourceQuestion": 19,
+    "question": "Which two scientists were successful at cloning the first mammal, Dolly the sheep?",
+    "options": [
+      "Sir Frank Whittle and Sir Christopher Cockerell",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Sir Ian Wilmut and Keith Campbell",
+      "Francis Creek and John Logie Baird"
+    ],
+    "correctAnswers": [
+      "Sir Ian Wilmut and Keith Campbell"
+    ],
+    "explanation": "In 1996, two British scientists, Sir Ian Wilmut and Keith Campbell, led a team which was the first to succeed in cloning a mammal, Dolly the sheep.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-644",
+    "sourceScreenshot": 644,
+    "sourceTest": 24,
+    "sourceQuestion": 20,
+    "question": "When is the Sikh Vaisakhi festival celebrated?",
+    "options": [
+      "14th of February",
+      "14th of April",
+      "30th of March",
+      "30th of April"
+    ],
+    "correctAnswers": [
+      "14th of April"
+    ],
+    "explanation": "Vaisakhi (also spelled Baisakhi) is a Sikh festival which celebrates the founding of the Sikh community known as the Khalsa. It is celebrated on the 14th of April each year with parades, dancing and singing.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-645",
+    "sourceScreenshot": 645,
+    "sourceTest": 24,
+    "sourceQuestion": 21,
+    "question": "Who were the Pre-Raphaelites?",
+    "options": [
+      "An important group of musicians from the 16th century",
+      "An important group who demanded the vote for the working classes",
+      "An important group of artists in the second half of the 19th century",
+      "A group of explorers who arrived in the south-east coast of Australia"
+    ],
+    "correctAnswers": [
+      "An important group of artists in the second half of the 19th century"
+    ],
+    "explanation": "The Pre-Raphaelites were an important group of artists in the second half of the 19th century. They painted detailed pictures on religious or literary themes in bright colours. The group included Holman Hunt, Dante Gabriel Rossetti and Sir John Millais.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-646",
+    "sourceScreenshot": 646,
+    "sourceTest": 24,
+    "sourceQuestion": 22,
+    "question": "When was St Pancras Station built?",
+    "options": [
+      "In the 18th century",
+      "In the 19th century",
+      "In the 20th century",
+      "In the 21st century"
+    ],
+    "correctAnswers": [
+      "In the 19th century"
+    ],
+    "explanation": "St Pancras Station was built in the 19th century.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-647",
+    "sourceScreenshot": 647,
+    "sourceTest": 24,
+    "sourceQuestion": 23,
+    "question": "Members of the Scottish Parliament (MSPs) are elected on the basis of:",
+    "options": [
+      "Proportional representation",
+      "Personal achievements",
+      "Instant run-off",
+      "First past the post system (the candidate who gets the most votes)"
+    ],
+    "correctAnswers": [
+      "Proportional representation"
+    ],
+    "explanation": "Members of the Scottish Parliament (MSPs) are elected by a form of proportional representation.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-648",
+    "sourceScreenshot": 648,
+    "sourceTest": 24,
+    "sourceQuestion": 24,
+    "question": "Which TWO of the following soap operas are popular in the UK?",
+    "options": [
+      "Braveheart",
+      "Coronation Street",
+      "EastEnders",
+      "Heroes"
+    ],
+    "correctAnswers": [
+      "Coronation Street",
+      "EastEnders"
+    ],
+    "explanation": "Popular programmes in the UK include regular soap operas such as Coronation Street and EastEnders.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

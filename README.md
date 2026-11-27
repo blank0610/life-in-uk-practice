@@ -125,5 +125,5 @@
 
 ## 2026-11-27：Test 20–40 扩容（第一批）
 - 两个 ZIP 共 825 张截图（#526–1350）；Test 20 的 24 题与原题 #502–525 对应，不重复录入。
-- Test 21 的 24 题已逐张核对、转录至 `site/data/additional-questions.js`；#552 为 #551 同题重复截图。Test 22–40 尚未完成导入。详见 [扩容记录](development/IMPORT_TESTS_20_40.md)。
+- Test 21 的 24 题已逐张核对、转录至 `site/data/additional-questions.js`；#552 为 #551 同题重复截图。Test 22 已逐题核图导入 24 道（#576–599），Test 23–40 尚未完成导入。详见 [扩容记录](development/IMPORT_TESTS_20_40.md)。
 - `bankCount` 及审核分包动态计算；原题 ID、个人学习记录、历史审核进度保留。

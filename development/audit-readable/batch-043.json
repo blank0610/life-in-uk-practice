@@ -103,5 +103,81 @@
       "France"
     ],
     "explanation": "During the Middle Ages, people came to England from abroad to trade and also to work. Many had special skills, such as weavers from France, engineers from Germany, glass manufacturers from Italy and canal builders from Holland."
+  },
+  {
+    "id": "zip-576",
+    "sourceScreenshot": 576,
+    "question": "What was the name of Sir Francis Drake’s ship and which was one of the first to sail around the world?",
+    "options": [
+      "The Golden Eye",
+      "The Golden Hind",
+      "Elizabeth",
+      "The Sharp"
+    ],
+    "correctAnswers": [
+      "The Golden Hind"
+    ],
+    "explanation": "Sir Francis Drake, one of the commanders in the defeat of the Spanish Armada, was one of the founders of England’s naval tradition. His ship, the Golden Hind, was one of the first to sail right around (‘circumnavigate’) the world."
+  },
+  {
+    "id": "zip-577",
+    "sourceScreenshot": 577,
+    "question": "To whom do new citizens have to swear or affirm loyalty as part of the citizenship ceremony?",
+    "options": [
+      "The Pope",
+      "The Prime Minister",
+      "The King",
+      "The Church of England"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": "New citizens swear or affirm loyalty to the King as part of the citizenship ceremony."
+  },
+  {
+    "id": "zip-578",
+    "sourceScreenshot": 578,
+    "question": "Why did Henry VIII marry Anne of Cleves?",
+    "options": [
+      "He was deeply in love",
+      "For political reasons",
+      "For her fortune",
+      "She was expecting a child"
+    ],
+    "correctAnswers": [
+      "For political reasons"
+    ],
+    "explanation": "Henry married Anne of Cleves for political reasons but divorced her soon after."
+  },
+  {
+    "id": "zip-579",
+    "sourceScreenshot": 579,
+    "question": "How many Formula 1 Grand Prix events are held in the UK every year?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctAnswers": [
+      "One"
+    ],
+    "explanation": "A Formula 1 Grand Prix event is held in the UK each year and a number of British Grand Prix drivers have won the Formula 1 World Championship."
+  },
+  {
+    "id": "zip-580",
+    "sourceScreenshot": 580,
+    "question": "How can you visit the UK Parliament (choose TWO options)?",
+    "options": [
+      "Arranging a tour through the visitor services",
+      "Writing to your local MP to ask for tickets",
+      "Queueing on the day at the public entrance",
+      "Contacting an MSP"
+    ],
+    "correctAnswers": [
+      "Writing to your local MP to ask for tickets",
+      "Queueing on the day at the public entrance"
+    ],
+    "explanation": "To visit the UK Parliament, you can write to your local MP in advance to ask for tickets or you can queue on the day at the public entrance."
   }
 ]

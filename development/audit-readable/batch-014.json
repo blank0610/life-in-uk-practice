@@ -63,12 +63,12 @@
     "question": "What was the population of the UK in 1801?",
     "options": [
       "5 million",
-      "$ million",
+      "8 million",
       "10 million",
       "12 million"
     ],
     "correctAnswers": [
-      "$ million"
+      "8 million"
     ],
     "explanation": "The population of the UK in 1801 was 8 million people."
   },

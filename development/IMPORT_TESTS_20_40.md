@@ -29,3 +29,6 @@
 - 最小语言修正：#639 head of the state→head of state；#642 解释 taken is English→taken in English；#643 原图 Sir Ian Wilmot→Sir Ian Wilmut（沿用旧题库已核对的专名拼写），答案选项与解释同步修改。原图 Francis Creek 干扰项保持不变，记录拼写疑点，不擅自改动。
 - 559→583 道，保留原有 ID、审核游标和历史，新增题同步进审核分包。PR #86 的部署工作流已成功。本批状态以 PR/CI/Pages 为准。
 - 用户要求持续导入至全部完成；实际核对现有每小时 Auto Run 仍启用，已将 487 固定轮次边界改为动态 bankCount，批大小读取 batchSize，原排程与巡检范围不变。
+
+## 指定题目复查：#186
+- 用户截图显示正确选项 `$ million`。打开旧 ZIP 原图 #186（Test 7 第15题）确认第二选项为 `8 million`，原图解释亦为 8 million。仅修正该选项及其答案对应关系；保留题干、其余选项、解释和历史学习 ID。加入数量单位前仅有货币符号的检查及回归测试。独立记录见 ON_DEMAND_CHECKS.json，不推进顺序审核索引。

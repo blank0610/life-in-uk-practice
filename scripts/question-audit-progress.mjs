@@ -12,6 +12,7 @@ export function textFindings(q){
   if(!Array.isArray(q.correctAnswers)||!q.correctAnswers.length||q.correctAnswers.some(a=>!options.includes(a)))issues.push("正确答案不在选项中");
   if(options.some(t=>/^\s*(?:incorrect|correct|explanation|your answer)\s*[:.,! ]/i.test(t)))issues.push("网页批改/解释可能误混进选项");
   if(options.some(t=>/\bAQ\s*days\b|\bO\d+%/i.test(t)))issues.push("数字与字母混淆");
+  if(options.some(t=>/^\s*[$£€]\s*(?:thousand|million|billion|trillion)\b/i.test(t)))issues.push("数量单位前缺少数字，疑似 OCR 误识别");
   if(question.length<18&&/[?？]/.test(question))issues.push("题干过短，原图可能被截断");
   if(!explanation)issues.push("缺少解释，需对照原图");
   return issues;

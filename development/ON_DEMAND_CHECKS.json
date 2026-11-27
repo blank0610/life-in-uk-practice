@@ -107,6 +107,31 @@
       "note": "打开用户原始 ZIP 内 螢幕擷取畫面 (517).png，逐字核对题干、四选项、绿色正确答案及完整解释。仅校正选项中的 Grown→Crown，并恢复照片中遗漏的最后一句；保留原来的题目、答案以及其他解释原文。之前每小时 Auto Run 已将此题登记为疑点（文字初检，图片未核实），本次由实际原图完成确认修正。顺序审核指针不因指定题目复查而前进。",
       "checkedAgainst": "用户原始 ZIP 螢幕擷取畫面 (517).png，未使用外部网页或事实搜索",
       "githubChange": "仅更新 zip-517 的第三个选项拼写，并从原图补回解释末句；增加原图回归测试与网站可见核对记录"
+    },
+    {
+      "id": "zip-186",
+      "sourceScreenshot": 186,
+      "question": "What was the population of the UK in 1801?",
+      "options": [
+        "5 million",
+        "8 million",
+        "10 million",
+        "12 million"
+      ],
+      "correctAnswers": [
+        "8 million"
+      ],
+      "explanation": "The population of the UK in 1801 was 8 million people.",
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-27T17:08:00Z",
+      "result": "corrected",
+      "findings": [
+        "原选项 $ million 应为 8 million；原始截图绿色高亮及解释均显示 8 million。"
+      ],
+      "checkedAgainst": "lift in uk QA 1.zip / 螢幕擷取畫面 (186).png；Test 7 Question 15",
+      "note": "实际打开原图逐字核对题干、四个选项、绿色高亮答案及完整解释。仅将第二个选项的 $ 恢复为 8，答案随选项下标更新；不推进顺序审核游标。",
+      "githubChange": "修正 OCR 数字、增加回归测试及数量单位缺数字检测；同步可读分包。"
     }
   ]
 }

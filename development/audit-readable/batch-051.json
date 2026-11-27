@@ -102,5 +102,78 @@
       "Christmas"
     ],
     "explanation": "Many theatres produce a pantomime at Christmas time."
+  },
+  {
+    "id": "zip-673",
+    "sourceScreenshot": 673,
+    "question": "How many weeks does the orchestral classical music event known as ‘the Proms’ last for?",
+    "options": [
+      "Three weeks",
+      "Four weeks",
+      "Six weeks",
+      "Eight weeks"
+    ],
+    "correctAnswers": [
+      "Eight weeks"
+    ],
+    "explanation": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London."
+  },
+  {
+    "id": "zip-674",
+    "sourceScreenshot": 674,
+    "question": "When did King Charles III start reigning?",
+    "options": [
+      "In 2020",
+      "In 2021",
+      "In 2022",
+      "In 2023"
+    ],
+    "correctAnswers": [
+      "In 2022"
+    ],
+    "explanation": "The King has reigned since his mother’s death in September 2022."
+  },
+  {
+    "id": "zip-675",
+    "sourceScreenshot": 675,
+    "question": "What did the Chartists campaign for?",
+    "options": [
+      "The right to vote for women over 30 years old",
+      "The right to vote for the working classes and other people without property",
+      "The right to vote for women and men over 30 years old",
+      "The right to vote for every citizen"
+    ],
+    "correctAnswers": [
+      "The right to vote for the working classes and other people without property"
+    ],
+    "explanation": "The Chartists demanded the vote for the working classes and other people without property."
+  },
+  {
+    "id": "zip-676",
+    "sourceScreenshot": 676,
+    "question": "What is the name of the land formation consisting of columns made of volcanic lava located on the north-east coast of Northern Ireland?",
+    "options": [
+      "Eden Project",
+      "The Giant’s Causeway",
+      "Loch Lomond",
+      "Snowdonia"
+    ],
+    "correctAnswers": [
+      "The Giant’s Causeway"
+    ],
+    "explanation": "Located on the north-east coast of Northern Ireland, the Giant’s Causeway is a land formation of columns made from volcanic lava."
+  },
+  {
+    "id": "zip-677",
+    "sourceScreenshot": 677,
+    "question": "Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
   }
 ]

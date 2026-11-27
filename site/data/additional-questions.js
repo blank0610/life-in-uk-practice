@@ -2143,6 +2143,863 @@ export const additionalQuestions = [
     ],
     "explanation": "Many theatres produce a pantomime at Christmas time.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-673",
+    "sourceScreenshot": 673,
+    "sourceTest": 26,
+    "sourceQuestion": 1,
+    "question": "How many weeks does the orchestral classical music event known as ‘the Proms’ last for?",
+    "options": [
+      "Three weeks",
+      "Four weeks",
+      "Six weeks",
+      "Eight weeks"
+    ],
+    "correctAnswers": [
+      "Eight weeks"
+    ],
+    "explanation": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-674",
+    "sourceScreenshot": 674,
+    "sourceTest": 26,
+    "sourceQuestion": 2,
+    "question": "When did King Charles III start reigning?",
+    "options": [
+      "In 2020",
+      "In 2021",
+      "In 2022",
+      "In 2023"
+    ],
+    "correctAnswers": [
+      "In 2022"
+    ],
+    "explanation": "The King has reigned since his mother’s death in September 2022.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-675",
+    "sourceScreenshot": 675,
+    "sourceTest": 26,
+    "sourceQuestion": 3,
+    "question": "What did the Chartists campaign for?",
+    "options": [
+      "The right to vote for women over 30 years old",
+      "The right to vote for the working classes and other people without property",
+      "The right to vote for women and men over 30 years old",
+      "The right to vote for every citizen"
+    ],
+    "correctAnswers": [
+      "The right to vote for the working classes and other people without property"
+    ],
+    "explanation": "The Chartists demanded the vote for the working classes and other people without property.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-676",
+    "sourceScreenshot": 676,
+    "sourceTest": 26,
+    "sourceQuestion": 4,
+    "question": "What is the name of the land formation consisting of columns made of volcanic lava located on the north-east coast of Northern Ireland?",
+    "options": [
+      "Eden Project",
+      "The Giant’s Causeway",
+      "Loch Lomond",
+      "Snowdonia"
+    ],
+    "correctAnswers": [
+      "The Giant’s Causeway"
+    ],
+    "explanation": "Located on the north-east coast of Northern Ireland, the Giant’s Causeway is a land formation of columns made from volcanic lava.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-677",
+    "sourceScreenshot": 677,
+    "sourceTest": 26,
+    "sourceQuestion": 5,
+    "question": "Members of the public are not allowed in Youth Courts, and the name or photographs of the accused young person cannot be published in newspapers or used by the media:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-678",
+    "sourceScreenshot": 678,
+    "sourceTest": 26,
+    "sourceQuestion": 6,
+    "question": "A set of principles by which a country is governed and which includes all of the institutions that are responsible for running the country and how their power is kept in check is the definition for:",
+    "options": [
+      "Revolution",
+      "Constitution",
+      "Monarchy",
+      "Democracy"
+    ],
+    "correctAnswers": [
+      "Constitution"
+    ],
+    "explanation": "A constitution is a set of principles by which a country is governed. It includes all of the institutions that are responsible for running the country and how their power is kept in check.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-679",
+    "sourceScreenshot": 679,
+    "sourceTest": 26,
+    "sourceQuestion": 7,
+    "question": "When did Emmeline Pankhurst die?",
+    "options": [
+      "1928",
+      "1935",
+      "1936",
+      "1930"
+    ],
+    "correctAnswers": [
+      "1928"
+    ],
+    "explanation": "Emmeline Pankhurst died in 1928. Shortly before Emmeline’s death, women were given the right to vote at the age of 21, the same as men.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-680",
+    "sourceScreenshot": 680,
+    "sourceTest": 26,
+    "sourceQuestion": 8,
+    "question": "What TWO houses were confronted during the Wars of the Roses?",
+    "options": [
+      "The House of Lancaster",
+      "The House of Leicester",
+      "The House of Canterbury",
+      "The House of York"
+    ],
+    "correctAnswers": [
+      "The House of Lancaster",
+      "The House of York"
+    ],
+    "explanation": "The Wars of the Roses were fought between the supporters of two families: the House of Lancaster and the House of York.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-681",
+    "sourceScreenshot": 681,
+    "sourceTest": 26,
+    "sourceQuestion": 9,
+    "question": "What is the National Anthem of the UK?",
+    "options": [
+      "God save the King",
+      "God save the Queen",
+      "United kingdoms",
+      "God save the land"
+    ],
+    "correctAnswers": [
+      "God save the King"
+    ],
+    "explanation": "The National Anthem of the UK is ‘God Save the King’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-682",
+    "sourceScreenshot": 682,
+    "sourceTest": 26,
+    "sourceQuestion": 10,
+    "question": "Who was the first woman to become Prime Minister in the UK?",
+    "options": [
+      "J K Rowling",
+      "Margaret Thatcher",
+      "Jane Austen",
+      "Hillary Clinton"
+    ],
+    "correctAnswers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher, Britain’s first woman Prime Minister, led the Conservative government from 1979 to 1990.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-683",
+    "sourceScreenshot": 683,
+    "sourceTest": 26,
+    "sourceQuestion": 11,
+    "question": "When did the Brexit referendum take place?",
+    "options": [
+      "23rd June 2016",
+      "23rd July 2016",
+      "23rd June 2015",
+      "23rd July 2015"
+    ],
+    "correctAnswers": [
+      "23rd June 2016"
+    ],
+    "explanation": "The referendum on the UK’s membership of the European Union or Brexit referendum was held on 23 June 2016.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-684",
+    "sourceScreenshot": 684,
+    "sourceTest": 26,
+    "sourceQuestion": 12,
+    "question": "Which one of the following gardens is located in Northern Ireland?",
+    "options": [
+      "Bodnant Garden",
+      "Mount Stewart",
+      "Sissinghurst",
+      "Hidcote"
+    ],
+    "correctAnswers": [
+      "Mount Stewart"
+    ],
+    "explanation": "Mount Stewart is located in Northern Ireland, Bodnant Garden in Wales and Sissinghurst and Hidcote in England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-685",
+    "sourceScreenshot": 685,
+    "sourceTest": 26,
+    "sourceQuestion": 13,
+    "question": "When is the Mercury Music Prize awarded?",
+    "options": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "correctAnswers": [
+      "September"
+    ],
+    "explanation": "The Mercury Music Prize is awarded each September for the best album from the UK and Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-686",
+    "sourceScreenshot": 686,
+    "sourceTest": 26,
+    "sourceQuestion": 14,
+    "question": "Which of the following statements is true?",
+    "options": [
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a university degree",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have British relatives",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have knowledge of the British laws"
+    ],
+    "correctAnswers": [
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK"
+    ],
+    "explanation": "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK and be able to speak and read English.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-687",
+    "sourceScreenshot": 687,
+    "sourceTest": 26,
+    "sourceQuestion": 15,
+    "question": "Who invented the cash-dispensing ATM (automatic teller machine) or ‘cashpoint’?",
+    "options": [
+      "Sir Peter Mansfield",
+      "James Goodfellow",
+      "Patrick Steptoe",
+      "Sir Tim Berners-Lee"
+    ],
+    "correctAnswers": [
+      "James Goodfellow"
+    ],
+    "explanation": "In the 1960s, James Goodfellow (1937-) invented the cash-dispensing ATM (automatic teller machine) or ‘cashpoint’. The first of these was put into use by Barclays Bank in Enfield, north London in 1967.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-688",
+    "sourceScreenshot": 688,
+    "sourceTest": 26,
+    "sourceQuestion": 16,
+    "question": "What is the name of the only ‘Grand Slam’ tennis event played on grass?",
+    "options": [
+      "The Australian open",
+      "The Wimbledon Championships",
+      "The U.S. open",
+      "The Queen’s open"
+    ],
+    "correctAnswers": [
+      "The Wimbledon Championships"
+    ],
+    "explanation": "The Wimbledon Championships is the oldest tennis tournament in the world and the only ‘Grand Slam’ event played on grass.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-689",
+    "sourceScreenshot": 689,
+    "sourceTest": 26,
+    "sourceQuestion": 17,
+    "question": "What is the meaning of the term ‘Habeas corpus’?",
+    "options": [
+      "You must present the person in court",
+      "You must obey the law",
+      "You should go to court",
+      "You should not be judged"
+    ],
+    "correctAnswers": [
+      "You must present the person in court"
+    ],
+    "explanation": "Habeas corpus is Latin for ‘you must present the person in court’. The Habeas Corpus Act guaranteed that no one could be held prisoner unlawfully. Every prisoner has a right to a court hearing.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-690",
+    "sourceScreenshot": 690,
+    "sourceTest": 26,
+    "sourceQuestion": 18,
+    "question": "What name is given to the candelabrum lit during the eight-day holiday of Hanukkah?",
+    "options": [
+      "Menorah",
+      "Diwali",
+      "Ramadan",
+      "Baisakhi"
+    ],
+    "correctAnswers": [
+      "Menorah"
+    ],
+    "explanation": "Hanukkah is in November or December and is celebrated for eight days. On each day of the festival a candle is lit on a stand of eight candles (called a menorah) to remember the story of the festival, where oil that should have lasted only a day did so for eight.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-691",
+    "sourceScreenshot": 691,
+    "sourceTest": 26,
+    "sourceQuestion": 19,
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "It is against the law to walk your dog on the beach",
+      "It is against the law to treat a pet cruelly or to neglect it",
+      "It is against the law to take pets into public places",
+      "It is against the law to feed your pet in public places"
+    ],
+    "correctAnswers": [
+      "It is against the law to treat a pet cruelly or to neglect it"
+    ],
+    "explanation": "It is against the law to treat a pet cruelly or to neglect it.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-692",
+    "sourceScreenshot": 692,
+    "sourceTest": 26,
+    "sourceQuestion": 20,
+    "question": "Which German princess got married to Henry VIII?",
+    "options": [
+      "Jane Seymour",
+      "Anne of Cleves",
+      "Catherine Parr",
+      "Anne Boleyn"
+    ],
+    "correctAnswers": [
+      "Anne of Cleves"
+    ],
+    "explanation": "Anne of Cleves was a German princess who married Henry VIII for political reasons.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-693",
+    "sourceScreenshot": 693,
+    "sourceTest": 26,
+    "sourceQuestion": 21,
+    "question": "In which of the following matters can the Scottish Parliament legislate (choose FIVE options)?",
+    "options": [
+      "Additional tax-raising powers",
+      "Economic development",
+      "Health",
+      "Education",
+      "Civil and criminal law",
+      "Immigration",
+      "Planning"
+    ],
+    "correctAnswers": [
+      "Additional tax-raising powers",
+      "Health",
+      "Education",
+      "Civil and criminal law",
+      "Planning"
+    ],
+    "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and … [Remainder obscured in the source screenshot.]",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-694",
+    "sourceScreenshot": 694,
+    "sourceTest": 26,
+    "sourceQuestion": 22,
+    "question": "Drinking in public can be a criminal offence and you can be fined or arrested for it:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Drinking in public: some places have alcohol-free zones where you cannot drink in public. The police can also confiscate alcohol or move young people on from public places. You can be fined or arrested.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-695",
+    "sourceScreenshot": 695,
+    "sourceTest": 26,
+    "sourceQuestion": 23,
+    "question": "What was the most spoken language during the Iron Age?",
+    "options": [
+      "Anglo-Saxon",
+      "French",
+      "Celtic",
+      "Irish"
+    ],
+    "correctAnswers": [
+      "Celtic"
+    ],
+    "explanation": "The language spoken during the Iron Age was part of the Celtic language family.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-696",
+    "sourceScreenshot": 696,
+    "sourceTest": 26,
+    "sourceQuestion": 24,
+    "question": "What charity works for the preservation of important buildings, coastline and countryside in the UK?",
+    "options": [
+      "The National Trust",
+      "The RSPB",
+      "Shelter",
+      "Oxfam"
+    ],
+    "correctAnswers": [
+      "The National Trust"
+    ],
+    "explanation": "The National Trust works for the preservation of important buildings, coastline and countryside in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-697",
+    "sourceScreenshot": 697,
+    "sourceTest": 27,
+    "sourceQuestion": 1,
+    "question": "When did Henry VIII die?",
+    "options": [
+      "In January 1547",
+      "In January 1557",
+      "In February 1547",
+      "In February 1557"
+    ],
+    "correctAnswers": [
+      "In January 1547"
+    ],
+    "explanation": "Henry VIII died on the 28th of January 1547.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-698",
+    "sourceScreenshot": 698,
+    "sourceTest": 27,
+    "sourceQuestion": 2,
+    "question": "Which of the following lines from Shakespeare’s plays and poems is often still quoted?",
+    "options": [
+      "The Darling buds of May",
+      "I have nothing to offer but blood, toil, tears and sweat",
+      "Long live our noble King",
+      "God save the King"
+    ],
+    "correctAnswers": [
+      "The Darling buds of May"
+    ],
+    "explanation": "‘The darling buds of May’ is a line from William Shakespeare’s play Sonnet 18 – Shall I Compare Thee To A Summer’s Day.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-699",
+    "sourceScreenshot": 699,
+    "sourceTest": 27,
+    "sourceQuestion": 3,
+    "question": "Which TWO of the following are fundamental principles of British life?",
+    "options": [
+      "Tolerance of those with different faiths and beliefs",
+      "Buying food from local business",
+      "The rule of law",
+      "Doing the military service"
+    ],
+    "correctAnswers": [
+      "Tolerance of those with different faiths and beliefs",
+      "The rule of law"
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs and the rule of law are fundamental principles of British life.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-700",
+    "sourceScreenshot": 700,
+    "sourceTest": 27,
+    "sourceQuestion": 4,
+    "question": "What is the capital city of the UK?",
+    "options": [
+      "Manchester",
+      "Liverpool",
+      "London",
+      "Cambridge"
+    ],
+    "correctAnswers": [
+      "London"
+    ],
+    "explanation": "The capital city of the UK is London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-701",
+    "sourceScreenshot": 701,
+    "sourceTest": 27,
+    "sourceQuestion": 5,
+    "question": "Which of the following statements about Mary, Queen of Scotland, is NOT true?",
+    "options": [
+      "She spent most of her childhood in France",
+      "She was a Protestant",
+      "She gave her throne to her Protestant son, James VI of Scotland.",
+      "She was kept prisoner for 20 years"
+    ],
+    "correctAnswers": [
+      "She was a Protestant"
+    ],
+    "explanation": "The queen of Scotland, Mary Stuart (often now called ‘Mary, Queen of Scots’) was a Catholic.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-702",
+    "sourceScreenshot": 702,
+    "sourceTest": 27,
+    "sourceQuestion": 6,
+    "question": "When did Ireland become unified with England, Wales and Scotland?",
+    "options": [
+      "In 1801",
+      "In 1811",
+      "In 1901",
+      "In 1925"
+    ],
+    "correctAnswers": [
+      "In 1801"
+    ],
+    "explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-703",
+    "sourceScreenshot": 703,
+    "sourceTest": 27,
+    "sourceQuestion": 7,
+    "question": "What is Hogmanay?",
+    "options": [
+      "The equivalent of Christmas Day in Scotland",
+      "The equivalent of New Year’s Eve in Scotland",
+      "The equivalent of Christmas Day in Wales",
+      "The equivalent of New Year’s Eve in Wales"
+    ],
+    "correctAnswers": [
+      "The equivalent of New Year’s Eve in Scotland"
+    ],
+    "explanation": "In Scotland, the 31st of December is called Hogmanay.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-704",
+    "sourceScreenshot": 704,
+    "sourceTest": 27,
+    "sourceQuestion": 8,
+    "question": "The devolved administrations of Wales, Scotland and Northern Ireland each have their own civil service:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The devolved administrations each have their own civil service.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-706",
+    "sourceScreenshot": 706,
+    "sourceTest": 27,
+    "sourceQuestion": 9,
+    "question": "On Remembrance Day, there is a two-minute silence at 11 AM to commemorate those who died fighting during the First World War.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "On Remembrance Day at 11.00 am there is a two-minute silence and wreaths are laid at the Cenotaph in Whitehall, London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-707",
+    "sourceScreenshot": 707,
+    "sourceTest": 27,
+    "sourceQuestion": 10,
+    "question": "What is the distance between the north coast of Scotland and the south-west corner of England?",
+    "options": [
+      "470 miles",
+      "490 miles",
+      "840 miles",
+      "870 miles"
+    ],
+    "correctAnswers": [
+      "870 miles"
+    ],
+    "explanation": "In the UK, the longest distance on the mainland is from John O’Groats on the north coast of Scotland to Land’s End in the south-west corner of England. It is about 870 miles (approximately 1,400 kilometres).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-708",
+    "sourceScreenshot": 708,
+    "sourceTest": 27,
+    "sourceQuestion": 11,
+    "question": "Who was Henry Purcell?",
+    "options": [
+      "A German-born composer",
+      "An organist at Westminster Abbey",
+      "An opera composer",
+      "A jazz musician"
+    ],
+    "correctAnswers": [
+      "An organist at Westminster Abbey"
+    ],
+    "explanation": "Henry Purcell (1659-95) was the organist at Westminster Abbey. He wrote church music, operas and other pieces, and developed a British style distinct from that elsewhere in Europe.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-709",
+    "sourceScreenshot": 709,
+    "sourceTest": 27,
+    "sourceQuestion": 12,
+    "question": "How are life peers appointed?",
+    "options": [
+      "By the monarch on the advice of the Prime Minister",
+      "By the Prime Minister on the advice of the King",
+      "By the shadow cabinet",
+      "By the MPs"
+    ],
+    "correctAnswers": [
+      "By the monarch on the advice of the Prime Minister"
+    ],
+    "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-710",
+    "sourceScreenshot": 710,
+    "sourceTest": 27,
+    "sourceQuestion": 13,
+    "question": "Where is the Giant’s Causeway located?",
+    "options": [
+      "Northern Ireland",
+      "Scotland",
+      "South-east coast of Wales",
+      "South-west coast of England"
+    ],
+    "correctAnswers": [
+      "Northern Ireland"
+    ],
+    "explanation": "The Giant’s Causeway is located on the north-east coast of Northern Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-711",
+    "sourceScreenshot": 711,
+    "sourceTest": 27,
+    "sourceQuestion": 14,
+    "question": "Who proposed that enemy aircraft could be detected by radio waves and is responsible for the development of radar?",
+    "options": [
+      "Sir Robert Watson-Watt",
+      "John McLeod",
+      "John Logie Baird",
+      "Alan Turing"
+    ],
+    "correctAnswers": [
+      "Sir Robert Watson-Watt"
+    ],
+    "explanation": "The radar was developed by Scotsman Sir Robert Watson-Watt (1892-1973), who proposed that enemy aircraft could be detected by radio waves. The first successful radar test took place in 1935.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-712",
+    "sourceScreenshot": 712,
+    "sourceTest": 27,
+    "sourceQuestion": 15,
+    "question": "During Halloween people carve lanterns out of ______ and put a candle inside of them.",
+    "options": [
+      "Pumpkins",
+      "Aubergines",
+      "Clay",
+      "Potatoes"
+    ],
+    "correctAnswers": [
+      "Pumpkins"
+    ],
+    "explanation": "During Halloween people carve lanterns out of pumpkins and put a candle inside of them.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-713",
+    "sourceScreenshot": 713,
+    "sourceTest": 27,
+    "sourceQuestion": 16,
+    "question": "In England, Wales and Northern Ireland, if an accused person is aged 18, the case will be heard in a Youth Court:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-714",
+    "sourceScreenshot": 714,
+    "sourceTest": 27,
+    "sourceQuestion": 17,
+    "question": "The Prime Minister appoints about 40 senior MPs to become ministers in charge of departments.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Prime Minister appoints about 20 senior MPs to become ministers in charge of departments.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-715",
+    "sourceScreenshot": 715,
+    "sourceTest": 27,
+    "sourceQuestion": 18,
+    "question": "Royal Ascot is a four-day horse race meeting in Berkshire attended by members of the Royal Family:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Royal Ascot is a five-day race meeting in Berkshire attended by members of the Royal Family.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-716",
+    "sourceScreenshot": 716,
+    "sourceTest": 27,
+    "sourceQuestion": 19,
+    "question": "Who sat in the House of Lords during the Middle Ages?",
+    "options": [
+      "Great landowners and bishops",
+      "Knights, who were usually smaller landowners",
+      "Wealthy people from towns and cities",
+      "Farmers and blacksmiths"
+    ],
+    "correctAnswers": [
+      "Great landowners and bishops"
+    ],
+    "explanation": "During the Middle Ages, great landowners and bishops sat in the House of Lords.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-717",
+    "sourceScreenshot": 717,
+    "sourceTest": 27,
+    "sourceQuestion": 20,
+    "question": "Which of the following statements regarding Scottish television is TRUE?",
+    "options": [
+      "There is a channel with programmes in the Gaelic language",
+      "There are three channels in the Gaelic language",
+      "All programmes are broadcast in English",
+      "There are no specific programmes to Scotland"
+    ],
+    "correctAnswers": [
+      "There is a channel with programmes in the Gaelic language"
+    ],
+    "explanation": "In Scotland, some Scotland-specific programmes are shown and there is also a channel with programmes in the Gaelic language.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-718",
+    "sourceScreenshot": 718,
+    "sourceTest": 27,
+    "sourceQuestion": 21,
+    "question": "Where does the biggest and most well-known Fringe Festival take place?",
+    "options": [
+      "Cambridge",
+      "Oxford",
+      "Edinburgh",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "Edinburgh"
+    ],
+    "explanation": "The biggest and most well-known Fringe Festival is the Edinburgh Festival Fringe.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-719",
+    "sourceScreenshot": 719,
+    "sourceTest": 27,
+    "sourceQuestion": 22,
+    "question": "The UN was set up after the First World War and aims to prevent war and promote international peace and security:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The UN was set up after the Second World War and aims to prevent war and promote international peace and security.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-720",
+    "sourceScreenshot": 720,
+    "sourceTest": 27,
+    "sourceQuestion": 23,
+    "question": "Which of the following countries was NOT part of the Central Powers during the First World War?",
+    "options": [
+      "Germany",
+      "Serbia",
+      "Austria",
+      "Hungary"
+    ],
+    "correctAnswers": [
+      "Serbia"
+    ],
+    "explanation": "During the First World War Serbia formed part of the Allied powers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-721",
+    "sourceScreenshot": 721,
+    "sourceTest": 27,
+    "sourceQuestion": 24,
+    "question": "What is played at important national occasions and at events attended by the King or the Royal Family?",
+    "options": [
+      "Folk music",
+      "The Beatles",
+      "The National Anthem",
+      "Opera music"
+    ],
+    "correctAnswers": [
+      "The National Anthem"
+    ],
+    "explanation": "The National Anthem of the UK is ‘God Save the King’ and is played at important national occasions and at events attended by the King or the Royal Family.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

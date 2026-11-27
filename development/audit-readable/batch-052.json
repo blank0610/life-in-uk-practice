@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-678",
+    "sourceScreenshot": 678,
+    "question": "A set of principles by which a country is governed and which includes all of the institutions that are responsible for running the country and how their power is kept in check is the definition for:",
+    "options": [
+      "Revolution",
+      "Constitution",
+      "Monarchy",
+      "Democracy"
+    ],
+    "correctAnswers": [
+      "Constitution"
+    ],
+    "explanation": "A constitution is a set of principles by which a country is governed. It includes all of the institutions that are responsible for running the country and how their power is kept in check."
+  },
+  {
+    "id": "zip-679",
+    "sourceScreenshot": 679,
+    "question": "When did Emmeline Pankhurst die?",
+    "options": [
+      "1928",
+      "1935",
+      "1936",
+      "1930"
+    ],
+    "correctAnswers": [
+      "1928"
+    ],
+    "explanation": "Emmeline Pankhurst died in 1928. Shortly before Emmeline’s death, women were given the right to vote at the age of 21, the same as men."
+  },
+  {
+    "id": "zip-680",
+    "sourceScreenshot": 680,
+    "question": "What TWO houses were confronted during the Wars of the Roses?",
+    "options": [
+      "The House of Lancaster",
+      "The House of Leicester",
+      "The House of Canterbury",
+      "The House of York"
+    ],
+    "correctAnswers": [
+      "The House of Lancaster",
+      "The House of York"
+    ],
+    "explanation": "The Wars of the Roses were fought between the supporters of two families: the House of Lancaster and the House of York."
+  },
+  {
+    "id": "zip-681",
+    "sourceScreenshot": 681,
+    "question": "What is the National Anthem of the UK?",
+    "options": [
+      "God save the King",
+      "God save the Queen",
+      "United kingdoms",
+      "God save the land"
+    ],
+    "correctAnswers": [
+      "God save the King"
+    ],
+    "explanation": "The National Anthem of the UK is ‘God Save the King’."
+  },
+  {
+    "id": "zip-682",
+    "sourceScreenshot": 682,
+    "question": "Who was the first woman to become Prime Minister in the UK?",
+    "options": [
+      "J K Rowling",
+      "Margaret Thatcher",
+      "Jane Austen",
+      "Hillary Clinton"
+    ],
+    "correctAnswers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher, Britain’s first woman Prime Minister, led the Conservative government from 1979 to 1990."
+  },
+  {
+    "id": "zip-683",
+    "sourceScreenshot": 683,
+    "question": "When did the Brexit referendum take place?",
+    "options": [
+      "23rd June 2016",
+      "23rd July 2016",
+      "23rd June 2015",
+      "23rd July 2015"
+    ],
+    "correctAnswers": [
+      "23rd June 2016"
+    ],
+    "explanation": "The referendum on the UK’s membership of the European Union or Brexit referendum was held on 23 June 2016."
+  },
+  {
+    "id": "zip-684",
+    "sourceScreenshot": 684,
+    "question": "Which one of the following gardens is located in Northern Ireland?",
+    "options": [
+      "Bodnant Garden",
+      "Mount Stewart",
+      "Sissinghurst",
+      "Hidcote"
+    ],
+    "correctAnswers": [
+      "Mount Stewart"
+    ],
+    "explanation": "Mount Stewart is located in Northern Ireland, Bodnant Garden in Wales and Sissinghurst and Hidcote in England."
+  },
+  {
+    "id": "zip-685",
+    "sourceScreenshot": 685,
+    "question": "When is the Mercury Music Prize awarded?",
+    "options": [
+      "July",
+      "August",
+      "September",
+      "October"
+    ],
+    "correctAnswers": [
+      "September"
+    ],
+    "explanation": "The Mercury Music Prize is awarded each September for the best album from the UK and Ireland."
+  },
+  {
+    "id": "zip-686",
+    "sourceScreenshot": 686,
+    "question": "Which of the following statements is true?",
+    "options": [
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a university degree",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have British relatives",
+      "To apply to become a permanent resident or citizen of the UK, you will need to have knowledge of the British laws"
+    ],
+    "correctAnswers": [
+      "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK"
+    ],
+    "explanation": "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK and be able to speak and read English."
+  },
+  {
+    "id": "zip-687",
+    "sourceScreenshot": 687,
+    "question": "Who invented the cash-dispensing ATM (automatic teller machine) or ‘cashpoint’?",
+    "options": [
+      "Sir Peter Mansfield",
+      "James Goodfellow",
+      "Patrick Steptoe",
+      "Sir Tim Berners-Lee"
+    ],
+    "correctAnswers": [
+      "James Goodfellow"
+    ],
+    "explanation": "In the 1960s, James Goodfellow (1937-) invented the cash-dispensing ATM (automatic teller machine) or ‘cashpoint’. The first of these was put into use by Barclays Bank in Enfield, north London in 1967."
+  },
+  {
+    "id": "zip-688",
+    "sourceScreenshot": 688,
+    "question": "What is the name of the only ‘Grand Slam’ tennis event played on grass?",
+    "options": [
+      "The Australian open",
+      "The Wimbledon Championships",
+      "The U.S. open",
+      "The Queen’s open"
+    ],
+    "correctAnswers": [
+      "The Wimbledon Championships"
+    ],
+    "explanation": "The Wimbledon Championships is the oldest tennis tournament in the world and the only ‘Grand Slam’ event played on grass."
+  },
+  {
+    "id": "zip-689",
+    "sourceScreenshot": 689,
+    "question": "What is the meaning of the term ‘Habeas corpus’?",
+    "options": [
+      "You must present the person in court",
+      "You must obey the law",
+      "You should go to court",
+      "You should not be judged"
+    ],
+    "correctAnswers": [
+      "You must present the person in court"
+    ],
+    "explanation": "Habeas corpus is Latin for ‘you must present the person in court’. The Habeas Corpus Act guaranteed that no one could be held prisoner unlawfully. Every prisoner has a right to a court hearing."
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "zip-690",
+    "sourceScreenshot": 690,
+    "question": "What name is given to the candelabrum lit during the eight-day holiday of Hanukkah?",
+    "options": [
+      "Menorah",
+      "Diwali",
+      "Ramadan",
+      "Baisakhi"
+    ],
+    "correctAnswers": [
+      "Menorah"
+    ],
+    "explanation": "Hanukkah is in November or December and is celebrated for eight days. On each day of the festival a candle is lit on a stand of eight candles (called a menorah) to remember the story of the festival, where oil that should have lasted only a day did so for eight."
+  },
+  {
+    "id": "zip-691",
+    "sourceScreenshot": 691,
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "It is against the law to walk your dog on the beach",
+      "It is against the law to treat a pet cruelly or to neglect it",
+      "It is against the law to take pets into public places",
+      "It is against the law to feed your pet in public places"
+    ],
+    "correctAnswers": [
+      "It is against the law to treat a pet cruelly or to neglect it"
+    ],
+    "explanation": "It is against the law to treat a pet cruelly or to neglect it."
+  },
+  {
+    "id": "zip-692",
+    "sourceScreenshot": 692,
+    "question": "Which German princess got married to Henry VIII?",
+    "options": [
+      "Jane Seymour",
+      "Anne of Cleves",
+      "Catherine Parr",
+      "Anne Boleyn"
+    ],
+    "correctAnswers": [
+      "Anne of Cleves"
+    ],
+    "explanation": "Anne of Cleves was a German princess who married Henry VIII for political reasons."
+  },
+  {
+    "id": "zip-693",
+    "sourceScreenshot": 693,
+    "question": "In which of the following matters can the Scottish Parliament legislate (choose FIVE options)?",
+    "options": [
+      "Additional tax-raising powers",
+      "Economic development",
+      "Health",
+      "Education",
+      "Civil and criminal law",
+      "Immigration",
+      "Planning"
+    ],
+    "correctAnswers": [
+      "Additional tax-raising powers",
+      "Health",
+      "Education",
+      "Civil and criminal law",
+      "Planning"
+    ],
+    "explanation": "The Scottish Parliament can legislate on: civil and criminal law, health, education, planning and … [Remainder obscured in the source screenshot.]"
+  },
+  {
+    "id": "zip-694",
+    "sourceScreenshot": 694,
+    "question": "Drinking in public can be a criminal offence and you can be fined or arrested for it:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Drinking in public: some places have alcohol-free zones where you cannot drink in public. The police can also confiscate alcohol or move young people on from public places. You can be fined or arrested."
+  },
+  {
+    "id": "zip-695",
+    "sourceScreenshot": 695,
+    "question": "What was the most spoken language during the Iron Age?",
+    "options": [
+      "Anglo-Saxon",
+      "French",
+      "Celtic",
+      "Irish"
+    ],
+    "correctAnswers": [
+      "Celtic"
+    ],
+    "explanation": "The language spoken during the Iron Age was part of the Celtic language family."
+  },
+  {
+    "id": "zip-696",
+    "sourceScreenshot": 696,
+    "question": "What charity works for the preservation of important buildings, coastline and countryside in the UK?",
+    "options": [
+      "The National Trust",
+      "The RSPB",
+      "Shelter",
+      "Oxfam"
+    ],
+    "correctAnswers": [
+      "The National Trust"
+    ],
+    "explanation": "The National Trust works for the preservation of important buildings, coastline and countryside in the UK."
+  },
+  {
+    "id": "zip-697",
+    "sourceScreenshot": 697,
+    "question": "When did Henry VIII die?",
+    "options": [
+      "In January 1547",
+      "In January 1557",
+      "In February 1547",
+      "In February 1557"
+    ],
+    "correctAnswers": [
+      "In January 1547"
+    ],
+    "explanation": "Henry VIII died on the 28th of January 1547."
+  },
+  {
+    "id": "zip-698",
+    "sourceScreenshot": 698,
+    "question": "Which of the following lines from Shakespeare’s plays and poems is often still quoted?",
+    "options": [
+      "The Darling buds of May",
+      "I have nothing to offer but blood, toil, tears and sweat",
+      "Long live our noble King",
+      "God save the King"
+    ],
+    "correctAnswers": [
+      "The Darling buds of May"
+    ],
+    "explanation": "‘The darling buds of May’ is a line from William Shakespeare’s play Sonnet 18 – Shall I Compare Thee To A Summer’s Day."
+  },
+  {
+    "id": "zip-699",
+    "sourceScreenshot": 699,
+    "question": "Which TWO of the following are fundamental principles of British life?",
+    "options": [
+      "Tolerance of those with different faiths and beliefs",
+      "Buying food from local business",
+      "The rule of law",
+      "Doing the military service"
+    ],
+    "correctAnswers": [
+      "Tolerance of those with different faiths and beliefs",
+      "The rule of law"
+    ],
+    "explanation": "Tolerance of those with different faiths and beliefs and the rule of law are fundamental principles of British life."
+  },
+  {
+    "id": "zip-700",
+    "sourceScreenshot": 700,
+    "question": "What is the capital city of the UK?",
+    "options": [
+      "Manchester",
+      "Liverpool",
+      "London",
+      "Cambridge"
+    ],
+    "correctAnswers": [
+      "London"
+    ],
+    "explanation": "The capital city of the UK is London."
+  },
+  {
+    "id": "zip-701",
+    "sourceScreenshot": 701,
+    "question": "Which of the following statements about Mary, Queen of Scotland, is NOT true?",
+    "options": [
+      "She spent most of her childhood in France",
+      "She was a Protestant",
+      "She gave her throne to her Protestant son, James VI of Scotland.",
+      "She was kept prisoner for 20 years"
+    ],
+    "correctAnswers": [
+      "She was a Protestant"
+    ],
+    "explanation": "The queen of Scotland, Mary Stuart (often now called ‘Mary, Queen of Scots’) was a Catholic."
+  }
+]

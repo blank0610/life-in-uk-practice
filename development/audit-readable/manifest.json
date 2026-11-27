@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "网站已应用所有拼写校正后的真实题库",
-  "questionCount": 655,
+  "questionCount": 705,
   "batchSize": 12,
   "batches": [
     {
@@ -439,10 +439,42 @@
     {
       "file": "batch-055.json",
       "fromIndex": 648,
-      "toIndexExclusive": 655,
-      "count": 7,
+      "toIndexExclusive": 660,
+      "count": 12,
       "firstId": "zip-715",
-      "lastId": "zip-721"
+      "lastId": "zip-752"
+    },
+    {
+      "file": "batch-056.json",
+      "fromIndex": 660,
+      "toIndexExclusive": 672,
+      "count": 12,
+      "firstId": "zip-753",
+      "lastId": "zip-764"
+    },
+    {
+      "file": "batch-057.json",
+      "fromIndex": 672,
+      "toIndexExclusive": 684,
+      "count": 12,
+      "firstId": "zip-765",
+      "lastId": "zip-776"
+    },
+    {
+      "file": "batch-058.json",
+      "fromIndex": 684,
+      "toIndexExclusive": 696,
+      "count": 12,
+      "firstId": "zip-777",
+      "lastId": "zip-788"
+    },
+    {
+      "file": "batch-059.json",
+      "fromIndex": 696,
+      "toIndexExclusive": 705,
+      "count": 9,
+      "firstId": "zip-789",
+      "lastId": "zip-797"
     }
   ]
 }

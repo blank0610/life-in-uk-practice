@@ -1,0 +1,103 @@
+[
+  {
+    "id": "zip-715",
+    "sourceScreenshot": 715,
+    "question": "Royal Ascot is a four-day horse race meeting in Berkshire attended by members of the Royal Family:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Royal Ascot is a five-day race meeting in Berkshire attended by members of the Royal Family."
+  },
+  {
+    "id": "zip-716",
+    "sourceScreenshot": 716,
+    "question": "Who sat in the House of Lords during the Middle Ages?",
+    "options": [
+      "Great landowners and bishops",
+      "Knights, who were usually smaller landowners",
+      "Wealthy people from towns and cities",
+      "Farmers and blacksmiths"
+    ],
+    "correctAnswers": [
+      "Great landowners and bishops"
+    ],
+    "explanation": "During the Middle Ages, great landowners and bishops sat in the House of Lords."
+  },
+  {
+    "id": "zip-717",
+    "sourceScreenshot": 717,
+    "question": "Which of the following statements regarding Scottish television is TRUE?",
+    "options": [
+      "There is a channel with programmes in the Gaelic language",
+      "There are three channels in the Gaelic language",
+      "All programmes are broadcast in English",
+      "There are no specific programmes to Scotland"
+    ],
+    "correctAnswers": [
+      "There is a channel with programmes in the Gaelic language"
+    ],
+    "explanation": "In Scotland, some Scotland-specific programmes are shown and there is also a channel with programmes in the Gaelic language."
+  },
+  {
+    "id": "zip-718",
+    "sourceScreenshot": 718,
+    "question": "Where does the biggest and most well-known Fringe Festival take place?",
+    "options": [
+      "Cambridge",
+      "Oxford",
+      "Edinburgh",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "Edinburgh"
+    ],
+    "explanation": "The biggest and most well-known Fringe Festival is the Edinburgh Festival Fringe."
+  },
+  {
+    "id": "zip-719",
+    "sourceScreenshot": 719,
+    "question": "The UN was set up after the First World War and aims to prevent war and promote international peace and security:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The UN was set up after the Second World War and aims to prevent war and promote international peace and security."
+  },
+  {
+    "id": "zip-720",
+    "sourceScreenshot": 720,
+    "question": "Which of the following countries was NOT part of the Central Powers during the First World War?",
+    "options": [
+      "Germany",
+      "Serbia",
+      "Austria",
+      "Hungary"
+    ],
+    "correctAnswers": [
+      "Serbia"
+    ],
+    "explanation": "During the First World War Serbia formed part of the Allied powers."
+  },
+  {
+    "id": "zip-721",
+    "sourceScreenshot": 721,
+    "question": "What is played at important national occasions and at events attended by the King or the Royal Family?",
+    "options": [
+      "Folk music",
+      "The Beatles",
+      "The National Anthem",
+      "Opera music"
+    ],
+    "correctAnswers": [
+      "The National Anthem"
+    ],
+    "explanation": "The National Anthem of the UK is ‘God Save the King’ and is played at important national occasions and at events attended by the King or the Royal Family."
+  }
+]

@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -29,4 +30,22 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      - name: Wait for uploaded Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # The upload API may acknowledge an artifact before the run's metadata lists it.
+          # Fail explicitly after a bounded wait instead of attempting a stale deployment.
+          for attempt in $(seq 1 12); do
+            if artifact_id=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" --jq '.artifacts[] | select(.name == "github-pages" and .expired == false) | .id'); then
+              if [ -n "$artifact_id" ]; then
+                echo "Pages artifact available: $artifact_id"
+                exit 0
+              fi
+            fi
+            echo "Waiting for Pages artifact metadata (attempt $attempt)"
+            sleep 5
+          done
+          echo "::error::Pages artifact metadata was not available after the bounded wait."
+          exit 1
       - uses: actions/deploy-pages@v4

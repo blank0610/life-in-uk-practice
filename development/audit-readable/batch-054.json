@@ -1,0 +1,174 @@
+[
+  {
+    "id": "zip-702",
+    "sourceScreenshot": 702,
+    "question": "When did Ireland become unified with England, Wales and Scotland?",
+    "options": [
+      "In 1801",
+      "In 1811",
+      "In 1901",
+      "In 1925"
+    ],
+    "correctAnswers": [
+      "In 1801"
+    ],
+    "explanation": "In 1801, Ireland became unified with England, Scotland and Wales after the Act of Union of 1800. This created the United Kingdom of Great Britain and Ireland."
+  },
+  {
+    "id": "zip-703",
+    "sourceScreenshot": 703,
+    "question": "What is Hogmanay?",
+    "options": [
+      "The equivalent of Christmas Day in Scotland",
+      "The equivalent of New Year’s Eve in Scotland",
+      "The equivalent of Christmas Day in Wales",
+      "The equivalent of New Year’s Eve in Wales"
+    ],
+    "correctAnswers": [
+      "The equivalent of New Year’s Eve in Scotland"
+    ],
+    "explanation": "In Scotland, the 31st of December is called Hogmanay."
+  },
+  {
+    "id": "zip-704",
+    "sourceScreenshot": 704,
+    "question": "The devolved administrations of Wales, Scotland and Northern Ireland each have their own civil service:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The devolved administrations each have their own civil service."
+  },
+  {
+    "id": "zip-706",
+    "sourceScreenshot": 706,
+    "question": "On Remembrance Day, there is a two-minute silence at 11 AM to commemorate those who died fighting during the First World War.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "On Remembrance Day at 11.00 am there is a two-minute silence and wreaths are laid at the Cenotaph in Whitehall, London."
+  },
+  {
+    "id": "zip-707",
+    "sourceScreenshot": 707,
+    "question": "What is the distance between the north coast of Scotland and the south-west corner of England?",
+    "options": [
+      "470 miles",
+      "490 miles",
+      "840 miles",
+      "870 miles"
+    ],
+    "correctAnswers": [
+      "870 miles"
+    ],
+    "explanation": "In the UK, the longest distance on the mainland is from John O’Groats on the north coast of Scotland to Land’s End in the south-west corner of England. It is about 870 miles (approximately 1,400 kilometres)."
+  },
+  {
+    "id": "zip-708",
+    "sourceScreenshot": 708,
+    "question": "Who was Henry Purcell?",
+    "options": [
+      "A German-born composer",
+      "An organist at Westminster Abbey",
+      "An opera composer",
+      "A jazz musician"
+    ],
+    "correctAnswers": [
+      "An organist at Westminster Abbey"
+    ],
+    "explanation": "Henry Purcell (1659-95) was the organist at Westminster Abbey. He wrote church music, operas and other pieces, and developed a British style distinct from that elsewhere in Europe."
+  },
+  {
+    "id": "zip-709",
+    "sourceScreenshot": 709,
+    "question": "How are life peers appointed?",
+    "options": [
+      "By the monarch on the advice of the Prime Minister",
+      "By the Prime Minister on the advice of the King",
+      "By the shadow cabinet",
+      "By the MPs"
+    ],
+    "correctAnswers": [
+      "By the monarch on the advice of the Prime Minister"
+    ],
+    "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister."
+  },
+  {
+    "id": "zip-710",
+    "sourceScreenshot": 710,
+    "question": "Where is the Giant’s Causeway located?",
+    "options": [
+      "Northern Ireland",
+      "Scotland",
+      "South-east coast of Wales",
+      "South-west coast of England"
+    ],
+    "correctAnswers": [
+      "Northern Ireland"
+    ],
+    "explanation": "The Giant’s Causeway is located on the north-east coast of Northern Ireland."
+  },
+  {
+    "id": "zip-711",
+    "sourceScreenshot": 711,
+    "question": "Who proposed that enemy aircraft could be detected by radio waves and is responsible for the development of radar?",
+    "options": [
+      "Sir Robert Watson-Watt",
+      "John McLeod",
+      "John Logie Baird",
+      "Alan Turing"
+    ],
+    "correctAnswers": [
+      "Sir Robert Watson-Watt"
+    ],
+    "explanation": "The radar was developed by Scotsman Sir Robert Watson-Watt (1892-1973), who proposed that enemy aircraft could be detected by radio waves. The first successful radar test took place in 1935."
+  },
+  {
+    "id": "zip-712",
+    "sourceScreenshot": 712,
+    "question": "During Halloween people carve lanterns out of ______ and put a candle inside of them.",
+    "options": [
+      "Pumpkins",
+      "Aubergines",
+      "Clay",
+      "Potatoes"
+    ],
+    "correctAnswers": [
+      "Pumpkins"
+    ],
+    "explanation": "During Halloween people carve lanterns out of pumpkins and put a candle inside of them."
+  },
+  {
+    "id": "zip-713",
+    "sourceScreenshot": 713,
+    "question": "In England, Wales and Northern Ireland, if an accused person is aged 18, the case will be heard in a Youth Court:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17, the case is normally heard in a Youth Court in front of up to three specially trained magistrates or a District Judge."
+  },
+  {
+    "id": "zip-714",
+    "sourceScreenshot": 714,
+    "question": "The Prime Minister appoints about 40 senior MPs to become ministers in charge of departments.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Prime Minister appoints about 20 senior MPs to become ministers in charge of departments."
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "zip-593",
+    "sourceScreenshot": 593,
+    "question": "During the Middle Ages, a Parliament was developed in Scotland, which had three Houses called Estates. These were:",
+    "options": [
+      "The lords, the commons and the clergy",
+      "The lords, the commons and the farmers",
+      "The farmers, the blacksmiths and the clergy",
+      "The farmers, the blacksmiths and the teachers"
+    ],
+    "correctAnswers": [
+      "The lords, the commons and the clergy"
+    ],
+    "explanation": "The Parliament developed in Scotland in the Middle Ages had three Houses, called Estates: the lords, the commons and the clergy."
+  },
+  {
+    "id": "zip-594",
+    "sourceScreenshot": 594,
+    "question": "Which landscape architect designed grounds around country houses so that the landscape appeared to be natural, with grass, trees and lakes?",
+    "options": [
+      "Clarice Cliff",
+      "Lancelot ‘Capability’ Brown",
+      "Alexander McQueen",
+      "Vivienne Westwood"
+    ],
+    "correctAnswers": [
+      "Lancelot ‘Capability’ Brown"
+    ],
+    "explanation": "In the 18th century, Lancelot ‘Capability’ Brown designed the grounds around country houses so that the landscape appeared to be natural, with grass, trees and lakes. He often worked with Edwin Lutyens to design colourful gardens around the houses he designed."
+  },
+  {
+    "id": "zip-595",
+    "sourceScreenshot": 595,
+    "question": "Which of the following scientific discoveries helped the progress of the Industrial Revolution?",
+    "options": [
+      "Penicillin",
+      "The aeroplane",
+      "Steam power",
+      "The lightbulb"
+    ],
+    "correctAnswers": [
+      "Steam power"
+    ],
+    "explanation": "Scientific discoveries, such as James Watt’s work on steam power, helped the progress of the Industrial Revolution."
+  },
+  {
+    "id": "zip-596",
+    "sourceScreenshot": 596,
+    "question": "What is the function of the UN Security Council?",
+    "options": [
+      "Recommend action when there are international crises and threats to peace",
+      "Recommend humanitarian action when there are natural disasters",
+      "Protect and promote human rights",
+      "Promote international trade relationships"
+    ],
+    "correctAnswers": [
+      "Recommend action when there are international crises and threats to peace"
+    ],
+    "explanation": "The UN Security Council recommends action when there are international crises and threats to peace."
+  },
+  {
+    "id": "zip-597",
+    "sourceScreenshot": 597,
+    "question": "Who were the parents of Elizabeth I?",
+    "options": [
+      "Henry VIII and Anne Boleyn",
+      "Henry VII and Anne of Cleves",
+      "Henry VIII and Catherine of Aragon",
+      "Henry VII and Catherine Howard"
+    ],
+    "correctAnswers": [
+      "Henry VIII and Anne Boleyn"
+    ],
+    "explanation": "Henry VIII and Anne Boleyn were the parents of Elizabeth I."
+  },
+  {
+    "id": "zip-598",
+    "sourceScreenshot": 598,
+    "question": "The Isle of Man is a Crown dependency.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-599",
+    "sourceScreenshot": 599,
+    "question": "Which of the following charities works for the prevention of cruelty to children?",
+    "options": [
+      "PDSA",
+      "RSPB",
+      "NSPCC",
+      "Crisis"
+    ],
+    "correctAnswers": [
+      "NSPCC"
+    ],
+    "explanation": "The NSPCC is the National Society for the Prevention of Cruelty to Children."
+  }
+]

@@ -432,3 +432,16 @@ export const additionalQuestions = [
     "category": "用户 ZIP 截图题"
   }
 ];
+
+/** Append only new screenshot IDs, never overwrite existing questions or learning history keys. */
+export function appendAdditionalQuestions(map,rows=additionalQuestions){
+  for(const q of rows){
+    if(!Number.isSafeInteger(q.sourceScreenshot)||q.id!=="zip-"+q.sourceScreenshot||map.has(q.id))throw Error("新增截图编号冲突："+q.id);
+    if(!q.question?.trim()||!Array.isArray(q.options)||q.options.length<2||q.options.length>8||
+       q.options.some(o=>typeof o!=="string"||!o.trim())||new Set(q.options).size!==q.options.length||
+       !Array.isArray(q.correctAnswers)||!q.correctAnswers.length||new Set(q.correctAnswers).size!==q.correctAnswers.length||
+       q.correctAnswers.some(a=>!q.options.includes(a))||typeof q.explanation!=="string")throw Error("新增题格式无效："+q.id);
+    map.set(q.id,{...q,options:[...q.options],correctAnswers:[...q.correctAnswers]});
+  }
+  return map;
+}

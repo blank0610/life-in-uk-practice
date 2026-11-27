@@ -1,3 +1,4 @@
+import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
 import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-percentage-mix";
 import {applyTextFixes} from "./quality-fixes.js";
 import {createVoiceReader} from "./voice-reader.js";
@@ -56,6 +57,7 @@ if(window.LIFE_UK_PACKED){
         category:"用户 ZIP 截图题",sourceScreenshot:n});
     }
     applyTextFixes(bankMap,window.LIFE_UK_TEXT_FIXES);
+    appendAdditionalQuestions(bankMap,additionalQuestions);
     EMPTY=validate({version:"zip-spelling-audited-2026-11-15",questions:[...bankMap.values()]});
     window.LIFE_UK_LOADED_COUNT=EMPTY.questions.length;
   }catch(err){console.error("ZIP 题库加载错误",err);window.LIFE_UK_IMPORT_ERROR=String(err);}

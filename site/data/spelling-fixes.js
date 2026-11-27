@@ -227,3 +227,6 @@ window.LIFE_UK_TEXT_FIXES={
     explanation:[["and divorce.","and divorce. In Scotland, most of these matters are dealt with in the Sheriff Court."]]
   }
 };
+
+// Test 20, original screenshot #520 and duplicate confirmation #545: restore omitted first line only.
+window.LIFE_UK_TEXT_FIXES["zip-520"]={...(window.LIFE_UK_TEXT_FIXES["zip-520"]||{}),questionText:"During which movement the Parliament passed laws giving women the right to equal pay and made it illegal for employees to discriminate against women because of their gender:"};

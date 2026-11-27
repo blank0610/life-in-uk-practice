@@ -23,11 +23,10 @@ jobs:
           node-version: "22"
       - name: Rebuild full corrected question bank as readable JSON
         run: node scripts/export-audit-batches.mjs --output development/audit-readable
-      - name: Verify generated audit manifest and third batch
+      - name: Verify generated audit manifest against current ledger
         run: |
           test -s development/audit-readable/manifest.json
-          test -s development/audit-readable/batch-003.json
-          node -e 'const m=require("./development/audit-readable/manifest.json");if(m.questionCount!==487||m.batches.length!==41)process.exit(1);'
+          node -e 'const m=require("./development/audit-readable/manifest.json"),l=require("./development/QUESTION_AUDIT_PROGRESS.json");if(m.questionCount!==l.bankCount||m.batchSize!==l.batchSize||m.batches.length!==Math.ceil(l.bankCount/l.batchSize)||m.batches.reduce((n,b)=>n+b.count,0)!==l.bankCount)process.exit(1);'
       - name: Commit readable source into this GitHub repository
         run: |
           git add development/audit-readable

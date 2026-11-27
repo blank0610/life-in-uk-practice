@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-557",
+    "sourceScreenshot": 557,
+    "question": "Which of the following sports has a long association with royalty?",
+    "options": [
+      "Rugby",
+      "Horse racing",
+      "Formula 1",
+      "Sailing"
+    ],
+    "correctAnswers": [
+      "Horse racing"
+    ],
+    "explanation": "Horse racing has a long association with royalty."
+  },
+  {
+    "id": "zip-558",
+    "sourceScreenshot": 558,
+    "question": "Hanukkah is a Jewish festival celebrated to remember the Jews’ struggle for religious freedom.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Hanukkah is in November or December and is celebrated for eight days. It is to remember the Jews’ struggle for religious freedom."
+  },
+  {
+    "id": "zip-559",
+    "sourceScreenshot": 559,
+    "question": "How can you visit the Northern Ireland Assembly (choose TWO options)?",
+    "options": [
+      "Contacting the Education Service",
+      "Contacting an MSP",
+      "Contacting an MLA",
+      "Arranging a tour through the visitor services"
+    ],
+    "correctAnswers": [
+      "Contacting the Education Service",
+      "Contacting an MLA"
+    ],
+    "explanation": "There are two ways to arrange a visit to the Northern Ireland Assembly at Stormont. You can either contact the Education Service (details are on the Northern Ireland Assembly website at http://www.niassembly.gov.uk) or contact an MLA."
+  },
+  {
+    "id": "zip-560",
+    "sourceScreenshot": 560,
+    "question": "Most citizens of the UK, the Irish republic or the Commonwealth aged 18 or over can stand for public office, except for (choose THREE options):",
+    "options": [
+      "People found guilty of certain criminal offences",
+      "People without a university degree",
+      "Civil servants",
+      "Members of the Armed Forces"
+    ],
+    "correctAnswers": [
+      "People found guilty of certain criminal offences",
+      "Civil servants",
+      "Members of the Armed Forces"
+    ],
+    "explanation": "Members of the Commonwealth aged 18 or over can stand for public office. There are some exceptions, including: members of the armed forces, civil servants and people found guilty of certain criminal offences."
+  },
+  {
+    "id": "zip-561",
+    "sourceScreenshot": 561,
+    "question": "What were the main occupations of the people during the Iron Age?",
+    "options": [
+      "Fishermen and butchers",
+      "Farmers, craft workers or warriors",
+      "Knights, doctors or musicians",
+      "Engineers, teachers or lawyers"
+    ],
+    "correctAnswers": [
+      "Farmers, craft workers or warriors"
+    ],
+    "explanation": "During the Iron Age most people were farmers, craft workers or warriors."
+  },
+  {
+    "id": "zip-562",
+    "sourceScreenshot": 562,
+    "question": "To look after yourself and your family is one of the responsibilities that you will have as a permanent resident or citizen of the UK.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE."
+  },
+  {
+    "id": "zip-563",
+    "sourceScreenshot": 563,
+    "question": "When is the electoral register updated?",
+    "options": [
+      "April or May",
+      "May or June",
+      "September or October",
+      "October or November"
+    ],
+    "correctAnswers": [
+      "September or October"
+    ],
+    "explanation": ""
+  },
+  {
+    "id": "zip-564",
+    "sourceScreenshot": 564,
+    "question": "Which of the following is the official church of the state?",
+    "options": [
+      "The Church of Great Britain",
+      "The Church of England",
+      "The Church of the United Kingdom",
+      "The British Church"
+    ],
+    "correctAnswers": [
+      "The Church of England"
+    ],
+    "explanation": "The official Church of the state is the Church of England (called the Anglican Church in other countries and the Episcopal Church in Scotland and the United States)."
+  },
+  {
+    "id": "zip-565",
+    "sourceScreenshot": 565,
+    "question": "Where does the Scottish Parliament sit?",
+    "options": [
+      "In Glasgow",
+      "In St Andrews",
+      "In Edinburgh",
+      "In Aberdeen"
+    ],
+    "correctAnswers": [
+      "In Edinburgh"
+    ],
+    "explanation": "In Scotland the elected members, called MSPs, meet in the Scottish Parliament building at Holyrood in Edinburgh."
+  },
+  {
+    "id": "zip-566",
+    "sourceScreenshot": 566,
+    "question": "Who became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada?",
+    "options": [
+      "Henry VIII",
+      "Elizabeth I",
+      "James I",
+      "Mary I"
+    ],
+    "correctAnswers": [
+      "Elizabeth I"
+    ],
+    "explanation": "Elizabeth I became one of the most popular monarchs in English history, particularly after 1588, when the English defeated the Spanish Armada (a large fleet of ships), which had been sent by Spain to conquer England and restore Catholicism."
+  },
+  {
+    "id": "zip-567",
+    "sourceScreenshot": 567,
+    "question": "What was the population of the UK in 1700?",
+    "options": [
+      "2 million",
+      "4 million",
+      "5 million",
+      "8 million"
+    ],
+    "correctAnswers": [
+      "5 million"
+    ],
+    "explanation": "The population of the UK in 1700 was 5 million people."
+  },
+  {
+    "id": "zip-568",
+    "sourceScreenshot": 568,
+    "question": "When did the ‘Concorde’ aircraft retire from service?",
+    "options": [
+      "In 1976",
+      "In 1999",
+      "In 2003",
+      "In 2000"
+    ],
+    "correctAnswers": [
+      "In 2003"
+    ],
+    "explanation": ""
+  }
+]

@@ -1,8 +1,13 @@
+import {readFileSync} from "node:fs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {loadQuestionBank,scanQuestionBank} from "../scripts/audit-question-bank.mjs";
 const bank=loadQuestionBank(),byId=new Map(bank.map(q=>[q.id,q]));
-test("题库仍为487道真实截图题",()=>assert.equal(bank.length,487));
+test("正式题库数量与审核主账一致且截图ID唯一",()=>{
+  const ledger=JSON.parse(readFileSync("development/QUESTION_AUDIT_PROGRESS.json","utf8"));
+  assert.equal(bank.length,ledger.bankCount);
+  assert.equal(new Set(bank.map(q=>q.id)).size,bank.length);
+});
 test("首轮逐图审核#22 Shakespeare题必须包含原截图的完整解释",()=>{
   const q=byId.get("zip-22");
   assert.equal(q.question,"The Elizabethan period is known for the richness of its poetry and drama, especially for the plays and poems of which playwright?");

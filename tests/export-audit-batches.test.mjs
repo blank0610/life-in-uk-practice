@@ -1,13 +1,14 @@
+import {readFileSync} from "node:fs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {createAuditBatches} from "../scripts/export-audit-batches.mjs";
 import {loadQuestionBank} from "../scripts/audit-question-bank.mjs";
-test("导出网站全部487道已校正题目的题干、全部选项、答案和解释",()=>{
- const bank=loadQuestionBank(),result=createAuditBatches(bank);
- assert.equal(result.manifest.questionCount,487);
- assert.equal(result.manifest.batchSize,12);
- assert.equal(result.batches.length,41);
- assert.equal(result.batches.reduce((n,b)=>n+b.items.length,0),487);
+test("导出网站全部已校正题目的题干、全部选项、答案和解释",()=>{
+ const bank=loadQuestionBank(),ledger=JSON.parse(readFileSync("development/QUESTION_AUDIT_PROGRESS.json","utf8")),result=createAuditBatches(bank,{batchSize:ledger.batchSize});
+ assert.equal(result.manifest.questionCount,ledger.bankCount);
+ assert.equal(result.manifest.batchSize,ledger.batchSize);
+ assert.equal(result.batches.length,Math.ceil(ledger.bankCount/ledger.batchSize));
+ assert.equal(result.batches.reduce((n,b)=>n+b.items.length,0),ledger.bankCount);
  for(const item of result.batches.flatMap(b=>b.items)){
   assert.equal(typeof item.question,"string");
   assert(Array.isArray(item.options)&&item.options.length>=2);

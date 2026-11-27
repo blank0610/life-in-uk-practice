@@ -1716,6 +1716,433 @@ export const additionalQuestions = [
     ],
     "explanation": "Popular programmes in the UK include regular soap operas such as Coronation Street and EastEnders.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-649",
+    "sourceScreenshot": 649,
+    "sourceTest": 25,
+    "sourceQuestion": 1,
+    "question": "What does the term ‘Hansard’ relate to?",
+    "options": [
+      "Official reports where proceedings in Parliament are published",
+      "A popular British soap opera",
+      "A festival which celebrates the founding of the Sikh community",
+      "A public holiday"
+    ],
+    "correctAnswers": [
+      "Official reports where proceedings in Parliament are published"
+    ],
+    "explanation": "Proceedings in Parliament are broadcast on television and published in official reports called Hansard.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-650",
+    "sourceScreenshot": 650,
+    "sourceTest": 25,
+    "sourceQuestion": 2,
+    "question": "Who was the first king of the House of Tudor?",
+    "options": [
+      "King Richard III",
+      "Henry Tudor",
+      "Henry V",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Henry Tudor"
+    ],
+    "explanation": "Henry VII (Henry Tudor) was the first king of the House of Tudor.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-651",
+    "sourceScreenshot": 651,
+    "sourceTest": 25,
+    "sourceQuestion": 3,
+    "question": "What do Lewis Hamilton, Jenson Button and Damon Hill have in common?",
+    "options": [
+      "They are football players",
+      "They have won the Formula 1 World Championship",
+      "They won gold Olympic medals",
+      "They have won the Six Nations Championship"
+    ],
+    "correctAnswers": [
+      "They have won the Formula 1 World Championship"
+    ],
+    "explanation": "Lewis Hamilton, Jenson Button and Damon Hill have won the Formula 1 World Championship.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-652",
+    "sourceScreenshot": 652,
+    "sourceTest": 25,
+    "sourceQuestion": 4,
+    "question": "According to the 2011 Census, what percentage of people said that they had no religion?",
+    "options": [
+      "10%",
+      "11%",
+      "20%",
+      "25%"
+    ],
+    "correctAnswers": [
+      "25%"
+    ],
+    "explanation": "According to the 2011 census, 25% of people said they had no religion.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-653",
+    "sourceScreenshot": 653,
+    "sourceTest": 25,
+    "sourceQuestion": 5,
+    "question": "During which period were the first coins produced in Britain?",
+    "options": [
+      "The Stone Age",
+      "The Golden Age",
+      "The Silver Age",
+      "The Iron Age"
+    ],
+    "correctAnswers": [
+      "The Iron Age"
+    ],
+    "explanation": "The people of the Iron Age had a sophisticated culture and economy. They made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-654",
+    "sourceScreenshot": 654,
+    "sourceTest": 25,
+    "sourceQuestion": 6,
+    "question": "What other name is given to Diwali, the religious celebration that celebrates the victory of good over evil and the gaining of knowledge?",
+    "options": [
+      "The Festival of Lights",
+      "Hanukkah",
+      "The Festival of the Lanterns",
+      "The Festival of the Candles"
+    ],
+    "correctAnswers": [
+      "The Festival of Lights"
+    ],
+    "explanation": "Diwali normally falls in October or November and lasts for five days. It is often called the Festival of Lights.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-655",
+    "sourceScreenshot": 655,
+    "sourceTest": 25,
+    "sourceQuestion": 7,
+    "question": "In Wales, the jury has to listen to the evidence presented at the trial and then decide a verdict of ‘guilty’, ‘not guilty’ or ‘not proven’ based on what they have heard:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The jury has to listen to the evidence presented at the trial and then decide a verdict of ‘guilty’ or ‘not guilty’ based on what they have heard. In Scotland, a third verdict of ‘not proven’ is also possible.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-656",
+    "sourceScreenshot": 656,
+    "sourceTest": 25,
+    "sourceQuestion": 8,
+    "question": "The Prime Minister has a country house outside London called:",
+    "options": [
+      "Sparkle",
+      "Downing",
+      "Windsor",
+      "Chequers"
+    ],
+    "correctAnswers": [
+      "Chequers"
+    ],
+    "explanation": "The Prime Minister has a country house outside London called Chequers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-657",
+    "sourceScreenshot": 657,
+    "sourceTest": 25,
+    "sourceQuestion": 9,
+    "question": "In which English county is Maiden Castle located?",
+    "options": [
+      "Dorset",
+      "Devon",
+      "Somerset",
+      "Cornwall"
+    ],
+    "correctAnswers": [
+      "Dorset"
+    ],
+    "explanation": "A very impressive hill fort can be seen today at Maiden Castle, in the English county of Dorset.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-658",
+    "sourceScreenshot": 658,
+    "sourceTest": 25,
+    "sourceQuestion": 10,
+    "question": "A National Insurance number does on its own prove to an employer that you have the right to work in the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "A National Insurance number does not on its own prove to an employer that you have the right to work in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-659",
+    "sourceScreenshot": 659,
+    "sourceTest": 25,
+    "sourceQuestion": 11,
+    "question": "Which of the following is a ceremonial role to be undertaken by the King?",
+    "options": [
+      "Opening the new parliamentary session every year",
+      "Visiting the major cities in the UK once every six months",
+      "Choosing the Prime Minister",
+      "Giving a speech on New Year’s Eve"
+    ],
+    "correctAnswers": [
+      "Opening the new parliamentary session every year"
+    ],
+    "explanation": "The King has important ceremonial roles, such as the opening of the new parliamentary session each year. On this occasion the King makes a speech which summarises the government’s policies for the year ahead.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-660",
+    "sourceScreenshot": 660,
+    "sourceTest": 25,
+    "sourceQuestion": 12,
+    "question": "How long can you use your driving licence in the UK if you have a licence from another country?",
+    "options": [
+      "For up to 12 months",
+      "You need a UK driving licence",
+      "For as long as it is valid",
+      "For up to 2 years"
+    ],
+    "correctAnswers": [
+      "For up to 12 months"
+    ],
+    "explanation": "If you have a licence from another country, you may use it in the UK for up to 12 months.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-661",
+    "sourceScreenshot": 661,
+    "sourceTest": 25,
+    "sourceQuestion": 13,
+    "question": "What British discovery was influential in the development of computer science and the modern-day computer?",
+    "options": [
+      "The Radar",
+      "The Turing machine",
+      "The MRI scanner",
+      "The aeroplane"
+    ],
+    "correctAnswers": [
+      "The Turing machine"
+    ],
+    "explanation": "The Turing machine is a theoretical mathematical device invented by Alan Turing (1912-54), a British mathematician, in the 1930s. The theory was influential in the development of computer science and the modern-day computer.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-662",
+    "sourceScreenshot": 662,
+    "sourceTest": 25,
+    "sourceQuestion": 14,
+    "question": "Which Court deals with the serious criminal offences in England, Wales and Northern Ireland?",
+    "options": [
+      "The County Court",
+      "The Crown Court",
+      "The High Court",
+      "The Sheriff Court"
+    ],
+    "correctAnswers": [
+      "The Crown Court"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, serious criminal offences are tried in front of a judge and a jury in a Crown Court.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-663",
+    "sourceScreenshot": 663,
+    "sourceTest": 25,
+    "sourceQuestion": 15,
+    "question": "Which famous philosopher developed ideas about human nature during the 18th century that have continued to influence philosophers over the years?",
+    "options": [
+      "Aristotle",
+      "Sigmund Freud",
+      "Platon",
+      "David Hume"
+    ],
+    "correctAnswers": [
+      "David Hume"
+    ],
+    "explanation": "David Hume’s ideas about human nature from the 18th century continue to influence philosophers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-664",
+    "sourceScreenshot": 664,
+    "sourceTest": 25,
+    "sourceQuestion": 16,
+    "question": "If you are arrested and taken to a police station, a police officer should:",
+    "options": [
+      "Make a copy of your ID and retain you until your lawyer arrives",
+      "Tell you the reason for your arrest and that you will be able to seek legal advice",
+      "Offer you a cup of tea",
+      "Explain the law to you and wait for your family to arrive"
+    ],
+    "correctAnswers": [
+      "Tell you the reason for your arrest and that you will be able to seek legal advice"
+    ],
+    "explanation": "If you are arrested and taken to a police station, a police officer will tell you the reason for your arrest and you will be able to seek legal advice.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-665",
+    "sourceScreenshot": 665,
+    "sourceTest": 25,
+    "sourceQuestion": 17,
+    "question": "Which British actor has recently won an Oscar?",
+    "options": [
+      "Hugh Grant",
+      "Sir Anthony Hopkins",
+      "Jude Law",
+      "Richard Burton"
+    ],
+    "correctAnswers": [
+      "Sir Anthony Hopkins"
+    ],
+    "explanation": "Recent British actors to have won Oscars include Colin Firth, Sir Anthony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-666",
+    "sourceScreenshot": 666,
+    "sourceTest": 25,
+    "sourceQuestion": 18,
+    "question": "What TWO names are given to the day before Lent?",
+    "options": [
+      "Pancake day",
+      "Domesday",
+      "Shrove Tuesday",
+      "Ash Wednesday"
+    ],
+    "correctAnswers": [
+      "Pancake day",
+      "Shrove Tuesday"
+    ],
+    "explanation": "The day before Lent starts is called Shrove Tuesday, or Pancake Day.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-667",
+    "sourceScreenshot": 667,
+    "sourceTest": 25,
+    "sourceQuestion": 19,
+    "question": "When did the ‘Concorde’ aircraft carry passengers for the first time?",
+    "options": [
+      "In 1969",
+      "In 1970",
+      "In 1972",
+      "In 1976"
+    ],
+    "correctAnswers": [
+      "In 1976"
+    ],
+    "explanation": "The ‘Concorde’ began carrying passengers in 1976.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-668",
+    "sourceScreenshot": 668,
+    "sourceTest": 25,
+    "sourceQuestion": 20,
+    "question": "The UK is one of five permanent members of the Security Council:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "The UK is one of five permanent members of the Security Council.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-669",
+    "sourceScreenshot": 669,
+    "sourceTest": 25,
+    "sourceQuestion": 21,
+    "question": "Which of the following landmarks is the largest expanse of fresh water in mainland Britain?",
+    "options": [
+      "The River Thames",
+      "Loch Lomond",
+      "Loch Ness",
+      "Lake District"
+    ],
+    "correctAnswers": [
+      "Loch Lomond"
+    ],
+    "explanation": "Loch Lomond is the largest expanse of fresh water in mainland Britain and probably the best-known part of the park.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-670",
+    "sourceScreenshot": 670,
+    "sourceTest": 25,
+    "sourceQuestion": 22,
+    "question": "Who wrote the music for the popular show Jesus Christ Superstar?",
+    "options": [
+      "Andrew Lloyd Webber",
+      "Gilbert and Sullivan",
+      "Hans Holbein and Sir Anthony Van Dyck",
+      "Sir Laurence Olivier"
+    ],
+    "correctAnswers": [
+      "Andrew Lloyd Webber"
+    ],
+    "explanation": "Andrew Lloyd Webber has written the music for shows which have been popular throughout the world, including, in collaboration with Tim Rice, Jesus Christ Superstar and Evita, and also Cats and The Phantom of the Opera.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-671",
+    "sourceScreenshot": 671,
+    "sourceTest": 25,
+    "sourceQuestion": 23,
+    "question": "Which one of the following four changes did the Chartists NOT campaign for?",
+    "options": [
+      "For any man to be able to stand as MP",
+      "Secret ballots",
+      "Elections every six years",
+      "For MPs to be paid"
+    ],
+    "correctAnswers": [
+      "Elections every six years"
+    ],
+    "explanation": "The Chartists campaigned for every man to have the vote, elections every year, for all regions to be equal in the electoral system, secret ballots, for any man to be able to stand as an MP and for MPs to be paid.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-672",
+    "sourceScreenshot": 672,
+    "sourceTest": 25,
+    "sourceQuestion": 24,
+    "question": "Pantomimes are a British tradition that many theatres produce during:",
+    "options": [
+      "Easter",
+      "Christmas",
+      "Halloween",
+      "Pancake Day"
+    ],
+    "correctAnswers": [
+      "Christmas"
+    ],
+    "explanation": "Many theatres produce a pantomime at Christmas time.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

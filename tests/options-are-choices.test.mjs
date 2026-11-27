@@ -120,3 +120,11 @@ test("数量单位之前缺失数字的货币符号只能标记，不得猜测�
   const valid={...original,options:["$8 million","£10 million"],correctAnswers:["$8 million"]};
   assert.equal(scanQuestionBank([valid]).severe.length,0);
 });
+
+test("原图#252旗帜题 OCR 修复不改变正确答案",()=>{
+ const q=byId.get("zip-252");
+ assert.equal(q.question,"Which flag comprises a red cross on a white ground?");
+ assert.deepEqual(q.correctAnswers,["The cross of St George, patron saint of England"]);
+ assert.equal(q.options.length,4);
+ assert.equal(q.explanation,"The cross of St George, patron saint of England, is a red cross on a white ground.");
+});

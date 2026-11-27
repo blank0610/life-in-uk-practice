@@ -78,6 +78,7 @@ export function scanQuestionBank(questions){
       review.push({id:q.id,reason:"答案百分比与解释文字疑似不一致，需对照原图核验（可能漏小数点）",question:q.question,options,correctAnswers:q.correctAnswers});
     }
     // 常见 OCR：英文 NOT 的 T 被识别为 I，会改变题目的正确答案含义。
+    if(/\btlag\b/i.test(q.question))review.push({id:q.id,reason:"题干 tlag 疑似 flag OCR 错字",question:q.question,options});
     if(/\bNOI\b/i.test(q.question))review.push({id:q.id,reason:"题干中 NOI 疑似 NOT 的 OCR 错字",question:q.question,options});
     if(/\b(?:incorrect|next question|previous question)\b/i.test(q.question)){
       review.push({id:q.id,reason:"题干疑似含网页反馈文字",question:q.question,options});

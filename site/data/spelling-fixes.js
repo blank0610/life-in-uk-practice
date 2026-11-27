@@ -88,7 +88,7 @@ window.LIFE_UK_TEXT_FIXES={
   "zip-187":{explanation:[["nerth west","north-west"]]},
   "zip-190":{explanation:[["insulin. used","insulin, used"]]},
   "zip-246":{options:{"0":[["Roast heef","Roast beef"]]}},
-  "zip-252":{options:{"3":[["St Gearge","St George"]]}},
+  "zip-252":{questionText:"Which flag comprises a red cross on a white ground?",options:{"3":[["St Gearge","St George"]]}},
   "zip-263":{options:{"0":[["Boris Johnsen","Boris Johnson"]]}},
   "zip-271":{
     explanationText:"There are many large venues that host music events throughout the year, including The O2 in Greenwich, south-east London."

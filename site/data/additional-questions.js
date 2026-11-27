@@ -3000,6 +3000,901 @@ export const additionalQuestions = [
     ],
     "explanation": "The National Anthem of the UK is ‘God Save the King’ and is played at important national occasions and at events attended by the King or the Royal Family.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-722",
+    "sourceScreenshot": 722,
+    "sourceTest": 28,
+    "sourceQuestion": 1,
+    "question": "For which purpose was the Statute of Rhuddlan introduced?",
+    "options": [
+      "To annex Scotland to the Crown of England",
+      "To annex Northern Ireland to the Crown of England",
+      "To annex Ireland to the Crown of England",
+      "To annex Wales to the Crown of England"
+    ],
+    "correctAnswers": [
+      "To annex Wales to the Crown of England"
+    ],
+    "explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-723",
+    "sourceScreenshot": 723,
+    "sourceTest": 28,
+    "sourceQuestion": 2,
+    "question": "How can a person be protected from being forced into a marriage?",
+    "options": [
+      "By giving them a place to stay away from their family",
+      "Court orders can be obtained to protect a person from being forced into a marriage",
+      "By speaking to the person’s parents",
+      "There are no laws in the UK to avoid this"
+    ],
+    "correctAnswers": [
+      "Court orders can be obtained to protect a person from being forced into a marriage"
+    ],
+    "explanation": "Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-750",
+    "sourceScreenshot": 750,
+    "sourceTest": 28,
+    "sourceQuestion": 3,
+    "question": "When was the first tennis club founded in the UK?",
+    "options": [
+      "1772",
+      "1872",
+      "1862",
+      "1762"
+    ],
+    "correctAnswers": [
+      "1872"
+    ],
+    "explanation": "The first tennis club was founded in Leamington Spa in 1872.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-751",
+    "sourceScreenshot": 751,
+    "sourceTest": 28,
+    "sourceQuestion": 4,
+    "question": "Which of the following is NOT classified as a criminal offence in the UK?",
+    "options": [
+      "Smoking in public places",
+      "Selling or buying drugs",
+      "Carrying a weapon",
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "correctAnswers": [
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "explanation": "Unfair dismissal or discrimination in the workplace is classified as a civil offence.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-752",
+    "sourceScreenshot": 752,
+    "sourceTest": 28,
+    "sourceQuestion": 5,
+    "question": "When did Henry VIII start reigning?",
+    "options": [
+      "In April 1509",
+      "In June 1497",
+      "In March 1515",
+      "In August 1495"
+    ],
+    "correctAnswers": [
+      "In April 1509"
+    ],
+    "explanation": "Henry VIII was king of England from 21 April 1509 until his death on 28 January 1547.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-753",
+    "sourceScreenshot": 753,
+    "sourceTest": 28,
+    "sourceQuestion": 6,
+    "question": "What is the currency in the UK?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound",
+      "Dinar"
+    ],
+    "correctAnswers": [
+      "Pound"
+    ],
+    "explanation": "The currency in the UK is the pound sterling (symbol £).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-754",
+    "sourceScreenshot": 754,
+    "sourceTest": 28,
+    "sourceQuestion": 7,
+    "question": "In May 2010, the Conservative and Liberal Democrat parties formed a coalition and the leader of the Liberal Democrat Party, David Cameron, became Prime Minister:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In May 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election. The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-755",
+    "sourceScreenshot": 755,
+    "sourceTest": 28,
+    "sourceQuestion": 8,
+    "question": "When is Diwali normally celebrated?",
+    "options": [
+      "June or July",
+      "October or November",
+      "November or December",
+      "March or April"
+    ],
+    "correctAnswers": [
+      "October or November"
+    ],
+    "explanation": "Diwali normally falls in October or November and lasts for five days.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-756",
+    "sourceScreenshot": 756,
+    "sourceTest": 28,
+    "sourceQuestion": 9,
+    "question": "Which of the following is NOT considered to be a main part of the British government?",
+    "options": [
+      "The monarchy",
+      "The European Council",
+      "The Prime Minister",
+      "The local government"
+    ],
+    "correctAnswers": [
+      "The European Council"
+    ],
+    "explanation": "The European Council is not part of the British government.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-757",
+    "sourceScreenshot": 757,
+    "sourceTest": 28,
+    "sourceQuestion": 10,
+    "question": "Which TWO universities compete with each other in a rowing race along the River Thames every year?",
+    "options": [
+      "University College of London",
+      "Imperial College",
+      "Cambridge University",
+      "Oxford University"
+    ],
+    "correctAnswers": [
+      "Cambridge University",
+      "Oxford University"
+    ],
+    "explanation": "There is a popular yearly rowing race on the Thames between Oxford and Cambridge Universities.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-758",
+    "sourceScreenshot": 758,
+    "sourceTest": 28,
+    "sourceQuestion": 11,
+    "question": "What is the name of Admiral Nelson’s ship?",
+    "options": [
+      "HMS Victory",
+      "Golden Hind",
+      "Canute",
+      "Grimsby"
+    ],
+    "correctAnswers": [
+      "HMS Victory"
+    ],
+    "explanation": "Admiral Nelson’s ship was known as the HMS Victory.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-759",
+    "sourceScreenshot": 759,
+    "sourceTest": 28,
+    "sourceQuestion": 12,
+    "question": "When driving in the UK, where do you need to display the tax disc which shows that the annual road tax has been paid?",
+    "options": [
+      "Anywhere inside the car",
+      "The windscreen of the car",
+      "The wheel of the car",
+      "The boot of the car"
+    ],
+    "correctAnswers": [
+      "The windscreen of the car"
+    ],
+    "explanation": "When driving in the UK, you must pay an annual road tax and display the tax disc, which shows that the tax has been paid, on the windscreen.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-760",
+    "sourceScreenshot": 760,
+    "sourceTest": 28,
+    "sourceQuestion": 13,
+    "question": "What is the capital of the UK?",
+    "options": [
+      "Edinburgh",
+      "London",
+      "Belfast",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "London"
+    ],
+    "explanation": "The capital city of the UK is London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-761",
+    "sourceScreenshot": 761,
+    "sourceTest": 28,
+    "sourceQuestion": 14,
+    "question": "Which of the following is NOT a British film?",
+    "options": [
+      "Lawrence of Arabia",
+      "The 39 Steps",
+      "The Lord of the Rings",
+      "Women in Love"
+    ],
+    "correctAnswers": [
+      "The Lord of the Rings"
+    ],
+    "explanation": "The Lord of the Rings is not a British film.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-762",
+    "sourceScreenshot": 762,
+    "sourceTest": 28,
+    "sourceQuestion": 15,
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "A jury is made up of members of the public who have applied to be part of it",
+      "A jury is made up of members of the public chosen at random from the local electoral register"
+    ],
+    "correctAnswers": [
+      "A jury is made up of members of the public chosen at random from the local electoral register"
+    ],
+    "explanation": "A jury is made up of members of the public chosen at random from the local electoral register.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-763",
+    "sourceScreenshot": 763,
+    "sourceTest": 28,
+    "sourceQuestion": 16,
+    "question": "When is St David’s Day, patron of Wales?",
+    "options": [
+      "1st of March",
+      "17th of March",
+      "23rd of April",
+      "30th of November"
+    ],
+    "correctAnswers": [
+      "1st of March"
+    ],
+    "explanation": "St David’s Day, patron of Wales is celebrated on the 1st of March.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-764",
+    "sourceScreenshot": 764,
+    "sourceTest": 28,
+    "sourceQuestion": 17,
+    "question": "What name is given to the red flowers found on the battlefields of the First World War and which people wear during Remembrance Day?",
+    "options": [
+      "Blitzs",
+      "Poppies",
+      "Daffodils",
+      "Carnations"
+    ],
+    "correctAnswers": [
+      "Poppies"
+    ],
+    "explanation": "On Remembrance Day people wear poppies (the red flower found on the battlefields of the First World War).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-765",
+    "sourceScreenshot": 765,
+    "sourceTest": 28,
+    "sourceQuestion": 18,
+    "question": "It is a civil offence to cause harassment, alarm or distress to someone because of their religion or ethnic origin:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is a criminal offence to cause harassment, alarm or distress to someone because of their religion or ethnic origin.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-766",
+    "sourceScreenshot": 766,
+    "sourceTest": 28,
+    "sourceQuestion": 19,
+    "question": "Where can you get contact details for all your representatives and their parties (choose TWO options)?",
+    "options": [
+      "At bookshops",
+      "Your local supermarket",
+      "Your local library",
+      "www.parliament.uk"
+    ],
+    "correctAnswers": [
+      "Your local library",
+      "www.parliament.uk"
+    ],
+    "explanation": "You can get contact details for all your representatives and their parties from your local library and from http://www.parliament.uk.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-767",
+    "sourceScreenshot": 767,
+    "sourceTest": 28,
+    "sourceQuestion": 20,
+    "question": "What is the Old Bailey?",
+    "options": [
+      "A famous criminal court",
+      "A Scottish drink",
+      "The name of a traditional Welsh cake",
+      "A British national park"
+    ],
+    "correctAnswers": [
+      "A famous criminal court"
+    ],
+    "explanation": "The Old Bailey is probably the most famous criminal court in the world.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-768",
+    "sourceScreenshot": 768,
+    "sourceTest": 28,
+    "sourceQuestion": 21,
+    "question": "What is the name of the oldest continuously working film studio facility in the world?",
+    "options": [
+      "Ealing Studios",
+      "Pinewood Studios Group",
+      "Pixar Animation Studios",
+      "Time Warner"
+    ],
+    "correctAnswers": [
+      "Ealing Studios"
+    ],
+    "explanation": "Ealing Studios has a claim to being the oldest continuously working film studio facility in the world.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-769",
+    "sourceScreenshot": 769,
+    "sourceTest": 28,
+    "sourceQuestion": 22,
+    "question": "What are the British scientists Sir Ian Wilmut and Keith Campbell famous for?",
+    "options": [
+      "The first ‘test-tube baby’",
+      "The cloning of the first mammal, Dolly the sheep",
+      "The invention of the MRI (magnetic resonance imaging) scanner",
+      "The invention of the World Wide Web"
+    ],
+    "correctAnswers": [
+      "The cloning of the first mammal, Dolly the sheep"
+    ],
+    "explanation": "Sir Ian Wilmut and Keith Campbell led a team which was the first to succeed in cloning a mammal, Dolly the sheep.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-770",
+    "sourceScreenshot": 770,
+    "sourceTest": 28,
+    "sourceQuestion": 23,
+    "question": "By which name is London’s West End known?",
+    "options": [
+      "Theatreland",
+      "Operaland",
+      "Home of rugby",
+      "Home of golf"
+    ],
+    "correctAnswers": [
+      "Theatreland"
+    ],
+    "explanation": "London’s West End is also known as ‘Theatreland’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-771",
+    "sourceScreenshot": 771,
+    "sourceTest": 28,
+    "sourceQuestion": 24,
+    "question": "Which of the following was one of the commanders in the defeat of the Spanish Armada and one of the founders of England’s naval tradition?",
+    "options": [
+      "Alan Turing",
+      "Sir Francis Drake",
+      "James VI of Scotland",
+      "Oliver Cromwell"
+    ],
+    "correctAnswers": [
+      "Sir Francis Drake"
+    ],
+    "explanation": "Sir Francis Drake was one of the commanders in the defeat of the Spanish Armada and one of the founders of England’s naval tradition.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-772",
+    "sourceScreenshot": 772,
+    "sourceTest": 29,
+    "sourceQuestion": 1,
+    "question": "Where was William Shakespeare born?",
+    "options": [
+      "London",
+      "Liverpool",
+      "Stratford upon Avon",
+      "Newcastle upon Tyne"
+    ],
+    "correctAnswers": [
+      "Stratford upon Avon"
+    ],
+    "explanation": "William Shakespeare was born in Stratford-upon-Avon.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-773",
+    "sourceScreenshot": 773,
+    "sourceTest": 29,
+    "sourceQuestion": 2,
+    "question": "Which TWO islands are closely linked to the UK but are not part of it?",
+    "options": [
+      "The Isle of Man",
+      "Malta",
+      "The Channel Islands",
+      "Fiji"
+    ],
+    "correctAnswers": [
+      "The Isle of Man",
+      "The Channel Islands"
+    ],
+    "explanation": "The Channel Islands and the Isle of Man are closely linked to the UK but are not part of it.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-774",
+    "sourceScreenshot": 774,
+    "sourceTest": 29,
+    "sourceQuestion": 3,
+    "question": "Who gave Henry VIII the son he wanted, Edward?",
+    "options": [
+      "Jane Seymour",
+      "Catherine of Aragon",
+      "Anne of Cleves",
+      "Catherine Parr"
+    ],
+    "correctAnswers": [
+      "Jane Seymour"
+    ],
+    "explanation": "Jane Seymour gave Henry VIII the son he wanted, Edward.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-775",
+    "sourceScreenshot": 775,
+    "sourceTest": 29,
+    "sourceQuestion": 4,
+    "question": "The Middle Ages or medieval times relate to the time that goes from the period after the Norman Conquest until the year:",
+    "options": [
+      "1385",
+      "1485",
+      "1495",
+      "1595"
+    ],
+    "correctAnswers": [
+      "1485"
+    ],
+    "explanation": "The period after the Norman Conquest up until about 1485 is called the Middle Ages (or the medieval period).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-776",
+    "sourceScreenshot": 776,
+    "sourceTest": 29,
+    "sourceQuestion": 5,
+    "question": "Who is the heir to the throne of the UK?",
+    "options": [
+      "Prince William",
+      "Prince Harry",
+      "Prince James",
+      "Prince Philip"
+    ],
+    "correctAnswers": [
+      "Prince William"
+    ],
+    "explanation": "The King’s eldest son, Prince William (the Prince of Wales), is the heir to the throne.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-777",
+    "sourceScreenshot": 777,
+    "sourceTest": 29,
+    "sourceQuestion": 6,
+    "question": "Which flower is associated with Wales?",
+    "options": [
+      "Daffodil",
+      "Rose",
+      "Shamrock",
+      "Thistle"
+    ],
+    "correctAnswers": [
+      "Daffodil"
+    ],
+    "explanation": "The daffodil is the flower associated with Wales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-778",
+    "sourceScreenshot": 778,
+    "sourceTest": 29,
+    "sourceQuestion": 7,
+    "question": "What was the nickname given to the Scottish poet Robert Burns?",
+    "options": [
+      "The Great",
+      "The Bard",
+      "The Lover",
+      "The Scottish"
+    ],
+    "correctAnswers": [
+      "The Bard"
+    ],
+    "explanation": "Robert Burns, a Scottish poet, was known in Scotland as ‘The Bard’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-779",
+    "sourceScreenshot": 779,
+    "sourceTest": 29,
+    "sourceQuestion": 8,
+    "question": "When was Ireland divided into two countries?",
+    "options": [
+      "In 1920",
+      "In 1922",
+      "In 1925",
+      "In 1928"
+    ],
+    "correctAnswers": [
+      "In 1922"
+    ],
+    "explanation": "In 1921 a peace treaty was signed and in 1922 Ireland became two countries.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-780",
+    "sourceScreenshot": 780,
+    "sourceTest": 29,
+    "sourceQuestion": 9,
+    "question": "Which of the following is NOT a city of the UK?",
+    "options": [
+      "Belfast",
+      "Newport",
+      "Dublin",
+      "Dundee"
+    ],
+    "correctAnswers": [
+      "Dublin"
+    ],
+    "explanation": "Dublin is not a city of the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-781",
+    "sourceScreenshot": 781,
+    "sourceTest": 29,
+    "sourceQuestion": 10,
+    "question": "When is Bonfire Night celebrated?",
+    "options": [
+      "5th of September",
+      "5th of November",
+      "15th of September",
+      "15th of November"
+    ],
+    "correctAnswers": [
+      "5th of November"
+    ],
+    "explanation": "Bonfire Night is celebrated on the 5th of November.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-782",
+    "sourceScreenshot": 782,
+    "sourceTest": 29,
+    "sourceQuestion": 11,
+    "question": "What is the name of the event that refers to the 6 June 1944 when Allied Forces landed in Normandy aiming to attack Hitler’s forces in Western Europe during World War II?",
+    "options": [
+      "D-Day",
+      "Domesday",
+      "A-Day",
+      "Allies Day"
+    ],
+    "correctAnswers": [
+      "D-Day"
+    ],
+    "explanation": "‘D-Day’ refers to the 6th of June 1944, when allied forces landed in Normandy aiming to attack Hitler’s forces in Western Europe during World War II.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-783",
+    "sourceScreenshot": 783,
+    "sourceTest": 29,
+    "sourceQuestion": 12,
+    "question": "In the UK, many people continue to visit the countryside for holidays and for leisure activities such as walking, camping and fishing:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Many people continue to visit the countryside for holidays and for leisure activities such as walking, camping and fishing.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-784",
+    "sourceScreenshot": 784,
+    "sourceTest": 29,
+    "sourceQuestion": 13,
+    "question": "What is the name of the building where the Northern Ireland Assembly meet?",
+    "options": [
+      "Westminster",
+      "Holyrood",
+      "Senedd",
+      "Stormont"
+    ],
+    "correctAnswers": [
+      "Stormont"
+    ],
+    "explanation": "In Northern Ireland elected members, known as MLAs, meet in the Northern Ireland Assembly at Stormont, in Belfast.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-785",
+    "sourceScreenshot": 785,
+    "sourceTest": 29,
+    "sourceQuestion": 14,
+    "question": "Which British Prime Minister led the Conservative government from 1979 to 1990?",
+    "options": [
+      "John Major",
+      "Harold Macmillan",
+      "Margaret Thatcher",
+      "Sir Alec Douglas-Home"
+    ],
+    "correctAnswers": [
+      "Margaret Thatcher"
+    ],
+    "explanation": "Margaret Thatcher, Britain’s first woman Prime Minister, led the Conservative government from 1979 to 1990.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-786",
+    "sourceScreenshot": 786,
+    "sourceTest": 29,
+    "sourceQuestion": 15,
+    "question": "Which of the following civilisations is known for having built roads and public buildings, creating a structure of law and having introduced new plants and animals in Britain?",
+    "options": [
+      "The Romans",
+      "The Vikings",
+      "The Normans",
+      "The Germans"
+    ],
+    "correctAnswers": [
+      "The Romans"
+    ],
+    "explanation": "The Romans remained in Britain for 400 years. They built roads and public buildings, created a structure of law, and introduced new plants and animals.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-787",
+    "sourceScreenshot": 787,
+    "sourceTest": 29,
+    "sourceQuestion": 16,
+    "question": "How often does the Edinburgh Festival take place?",
+    "options": [
+      "Every six months",
+      "Every summer",
+      "Every spring",
+      "Every month"
+    ],
+    "correctAnswers": [
+      "Every summer"
+    ],
+    "explanation": "The Edinburgh Festival takes place in Edinburgh, Scotland, every summer.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-788",
+    "sourceScreenshot": 788,
+    "sourceTest": 29,
+    "sourceQuestion": 17,
+    "question": "Which of the following countries is NOT a member of the Commonwealth?",
+    "options": [
+      "Uganda",
+      "Ghana",
+      "Malawi",
+      "Zimbabwe"
+    ],
+    "correctAnswers": [
+      "Zimbabwe"
+    ],
+    "explanation": "Zimbabwe is not a member of the Commonwealth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-789",
+    "sourceScreenshot": 789,
+    "sourceTest": 29,
+    "sourceQuestion": 18,
+    "question": "What marked the beginning of what is called ‘constitutional monarchy’?",
+    "options": [
+      "The laws passed after the Glorious Revolution",
+      "A speech given by the King",
+      "The emergence of new ideas about politics, philosophy and science",
+      "The development of the Bessemer process"
+    ],
+    "correctAnswers": [
+      "The laws passed after the Glorious Revolution"
+    ],
+    "explanation": "The laws passed after the Glorious Revolution are the beginning of what is called ‘constitutional monarchy’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-790",
+    "sourceScreenshot": 790,
+    "sourceTest": 29,
+    "sourceQuestion": 19,
+    "question": "What name is given to the day that marks the end of Ramadan, when Muslims have fasted for a month?",
+    "options": [
+      "Vaisakhi",
+      "Eid al-Fitr",
+      "Eid ul Adha",
+      "Hanukkah"
+    ],
+    "correctAnswers": [
+      "Eid al-Fitr"
+    ],
+    "explanation": "Eid al-Fitr celebrates the end of Ramadan, when Muslims have fasted for a month.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-791",
+    "sourceScreenshot": 791,
+    "sourceTest": 29,
+    "sourceQuestion": 20,
+    "question": "Who is the fastest person to have sailed around the world single-handed?",
+    "options": [
+      "Dame Kelly Holmes",
+      "Dame Ellen MacArthur",
+      "Jayne Torvill",
+      "Bradley Wiggins"
+    ],
+    "correctAnswers": [
+      "Dame Ellen MacArthur"
+    ],
+    "explanation": "Dame Ellen MacArthur is a yachtswoman and in 2004 became the fastest person to sail around the world single-handed.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-792",
+    "sourceScreenshot": 792,
+    "sourceTest": 29,
+    "sourceQuestion": 21,
+    "question": "Who makes the decisions on government policies in the UK?",
+    "options": [
+      "The monarch",
+      "Only the Prime Minister can make the decisions on government policies",
+      "The Prime Minister and the Cabinet",
+      "The monarch and the Prime Minister"
+    ],
+    "correctAnswers": [
+      "The Prime Minister and the Cabinet"
+    ],
+    "explanation": "Decisions on government policies are made by the Prime Minister and cabinet.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-793",
+    "sourceScreenshot": 793,
+    "sourceTest": 29,
+    "sourceQuestion": 22,
+    "question": "Where does the most famous sailing event in the UK take place?",
+    "options": [
+      "Holyhead, North Wales",
+      "Cowes, The Isle of Wight",
+      "Douglas, The Isle of Man",
+      "Plymouth, England"
+    ],
+    "correctAnswers": [
+      "Cowes, The Isle of Wight"
+    ],
+    "explanation": "The most famous sailing event in the UK takes place at Cowes on the Isle of Wight.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-794",
+    "sourceScreenshot": 794,
+    "sourceTest": 29,
+    "sourceQuestion": 23,
+    "question": "How often is the electoral register updated?",
+    "options": [
+      "Every year",
+      "Every six months",
+      "Every two years",
+      "Every three years"
+    ],
+    "correctAnswers": [
+      "Every year"
+    ],
+    "explanation": "The electoral register is updated every year in September or October.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-795",
+    "sourceScreenshot": 795,
+    "sourceTest": 29,
+    "sourceQuestion": 24,
+    "question": "What do you need to drive a car in the UK?",
+    "options": [
+      "A driving licence, valid motor insurance, an MOT certificate and the road tax",
+      "A driving licence and valid motor insurance only",
+      "A driving licence and an MOT certificate only",
+      "A driving licence only"
+    ],
+    "correctAnswers": [
+      "A driving licence, valid motor insurance, an MOT certificate and the road tax"
+    ],
+    "explanation": "To drive a car in the UK you need a driving licence, valid motor insurance, an MOT certificate (for cars over three years old) and the road tax.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-796",
+    "sourceScreenshot": 796,
+    "sourceTest": 30,
+    "sourceQuestion": 1,
+    "question": "The action of handing out leaflets in the street or knocking on people’s doors to ask for their political support is known as:",
+    "options": [
+      "Shadowing",
+      "Canvassing",
+      "Marketing",
+      "Persuasion"
+    ],
+    "correctAnswers": [
+      "Canvassing"
+    ],
+    "explanation": "The action of handing out leaflets in the street or knocking on people’s doors to ask for their political support is known as canvassing.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-797",
+    "sourceScreenshot": 797,
+    "sourceTest": 30,
+    "sourceQuestion": 2,
+    "question": "Who defeated the Vikings?",
+    "options": [
+      "King Alfred the Great",
+      "William I",
+      "Boudicca",
+      "James II"
+    ],
+    "correctAnswers": [
+      "King Alfred the Great"
+    ],
+    "explanation": "King Alfred the Great defeated the Vikings.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

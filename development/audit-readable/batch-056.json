@@ -1,0 +1,179 @@
+[
+  {
+    "id": "zip-753",
+    "sourceScreenshot": 753,
+    "question": "What is the currency in the UK?",
+    "options": [
+      "Euro",
+      "Dollar",
+      "Pound",
+      "Dinar"
+    ],
+    "correctAnswers": [
+      "Pound"
+    ],
+    "explanation": "The currency in the UK is the pound sterling (symbol £)."
+  },
+  {
+    "id": "zip-754",
+    "sourceScreenshot": 754,
+    "question": "In May 2010, the Conservative and Liberal Democrat parties formed a coalition and the leader of the Liberal Democrat Party, David Cameron, became Prime Minister:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In May 2010, and for the first time in the UK since February 1974, no political party won an overall majority in the General Election. The Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister."
+  },
+  {
+    "id": "zip-755",
+    "sourceScreenshot": 755,
+    "question": "When is Diwali normally celebrated?",
+    "options": [
+      "June or July",
+      "October or November",
+      "November or December",
+      "March or April"
+    ],
+    "correctAnswers": [
+      "October or November"
+    ],
+    "explanation": "Diwali normally falls in October or November and lasts for five days."
+  },
+  {
+    "id": "zip-756",
+    "sourceScreenshot": 756,
+    "question": "Which of the following is NOT considered to be a main part of the British government?",
+    "options": [
+      "The monarchy",
+      "The European Council",
+      "The Prime Minister",
+      "The local government"
+    ],
+    "correctAnswers": [
+      "The European Council"
+    ],
+    "explanation": "The European Council is not part of the British government."
+  },
+  {
+    "id": "zip-757",
+    "sourceScreenshot": 757,
+    "question": "Which TWO universities compete with each other in a rowing race along the River Thames every year?",
+    "options": [
+      "University College of London",
+      "Imperial College",
+      "Cambridge University",
+      "Oxford University"
+    ],
+    "correctAnswers": [
+      "Cambridge University",
+      "Oxford University"
+    ],
+    "explanation": "There is a popular yearly rowing race on the Thames between Oxford and Cambridge Universities."
+  },
+  {
+    "id": "zip-758",
+    "sourceScreenshot": 758,
+    "question": "What is the name of Admiral Nelson’s ship?",
+    "options": [
+      "HMS Victory",
+      "Golden Hind",
+      "Canute",
+      "Grimsby"
+    ],
+    "correctAnswers": [
+      "HMS Victory"
+    ],
+    "explanation": "Admiral Nelson’s ship was known as the HMS Victory."
+  },
+  {
+    "id": "zip-759",
+    "sourceScreenshot": 759,
+    "question": "When driving in the UK, where do you need to display the tax disc which shows that the annual road tax has been paid?",
+    "options": [
+      "Anywhere inside the car",
+      "The windscreen of the car",
+      "The wheel of the car",
+      "The boot of the car"
+    ],
+    "correctAnswers": [
+      "The windscreen of the car"
+    ],
+    "explanation": "When driving in the UK, you must pay an annual road tax and display the tax disc, which shows that the tax has been paid, on the windscreen."
+  },
+  {
+    "id": "zip-760",
+    "sourceScreenshot": 760,
+    "question": "What is the capital of the UK?",
+    "options": [
+      "Edinburgh",
+      "London",
+      "Belfast",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "London"
+    ],
+    "explanation": "The capital city of the UK is London."
+  },
+  {
+    "id": "zip-761",
+    "sourceScreenshot": 761,
+    "question": "Which of the following is NOT a British film?",
+    "options": [
+      "Lawrence of Arabia",
+      "The 39 Steps",
+      "The Lord of the Rings",
+      "Women in Love"
+    ],
+    "correctAnswers": [
+      "The Lord of the Rings"
+    ],
+    "explanation": "The Lord of the Rings is not a British film."
+  },
+  {
+    "id": "zip-762",
+    "sourceScreenshot": 762,
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "A jury is made up of members of the public who have applied to be part of it",
+      "A jury is made up of members of the public chosen at random from the local electoral register"
+    ],
+    "correctAnswers": [
+      "A jury is made up of members of the public chosen at random from the local electoral register"
+    ],
+    "explanation": "A jury is made up of members of the public chosen at random from the local electoral register."
+  },
+  {
+    "id": "zip-763",
+    "sourceScreenshot": 763,
+    "question": "When is St David’s Day, patron of Wales?",
+    "options": [
+      "1st of March",
+      "17th of March",
+      "23rd of April",
+      "30th of November"
+    ],
+    "correctAnswers": [
+      "1st of March"
+    ],
+    "explanation": "St David’s Day, patron of Wales is celebrated on the 1st of March."
+  },
+  {
+    "id": "zip-764",
+    "sourceScreenshot": 764,
+    "question": "What name is given to the red flowers found on the battlefields of the First World War and which people wear during Remembrance Day?",
+    "options": [
+      "Blitzs",
+      "Poppies",
+      "Daffodils",
+      "Carnations"
+    ],
+    "correctAnswers": [
+      "Poppies"
+    ],
+    "explanation": "On Remembrance Day people wear poppies (the red flower found on the battlefields of the First World War)."
+  }
+]

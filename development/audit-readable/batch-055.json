@@ -99,5 +99,80 @@
       "The National Anthem"
     ],
     "explanation": "The National Anthem of the UK is ‘God Save the King’ and is played at important national occasions and at events attended by the King or the Royal Family."
+  },
+  {
+    "id": "zip-722",
+    "sourceScreenshot": 722,
+    "question": "For which purpose was the Statute of Rhuddlan introduced?",
+    "options": [
+      "To annex Scotland to the Crown of England",
+      "To annex Northern Ireland to the Crown of England",
+      "To annex Ireland to the Crown of England",
+      "To annex Wales to the Crown of England"
+    ],
+    "correctAnswers": [
+      "To annex Wales to the Crown of England"
+    ],
+    "explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England."
+  },
+  {
+    "id": "zip-723",
+    "sourceScreenshot": 723,
+    "question": "How can a person be protected from being forced into a marriage?",
+    "options": [
+      "By giving them a place to stay away from their family",
+      "Court orders can be obtained to protect a person from being forced into a marriage",
+      "By speaking to the person’s parents",
+      "There are no laws in the UK to avoid this"
+    ],
+    "correctAnswers": [
+      "Court orders can be obtained to protect a person from being forced into a marriage"
+    ],
+    "explanation": "Court orders can be obtained to protect a person from being forced into a marriage, or to protect a person in a forced marriage."
+  },
+  {
+    "id": "zip-750",
+    "sourceScreenshot": 750,
+    "question": "When was the first tennis club founded in the UK?",
+    "options": [
+      "1772",
+      "1872",
+      "1862",
+      "1762"
+    ],
+    "correctAnswers": [
+      "1872"
+    ],
+    "explanation": "The first tennis club was founded in Leamington Spa in 1872."
+  },
+  {
+    "id": "zip-751",
+    "sourceScreenshot": 751,
+    "question": "Which of the following is NOT classified as a criminal offence in the UK?",
+    "options": [
+      "Smoking in public places",
+      "Selling or buying drugs",
+      "Carrying a weapon",
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "correctAnswers": [
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "explanation": "Unfair dismissal or discrimination in the workplace is classified as a civil offence."
+  },
+  {
+    "id": "zip-752",
+    "sourceScreenshot": 752,
+    "question": "When did Henry VIII start reigning?",
+    "options": [
+      "In April 1509",
+      "In June 1497",
+      "In March 1515",
+      "In August 1495"
+    ],
+    "correctAnswers": [
+      "In April 1509"
+    ],
+    "explanation": "Henry VIII was king of England from 21 April 1509 until his death on 28 January 1547."
   }
 ]

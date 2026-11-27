@@ -1,0 +1,182 @@
+[
+  {
+    "id": "zip-765",
+    "sourceScreenshot": 765,
+    "question": "It is a civil offence to cause harassment, alarm or distress to someone because of their religion or ethnic origin:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is a criminal offence to cause harassment, alarm or distress to someone because of their religion or ethnic origin."
+  },
+  {
+    "id": "zip-766",
+    "sourceScreenshot": 766,
+    "question": "Where can you get contact details for all your representatives and their parties (choose TWO options)?",
+    "options": [
+      "At bookshops",
+      "Your local supermarket",
+      "Your local library",
+      "www.parliament.uk"
+    ],
+    "correctAnswers": [
+      "Your local library",
+      "www.parliament.uk"
+    ],
+    "explanation": "You can get contact details for all your representatives and their parties from your local library and from http://www.parliament.uk."
+  },
+  {
+    "id": "zip-767",
+    "sourceScreenshot": 767,
+    "question": "What is the Old Bailey?",
+    "options": [
+      "A famous criminal court",
+      "A Scottish drink",
+      "The name of a traditional Welsh cake",
+      "A British national park"
+    ],
+    "correctAnswers": [
+      "A famous criminal court"
+    ],
+    "explanation": "The Old Bailey is probably the most famous criminal court in the world."
+  },
+  {
+    "id": "zip-768",
+    "sourceScreenshot": 768,
+    "question": "What is the name of the oldest continuously working film studio facility in the world?",
+    "options": [
+      "Ealing Studios",
+      "Pinewood Studios Group",
+      "Pixar Animation Studios",
+      "Time Warner"
+    ],
+    "correctAnswers": [
+      "Ealing Studios"
+    ],
+    "explanation": "Ealing Studios has a claim to being the oldest continuously working film studio facility in the world."
+  },
+  {
+    "id": "zip-769",
+    "sourceScreenshot": 769,
+    "question": "What are the British scientists Sir Ian Wilmut and Keith Campbell famous for?",
+    "options": [
+      "The first ‘test-tube baby’",
+      "The cloning of the first mammal, Dolly the sheep",
+      "The invention of the MRI (magnetic resonance imaging) scanner",
+      "The invention of the World Wide Web"
+    ],
+    "correctAnswers": [
+      "The cloning of the first mammal, Dolly the sheep"
+    ],
+    "explanation": "Sir Ian Wilmut and Keith Campbell led a team which was the first to succeed in cloning a mammal, Dolly the sheep."
+  },
+  {
+    "id": "zip-770",
+    "sourceScreenshot": 770,
+    "question": "By which name is London’s West End known?",
+    "options": [
+      "Theatreland",
+      "Operaland",
+      "Home of rugby",
+      "Home of golf"
+    ],
+    "correctAnswers": [
+      "Theatreland"
+    ],
+    "explanation": "London’s West End is also known as ‘Theatreland’."
+  },
+  {
+    "id": "zip-771",
+    "sourceScreenshot": 771,
+    "question": "Which of the following was one of the commanders in the defeat of the Spanish Armada and one of the founders of England’s naval tradition?",
+    "options": [
+      "Alan Turing",
+      "Sir Francis Drake",
+      "James VI of Scotland",
+      "Oliver Cromwell"
+    ],
+    "correctAnswers": [
+      "Sir Francis Drake"
+    ],
+    "explanation": "Sir Francis Drake was one of the commanders in the defeat of the Spanish Armada and one of the founders of England’s naval tradition."
+  },
+  {
+    "id": "zip-772",
+    "sourceScreenshot": 772,
+    "question": "Where was William Shakespeare born?",
+    "options": [
+      "London",
+      "Liverpool",
+      "Stratford upon Avon",
+      "Newcastle upon Tyne"
+    ],
+    "correctAnswers": [
+      "Stratford upon Avon"
+    ],
+    "explanation": "William Shakespeare was born in Stratford-upon-Avon."
+  },
+  {
+    "id": "zip-773",
+    "sourceScreenshot": 773,
+    "question": "Which TWO islands are closely linked to the UK but are not part of it?",
+    "options": [
+      "The Isle of Man",
+      "Malta",
+      "The Channel Islands",
+      "Fiji"
+    ],
+    "correctAnswers": [
+      "The Isle of Man",
+      "The Channel Islands"
+    ],
+    "explanation": "The Channel Islands and the Isle of Man are closely linked to the UK but are not part of it."
+  },
+  {
+    "id": "zip-774",
+    "sourceScreenshot": 774,
+    "question": "Who gave Henry VIII the son he wanted, Edward?",
+    "options": [
+      "Jane Seymour",
+      "Catherine of Aragon",
+      "Anne of Cleves",
+      "Catherine Parr"
+    ],
+    "correctAnswers": [
+      "Jane Seymour"
+    ],
+    "explanation": "Jane Seymour gave Henry VIII the son he wanted, Edward."
+  },
+  {
+    "id": "zip-775",
+    "sourceScreenshot": 775,
+    "question": "The Middle Ages or medieval times relate to the time that goes from the period after the Norman Conquest until the year:",
+    "options": [
+      "1385",
+      "1485",
+      "1495",
+      "1595"
+    ],
+    "correctAnswers": [
+      "1485"
+    ],
+    "explanation": "The period after the Norman Conquest up until about 1485 is called the Middle Ages (or the medieval period)."
+  },
+  {
+    "id": "zip-776",
+    "sourceScreenshot": 776,
+    "question": "Who is the heir to the throne of the UK?",
+    "options": [
+      "Prince William",
+      "Prince Harry",
+      "Prince James",
+      "Prince Philip"
+    ],
+    "correctAnswers": [
+      "Prince William"
+    ],
+    "explanation": "The King’s eldest son, Prince William (the Prince of Wales), is the heir to the throne."
+  }
+]

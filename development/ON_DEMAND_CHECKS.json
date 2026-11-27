@@ -132,6 +132,31 @@
       "checkedAgainst": "lift in uk QA 1.zip / 螢幕擷取畫面 (186).png；Test 7 Question 15",
       "note": "实际打开原图逐字核对题干、四个选项、绿色高亮答案及完整解释。仅将第二个选项的 $ 恢复为 8，答案随选项下标更新；不推进顺序审核游标。",
       "githubChange": "修正 OCR 数字、增加回归测试及数量单位缺数字检测；同步可读分包。"
+    },
+    {
+      "id": "zip-252",
+      "sourceScreenshot": 252,
+      "question": "Which flag comprises a red cross on a white ground?",
+      "options": [
+        "The cross of St Andrew, patron saint of Scotland",
+        "The cross of St David, patron saint of Wales",
+        "The cross of St Patrick, patron saint of Ireland",
+        "The cross of St George, patron saint of England"
+      ],
+      "correctAnswers": [
+        "The cross of St George, patron saint of England"
+      ],
+      "explanation": "The cross of St George, patron saint of England, is a red cross on a white ground.",
+      "status": "visually_checked",
+      "imageCompared": true,
+      "checkedAt": "2026-11-27T22:38:34.369Z",
+      "result": "corrected",
+      "findings": [
+        "题干 tlag→flag；Comprises→comprises，原图确认。"
+      ],
+      "checkedAgainst": "lift in uk QA 1.zip / 螢幕擷取畫面 (252).png；Test 9 Question 23",
+      "note": "实际打开完整原始截图核对题干、四个选项、绿色高亮正确答案及解释。保留已修正的 St George 选项，其余文字不变；不推进顺序审核游标。",
+      "githubChange": "恢复原题干、保留旧ID及正确答案，同步可读分包并增加回归测试。"
     }
   ]
 }

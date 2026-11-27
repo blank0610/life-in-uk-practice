@@ -1,0 +1,179 @@
+[
+  {
+    "id": "zip-850",
+    "sourceScreenshot": 850,
+    "question": "Each MP represents a parliamentary constituency, which is a small area of the country:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-851",
+    "sourceScreenshot": 851,
+    "question": "Who were the pioneers of the IVF (in-vitro fertilisation) therapy?",
+    "options": [
+      "Sir Frank Whittle and Sir Christopher Cockerell",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Francis Creek and John Logie Baird",
+      "Sir Ian Wilmot and Keith Campbell"
+    ],
+    "correctAnswers": [
+      "Sir Robert Edwards and Patrick Steptoe"
+    ],
+    "explanation": "IVF (in-vitro fertilisation) therapy for the treatment of infertility was pioneered in Britain by physiologist Sir Robert Edwards (1925-) and gynaecologist Patrick Steptoe (1913-88). The world’s first ‘test-tube baby’ was born in Oldham, Lancashire in 1978."
+  },
+  {
+    "id": "zip-852",
+    "sourceScreenshot": 852,
+    "question": "Who led the establishment of the National Health System (NHS) in 1948?",
+    "options": [
+      "Aneurin (Nye) Bevan",
+      "Harold Macmillan",
+      "Clement Attlee",
+      "William Beveridge"
+    ],
+    "correctAnswers": [
+      "Aneurin (Nye) Bevan"
+    ],
+    "explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use."
+  },
+  {
+    "id": "zip-853",
+    "sourceScreenshot": 853,
+    "question": "Which of the following countries were granted their independence in 1947 (choose THREE answers)?",
+    "options": [
+      "India",
+      "Bangladesh",
+      "Pakistan",
+      "Ceylon (Sri Lanka)"
+    ],
+    "correctAnswers": [
+      "India",
+      "Pakistan",
+      "Ceylon (Sri Lanka)"
+    ],
+    "explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
+  },
+  {
+    "id": "zip-854",
+    "sourceScreenshot": 854,
+    "question": "In the UK, bank holidays of no religious significance are celebrated at the beginning of May, in late May or early June, and in August:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-855",
+    "sourceScreenshot": 855,
+    "question": "Where can Admiral Nelson’s ship known as HMS Victory be visited?",
+    "options": [
+      "Plymouth",
+      "Bournemouth",
+      "Portsmouth",
+      "Hastings"
+    ],
+    "correctAnswers": [
+      "Portsmouth"
+    ],
+    "explanation": "Admiral Nelson’s ship, HMS Victory, can be visited in Portsmouth."
+  },
+  {
+    "id": "zip-856",
+    "sourceScreenshot": 856,
+    "question": "Who were the Puritans?",
+    "options": [
+      "A group of Catholics who advocated strict and simple religious doctrine and worship",
+      "A group of Protestants who advocated strict and simple religious doctrine and worship",
+      "A group of landowners from the 18th century",
+      "A group of local leaders that surged in Wales with strict religious views"
+    ],
+    "correctAnswers": [
+      "A group of Protestants who advocated strict and simple religious doctrine and worship"
+    ],
+    "explanation": "The Puritans were a group of Protestants who advocated strict and simple religious doctrine and worship. They did not agree with the king’s religious views and disliked his reforms of the Church of England."
+  },
+  {
+    "id": "zip-857",
+    "sourceScreenshot": 857,
+    "question": "What TWO different types of rugby are practised in the UK?",
+    "options": [
+      "Union",
+      "League",
+      "Rugby open",
+      "Free style"
+    ],
+    "correctAnswers": [
+      "Union",
+      "League"
+    ],
+    "explanation": "There are two different types of rugby, which have different rules: union and league."
+  },
+  {
+    "id": "zip-858",
+    "sourceScreenshot": 858,
+    "question": "What do William Blake, John Keats and Lord Byron have in common?",
+    "options": [
+      "They were British poets of the 19th century",
+      "They were British painters of the Swinging Sixties",
+      "They were musicians of the Middle Ages",
+      "They were British scientists"
+    ],
+    "correctAnswers": [
+      "They were British poets of the 19th century"
+    ],
+    "explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning."
+  },
+  {
+    "id": "zip-859",
+    "sourceScreenshot": 859,
+    "question": "The Laurence Olivier Awards take place annually at different venues in Liverpool:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Laurence Olivier Awards take place annually at different venues in London."
+  },
+  {
+    "id": "zip-860",
+    "sourceScreenshot": 860,
+    "question": "An additional rented piece of land where people can grow fruit and vegetables is known as:",
+    "options": [
+      "Parcel",
+      "Garden",
+      "Terrain",
+      "Allotment"
+    ],
+    "correctAnswers": [
+      "Allotment"
+    ],
+    "explanation": "In the UK, some people rent additional land called ‘an allotment’, where they grow fruit and vegetables."
+  },
+  {
+    "id": "zip-861",
+    "sourceScreenshot": 861,
+    "question": "What is the name of the battle where the Scottish led by Robert the Bruce defeated the English in 1314?",
+    "options": [
+      "The Battle of Agincourt",
+      "The Battle of Bannockburn",
+      "The Battle of Trafalgar",
+      "The Battle of Waterloo"
+    ],
+    "correctAnswers": [
+      "The Battle of Bannockburn"
+    ],
+    "explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn."
+  }
+]

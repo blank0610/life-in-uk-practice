@@ -13,5 +13,165 @@
       "Hiroshima and Nagasaki"
     ],
     "explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki."
+  },
+  {
+    "id": "zip-838",
+    "sourceScreenshot": 838,
+    "question": "What is a bank holiday (choose TWO answers)?",
+    "options": [
+      "A festive pagan day",
+      "A private holiday",
+      "A day when banks are closed",
+      "A public holiday"
+    ],
+    "correctAnswers": [
+      "A day when banks are closed",
+      "A public holiday"
+    ],
+    "explanation": "In the UK, there are public holidays each year called bank holidays, when banks and many other businesses are closed for the day."
+  },
+  {
+    "id": "zip-839",
+    "sourceScreenshot": 839,
+    "question": "By 1200, the English ruled an area of Scotland known as the Pale, around Edinburgh:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "By 1200, the English ruled an area of Ireland known as the Pale, around Dublin."
+  },
+  {
+    "id": "zip-841",
+    "sourceScreenshot": 841,
+    "question": "Which of the following countries does not take part in the Six Nations Championship?",
+    "options": [
+      "Wales",
+      "Italy",
+      "Germany",
+      "France"
+    ],
+    "correctAnswers": [
+      "Germany"
+    ],
+    "explanation": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy."
+  },
+  {
+    "id": "zip-842",
+    "sourceScreenshot": 842,
+    "question": "Who became Queen after Edward VI?",
+    "options": [
+      "Elizabeth I",
+      "Queen Mary",
+      "Anne Boleyn",
+      "Catherine of Aragon"
+    ],
+    "correctAnswers": [
+      "Queen Mary"
+    ],
+    "explanation": "Edward VI died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
+  },
+  {
+    "id": "zip-843",
+    "sourceScreenshot": 843,
+    "question": "Which of the following is NOT classified as a criminal offence in the UK?",
+    "options": [
+      "Selling alcohol to anyone under the age of 18",
+      "Selling or buying drugs",
+      "Carrying a knife",
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "correctAnswers": [
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "explanation": "Cases of unfair dismissal or discrimination in the workplace are considered civil offences."
+  },
+  {
+    "id": "zip-844",
+    "sourceScreenshot": 844,
+    "question": "The right to life and the right to liberty and security are some of the principles included in the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This is true."
+  },
+  {
+    "id": "zip-845",
+    "sourceScreenshot": 845,
+    "question": "British values and principles are based on history and traditions and are protected by law, customs and expectations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-846",
+    "sourceScreenshot": 846,
+    "question": "When did the first Christian communities begin to appear in Britain?",
+    "options": [
+      "During the 1st and 2nd centuries AD",
+      "During the 2nd and 3rd centuries AD",
+      "During the 3rd and 4th centuries AD",
+      "During the 4th and 5th centuries AD"
+    ],
+    "correctAnswers": [
+      "During the 3rd and 4th centuries AD"
+    ],
+    "explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
+  },
+  {
+    "id": "zip-847",
+    "sourceScreenshot": 847,
+    "question": "Which of the following is NOT a devolved administration?",
+    "options": [
+      "The Scottish Parliament",
+      "The Welsh government",
+      "The Irish Parliament",
+      "The Northern Ireland Assembly"
+    ],
+    "correctAnswers": [
+      "The Irish Parliament"
+    ],
+    "explanation": "There are three devolved administrations in the UK; these include the Welsh government, the Scottish Parliament and the Northern Ireland Assembly."
+  },
+  {
+    "id": "zip-848",
+    "sourceScreenshot": 848,
+    "question": "Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?",
+    "options": [
+      "Emperor Claudius",
+      "Napoleon",
+      "Emperor Hadrian",
+      "Julius Caesar"
+    ],
+    "correctAnswers": [
+      "Emperor Hadrian"
+    ],
+    "explanation": "Areas of what is now Scotland were never conquered by the Romans, and the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)."
+  },
+  {
+    "id": "zip-849",
+    "sourceScreenshot": 849,
+    "question": "Who looks after Edinburgh Castle?",
+    "options": [
+      "Historic Environment Scotland",
+      "SEPA",
+      "The Scottish Parliament",
+      "The National Trust"
+    ],
+    "correctAnswers": [
+      "Historic Environment Scotland"
+    ],
+    "explanation": "Edinburgh Castle is a dominant feature of the skyline in Edinburgh, Scotland. It has a long history, dating back to the early Middle Ages. It is looked after by Historic Environment Scotland."
   }
 ]

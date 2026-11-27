@@ -1,0 +1,180 @@
+[
+  {
+    "id": "zip-1297",
+    "sourceScreenshot": 1297,
+    "question": "When did the BBC start the world’s first regular television service?",
+    "options": [
+      "1922",
+      "1932",
+      "1936",
+      "1944"
+    ],
+    "correctAnswers": [
+      "1936"
+    ],
+    "explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936."
+  },
+  {
+    "id": "zip-1298",
+    "sourceScreenshot": 1298,
+    "question": "Women in Britain today make up about one third of the workforce.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Women in Britain today make up about half of the workforce."
+  },
+  {
+    "id": "zip-1299",
+    "sourceScreenshot": 1299,
+    "question": "The evacuation of British and French soldiers from France in a huge naval operation during WWII gave rise to which phrase:",
+    "options": [
+      "The Harbour spirit",
+      "The Blitz operation",
+      "The Dunkirk spirit",
+      "The D-Day operation"
+    ],
+    "correctAnswers": [
+      "The Dunkirk spirit"
+    ],
+    "explanation": "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk. The evacuation gave rise to the phrase ‘the Dunkirk spirit’."
+  },
+  {
+    "id": "zip-1300",
+    "sourceScreenshot": 1300,
+    "question": "Which programme helps 16- and 17-year-olds develop their skills and take part in community projects?",
+    "options": [
+      "The Youth Working Programme",
+      "The National Development Programme",
+      "The National Citizen Service Programme",
+      "The Skills Development Programme"
+    ],
+    "correctAnswers": [
+      "The National Citizen Service Programme"
+    ],
+    "explanation": "The National Citizen Service programme gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project."
+  },
+  {
+    "id": "zip-1301",
+    "sourceScreenshot": 1301,
+    "question": "Queen Victoria became queen in:",
+    "options": [
+      "1837",
+      "1847",
+      "1835",
+      "1836"
+    ],
+    "correctAnswers": [
+      "1837"
+    ],
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18."
+  },
+  {
+    "id": "zip-1302",
+    "sourceScreenshot": 1302,
+    "question": "Who wrote the books ‘Pride and Prejudice’ and ‘Sense and Sensibility’?",
+    "options": [
+      "Charles Dickens",
+      "Robert Louis Stevenson",
+      "Evelyn Waugh",
+      "Jane Austen"
+    ],
+    "correctAnswers": [
+      "Jane Austen"
+    ],
+    "explanation": "Jane Austen (1775-1817) was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility."
+  },
+  {
+    "id": "zip-1303",
+    "sourceScreenshot": 1303,
+    "question": "Which political party did Margaret Thatcher belong to?",
+    "options": [
+      "Green Party",
+      "Conservative Party",
+      "Liberal Democrats Party",
+      "Democratic Unionist Party"
+    ],
+    "correctAnswers": [
+      "Conservative Party"
+    ],
+    "explanation": "Margaret Thatcher led the Conservative government from 1979 to 1990."
+  },
+  {
+    "id": "zip-1304",
+    "sourceScreenshot": 1304,
+    "question": "In which city is the Millennium Stadium located?",
+    "options": [
+      "Birmingham",
+      "Nottingham",
+      "Liverpool",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "Cardiff"
+    ],
+    "explanation": "The Millennium Stadium is located in Cardiff."
+  },
+  {
+    "id": "zip-1305",
+    "sourceScreenshot": 1305,
+    "question": "Who lost a lot of power and influence after the Battle of Culloden in 1746?",
+    "options": [
+      "The church",
+      "Politicians",
+      "The clans",
+      "The King"
+    ],
+    "correctAnswers": [
+      "The clans"
+    ],
+    "explanation": "The clans lost a lot of their power and influence after Culloden. Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used."
+  },
+  {
+    "id": "zip-1306",
+    "sourceScreenshot": 1306,
+    "question": "What UK landmark was voted as Britain’s favourite view in 2007?",
+    "options": [
+      "Wastwater in the Lake District",
+      "Snowdon in Snowdonia",
+      "The Crown Jewels at the Tower of London",
+      "Loch Lomond in Scotland"
+    ],
+    "correctAnswers": [
+      "Wastwater in the Lake District"
+    ],
+    "explanation": "In 2007, television viewers voted Wastwater as Britain’s favourite view."
+  },
+  {
+    "id": "zip-1307",
+    "sourceScreenshot": 1307,
+    "question": "When did the development of a free press take place?",
+    "options": [
+      "1795",
+      "1685",
+      "1695",
+      "1785"
+    ],
+    "correctAnswers": [
+      "1695"
+    ],
+    "explanation": "From 1695, newspapers were allowed to operate without a government licence. Increasing numbers of newspapers began to be published."
+  },
+  {
+    "id": "zip-1308",
+    "sourceScreenshot": 1308,
+    "question": "Which was the last successful foreign invasion of England?",
+    "options": [
+      "The Roman invasion",
+      "The Anglo-Saxon invasion",
+      "The Norman Conquest",
+      "The Viking invasion"
+    ],
+    "correctAnswers": [
+      "The Norman Conquest"
+    ],
+    "explanation": "The Norman Conquest was the last successful foreign invasion of England and led to many changes in government and social structures in England."
+  }
+]

@@ -68,3 +68,6 @@
 
 ### 新增原图按文件夹处理
 用户要求新增题统一进入同一个现有练习题库，按原 ZIP 文件夹与截图编号连续核对、追加，不按 Test 套数分组或等待整套完成。`development/IMPORT_TESTS_20_40.md` 记录文件夹处理边界、跳过原因及下一截图；sourceTest/sourceQuestion 仅用于证据溯源。此导入流程与正式每小时顺序巡检独立。
+
+### 两个扩容 ZIP 已完成
+全源截图处理记录见 `IMPORT_TESTS_20_40.md` 及 `IMPORT_REMAINING_SOURCE_COVERAGE.json`。永久巡检继续以主账动态题数和游标为准，既有轮次不重置。导入核对、自动重复图检测不计入巡检逐题状态。

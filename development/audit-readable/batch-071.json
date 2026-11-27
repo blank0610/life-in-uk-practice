@@ -1,0 +1,174 @@
+[
+  {
+    "id": "zip-1186",
+    "sourceScreenshot": 1186,
+    "question": "The population is very equally distributed over the four parts of the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The population is very unequally distributed over the four parts of the UK. England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8%, and Northern Ireland less than 3%."
+  },
+  {
+    "id": "zip-1187",
+    "sourceScreenshot": 1187,
+    "question": "Where was Anne Boleyn executed?",
+    "options": [
+      "In Conwy Castle",
+      "At the Tower of London",
+      "At the Houses of the Parliament",
+      "In France"
+    ],
+    "correctAnswers": [
+      "At the Tower of London"
+    ],
+    "explanation": "Anne Boleyn was executed at the Tower of London."
+  },
+  {
+    "id": "zip-1188",
+    "sourceScreenshot": 1188,
+    "question": "At the beginning of the Middle Ages, Ireland was not an independent country:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "At the beginning of the Middle Ages, Ireland was an independent country."
+  },
+  {
+    "id": "zip-1189",
+    "sourceScreenshot": 1189,
+    "question": "Since 1997, some powers have been devolved from the central government to give people in Wales, Scotland and Northern Ireland more control over matters that directly affect them:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-1190",
+    "sourceScreenshot": 1190,
+    "question": "Where did Mary Stuart, the Queen of Scotland, spend most of her childhood?",
+    "options": [
+      "Spain",
+      "Germany",
+      "Holland",
+      "France"
+    ],
+    "correctAnswers": [
+      "France"
+    ],
+    "explanation": "Mary Stuart, the Queen of Scotland, spent most of her childhood in France."
+  },
+  {
+    "id": "zip-1191",
+    "sourceScreenshot": 1191,
+    "question": "During the Middle Ages, several cathedrals had windows of stained glass, telling stories about:",
+    "options": [
+      "The journey of pilgrims to Canterbury",
+      "Noah’s Ark",
+      "The Bible and Christian saints",
+      "Medieval priests"
+    ],
+    "correctAnswers": [
+      "The Bible and Christian saints"
+    ],
+    "explanation": "During the Middle Ages, several cathedrals had windows of stained glass, telling stories about the Bible and Christian saints. The glass in York Minster is a famous example."
+  },
+  {
+    "id": "zip-1192",
+    "sourceScreenshot": 1192,
+    "question": "Where does the UK Parliament sit?",
+    "options": [
+      "Westminster",
+      "Stormont",
+      "Holyrood",
+      "Senedd"
+    ],
+    "correctAnswers": [
+      "Westminster"
+    ],
+    "explanation": "The UK is governed by the parliament sitting in Westminster."
+  },
+  {
+    "id": "zip-1193",
+    "sourceScreenshot": 1193,
+    "question": "When did King Edward I of England introduce the Statute of Rhuddlan by which Wales was annexed to the Crown of England?",
+    "options": [
+      "In 1284",
+      "In 1235",
+      "In 1304",
+      "In 1340"
+    ],
+    "correctAnswers": [
+      "In 1284"
+    ],
+    "explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England."
+  },
+  {
+    "id": "zip-1195",
+    "sourceScreenshot": 1195,
+    "question": "Which of the following public services can be controlled by the devolved administrations?",
+    "options": [
+      "Defence",
+      "Immigration",
+      "Foreign Affairs",
+      "Education"
+    ],
+    "correctAnswers": [
+      "Education"
+    ],
+    "explanation": "Some public services, such as education, are controlled by the devolved administrations."
+  },
+  {
+    "id": "zip-1196",
+    "sourceScreenshot": 1196,
+    "question": "The Senedd has been suspended on a few occasions:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Northern Ireland Assembly has been suspended on a few occasions."
+  },
+  {
+    "id": "zip-1197",
+    "sourceScreenshot": 1197,
+    "question": "The settlements of Scottish and English Protestants in Ulster (the northern province of Ireland) during the reigns of Elizabeth I and James I, who took over the land from Catholic landholders, are known as:",
+    "options": [
+      "Plantations",
+      "Cavaliers",
+      "Puritans",
+      "Pale"
+    ],
+    "correctAnswers": [
+      "Plantations"
+    ],
+    "explanation": "These settlements were known as plantations."
+  },
+  {
+    "id": "zip-1198",
+    "sourceScreenshot": 1198,
+    "question": "Which of the following jobs is usually unpaid in England, Wales and Scotland?",
+    "options": [
+      "Magistrates and Justices of the Peace",
+      "Civil Lawyers",
+      "Wardens",
+      "Policeman"
+    ],
+    "correctAnswers": [
+      "Magistrates and Justices of the Peace"
+    ],
+    "explanation": "In England, Wales and Scotland, Magistrates and Justices of the Peace (JPs) are members of the local community and they usually work unpaid and do not need legal qualifications."
+  }
+]

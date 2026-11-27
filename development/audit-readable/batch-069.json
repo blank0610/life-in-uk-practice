@@ -1,0 +1,174 @@
+[
+  {
+    "id": "zip-1160",
+    "sourceScreenshot": 1160,
+    "question": "Where is the Scottish Grand National horse racing event celebrated?",
+    "options": [
+      "St Andrews",
+      "Ayr",
+      "Fife",
+      "Glasgow"
+    ],
+    "correctAnswers": [
+      "Ayr"
+    ],
+    "explanation": "The Scottish Grand National horse racing event is celebrated at Ayr."
+  },
+  {
+    "id": "zip-1161",
+    "sourceScreenshot": 1161,
+    "question": "Arranged marriages are not acceptable in the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Arranged marriages, where both parties agree to the marriage, are acceptable in the UK."
+  },
+  {
+    "id": "zip-1162",
+    "sourceScreenshot": 1162,
+    "question": "Who was the Prime Minister of the UK from 1945 to 1951?",
+    "options": [
+      "Margaret Thatcher",
+      "John Major",
+      "Clement Attlee",
+      "Oliver Cromwell"
+    ],
+    "correctAnswers": [
+      "Clement Attlee"
+    ],
+    "explanation": "Clement Attlee was Prime Minister from 1945 to 1951 and led the Labour Party for 20 years."
+  },
+  {
+    "id": "zip-1163",
+    "sourceScreenshot": 1163,
+    "question": "Who represents the UK to the rest of the world?",
+    "options": [
+      "The Prime Minister",
+      "Prince Harry",
+      "Prince William",
+      "The King"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": "The King represents the UK to the rest of the world."
+  },
+  {
+    "id": "zip-1164",
+    "sourceScreenshot": 1164,
+    "question": "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-1165",
+    "sourceScreenshot": 1165,
+    "question": "Queen Elizabeth I was a Catholic:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Queen Elizabeth I was a Protestant."
+  },
+  {
+    "id": "zip-1166",
+    "sourceScreenshot": 1166,
+    "question": "What is the meaning of the term the ‘Divine Right of Kings’?",
+    "options": [
+      "The idea that the king was appointed by landowners",
+      "The Parliament and the King shared responsibilities",
+      "The King could rule the country but with the support of the Parliament",
+      "The idea that the king was directly appointed by God to rule"
+    ],
+    "correctAnswers": [
+      "The idea that the king was directly appointed by God to rule"
+    ],
+    "explanation": "The ‘Divine Right of Kings’ refers to the idea that the king was directly appointed by God to rule and that the king should be able to act without having to seek approval from Parliament."
+  },
+  {
+    "id": "zip-1167",
+    "sourceScreenshot": 1167,
+    "question": "Who was the first person to lead a Roman invasion in Britain in 55 BC?",
+    "options": [
+      "Emperor Claudius",
+      "Napoleon",
+      "Julius Caesar",
+      "William Caxton"
+    ],
+    "correctAnswers": [
+      "Julius Caesar"
+    ],
+    "explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire."
+  },
+  {
+    "id": "zip-1168",
+    "sourceScreenshot": 1168,
+    "question": "Which of the following is NOT the responsibility of the MPs?",
+    "options": [
+      "Scrutinise and comment on what the government is doing",
+      "Represent everyone in the constituency",
+      "Protect life and property",
+      "Debate important national issues"
+    ],
+    "correctAnswers": [
+      "Protect life and property"
+    ],
+    "explanation": "MPs have a number of different responsibilities. They represent everyone in their constituency, help to create new laws, scrutinize and comment on what the government is doing and debate important national issues."
+  },
+  {
+    "id": "zip-1169",
+    "sourceScreenshot": 1169,
+    "question": "When Henry VIII took the title ‘King of Ireland’, English laws were introduced and everyone except for local leaders was expected to follow the instructions of the Lord Lieutenants in Dublin:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "When Henry VIII took the title ‘King of Ireland’, English laws were introduced and local leaders were expected to follow the instructions of the Lord Lieutenants in Dublin."
+  },
+  {
+    "id": "zip-1170",
+    "sourceScreenshot": 1170,
+    "question": "The clock tower is named ‘Elizabeth Tower’ in honour of __________.",
+    "options": [
+      "Queen Elizabeth II’s Diamond Jubilee in 2012",
+      "Queen Elizabeth I’s Diamond Jubilee in 2012",
+      "Queen Elizabeth II’s Golden Jubilee in 2002",
+      "Queen Elizabeth I’s Golden Jubilee in 2002"
+    ],
+    "correctAnswers": [
+      "Queen Elizabeth II’s Diamond Jubilee in 2012"
+    ],
+    "explanation": "The clock tower is named ‘Elizabeth Tower’ in honour of Queen Elizabeth II’s Diamond Jubilee in 2012."
+  },
+  {
+    "id": "zip-1172",
+    "sourceScreenshot": 1172,
+    "question": "When is the anniversary of the Battle of the Boyne celebrated in Northern Ireland?",
+    "options": [
+      "March",
+      "May",
+      "June",
+      "July"
+    ],
+    "correctAnswers": [
+      "July"
+    ],
+    "explanation": "In Northern Ireland, the anniversary of the Battle of the Boyne is celebrated in July and is also a public holiday."
+  }
+]

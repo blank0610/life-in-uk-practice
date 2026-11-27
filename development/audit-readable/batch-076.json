@@ -1,0 +1,181 @@
+[
+  {
+    "id": "zip-1272",
+    "sourceScreenshot": 1272,
+    "question": "Who is in charge of appointing the local Chief Constable?",
+    "options": [
+      "A judge",
+      "Police and Crime Commissioners",
+      "The mayor",
+      "The local community members"
+    ],
+    "correctAnswers": [
+      "Police and Crime Commissioners"
+    ],
+    "explanation": "PCCs (Police and Crime Commissioners) set local police priorities and the local policing budget. They also appoint the local Chief Constable."
+  },
+  {
+    "id": "zip-1273",
+    "sourceScreenshot": 1273,
+    "question": "What does the money from the National Insurance Contributions pay for (CHOOSE TWO)?",
+    "options": [
+      "Police force salaries",
+      "State retirement pensions",
+      "National Health Service",
+      "University fees"
+    ],
+    "correctAnswers": [
+      "State retirement pensions",
+      "National Health Service"
+    ],
+    "explanation": "The money raised from National Insurance Contributions is used to pay for state benefits and services such as the state retirement pension and the National Health Service (NHS)."
+  },
+  {
+    "id": "zip-1274",
+    "sourceScreenshot": 1274,
+    "question": "How many British died on the first day alone of the Battle of Somme?",
+    "options": [
+      "60,000",
+      "65,000",
+      "40,000",
+      "55,000"
+    ],
+    "correctAnswers": [
+      "60,000"
+    ],
+    "explanation": "The British attack of the Somme in July 1916, resulted in about 60,000 British casualties on the first day alone."
+  },
+  {
+    "id": "zip-1275",
+    "sourceScreenshot": 1275,
+    "question": "When was the first Union flag created?",
+    "options": [
+      "1515",
+      "1616",
+      "1505",
+      "1606"
+    ],
+    "correctAnswers": [
+      "1606"
+    ],
+    "explanation": "The first Union Flag was created in 1606 from the flags of Scotland and England; the Principality of Wales was already united with England."
+  },
+  {
+    "id": "zip-1276",
+    "sourceScreenshot": 1276,
+    "question": "Which of the following territories is not part of the UK?",
+    "options": [
+      "Northern Ireland",
+      "The Isle of Man",
+      "Wales",
+      "Scotland"
+    ],
+    "correctAnswers": [
+      "The Isle of Man"
+    ],
+    "explanation": "The UK comprises England, Wales, Scotland and Northern Ireland. There are several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man."
+  },
+  {
+    "id": "zip-1277",
+    "sourceScreenshot": 1277,
+    "question": "Which of the following is NOT a fundamental principle of British life?",
+    "options": [
+      "Individual liberty",
+      "Democracy",
+      "Communism",
+      "Participation in community life"
+    ],
+    "correctAnswers": [
+      "Communism"
+    ],
+    "explanation": "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life."
+  },
+  {
+    "id": "zip-1278",
+    "sourceScreenshot": 1278,
+    "question": "What do Sir Terence Conran, Clarice Cliff and Thomas Chippendale have in common?",
+    "options": [
+      "They were British designers",
+      "They developed the atomic bomb",
+      "They were British explorers",
+      "They were British poets"
+    ],
+    "correctAnswers": [
+      "They were British designers"
+    ],
+    "explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer)."
+  },
+  {
+    "id": "zip-1292",
+    "sourceScreenshot": 1292,
+    "question": "Which of the following cities is not in Wales?",
+    "options": [
+      "Cardiff",
+      "Swansea",
+      "Bradford",
+      "Newport"
+    ],
+    "correctAnswers": [
+      "Bradford"
+    ],
+    "explanation": "Bradford is located in England."
+  },
+  {
+    "id": "zip-1293",
+    "sourceScreenshot": 1293,
+    "question": "People on the electoral register with ages between 18 and 70 can be asked to serve on a jury.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this."
+  },
+  {
+    "id": "zip-1294",
+    "sourceScreenshot": 1294,
+    "question": "Which Saxon king of England was killed at the Battle of Hastings in 1066?",
+    "options": [
+      "Kenneth MacAlpin",
+      "Harold",
+      "William the Conqueror",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "Harold"
+    ],
+    "explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings. Harold was killed in the battle."
+  },
+  {
+    "id": "zip-1295",
+    "sourceScreenshot": 1295,
+    "question": "During the ‘swinging sixties’ Britain experienced a growth in:",
+    "options": [
+      "Sports such as rowing and cycling",
+      "Fashion, cinema and popular music",
+      "Holistic therapies",
+      "People going to university"
+    ],
+    "correctAnswers": [
+      "Fashion, cinema and popular music"
+    ],
+    "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music."
+  },
+  {
+    "id": "zip-1296",
+    "sourceScreenshot": 1296,
+    "question": "As a permanent resident or citizen of the UK you should:",
+    "options": [
+      "Treat others with fairness",
+      "Look after yourself and your family",
+      "Look after the area in which you live and the environment",
+      "All the answers are correct"
+    ],
+    "correctAnswers": [
+      "All the answers are correct"
+    ],
+    "explanation": "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, respect the rights of others, including their right to their own opinions, treat others with fairness, look after yourself and your family and look after the area in which you live and the environment."
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "zip-862",
+    "sourceScreenshot": 862,
+    "question": "Who took the English throne after the death of Henry VIII?",
+    "options": [
+      "Elizabeth I",
+      "Edward VI",
+      "Queen Mary",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Edward VI"
+    ],
+    "explanation": "Henry VIII was succeeded by his son Edward VI."
+  },
+  {
+    "id": "zip-863",
+    "sourceScreenshot": 863,
+    "question": "Carrying a weapon is a criminal offence, unless it is for self-defence:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is a criminal offence to carry a weapon of any kind, even if it is for self-defence. This includes a gun, a knife or anything that is made or adapted to cause injury."
+  },
+  {
+    "id": "zip-864",
+    "sourceScreenshot": 864,
+    "question": "Prohibition of thought, conscience and religion is one of the principles included in the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Freedom of thought, conscience and religion is one of the principles included in the European Convention of Human Rights."
+  },
+  {
+    "id": "zip-865",
+    "sourceScreenshot": 865,
+    "question": "Which TWO pop music groups became popular in the 1960s?",
+    "options": [
+      "Queen",
+      "The Rolling Stones",
+      "The Beatles",
+      "The Carpenters"
+    ],
+    "correctAnswers": [
+      "The Rolling Stones",
+      "The Beatles"
+    ],
+    "explanation": "Two well-known pop music groups in the 1960s were The Beatles and The Rolling Stones."
+  },
+  {
+    "id": "zip-866",
+    "sourceScreenshot": 866,
+    "question": "Which of the following words comes from the Viking language?",
+    "options": [
+      "Table",
+      "Scunthorpe",
+      "Pencil",
+      "Rabbit"
+    ],
+    "correctAnswers": [
+      "Scunthorpe"
+    ],
+    "explanation": "Words such as Grimsby and Scunthorpe come from the Viking languages."
+  },
+  {
+    "id": "zip-867",
+    "sourceScreenshot": 867,
+    "question": "Eid ul Adha is the day when Muslims thank Allah for giving them the strength to complete the fast:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The day when Muslims thank Allah for giving them the strength to complete the fast is called Eid al-Fitr."
+  },
+  {
+    "id": "zip-868",
+    "sourceScreenshot": 868,
+    "question": "Will a non-UK national living in the UK and looking for work, starting work or setting up as self-employed need a National Insurance number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "explanation": "A non-UK national living in the UK and looking for work, starting work or setting up as self-employed will need a National Insurance number. However, you can start work without one."
+  },
+  {
+    "id": "zip-1118",
+    "sourceScreenshot": 1118,
+    "question": "What is the name of the highest mountain in Wales?",
+    "options": [
+      "Lake District",
+      "Snowdon",
+      "South Downs",
+      "Giant’s Causeway"
+    ],
+    "correctAnswers": [
+      "Snowdon"
+    ],
+    "explanation": "Snowdon is the highest mountain in Wales."
+  },
+  {
+    "id": "zip-1119",
+    "sourceScreenshot": 1119,
+    "question": "Where did the Vikings come from?",
+    "options": [
+      "France and Germany",
+      "Sweden and Finland",
+      "Denmark and Norway",
+      "Sweden and Germany"
+    ],
+    "correctAnswers": [
+      "Denmark and Norway"
+    ],
+    "explanation": "The Vikings came from Denmark and Norway."
+  },
+  {
+    "id": "zip-1120",
+    "sourceScreenshot": 1120,
+    "question": "Who led a Scottish army against Oliver Cromwell just after England had been declared a Republic?",
+    "options": [
+      "Charles I",
+      "Charles II",
+      "Henry V",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Charles II"
+    ],
+    "explanation": "Charles II was crowned king of Scotland and led a Scottish army into England. Cromwell defeated this army in the Battles of Dunbar and Worcester."
+  },
+  {
+    "id": "zip-1121",
+    "sourceScreenshot": 1121,
+    "question": "How many pence are there in a pound?",
+    "options": [
+      "100 pence",
+      "50 pence",
+      "60 pence",
+      "10 pence"
+    ],
+    "correctAnswers": [
+      "100 pence"
+    ],
+    "explanation": "There are 100 pence in a pound."
+  },
+  {
+    "id": "zip-1122",
+    "sourceScreenshot": 1122,
+    "question": "When are local elections for councillors held in most local authorities?",
+    "options": [
+      "In May",
+      "In March",
+      "In February",
+      "In June"
+    ],
+    "correctAnswers": [
+      "In May"
+    ],
+    "explanation": "For most local authorities, local elections for councillors are held in May every year."
+  }
+]

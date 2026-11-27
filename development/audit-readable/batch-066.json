@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-1123",
+    "sourceScreenshot": 1123,
+    "question": "What sort of stories were collected by the Canterbury Tales written by Geoffrey Chaucer?",
+    "options": [
+      "Love stories",
+      "Children’s stories",
+      "Travellers’ stories",
+      "War stories"
+    ],
+    "correctAnswers": [
+      "Travellers’ stories"
+    ],
+    "explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales."
+  },
+  {
+    "id": "zip-1124",
+    "sourceScreenshot": 1124,
+    "question": "When did rugby originate?",
+    "options": [
+      "In the 15th century",
+      "In the 16th century",
+      "In the 18th century",
+      "In the 19th century"
+    ],
+    "correctAnswers": [
+      "In the 19th century"
+    ],
+    "explanation": "Rugby originated in England in the early 19th century and is very popular in the UK today."
+  },
+  {
+    "id": "zip-1125",
+    "sourceScreenshot": 1125,
+    "question": "Which of the following lines does NOT form part of the citizenship pledge?",
+    "options": [
+      "I will give my loyalty to the United Kingdom",
+      "I will uphold its democratic values",
+      "Long live our noble King!",
+      "I will observe its laws faithfully"
+    ],
+    "correctAnswers": [
+      "Long live our noble King!"
+    ],
+    "explanation": "Long live our noble King! is the second sentence of the National Anthem of the UK."
+  },
+  {
+    "id": "zip-1126",
+    "sourceScreenshot": 1126,
+    "question": "Which of the following is NOT protected by the laws of discrimination?",
+    "options": [
+      "Traditional customs",
+      "Disability",
+      "Pregnancy and Maternity",
+      "Religion or Belief"
+    ],
+    "correctAnswers": [
+      "Traditional customs"
+    ],
+    "explanation": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status."
+  },
+  {
+    "id": "zip-1127",
+    "sourceScreenshot": 1127,
+    "question": "Which Act abolished the old pocket and rotten boroughs and allowed more parliamentary seats to the towns and cities?",
+    "options": [
+      "The Reform Act of 1832",
+      "The Reform Act of 1842",
+      "The Emancipation Act 1833",
+      "The Emancipation Act 1835"
+    ],
+    "correctAnswers": [
+      "The Reform Act of 1832"
+    ],
+    "explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities."
+  },
+  {
+    "id": "zip-1128",
+    "sourceScreenshot": 1128,
+    "question": "In the UK, if the jury finds a defendant guilty, the judge decides the penalty:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-1129",
+    "sourceScreenshot": 1129,
+    "question": "Which of the following countries is a member of the Commonwealth?",
+    "options": [
+      "Greece",
+      "Austria",
+      "Mexico",
+      "Bangladesh"
+    ],
+    "correctAnswers": [
+      "Bangladesh"
+    ],
+    "explanation": "Bangladesh is a member of the Commonwealth."
+  },
+  {
+    "id": "zip-1130",
+    "sourceScreenshot": 1130,
+    "question": "During the Crusades, European Christians fought for the control of:",
+    "options": [
+      "The holy land",
+      "Ireland",
+      "Central Europe",
+      "England"
+    ],
+    "correctAnswers": [
+      "The holy land"
+    ],
+    "explanation": "European Christians fought for control of the Holy Land."
+  },
+  {
+    "id": "zip-1131",
+    "sourceScreenshot": 1131,
+    "question": "The line ‘to be or not to be’ belongs to which of the following plays or poems written by William Shakespeare?",
+    "options": [
+      "Romeo and Juliet",
+      "Hamlet",
+      "As You Like It",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "Hamlet"
+    ],
+    "explanation": "‘To be or not to be’ is a line from William Shakespeare’s play Hamlet."
+  },
+  {
+    "id": "zip-1132",
+    "sourceScreenshot": 1132,
+    "question": "Charles I wanted the worship of the Church of England to include more ceremony and introduced a revised Prayer Book.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-1133",
+    "sourceScreenshot": 1133,
+    "question": "Which of the following is NOT a principle included in the European Convention of Human Rights?",
+    "options": [
+      "Prohibition of torture",
+      "Prohibition of immoral thoughts",
+      "Freedom of expression (speech)",
+      "Prohibition of slavery and forced labour"
+    ],
+    "correctAnswers": [
+      "Prohibition of immoral thoughts"
+    ],
+    "explanation": "Prohibition of immoral thoughts is not one of the principles included in the European Convention of Human Rights."
+  },
+  {
+    "id": "zip-1134",
+    "sourceScreenshot": 1134,
+    "question": "What was the name of the project through which the atomic bomb was developed?",
+    "options": [
+      "The Manhattan project",
+      "The Michigan project",
+      "The Cambridge project",
+      "The Manchester project"
+    ],
+    "correctAnswers": [
+      "The Manhattan project"
+    ],
+    "explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom’ and took part in the Manhattan Project in the United States, which developed the atomic bomb."
+  }
+]

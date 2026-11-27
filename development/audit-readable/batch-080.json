@@ -1,0 +1,178 @@
+[
+  {
+    "id": "zip-1333",
+    "sourceScreenshot": 1333,
+    "question": "Which TWO of the following British athletes have won gold medals in the Olympic Games?",
+    "options": [
+      "Dame Kelly Holmes",
+      "Jenson Button",
+      "Tim Henman",
+      "Jessica Ennis"
+    ],
+    "correctAnswers": [
+      "Dame Kelly Holmes",
+      "Jessica Ennis"
+    ],
+    "explanation": "Dame Kelly Holmes and Jessica Ennis won gold medals in the Olympic Games."
+  },
+  {
+    "id": "zip-1334",
+    "sourceScreenshot": 1334,
+    "question": "The Romans remained in Britain for 500 years.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Romans remained in Britain for 400 years."
+  },
+  {
+    "id": "zip-1335",
+    "sourceScreenshot": 1335,
+    "question": "Which country invaded the Falkland Islands in 1982?",
+    "options": [
+      "Germany",
+      "The Netherlands",
+      "Argentina",
+      "France"
+    ],
+    "correctAnswers": [
+      "Argentina"
+    ],
+    "explanation": "In 1982, Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic."
+  },
+  {
+    "id": "zip-1336",
+    "sourceScreenshot": 1336,
+    "question": "Which TWO of the following are examples of criminal offences:",
+    "options": [
+      "Cases of unfair dismissal or discrimination in the workplace",
+      "Selling tobacco to anyone under the age of 18",
+      "A dispute about faulty goods or services",
+      "Smoking in public places"
+    ],
+    "correctAnswers": [
+      "Selling tobacco to anyone under the age of 18",
+      "Smoking in public places"
+    ],
+    "explanation": "Selling tobacco to anyone under the age of 18 and drinking in public are examples of criminal offences."
+  },
+  {
+    "id": "zip-1337",
+    "sourceScreenshot": 1337,
+    "question": "Which British landmark was built as part of the UK’s celebration of the new millennium?",
+    "options": [
+      "The O2",
+      "Tower Bridge",
+      "Westminster Abbey",
+      "The London Eye"
+    ],
+    "correctAnswers": [
+      "The London Eye"
+    ],
+    "explanation": "The London Eye was originally built as part of the UK’s celebration of the new millennium and continues to be an important part of New Year celebrations."
+  },
+  {
+    "id": "zip-1338",
+    "sourceScreenshot": 1338,
+    "question": "Where did slaves mainly come from during the slave trade?",
+    "options": [
+      "South America",
+      "West Africa",
+      "Southeast Asia",
+      "North Africa"
+    ],
+    "correctAnswers": [
+      "West Africa"
+    ],
+    "explanation": "Slaves came primarily from West Africa."
+  },
+  {
+    "id": "zip-1339",
+    "sourceScreenshot": 1339,
+    "question": "Who introduced ‘shampooing’ in Britain?",
+    "options": [
+      "Emmeline Pankhurst",
+      "James Cook",
+      "Sake Dean Mahomet",
+      "Florence Nightingale"
+    ],
+    "correctAnswers": [
+      "Sake Dean Mahomet"
+    ],
+    "explanation": "Sake Dean Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain."
+  },
+  {
+    "id": "zip-1340",
+    "sourceScreenshot": 1340,
+    "question": "To be able to vote in England, you have to register at your local council electoral registration office.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  },
+  {
+    "id": "zip-1341",
+    "sourceScreenshot": 1341,
+    "question": "Where can the Bayeux tapestry be seen?",
+    "options": [
+      "France",
+      "Wales",
+      "Northern Ireland",
+      "England"
+    ],
+    "correctAnswers": [
+      "France"
+    ],
+    "explanation": "The Battle of Hastings is commemorated in a great piece of embroidery, known as the Bayeux tapestry, which can still be seen in France today."
+  },
+  {
+    "id": "zip-1342",
+    "sourceScreenshot": 1342,
+    "question": "It is an offence not to have an MOT certificate if your vehicle is more than two years old or without car insurance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is an offence not to have an MOT certificate if your vehicle is more than THREE years old or without car insurance."
+  },
+  {
+    "id": "zip-1343",
+    "sourceScreenshot": 1343,
+    "question": "What was the Spanish Armada?",
+    "options": [
+      "A large fleet of planes",
+      "A group of radicals",
+      "A group of politicians",
+      "A large fleet of ships"
+    ],
+    "correctAnswers": [
+      "A large fleet of ships"
+    ],
+    "explanation": "The Spanish Armada was a large fleet of ships, which had been sent by Spain to conquer England and restore Catholicism."
+  },
+  {
+    "id": "zip-1344",
+    "sourceScreenshot": 1344,
+    "question": "England was split into two groups during the English Civil War of 1642, which were known as:",
+    "options": [
+      "The House of Lords and the House of Commons",
+      "The Puritans and the Chartists",
+      "The Cavaliers and the Roundheads",
+      "The Beefeaters and the Yeoman Warders"
+    ],
+    "correctAnswers": [
+      "The Cavaliers and the Roundheads"
+    ],
+    "explanation": "The English Civil War began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads)."
+  }
+]

@@ -4606,6 +4606,3684 @@ export const additionalQuestions = [
     ],
     "explanation": "The war against Japan ended in August 1945 when the United States dropped its newly developed atom bombs on the Japanese cities of Hiroshima and Nagasaki.",
     "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-838",
+    "sourceScreenshot": 838,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "What is a bank holiday (choose TWO answers)?",
+    "options": [
+      "A festive pagan day",
+      "A private holiday",
+      "A day when banks are closed",
+      "A public holiday"
+    ],
+    "correctAnswers": [
+      "A day when banks are closed",
+      "A public holiday"
+    ],
+    "explanation": "In the UK, there are public holidays each year called bank holidays, when banks and many other businesses are closed for the day.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-839",
+    "sourceScreenshot": 839,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "By 1200, the English ruled an area of Scotland known as the Pale, around Edinburgh:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "By 1200, the English ruled an area of Ireland known as the Pale, around Dublin.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-841",
+    "sourceScreenshot": 841,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which of the following countries does not take part in the Six Nations Championship?",
+    "options": [
+      "Wales",
+      "Italy",
+      "Germany",
+      "France"
+    ],
+    "correctAnswers": [
+      "Germany"
+    ],
+    "explanation": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-842",
+    "sourceScreenshot": 842,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who became Queen after Edward VI?",
+    "options": [
+      "Elizabeth I",
+      "Queen Mary",
+      "Anne Boleyn",
+      "Catherine of Aragon"
+    ],
+    "correctAnswers": [
+      "Queen Mary"
+    ],
+    "explanation": "Edward VI died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-843",
+    "sourceScreenshot": 843,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which of the following is NOT classified as a criminal offence in the UK?",
+    "options": [
+      "Selling alcohol to anyone under the age of 18",
+      "Selling or buying drugs",
+      "Carrying a knife",
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "correctAnswers": [
+      "Unfair dismissal or discrimination in the workplace"
+    ],
+    "explanation": "Cases of unfair dismissal or discrimination in the workplace are considered civil offences.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-844",
+    "sourceScreenshot": 844,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "The right to life and the right to liberty and security are some of the principles included in the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-845",
+    "sourceScreenshot": 845,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "British values and principles are based on history and traditions and are protected by law, customs and expectations.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-846",
+    "sourceScreenshot": 846,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "When did the first Christian communities begin to appear in Britain?",
+    "options": [
+      "During the 1st and 2nd centuries AD",
+      "During the 2nd and 3rd centuries AD",
+      "During the 3rd and 4th centuries AD",
+      "During the 4th and 5th centuries AD"
+    ],
+    "correctAnswers": [
+      "During the 3rd and 4th centuries AD"
+    ],
+    "explanation": "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-847",
+    "sourceScreenshot": 847,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which of the following is NOT a devolved administration?",
+    "options": [
+      "The Scottish Parliament",
+      "The Welsh government",
+      "The Irish Parliament",
+      "The Northern Ireland Assembly"
+    ],
+    "correctAnswers": [
+      "The Irish Parliament"
+    ],
+    "explanation": "There are three devolved administrations in the UK; these include the Welsh government, the Scottish Parliament and the Northern Ireland Assembly.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-848",
+    "sourceScreenshot": 848,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?",
+    "options": [
+      "Emperor Claudius",
+      "Napoleon",
+      "Emperor Hadrian",
+      "Julius Caesar"
+    ],
+    "correctAnswers": [
+      "Emperor Hadrian"
+    ],
+    "explanation": "Areas of what is now Scotland were never conquered by the Romans, and the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-849",
+    "sourceScreenshot": 849,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who looks after Edinburgh Castle?",
+    "options": [
+      "Historic Environment Scotland",
+      "SEPA",
+      "The Scottish Parliament",
+      "The National Trust"
+    ],
+    "correctAnswers": [
+      "Historic Environment Scotland"
+    ],
+    "explanation": "Edinburgh Castle is a dominant feature of the skyline in Edinburgh, Scotland. It has a long history, dating back to the early Middle Ages. It is looked after by Historic Environment Scotland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-850",
+    "sourceScreenshot": 850,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Each MP represents a parliamentary constituency, which is a small area of the country:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-851",
+    "sourceScreenshot": 851,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who were the pioneers of the IVF (in-vitro fertilisation) therapy?",
+    "options": [
+      "Sir Frank Whittle and Sir Christopher Cockerell",
+      "Sir Robert Edwards and Patrick Steptoe",
+      "Francis Creek and John Logie Baird",
+      "Sir Ian Wilmot and Keith Campbell"
+    ],
+    "correctAnswers": [
+      "Sir Robert Edwards and Patrick Steptoe"
+    ],
+    "explanation": "IVF (in-vitro fertilisation) therapy for the treatment of infertility was pioneered in Britain by physiologist Sir Robert Edwards (1925-) and gynaecologist Patrick Steptoe (1913-88). The world’s first ‘test-tube baby’ was born in Oldham, Lancashire in 1978.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-852",
+    "sourceScreenshot": 852,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who led the establishment of the National Health System (NHS) in 1948?",
+    "options": [
+      "Aneurin (Nye) Bevan",
+      "Harold Macmillan",
+      "Clement Attlee",
+      "William Beveridge"
+    ],
+    "correctAnswers": [
+      "Aneurin (Nye) Bevan"
+    ],
+    "explanation": "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-853",
+    "sourceScreenshot": 853,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which of the following countries were granted their independence in 1947 (choose THREE answers)?",
+    "options": [
+      "India",
+      "Bangladesh",
+      "Pakistan",
+      "Ceylon (Sri Lanka)"
+    ],
+    "correctAnswers": [
+      "India",
+      "Pakistan",
+      "Ceylon (Sri Lanka)"
+    ],
+    "explanation": "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-854",
+    "sourceScreenshot": 854,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "In the UK, bank holidays of no religious significance are celebrated at the beginning of May, in late May or early June, and in August:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-855",
+    "sourceScreenshot": 855,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Where can Admiral Nelson’s ship known as HMS Victory be visited?",
+    "options": [
+      "Plymouth",
+      "Bournemouth",
+      "Portsmouth",
+      "Hastings"
+    ],
+    "correctAnswers": [
+      "Portsmouth"
+    ],
+    "explanation": "Admiral Nelson’s ship, HMS Victory, can be visited in Portsmouth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-856",
+    "sourceScreenshot": 856,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who were the Puritans?",
+    "options": [
+      "A group of Catholics who advocated strict and simple religious doctrine and worship",
+      "A group of Protestants who advocated strict and simple religious doctrine and worship",
+      "A group of landowners from the 18th century",
+      "A group of local leaders that surged in Wales with strict religious views"
+    ],
+    "correctAnswers": [
+      "A group of Protestants who advocated strict and simple religious doctrine and worship"
+    ],
+    "explanation": "The Puritans were a group of Protestants who advocated strict and simple religious doctrine and worship. They did not agree with the king’s religious views and disliked his reforms of the Church of England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-857",
+    "sourceScreenshot": 857,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "What TWO different types of rugby are practised in the UK?",
+    "options": [
+      "Union",
+      "League",
+      "Rugby open",
+      "Free style"
+    ],
+    "correctAnswers": [
+      "Union",
+      "League"
+    ],
+    "explanation": "There are two different types of rugby, which have different rules: union and league.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-858",
+    "sourceScreenshot": 858,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "What do William Blake, John Keats and Lord Byron have in common?",
+    "options": [
+      "They were British poets of the 19th century",
+      "They were British painters of the Swinging Sixties",
+      "They were musicians of the Middle Ages",
+      "They were British scientists"
+    ],
+    "correctAnswers": [
+      "They were British poets of the 19th century"
+    ],
+    "explanation": "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-859",
+    "sourceScreenshot": 859,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "The Laurence Olivier Awards take place annually at different venues in Liverpool:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Laurence Olivier Awards take place annually at different venues in London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-860",
+    "sourceScreenshot": 860,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "An additional rented piece of land where people can grow fruit and vegetables is known as:",
+    "options": [
+      "Parcel",
+      "Garden",
+      "Terrain",
+      "Allotment"
+    ],
+    "correctAnswers": [
+      "Allotment"
+    ],
+    "explanation": "In the UK, some people rent additional land called ‘an allotment’, where they grow fruit and vegetables.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-861",
+    "sourceScreenshot": 861,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "What is the name of the battle where the Scottish led by Robert the Bruce defeated the English in 1314?",
+    "options": [
+      "The Battle of Agincourt",
+      "The Battle of Bannockburn",
+      "The Battle of Trafalgar",
+      "The Battle of Waterloo"
+    ],
+    "correctAnswers": [
+      "The Battle of Bannockburn"
+    ],
+    "explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-862",
+    "sourceScreenshot": 862,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Who took the English throne after the death of Henry VIII?",
+    "options": [
+      "Elizabeth I",
+      "Edward VI",
+      "Queen Mary",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Edward VI"
+    ],
+    "explanation": "Henry VIII was succeeded by his son Edward VI.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-863",
+    "sourceScreenshot": 863,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Carrying a weapon is a criminal offence, unless it is for self-defence:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is a criminal offence to carry a weapon of any kind, even if it is for self-defence. This includes a gun, a knife or anything that is made or adapted to cause injury.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-864",
+    "sourceScreenshot": 864,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Prohibition of thought, conscience and religion is one of the principles included in the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Freedom of thought, conscience and religion is one of the principles included in the European Convention of Human Rights.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-865",
+    "sourceScreenshot": 865,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which TWO pop music groups became popular in the 1960s?",
+    "options": [
+      "Queen",
+      "The Rolling Stones",
+      "The Beatles",
+      "The Carpenters"
+    ],
+    "correctAnswers": [
+      "The Rolling Stones",
+      "The Beatles"
+    ],
+    "explanation": "Two well-known pop music groups in the 1960s were The Beatles and The Rolling Stones.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-866",
+    "sourceScreenshot": 866,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Which of the following words comes from the Viking language?",
+    "options": [
+      "Table",
+      "Scunthorpe",
+      "Pencil",
+      "Rabbit"
+    ],
+    "correctAnswers": [
+      "Scunthorpe"
+    ],
+    "explanation": "Words such as Grimsby and Scunthorpe come from the Viking languages.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-867",
+    "sourceScreenshot": 867,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Eid ul Adha is the day when Muslims thank Allah for giving them the strength to complete the fast:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The day when Muslims thank Allah for giving them the strength to complete the fast is called Eid al-Fitr.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-868",
+    "sourceScreenshot": 868,
+    "sourceFolder": "lift in uk QA 20-30.zip",
+    "question": "Will a non-UK national living in the UK and looking for work, starting work or setting up as self-employed need a National Insurance number?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "explanation": "A non-UK national living in the UK and looking for work, starting work or setting up as self-employed will need a National Insurance number. However, you can start work without one.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1118",
+    "sourceScreenshot": 1118,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the name of the highest mountain in Wales?",
+    "options": [
+      "Lake District",
+      "Snowdon",
+      "South Downs",
+      "Giant’s Causeway"
+    ],
+    "correctAnswers": [
+      "Snowdon"
+    ],
+    "explanation": "Snowdon is the highest mountain in Wales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1119",
+    "sourceScreenshot": 1119,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where did the Vikings come from?",
+    "options": [
+      "France and Germany",
+      "Sweden and Finland",
+      "Denmark and Norway",
+      "Sweden and Germany"
+    ],
+    "correctAnswers": [
+      "Denmark and Norway"
+    ],
+    "explanation": "The Vikings came from Denmark and Norway.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1120",
+    "sourceScreenshot": 1120,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who led a Scottish army against Oliver Cromwell just after England had been declared a Republic?",
+    "options": [
+      "Charles I",
+      "Charles II",
+      "Henry V",
+      "James I"
+    ],
+    "correctAnswers": [
+      "Charles II"
+    ],
+    "explanation": "Charles II was crowned king of Scotland and led a Scottish army into England. Cromwell defeated this army in the Battles of Dunbar and Worcester.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1121",
+    "sourceScreenshot": 1121,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "How many pence are there in a pound?",
+    "options": [
+      "100 pence",
+      "50 pence",
+      "60 pence",
+      "10 pence"
+    ],
+    "correctAnswers": [
+      "100 pence"
+    ],
+    "explanation": "There are 100 pence in a pound.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1122",
+    "sourceScreenshot": 1122,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When are local elections for councillors held in most local authorities?",
+    "options": [
+      "In May",
+      "In March",
+      "In February",
+      "In June"
+    ],
+    "correctAnswers": [
+      "In May"
+    ],
+    "explanation": "For most local authorities, local elections for councillors are held in May every year.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1123",
+    "sourceScreenshot": 1123,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What sort of stories were collected by the Canterbury Tales written by Geoffrey Chaucer?",
+    "options": [
+      "Love stories",
+      "Children’s stories",
+      "Travellers’ stories",
+      "War stories"
+    ],
+    "correctAnswers": [
+      "Travellers’ stories"
+    ],
+    "explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage. The people decided to tell each other stories on the journey, and the poems describe the travellers and some of the stories they told. This collection of poems is called The Canterbury Tales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1124",
+    "sourceScreenshot": 1124,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did rugby originate?",
+    "options": [
+      "In the 15th century",
+      "In the 16th century",
+      "In the 18th century",
+      "In the 19th century"
+    ],
+    "correctAnswers": [
+      "In the 19th century"
+    ],
+    "explanation": "Rugby originated in England in the early 19th century and is very popular in the UK today.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1125",
+    "sourceScreenshot": 1125,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following lines does NOT form part of the citizenship pledge?",
+    "options": [
+      "I will give my loyalty to the United Kingdom",
+      "I will uphold its democratic values",
+      "Long live our noble King!",
+      "I will observe its laws faithfully"
+    ],
+    "correctAnswers": [
+      "Long live our noble King!"
+    ],
+    "explanation": "Long live our noble King! is the second sentence of the National Anthem of the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1126",
+    "sourceScreenshot": 1126,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is NOT protected by the laws of discrimination?",
+    "options": [
+      "Traditional customs",
+      "Disability",
+      "Pregnancy and Maternity",
+      "Religion or Belief"
+    ],
+    "correctAnswers": [
+      "Traditional customs"
+    ],
+    "explanation": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1127",
+    "sourceScreenshot": 1127,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which Act abolished the old pocket and rotten boroughs and allowed more parliamentary seats to the towns and cities?",
+    "options": [
+      "The Reform Act of 1832",
+      "The Reform Act of 1842",
+      "The Emancipation Act 1833",
+      "The Emancipation Act 1835"
+    ],
+    "correctAnswers": [
+      "The Reform Act of 1832"
+    ],
+    "explanation": "The Reform Act of 1832 had greatly increased the number of people with the right to vote. The act also abolished the old pocket and rotten boroughs and more parliamentary seats were given to the towns and cities.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1128",
+    "sourceScreenshot": 1128,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In the UK, if the jury finds a defendant guilty, the judge decides the penalty:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1129",
+    "sourceScreenshot": 1129,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following countries is a member of the Commonwealth?",
+    "options": [
+      "Greece",
+      "Austria",
+      "Mexico",
+      "Bangladesh"
+    ],
+    "correctAnswers": [
+      "Bangladesh"
+    ],
+    "explanation": "Bangladesh is a member of the Commonwealth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1130",
+    "sourceScreenshot": 1130,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "During the Crusades, European Christians fought for the control of:",
+    "options": [
+      "The holy land",
+      "Ireland",
+      "Central Europe",
+      "England"
+    ],
+    "correctAnswers": [
+      "The holy land"
+    ],
+    "explanation": "European Christians fought for control of the Holy Land.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1131",
+    "sourceScreenshot": 1131,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The line ‘to be or not to be’ belongs to which of the following plays or poems written by William Shakespeare?",
+    "options": [
+      "Romeo and Juliet",
+      "Hamlet",
+      "As You Like It",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "Hamlet"
+    ],
+    "explanation": "‘To be or not to be’ is a line from William Shakespeare’s play Hamlet.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1132",
+    "sourceScreenshot": 1132,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Charles I wanted the worship of the Church of England to include more ceremony and introduced a revised Prayer Book.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1133",
+    "sourceScreenshot": 1133,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is NOT a principle included in the European Convention of Human Rights?",
+    "options": [
+      "Prohibition of torture",
+      "Prohibition of immoral thoughts",
+      "Freedom of expression (speech)",
+      "Prohibition of slavery and forced labour"
+    ],
+    "correctAnswers": [
+      "Prohibition of immoral thoughts"
+    ],
+    "explanation": "Prohibition of immoral thoughts is not one of the principles included in the European Convention of Human Rights.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1134",
+    "sourceScreenshot": 1134,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What was the name of the project through which the atomic bomb was developed?",
+    "options": [
+      "The Manhattan project",
+      "The Michigan project",
+      "The Cambridge project",
+      "The Manchester project"
+    ],
+    "correctAnswers": [
+      "The Manhattan project"
+    ],
+    "explanation": "Scientists led by Ernest Rutherford, working at Manchester and then Cambridge University, were the first to ‘split the atom’ and took part in the Manhattan Project in the United States, which developed the atomic bomb.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1135",
+    "sourceScreenshot": 1135,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who supported the Parliament during the Civil War that began in 1642?",
+    "options": [
+      "The Squareheads",
+      "The Cavaliers",
+      "The Suffragettes",
+      "The Roundheads"
+    ],
+    "correctAnswers": [
+      "The Roundheads"
+    ],
+    "explanation": "A civil war between the king and Parliament began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1136",
+    "sourceScreenshot": 1136,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following poets wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England?",
+    "options": [
+      "Geoffrey Chaucer",
+      "William Blake",
+      "Sir Walter Scott",
+      "William Wordsworth"
+    ],
+    "correctAnswers": [
+      "Sir Walter Scott"
+    ],
+    "explanation": "Sir Walter Scott wrote poems inspired by Scotland and the traditional stories and songs from the area on the borders of Scotland and England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1137",
+    "sourceScreenshot": 1137,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "A system of government where the whole adult population gets a say is known as:",
+    "options": [
+      "Monarchy",
+      "Republic",
+      "Communism",
+      "Democracy"
+    ],
+    "correctAnswers": [
+      "Democracy"
+    ],
+    "explanation": "Democracy is a system of government where the whole adult population gets a say. This might be by direct voting or by choosing representatives to make decisions on their behalf.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1138",
+    "sourceScreenshot": 1138,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following statements is correct?",
+    "options": [
+      "Arranged marriages refer to marriages where both parties agree to the marriage",
+      "Arranged marriages refer to marriages where one or both parties do not give their consent to enter into the partnership"
+    ],
+    "correctAnswers": [
+      "Arranged marriages refer to marriages where both parties agree to the marriage"
+    ],
+    "explanation": "Arranged marriages refer to marriages where both parties agree to the marriage.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1139",
+    "sourceScreenshot": 1139,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The devolved governments in Scotland, Wales and Northern Ireland have the power to legislate on any issues that affect them:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Devolved governments in Scotland, Wales and Northern Ireland have the power to legislate on certain issues.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1140",
+    "sourceScreenshot": 1140,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What name is given to the members of the House of Commons?",
+    "options": [
+      "MPs",
+      "AMs",
+      "Peers",
+      "MEPs"
+    ],
+    "correctAnswers": [
+      "MPs"
+    ],
+    "explanation": "All of the elected MPs form the House of Commons.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1141",
+    "sourceScreenshot": 1141,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which golf ‘Major’ tournament is held outside the United States?",
+    "options": [
+      "The Masters Tournament",
+      "The U.S. Open",
+      "The Open Championship",
+      "The PGA Championship"
+    ],
+    "correctAnswers": [
+      "The Open Championship"
+    ],
+    "explanation": "The Open Championship is the only ‘Major’ tournament held outside the United States.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1142",
+    "sourceScreenshot": 1142,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "As part of the citizenship ceremony, new citizens pledge their loyalty to the United Kingdom and to respect its rights and freedoms.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1143",
+    "sourceScreenshot": 1143,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following countries is NOT a member of the Commonwealth?",
+    "options": [
+      "Ghana",
+      "Cyprus",
+      "Greece",
+      "Sierra Leone"
+    ],
+    "correctAnswers": [
+      "Greece"
+    ],
+    "explanation": "Greece is not a member of the Commonwealth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1144",
+    "sourceScreenshot": 1144,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Welsh government has 30 Senedd members.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Welsh government has 60 Senedd members.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1145",
+    "sourceScreenshot": 1145,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who was the first person to print books using a printing press in England?",
+    "options": [
+      "William Caxton",
+      "Geoffrey Chaucer",
+      "John Barbour",
+      "Jane Austen"
+    ],
+    "correctAnswers": [
+      "William Caxton"
+    ],
+    "explanation": "William Caxton was the first person in England to print books using a printing press.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1146",
+    "sourceScreenshot": 1146,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In England, Wales and Scotland, most minor criminal cases are dealt with in a Magistrates’ Court:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In England, Wales and Northern Ireland, most minor criminal cases are dealt with in a Magistrates’ Court. In Scotland, minor criminal offences go to a Justice of the Peace Court.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1147",
+    "sourceScreenshot": 1147,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did the UK sign the European Convention of Human Rights?",
+    "options": [
+      "1940",
+      "1945",
+      "1950",
+      "1955"
+    ],
+    "correctAnswers": [
+      "1950"
+    ],
+    "explanation": "The UK was one of the first countries to sign the Convention in 1950.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1148",
+    "sourceScreenshot": 1148,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which is the most famous rugby union competition?",
+    "options": [
+      "The Grand National",
+      "The Six Nations Championship",
+      "The All England Championship",
+      "The Super League"
+    ],
+    "correctAnswers": [
+      "The Six Nations Championship"
+    ],
+    "explanation": "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1149",
+    "sourceScreenshot": 1149,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "After Oliver Cromwell defeated the Scottish army in the Battles of Dunbar and Worcester, Charles II escaped from Worcester, famously hiding in an oak tree on one occasion, and eventually fled to Europe:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1150",
+    "sourceScreenshot": 1150,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is an ancient festival and has roots in the pagan festival to mark the beginning of winter?",
+    "options": [
+      "Lent",
+      "Easter",
+      "Halloween",
+      "Hogmanay"
+    ],
+    "correctAnswers": [
+      "Halloween"
+    ],
+    "explanation": "Halloween, 31 October, is an ancient festival and has roots in the pagan festival to mark the beginning of winter.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1151",
+    "sourceScreenshot": 1151,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO British kings believed in the ‘Divine Right of Kings’?",
+    "options": [
+      "Richard I",
+      "James I",
+      "Charles I",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "James I",
+      "Charles I"
+    ],
+    "explanation": "James I and his son Charles I both believed in the ‘Divine Right of Kings’: the idea that the king was directly appointed by God to rule. They thought that the king should be able to act without having to seek approval from Parliament.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1152",
+    "sourceScreenshot": 1152,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What was the name of the European Union when it was first established?",
+    "options": [
+      "European Political Union",
+      "Union of European Countries",
+      "European Economic Community",
+      "Europe United"
+    ],
+    "correctAnswers": [
+      "European Economic Community"
+    ],
+    "explanation": "West Germany, France, Belgium, Italy, Luxembourg and the Netherlands formed the European Economic Community (EEC) in 1957. The EEC became a part of the European Union when it was formed in 1993.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1154",
+    "sourceScreenshot": 1154,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following British poets was inspired by nature?",
+    "options": [
+      "Geoffrey Chaucer",
+      "William Blake",
+      "Sir Walter Scott",
+      "William Wordsworth"
+    ],
+    "correctAnswers": [
+      "William Wordsworth"
+    ],
+    "explanation": "William Wordsworth was inspired by nature.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1155",
+    "sourceScreenshot": 1155,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which Act incorporated the European Convention of Human Rights into UK law?",
+    "options": [
+      "The Discrimination Act 1995",
+      "The Equality Act 2010",
+      "The Freedom Act 2012",
+      "The Human Rights Act 1998"
+    ],
+    "correctAnswers": [
+      "The Human Rights Act 1998"
+    ],
+    "explanation": "The Human Rights Act 1998 incorporated the European Convention of Human Rights into UK law.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1156",
+    "sourceScreenshot": 1156,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "After the Second World War, the UK was exhausted economically.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "Although the UK had won the war, the country was exhausted economically after WWII.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1157",
+    "sourceScreenshot": 1157,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What percentage of the total British population is located in Northern Ireland?",
+    "options": [
+      "30%",
+      "5%",
+      "8%",
+      "Less than 3%"
+    ],
+    "correctAnswers": [
+      "Less than 3%"
+    ],
+    "explanation": "The population is very unequally distributed over the four parts of the UK. England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8%, and Northern Ireland less than 3%.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1158",
+    "sourceScreenshot": 1158,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Bonfire Night remembers the day when a group of Catholics led by Guy Fawkes killed the Protestant king with a bomb in the Houses of Parliament:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Bonfire Night remembers the day when a group of Catholics led by Guy Fawkes failed in their plan to kill the Protestant king with a bomb in the Houses of Parliament.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1159",
+    "sourceScreenshot": 1159,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who was Florence Nightingale?",
+    "options": [
+      "A nurse who worked in military hospitals, treating soldiers who were fighting in the Crimean War",
+      "One of the tribal leaders who fought against the Romans",
+      "A scientist who proposed that enemy aircraft could be detected by radio waves",
+      "A mathematician who was influential in the development of computer science"
+    ],
+    "correctAnswers": [
+      "A nurse who worked in military hospitals, treating soldiers who were fighting in the Crimean War"
+    ],
+    "explanation": "Florence Nightingale was a nurse who worked in military hospitals, treating soldiers who were fighting in the Crimean War.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1160",
+    "sourceScreenshot": 1160,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where is the Scottish Grand National horse racing event celebrated?",
+    "options": [
+      "St Andrews",
+      "Ayr",
+      "Fife",
+      "Glasgow"
+    ],
+    "correctAnswers": [
+      "Ayr"
+    ],
+    "explanation": "The Scottish Grand National horse racing event is celebrated at Ayr.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1161",
+    "sourceScreenshot": 1161,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Arranged marriages are not acceptable in the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Arranged marriages, where both parties agree to the marriage, are acceptable in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1162",
+    "sourceScreenshot": 1162,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who was the Prime Minister of the UK from 1945 to 1951?",
+    "options": [
+      "Margaret Thatcher",
+      "John Major",
+      "Clement Attlee",
+      "Oliver Cromwell"
+    ],
+    "correctAnswers": [
+      "Clement Attlee"
+    ],
+    "explanation": "Clement Attlee was Prime Minister from 1945 to 1951 and led the Labour Party for 20 years.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1163",
+    "sourceScreenshot": 1163,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who represents the UK to the rest of the world?",
+    "options": [
+      "The Prime Minister",
+      "Prince Harry",
+      "Prince William",
+      "The King"
+    ],
+    "correctAnswers": [
+      "The King"
+    ],
+    "explanation": "The King represents the UK to the rest of the world.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1164",
+    "sourceScreenshot": 1164,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1165",
+    "sourceScreenshot": 1165,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Queen Elizabeth I was a Catholic:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Queen Elizabeth I was a Protestant.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1166",
+    "sourceScreenshot": 1166,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the meaning of the term the ‘Divine Right of Kings’?",
+    "options": [
+      "The idea that the king was appointed by landowners",
+      "The Parliament and the King shared responsibilities",
+      "The King could rule the country but with the support of the Parliament",
+      "The idea that the king was directly appointed by God to rule"
+    ],
+    "correctAnswers": [
+      "The idea that the king was directly appointed by God to rule"
+    ],
+    "explanation": "The ‘Divine Right of Kings’ refers to the idea that the king was directly appointed by God to rule and that the king should be able to act without having to seek approval from Parliament.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1167",
+    "sourceScreenshot": 1167,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who was the first person to lead a Roman invasion in Britain in 55 BC?",
+    "options": [
+      "Emperor Claudius",
+      "Napoleon",
+      "Julius Caesar",
+      "William Caxton"
+    ],
+    "correctAnswers": [
+      "Julius Caesar"
+    ],
+    "explanation": "Julius Caesar led a Roman invasion of Britain in 55 BC. This was unsuccessful and for nearly 100 years Britain remained separate from the Roman Empire.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1168",
+    "sourceScreenshot": 1168,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is NOT the responsibility of the MPs?",
+    "options": [
+      "Scrutinise and comment on what the government is doing",
+      "Represent everyone in the constituency",
+      "Protect life and property",
+      "Debate important national issues"
+    ],
+    "correctAnswers": [
+      "Protect life and property"
+    ],
+    "explanation": "MPs have a number of different responsibilities. They represent everyone in their constituency, help to create new laws, scrutinize and comment on what the government is doing and debate important national issues.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1169",
+    "sourceScreenshot": 1169,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When Henry VIII took the title ‘King of Ireland’, English laws were introduced and everyone except for local leaders was expected to follow the instructions of the Lord Lieutenants in Dublin:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "When Henry VIII took the title ‘King of Ireland’, English laws were introduced and local leaders were expected to follow the instructions of the Lord Lieutenants in Dublin.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1170",
+    "sourceScreenshot": 1170,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The clock tower is named ‘Elizabeth Tower’ in honour of __________.",
+    "options": [
+      "Queen Elizabeth II’s Diamond Jubilee in 2012",
+      "Queen Elizabeth I’s Diamond Jubilee in 2012",
+      "Queen Elizabeth II’s Golden Jubilee in 2002",
+      "Queen Elizabeth I’s Golden Jubilee in 2002"
+    ],
+    "correctAnswers": [
+      "Queen Elizabeth II’s Diamond Jubilee in 2012"
+    ],
+    "explanation": "The clock tower is named ‘Elizabeth Tower’ in honour of Queen Elizabeth II’s Diamond Jubilee in 2012.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1172",
+    "sourceScreenshot": 1172,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When is the anniversary of the Battle of the Boyne celebrated in Northern Ireland?",
+    "options": [
+      "March",
+      "May",
+      "June",
+      "July"
+    ],
+    "correctAnswers": [
+      "July"
+    ],
+    "explanation": "In Northern Ireland, the anniversary of the Battle of the Boyne is celebrated in July and is also a public holiday.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1174",
+    "sourceScreenshot": 1174,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When was Lincoln Cathedral built?",
+    "options": [
+      "In the 19th century",
+      "In medieval times",
+      "After the Roman invasion",
+      "In the 18th century"
+    ],
+    "correctAnswers": [
+      "In medieval times"
+    ],
+    "explanation": "Lincoln Cathedral was built in the Middle Ages or medieval times.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1175",
+    "sourceScreenshot": 1175,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following territories forms part of the UK?",
+    "options": [
+      "Scotland",
+      "The Isle of Man",
+      "Fiji",
+      "St Helena"
+    ],
+    "correctAnswers": [
+      "Scotland"
+    ],
+    "explanation": "The UK is formed by England, Scotland, Wales and Northern Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1176",
+    "sourceScreenshot": 1176,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "How old was Edward VI when he died?",
+    "options": [
+      "15 years old",
+      "1 year old",
+      "12 years old",
+      "17 years old"
+    ],
+    "correctAnswers": [
+      "15 years old"
+    ],
+    "explanation": "Edward VI died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1177",
+    "sourceScreenshot": 1177,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What name was given to those who supported the king during the Civil War that began in 1642?",
+    "options": [
+      "The Cavaliers",
+      "The Suffragettes",
+      "The Squareheads"
+    ],
+    "correctAnswers": [
+      "The Cavaliers"
+    ],
+    "explanation": "During the Civil War that started in 1642 there were those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1178",
+    "sourceScreenshot": 1178,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The right to a fair trial is not included amongst the principles of the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The right to a fair trial is one of the principles of the European Convention of Human Rights.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1179",
+    "sourceScreenshot": 1179,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Why was Queen Mary known as ‘Bloody Mary’?",
+    "options": [
+      "She used to drink a lot",
+      "Because of all the blood from the wars she caused",
+      "She was a devout Catholic and persecuted Protestants",
+      "She used to punish people"
+    ],
+    "correctAnswers": [
+      "She was a devout Catholic and persecuted Protestants"
+    ],
+    "explanation": "Queen Mary was a devout Catholic and persecuted Protestants (for this reason, she became known as ‘Bloody Mary’).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1180",
+    "sourceScreenshot": 1180,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following sentences is true?",
+    "options": [
+      "The UK is governed by the parliament sitting in Edinburgh.",
+      "Scotland and Wales have parliaments or assemblies of their own, but not Northern Ireland.",
+      "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.",
+      "The UK is governed by the parliament sitting in Glasgow."
+    ],
+    "correctAnswers": [
+      "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    ],
+    "explanation": "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1181",
+    "sourceScreenshot": 1181,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following lines from Shakespeare’s plays and poems is often still quoted?",
+    "options": [
+      "A daffodil by another name",
+      "All the world’s a stage",
+      "We shall never surrender",
+      "You shall be with me"
+    ],
+    "correctAnswers": [
+      "All the world’s a stage"
+    ],
+    "explanation": "‘All the world’s a stage’ is a line from William Shakespeare’s play As You Like It.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1182",
+    "sourceScreenshot": 1182,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "How many volunteers did the National Trust have when it first was formed in 1895?",
+    "options": [
+      "Two",
+      "Three",
+      "200",
+      "300"
+    ],
+    "correctAnswers": [
+      "Three"
+    ],
+    "explanation": "The National Trust was founded in 1895 by three volunteers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1183",
+    "sourceScreenshot": 1183,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In the UK, brutality and violence in the home is not a crime:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In the UK, brutality and violence in the home is a serious crime.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1184",
+    "sourceScreenshot": 1184,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did modern tennis evolve in England?",
+    "options": [
+      "In the early 18th century",
+      "In the late 18th century",
+      "In the early 19th century",
+      "In the late 19th century"
+    ],
+    "correctAnswers": [
+      "In the late 19th century"
+    ],
+    "explanation": "Modern tennis evolved in England in the late 19th century.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1185",
+    "sourceScreenshot": 1185,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1186",
+    "sourceScreenshot": 1186,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The population is very equally distributed over the four parts of the UK:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The population is very unequally distributed over the four parts of the UK. England more or less consistently makes up 84% of the total population, Wales around 5%, Scotland just over 8%, and Northern Ireland less than 3%.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1187",
+    "sourceScreenshot": 1187,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where was Anne Boleyn executed?",
+    "options": [
+      "In Conwy Castle",
+      "At the Tower of London",
+      "At the Houses of the Parliament",
+      "In France"
+    ],
+    "correctAnswers": [
+      "At the Tower of London"
+    ],
+    "explanation": "Anne Boleyn was executed at the Tower of London.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1188",
+    "sourceScreenshot": 1188,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "At the beginning of the Middle Ages, Ireland was not an independent country:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "At the beginning of the Middle Ages, Ireland was an independent country.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1189",
+    "sourceScreenshot": 1189,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Since 1997, some powers have been devolved from the central government to give people in Wales, Scotland and Northern Ireland more control over matters that directly affect them:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1190",
+    "sourceScreenshot": 1190,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where did Mary Stuart, the Queen of Scotland, spend most of her childhood?",
+    "options": [
+      "Spain",
+      "Germany",
+      "Holland",
+      "France"
+    ],
+    "correctAnswers": [
+      "France"
+    ],
+    "explanation": "Mary Stuart, the Queen of Scotland, spent most of her childhood in France.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1191",
+    "sourceScreenshot": 1191,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "During the Middle Ages, several cathedrals had windows of stained glass, telling stories about:",
+    "options": [
+      "The journey of pilgrims to Canterbury",
+      "Noah’s Ark",
+      "The Bible and Christian saints",
+      "Medieval priests"
+    ],
+    "correctAnswers": [
+      "The Bible and Christian saints"
+    ],
+    "explanation": "During the Middle Ages, several cathedrals had windows of stained glass, telling stories about the Bible and Christian saints. The glass in York Minster is a famous example.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1192",
+    "sourceScreenshot": 1192,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where does the UK Parliament sit?",
+    "options": [
+      "Westminster",
+      "Stormont",
+      "Holyrood",
+      "Senedd"
+    ],
+    "correctAnswers": [
+      "Westminster"
+    ],
+    "explanation": "The UK is governed by the parliament sitting in Westminster.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1193",
+    "sourceScreenshot": 1193,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did King Edward I of England introduce the Statute of Rhuddlan by which Wales was annexed to the Crown of England?",
+    "options": [
+      "In 1284",
+      "In 1235",
+      "In 1304",
+      "In 1340"
+    ],
+    "correctAnswers": [
+      "In 1284"
+    ],
+    "explanation": "In 1284 King Edward I of England introduced the Statute of Rhuddlan, which annexed Wales to the Crown of England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1195",
+    "sourceScreenshot": 1195,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following public services can be controlled by the devolved administrations?",
+    "options": [
+      "Defence",
+      "Immigration",
+      "Foreign Affairs",
+      "Education"
+    ],
+    "correctAnswers": [
+      "Education"
+    ],
+    "explanation": "Some public services, such as education, are controlled by the devolved administrations.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1196",
+    "sourceScreenshot": 1196,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Senedd has been suspended on a few occasions:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Northern Ireland Assembly has been suspended on a few occasions.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1197",
+    "sourceScreenshot": 1197,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The settlements of Scottish and English Protestants in Ulster (the northern province of Ireland) during the reigns of Elizabeth I and James I, who took over the land from Catholic landholders, are known as:",
+    "options": [
+      "Plantations",
+      "Cavaliers",
+      "Puritans",
+      "Pale"
+    ],
+    "correctAnswers": [
+      "Plantations"
+    ],
+    "explanation": "These settlements were known as plantations.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1198",
+    "sourceScreenshot": 1198,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following jobs is usually unpaid in England, Wales and Scotland?",
+    "options": [
+      "Magistrates and Justices of the Peace",
+      "Civil Lawyers",
+      "Wardens",
+      "Policeman"
+    ],
+    "correctAnswers": [
+      "Magistrates and Justices of the Peace"
+    ],
+    "explanation": "In England, Wales and Scotland, Magistrates and Justices of the Peace (JPs) are members of the local community and they usually work unpaid and do not need legal qualifications.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1199",
+    "sourceScreenshot": 1199,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is a traditional character of the pantomimes?",
+    "options": [
+      "The gentleman",
+      "The Dame",
+      "A unicorn",
+      "A mermaid"
+    ],
+    "correctAnswers": [
+      "The Dame"
+    ],
+    "explanation": "One of the traditional characters of the pantomimes is the Dame, a woman played by a man.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1200",
+    "sourceScreenshot": 1200,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In the UK, most people live in towns and cities and very small parts of Britain are countryside:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. Most people live in towns and cities but much of Britain is still countryside.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1201",
+    "sourceScreenshot": 1201,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What was the symbol of Lancaster during the Wars of the Roses?",
+    "options": [
+      "A Red Rose",
+      "A White Rose",
+      "A Green Rose",
+      "A Purple Rose"
+    ],
+    "correctAnswers": [
+      "A Red Rose"
+    ],
+    "explanation": "During the Wars of the Roses, the symbol of Lancaster was a red rose.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1202",
+    "sourceScreenshot": 1202,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "After King Alfred the Great defeated the Vikings, many of the Viking invaders stayed in Britain, especially in the east and north of England in an area called:",
+    "options": [
+      "Bayeux",
+      "Stonehenge",
+      "Danelaw",
+      "Canute"
+    ],
+    "correctAnswers": [
+      "Danelaw"
+    ],
+    "explanation": "Many of the Viking invaders stayed in Britain – especially in the east and north of England in an area known as the Danelaw.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1203",
+    "sourceScreenshot": 1203,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Reform Act of 1832 increased the number of people with the right to vote:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. The Reform Act of 1832 had greatly increased the number of people with the right to vote.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1204",
+    "sourceScreenshot": 1204,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is a famous example of stained glass?",
+    "options": [
+      "York Minster",
+      "Bayeux",
+      "Vindolanda",
+      "Housesteads"
+    ],
+    "correctAnswers": [
+      "York Minster"
+    ],
+    "explanation": "York Minster is a famous example of stained glass used on the windows of some cathedrals during the Middle Ages.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1205",
+    "sourceScreenshot": 1205,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who is the head of the Church of England?",
+    "options": [
+      "The Pope",
+      "The monarch",
+      "The Archbishop of Canterbury",
+      "The Prime Minister"
+    ],
+    "correctAnswers": [
+      "The monarch"
+    ],
+    "explanation": "The monarch is the head of the Church of England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1206",
+    "sourceScreenshot": 1206,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who is responsible for managing relationships with foreign countries?",
+    "options": [
+      "The Chancellor of the Exchequer",
+      "The Foreign Secretary",
+      "The Home Secretary",
+      "The King"
+    ],
+    "correctAnswers": [
+      "The Foreign Secretary"
+    ],
+    "explanation": "The Foreign Secretary is responsible for managing relationships with foreign countries.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1207",
+    "sourceScreenshot": 1207,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO of the following poems are from the Middle Ages?",
+    "options": [
+      "The Canterbury Tales",
+      "Paradise Lost",
+      "Sir Gawain and the Green Knight",
+      "MacBeth"
+    ],
+    "correctAnswers": [
+      "The Canterbury Tales",
+      "Sir Gawain and the Green Knight"
+    ],
+    "explanation": "Poems which survive from the Middle Ages include Chaucer’s Canterbury Tales and a poem called Sir Gawain and the Green Knight, about one of the knights at the court of King Arthur.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1208",
+    "sourceScreenshot": 1208,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "If a husband forces his wife to have sex, he can be charged with rape:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. Any man who forces a woman to have sex, including a woman’s husband, can be charged with rape.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1209",
+    "sourceScreenshot": 1209,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who defeated the English at the Battle of Bannockburn in 1314?",
+    "options": [
+      "Robert the Bruce",
+      "King Edward I",
+      "Admiral Nelson",
+      "The Normans"
+    ],
+    "correctAnswers": [
+      "Robert the Bruce"
+    ],
+    "explanation": "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1210",
+    "sourceScreenshot": 1210,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In the UK, owners are responsible for keeping their dog under control and for cleaning up after the animal in public places:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1211",
+    "sourceScreenshot": 1211,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "How long did the Hundred Years War fought between England and France last for?",
+    "options": [
+      "100 years",
+      "101 years",
+      "115 years",
+      "116 years"
+    ],
+    "correctAnswers": [
+      "116 years"
+    ],
+    "explanation": "English kings fought a long war with France, called the Hundred Years War (even though it actually lasted 116 years).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1212",
+    "sourceScreenshot": 1212,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did Gordon Brown take over as Prime Minister from his predecessor Tony Blair?",
+    "options": [
+      "In 2007",
+      "In 2008",
+      "In 2009",
+      "In 2010"
+    ],
+    "correctAnswers": [
+      "In 2007"
+    ],
+    "explanation": "Gordon Brown took over as Prime Minister from Tony Blair in 2007.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1213",
+    "sourceScreenshot": 1213,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in French.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1214",
+    "sourceScreenshot": 1214,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where in England was one of the Anglo-Saxon kings buried with treasure and armour?",
+    "options": [
+      "Maiden Castle, Dorset",
+      "Sutton Hoo, Suffolk",
+      "Conwy Castle, Wales",
+      "The Tower of London"
+    ],
+    "correctAnswers": [
+      "Sutton Hoo, Suffolk"
+    ],
+    "explanation": "The burial place of one of the Anglo-Saxon kings was at Sutton Hoo in modern Suffolk.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1215",
+    "sourceScreenshot": 1215,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which British writer wrote satirical novels including Brideshead Revisited?",
+    "options": [
+      "Evelyn Waugh",
+      "Sir Arthur Conan Doyle",
+      "Sir Kingsley Amis",
+      "Thomas Hardy"
+    ],
+    "correctAnswers": [
+      "Evelyn Waugh"
+    ],
+    "explanation": "Evelyn Waugh wrote satirical novels, including Decline and Fall and Scoop. He is perhaps best known for Brideshead Revisited.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1216",
+    "sourceScreenshot": 1216,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where is the best preserved prehistoric village in northern Europe located?",
+    "options": [
+      "Cardiff, Wales",
+      "Edinburgh, the capital of Scotland",
+      "Orkney, off the north coast of Scotland",
+      "The Isle of Wight"
+    ],
+    "correctAnswers": [
+      "Orkney, off the north coast of Scotland"
+    ],
+    "explanation": "Skara Brae on Orkney, off the north coast of Scotland, is the best preserved prehistoric village in northern Europe.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1217",
+    "sourceScreenshot": 1217,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following sports began in the UK?",
+    "options": [
+      "Cricket",
+      "Football",
+      "Rugby",
+      "All of the above"
+    ],
+    "correctAnswers": [
+      "All of the above"
+    ],
+    "explanation": "Many famous sports, including cricket, football, lawn tennis, golf and rugby, began in Britain.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1218",
+    "sourceScreenshot": 1218,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which famous architect designed Dumfries House?",
+    "options": [
+      "Sir Christopher Wren",
+      "Robert Adam",
+      "Sir Norman Foster",
+      "Dame Zaha Hadid"
+    ],
+    "correctAnswers": [
+      "Robert Adam"
+    ],
+    "explanation": "The Scottish architect Robert Adam designed the inside decoration as well as the building itself in great houses such as Dumfries House in Scotland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1220",
+    "sourceScreenshot": 1220,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What did the Education Act of 1944 introduce?",
+    "options": [
+      "Free primary education in England and Wales",
+      "Free secondary education in England and Wales",
+      "Free high school education in England and Wales",
+      "Free university education in England and Wales"
+    ],
+    "correctAnswers": [
+      "Free secondary education in England and Wales"
+    ],
+    "explanation": "The Education Act 1944 (often called ‘The Butler Act’), introduced free secondary education in England and Wales.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1221",
+    "sourceScreenshot": 1221,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following tribes invaded Britain?",
+    "options": [
+      "The Jutes",
+      "The Angles",
+      "The Saxons",
+      "All of the above"
+    ],
+    "correctAnswers": [
+      "All of the above"
+    ],
+    "explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned. Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1222",
+    "sourceScreenshot": 1222,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Many schools organise events such as book sales, toy sales or bringing food to sell to raise money for extra equipment or out-of-school activities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1223",
+    "sourceScreenshot": 1223,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Do you need a TV licence for watching TV on a mobile phone?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "explanation": "Everyone in the UK with a TV, computer or other medium which can be used for watching TV must have a television licence.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1224",
+    "sourceScreenshot": 1224,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What do you need to apply to become a British citizen?",
+    "options": [
+      "Be single and without children",
+      "Be over 25 years old",
+      "Have lived in the UK for 3 years",
+      "Have a good understanding of life in the UK"
+    ],
+    "correctAnswers": [
+      "Have a good understanding of life in the UK"
+    ],
+    "explanation": "To apply to become a permanent resident or citizen of the UK, you will need to have a good understanding of life in the UK.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1225",
+    "sourceScreenshot": 1225,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is a British overseas territory located in the South Atlantic?",
+    "options": [
+      "Guernsey",
+      "Northern Ireland",
+      "The Falkland Islands",
+      "Jersey"
+    ],
+    "correctAnswers": [
+      "The Falkland Islands"
+    ],
+    "explanation": "The Falkland Islands, a British overseas territory, are located in the South Atlantic.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1226",
+    "sourceScreenshot": 1226,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who wrote the novel Charlie and the Chocolate Factory?",
+    "options": [
+      "Rudyard Kipling",
+      "Sir William Golding",
+      "Charles Dickens",
+      "Roald Dahl"
+    ],
+    "correctAnswers": [
+      "Roald Dahl"
+    ],
+    "explanation": "Roald Dahl is the author of Charlie and the Chocolate Factory.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1227",
+    "sourceScreenshot": 1227,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Normans used a system of land ownership known as __________.",
+    "options": [
+      "Clergy",
+      "Chartism",
+      "Feudalism",
+      "Imperialism"
+    ],
+    "correctAnswers": [
+      "Feudalism"
+    ],
+    "explanation": "The Normans used a system of land ownership known as feudalism.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1228",
+    "sourceScreenshot": 1228,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who were the Huguenots?",
+    "options": [
+      "Protestant refugees from France",
+      "Catholic refugees from Spain",
+      "Catholic refugees from Italy",
+      "Protestant refugees from Germany"
+    ],
+    "correctAnswers": [
+      "Protestant refugees from France"
+    ],
+    "explanation": "Between 1680 and 1720 many refugees called Huguenots came from France. They were Protestants and had been persecuted for their religion. Many were educated and skilled and worked as scientists, in banking, or in weaving or other crafts.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1229",
+    "sourceScreenshot": 1229,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "The official name of the country is the United Kingdom of Great Britain and Southern Ireland.",
+      "The official name of the country is Great Britain and Southern Ireland.",
+      "The official name of the country is the United Kingdom of Great Britain and Northern Ireland.",
+      "The official name of the country is the United Kingdom and Great Ireland."
+    ],
+    "correctAnswers": [
+      "The official name of the country is the United Kingdom of Great Britain and Northern Ireland."
+    ],
+    "explanation": "The official name of the country is the United Kingdom of Great Britain and Northern Ireland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1230",
+    "sourceScreenshot": 1230,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When was slavery abolished throughout the British Empire?",
+    "options": [
+      "1833",
+      "1843",
+      "1844",
+      "1861"
+    ],
+    "correctAnswers": [
+      "1833"
+    ],
+    "explanation": "In 1833 the Emancipation Act abolished slavery throughout the British Empire.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1231",
+    "sourceScreenshot": 1231,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Magistrates and Justices of the Peace (JPs) are members of the __________.",
+    "options": [
+      "Government",
+      "Local community",
+      "British Society",
+      "NHS"
+    ],
+    "correctAnswers": [
+      "Local community"
+    ],
+    "explanation": "Magistrates and Justices of the Peace (JPs) are members of the local community.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1232",
+    "sourceScreenshot": 1232,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where can you find details about the small claims procedure?",
+    "options": [
+      "From the local community",
+      "At the police station",
+      "At your local County Court or Sheriff Court",
+      "At any local shop"
+    ],
+    "correctAnswers": [
+      "At your local County Court or Sheriff Court"
+    ],
+    "explanation": "You can get details about the small claims procedure from your local County Court or Sheriff Court.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1233",
+    "sourceScreenshot": 1233,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When is Mothering Sunday?",
+    "options": [
+      "The Sunday three weeks before Easter.",
+      "The Sunday three weeks after Easter.",
+      "The Sunday three weeks before Christmas.",
+      "The Sunday three weeks after Christmas."
+    ],
+    "correctAnswers": [
+      "The Sunday three weeks before Easter."
+    ],
+    "explanation": "Mothering Sunday (or Mother’s day) is the Sunday three weeks before Easter. Children send cards or buy gifts for their mothers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1234",
+    "sourceScreenshot": 1234,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What should you do if your vehicle is over three years old?",
+    "options": [
+      "Take it to the MOT every year.",
+      "Take it to the MOT every 2 years.",
+      "Take it to the MOT every 3 years.",
+      "Take it to the MOT every six months."
+    ],
+    "correctAnswers": [
+      "Take it to the MOT every year."
+    ],
+    "explanation": "If your vehicle is over three years old, you must take it to the Ministry of Transport (MOT) test every year.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1235",
+    "sourceScreenshot": 1235,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which countries fought alongside Britain against Russia during the Crimean War?",
+    "options": [
+      "France and Cyprus",
+      "Germany and Cyprus",
+      "Germany and Turkey",
+      "France and Turkey"
+    ],
+    "correctAnswers": [
+      "France and Turkey"
+    ],
+    "explanation": "From 1853 to 1856, Britain fought with Turkey and France against Russia in the Crimean War.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1236",
+    "sourceScreenshot": 1236,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "On average, boys leave school with better qualifications than girls.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. On average, girls leave school with better qualifications than boys.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1237",
+    "sourceScreenshot": 1237,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did William of Orange invade England to proclaim himself king?",
+    "options": [
+      "1689",
+      "1690",
+      "1688",
+      "1687"
+    ],
+    "correctAnswers": [
+      "1688"
+    ],
+    "explanation": "In 1688, important Protestants in England asked William of Orange to invade England and proclaim himself king. When William reached England, there was no resistance. James fled to France and William took over the throne, becoming William III in England, Wales and Ireland, and William II of Scotland.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1238",
+    "sourceScreenshot": 1238,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which British painter is considered to be the artist who raised the profile of landscape painting?",
+    "options": [
+      "Joseph Turner",
+      "David Allan",
+      "John Constable",
+      "Sir John Lavery"
+    ],
+    "correctAnswers": [
+      "Joseph Turner"
+    ],
+    "explanation": "Joseph Turner (1775-1851) was an influential landscape painter in a modern style. He is considered the artist who raised the profile of landscape painting.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1239",
+    "sourceScreenshot": 1239,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The development of the Bessemer process during the Industrial Revolution led to the development of which two industries:",
+    "options": [
+      "Shipbuilding industry",
+      "Chemical industry",
+      "Railways industry",
+      "Car industry"
+    ],
+    "correctAnswers": [
+      "Shipbuilding industry",
+      "Railways industry"
+    ],
+    "explanation": "The development of the Bessemer process for the mass production of steel led to the development of the shipbuilding industry and the railways.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1240",
+    "sourceScreenshot": 1240,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the length of the Bayeux tapestry?",
+    "options": [
+      "130 feet",
+      "230 feet",
+      "330 feet",
+      "320 feet"
+    ],
+    "correctAnswers": [
+      "230 feet"
+    ],
+    "explanation": "The Bayeux Tapestry is nearly 70 metres (230 feet) long and is embroidered with coloured wool.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1241",
+    "sourceScreenshot": 1241,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following countries is not a member of the Commonwealth?",
+    "options": [
+      "Swaziland",
+      "Trinidad and Tobago",
+      "Dominica",
+      "Costa Rica"
+    ],
+    "correctAnswers": [
+      "Costa Rica"
+    ],
+    "explanation": "Costa Rica is not a member of the Commonwealth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1266",
+    "sourceScreenshot": 1266,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In which of the following years did England win the World Cup?",
+    "options": [
+      "1974",
+      "1986",
+      "1982",
+      "1966"
+    ],
+    "correctAnswers": [
+      "1966"
+    ],
+    "explanation": "England won the World Cup in 1966 when it was captained by Bobby Moore.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1267",
+    "sourceScreenshot": 1267,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "During the Battle of Trafalgar Britain fought against:",
+    "options": [
+      "France and Belgium",
+      "France and Spain",
+      "France and Italy",
+      "Italy and Spain"
+    ],
+    "correctAnswers": [
+      "France and Spain"
+    ],
+    "explanation": "Britain’s navy fought against combined French and Spanish fleets, winning the Battle of Trafalgar in 1805.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1268",
+    "sourceScreenshot": 1268,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the name given to the first formal anti-slavery groups set up in the late 1700s?",
+    "options": [
+      "Beefeaters",
+      "Suffragettes",
+      "Quakers",
+      "Canutes"
+    ],
+    "correctAnswers": [
+      "Quakers"
+    ],
+    "explanation": "The first formal anti-slavery groups were set up by the Quakers in the late 1700s, and they petitioned Parliament to ban the practice.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1269",
+    "sourceScreenshot": 1269,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "More women than men study at university.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1270",
+    "sourceScreenshot": 1270,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Why did Ireland suffer a famine in the middle of the 19th century?",
+    "options": [
+      "There was a heat wave",
+      "The whole country was flooded",
+      "The potato crop failed",
+      "There were not enough farmers"
+    ],
+    "correctAnswers": [
+      "The potato crop failed"
+    ],
+    "explanation": "In the middle of the century the potato crop failed, and Ireland suffered a famine. A million people died from disease and starvation.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1271",
+    "sourceScreenshot": 1271,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What sort of battle was ‘the Battle of Britain’?",
+    "options": [
+      "A naval battle against the Spanish.",
+      "An aerial battle against the French.",
+      "An aerial battle against the Germans.",
+      "A naval battle against the French."
+    ],
+    "correctAnswers": [
+      "An aerial battle against the Germans."
+    ],
+    "explanation": "Hitler wanted to invade Britain, but before sending in troops, Germany needed to control the air campaign against Britain, but the British resisted with their fighter planes and eventually won the crucial aerial battle against the Germans, called ‘the Battle of Britain’, in the summer of 1940.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1272",
+    "sourceScreenshot": 1272,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who is in charge of appointing the local Chief Constable?",
+    "options": [
+      "A judge",
+      "Police and Crime Commissioners",
+      "The mayor",
+      "The local community members"
+    ],
+    "correctAnswers": [
+      "Police and Crime Commissioners"
+    ],
+    "explanation": "PCCs (Police and Crime Commissioners) set local police priorities and the local policing budget. They also appoint the local Chief Constable.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1273",
+    "sourceScreenshot": 1273,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What does the money from the National Insurance Contributions pay for (CHOOSE TWO)?",
+    "options": [
+      "Police force salaries",
+      "State retirement pensions",
+      "National Health Service",
+      "University fees"
+    ],
+    "correctAnswers": [
+      "State retirement pensions",
+      "National Health Service"
+    ],
+    "explanation": "The money raised from National Insurance Contributions is used to pay for state benefits and services such as the state retirement pension and the National Health Service (NHS).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1274",
+    "sourceScreenshot": 1274,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "How many British died on the first day alone of the Battle of Somme?",
+    "options": [
+      "60,000",
+      "65,000",
+      "40,000",
+      "55,000"
+    ],
+    "correctAnswers": [
+      "60,000"
+    ],
+    "explanation": "The British attack of the Somme in July 1916, resulted in about 60,000 British casualties on the first day alone.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1275",
+    "sourceScreenshot": 1275,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When was the first Union flag created?",
+    "options": [
+      "1515",
+      "1616",
+      "1505",
+      "1606"
+    ],
+    "correctAnswers": [
+      "1606"
+    ],
+    "explanation": "The first Union Flag was created in 1606 from the flags of Scotland and England; the Principality of Wales was already united with England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1276",
+    "sourceScreenshot": 1276,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following territories is not part of the UK?",
+    "options": [
+      "Northern Ireland",
+      "The Isle of Man",
+      "Wales",
+      "Scotland"
+    ],
+    "correctAnswers": [
+      "The Isle of Man"
+    ],
+    "explanation": "The UK comprises England, Wales, Scotland and Northern Ireland. There are several islands which are closely linked with the UK but are not part of it: the Channel Islands and the Isle of Man.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1277",
+    "sourceScreenshot": 1277,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is NOT a fundamental principle of British life?",
+    "options": [
+      "Individual liberty",
+      "Democracy",
+      "Communism",
+      "Participation in community life"
+    ],
+    "correctAnswers": [
+      "Communism"
+    ],
+    "explanation": "The fundamental principles of British life include: democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs and participation in community life.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1278",
+    "sourceScreenshot": 1278,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What do Sir Terence Conran, Clarice Cliff and Thomas Chippendale have in common?",
+    "options": [
+      "They were British designers",
+      "They developed the atomic bomb",
+      "They were British explorers",
+      "They were British poets"
+    ],
+    "correctAnswers": [
+      "They were British designers"
+    ],
+    "explanation": "Britain has produced many great designers, from Thomas Chippendale (who designed furniture in the 18th century) to Clarice Cliff (who designed Art Deco ceramics) to Sir Terence Conran (a 20th-century interior designer).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1292",
+    "sourceScreenshot": 1292,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following cities is not in Wales?",
+    "options": [
+      "Cardiff",
+      "Swansea",
+      "Bradford",
+      "Newport"
+    ],
+    "correctAnswers": [
+      "Bradford"
+    ],
+    "explanation": "Bradford is located in England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1293",
+    "sourceScreenshot": 1293,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "People on the electoral register with ages between 18 and 70 can be asked to serve on a jury.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. As well as getting the right to vote, people on the electoral register are randomly selected to serve on a jury. Anyone who is on the electoral register and is aged 18 to 70 can be asked to do this.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1294",
+    "sourceScreenshot": 1294,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which Saxon king of England was killed at the Battle of Hastings in 1066?",
+    "options": [
+      "Kenneth MacAlpin",
+      "Harold",
+      "William the Conqueror",
+      "Henry V"
+    ],
+    "correctAnswers": [
+      "Harold"
+    ],
+    "explanation": "In 1066, an invasion led by William, the Duke of Normandy (in what is now northern France), defeated Harold, the Saxon king of England, at the Battle of Hastings. Harold was killed in the battle.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1295",
+    "sourceScreenshot": 1295,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "During the ‘swinging sixties’ Britain experienced a growth in:",
+    "options": [
+      "Sports such as rowing and cycling",
+      "Fashion, cinema and popular music",
+      "Holistic therapies",
+      "People going to university"
+    ],
+    "correctAnswers": [
+      "Fashion, cinema and popular music"
+    ],
+    "explanation": "The decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1296",
+    "sourceScreenshot": 1296,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "As a permanent resident or citizen of the UK you should:",
+    "options": [
+      "Treat others with fairness",
+      "Look after yourself and your family",
+      "Look after the area in which you live and the environment",
+      "All the answers are correct"
+    ],
+    "correctAnswers": [
+      "All the answers are correct"
+    ],
+    "explanation": "If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, respect the rights of others, including their right to their own opinions, treat others with fairness, look after yourself and your family and look after the area in which you live and the environment.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1297",
+    "sourceScreenshot": 1297,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did the BBC start the world’s first regular television service?",
+    "options": [
+      "1922",
+      "1932",
+      "1936",
+      "1944"
+    ],
+    "correctAnswers": [
+      "1936"
+    ],
+    "explanation": "The BBC started radio broadcasts in 1922 and began the world’s first regular television service in 1936.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1298",
+    "sourceScreenshot": 1298,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Women in Britain today make up about one third of the workforce.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "Women in Britain today make up about half of the workforce.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1299",
+    "sourceScreenshot": 1299,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The evacuation of British and French soldiers from France in a huge naval operation during WWII gave rise to which phrase:",
+    "options": [
+      "The Harbour spirit",
+      "The Blitz operation",
+      "The Dunkirk spirit",
+      "The D-Day operation"
+    ],
+    "correctAnswers": [
+      "The Dunkirk spirit"
+    ],
+    "explanation": "During WWII as France fell, the British decided to evacuate British and French soldiers from France in a huge naval operation. Many civilian volunteers in small pleasure and fishing boats from Britain helped the Navy to rescue more than 300,000 men from the beaches around Dunkirk. The evacuation gave rise to the phrase ‘the Dunkirk spirit’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1300",
+    "sourceScreenshot": 1300,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which programme helps 16- and 17-year-olds develop their skills and take part in community projects?",
+    "options": [
+      "The Youth Working Programme",
+      "The National Development Programme",
+      "The National Citizen Service Programme",
+      "The Skills Development Programme"
+    ],
+    "correctAnswers": [
+      "The National Citizen Service Programme"
+    ],
+    "explanation": "The National Citizen Service programme gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1301",
+    "sourceScreenshot": 1301,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Queen Victoria became queen in:",
+    "options": [
+      "1837",
+      "1847",
+      "1835",
+      "1836"
+    ],
+    "correctAnswers": [
+      "1837"
+    ],
+    "explanation": "In 1837, Queen Victoria became queen of the UK at the age of 18.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1302",
+    "sourceScreenshot": 1302,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who wrote the books ‘Pride and Prejudice’ and ‘Sense and Sensibility’?",
+    "options": [
+      "Charles Dickens",
+      "Robert Louis Stevenson",
+      "Evelyn Waugh",
+      "Jane Austen"
+    ],
+    "correctAnswers": [
+      "Jane Austen"
+    ],
+    "explanation": "Jane Austen (1775-1817) was an English novelist. Her books include Pride and Prejudice and Sense and Sensibility.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1303",
+    "sourceScreenshot": 1303,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which political party did Margaret Thatcher belong to?",
+    "options": [
+      "Green Party",
+      "Conservative Party",
+      "Liberal Democrats Party",
+      "Democratic Unionist Party"
+    ],
+    "correctAnswers": [
+      "Conservative Party"
+    ],
+    "explanation": "Margaret Thatcher led the Conservative government from 1979 to 1990.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1304",
+    "sourceScreenshot": 1304,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In which city is the Millennium Stadium located?",
+    "options": [
+      "Birmingham",
+      "Nottingham",
+      "Liverpool",
+      "Cardiff"
+    ],
+    "correctAnswers": [
+      "Cardiff"
+    ],
+    "explanation": "The Millennium Stadium is located in Cardiff.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1305",
+    "sourceScreenshot": 1305,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who lost a lot of power and influence after the Battle of Culloden in 1746?",
+    "options": [
+      "The church",
+      "Politicians",
+      "The clans",
+      "The King"
+    ],
+    "correctAnswers": [
+      "The clans"
+    ],
+    "explanation": "The clans lost a lot of their power and influence after Culloden. Chieftains became landlords if they had the favour of the English king, and clansmen became tenants who had to pay for the land they used.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1306",
+    "sourceScreenshot": 1306,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What UK landmark was voted as Britain’s favourite view in 2007?",
+    "options": [
+      "Wastwater in the Lake District",
+      "Snowdon in Snowdonia",
+      "The Crown Jewels at the Tower of London",
+      "Loch Lomond in Scotland"
+    ],
+    "correctAnswers": [
+      "Wastwater in the Lake District"
+    ],
+    "explanation": "In 2007, television viewers voted Wastwater as Britain’s favourite view.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1307",
+    "sourceScreenshot": 1307,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did the development of a free press take place?",
+    "options": [
+      "1795",
+      "1685",
+      "1695",
+      "1785"
+    ],
+    "correctAnswers": [
+      "1695"
+    ],
+    "explanation": "From 1695, newspapers were allowed to operate without a government licence. Increasing numbers of newspapers began to be published.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1308",
+    "sourceScreenshot": 1308,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which was the last successful foreign invasion of England?",
+    "options": [
+      "The Roman invasion",
+      "The Anglo-Saxon invasion",
+      "The Norman Conquest",
+      "The Viking invasion"
+    ],
+    "correctAnswers": [
+      "The Norman Conquest"
+    ],
+    "explanation": "The Norman Conquest was the last successful foreign invasion of England and led to many changes in government and social structures in England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1309",
+    "sourceScreenshot": 1309,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who was Richard Austen Butler?",
+    "options": [
+      "A British economist",
+      "A Welsh poet",
+      "A Labour MP",
+      "A Conservative MP"
+    ],
+    "correctAnswers": [
+      "A Conservative MP"
+    ],
+    "explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1310",
+    "sourceScreenshot": 1310,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What kind of sport is played at the Wimbledon Championships?",
+    "options": [
+      "Football",
+      "Tennis",
+      "Rugby",
+      "Cricket"
+    ],
+    "correctAnswers": [
+      "Tennis"
+    ],
+    "explanation": "The most famous tennis tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1311",
+    "sourceScreenshot": 1311,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where was Isaac Newton from?",
+    "options": [
+      "Lincolnshire",
+      "Stratford-upon-Avon",
+      "Cardiff",
+      "Edinburgh"
+    ],
+    "correctAnswers": [
+      "Lincolnshire"
+    ],
+    "explanation": "Isaac Newton was born in Lincolnshire, eastern England.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1312",
+    "sourceScreenshot": 1312,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Under which Act was the Kingdom of Great Britain created?",
+    "options": [
+      "The Reform Act",
+      "The Act of Union",
+      "The Emancipation Act",
+      "The Butler Act"
+    ],
+    "correctAnswers": [
+      "The Act of Union"
+    ],
+    "explanation": "The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1313",
+    "sourceScreenshot": 1313,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Council of Europe has the power to make new laws.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. The Council of Europe has NO power to make laws but draws up conventions and charters, the most well-known of which is the European Convention on Human Rights and Fundamental Freedoms, usually called the European Convention on Human Rights.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1314",
+    "sourceScreenshot": 1314,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO British poets wrote about their experiences in WWI?",
+    "options": [
+      "Lord Byron and Percy Shelley",
+      "John Keats and Alfred Lord Tennyson",
+      "Robert and Elizabeth Browning",
+      "Wilfred Owen and Siegfried Sassoon"
+    ],
+    "correctAnswers": [
+      "Wilfred Owen and Siegfried Sassoon"
+    ],
+    "explanation": "Wilfred Owen and Siegfried Sassoon were inspired to write about their experiences in the First World War.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1315",
+    "sourceScreenshot": 1315,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "If you are found driving while exceeding the alcohol limit you will:",
+    "options": [
+      "Not be allowed to drive again",
+      "Be taken to the hospital",
+      "Be arrested",
+      "Be taken home by the police"
+    ],
+    "correctAnswers": [
+      "Be arrested"
+    ],
+    "explanation": "If you are found driving while exceeding the alcohol limit you will be arrested.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1316",
+    "sourceScreenshot": 1316,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO of the following are core values of a civil servant?",
+    "options": [
+      "Objectivity",
+      "Competitiveness",
+      "Talent",
+      "Honesty"
+    ],
+    "correctAnswers": [
+      "Objectivity",
+      "Honesty"
+    ],
+    "explanation": "The core values of civil servants include: integrity, honesty, objectivity and impartiality (including being politically neutral).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1317",
+    "sourceScreenshot": 1317,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following countries belongs to the Commonwealth?",
+    "options": [
+      "Norway",
+      "Zimbabwe",
+      "Nauru",
+      "Algeria"
+    ],
+    "correctAnswers": [
+      "Nauru"
+    ],
+    "explanation": "Nauru is a member of the Commonwealth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1318",
+    "sourceScreenshot": 1318,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the name of the first Danish king to rule in England?",
+    "options": [
+      "Canute",
+      "Kenneth MacAlpin",
+      "Henry V",
+      "Edward I"
+    ],
+    "correctAnswers": [
+      "Canute"
+    ],
+    "explanation": "Anglo-Saxon kings continued to rule what is now England, except for a short period when there were Danish kings. The first of these was Cnut, also named Canute.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1319",
+    "sourceScreenshot": 1319,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What name was given to the members of the Women’s Social and Political Union founded in 1903?",
+    "options": [
+      "Gentry",
+      "Boers",
+      "Rebels",
+      "Suffragettes"
+    ],
+    "correctAnswers": [
+      "Suffragettes"
+    ],
+    "explanation": "In 1903 Emmeline Pankhurst helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1320",
+    "sourceScreenshot": 1320,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "It is a civil offence to owe money to someone and you might be taken to court.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. Owing money to someone is a civil offence.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1321",
+    "sourceScreenshot": 1321,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In which country of the British Empire did the Boer War take place?",
+    "options": [
+      "South Africa",
+      "India",
+      "Bangladesh",
+      "Mauritius"
+    ],
+    "correctAnswers": [
+      "South Africa"
+    ],
+    "explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent. The British went to war in South Africa with settlers from the Netherlands called the Boers.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1322",
+    "sourceScreenshot": 1322,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Robert Louis Stevenson, Graham Greene and Sir Kingsley Amis were British writers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is True.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1323",
+    "sourceScreenshot": 1323,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which new industries developed in the UK during the Great Depression (choose 2 answers)?",
+    "options": [
+      "The metallurgic industry",
+      "The automobile industry",
+      "The shipbuilding industry",
+      "The aviation industry"
+    ],
+    "correctAnswers": [
+      "The automobile industry",
+      "The aviation industry"
+    ],
+    "explanation": "In 1929, the world entered the ‘Great Depression’ and some parts of the UK suffered mass unemployment. The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1324",
+    "sourceScreenshot": 1324,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which of the following is a traditional pub game?",
+    "options": [
+      "Darts",
+      "Hide and seek",
+      "Bingo",
+      "Checkers"
+    ],
+    "correctAnswers": [
+      "Darts"
+    ],
+    "explanation": "Pool and darts are traditional pub games.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1325",
+    "sourceScreenshot": 1325,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When was the Battle of Agincourt fought?",
+    "options": [
+      "1348",
+      "1415",
+      "1315",
+      "1448"
+    ],
+    "correctAnswers": [
+      "1415"
+    ],
+    "explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V’s vastly outnumbered English army defeated the French. The English left France in the 1450s.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1326",
+    "sourceScreenshot": 1326,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What is the Bessemer process?",
+    "options": [
+      "An industrial process for the mass-production of iron",
+      "An industrial process for the mass-production of copper",
+      "An industrial process for the mass-production of titanium",
+      "An industrial process for the mass-production of steel"
+    ],
+    "correctAnswers": [
+      "An industrial process for the mass-production of steel"
+    ],
+    "explanation": "The development of the Bessemer process for the mass production of steel led to the development of the shipbuilding industry and the railways.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1327",
+    "sourceScreenshot": 1327,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which country invented rugby?",
+    "options": [
+      "India",
+      "Argentina",
+      "England",
+      "France"
+    ],
+    "correctAnswers": [
+      "England"
+    ],
+    "explanation": "Rugby originated in England in the early 19th century and is very popular in the UK today.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1328",
+    "sourceScreenshot": 1328,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who were the Huguenots?",
+    "options": [
+      "Refugees from France",
+      "Refugees from Italy",
+      "Refugees from Pakistan",
+      "Refugees from Cyprus"
+    ],
+    "correctAnswers": [
+      "Refugees from France"
+    ],
+    "explanation": "Between 1680 and 1720 many refugees called Huguenots came from France. They were Protestants and had been persecuted for their religion.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1329",
+    "sourceScreenshot": 1329,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which British scientist showed that gravity applied to the whole universe?",
+    "options": [
+      "Alan Turing",
+      "Alexander Fleming",
+      "Isaac Newton",
+      "Ernest Rutherford"
+    ],
+    "correctAnswers": [
+      "Isaac Newton"
+    ],
+    "explanation": "Isaac Newton’s most famous published work was Philosophiae Naturalis Principia Mathematica (‘Mathematical Principle of Natural Philosophy’), which showed how gravity applied to the whole universe.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1330",
+    "sourceScreenshot": 1330,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which composer wrote music for King George I and for his son, George II?",
+    "options": [
+      "George Frederick Handel",
+      "Gustav Holst",
+      "Ralph Vaughan Williams",
+      "Henry Purcell"
+    ],
+    "correctAnswers": [
+      "George Frederick Handel"
+    ],
+    "explanation": "George Frederick Handel wrote the Water Music for King George I and Music for the Royal Fireworks for his son, George II.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1331",
+    "sourceScreenshot": 1331,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When did the English civil war start?",
+    "options": [
+      "1632",
+      "1635",
+      "1642",
+      "1652"
+    ],
+    "correctAnswers": [
+      "1642"
+    ],
+    "explanation": "Civil war between the king and Parliament could not now be avoided and began in 1642.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1332",
+    "sourceScreenshot": 1332,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "During the 19th century, the UK was the world’s major producer of which THREE materials?",
+    "options": [
+      "Coal",
+      "Iron",
+      "Silk",
+      "Cotton cloth"
+    ],
+    "correctAnswers": [
+      "Coal",
+      "Iron",
+      "Cotton cloth"
+    ],
+    "explanation": "British industry led the world in the 19th century. The UK produced more than half of the world’s iron, coal and cotton cloth.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1333",
+    "sourceScreenshot": 1333,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO of the following British athletes have won gold medals in the Olympic Games?",
+    "options": [
+      "Dame Kelly Holmes",
+      "Jenson Button",
+      "Tim Henman",
+      "Jessica Ennis"
+    ],
+    "correctAnswers": [
+      "Dame Kelly Holmes",
+      "Jessica Ennis"
+    ],
+    "explanation": "Dame Kelly Holmes and Jessica Ennis won gold medals in the Olympic Games.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1334",
+    "sourceScreenshot": 1334,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "The Romans remained in Britain for 500 years.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The Romans remained in Britain for 400 years.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1335",
+    "sourceScreenshot": 1335,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which country invaded the Falkland Islands in 1982?",
+    "options": [
+      "Germany",
+      "The Netherlands",
+      "Argentina",
+      "France"
+    ],
+    "correctAnswers": [
+      "Argentina"
+    ],
+    "explanation": "In 1982, Argentina invaded the Falkland Islands, a British overseas territory in the South Atlantic.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1336",
+    "sourceScreenshot": 1336,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which TWO of the following are examples of criminal offences:",
+    "options": [
+      "Cases of unfair dismissal or discrimination in the workplace",
+      "Selling tobacco to anyone under the age of 18",
+      "A dispute about faulty goods or services",
+      "Smoking in public places"
+    ],
+    "correctAnswers": [
+      "Selling tobacco to anyone under the age of 18",
+      "Smoking in public places"
+    ],
+    "explanation": "Selling tobacco to anyone under the age of 18 and drinking in public are examples of criminal offences.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1337",
+    "sourceScreenshot": 1337,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Which British landmark was built as part of the UK’s celebration of the new millennium?",
+    "options": [
+      "The O2",
+      "Tower Bridge",
+      "Westminster Abbey",
+      "The London Eye"
+    ],
+    "correctAnswers": [
+      "The London Eye"
+    ],
+    "explanation": "The London Eye was originally built as part of the UK’s celebration of the new millennium and continues to be an important part of New Year celebrations.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1338",
+    "sourceScreenshot": 1338,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where did slaves mainly come from during the slave trade?",
+    "options": [
+      "South America",
+      "West Africa",
+      "Southeast Asia",
+      "North Africa"
+    ],
+    "correctAnswers": [
+      "West Africa"
+    ],
+    "explanation": "Slaves came primarily from West Africa.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1339",
+    "sourceScreenshot": 1339,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Who introduced ‘shampooing’ in Britain?",
+    "options": [
+      "Emmeline Pankhurst",
+      "James Cook",
+      "Sake Dean Mahomet",
+      "Florence Nightingale"
+    ],
+    "correctAnswers": [
+      "Sake Dean Mahomet"
+    ],
+    "explanation": "Sake Dean Mahomet and his wife also introduced ‘shampooing’, the Indian art of head massage, to Britain.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1340",
+    "sourceScreenshot": 1340,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "To be able to vote in England, you have to register at your local council electoral registration office.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1341",
+    "sourceScreenshot": 1341,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Where can the Bayeux tapestry be seen?",
+    "options": [
+      "France",
+      "Wales",
+      "Northern Ireland",
+      "England"
+    ],
+    "correctAnswers": [
+      "France"
+    ],
+    "explanation": "The Battle of Hastings is commemorated in a great piece of embroidery, known as the Bayeux tapestry, which can still be seen in France today.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1342",
+    "sourceScreenshot": 1342,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "It is an offence not to have an MOT certificate if your vehicle is more than two years old or without car insurance.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "It is an offence not to have an MOT certificate if your vehicle is more than THREE years old or without car insurance.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1343",
+    "sourceScreenshot": 1343,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What was the Spanish Armada?",
+    "options": [
+      "A large fleet of planes",
+      "A group of radicals",
+      "A group of politicians",
+      "A large fleet of ships"
+    ],
+    "correctAnswers": [
+      "A large fleet of ships"
+    ],
+    "explanation": "The Spanish Armada was a large fleet of ships, which had been sent by Spain to conquer England and restore Catholicism.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1344",
+    "sourceScreenshot": 1344,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "England was split into two groups during the English Civil War of 1642, which were known as:",
+    "options": [
+      "The House of Lords and the House of Commons",
+      "The Puritans and the Chartists",
+      "The Cavaliers and the Roundheads",
+      "The Beefeaters and the Yeoman Warders"
+    ],
+    "correctAnswers": [
+      "The Cavaliers and the Roundheads"
+    ],
+    "explanation": "The English Civil War began in 1642. The country split into those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads).",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1345",
+    "sourceScreenshot": 1345,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "What are the key roles of the governors and school boards? Select THREE answers.",
+    "options": [
+      "Providing funding for all students",
+      "Setting the strategic direction of the school",
+      "Ensuring accountability",
+      "Monitoring and evaluating school performance"
+    ],
+    "correctAnswers": [
+      "Setting the strategic direction of the school",
+      "Ensuring accountability",
+      "Monitoring and evaluating school performance"
+    ],
+    "explanation": "Governors and school boards have an important part to play in raising school standards. They have three key roles: setting the strategic direction of the school, ensuring accountability and monitoring and evaluating school performance.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1346",
+    "sourceScreenshot": 1346,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "A popular way for people to stay in touch with friends, organise social events, and share photos, videos and opinions is through social networking websites such as:",
+    "options": [
+      "Dropbox and iTunes",
+      "Email and Fax",
+      "eBay and Amazon",
+      "Facebook and Twitter"
+    ],
+    "correctAnswers": [
+      "Facebook and Twitter"
+    ],
+    "explanation": "Social networking websites such as Facebook and Twitter are a popular way for people to stay in touch with friends, organise social events, and share photos, videos and opinions.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1347",
+    "sourceScreenshot": 1347,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Why is it important to recycle (select two answers)?",
+    "options": [
+      "Using recycled materials to make new products uses less energy than using raw materials",
+      "It is a criminal offence and you could be arrested if you do not do it",
+      "To reduce the expenses of the local council",
+      "Less rubbish is created, so the amount being put into landfill is reduced"
+    ],
+    "correctAnswers": [
+      "Using recycled materials to make new products uses less energy than using raw materials",
+      "Less rubbish is created, so the amount being put into landfill is reduced"
+    ],
+    "explanation": "It is important to recycle as much of your waste as you can. Using recycled materials to make new products uses less energy and means that we do not need to extract more raw materials from the earth. It also means that less rubbish is created, so the amount being put into landfill is reduced.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1348",
+    "sourceScreenshot": 1348,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "In Northern Ireland, a newly qualified driver must display an ____ plate for one year after passing the test.",
+    "options": [
+      "S",
+      "N",
+      "R",
+      "L"
+    ],
+    "correctAnswers": [
+      "R"
+    ],
+    "explanation": "In Northern Ireland, a newly qualified driver must display an ‘R’ plate (for restricted driver) for one year after passing the test.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1349",
+    "sourceScreenshot": 1349,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "When is the birth of Jesus Christ celebrated?",
+    "options": [
+      "24th December",
+      "25th December",
+      "26th December",
+      "31st December"
+    ],
+    "correctAnswers": [
+      "25th December"
+    ],
+    "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ.",
+    "category": "用户 ZIP 截图题"
+  },
+  {
+    "id": "zip-1350",
+    "sourceScreenshot": 1350,
+    "sourceFolder": "lift in uk QA 30-40.zip",
+    "question": "Prince William is also known as:",
+    "options": [
+      "The Duke of Wellington",
+      "The Prince of Wales",
+      "The Duke of Edinburgh",
+      "The Prince of Northern Ireland"
+    ],
+    "correctAnswers": [
+      "The Prince of Wales"
+    ],
+    "explanation": "Prince William is also known as the Prince of Wales.",
+    "category": "用户 ZIP 截图题"
   }
 ];
 

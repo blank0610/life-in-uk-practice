@@ -1,0 +1,183 @@
+[
+  {
+    "id": "zip-1321",
+    "sourceScreenshot": 1321,
+    "question": "In which country of the British Empire did the Boer War take place?",
+    "options": [
+      "South Africa",
+      "India",
+      "Bangladesh",
+      "Mauritius"
+    ],
+    "correctAnswers": [
+      "South Africa"
+    ],
+    "explanation": "The Boer War of 1899 to 1902 made the discussions about the future of the Empire more urgent. The British went to war in South Africa with settlers from the Netherlands called the Boers."
+  },
+  {
+    "id": "zip-1322",
+    "sourceScreenshot": 1322,
+    "question": "Robert Louis Stevenson, Graham Greene and Sir Kingsley Amis were British writers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is True."
+  },
+  {
+    "id": "zip-1323",
+    "sourceScreenshot": 1323,
+    "question": "Which new industries developed in the UK during the Great Depression (choose 2 answers)?",
+    "options": [
+      "The metallurgic industry",
+      "The automobile industry",
+      "The shipbuilding industry",
+      "The aviation industry"
+    ],
+    "correctAnswers": [
+      "The automobile industry",
+      "The aviation industry"
+    ],
+    "explanation": "In 1929, the world entered the ‘Great Depression’ and some parts of the UK suffered mass unemployment. The effects of the depression of the 1930s were felt differently in different parts of the UK. The traditional heavy industries such as shipbuilding were badly affected but new industries – including the automobile and aviation industries – developed."
+  },
+  {
+    "id": "zip-1324",
+    "sourceScreenshot": 1324,
+    "question": "Which of the following is a traditional pub game?",
+    "options": [
+      "Darts",
+      "Hide and seek",
+      "Bingo",
+      "Checkers"
+    ],
+    "correctAnswers": [
+      "Darts"
+    ],
+    "explanation": "Pool and darts are traditional pub games."
+  },
+  {
+    "id": "zip-1325",
+    "sourceScreenshot": 1325,
+    "question": "When was the Battle of Agincourt fought?",
+    "options": [
+      "1348",
+      "1415",
+      "1315",
+      "1448"
+    ],
+    "correctAnswers": [
+      "1415"
+    ],
+    "explanation": "One of the most famous battles of the Hundred Years War was the Battle of Agincourt in 1415, where King Henry V’s vastly outnumbered English army defeated the French. The English left France in the 1450s."
+  },
+  {
+    "id": "zip-1326",
+    "sourceScreenshot": 1326,
+    "question": "What is the Bessemer process?",
+    "options": [
+      "An industrial process for the mass-production of iron",
+      "An industrial process for the mass-production of copper",
+      "An industrial process for the mass-production of titanium",
+      "An industrial process for the mass-production of steel"
+    ],
+    "correctAnswers": [
+      "An industrial process for the mass-production of steel"
+    ],
+    "explanation": "The development of the Bessemer process for the mass production of steel led to the development of the shipbuilding industry and the railways."
+  },
+  {
+    "id": "zip-1327",
+    "sourceScreenshot": 1327,
+    "question": "Which country invented rugby?",
+    "options": [
+      "India",
+      "Argentina",
+      "England",
+      "France"
+    ],
+    "correctAnswers": [
+      "England"
+    ],
+    "explanation": "Rugby originated in England in the early 19th century and is very popular in the UK today."
+  },
+  {
+    "id": "zip-1328",
+    "sourceScreenshot": 1328,
+    "question": "Who were the Huguenots?",
+    "options": [
+      "Refugees from France",
+      "Refugees from Italy",
+      "Refugees from Pakistan",
+      "Refugees from Cyprus"
+    ],
+    "correctAnswers": [
+      "Refugees from France"
+    ],
+    "explanation": "Between 1680 and 1720 many refugees called Huguenots came from France. They were Protestants and had been persecuted for their religion."
+  },
+  {
+    "id": "zip-1329",
+    "sourceScreenshot": 1329,
+    "question": "Which British scientist showed that gravity applied to the whole universe?",
+    "options": [
+      "Alan Turing",
+      "Alexander Fleming",
+      "Isaac Newton",
+      "Ernest Rutherford"
+    ],
+    "correctAnswers": [
+      "Isaac Newton"
+    ],
+    "explanation": "Isaac Newton’s most famous published work was Philosophiae Naturalis Principia Mathematica (‘Mathematical Principle of Natural Philosophy’), which showed how gravity applied to the whole universe."
+  },
+  {
+    "id": "zip-1330",
+    "sourceScreenshot": 1330,
+    "question": "Which composer wrote music for King George I and for his son, George II?",
+    "options": [
+      "George Frederick Handel",
+      "Gustav Holst",
+      "Ralph Vaughan Williams",
+      "Henry Purcell"
+    ],
+    "correctAnswers": [
+      "George Frederick Handel"
+    ],
+    "explanation": "George Frederick Handel wrote the Water Music for King George I and Music for the Royal Fireworks for his son, George II."
+  },
+  {
+    "id": "zip-1331",
+    "sourceScreenshot": 1331,
+    "question": "When did the English civil war start?",
+    "options": [
+      "1632",
+      "1635",
+      "1642",
+      "1652"
+    ],
+    "correctAnswers": [
+      "1642"
+    ],
+    "explanation": "Civil war between the king and Parliament could not now be avoided and began in 1642."
+  },
+  {
+    "id": "zip-1332",
+    "sourceScreenshot": 1332,
+    "question": "During the 19th century, the UK was the world’s major producer of which THREE materials?",
+    "options": [
+      "Coal",
+      "Iron",
+      "Silk",
+      "Cotton cloth"
+    ],
+    "correctAnswers": [
+      "Coal",
+      "Iron",
+      "Cotton cloth"
+    ],
+    "explanation": "British industry led the world in the 19th century. The UK produced more than half of the world’s iron, coal and cotton cloth."
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "zip-1174",
+    "sourceScreenshot": 1174,
+    "question": "When was Lincoln Cathedral built?",
+    "options": [
+      "In the 19th century",
+      "In medieval times",
+      "After the Roman invasion",
+      "In the 18th century"
+    ],
+    "correctAnswers": [
+      "In medieval times"
+    ],
+    "explanation": "Lincoln Cathedral was built in the Middle Ages or medieval times."
+  },
+  {
+    "id": "zip-1175",
+    "sourceScreenshot": 1175,
+    "question": "Which of the following territories forms part of the UK?",
+    "options": [
+      "Scotland",
+      "The Isle of Man",
+      "Fiji",
+      "St Helena"
+    ],
+    "correctAnswers": [
+      "Scotland"
+    ],
+    "explanation": "The UK is formed by England, Scotland, Wales and Northern Ireland."
+  },
+  {
+    "id": "zip-1176",
+    "sourceScreenshot": 1176,
+    "question": "How old was Edward VI when he died?",
+    "options": [
+      "15 years old",
+      "1 year old",
+      "12 years old",
+      "17 years old"
+    ],
+    "correctAnswers": [
+      "15 years old"
+    ],
+    "explanation": "Edward VI died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
+  },
+  {
+    "id": "zip-1177",
+    "sourceScreenshot": 1177,
+    "question": "What name was given to those who supported the king during the Civil War that began in 1642?",
+    "options": [
+      "The Cavaliers",
+      "The Suffragettes",
+      "The Squareheads"
+    ],
+    "correctAnswers": [
+      "The Cavaliers"
+    ],
+    "explanation": "During the Civil War that started in 1642 there were those who supported the king (the Cavaliers) and those who supported Parliament (the Roundheads)."
+  },
+  {
+    "id": "zip-1178",
+    "sourceScreenshot": 1178,
+    "question": "The right to a fair trial is not included amongst the principles of the European Convention of Human Rights:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "The right to a fair trial is one of the principles of the European Convention of Human Rights."
+  },
+  {
+    "id": "zip-1179",
+    "sourceScreenshot": 1179,
+    "question": "Why was Queen Mary known as ‘Bloody Mary’?",
+    "options": [
+      "She used to drink a lot",
+      "Because of all the blood from the wars she caused",
+      "She was a devout Catholic and persecuted Protestants",
+      "She used to punish people"
+    ],
+    "correctAnswers": [
+      "She was a devout Catholic and persecuted Protestants"
+    ],
+    "explanation": "Queen Mary was a devout Catholic and persecuted Protestants (for this reason, she became known as ‘Bloody Mary’)."
+  },
+  {
+    "id": "zip-1180",
+    "sourceScreenshot": 1180,
+    "question": "Which of the following sentences is true?",
+    "options": [
+      "The UK is governed by the parliament sitting in Edinburgh.",
+      "Scotland and Wales have parliaments or assemblies of their own, but not Northern Ireland.",
+      "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas.",
+      "The UK is governed by the parliament sitting in Glasgow."
+    ],
+    "correctAnswers": [
+      "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+    ],
+    "explanation": "Scotland, Wales and Northern Ireland also have parliaments or assemblies of their own, with devolved powers in defined areas."
+  },
+  {
+    "id": "zip-1181",
+    "sourceScreenshot": 1181,
+    "question": "Which of the following lines from Shakespeare’s plays and poems is often still quoted?",
+    "options": [
+      "A daffodil by another name",
+      "All the world’s a stage",
+      "We shall never surrender",
+      "You shall be with me"
+    ],
+    "correctAnswers": [
+      "All the world’s a stage"
+    ],
+    "explanation": "‘All the world’s a stage’ is a line from William Shakespeare’s play As You Like It."
+  },
+  {
+    "id": "zip-1182",
+    "sourceScreenshot": 1182,
+    "question": "How many volunteers did the National Trust have when it first was formed in 1895?",
+    "options": [
+      "Two",
+      "Three",
+      "200",
+      "300"
+    ],
+    "correctAnswers": [
+      "Three"
+    ],
+    "explanation": "The National Trust was founded in 1895 by three volunteers."
+  },
+  {
+    "id": "zip-1183",
+    "sourceScreenshot": 1183,
+    "question": "In the UK, brutality and violence in the home is not a crime:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "In the UK, brutality and violence in the home is a serious crime."
+  },
+  {
+    "id": "zip-1184",
+    "sourceScreenshot": 1184,
+    "question": "When did modern tennis evolve in England?",
+    "options": [
+      "In the early 18th century",
+      "In the late 18th century",
+      "In the early 19th century",
+      "In the late 19th century"
+    ],
+    "correctAnswers": [
+      "In the late 19th century"
+    ],
+    "explanation": "Modern tennis evolved in England in the late 19th century."
+  },
+  {
+    "id": "zip-1185",
+    "sourceScreenshot": 1185,
+    "question": "UK laws ensure that people are not treated unfairly in any area of life or work because of their age, disability, sex, pregnancy and maternity, race, religion or belief, sexuality or marital status:",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is true."
+  }
+]

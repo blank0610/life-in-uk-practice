@@ -1,0 +1,179 @@
+[
+  {
+    "id": "zip-1309",
+    "sourceScreenshot": 1309,
+    "question": "Who was Richard Austen Butler?",
+    "options": [
+      "A British economist",
+      "A Welsh poet",
+      "A Labour MP",
+      "A Conservative MP"
+    ],
+    "correctAnswers": [
+      "A Conservative MP"
+    ],
+    "explanation": "Richard Austen Butler (later Lord Butler) became a Conservative MP in 1923 and held several positions before becoming responsible for education in 1941."
+  },
+  {
+    "id": "zip-1310",
+    "sourceScreenshot": 1310,
+    "question": "What kind of sport is played at the Wimbledon Championships?",
+    "options": [
+      "Football",
+      "Tennis",
+      "Rugby",
+      "Cricket"
+    ],
+    "correctAnswers": [
+      "Tennis"
+    ],
+    "explanation": "The most famous tennis tournament hosted in Britain is The Wimbledon Championships, which takes place each year at the All England Lawn Tennis and Croquet Club."
+  },
+  {
+    "id": "zip-1311",
+    "sourceScreenshot": 1311,
+    "question": "Where was Isaac Newton from?",
+    "options": [
+      "Lincolnshire",
+      "Stratford-upon-Avon",
+      "Cardiff",
+      "Edinburgh"
+    ],
+    "correctAnswers": [
+      "Lincolnshire"
+    ],
+    "explanation": "Isaac Newton was born in Lincolnshire, eastern England."
+  },
+  {
+    "id": "zip-1312",
+    "sourceScreenshot": 1312,
+    "question": "Under which Act was the Kingdom of Great Britain created?",
+    "options": [
+      "The Reform Act",
+      "The Act of Union",
+      "The Emancipation Act",
+      "The Butler Act"
+    ],
+    "correctAnswers": [
+      "The Act of Union"
+    ],
+    "explanation": "The Act of Union, known as the Treaty of Union in Scotland, was therefore agreed in 1707, creating the Kingdom of Great Britain."
+  },
+  {
+    "id": "zip-1313",
+    "sourceScreenshot": 1313,
+    "question": "The Council of Europe has the power to make new laws.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. The Council of Europe has NO power to make laws but draws up conventions and charters, the most well-known of which is the European Convention on Human Rights and Fundamental Freedoms, usually called the European Convention on Human Rights."
+  },
+  {
+    "id": "zip-1314",
+    "sourceScreenshot": 1314,
+    "question": "Which TWO British poets wrote about their experiences in WWI?",
+    "options": [
+      "Lord Byron and Percy Shelley",
+      "John Keats and Alfred Lord Tennyson",
+      "Robert and Elizabeth Browning",
+      "Wilfred Owen and Siegfried Sassoon"
+    ],
+    "correctAnswers": [
+      "Wilfred Owen and Siegfried Sassoon"
+    ],
+    "explanation": "Wilfred Owen and Siegfried Sassoon were inspired to write about their experiences in the First World War."
+  },
+  {
+    "id": "zip-1315",
+    "sourceScreenshot": 1315,
+    "question": "If you are found driving while exceeding the alcohol limit you will:",
+    "options": [
+      "Not be allowed to drive again",
+      "Be taken to the hospital",
+      "Be arrested",
+      "Be taken home by the police"
+    ],
+    "correctAnswers": [
+      "Be arrested"
+    ],
+    "explanation": "If you are found driving while exceeding the alcohol limit you will be arrested."
+  },
+  {
+    "id": "zip-1316",
+    "sourceScreenshot": 1316,
+    "question": "Which TWO of the following are core values of a civil servant?",
+    "options": [
+      "Objectivity",
+      "Competitiveness",
+      "Talent",
+      "Honesty"
+    ],
+    "correctAnswers": [
+      "Objectivity",
+      "Honesty"
+    ],
+    "explanation": "The core values of civil servants include: integrity, honesty, objectivity and impartiality (including being politically neutral)."
+  },
+  {
+    "id": "zip-1317",
+    "sourceScreenshot": 1317,
+    "question": "Which of the following countries belongs to the Commonwealth?",
+    "options": [
+      "Norway",
+      "Zimbabwe",
+      "Nauru",
+      "Algeria"
+    ],
+    "correctAnswers": [
+      "Nauru"
+    ],
+    "explanation": "Nauru is a member of the Commonwealth."
+  },
+  {
+    "id": "zip-1318",
+    "sourceScreenshot": 1318,
+    "question": "What is the name of the first Danish king to rule in England?",
+    "options": [
+      "Canute",
+      "Kenneth MacAlpin",
+      "Henry V",
+      "Edward I"
+    ],
+    "correctAnswers": [
+      "Canute"
+    ],
+    "explanation": "Anglo-Saxon kings continued to rule what is now England, except for a short period when there were Danish kings. The first of these was Cnut, also named Canute."
+  },
+  {
+    "id": "zip-1319",
+    "sourceScreenshot": 1319,
+    "question": "What name was given to the members of the Women’s Social and Political Union founded in 1903?",
+    "options": [
+      "Gentry",
+      "Boers",
+      "Rebels",
+      "Suffragettes"
+    ],
+    "correctAnswers": [
+      "Suffragettes"
+    ],
+    "explanation": "In 1903 Emmeline Pankhurst helped found the Women’s Social and Political Union (WSPU). This was the first group whose members were called ‘suffragettes’."
+  },
+  {
+    "id": "zip-1320",
+    "sourceScreenshot": 1320,
+    "question": "It is a civil offence to owe money to someone and you might be taken to court.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "True. Owing money to someone is a civil offence."
+  }
+]

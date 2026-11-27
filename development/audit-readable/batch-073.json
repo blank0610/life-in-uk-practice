@@ -1,0 +1,176 @@
+[
+  {
+    "id": "zip-1211",
+    "sourceScreenshot": 1211,
+    "question": "How long did the Hundred Years War fought between England and France last for?",
+    "options": [
+      "100 years",
+      "101 years",
+      "115 years",
+      "116 years"
+    ],
+    "correctAnswers": [
+      "116 years"
+    ],
+    "explanation": "English kings fought a long war with France, called the Hundred Years War (even though it actually lasted 116 years)."
+  },
+  {
+    "id": "zip-1212",
+    "sourceScreenshot": 1212,
+    "question": "When did Gordon Brown take over as Prime Minister from his predecessor Tony Blair?",
+    "options": [
+      "In 2007",
+      "In 2008",
+      "In 2009",
+      "In 2010"
+    ],
+    "correctAnswers": [
+      "In 2007"
+    ],
+    "explanation": "Gordon Brown took over as Prime Minister from Tony Blair in 2007."
+  },
+  {
+    "id": "zip-1213",
+    "sourceScreenshot": 1213,
+    "question": "The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in French.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "False"
+    ],
+    "explanation": "False. The Life in the UK test is usually taken in English, although special arrangements can be made if you wish to take it in Welsh or Scottish Gaelic."
+  },
+  {
+    "id": "zip-1214",
+    "sourceScreenshot": 1214,
+    "question": "Where in England was one of the Anglo-Saxon kings buried with treasure and armour?",
+    "options": [
+      "Maiden Castle, Dorset",
+      "Sutton Hoo, Suffolk",
+      "Conwy Castle, Wales",
+      "The Tower of London"
+    ],
+    "correctAnswers": [
+      "Sutton Hoo, Suffolk"
+    ],
+    "explanation": "The burial place of one of the Anglo-Saxon kings was at Sutton Hoo in modern Suffolk."
+  },
+  {
+    "id": "zip-1215",
+    "sourceScreenshot": 1215,
+    "question": "Which British writer wrote satirical novels including Brideshead Revisited?",
+    "options": [
+      "Evelyn Waugh",
+      "Sir Arthur Conan Doyle",
+      "Sir Kingsley Amis",
+      "Thomas Hardy"
+    ],
+    "correctAnswers": [
+      "Evelyn Waugh"
+    ],
+    "explanation": "Evelyn Waugh wrote satirical novels, including Decline and Fall and Scoop. He is perhaps best known for Brideshead Revisited."
+  },
+  {
+    "id": "zip-1216",
+    "sourceScreenshot": 1216,
+    "question": "Where is the best preserved prehistoric village in northern Europe located?",
+    "options": [
+      "Cardiff, Wales",
+      "Edinburgh, the capital of Scotland",
+      "Orkney, off the north coast of Scotland",
+      "The Isle of Wight"
+    ],
+    "correctAnswers": [
+      "Orkney, off the north coast of Scotland"
+    ],
+    "explanation": "Skara Brae on Orkney, off the north coast of Scotland, is the best preserved prehistoric village in northern Europe."
+  },
+  {
+    "id": "zip-1217",
+    "sourceScreenshot": 1217,
+    "question": "Which of the following sports began in the UK?",
+    "options": [
+      "Cricket",
+      "Football",
+      "Rugby",
+      "All of the above"
+    ],
+    "correctAnswers": [
+      "All of the above"
+    ],
+    "explanation": "Many famous sports, including cricket, football, lawn tennis, golf and rugby, began in Britain."
+  },
+  {
+    "id": "zip-1218",
+    "sourceScreenshot": 1218,
+    "question": "Which famous architect designed Dumfries House?",
+    "options": [
+      "Sir Christopher Wren",
+      "Robert Adam",
+      "Sir Norman Foster",
+      "Dame Zaha Hadid"
+    ],
+    "correctAnswers": [
+      "Robert Adam"
+    ],
+    "explanation": "The Scottish architect Robert Adam designed the inside decoration as well as the building itself in great houses such as Dumfries House in Scotland."
+  },
+  {
+    "id": "zip-1220",
+    "sourceScreenshot": 1220,
+    "question": "What did the Education Act of 1944 introduce?",
+    "options": [
+      "Free primary education in England and Wales",
+      "Free secondary education in England and Wales",
+      "Free high school education in England and Wales",
+      "Free university education in England and Wales"
+    ],
+    "correctAnswers": [
+      "Free secondary education in England and Wales"
+    ],
+    "explanation": "The Education Act 1944 (often called ‘The Butler Act’), introduced free secondary education in England and Wales."
+  },
+  {
+    "id": "zip-1221",
+    "sourceScreenshot": 1221,
+    "question": "Which of the following tribes invaded Britain?",
+    "options": [
+      "The Jutes",
+      "The Angles",
+      "The Saxons",
+      "All of the above"
+    ],
+    "correctAnswers": [
+      "All of the above"
+    ],
+    "explanation": "The Roman army left Britain in AD 410 to defend other parts of the Roman Empire and never returned. Britain was again invaded by tribes from northern Europe: the Jutes, the Angles and the Saxons."
+  },
+  {
+    "id": "zip-1222",
+    "sourceScreenshot": 1222,
+    "question": "Many schools organise events such as book sales, toy sales or bringing food to sell to raise money for extra equipment or out-of-school activities.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "correctAnswers": [
+      "True"
+    ],
+    "explanation": "This statement is TRUE."
+  },
+  {
+    "id": "zip-1223",
+    "sourceScreenshot": 1223,
+    "question": "Do you need a TV licence for watching TV on a mobile phone?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "correctAnswers": [
+      "Yes"
+    ],
+    "explanation": "Everyone in the UK with a TV, computer or other medium which can be used for watching TV must have a television licence."
+  }
+]

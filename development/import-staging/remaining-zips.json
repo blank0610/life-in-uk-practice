@@ -1,0 +1,407 @@
+{
+  "rows": [
+    [
+      838,
+      "What is a bank holiday (choose TWO answers)?",
+      [
+        "A festive pagan day",
+        "A private holiday",
+        "A day when banks are closed",
+        "A public holiday"
+      ],
+      [
+        2,
+        3
+      ],
+      "In the UK, there are public holidays each year called bank holidays, when banks and many other businesses are closed for the day."
+    ],
+    [
+      839,
+      "By 1200, the English ruled an area of Scotland known as the Pale, around Edinburgh:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "By 1200, the English ruled an area of Ireland known as the Pale, around Dublin."
+    ],
+    [
+      841,
+      "Which of the following countries does not take part in the Six Nations Championship?",
+      [
+        "Wales",
+        "Italy",
+        "Germany",
+        "France"
+      ],
+      [
+        2
+      ],
+      "The most famous rugby union competition is the Six Nations Championship between England, Ireland, Scotland, Wales, France and Italy."
+    ],
+    [
+      842,
+      "Who became Queen after Edward VI?",
+      [
+        "Elizabeth I",
+        "Queen Mary",
+        "Anne Boleyn",
+        "Catherine of Aragon"
+      ],
+      [
+        1
+      ],
+      "Edward VI died at the age of 15 after ruling for just over six years, and his half-sister Mary became queen."
+    ],
+    [
+      843,
+      "Which of the following is NOT classified as a criminal offence in the UK?",
+      [
+        "Selling alcohol to anyone under the age of 18",
+        "Selling or buying drugs",
+        "Carrying a knife",
+        "Unfair dismissal or discrimination in the workplace"
+      ],
+      [
+        3
+      ],
+      "Cases of unfair dismissal or discrimination in the workplace are considered civil offences."
+    ],
+    [
+      844,
+      "The right to life and the right to liberty and security are some of the principles included in the European Convention of Human Rights:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This is true."
+    ],
+    [
+      845,
+      "British values and principles are based on history and traditions and are protected by law, customs and expectations.",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is true."
+    ],
+    [
+      846,
+      "When did the first Christian communities begin to appear in Britain?",
+      [
+        "During the 1st and 2nd centuries AD",
+        "During the 2nd and 3rd centuries AD",
+        "During the 3rd and 4th centuries AD",
+        "During the 4th and 5th centuries AD"
+      ],
+      [
+        2
+      ],
+      "It was during the 3rd and 4th centuries AD that the first Christian communities began to appear in Britain."
+    ],
+    [
+      847,
+      "Which of the following is NOT a devolved administration?",
+      [
+        "The Scottish Parliament",
+        "The Welsh government",
+        "The Irish Parliament",
+        "The Northern Ireland Assembly"
+      ],
+      [
+        2
+      ],
+      "There are three devolved administrations in the UK; these include the Welsh government, the Scottish Parliament and the Northern Ireland Assembly."
+    ],
+    [
+      848,
+      "Who built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)?",
+      [
+        "Emperor Claudius",
+        "Napoleon",
+        "Emperor Hadrian",
+        "Julius Caesar"
+      ],
+      [
+        2
+      ],
+      "Areas of what is now Scotland were never conquered by the Romans, and the Emperor Hadrian built a wall in the north of England to keep out the Picts (ancestors of the Scottish people)."
+    ],
+    [
+      849,
+      "Who looks after Edinburgh Castle?",
+      [
+        "Historic Environment Scotland",
+        "SEPA",
+        "The Scottish Parliament",
+        "The National Trust"
+      ],
+      [
+        0
+      ],
+      "Edinburgh Castle is a dominant feature of the skyline in Edinburgh, Scotland. It has a long history, dating back to the early Middle Ages. It is looked after by Historic Environment Scotland."
+    ],
+    [
+      850,
+      "Each MP represents a parliamentary constituency, which is a small area of the country:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is true."
+    ],
+    [
+      851,
+      "Who were the pioneers of the IVF (in-vitro fertilisation) therapy?",
+      [
+        "Sir Frank Whittle and Sir Christopher Cockerell",
+        "Sir Robert Edwards and Patrick Steptoe",
+        "Francis Creek and John Logie Baird",
+        "Sir Ian Wilmot and Keith Campbell"
+      ],
+      [
+        1
+      ],
+      "IVF (in-vitro fertilisation) therapy for the treatment of infertility was pioneered in Britain by physiologist Sir Robert Edwards (1925-) and gynaecologist Patrick Steptoe (1913-88). The world’s first ‘test-tube baby’ was born in Oldham, Lancashire in 1978."
+    ],
+    [
+      852,
+      "Who led the establishment of the National Health System (NHS) in 1948?",
+      [
+        "Aneurin (Nye) Bevan",
+        "Harold Macmillan",
+        "Clement Attlee",
+        "William Beveridge"
+      ],
+      [
+        0
+      ],
+      "In 1948, Aneurin (Nye) Bevan, the Minister for Health, led the establishment of the National Health Service (NHS), which guaranteed a minimum standard of health care for all, free at the point of use."
+    ],
+    [
+      853,
+      "Which of the following countries were granted their independence in 1947 (choose THREE answers)?",
+      [
+        "India",
+        "Bangladesh",
+        "Pakistan",
+        "Ceylon (Sri Lanka)"
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      "In 1947, independence was granted to nine countries, including India, Pakistan and Ceylon (now Sri Lanka)."
+    ],
+    [
+      854,
+      "In the UK, bank holidays of no religious significance are celebrated at the beginning of May, in late May or early June, and in August:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        0
+      ],
+      "This statement is true."
+    ],
+    [
+      855,
+      "Where can Admiral Nelson’s ship known as HMS Victory be visited?",
+      [
+        "Plymouth",
+        "Bournemouth",
+        "Portsmouth",
+        "Hastings"
+      ],
+      [
+        2
+      ],
+      "Admiral Nelson’s ship, HMS Victory, can be visited in Portsmouth."
+    ],
+    [
+      856,
+      "Who were the Puritans?",
+      [
+        "A group of Catholics who advocated strict and simple religious doctrine and worship",
+        "A group of Protestants who advocated strict and simple religious doctrine and worship",
+        "A group of landowners from the 18th century",
+        "A group of local leaders that surged in Wales with strict religious views"
+      ],
+      [
+        1
+      ],
+      "The Puritans were a group of Protestants who advocated strict and simple religious doctrine and worship. They did not agree with the king’s religious views and disliked his reforms of the Church of England."
+    ],
+    [
+      857,
+      "What TWO different types of rugby are practised in the UK?",
+      [
+        "Union",
+        "League",
+        "Rugby open",
+        "Free style"
+      ],
+      [
+        0,
+        1
+      ],
+      "There are two different types of rugby, which have different rules: union and league."
+    ],
+    [
+      858,
+      "What do William Blake, John Keats and Lord Byron have in common?",
+      [
+        "They were British poets of the 19th century",
+        "They were British painters of the Swinging Sixties",
+        "They were musicians of the Middle Ages",
+        "They were British scientists"
+      ],
+      [
+        0
+      ],
+      "Poetry was very popular in the 19th century, with poets such as William Blake, John Keats, Lord Byron, Percy Shelley, Alfred Lord Tennyson, and Robert and Elizabeth Browning."
+    ],
+    [
+      859,
+      "The Laurence Olivier Awards take place annually at different venues in Liverpool:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "The Laurence Olivier Awards take place annually at different venues in London."
+    ],
+    [
+      860,
+      "An additional rented piece of land where people can grow fruit and vegetables is known as:",
+      [
+        "Parcel",
+        "Garden",
+        "Terrain",
+        "Allotment"
+      ],
+      [
+        3
+      ],
+      "In the UK, some people rent additional land called ‘an allotment’, where they grow fruit and vegetables."
+    ],
+    [
+      861,
+      "What is the name of the battle where the Scottish led by Robert the Bruce defeated the English in 1314?",
+      [
+        "The Battle of Agincourt",
+        "The Battle of Bannockburn",
+        "The Battle of Trafalgar",
+        "The Battle of Waterloo"
+      ],
+      [
+        1
+      ],
+      "In 1314 the Scottish, led by Robert the Bruce, defeated the English at the Battle of Bannockburn."
+    ],
+    [
+      862,
+      "Who took the English throne after the death of Henry VIII?",
+      [
+        "Elizabeth I",
+        "Edward VI",
+        "Queen Mary",
+        "James I"
+      ],
+      [
+        1
+      ],
+      "Henry VIII was succeeded by his son Edward VI."
+    ],
+    [
+      863,
+      "Carrying a weapon is a criminal offence, unless it is for self-defence:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "It is a criminal offence to carry a weapon of any kind, even if it is for self-defence. This includes a gun, a knife or anything that is made or adapted to cause injury."
+    ],
+    [
+      864,
+      "Prohibition of thought, conscience and religion is one of the principles included in the European Convention of Human Rights:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "Freedom of thought, conscience and religion is one of the principles included in the European Convention of Human Rights."
+    ],
+    [
+      865,
+      "Which TWO pop music groups became popular in the 1960s?",
+      [
+        "Queen",
+        "The Rolling Stones",
+        "The Beatles",
+        "The Carpenters"
+      ],
+      [
+        1,
+        2
+      ],
+      "Two well-known pop music groups in the 1960s were The Beatles and The Rolling Stones."
+    ],
+    [
+      866,
+      "Which of the following words comes from the Viking language?",
+      [
+        "Table",
+        "Scunthorpe",
+        "Pencil",
+        "Rabbit"
+      ],
+      [
+        1
+      ],
+      "Words such as Grimsby and Scunthorpe come from the Viking languages."
+    ],
+    [
+      867,
+      "Eid ul Adha is the day when Muslims thank Allah for giving them the strength to complete the fast:",
+      [
+        "True",
+        "False"
+      ],
+      [
+        1
+      ],
+      "The day when Muslims thank Allah for giving them the strength to complete the fast is called Eid al-Fitr."
+    ]
+  ],
+  "exclusions": [
+    {
+      "id": 840,
+      "reason": "未批改重复，#841显示完整正确答案"
+    }
+  ],
+  "notes": [
+    "#847 this include→these include；#849 Castle 大写；#858 scientist→scientists、Middle Ages 大写；#867 Eid a-Fitr→Eid al-Fitr。#851 原图 Francis Creek / Wilmot 及 #852 NHS System、#853 独立年份疑点保留，不做事实查证。"
+  ],
+  "reviewedThrough": 867
+}

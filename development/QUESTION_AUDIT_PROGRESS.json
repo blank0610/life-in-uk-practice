@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 966,
   "round": 2,
-  "nextIndex": 96,
+  "nextIndex": 108,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1161,6 +1161,185 @@
       "imageCompared": false,
       "checkedAt": "2026-11-27T11:53:52Z",
       "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 97,
+      "id": "zip-118",
+      "sourceScreenshot": 118,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 98,
+      "id": "zip-119",
+      "sourceScreenshot": 119,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 99,
+      "id": "zip-120",
+      "sourceScreenshot": 120,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 120,
+          "field": "explanation",
+          "websiteText": "",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "解释为空，是否原图缺失待核验。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 100,
+      "id": "zip-121",
+      "sourceScreenshot": 121,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 101,
+      "id": "zip-122",
+      "sourceScreenshot": 122,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 102,
+      "id": "zip-123",
+      "sourceScreenshot": 123,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 123,
+          "field": "options",
+          "websiteText": "The Grown Court",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似字母识别错误。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 103,
+      "id": "zip-124",
+      "sourceScreenshot": 124,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 104,
+      "id": "zip-125",
+      "sourceScreenshot": 125,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 105,
+      "id": "zip-126",
+      "sourceScreenshot": 126,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 126,
+          "field": "explanation",
+          "websiteText": "In the 2011 Census, 59% of people identified themselves as Christian.",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似解释转录混入，待原图核验。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 106,
+      "id": "zip-127",
+      "sourceScreenshot": 127,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项初检题干、全部选项、答案文本及解释，未见明确OCR异常；未取得完整原始截图，不作文字修正。"
+    },
+    {
+      "number": 107,
+      "id": "zip-129",
+      "sourceScreenshot": 129,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 129,
+          "field": "question",
+          "websiteText": "What ts the first verse of the National Anthem of the UK God save the King ¢",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似字符及标点识别错误。"
+        },
+        {
+          "sourceScreenshot": 129,
+          "field": "explanation",
+          "websiteText": "The first verse of the National Anthem of the UK is ‘God save our gracious King!.",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似标点识别错误。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 108,
+      "id": "zip-130",
+      "sourceScreenshot": 130,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 130,
+          "field": "question",
+          "websiteText": "Which of the following Is NOI a british Invention of the 2Uth century?",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似大小写及字符识别错误。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-27T23:35:09Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
     }
   ],
   "completedRounds": [
@@ -1174,8 +1353,8 @@
       "archivePath": "development/audit-history/round-001.json"
     }
   ],
-  "lastCheckedAt": "2026-11-27T11:53:52Z",
-  "lastCheckedId": "zip-117",
+  "lastCheckedAt": "2026-11-27T23:35:09Z",
+  "lastCheckedId": "zip-130",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

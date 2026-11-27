@@ -22,3 +22,13 @@ test("文件夹顺序追加：已核对的有效截图进入同一题库，回�
  assert.deepEqual(byId.get(754).correctAnswers,["False"]);
  assert.deepEqual(byId.get(765).correctAnswers,["False"]);
 });
+
+test("文件夹 #798–837 连续有效题保持原图选项与答案",()=>{
+ const byId=new Map(additionalQuestions.map(q=>[q.sourceScreenshot,q]));
+ for(let n=798;n<=837;n++){const q=byId.get(n);assert(q,"missing screenshot "+n);assert(q.question.trim()&&q.explanation.trim());assert(q.correctAnswers.every(a=>q.options.includes(a)));}
+ for(const n of [808,810,812,824,831])assert.equal(byId.get(n).correctAnswers.length,2);
+ assert.deepEqual(byId.get(823).correctAnswers,["135 metres"]);
+ assert(byId.get(823).explanation.includes("43 feet (135 metres)"));
+ assert.deepEqual(byId.get(818).correctAnswers,["False"]);
+ assert.deepEqual(byId.get(829).correctAnswers,["They are places where vaccinations and medical treatment for animals are available"]);
+});

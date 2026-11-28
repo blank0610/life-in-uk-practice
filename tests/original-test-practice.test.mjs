@@ -51,6 +51,7 @@ test("界面接入独立选择器且随机模式仍使用原调度",()=>{
  assert(app.includes('return pickScheduled(bank().questions,p(),'));
  assert(app.includes('if(test)return pickSourceTestQuestion'));
  assert(app.includes('recordSourceTestAnswer(pr,test,question.id,feedback)'));
- assert(app.includes('recordSourceTestAnswer(pr,test,question.id,"unsure")'));
+ const unsure=app.slice(app.indexOf("function unsure()"),app.indexOf("function announceStudyMilestone"));
+ assert(/feedback="unsure";\s*const test=activeSourceTest\(\);if\(test\)recordSourceTestAnswer\(pr,test,question.id,feedback\)/.test(unsure));
  assert(app.includes('drawSourceTestSummary(quiz,test)'));
 });

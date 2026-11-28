@@ -1,3 +1,4 @@
+import {GROUP_SIZES,studyProgressView,setStudyGroupSize,recordStudyCompletion} from "./study-progress.js";
 import {createPracticeToolbar} from "./practice-toolbar.js";
 import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
 import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-percentage-mix";
@@ -128,12 +129,12 @@ function next(){
  draw();
 }
 function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;historyIndex=null;next();changePage("practice");}
-function correct(){if(!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
+function correct(){if(historyIndex!==null||!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();const milestone=recordStudyCompletion(pr,bank().questions,question.id);pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
 feedback=ok?"yes":"no";
 const row=appendHistory(pr,question,{selected:[...selected],result:feedback,mode,note:pr.notes[question.id]??pr.review[question.id]?.note??""});
 currentRecordSeq=row.seq;
-persist();draw();if(ok)scheduleAutoNext();}
-function unsure(){if(!question)return;voice.stop();const pr=p(),old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:old.due??0,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;
+persist();draw();announceStudyMilestone(milestone);if(ok)scheduleAutoNext();}
+function unsure(){if(historyIndex!==null||!question)return;voice.stop();const pr=p(),milestone=!feedback?recordStudyCompletion(pr,bank().questions,question.id):null,old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:old.due??0,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;
 pr.notes[question.id]=String($("note")?.value??pr.notes[question.id]??old.note??"").slice(0,800);
 if(!feedback){
   feedback="unsure";
@@ -142,7 +143,14 @@ if(!feedback){
  updateHistoryResult(pr,currentRecordSeq,"unsure");
  saveHistoryNote(pr,currentRecordSeq,pr.notes[question.id]);
 }
-persist();draw();notify("已加入错题队列");}
+persist();draw();announceStudyMilestone(milestone,"已加入错题队列");}
+function announceStudyMilestone(milestone,fallback=""){
+ const messages=[];
+ if(milestone?.groupFinished)messages.push("本组完成，已开始下一组");
+ if(milestone?.roundFinished)messages.push("全题库本轮完成，已开始下一轮");
+ if(fallback)messages.push(fallback);
+ if(messages.length)notify(messages.join(" · "));
+}
 function saveCurrentNote(note){
  if(!question)return;
  const pr=p(),value=String(note||"").slice(0,800);
@@ -259,7 +267,20 @@ function ensurePracticeFrame(root){
  const header=e("div","practice-question-header");
  const top=e("div","group practice-question-meta");
  const label=e("span","label"),meta=e("span","meta"),heading=e("h3","question");
- top.append(label,meta);header.append(top,heading);
+ top.append(label,meta);
+ const progressLine=e("div","study-progress-line");
+ const roundText=e("span","study-progress-round"),groupText=e("strong","study-progress-group");
+ const groupLabel=e("label","study-progress-size","每组");
+ const groupSize=e("select","study-group-size");
+ groupSize.setAttribute("aria-label","每组练习题数");
+ for(const size of GROUP_SIZES){const opt=e("option","",size+" 道");opt.value=String(size);groupSize.append(opt);}
+ groupLabel.append(groupSize);
+ groupSize.addEventListener("change",()=>{
+  const view=setStudyGroupSize(p(),bank().questions,groupSize.value);
+  persist();updateStudyProgress(practiceFrame,view);
+ });
+ progressLine.append(roundText,groupText,groupLabel);
+ header.append(top,progressLine,heading);
  const toolbar=createPracticeToolbar({
   document,
   onSpeak:record=>{if(timer){clearTimeout(timer);timer=null;}if(!voice.playQuestion(record))notify("此浏览器暂不支持语音朗读，请使用 Chrome、Edge 或 Safari。");},
@@ -270,8 +291,13 @@ function ensurePracticeFrame(root){
  });
  const mix=e("div","practice-mix-slot"),body=e("div","practice-question-body");
  root.replaceChildren(header,toolbar.element,mix,body);
- practiceFrame={root,header,label,meta,heading,toolbar,mix,body};
+ practiceFrame={root,header,label,meta,heading,toolbar,mix,body,roundText,groupText,groupSize};
  return practiceFrame;
+}
+function updateStudyProgress(frame,view){
+ frame.roundText.textContent="第 "+view.round+" 轮 · "+view.roundDone+" / "+view.roundTotal+" 题";
+ frame.groupText.textContent="第 "+view.group+" 组 · "+view.groupDone+" / "+view.groupSize;
+ frame.groupSize.value=String(view.groupSize);
 }
 function drawPracticeMix(root){
  root.replaceChildren();
@@ -313,7 +339,10 @@ function drawQuiz(){
  if(historyIndex!==null&&!record)historyIndex=null;
  const shown=record||question,frame=ensurePracticeFrame(quiz);
  frame.label.textContent=record?"历史作答 · "+(historyIndex+1)+" / "+records.length:mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习";
- frame.meta.textContent="截图 #"+(shown.sourceScreenshot||"—")+" · 已回答 "+p().attempts+" 次 · 共 "+bank().questions.length+" 题"+(record?" · 只读":"");
+ frame.meta.textContent="截图 #"+(shown.sourceScreenshot||"—")+" · 累计答题 "+p().attempts+" 次"+(record?" · 只读":"");
+ const pr=p(),firstProgress=!pr.studyProgress;
+ updateStudyProgress(frame,studyProgressView(pr,bank().questions));
+ if(firstProgress)persist();
  frame.heading.textContent=shown.question;
  frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null)});
  drawPracticeMix(frame.mix);

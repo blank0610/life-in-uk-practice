@@ -77,3 +77,6 @@
 - `node scripts/audit-next-batch.mjs --full --output development/FULL_BANK_AUDIT_LATEST.json --source-sha <SHA>` 可执行完整规则扫描并生成独立报告。无 Node 环境时通过 GitHub 分包逐个读取后实际执行等价检查。规则扫描只识别可疑模式，不代表完整拼写正确或人工原图核验。
 - 每次记录 checkedAt、sourceSha、expectedCount、scannedCount、uniqueIdCount、complete、checkMode、records、未处理 IDs/分包，以及原图是否可访问和核对数量。缺少数据时 complete=false，不虚报；通过 CI 且无冲突再合并。旧顺序审核账不因自动规则扫描而推进。只有真实逐题审阅的连续记录才更新其 nextIndex；只有实际看图才标记 visually_checked。
 - 不外查事实，不重写题目、不猜答案。保留已有原始截图核对限制。只在发现新问题、已修复问题、扫描覆盖不完整或需用户行动时通知。
+
+## D011：实际全库规则扫描由 GitHub Actions 执行
+此前每小时 ChatGPT 任务读取完整分包失败，最近实际扫描为0。现在 .github/workflows/full-bank-audit.yml 每小时直接运行 scripts/hourly-full-bank-audit.mjs，固定当前提交 SHA，动态加载完整合并题库并生成覆盖记录。工作流同时保存报告产物与 audit-reports 分支中的 development/FULL_BANK_AUDIT_LATEST.json 和 FULL_BANK_AUDIT_SUMMARY.json。ChatGPT Auto Run 读取该分支最新摘要及对应运行状态、复核疑点并在有原图证据时最小修复。报告必须匹配本次运行ID、SHA、动态题数和唯一ID；失败或过时不得宣称全库完成。规则扫描不替代逐题或原图审核；不推进顺序人工审核主账。原有每小时任务不重复创建，旧规则中要求每次由 ChatGPT 自行读全部分包的执行方式由此取代。原图和事实核查限制不变。

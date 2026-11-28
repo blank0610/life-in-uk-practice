@@ -42,3 +42,9 @@ export function recordStudyCompletion(progress,questions,id){
  if(roundFinished){s.round++;s.seen=[];}
  return {groupFinished,roundFinished};
 }
+
+// Only the all-question random practice mode advances these display counters.
+export const usesStudyProgress=mode=>mode==="all";
+export function recordModeStudyCompletion(mode,progress,questions,id){
+ return usesStudyProgress(mode)?recordStudyCompletion(progress,questions,id):null;
+}

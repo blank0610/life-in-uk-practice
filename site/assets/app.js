@@ -1,4 +1,5 @@
-import {buildOriginalTests,sourceTestView,pickSourceTestQuestion,recordSourceTestAnswer,restartSourceTest} from "./original-test-practice.js";
+import {shuffle} from "./random-order.js";
+import {buildOriginalTests,sourceTestView,pickSourceTestQuestion,recordSourceTestAnswer,restartSourceTest} from "./original-test-practice.js?v=20261129-random-order";
 import {GROUP_SIZES,studyProgressView,setStudyGroupSize,recordStudyCompletion} from "./study-progress.js";
 import {createPracticeToolbar} from "./practice-toolbar.js";
 import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
@@ -11,7 +12,7 @@ import {isSavedForReview,isQueuedForReview,toggleSavedForReview} from "./review-
 import {DEFAULT_NORMAL_PERCENT,normalizeNormalPercent,reviewPercent} from "./review-mix.js";
 import {renderAuditDashboard} from "./audit-dashboard.js?v=20261125-round-history";
 const KEY="life-uk-practice-v1";
-function shuffle(arr){const out=[...arr];for(let i=out.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[out[i],out[j]]=[out[j],out[i]];}return out;}
+
 function validate(input){
  const raw=Array.isArray(input)?input:input?.questions;
  if(!Array.isArray(raw)||raw.length>10000)throw Error("题库需要 questions 数组（最多一万题）");
@@ -373,7 +374,7 @@ function drawQuiz(){
  frame.heading.textContent=shown.question;
  frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null),inSourceTest:Boolean(test)});
  drawPracticeMix(frame.mix);
- if(test){const v=sourceTestView(pr,test);frame.mix.append(e("div","notice","本套进度： "+v.done+" / "+v.total+" · 答对 "+v.correct+" 道。"+(v.complete?"本套已完成，点击下一题查看成绩。":"跳过的题会在本套后面再次出现。")));}
+ if(test){const v=sourceTestView(pr,test);frame.mix.append(e("div","notice","本套进度： "+v.done+" / "+v.total+" · 答对 "+v.correct+" 道。"+(v.complete?"本套已完成，点击下一题查看成绩。":"本套题目及选项均随机排列；跳过的题会在本套后面再次出现。")));}
  const root=frame.body;root.replaceChildren();
  if(record){drawHistory(root,record);return;}
 root.append(e("p","hint",question.correctAnswers.length>1?"请选择 "+question.correctAnswers.length+" 个正确答案再提交。":"请选择一个答案，系统将立即批改。"));const opts=e("div","answers");question.display.forEach((text,i)=>{const b=button("","answer",()=>{if(feedback)return;if(question.correctAnswers.length===1){selected=new Set([text]);correct();}else{if(selected.has(text))selected.delete(text);else if(selected.size<question.correctAnswers.length)selected.add(text);draw();}});b.disabled=Boolean(feedback);b.setAttribute("aria-pressed",String(selected.has(text)));if(selected.has(text))b.classList.add("selected");if(feedback&&question.correctAnswers.includes(text))b.classList.add("good");else if(feedback&&selected.has(text))b.classList.add("bad");b.append(e("span","letter",String.fromCharCode(65+i)),e("span","",text));opts.append(b);});root.append(opts);

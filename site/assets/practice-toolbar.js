@@ -15,14 +15,14 @@ export function createPracticeToolbar({document,onSpeak,onStop,onPrevious,onSave
  const support=e("span","muted"),live=e("span","muted");
  live.id="voice-status";live.setAttribute("role","status");live.setAttribute("aria-live","polite");
  status.append(support,live);element.append(speak,stop,previous,save,next,status);
- return {element,update({question,saved=false,canPrevious=false,speakingSupported=false,inHistory=false,returnsToCurrent=false}){
+ return {element,update({question,saved=false,canPrevious=false,speakingSupported=false,inHistory=false,returnsToCurrent=false,inSourceTest=false}){
   if(shown!==question)live.textContent="";
   shown=question;
   speak.disabled=!speakingSupported;previous.disabled=!canPrevious;
   save.textContent=saved?"★ 已收藏 · 取消":"☆ 收藏稍后复习";
   save.setAttribute("aria-pressed",String(saved));
   save.title=saved?"取消手动收藏，不删除真正的错题记录":"将这题加入随机复习和错题专项，即使答对也会再次出现";
-  next.title=inHistory?(returnsToCurrent?"返回当前练习题":"查看下一条历史作答"):"抽取下一道随机题";
+  next.title=inHistory?(returnsToCurrent?"返回当前练习题":"查看下一条历史作答"):inSourceTest?"下一道原始套题":"抽取下一道随机题";
   next.setAttribute("aria-label",next.title);
   support.textContent=speakingSupported?"优先使用英式英语语音":"此浏览器不支持语音朗读";
  }};

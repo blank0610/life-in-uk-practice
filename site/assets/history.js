@@ -24,6 +24,7 @@ export function appendHistory(progress,question,{selected=[],result="unclear",mo
     correctAnswers:[...question.correctAnswers],
     explanation:question.explanation||"",
     sourceScreenshot:question.sourceScreenshot||null,
+    ...(question.sourceTest?{sourceTest:question.sourceTest,sourceQuestion:question.sourceQuestion}:{}),
     selected:[...selected],result,mode,
     note:String(note||"").slice(0,800)
   };

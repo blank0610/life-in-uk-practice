@@ -1,3 +1,4 @@
+import {buildOriginalTests,sourceTestView,pickSourceTestQuestion,recordSourceTestAnswer,restartSourceTest} from "./original-test-practice.js";
 import {GROUP_SIZES,studyProgressView,setStudyGroupSize,recordStudyCompletion} from "./study-progress.js";
 import {createPracticeToolbar} from "./practice-toolbar.js";
 import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
@@ -64,7 +65,8 @@ if(window.LIFE_UK_PACKED){
     window.LIFE_UK_LOADED_COUNT=EMPTY.questions.length;
   }catch(err){console.error("ZIP 题库加载错误",err);window.LIFE_UK_IMPORT_ERROR=String(err);}
 }
-const blank=()=>({selected:"default",custom:null,byBank:{},autoNextEnabled:true,normalPercentage:DEFAULT_NORMAL_PERCENT});
+const originalTests=buildOriginalTests(EMPTY.questions);
+const blank=()=>({selected:"default",custom:null,byBank:{},autoNextEnabled:true,normalPercentage:DEFAULT_NORMAL_PERCENT,activeSourceTest:null});
 const fresh=()=>({attempts:0,correct:0,review:{},recent:[],lastSeen:{},history:[],historySeq:0,notes:{}});
 let data=blank();
 try{const raw=JSON.parse(localStorage.getItem(KEY)||"null");if(raw&&typeof raw==="object"&&raw.byBank&&typeof raw.byBank==="object"){data={...blank(),...raw};if(data.custom)data.custom=validate(data.custom);if(!["default","custom"].includes(data.selected)||data.selected==="custom"&&!data.custom)data.selected="default";}}catch{data=blank();}
@@ -119,18 +121,21 @@ function scheduleAutoNext(){
 function changePage(v){if(!["practice","review","library","about","audit"].includes(v))return;if(v!=="practice")cancel();page=v;$("support-panel").classList.toggle("hidden",v!=="practice");for(const id of ["practice","review","library","about","audit"]){$("page-"+id).classList.toggle("hidden",id!==page);const b=document.querySelector('[data-page="'+id+'"]');b.classList.toggle("active",id===page);}const names={practice:"随机练习",review:"错题与收藏",library:"题库与备份",audit:"题库审核记录",about:"网站说明"};$("page-name").textContent=names[v];draw();}
 function stats(){const pr=p();$("stat-total").textContent=pr.attempts;$("stat-rate").textContent=pr.attempts?Math.round(pr.correct/pr.attempts*100)+"%":"—";$("stat-review").textContent=pending().length;$("nav-review").textContent=pending().length;$("bank-status").textContent=data.selected==="custom"?"自定义题库":EMPTY.questions.length?"ZIP 截图题库":"题库载入失败";}
 function empty(title,desc,action,fn){const box=e("div","empty");box.append(e("div","symbol","✦"),e("h3","",title),e("p","",desc),button(action,"primary",fn));return box;}
-function choose(v){cancel();data.selected=v;mode="all";question=null;lastId=null;feedback=null;historyIndex=null;currentRecordSeq=null;selected.clear();persist();draw();notify("已切换题库");}
-function pick(){return pickScheduled(bank().questions,p(),{reviewMode:mode==="review",lastId,percentage:DEFAULT_NORMAL_PERCENT,normalPercentage:normalizeNormalPercent(data.normalPercentage)});}
+function choose(v){cancel();data.selected=v;data.activeSourceTest=null;mode="all";question=null;lastId=null;feedback=null;historyIndex=null;currentRecordSeq=null;selected.clear();persist();draw();notify("已切换题库");}
+function activeSourceTest(){return data.selected==="default"&&mode==="sourceTest"?originalTests.find(t=>t.available&&t.number===Number(data.activeSourceTest)):null;}
+function pick(){const test=activeSourceTest();if(test)return pickSourceTestQuestion(p(),test,question?.sourceTest===test.number?question.id:null);return pickScheduled(bank().questions,p(),{reviewMode:mode==="review",lastId,percentage:DEFAULT_NORMAL_PERCENT,normalPercentage:normalizeNormalPercent(data.normalPercentage)});}
 function next(){
  cancel();historyIndex=null;currentRecordSeq=null;selected.clear();feedback=null;
  const q=pick();question=q?{...q,display:shuffle(q.options)}:null;
  currentWasRedo=Boolean(q&&mode==="all"&&isQueuedForReview(p().review[q.id]));
  if(question)lastId=question.id;
+ if(activeSourceTest())persist();
  draw();
 }
-function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;historyIndex=null;next();changePage("practice");}
+function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;data.activeSourceTest=null;historyIndex=null;persist();next();changePage("practice");}
 function correct(){if(historyIndex!==null||!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();const milestone=recordStudyCompletion(pr,bank().questions,question.id);pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
 feedback=ok?"yes":"no";
+const test=activeSourceTest();if(test)recordSourceTestAnswer(pr,test,question.id,feedback);
 const row=appendHistory(pr,question,{selected:[...selected],result:feedback,mode,note:pr.notes[question.id]??pr.review[question.id]?.note??""});
 currentRecordSeq=row.seq;
 persist();draw();announceStudyMilestone(milestone);if(ok)scheduleAutoNext();}
@@ -138,6 +143,7 @@ function unsure(){if(historyIndex!==null||!question)return;voice.stop();const pr
 pr.notes[question.id]=String($("note")?.value??pr.notes[question.id]??old.note??"").slice(0,800);
 if(!feedback){
   feedback="unsure";
+ const test=activeSourceTest();if(test)recordSourceTestAnswer(pr,test,question.id,feedback);
  currentRecordSeq=appendHistory(pr,question,{selected:[...selected],result:"unsure",mode,note:pr.notes[question.id]}).seq;
 }else if(currentRecordSeq!==null){
  updateHistoryResult(pr,currentRecordSeq,"unsure");
@@ -326,8 +332,29 @@ function drawPracticeMix(root){
  }
 }
 
+function syncSourceTestControls(){
+ const select=$("source-test-select"),label=$("practice-title"),test=activeSourceTest();
+ select.disabled=data.selected!=="default"||!originalTests.some(t=>t.available);
+ select.value=test?String(test.number):"";
+ label.textContent=test?"原始套题练习 · Test "+test.number:"随机练习";
+ $("new-question").textContent=test?"下一题 →":"⤨ 随机换题";
+ if(page==="practice")$("page-name").textContent=test?"原始套题练习":"随机练习";
+}
+function selectSourceTest(value){
+ cancel();const test=data.selected==="default"&&originalTests.find(t=>t.available&&String(t.number)===String(value));
+ mode=test?"sourceTest":"all";data.activeSourceTest=test?test.number:null;
+ question=null;historyIndex=null;currentRecordSeq=null;lastId=null;feedback=null;selected.clear();persist();next();changePage("practice");
+}
+function drawSourceTestSummary(root,test){
+ const view=sourceTestView(p(),test);
+ const summary=e("div","source-test-summary");
+ summary.append(e("h3","","Test "+test.number+" · 本套已完成"),e("p","","答对 "+view.correct+" / "+view.total+" 道 · 答错 "+view.wrong+" · 不懂 "+view.unsure),e("p","muted","已完成 "+view.completedRuns+" 次，错题、收藏和累计学习记录继续保留。"));
+ const actions=e("div","group");actions.append(button("再练一次","primary",()=>{if(restartSourceTest(p(),test)){persist();question=null;next();}}),button("返回随机练习","secondary",()=>selectSourceTest("")));summary.append(actions);root.append(summary);
+}
 function drawQuiz(){
- const quiz=$("quiz");
+ const quiz=$("quiz"),test=activeSourceTest();
+ syncSourceTestControls();
+ if(test&&!question&&sourceTestView(p(),test).complete){practiceFrame=null;quiz.replaceChildren();drawSourceTestSummary(quiz,test);return;}
  if(!bank().questions.length||!question){
   practiceFrame=null;quiz.replaceChildren();
   if(!bank().questions.length)quiz.append(empty("题库暂时无法载入","请刷新页面；如果仍有问题，可以在 GitHub 报告题库载入错误。","刷新页面",()=>location.reload()));
@@ -338,14 +365,15 @@ function drawQuiz(){
  let record=historyIndex===null?null:records[historyIndex];
  if(historyIndex!==null&&!record)historyIndex=null;
  const shown=record||question,frame=ensurePracticeFrame(quiz);
- frame.label.textContent=record?"历史作答 · "+(historyIndex+1)+" / "+records.length:mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习";
- frame.meta.textContent="截图 #"+(shown.sourceScreenshot||"—")+" · 累计答题 "+p().attempts+" 次"+(record?" · 只读":"");
+ frame.label.textContent=record?"历史作答 · "+(historyIndex+1)+" / "+records.length:test?"TEST "+test.number+" · 原始套题":mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习";
+ frame.meta.textContent=(shown.sourceTest?"Test "+shown.sourceTest+" · 第 "+shown.sourceQuestion+" 题 · ":"")+"截图 #"+(shown.sourceScreenshot||"—")+" · 累计答题 "+p().attempts+" 次"+(record?" · 只读":"");
  const pr=p(),firstProgress=!pr.studyProgress;
  updateStudyProgress(frame,studyProgressView(pr,bank().questions));
  if(firstProgress)persist();
  frame.heading.textContent=shown.question;
- frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null)});
+ frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null),inSourceTest:Boolean(test)});
  drawPracticeMix(frame.mix);
+ if(test){const v=sourceTestView(pr,test);frame.mix.append(e("div","notice","本套进度： "+v.done+" / "+v.total+" · 答对 "+v.correct+" 道。"+(v.complete?"本套已完成，点击下一题查看成绩。":"跳过的题会在本套后面再次出现。")));}
  const root=frame.body;root.replaceChildren();
  if(record){drawHistory(root,record);return;}
 root.append(e("p","hint",question.correctAnswers.length>1?"请选择 "+question.correctAnswers.length+" 个正确答案再提交。":"请选择一个答案，系统将立即批改。"));const opts=e("div","answers");question.display.forEach((text,i)=>{const b=button("","answer",()=>{if(feedback)return;if(question.correctAnswers.length===1){selected=new Set([text]);correct();}else{if(selected.has(text))selected.delete(text);else if(selected.size<question.correctAnswers.length)selected.add(text);draw();}});b.disabled=Boolean(feedback);b.setAttribute("aria-pressed",String(selected.has(text)));if(selected.has(text))b.classList.add("selected");if(feedback&&question.correctAnswers.includes(text))b.classList.add("good");else if(feedback&&selected.has(text))b.classList.add("bad");b.append(e("span","letter",String.fromCharCode(65+i)),e("span","",text));opts.append(b);});root.append(opts);
@@ -408,14 +436,18 @@ $("auto-next-toggle").addEventListener("change",event=>{
  notify(data.autoNextEnabled?"已开启：答对后自动下一题":"已关闭：答对后手动下一题");
 });
 document.querySelectorAll("[data-page]").forEach(b=>b.addEventListener("click",()=>changePage(b.dataset.page)));
-$("new-question").addEventListener("click",()=>{mode="all";next();});
+const sourceSelect=$("source-test-select");
+for(const test of originalTests){const option=e("option","","Test "+test.number+" · "+test.entries.length+" 道"+(test.available?"":"（题库缺失）"));option.value=String(test.number);option.disabled=!test.available;sourceSelect.append(option);}
+sourceSelect.addEventListener("change",event=>selectSourceTest(event.target.value));
+$("new-question").addEventListener("click",()=>{if(activeSourceTest()){if(question)nextFromControls();return;}mode="all";data.activeSourceTest=null;persist();next();});
 $("start-review").addEventListener("click",()=>start("review"));
 $("refresh-audit").addEventListener("click",()=>renderAuditDashboard($("audit-panel"),{repo:$("page-audit").dataset.githubRepo}));
 $("choose-default").addEventListener("click",()=>choose("default"));
 
 $("export-progress").addEventListener("click",()=>exportFile("life-uk-progress.json",{format:"life-uk-backup-v1",data}));
 $("import-bank").addEventListener("change",async event=>{try{const raw=await readFile(event.target);if(!raw)return;const b=validate(raw);if(!b.questions.length)throw Error("题库不能为空");data.custom=b;choose("custom");$("import-status").textContent="成功导入 "+b.questions.length+" 道题，仅此浏览器可用";}catch(err){$("import-status").textContent="失败："+err.message;}});
-$("import-progress").addEventListener("change",async event=>{try{const raw=await readFile(event.target);if(!raw||raw.format!=="life-uk-backup-v1")throw Error("备份格式不匹配");const val=raw.data;if(!val||!val.byBank||!["default","custom"].includes(val.selected))throw Error("备份无效");if(val.custom)val.custom=validate(val.custom);data={...blank(),...val};if(data.selected==="custom"&&!data.custom)data.selected="default";question=null;feedback=null;historyIndex=null;currentRecordSeq=null;currentWasRedo=false;persist();syncAutoNextControl();changePage("practice");notify("学习记录已恢复");}catch(err){notify("恢复失败："+err.message);}});
+$("import-progress").addEventListener("change",async event=>{try{const raw=await readFile(event.target);if(!raw||raw.format!=="life-uk-backup-v1")throw Error("备份格式不匹配");const val=raw.data;if(!val||!val.byBank||!["default","custom"].includes(val.selected))throw Error("备份无效");if(val.custom)val.custom=validate(val.custom);cancel();data={...blank(),...val};if(data.selected==="custom"&&!data.custom)data.selected="default";mode=data.selected==="default"&&originalTests.some(t=>t.available&&t.number===Number(data.activeSourceTest))?"sourceTest":"all";question=null;feedback=null;historyIndex=null;currentRecordSeq=null;currentWasRedo=false;persist();syncAutoNextControl();changePage("practice");if(activeSourceTest())next();notify("学习记录已恢复");}catch(err){notify("恢复失败："+err.message);}});
+mode=data.selected==="default"&&originalTests.some(t=>t.available&&t.number===Number(data.activeSourceTest))?"sourceTest":"all";
 syncAutoNextControl();
 changePage("practice");
 // 默认直接展示随机题，无需先点击“开始”；仍按进度及冷却比例调度。

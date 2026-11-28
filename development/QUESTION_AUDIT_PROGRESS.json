@@ -3,7 +3,7 @@
   "repository": "blank0610/life-in-uk-practice",
   "bankCount": 966,
   "round": 2,
-  "nextIndex": 108,
+  "nextIndex": 120,
   "batchSize": 12,
   "checkedThisRound": [
     {
@@ -1340,6 +1340,165 @@
       "imageCompared": false,
       "checkedAt": "2026-11-27T23:35:09Z",
       "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 109,
+      "id": "zip-131",
+      "sourceScreenshot": 131,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 131,
+          "field": "question",
+          "websiteText": "SUISSE EME Which British Prime Minister was famous for the speech ‘I have nothing to offer but blood, toil, tears and sweat’?",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似混入无关字符 SUISSE EME，待原图核验。"
+        },
+        {
+          "sourceScreenshot": 131,
+          "field": "explanation",
+          "websiteText": "During the Second World War, Winston Churchill made many famous speeches including lines which you may still hear: ‘I have nothing to offer but blood, toil, tears and sweat.",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "疑似缺少配对引号，待原图核验。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 110,
+      "id": "zip-132",
+      "sourceScreenshot": 132,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 111,
+      "id": "zip-134",
+      "sourceScreenshot": 134,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 112,
+      "id": "zip-136",
+      "sourceScreenshot": 136,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 113,
+      "id": "zip-137",
+      "sourceScreenshot": 137,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 114,
+      "id": "zip-138",
+      "sourceScreenshot": 138,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 138,
+          "field": "explanation",
+          "websiteText": "",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "解释为空，是否遗漏须核验原图。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 115,
+      "id": "zip-139",
+      "sourceScreenshot": 139,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 116,
+      "id": "zip-140",
+      "sourceScreenshot": 140,
+      "status": "needs_review",
+      "findings": [
+        {
+          "sourceScreenshot": 140,
+          "field": "explanation",
+          "websiteText": "",
+          "originalText": null,
+          "minimalReplacement": null,
+          "imageCompared": false,
+          "note": "解释为空，是否遗漏须核验原图。"
+        }
+      ],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 117,
+      "id": "zip-141",
+      "sourceScreenshot": 141,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 118,
+      "id": "zip-142",
+      "sourceScreenshot": 142,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 119,
+      "id": "zip-143",
+      "sourceScreenshot": 143,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
+    },
+    {
+      "number": 120,
+      "id": "zip-144",
+      "sourceScreenshot": 144,
+      "status": "text_screened_photo_unavailable",
+      "findings": [],
+      "imageCompared": false,
+      "checkedAt": "2026-11-28T07:20:49Z",
+      "note": "逐项文字初检，待原图核验，不修改。"
     }
   ],
   "completedRounds": [
@@ -1353,8 +1512,8 @@
       "archivePath": "development/audit-history/round-001.json"
     }
   ],
-  "lastCheckedAt": "2026-11-27T23:35:09Z",
-  "lastCheckedId": "zip-130",
+  "lastCheckedAt": "2026-11-28T07:20:49Z",
+  "lastCheckedId": "zip-144",
   "auditMeaning": "text_screened_photo_unavailable = 已检查 GitHub 显示文本，原始截图尚未核对；visually_checked 必须实际打开用户原始照片并对照题干、选项、答案与解释",
   "scope": "仅 Life in the UK；不得操作 Stock AI 2"
 }

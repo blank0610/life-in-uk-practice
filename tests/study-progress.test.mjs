@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import {ensureStudyProgress,studyProgressView,setStudyGroupSize,recordStudyCompletion,GROUP_SIZES} from "../site/assets/study-progress.js";
+import {ensureStudyProgress,studyProgressView,setStudyGroupSize,recordStudyCompletion,GROUP_SIZES,usesStudyProgress,recordModeStudyCompletion} from "../site/assets/study-progress.js";
 import {readFileSync} from "node:fs";
 const bank=Array.from({length:100},(_,i)=>({id:"q"+i}));
 const fresh=()=>({attempts:626,correct:400,lastSeen:{q0:1,q1:3,removed:8},review:{q0:{pending:true,note:"keep"}},notes:{q0:"keep"},history:[{id:"q0"}]});
@@ -42,9 +42,28 @@ test("新增或删除题目时动态计算全库总数；旧全完成记录不�
 });
 test("计数仅接入实际提交及首次标记不懂，历史和抽题保持原流程",()=>{
  const app=readFileSync("site/assets/app.js","utf8");
- assert.equal((app.match(/recordStudyCompletion\(pr,bank\(\).questions,question.id\)/g)||[]).length,2);
- assert(app.includes("milestone=!feedback?recordStudyCompletion"));
+ assert.equal((app.match(/recordModeStudyCompletion\(mode,pr,bank\(\).questions,question.id\)/g)||[]).length,2);
+ assert(app.includes("milestone=!feedback?recordModeStudyCompletion"));
  assert(app.includes("if(historyIndex!==null||!question"));
  assert(app.includes('return pickScheduled(bank().questions,p(),'));
  assert(app.includes("updateStudyProgress(frame,studyProgressView(pr,bank().questions))"));
+});
+
+test("套题和专项复习不增加全库轮次或分组；返回随机练习继续原计数",()=>{
+ const p=fresh();
+ const before=studyProgressView(p,bank),saved=structuredClone(p.studyProgress);
+ for(const mode of ["sourceTest","review"]){
+  assert.equal(usesStudyProgress(mode),false);
+  assert.equal(recordModeStudyCompletion(mode,p,bank,"q2"),null);
+  assert.deepEqual(p.studyProgress,saved);
+ }
+ assert(usesStudyProgress("all"));
+ recordModeStudyCompletion("all",p,bank,"q2");
+ assert.equal(studyProgressView(p,bank).roundDone,before.roundDone+1);
+ assert.equal(studyProgressView(p,bank).groupDone,before.groupDone+1);
+ const app=readFileSync("site/assets/app.js","utf8"),html=readFileSync("site/index.html","utf8");
+ assert(app.includes("frame.progressLine.hidden=!usesStudyProgress(mode)"));
+ assert(app.includes("if(usesStudyProgress(mode))updateStudyProgress"));
+ assert(app.includes("if(!usesStudyProgress(mode))return;"));
+ assert(html.includes(".study-progress-line[hidden]{display:none}"));
 });

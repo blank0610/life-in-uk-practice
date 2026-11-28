@@ -1,0 +1,32 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import {scheduledAudit,auditSummary} from "../scripts/hourly-full-bank-audit.mjs";
+import {loadQuestionBank} from "../scripts/audit-question-bank.mjs";
+import {additionalQuestions} from "../site/data/additional-questions.js";
+test("每小时程序实际加载完整网站题库，区分旧题和新增题，保留独立证据",()=>{
+ const ledger=JSON.parse(readFileSync("development/QUESTION_AUDIT_PROGRESS.json","utf8")),before=JSON.stringify(ledger);
+ const questions=loadQuestionBank(),r=scheduledAudit(ledger,questions,{additionalIds:additionalQuestions.map(q=>q.id),sourceSha:"test",workflowRunId:"test-run"});
+ assert.equal(r.expectedCount,questions.length);
+ assert.equal(r.scannedCount,ledger.bankCount);
+ assert.equal(r.uniqueIdCount,ledger.bankCount);
+ assert.equal(r.sourceCounts.additional,additionalQuestions.length);
+ assert.equal(r.sourceCounts.original+r.sourceCounts.additional,r.scannedCount);
+ assert.deepEqual(new Set(r.records.map(q=>q.id)),new Set(questions.map(q=>q.id)));
+ assert.equal(r.imageComparedCount,0);assert.equal(r.manualTextReviewedCount,0);
+ assert.equal(r.complete,true);assert.equal(r.checkMode,"rule_based");
+ assert.equal(JSON.stringify(ledger),before);
+ const s=auditSummary(r);
+ assert.equal(s.findings.length,r.flaggedCount);
+ assert.equal(s.records,undefined);
+ assert.equal(s.workflowRunId,"test-run");
+ assert.throws(()=>scheduledAudit(ledger,questions.slice(1)),/覆盖校验失败/);
+});
+test("定时工作流仅扫描本仓库并将结果保存独立分支，不推送主分支",()=>{
+ const w=readFileSync(".github/workflows/full-bank-audit.yml","utf8");
+ assert(w.includes("cron: '7 * * * *'"));
+ assert(w.includes("node scripts/hourly-full-bank-audit.mjs"));
+ assert(w.includes("HEAD:refs/heads/audit-reports"));
+ assert(!w.includes("HEAD:main"));
+ assert(w.includes("workflow_dispatch:"));
+});

@@ -1,6 +1,6 @@
 import {shuffle} from "./random-order.js";
 import {buildOriginalTests,sourceTestView,pickSourceTestQuestion,recordSourceTestAnswer,restartSourceTest} from "./original-test-practice.js?v=20261129-random-order";
-import {GROUP_SIZES,studyProgressView,setStudyGroupSize,recordStudyCompletion} from "./study-progress.js";
+import {GROUP_SIZES,studyProgressView,setStudyGroupSize,usesStudyProgress,recordModeStudyCompletion} from "./study-progress.js?v=20261129-isolated-progress";
 import {createPracticeToolbar} from "./practice-toolbar.js";
 import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
 import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-percentage-mix";
@@ -134,13 +134,13 @@ function next(){
  draw();
 }
 function start(m="all"){if(!bank().questions.length){changePage("library");notify("题库暂时无法载入");return;}if(m==="review"&&!pending().length){changePage("review");notify("暂无待复习的题");return;}mode=m;data.activeSourceTest=null;historyIndex=null;persist();next();changePage("practice");}
-function correct(){if(historyIndex!==null||!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();const milestone=recordStudyCompletion(pr,bank().questions,question.id);pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
+function correct(){if(historyIndex!==null||!question||feedback||selected.size!==question.correctAnswers.length)return;voice.stop();const wanted=new Set(question.correctAnswers);const ok=selected.size===wanted.size&&[...selected].every(x=>wanted.has(x));const pr=p();const milestone=recordModeStudyCompletion(mode,pr,bank().questions,question.id);pr.attempts++;pr.lastSeen[question.id]=pr.attempts;if(ok)pr.correct++;const old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};if(!ok)pr.review[question.id]={...old,pending:true,wrong:old.wrong+1,wins:0,due:old.due??0,lastPassTurn:null};else if(old.pending){const wins=old.wins+1;pr.review[question.id]={...old,pending:wins<2,wins,due:old.due??0,unsure:wins<2&&old.unsure,lastPassTurn:wins>=2?pr.attempts:null};}else pr.review[question.id]={...old,pending:false,lastPassTurn:pr.attempts,due:old.due};pr.recent=[...pr.recent,question.id].slice(-8);
 feedback=ok?"yes":"no";
 const test=activeSourceTest();if(test)recordSourceTestAnswer(pr,test,question.id,feedback);
 const row=appendHistory(pr,question,{selected:[...selected],result:feedback,mode,note:pr.notes[question.id]??pr.review[question.id]?.note??""});
 currentRecordSeq=row.seq;
 persist();draw();announceStudyMilestone(milestone);if(ok)scheduleAutoNext();}
-function unsure(){if(historyIndex!==null||!question)return;voice.stop();const pr=p(),milestone=!feedback?recordStudyCompletion(pr,bank().questions,question.id):null,old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:old.due??0,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;
+function unsure(){if(historyIndex!==null||!question)return;voice.stop();const pr=p(),milestone=!feedback?recordModeStudyCompletion(mode,pr,bank().questions,question.id):null,old=pr.review[question.id]||{pending:false,wrong:0,wins:0,due:0,note:"",unsure:false};pr.review[question.id]={...old,pending:true,unsure:true,wins:0,lastPassTurn:null,due:old.due??0,note:String($("note")?.value||old.note||"").slice(0,800)};pr.lastSeen[question.id]=pr.attempts;
 pr.notes[question.id]=String($("note")?.value??pr.notes[question.id]??old.note??"").slice(0,800);
 if(!feedback){
   feedback="unsure";
@@ -283,6 +283,7 @@ function ensurePracticeFrame(root){
  for(const size of GROUP_SIZES){const opt=e("option","",size+" 道");opt.value=String(size);groupSize.append(opt);}
  groupLabel.append(groupSize);
  groupSize.addEventListener("change",()=>{
+  if(!usesStudyProgress(mode))return;
   const view=setStudyGroupSize(p(),bank().questions,groupSize.value);
   persist();updateStudyProgress(practiceFrame,view);
  });
@@ -298,7 +299,7 @@ function ensurePracticeFrame(root){
  });
  const mix=e("div","practice-mix-slot"),body=e("div","practice-question-body");
  root.replaceChildren(header,toolbar.element,mix,body);
- practiceFrame={root,header,label,meta,heading,toolbar,mix,body,roundText,groupText,groupSize};
+ practiceFrame={root,header,label,meta,heading,toolbar,mix,body,progressLine,roundText,groupText,groupSize};
  return practiceFrame;
 }
 function updateStudyProgress(frame,view){
@@ -369,8 +370,10 @@ function drawQuiz(){
  frame.label.textContent=record?"历史作答 · "+(historyIndex+1)+" / "+records.length:test?"TEST "+test.number+" · 原始套题":mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习";
  frame.meta.textContent=(shown.sourceTest?"Test "+shown.sourceTest+" · 第 "+shown.sourceQuestion+" 题 · ":"")+"截图 #"+(shown.sourceScreenshot||"—")+" · 累计答题 "+p().attempts+" 次"+(record?" · 只读":"");
  const pr=p(),firstProgress=!pr.studyProgress;
- updateStudyProgress(frame,studyProgressView(pr,bank().questions));
- if(firstProgress)persist();
+ // Initialize old backups once before any new mode-specific answer can change lastSeen.
+ if(firstProgress){studyProgressView(pr,bank().questions);persist();}
+ frame.progressLine.hidden=!usesStudyProgress(mode);
+ if(usesStudyProgress(mode))updateStudyProgress(frame,studyProgressView(pr,bank().questions));
  frame.heading.textContent=shown.question;
  frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null),inSourceTest:Boolean(test)});
  drawPracticeMix(frame.mix);

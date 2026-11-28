@@ -1,0 +1,54 @@
+name: Hourly full question bank audit
+on:
+  schedule:
+    - cron: '7 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'site/data/**'
+      - 'site/assets/quality-fixes.js'
+      - 'scripts/*audit*.mjs'
+      - 'development/QUESTION_AUDIT_PROGRESS.json'
+      - '.github/workflows/full-bank-audit.yml'
+permissions:
+  contents: write
+concurrency:
+  group: hourly-full-bank-audit
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Scan every question in the current website bank
+        id: audit
+        run: node scripts/hourly-full-bank-audit.mjs "$RUNNER_TEMP/full-bank-report"
+      - name: Upload full coverage and findings
+        if: always() && steps.audit.outcome != 'skipped'
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-bank-audit
+          path: ${{ runner.temp }}/full-bank-report/*.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Save durable latest report to isolated report branch
+        if: always() && steps.audit.outcome != 'skipped'
+        run: |
+          test -s "$RUNNER_TEMP/full-bank-report/FULL_BANK_AUDIT_LATEST.json"
+          test -s "$RUNNER_TEMP/full-bank-report/FULL_BANK_AUDIT_SUMMARY.json"
+          git fetch origin refs/heads/audit-reports
+          git worktree add --detach "$RUNNER_TEMP/audit-report-tree" FETCH_HEAD
+          mkdir -p "$RUNNER_TEMP/audit-report-tree/development"
+          cp "$RUNNER_TEMP/full-bank-report/"*.json "$RUNNER_TEMP/audit-report-tree/development/"
+          git -C "$RUNNER_TEMP/audit-report-tree" add development/FULL_BANK_AUDIT_LATEST.json development/FULL_BANK_AUDIT_SUMMARY.json
+          if ! git -C "$RUNNER_TEMP/audit-report-tree" diff --cached --quiet; then
+            git -C "$RUNNER_TEMP/audit-report-tree" -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Record full question bank audit run $GITHUB_RUN_ID"
+            git -C "$RUNNER_TEMP/audit-report-tree" push origin HEAD:refs/heads/audit-reports
+          fi

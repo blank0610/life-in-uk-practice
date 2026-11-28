@@ -1,3 +1,4 @@
+import {shuffle} from "../site/assets/random-order.js";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFileSync} from "node:fs";
@@ -19,31 +20,74 @@ test("原图40套各24题，全部引用有效题ID，无新题或旧ID删除",(
  assert.equal(sets.at(-1).entries.at(-1).sourceScreenshot,1350);
  for(const v of ORIGINAL_TEST_VARIANTS)assert.equal(sets[v.test-1].entries[v.position-1].questionId,v.canonicalId);
 });
-test("按原序出题，跳过会返回，完成结果不重复计数",()=>{
- const p={attempts:123,notes:{keep:"keep"}},t=sets[0];
- const first=pickSourceTestQuestion(p,t),second=pickSourceTestQuestion(p,t,first.id);
- assert.equal(first.sourceQuestion,1);assert.equal(second.sourceQuestion,2);
+test("套内随机排列，跳过会返回，完成结果不重复计数",()=>{
+ const p={attempts:123,notes:{keep:"keep"}},t=sets[39];
+ const first=pickSourceTestQuestion(p,t,null,()=>0),second=pickSourceTestQuestion(p,t,first.id);
+ const order=[...p.sourceTestProgress[t.number].order];
+ assert.notDeepEqual(order,t.entries.map(e=>e.questionId));
+ assert.equal(first.id,order[0]);assert.equal(second.id,order[1]);
  assert.equal(sourceTestView(p,t).done,0);
  assert(recordSourceTestAnswer(p,t,second.id,"yes"));
  assert(!recordSourceTestAnswer(p,t,second.id,"yes"));
  let q=pickSourceTestQuestion(p,t,second.id);
- for(let i=3;i<=24;i++){assert.equal(q.sourceQuestion,i);assert(recordSourceTestAnswer(p,t,q.id,"no"));q=pickSourceTestQuestion(p,t,q.id);}
+ for(const id of order.slice(2)){assert.equal(q.id,id);assert(recordSourceTestAnswer(p,t,q.id,"no"));q=pickSourceTestQuestion(p,t,q.id);}
  assert.equal(q.id,first.id);assert(recordSourceTestAnswer(p,t,q.id,"unsure"));
  assert.equal(pickSourceTestQuestion(p,t,q.id),null);
  assert.deepEqual(sourceTestView(p,t),{done:24,total:24,correct:1,wrong:22,unsure:1,complete:true,completedRuns:1});
  assert.equal(p.attempts,123);assert.equal(p.notes.keep,"keep");
- assert(restartSourceTest(p,t));assert.equal(sourceTestView(p,t).done,0);assert.equal(sourceTestView(p,t).completedRuns,1);
+ assert(restartSourceTest(p,t,()=>0));assert.equal(sourceTestView(p,t).done,0);assert.equal(sourceTestView(p,t).completedRuns,1);
+ assert.notDeepEqual(p.sourceTestProgress[t.number].order,order);
 });
-test("各套独立持久化并保留作答，缺失ID的套题不开放",()=>{
- const p={},t=sets[0],other=sets[1],q=pickSourceTestQuestion(p,t);
+test("所有套题的随机轮次均只出本套题，不重复且完整覆盖",()=>{
+ for(const t of sets){
+  const p={},ids=[];
+  for(let q=pickSourceTestQuestion(p,t,null,()=>0);q;q=pickSourceTestQuestion(p,t,q.id)){
+   ids.push(q.id);assert.equal(q.sourceTest,t.number);
+   assert.equal(q.sourceQuestion,t.entries.find(e=>e.questionId===q.id).position);
+   assert(recordSourceTestAnswer(p,t,q.id,"yes"));
+  }
+  assert.equal(ids.length,t.entries.length);
+  assert.deepEqual(new Set(ids),new Set(t.entries.map(e=>e.questionId)));
+  assert.notDeepEqual(ids,t.entries.map(e=>e.questionId));
+  assert(sourceTestView(p,t).complete);
+  assert(restartSourceTest(p,t,()=>0.999));
+  assert.notDeepEqual(p.sourceTestProgress[t.number].order,ids);
+ }
+});
+test("刷新、切换套题及旧备份迁移保留结果和随机顺序",()=>{
+ const p={},t=sets[0],other=sets[1],q=pickSourceTestQuestion(p,t,null,()=>0);
  recordSourceTestAnswer(p,t,q.id,"yes");
- const restored=JSON.parse(JSON.stringify(p));
- assert.equal(pickSourceTestQuestion(restored,t).sourceQuestion,2);
- assert.equal(pickSourceTestQuestion(restored,other).sourceQuestion,1);
+ const order=[...p.sourceTestProgress[t.number].order],restored=JSON.parse(JSON.stringify(p));
+ assert.equal(pickSourceTestQuestion(restored,t).id,order[1]);
+ assert.deepEqual(restored.sourceTestProgress[t.number].order,order);
+ assert(pickSourceTestQuestion(restored,other,null,()=>0));
  assert.equal(sourceTestView(restored,t).done,1);
  assert(!restartSourceTest(restored,t));
  assert(!buildOriginalTests([]).some(t=>t.available));
  assert(!recordSourceTestAnswer(restored,t,"not-in-test","yes"));
+ const old={sourceTestProgress:{[t.number]:{results:{[q.id]:"yes"},cursor:5,completedRuns:2}}};
+ const next=pickSourceTestQuestion(old,t,null,()=>0.999);
+ assert.notEqual(next.id,q.id);
+ assert.equal(sourceTestView(old,t).done,1);
+ assert.equal(sourceTestView(old,t).completedRuns,2);
+ assert.equal(old.sourceTestProgress[t.number].order.length,t.entries.length);
+ old.sourceTestProgress[t.number].order=Array(t.entries.length).fill(q.id);
+ assert.notEqual(pickSourceTestQuestion(old,t,null,()=>0).id,q.id);
+ assert.equal(new Set(old.sourceTestProgress[t.number].order).size,t.entries.length);
+});
+test("套题和全库共用选项随机排列，原始选项及答案不变",()=>{
+ for(const t of sets)for(const e of t.entries){
+  const q=e.question,original=[...q.options],answers=[...q.correctAnswers];
+  const mixed=shuffle(q.options,()=>0);
+  assert.deepEqual([...mixed].sort(),[...original].sort());
+  assert.notDeepEqual(mixed,original);
+  assert.deepEqual([...q.options],original);
+  assert.deepEqual([...q.correctAnswers],answers);
+  assert(answers.every(answer=>mixed.includes(answer)));
+ }
+ const app=readFileSync("site/assets/app.js","utf8");
+ assert(app.includes('import {shuffle} from "./random-order.js"'));
+ assert(app.includes('const q=pick();question=q?{...q,display:shuffle(q.options)}:null;'));
 });
 test("界面接入独立选择器且随机模式仍使用原调度",()=>{
  const app=readFileSync("site/assets/app.js","utf8"),html=readFileSync("site/index.html","utf8");

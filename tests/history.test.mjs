@@ -69,3 +69,11 @@ test("不理解标记可更新现有历史记录，不能产生重复作答",()=
   assert.deepEqual(progress.history[0].selected,["Wrong 2"]);
   assert.equal(progress.history[0].result,"unclear");
 });
+
+test("向前回看遇到已作答的当前题时直接返回当前练习",()=>{
+ const progress=p();for(let i=1;i<=5;i++)appendHistory(progress,q(i),{selected:["Right "+i],result:"yes"});
+ const current=progress.history.at(-1).seq;
+ assert.equal(nextHistoryIndex(progress,2,current),3);
+ assert.equal(nextHistoryIndex(progress,3,current),null);
+ assert.equal(nextHistoryIndex(progress,3,null),4);
+});

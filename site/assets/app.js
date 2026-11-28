@@ -1,3 +1,4 @@
+import {createPracticeToolbar} from "./practice-toolbar.js";
 import {additionalQuestions,appendAdditionalQuestions} from "../data/additional-questions.js";
 import {pickScheduled,cooldownRequired} from "./scheduler.js?v=20261119-percentage-mix";
 import {applyTextFixes} from "./quality-fixes.js";
@@ -103,7 +104,7 @@ function scheduleAutoNext(){
  const canAdvance=()=>shouldAutoAdvance({
   enabled:data.autoNextEnabled,
   isCorrect:feedback==="yes",
-  inPractice:page==="practice",
+  inPractice:page==="practice"&&historyIndex===null,
   isSpeaking:voice.isPlaying()
  });
  if(!canAdvance())return;
@@ -162,7 +163,7 @@ function toggleQuestionSave(id){
 }
 // 「下一道随机题」在朗读控制行始终可用，未作答时只跳过，不计为答错。
 function nextFromControls(){
- if(historyIndex!==null){exitHistory();return;}
+ if(historyIndex!==null){forwardHistory();return;}
  if(mode==="review"&&!pending().length){cancel();question=null;changePage("review");}
  else next();
 }
@@ -177,17 +178,10 @@ function goPrevious(){
 }
 function forwardHistory(){
  if(historyIndex===null)return;
- const target=nextHistoryIndex(p(),historyIndex);
+ const target=nextHistoryIndex(p(),historyIndex,currentRecordSeq);
  if(target===null)exitHistory();else openHistory(target);
 }
 function exitHistory(){cancel();historyIndex=null;draw();}
-function questionSaveButton(id){
- const saved=isSavedForReview(p().review[id]);
- const b=button(saved?"★ 已收藏 · 取消":"☆ 收藏稍后复习","secondary save-review-button",()=>toggleQuestionSave(id));
- b.setAttribute("aria-pressed",String(saved));
- b.title=saved?"取消手动收藏，不删除真正的错题记录":"将这题加入随机复习和错题专项，即使答对也会再次出现";
- return b;
-}
 function historyResultLabel(row){
  if(row.result==="yes")return "✓ 答对";
  if(row.result==="no")return "✕ 答错";
@@ -199,6 +193,7 @@ function drawHistoryStrip(root){
  const strip=e("div","history-strip");
  const head=e("div","history-strip-label","最近五次作答 · 点击查看你的选择和笔记");
  strip.append(head);
+ if(historyIndex!==null)strip.append(button("回到当前练习","linkbutton",exitHistory));
  const pills=e("div","history-pills");
  records.forEach((row,index)=>{
   const label=(isSavedForReview(p().review[row.id])?"★ ":"")+(row.sourceScreenshot?"#"+row.sourceScreenshot:row.id)+" · "+historyResultLabel(row);
@@ -210,25 +205,8 @@ function drawHistoryStrip(root){
  strip.append(pills);
  root.append(strip);
 }
-function drawHistory(root){
- const records=ensureHistory(p());
- const record=records[historyIndex];
- if(!record){historyIndex=null;drawQuiz();return;}
- const banner=e("div","history-banner");
- banner.append(e("span","label","历史作答 · "+(historyIndex+1)+" / "+records.length),
-   e("span","meta","来源截图 #"+(record.sourceScreenshot||"—")+" · 只读回看，不重新计分"));
- root.append(banner,e("h3","question",record.question));
- const tools=e("div","group voice-controls");
- const previous=button("← 上一题","secondary",goPrevious);
- previous.disabled=historyIndex===0;
- const advance=button(historyIndex===records.length-1?"返回当前题 →":"下一条历史 →","primary",forwardHistory);
- const returnButton=button("回到当前练习","linkbutton",exitHistory);
- const speak=button("🔊 朗读题目与选项","secondary",()=>{
-  if(!voice.playQuestion(record))notify("此浏览器不支持语音朗读。");
- });
- speak.disabled=!voice.supported;
- tools.append(previous,advance,returnButton,speak,button("■ 停止朗读","linkbutton",()=>voice.stop()),questionSaveButton(record.id));
- root.append(tools,e("p","hint","以下显示你当时实际选择的答案与原来的选项顺序。历史回看不会再次计入答题次数。"));
+function drawHistory(root,record){
+ root.append(e("p","hint","以下显示你当时实际选择的答案与原来的选项顺序。历史回看不会再次计入答题次数。"));
  const answers=e("div","answers");
  record.display.forEach((answer,i)=>{
   const b=e("div","answer history-answer");
@@ -275,26 +253,30 @@ function drawHistory(root){
  drawHistoryStrip(root);
 }
 
-function drawQuiz(){const root=$("quiz");root.replaceChildren();if(historyIndex!==null){drawHistory(root);return;}if(!bank().questions.length){root.append(empty("题库暂时无法载入","请刷新页面；如果仍有问题，可以在 GitHub 报告题库载入错误。","刷新页面",()=>location.reload()));return;}if(!question){root.append(empty("准备开始练习了吗？","题目和答案位置每次都会随机变化。答错或不懂的题目会进入复习队列。","开始随机练习",()=>next()));return;}const top=e("div","group");top.style.justifyContent="space-between";top.append(e("span","label",mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习"),e("span","meta","截图 #"+(question.sourceScreenshot||"—")+" · 已回答 "+p().attempts+" 次 · 共 "+bank().questions.length+" 题"));root.append(top,e("h3","question",question.question));
-const speechControls=e("div","group voice-controls");
-const speakQuestion=button("🔊 朗读题目与全部选项","secondary",()=>{
-  if(!voice.playQuestion(question))notify("此浏览器暂不支持语音朗读，请使用 Chrome、Edge 或 Safari。");
-});
-speakQuestion.disabled=!voice.supported;
-speechControls.append(
- speakQuestion,
- button("■ 停止朗读","linkbutton",()=>voice.stop()),
- button("← 上一题","secondary",goPrevious),
- questionSaveButton(question.id),
- button("下一道随机题 →","primary",nextFromControls)
-);
-const backButton=speechControls.querySelector("button:nth-child(3)");
-if(backButton)backButton.disabled=!canGoBack(p(),null,currentRecordSeq);
-speechControls.append(e("span","muted",voice.supported?"优先使用英式英语语音":"此浏览器不支持语音朗读"));
-const voiceStatus=e("span","muted");voiceStatus.id="voice-status";voiceStatus.setAttribute("role","status");
-voiceStatus.setAttribute("aria-live","polite");speechControls.append(voiceStatus);
-root.append(speechControls);
-if(mode==="all"){
+let practiceFrame=null;
+function ensurePracticeFrame(root){
+ if(practiceFrame&&practiceFrame.root===root&&root.contains(practiceFrame.header))return practiceFrame;
+ const header=e("div","practice-question-header");
+ const top=e("div","group practice-question-meta");
+ const label=e("span","label"),meta=e("span","meta"),heading=e("h3","question");
+ top.append(label,meta);header.append(top,heading);
+ const toolbar=createPracticeToolbar({
+  document,
+  onSpeak:record=>{if(timer){clearTimeout(timer);timer=null;}if(!voice.playQuestion(record))notify("此浏览器暂不支持语音朗读，请使用 Chrome、Edge 或 Safari。");},
+  onStop:()=>voice.stop(),
+  onPrevious:goPrevious,
+  onSave:id=>toggleQuestionSave(id),
+  onNext:nextFromControls
+ });
+ const mix=e("div","practice-mix-slot"),body=e("div","practice-question-body");
+ root.replaceChildren(header,toolbar.element,mix,body);
+ practiceFrame={root,header,label,meta,heading,toolbar,mix,body};
+ return practiceFrame;
+}
+function drawPracticeMix(root){
+ root.replaceChildren();
+ if(mode!=="all")return;
+ {
  const normal=normalizeNormalPercent(data.normalPercentage),redo=reviewPercent(normal);
  const panel=e("div","practice-mix");
  const header=e("div","practice-mix-heading");
@@ -315,7 +297,28 @@ if(mode==="all"){
  });
  panel.append(header,range,hint);
  root.append(panel);
+ }
 }
+
+function drawQuiz(){
+ const quiz=$("quiz");
+ if(!bank().questions.length||!question){
+  practiceFrame=null;quiz.replaceChildren();
+  if(!bank().questions.length)quiz.append(empty("题库暂时无法载入","请刷新页面；如果仍有问题，可以在 GitHub 报告题库载入错误。","刷新页面",()=>location.reload()));
+  else quiz.append(empty("准备开始练习了吗？","题目和答案位置每次都会随机变化。答错或不懂的题目会进入复习队列。","开始随机练习",()=>next()));
+  return;
+ }
+ const records=ensureHistory(p());
+ let record=historyIndex===null?null:records[historyIndex];
+ if(historyIndex!==null&&!record)historyIndex=null;
+ const shown=record||question,frame=ensurePracticeFrame(quiz);
+ frame.label.textContent=record?"历史作答 · "+(historyIndex+1)+" / "+records.length:mode==="review"?"REVIEW · 收藏与错题":"PRACTICE · 随机练习";
+ frame.meta.textContent="截图 #"+(shown.sourceScreenshot||"—")+" · 已回答 "+p().attempts+" 次 · 共 "+bank().questions.length+" 题"+(record?" · 只读":"");
+ frame.heading.textContent=shown.question;
+ frame.toolbar.update({question:shown,saved:isSavedForReview(p().review[shown.id]),canPrevious:canGoBack(p(),historyIndex,currentRecordSeq),speakingSupported:voice.supported,inHistory:Boolean(record),returnsToCurrent:Boolean(record&&nextHistoryIndex(p(),historyIndex,currentRecordSeq)===null)});
+ drawPracticeMix(frame.mix);
+ const root=frame.body;root.replaceChildren();
+ if(record){drawHistory(root,record);return;}
 root.append(e("p","hint",question.correctAnswers.length>1?"请选择 "+question.correctAnswers.length+" 个正确答案再提交。":"请选择一个答案，系统将立即批改。"));const opts=e("div","answers");question.display.forEach((text,i)=>{const b=button("","answer",()=>{if(feedback)return;if(question.correctAnswers.length===1){selected=new Set([text]);correct();}else{if(selected.has(text))selected.delete(text);else if(selected.size<question.correctAnswers.length)selected.add(text);draw();}});b.disabled=Boolean(feedback);b.setAttribute("aria-pressed",String(selected.has(text)));if(selected.has(text))b.classList.add("selected");if(feedback&&question.correctAnswers.includes(text))b.classList.add("good");else if(feedback&&selected.has(text))b.classList.add("bad");b.append(e("span","letter",String.fromCharCode(65+i)),e("span","",text));opts.append(b);});root.append(opts);
 if(feedback){const wrong=feedback!=="yes",f=e("div","result"+(wrong?" wrong":""));f.append(e("b","",wrong?"✕ 需要巩固这道题":"✓ 回答正确！"),e("p","","正确答案："+question.correctAnswers.join("、")),e("p","",question.explanation||"这张截图的说明文字尚未完成逐字核对；未添加推测性解释。"));const ta=e("textarea");ta.id="note";ta.maxLength=800;ta.placeholder="写下这道题的学习笔记（自动保存）";ta.value=p().notes[question.id]??p().review[question.id]?.note??"";
 ta.addEventListener("input",()=>{

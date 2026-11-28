@@ -14,3 +14,6 @@ GitHub Pages 托管 \`site/\`。使用原生 HTML/CSS/JavaScript，无服务器�
 
 ## D005：开发流程
 \`develop\` 负责持续开发，\`main\` 负责 Pages 发布；开发说明放在 \`development/\`，只部署 \`site/\`。
+
+## 2026-11-28 D006：每次 Auto Run 全库覆盖
+用户要求每小时扫描全部正式题，不再限制每次12道。题数动态取自主账与 manifest，12仅为传输分包；独立全库扫描报告不冒充逐题人工审核或原图核验，不重置旧进度。现有 Auto Run 已实际更新，频率及项目隔离不变。详见 QUESTION_AUDIT_METHOD.md。

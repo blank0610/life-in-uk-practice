@@ -11,12 +11,12 @@
 
 ## 用户要求
 
-按截图题号逐条审核全部 **当前正式网站题目（数量由进度主账 bankCount 动态取得）**：核查完整英文题干、全部选项、正确答案、解释与 OCR 异常符号。每次完成的题号和状态必须写入本仓库，然后下一小时从上次结束的位置继续，不能只反复复查已经修好的题。全部当前题库走完一轮后，归档原轮审核结果并从第一个题号重开下一轮。
+用户于 2026-11-28 明确要求每次 Auto Run 均从第一题检查整个正式题库，数量从最新 bankCount 与 manifest 动态读取。每次实际读取全部分包并检查全部题干、选项、答案及解释；12 仅为分包大小，不是运行上限。全库规则扫描与真实逐题/原图审核主账独立：旧顺序审核进度和历史归档保留，只有实际完成逐题审核才可推进旧游标，完成一轮后归档。
 
 ## 文件与规则
 
 - 进度主账：\`development/QUESTION_AUDIT_PROGRESS.json\`，包含 \`round\`（第几轮）、\`nextIndex\`（下个题在按来源截图编号排序的题库中的下标）、\`checkedThisRound\`（本轮逐题审核记录）、\`completedRounds\`（历史轮次）。
-- 审核程序：\`node scripts/audit-next-batch.mjs\`。默认**不写进度**，按原始截图编号从小到大打印下一批 **12 道**完整题干、选项、正确答案、解释与明显 OCR 异常。每道都单独审核；其他题不能直接批量标为已核实。
+- 审核程序：\`node scripts/audit-next-batch.mjs\`。默认（仅供顺序逐题证据复核）**不写进度**，按原始截图编号从小到大打印下一批由 batchSize 指定的完整题干、选项、正确答案、解释与明显 OCR 异常。每道都单独审核；其他题不能直接批量标为已核实。
 - **检查完成后**可以执行 \`node scripts/audit-next-batch.mjs --write\` 生成本地更新，并将更新的进度账提交到 GitHub。不能仅因为运行自动扫描或 GitHub CI 成功就自动提交完成记录。
 - 当完成当轮全部题目时，脚本生成 \`development/audit-history/round-XXX.json\` 逐题归档，进度账的 \`round\` 加 1 并 \`nextIndex\` 归零；**先提交归档，再进入下轮**。
 - 每次更新审核进度须由独立巡检任务提交可追踪的 GitHub Commit（或 PR）；提交消息说明「第几轮、题号范围、需人工复核多少道」，有新错误时另记录 Issue 或 PR。
@@ -70,4 +70,10 @@
 用户要求新增题统一进入同一个现有练习题库，按原 ZIP 文件夹与截图编号连续核对、追加，不按 Test 套数分组或等待整套完成。`development/IMPORT_TESTS_20_40.md` 记录文件夹处理边界、跳过原因及下一截图；sourceTest/sourceQuestion 仅用于证据溯源。此导入流程与正式每小时顺序巡检独立。
 
 ### 两个扩容 ZIP 已完成
-全源截图处理记录见 `IMPORT_TESTS_20_40.md` 及 `IMPORT_REMAINING_SOURCE_COVERAGE.json`。永久巡检继续以主账动态题数和游标为准，既有轮次不重置。导入核对、自动重复图检测不计入巡检逐题状态。
+全源截图处理记录见 `IMPORT_TESTS_20_40.md` 及 `IMPORT_REMAINING_SOURCE_COVERAGE.json`。永久巡检每次全库扫描从第一题开始，既有顺序逐题审核轮次和游标不重置。导入核对、自动重复图检测不计入巡检逐题状态。
+
+## 2026-11-28：每小时全库审核（取代旧每小时 12 道限制）
+- 现有 ChatGPT Auto Run 已更新，保持每小时执行、独立项目隔离，不创建其他定时任务。每次固定最新 main SHA，读取主账和 manifest 的全部分包，验证唯一 ID、题数、分包边界，再扫描所有题目。从第一题开始，不以 nextIndex 限制全库扫描。
+- `node scripts/audit-next-batch.mjs --full --output development/FULL_BANK_AUDIT_LATEST.json --source-sha <SHA>` 可执行完整规则扫描并生成独立报告。无 Node 环境时通过 GitHub 分包逐个读取后实际执行等价检查。规则扫描只识别可疑模式，不代表完整拼写正确或人工原图核验。
+- 每次记录 checkedAt、sourceSha、expectedCount、scannedCount、uniqueIdCount、complete、checkMode、records、未处理 IDs/分包，以及原图是否可访问和核对数量。缺少数据时 complete=false，不虚报；通过 CI 且无冲突再合并。旧顺序审核账不因自动规则扫描而推进。只有真实逐题审阅的连续记录才更新其 nextIndex；只有实际看图才标记 visually_checked。
+- 不外查事实，不重写题目、不猜答案。保留已有原始截图核对限制。只在发现新问题、已修复问题、扫描覆盖不完整或需用户行动时通知。

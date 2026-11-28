@@ -47,10 +47,11 @@ export function previousHistoryIndex(progress,index=null,currentSeq=null){
   const target=newest>=0&&rows[newest].seq===currentSeq?newest-1:newest;
   return target>=0?target:null;
 }
-export function nextHistoryIndex(progress,index){
+export function nextHistoryIndex(progress,index,currentSeq=null){
   const rows=ensureHistory(progress);
   if(index===null||index<0)return null;
-  return index+1<rows.length?index+1:null;
+  const target=index+1;
+  return target<rows.length&&rows[target].seq!==currentSeq?target:null;
 }
 export function canGoBack(progress,index=null,currentSeq=null){
   return previousHistoryIndex(progress,index,currentSeq)!==null;

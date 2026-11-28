@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-28T18:27:27.221Z",
+  "sourceSha": "775efee205b5b921f5deea639764d0f43be4c2f2",
+  "expectedCount": 966,
+  "scannedCount": 966,
+  "uniqueIdCount": 966,
+  "complete": true,
+  "checkMode": "rule_based",
+  "imageComparedCount": 0,
+  "originalImagesAvailable": false,
+  "manualTextReviewedCount": 0,
+  "unprocessedIds": [],
+  "unprocessedBatches": [],
+  "severeCount": 0,
+  "flaggedCount": 93,
+  "workflowRunId": "46175942703",
+  "event": "push",
+  "sourceCounts": {
+    "original": 487,
+    "additional": 479
+  },
+  "findings": [
+    {
+      "id": "zip-29",
+      "sourceScreenshot": 29,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-38",
+      "sourceScreenshot": 38,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-44",
+      "sourceScreenshot": 44,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-49",
+      "sourceScreenshot": 49,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-58",
+      "sourceScreenshot": 58,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-61",
+      "sourceScreenshot": 61,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-63",
+      "sourceScreenshot": 63,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-65",
+      "sourceScreenshot": 65,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-71",
+      "sourceScreenshot": 71,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-73",
+      "sourceScreenshot": 73,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-77",
+      "sourceScreenshot": 77,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-87",
+      "sourceScreenshot": 87,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-96",
+      "sourceScreenshot": 96,
+      "findings": [
+        "题干过短，原图可能被截断"
+      ]
+    },
+    {
+      "id": "zip-108",
+      "sourceScreenshot": 108,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-113",
+      "sourceScreenshot": 113,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-120",
+      "sourceScreenshot": 120,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-130",
+      "sourceScreenshot": 130,
+      "findings": [
+        "题干中 NOI 疑似 NOT 的 OCR 错字",
+        "question 疑似 OCR 错字或乱码，须核原图"
+      ]
+    },
+    {
+      "id": "zip-138",
+      "sourceScreenshot": 138,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-140",
+      "sourceScreenshot": 140,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-147",
+      "sourceScreenshot": 147,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-167",
+      "sourceScreenshot": 167,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-170",
+      "sourceScreenshot": 170,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-172",
+      "sourceScreenshot": 172,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-176",
+      "sourceScreenshot": 176,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-182",
+      "sourceScreenshot": 182,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-192",
+      "sourceScreenshot": 192,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-194",
+      "sourceScreenshot": 194,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-196",
+      "sourceScreenshot": 196,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-197",
+      "sourceScreenshot": 197,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-200",
+      "sourceScreenshot": 200,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-204",
+      "sourceScreenshot": 204,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-208",
+      "sourceScreenshot": 208,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-212",
+      "sourceScreenshot": 212,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-223",
+      "sourceScreenshot": 223,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-225",
+      "sourceScreenshot": 225,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-226",
+      "sourceScreenshot": 226,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-229",
+      "sourceScreenshot": 229,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-236",
+      "sourceScreenshot": 236,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-241",
+      "sourceScreenshot": 241,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-243",
+      "sourceScreenshot": 243,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-248",
+      "sourceScreenshot": 248,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-255",
+      "sourceScreenshot": 255,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-270",
+      "sourceScreenshot": 270,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-281",
+      "sourceScreenshot": 281,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-285",
+      "sourceScreenshot": 285,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-289",
+      "sourceScreenshot": 289,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-296",
+      "sourceScreenshot": 296,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-303",
+      "sourceScreenshot": 303,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-309",
+      "sourceScreenshot": 309,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-310",
+      "sourceScreenshot": 310,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-315",
+      "sourceScreenshot": 315,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-318",
+      "sourceScreenshot": 318,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-324",
+      "sourceScreenshot": 324,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-331",
+      "sourceScreenshot": 331,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-335",
+      "sourceScreenshot": 335,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-340",
+      "sourceScreenshot": 340,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-341",
+      "sourceScreenshot": 341,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-361",
+      "sourceScreenshot": 361,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-363",
+      "sourceScreenshot": 363,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-371",
+      "sourceScreenshot": 371,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-374",
+      "sourceScreenshot": 374,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-379",
+      "sourceScreenshot": 379,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-396",
+      "sourceScreenshot": 396,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-397",
+      "sourceScreenshot": 397,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-403",
+      "sourceScreenshot": 403,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-412",
+      "sourceScreenshot": 412,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-414",
+      "sourceScreenshot": 414,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-415",
+      "sourceScreenshot": 415,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-417",
+      "sourceScreenshot": 417,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-433",
+      "sourceScreenshot": 433,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-434",
+      "sourceScreenshot": 434,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-440",
+      "sourceScreenshot": 440,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-441",
+      "sourceScreenshot": 441,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-444",
+      "sourceScreenshot": 444,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-445",
+      "sourceScreenshot": 445,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-446",
+      "sourceScreenshot": 446,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-447",
+      "sourceScreenshot": 447,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-450",
+      "sourceScreenshot": 450,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-452",
+      "sourceScreenshot": 452,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-466",
+      "sourceScreenshot": 466,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-469",
+      "sourceScreenshot": 469,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-473",
+      "sourceScreenshot": 473,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-477",
+      "sourceScreenshot": 477,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-478",
+      "sourceScreenshot": 478,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-482",
+      "sourceScreenshot": 482,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-485",
+      "sourceScreenshot": 485,
+      "findings": [
+        "题干中 NOI 疑似 NOT 的 OCR 错字",
+        "question 疑似 OCR 错字或乱码，须核原图"
+      ]
+    },
+    {
+      "id": "zip-496",
+      "sourceScreenshot": 496,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-512",
+      "sourceScreenshot": 512,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-515",
+      "sourceScreenshot": 515,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-518",
+      "sourceScreenshot": 518,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-563",
+      "sourceScreenshot": 563,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-568",
+      "sourceScreenshot": 568,
+      "findings": [
+        "缺少解释，需对照原图"
+      ]
+    },
+    {
+      "id": "zip-703",
+      "sourceScreenshot": 703,
+      "findings": [
+        "题干过短，原图可能被截断"
+      ]
+    }
+  ]
+}

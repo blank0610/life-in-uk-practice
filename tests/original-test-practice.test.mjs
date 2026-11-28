@@ -79,10 +79,10 @@ test("套题和全库共用选项随机排列，原始选项及答案不变",()=
  for(const t of sets)for(const e of t.entries){
   const q=e.question,original=[...q.options],answers=[...q.correctAnswers];
   const mixed=shuffle(q.options,()=>0);
-  assert.deepEqual(new Set(mixed),new Set(original));
+  assert.deepEqual([...mixed].sort(),[...original].sort());
   assert.notDeepEqual(mixed,original);
-  assert.deepEqual(q.options,original);
-  assert.deepEqual(q.correctAnswers,answers);
+  assert.deepEqual([...q.options],original);
+  assert.deepEqual([...q.correctAnswers],answers);
   assert(answers.every(answer=>mixed.includes(answer)));
  }
  const app=readFileSync("site/assets/app.js","utf8");

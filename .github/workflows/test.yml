@@ -25,6 +25,8 @@ jobs:
         run: node scripts/export-audit-batches.mjs --output "$RUNNER_TEMP/life-uk-audit-batches"
       - name: Audit full question options and OCR artefacts
         run: node scripts/audit-question-bank.mjs
+      - name: Verify full-bank audit coverage independent of sequential cursor
+        run: node scripts/audit-next-batch.mjs --full --output "$RUNNER_TEMP/life-uk-full-audit.json"
       - name: Preview next questions for sequential quality audit
         run: node scripts/audit-next-batch.mjs
 

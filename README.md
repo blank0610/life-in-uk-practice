@@ -100,7 +100,7 @@
 
 ## 可公开检查的逐题文本题库
 
-本项目的 GitHub Pages 部署自动产生可供 Life in the UK 每小时巡检读取的纯 JSON 资料：`/data/audit-batches/manifest.json` 和按原始截图编号分组的 `batch-001.json`、`batch-002.json` 等。每道题均含网站最终显示的题干、选项、正确答案及解释（含 OCR 更正）。自动巡检可按 `development/QUESTION_AUDIT_PROGRESS.json` 的 `nextIndex` 在目录里找到下一批，避免因压缩的原始题库无法读取而停顿。
+本项目的 GitHub Pages 部署自动产生可供 Life in the UK 每小时巡检读取的纯 JSON 资料：`/data/audit-batches/manifest.json` 和按原始截图编号分组的 `batch-001.json`、`batch-002.json` 等。每道题均含网站最终显示的题干、选项、正确答案及解释（含 OCR 更正）。每次 Auto Run 读取整个 manifest 的全部分包，从第一题扫描全库。`nextIndex` 仅用于独立逐题证据复核；每包大小不限制每小时全库扫描数量。全库扫描报告为 `development/FULL_BANK_AUDIT_LATEST.json`，不得当作原图核验。
 
 分包仅是网站已公开的学习资料，不包含用户的私人笔记或答题进度。**能够读取题目文本不等于核验了原始图片**；原图逐字检查的标记规则继续执行。
 
